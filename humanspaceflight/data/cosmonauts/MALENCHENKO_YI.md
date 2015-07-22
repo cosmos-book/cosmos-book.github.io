@@ -3,7 +3,7 @@ name:	MALENCHENKO, Yuri Ivanovich
 type:	military
 dob:	1961-12-22
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/malenchenko_yuri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/malenchenko_yuri.htm

@@ -3,7 +3,7 @@ name:	VOLYNOV, Boris Valentinovich
 type:	military
 dob:	1934-12-18
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/volynov_boris.htm
 missions:

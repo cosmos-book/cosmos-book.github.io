@@ -4,7 +4,7 @@ type:	civilian
 dob:	1970-12-27
 gender:	Female
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/sumino_naoko.htm
 missions:

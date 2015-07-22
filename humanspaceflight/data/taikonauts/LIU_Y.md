@@ -4,7 +4,7 @@ type:	civilian
 dob:	1978-10-06
 gender:	Female
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/liu_yang.htm
 missions:

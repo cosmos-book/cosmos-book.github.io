@@ -3,7 +3,7 @@ name:	KOVALYONOK, Vladimir Vasiliyevich
 type:	military
 dob:	1942-03-03
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kovalyonok_vladimir.htm
 missions:

@@ -3,7 +3,7 @@ name:	YANG, Liwei
 type:	military
 dob:	1965-06-21
 country:
-  - China
+  - CHN
 gender:	Male
 references:
   - http://www.spacefacts.de/bios/international/english/yang_liwei.htm

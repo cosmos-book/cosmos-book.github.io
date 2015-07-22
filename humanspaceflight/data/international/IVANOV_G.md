@@ -3,7 +3,7 @@ name:	IVANOV, Georgi
 type:	civilian
 dob:	1940-07-02
 country:
-  - Bulgaria
+  - BGR
 references:
   - http://www.spacefacts.de/bios/international/english/ivanov_georgi.htm
 missions:

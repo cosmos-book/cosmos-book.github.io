@@ -3,7 +3,7 @@ name:	MOHRI, Mamoru
 type:	civilian
 dob:	1948-01-29
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/mohri_mamoru.htm
 missions:

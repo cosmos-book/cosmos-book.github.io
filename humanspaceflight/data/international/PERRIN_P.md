@@ -3,7 +3,7 @@ name:	PERRIN, Philippe
 type:	military
 dob:	1963-01-06
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/perrin_philippe.htm
   - http://www.spacefacts.de/eva/international/english/perrin_philippe.htm

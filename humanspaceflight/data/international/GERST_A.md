@@ -3,7 +3,7 @@ name:	GERST, Alexander
 type:	civilian
 dob:	1976-05-03
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/gerst_alexander.htm
   - http://www.spacefacts.de/eva/international/english/gerst_alexander.htm

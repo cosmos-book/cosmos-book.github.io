@@ -3,7 +3,7 @@ name:	FARKAS, Bertalan 'Bertsi'
 type:	military
 dob:	1949-08-02
 country:
-  - Hungary
+  - HUN
 references:
   - http://www.spacefacts.de/bios/international/english/farkas_bertalan.htm
 missions:

@@ -3,7 +3,7 @@ name:	MACLEAN, Steven Glenwood
 type:	civilian
 dob:	1954-12-14
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/maclean_steven.htm
   - http://www.spacefacts.de/eva/international/english/maclean_steven.htm

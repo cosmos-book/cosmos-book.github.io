@@ -3,7 +3,7 @@ name:	BYKOVSKY, Valeri Fyodorovich
 type:	military
 dob:	1934-08-02
 country:
-  - SOV
+  - URS
 qualifications:
   - Diploma in engineering
   - Doctorate

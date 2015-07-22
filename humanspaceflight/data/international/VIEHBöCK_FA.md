@@ -3,7 +3,7 @@ name:	VIEHBöCK, Franz Artur
 type:	civilian
 dob:	1960-08-24
 country:
-  - Austria
+  - AUT
 references:
   - http://www.spacefacts.de/bios/international/english/viehboeck_franz.htm
 missions:

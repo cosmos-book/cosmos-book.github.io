@@ -3,7 +3,7 @@ name:	WAKATA, Koichi
 type:	civilian
 dob:	1963-08-01
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/wakata_koichi.htm
 missions:

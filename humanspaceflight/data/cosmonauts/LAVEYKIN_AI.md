@@ -3,7 +3,7 @@ name:	LAVEYKIN, Aleksandr Ivanovich
 type:	civilian
 dob:	1951-04-21
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/laveykin_aleksandr.htm

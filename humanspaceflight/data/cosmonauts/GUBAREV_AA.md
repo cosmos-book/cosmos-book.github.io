@@ -3,7 +3,7 @@ name:	GUBAREV, Aleksei Aleksandrovich
 type:	military
 dob:	1931-03-29
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/gubarev_aleksei.htm
 missions:

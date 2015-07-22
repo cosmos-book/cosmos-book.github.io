@@ -3,7 +3,7 @@ name:	REITER, Thomas Arthur
 type:	military
 dob:	1958-05-23
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/reiter_thomas.htm
   - http://www.spacefacts.de/eva/international/english/reiter_thomas.htm

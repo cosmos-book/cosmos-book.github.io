@@ -3,7 +3,7 @@ name:	CHELI, Maurizio
 type:	military
 dob:	1959-05-04
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/cheli_maurizio.htm
 missions:

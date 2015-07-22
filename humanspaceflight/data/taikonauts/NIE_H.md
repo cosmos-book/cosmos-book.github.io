@@ -3,7 +3,7 @@ name:	NIE, Haisheng
 type:	military
 dob:	1964-09-08
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/nie_haishen.htm
 missions:

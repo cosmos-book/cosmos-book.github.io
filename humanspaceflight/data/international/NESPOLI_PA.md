@@ -3,7 +3,7 @@ name:	NESPOLI, Paolo Angelo
 type:	civilian
 dob:	1957-04-06
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/nespoli_paolo.htm
 missions:

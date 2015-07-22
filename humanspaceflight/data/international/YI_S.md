@@ -4,7 +4,7 @@ type:	civilian
 dob:	1978-06-02
 gender:	Female
 country:
-  - South Korea
+  - KOR
 references:
   - http://www.spacefacts.de/bios/international/english/lee_so-hyun.htm
 missions:

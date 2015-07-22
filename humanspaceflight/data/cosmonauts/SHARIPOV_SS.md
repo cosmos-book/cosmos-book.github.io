@@ -3,7 +3,7 @@ name:	SHARIPOV, Salizhan Shakirovich
 type:	military
 dob:	1964-08-24
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sharipov_salizhan.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/sharipov_salizhan.htm

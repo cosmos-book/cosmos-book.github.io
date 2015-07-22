@@ -4,7 +4,7 @@ type:	civilian
 dob:	1963-10-20
 gender:	Female
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/payette_julie.htm
 missions:

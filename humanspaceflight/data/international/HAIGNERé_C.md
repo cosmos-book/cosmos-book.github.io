@@ -4,7 +4,7 @@ type:	civilian
 dob:	1957-05-13
 gender:	Female
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
 missions:

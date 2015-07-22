@@ -3,7 +3,7 @@ name:	NOGUCHI, Soichi
 type:	civilian
 dob:	1965-04-15
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/noguchi_soichi.htm
   - http://www.spacefacts.de/eva/international/english/noguchi_soichi.htm

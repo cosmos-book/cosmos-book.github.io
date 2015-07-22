@@ -4,7 +4,7 @@ type:	civilian
 dob:	1963-05-30
 gender:	Female
 country:
-  - United Kingdom
+  - GBR
 references:
   - http://www.spacefacts.de/bios/international/english/sharman_helen.htm
 missions:

@@ -3,7 +3,7 @@ name:	BALANDIN, Aleksandr Nikolayevich
 type:	civilian
 dob:	1953-07-30
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/balandin_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/balandin_aleksandr.htm

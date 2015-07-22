@@ -3,7 +3,7 @@ name:	GORBATKO, Viktor Vasiliyevich
 type:	military
 dob:	1934-12-03
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/gorbatko_viktor.htm
 missions:

@@ -4,7 +4,7 @@ type:	civilian
 dob:	1945-12-04
 gender:	Female
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/bondar_roberta.htm
 missions:

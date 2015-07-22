@@ -3,7 +3,7 @@ name:	DOBROVOLSKY, Georgi Timofeyevich
 type:	military
 dob:	1928-06-01
 country:
-  - SOV
+  - URS
 diedinspace:	Decompression
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dobrovolsky_georgi.htm

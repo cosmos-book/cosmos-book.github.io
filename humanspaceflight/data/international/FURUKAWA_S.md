@@ -3,7 +3,7 @@ name:	FURUKAWA, Satoshi
 type:	civilian
 dob:	1964-04-04
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/furukawa_satoshi.htm
 missions:

@@ -3,7 +3,7 @@ name:	JING, Haipeng
 type:	military
 dob:	1966-10-24
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/jing_haipen.htm
 missions:

@@ -3,7 +3,7 @@ name:	MANAKOV, Gennadi Mikhailovich
 type:	military
 dob:	1950-06-01
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/manakov_gennadi.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/manakov_gennadi.htm

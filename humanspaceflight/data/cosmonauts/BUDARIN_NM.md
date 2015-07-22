@@ -3,7 +3,7 @@ name:	BUDARIN, Nikolai Mikhailovich
 type:	civilian
 dob:	1953-04-29
 country:
-  - SOV
+  - URS
 qualifications:
   - Diploma in mechanical engineering
 references:

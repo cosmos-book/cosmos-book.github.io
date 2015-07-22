@@ -3,7 +3,7 @@ name:	TITOV, German Stepanovich
 type:	military
 dob:	1935-09-11
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/titov_german.htm
 missions:

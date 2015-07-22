@@ -3,7 +3,7 @@ name:	POPOV, Leonid Ivanovich
 type:	military
 dob:	1945-08-31
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/popov_leonid.htm
 missions:

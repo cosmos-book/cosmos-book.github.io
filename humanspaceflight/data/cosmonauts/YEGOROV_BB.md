@@ -3,7 +3,7 @@ name:	YEGOROV, Boris Borisovich
 type:	military
 dob:	1937-11-26
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/yegorov_boris.htm
 missions:

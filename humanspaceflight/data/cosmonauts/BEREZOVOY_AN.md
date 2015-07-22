@@ -3,7 +3,7 @@ name:	BEREZOVOY, Anatoli Nikolayevich
 type:	military
 dob:	1942-04-11
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/berezovoy_anatoli.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/berezovoy_anatoli.htm

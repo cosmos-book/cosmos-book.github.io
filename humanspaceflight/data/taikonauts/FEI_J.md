@@ -3,7 +3,7 @@ name:	FEI, Junlong
 type:	military
 dob:	1966-05-05
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/fei_junlong.htm
 missions:

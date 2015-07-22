@@ -3,7 +3,7 @@ name:	TOKAREV, Valeri Ivanovich
 type:	military
 dob:	1952-10-29
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/tokarev_valeri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/tokarev_valeri.htm

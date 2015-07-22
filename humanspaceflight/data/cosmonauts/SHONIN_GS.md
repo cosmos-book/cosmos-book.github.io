@@ -3,7 +3,7 @@ name:	SHONIN, Georgi Stepanovich
 type:	military
 dob:	1935-08-03
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/shonin_georgi.htm
 missions:

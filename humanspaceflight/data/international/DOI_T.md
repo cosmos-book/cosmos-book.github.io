@@ -3,7 +3,7 @@ name:	DOI, Takao
 type:	civilian
 dob:	1954-09-18
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/doi_takeo.htm
   - http://www.spacefacts.de/eva/international/english/doi_takao.htm

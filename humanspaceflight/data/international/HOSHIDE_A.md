@@ -3,7 +3,7 @@ name:	HOSHIDE, Akihiko
 type:	civilian
 dob:	1968-12-28
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/hoshide_akihito.htm
   - http://www.spacefacts.de/eva/international/english/hoshide_akihiko.htm

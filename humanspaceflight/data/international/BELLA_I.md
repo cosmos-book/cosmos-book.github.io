@@ -3,7 +3,7 @@ name:	BELLA, Ivan
 type:	military
 dob:	1964-05-25
 country:
-  - Slovakia
+  - SVK
 references:
   - http://www.spacefacts.de/bios/international/english/bella_ivan.htm
 missions:

@@ -3,7 +3,7 @@ name:	TITOV, Vladimir Georgiyevich
 type:	military
 dob:	1947-01-01
 country:
-  - SOV
+  - URS
 gender:	Male
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/titov_vladimir.htm

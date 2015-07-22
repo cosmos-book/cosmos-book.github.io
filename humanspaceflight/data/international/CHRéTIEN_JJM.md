@@ -3,7 +3,7 @@ name:	CHRéTIEN, Jean-Loup Jacques Marie
 type:	military
 dob:	1938-08-20
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
   - http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm

@@ -3,7 +3,7 @@ name:	SEVASTIYANOV, Vitali Ivanovich
 type:	civilian
 dob:	1935-07-08
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sevastiyanov_vitali.htm
 missions:

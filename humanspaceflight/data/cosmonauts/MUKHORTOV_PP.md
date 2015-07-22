@@ -3,7 +3,7 @@ name:	MUKHORTOV, Pavel Petrovich
 type:	military
 dob:	1966-03-11
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/mukhortov_pavel.htm
 missions:

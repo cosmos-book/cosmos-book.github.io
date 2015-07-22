@@ -3,7 +3,7 @@ name:	ARTYUKHIN, Yuri Petrovich
 type:	military
 dob:	1930-06-22
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/artyukhin_yuri.htm
 missions:

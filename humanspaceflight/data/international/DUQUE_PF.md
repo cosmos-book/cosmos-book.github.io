@@ -3,7 +3,7 @@ name:	DUQUE, Pedro Francisco
 type:	civilian
 dob:	1963-03-14
 country:
-  - Spain
+  - ESP
 references:
   - http://www.spacefacts.de/bios/international/english/duque_pedro.htm
 missions:

@@ -3,7 +3,7 @@ name:	THIELE, Gerhard Paul Julius
 type:	civilian
 dob:	1953-09-02
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/thiele_gerhard.htm
 missions:

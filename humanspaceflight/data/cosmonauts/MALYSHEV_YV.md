@@ -3,7 +3,7 @@ name:	MALYSHEV, Yuri Vasiliyevich
 type:	military
 dob:	1941-08-27
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/malyshev_yuri.htm
 missions:

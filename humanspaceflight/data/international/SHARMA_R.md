@@ -3,7 +3,7 @@ name:	SHARMA, Rakesh 'Rikki'
 type:	military
 dob:	1949-01-13
 country:
-  - India
+  - IND
 references:
   - http://www.spacefacts.de/bios/international/english/sharma_rakesh.htm
 missions:

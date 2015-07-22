@@ -3,7 +3,7 @@ name:	FEOKTISTOV, Konstantin Petrovich
 type:	civilian
 dob:	1926-02-07
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/feoktistov_konstantin.htm
 missions:

@@ -3,7 +3,7 @@ name:	MOHMAND, Abdul Ahad 'Abdulah'
 type:	military
 dob:	1959-01-01
 country:
-  - Afghanistan
+  - AFG
 references:
   - http://www.spacefacts.de/bios/international/english/mohmand_abdol.htm
 missions:

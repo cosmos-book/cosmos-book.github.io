@@ -3,7 +3,7 @@ name:	DE WINNE, Frank
 type:	military
 dob:	1961-04-25
 country:
-  - Belgium
+  - BEL
 references:
   - http://www.spacefacts.de/bios/international/english/dewinne_frank.htm
 missions:

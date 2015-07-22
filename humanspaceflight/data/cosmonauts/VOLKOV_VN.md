@@ -3,7 +3,7 @@ name:	VOLKOV, Vladislav Nikolayevich
 type:	military
 dob:	1935-11-23
 country:
-  - SOV
+  - URS
 diedinspace:	Decompression
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/volkov_vladislav.htm

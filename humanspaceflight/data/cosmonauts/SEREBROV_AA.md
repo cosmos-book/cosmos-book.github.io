@@ -3,7 +3,7 @@ name:	SEREBROV, Aleksandr Aleksandrovich
 type:	civilian
 dob:	1944-02-15
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/serebrov_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/serebrov_aleksandr.htm

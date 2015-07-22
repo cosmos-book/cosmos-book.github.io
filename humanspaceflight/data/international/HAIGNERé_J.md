@@ -3,7 +3,7 @@ name:	HAIGNERé, Jean-Pierre
 type:	military
 dob:	1948-05-19
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
   - http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm

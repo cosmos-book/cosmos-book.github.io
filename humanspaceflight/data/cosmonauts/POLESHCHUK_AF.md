@@ -3,7 +3,7 @@ name:	POLESHCHUK, Aleksandr Fyodorovich
 type:	military
 dob:	1953-10-30
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/poleshchuk_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/poleshchuk_aleksandr.htm

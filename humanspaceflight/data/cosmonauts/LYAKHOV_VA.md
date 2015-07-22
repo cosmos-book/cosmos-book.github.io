@@ -3,7 +3,7 @@ name:	LYAKHOV, Vladimir Afanasiyevich
 type:	military
 dob:	1941-07-20
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/lyakhov_vladimir.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/lyakhov_vladimir.htm

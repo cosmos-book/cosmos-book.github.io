@@ -3,7 +3,7 @@ name:	HADFIELD, Chris Austin
 type:	military
 dob:	1959-08-19
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
   - http://www.spacefacts.de/eva/international/english/hadfield_chris.htm

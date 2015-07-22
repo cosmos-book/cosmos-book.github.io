@@ -3,7 +3,7 @@ name:	MANAROV, Musa Khiramanovich
 type:	military
 dob:	1951-03-22
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/manarov_musa.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/manarov_musa.htm

@@ -3,7 +3,7 @@ name:	SAVITSKAYA, Svetlana Yevgeniyena
 type:	civilian
 dob:	1948-08-08
 country:
-  - SOV
+  - URS
 gender:	Female
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/savitskaya_svetlana.htm

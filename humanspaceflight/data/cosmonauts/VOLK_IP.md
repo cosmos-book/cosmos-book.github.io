@@ -3,7 +3,7 @@ name:	VOLK, Igor Petrovich
 type:	military
 dob:	1937-04-12
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/volk_igor.htm
 missions:

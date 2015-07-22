@@ -2,7 +2,7 @@
 name:	BORODAY, Aleksei Sergeyevich
 dob:	1947-07-28
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/boroday_aleksei.htm
 missions:

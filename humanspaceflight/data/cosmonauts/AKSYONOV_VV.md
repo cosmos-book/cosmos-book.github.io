@@ -3,7 +3,7 @@ name:	AKSYONOV, Vladimir Viktorovich
 type:	military
 dob:	1935-02-01
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/aksyonov_vladimir.htm
 missions:

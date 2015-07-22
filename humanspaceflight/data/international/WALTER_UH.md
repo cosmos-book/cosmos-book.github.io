@@ -3,7 +3,7 @@ name:	WALTER, Ulrich Hans
 type:	civilian
 dob:	1954-02-09
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/walter_ulrich.htm
 missions:

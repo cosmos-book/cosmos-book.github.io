@@ -3,7 +3,7 @@ name:	HERMASZEWSKI, Miroslaw 'Mirek'
 type:	military
 dob:	1941-09-15
 country:
-  - Poland
+  - POL
 references:
   - http://www.spacefacts.de/bios/international/english/hermaszewski_miroslaw.htm
 missions:

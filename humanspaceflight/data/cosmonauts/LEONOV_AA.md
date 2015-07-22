@@ -3,7 +3,7 @@ name:	LEONOV, Aleksei Arkhipovich
 type:	military
 dob:	1934-05-30
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/leonov_aleksei.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/leonov_aleksei.htm

@@ -3,7 +3,7 @@ name:	SHUTTLEWORTH, Mark Richard 'Buranov'
 type:	civilian
 dob:	1973-09-18
 country:
-  - South Africa
+  - ZAF
 references:
   - http://www.spacefacts.de/bios/international/english/shuttleworth_mark.htm
 missions:

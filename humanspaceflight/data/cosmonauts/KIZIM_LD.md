@@ -3,7 +3,7 @@ name:	KIZIM, Leonid Denisovich
 type:	military
 dob:	1941-08-05
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm

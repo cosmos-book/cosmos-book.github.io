@@ -3,7 +3,7 @@ name:	FILIPCHENKO, Anatoli Vasiliyevich
 type:	military
 dob:	1928-02-26
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/filipchenko_anatoli.htm
 missions:

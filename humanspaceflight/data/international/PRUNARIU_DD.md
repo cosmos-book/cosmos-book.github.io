@@ -3,7 +3,7 @@ name:	PRUNARIU, Dumitru Dorin
 type:	military
 dob:	1952-09-27
 country:
-  - Romania
+  - ROU
 references:
   - http://www.spacefacts.de/bios/international/english/prunariu_dumitru.htm
 missions:

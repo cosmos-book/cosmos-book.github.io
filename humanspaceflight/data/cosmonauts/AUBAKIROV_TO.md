@@ -3,7 +3,7 @@ name:	AUBAKIROV, Toktar Ongarbayevich
 type:	military
 dob:	1946-07-27
 country:
-  - SOV
+  - URS
   - KAZ
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/aubakirov_toktar.htm

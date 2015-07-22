@@ -3,7 +3,7 @@ name:	PHAM, Tu&acirc;n
 type:	military
 dob:	1947-02-14
 country:
-  - Vietnam
+  - VNM
 references:
   - http://www.spacefacts.de/bios/international/english/tuan_pham.htm
 missions:

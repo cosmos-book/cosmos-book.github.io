@@ -3,7 +3,7 @@ name:	IVANCHENKOV, Aleksandr Sergeyevich
 type:	civilian
 dob:	1940-09-28
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ivanchenkov_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/ivanchenkov_aleksandr.htm

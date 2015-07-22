@@ -3,7 +3,7 @@ name:	ARTSEBARSKY, Anatoli Pavlovich
 type:	military
 dob:	1956-09-09
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/artsebarsky_anatoli.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/artsebarsky_anatoli.htm

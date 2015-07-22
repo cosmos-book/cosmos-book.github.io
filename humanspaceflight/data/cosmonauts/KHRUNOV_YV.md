@@ -3,7 +3,7 @@ name:	KHRUNOV, Yevgeni Vasiliyevich
 type:	military
 dob:	1933-09-10
 country:
-  - SOV
+  - URS
 qualifications:
   - Doctor of technical sciences
 references:

@@ -4,7 +4,7 @@ type:	civilian
 dob:	1957-03-30
 gender:	Female
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kondakova_yelena.htm
 missions:

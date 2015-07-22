@@ -3,7 +3,7 @@ name:	KLIMUK, Pyotr Iliyich
 type:	military
 dob:	1942-07-10
 country:
-  - SOV
+  - URS
 qualifications:
   - Doctorate of technical sciences
 references:

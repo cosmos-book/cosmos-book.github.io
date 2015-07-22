@@ -3,7 +3,7 @@ name:	ALEKSANDROV, Aleksandr Panayatov 'Sasha'
 type:	military
 dob:	1951-12-01
 country:
-  - Bulgaria
+  - BGR
 references:
   - http://www.spacefacts.de/bios/international/english/alexandrov_aleksandr.htm
 missions:

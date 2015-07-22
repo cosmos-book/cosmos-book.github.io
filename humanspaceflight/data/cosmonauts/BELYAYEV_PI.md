@@ -3,7 +3,7 @@ name:	BELYAYEV, Pavel Ivanovich
 type:	military
 dob:	1925-06-26
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/belyayev_pavel.htm
 missions:

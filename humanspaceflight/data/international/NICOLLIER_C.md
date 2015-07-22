@@ -3,7 +3,7 @@ name:	NICOLLIER, Claude
 type:	military
 dob:	1944-09-02
 country:
-  - Switzerland
+  - CHE
 references:
   - http://www.spacefacts.de/bios/international/english/nicollier_claude.htm
   - http://www.spacefacts.de/eva/international/english/nicollier_claude.htm

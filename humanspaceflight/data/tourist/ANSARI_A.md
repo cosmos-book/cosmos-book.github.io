@@ -4,7 +4,7 @@ type:	tourist
 dob:	1966-09-22
 country:
   - USA
-  - Iran
+  - IRN
 gender:	Female
 qualifications:
   - BSc in electrical engineering and computer science

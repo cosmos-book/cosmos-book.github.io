@@ -3,7 +3,7 @@ name:	ZUDOV, Vyacheslav Dmitriyevich
 type:	military
 dob:	1942-01-08
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zudov_vyacheslav.htm
 missions:

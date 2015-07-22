@@ -3,7 +3,7 @@ name:	KRIKALYOV, Sergei Konstantinovich
 type:	civilian
 dob:	1958-08-27
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/krikalyov_sergei.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/krikalyov_sergei.htm

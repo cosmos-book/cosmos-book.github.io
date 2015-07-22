@@ -3,7 +3,7 @@ name:	KALERI, Aleksandr Yuriyevich
 type:	civilian
 dob:	1956-05-13
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kaleri_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/kaleri_aleksandr.htm

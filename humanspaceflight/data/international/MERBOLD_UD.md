@@ -3,7 +3,7 @@ name:	MERBOLD, Ulf Dietrich
 type:	civilian
 dob:	1941-06-20
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/merbold_ulf.htm
 missions:

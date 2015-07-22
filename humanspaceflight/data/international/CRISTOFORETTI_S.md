@@ -3,7 +3,7 @@ name:	CRISTOFORETTI, Samantha
 type:	military
 dob:	1977-04-26
 country:
-  - Italy
+  - ITA
 gender:	Female
 references:
   - http://www.spacefacts.de/bios/international/english/cristoforetti_samantha.htm

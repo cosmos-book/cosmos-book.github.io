@@ -3,7 +3,7 @@ name:	MUSABAYEV, Talgat Amangeldyevich
 type:	military
 dob:	1951-01-07
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/musabayev_talgat.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/musabayev_talgat.htm

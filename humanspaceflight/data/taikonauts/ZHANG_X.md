@@ -3,7 +3,7 @@ name:	ZHANG, Xiaoguan
 type:	civilian
 dob:	
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/zhang_xiaoguan.htm
 missions:

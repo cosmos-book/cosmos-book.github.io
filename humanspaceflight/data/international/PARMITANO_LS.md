@@ -3,7 +3,7 @@ name:	PARMITANO, Luca Salvo
 type:	military
 dob:	1976-09-27
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/parmitano_luca.htm
   - http://www.spacefacts.de/eva/international/english/parmitano_luca.htm

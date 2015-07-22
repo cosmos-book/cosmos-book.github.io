@@ -3,7 +3,7 @@ name:	SIMONYI, Charles
 type:	tourist
 dob:	1948-09-10
 country:
-  - HUNGARY
+  - HUN
 gender:	Male
 qualifications:
   - PhD in computer science

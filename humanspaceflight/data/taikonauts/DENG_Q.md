@@ -3,7 +3,7 @@ name:	DENG, Qingming
 type:	civilian
 dob:	
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/deng_qingming.htm
 missions:

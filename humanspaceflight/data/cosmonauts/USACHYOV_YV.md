@@ -3,7 +3,7 @@ name:	USACHYOV, Yuri Vladimirovich
 type:	civilian
 dob:	1957-10-09
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/usachyov_yuri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/usachyov_yuri.htm

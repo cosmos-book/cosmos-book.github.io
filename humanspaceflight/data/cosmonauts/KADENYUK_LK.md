@@ -3,7 +3,7 @@ name:	KADENYUK, Leonid Konstantinovich
 type:	military
 dob:	1951-01-28
 country:
-  - Ukraine
+  - UKR
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kadenyuk_leonid.htm
 missions:

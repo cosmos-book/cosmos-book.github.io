@@ -3,7 +3,7 @@ name:	SHATALOV, Vladimir Aleksandrovich
 type:	military
 dob:	1927-12-08
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/shatalov_vladimir.htm
 missions:

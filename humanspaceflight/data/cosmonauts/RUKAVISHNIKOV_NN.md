@@ -3,7 +3,7 @@ name:	RUKAVISHNIKOV, Nikolai Nikolayevich
 type:	civilian
 dob:	1932-09-18
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/rukavishnikov_nikolai.htm
 missions:

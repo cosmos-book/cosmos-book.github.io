@@ -3,7 +3,7 @@ name:	LAZAREV, Vasili Grigoriyevich
 type:	military
 dob:	1928-02-23
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/lazarev_vasili.htm
 missions:

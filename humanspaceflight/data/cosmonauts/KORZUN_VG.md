@@ -3,7 +3,7 @@ name:	KORZUN, Valeri Grigoriyevich
 type:	military
 dob:	1953-03-05
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/korzun_valeri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/korzun_valeri.htm

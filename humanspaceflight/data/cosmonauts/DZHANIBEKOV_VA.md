@@ -3,7 +3,7 @@ name:	DZHANIBEKOV, Vladimir Aleksandrovich
 type:	military
 dob:	1942-05-13
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dzhanibekov_vladimir.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/dzhanibekov_vladimir.htm

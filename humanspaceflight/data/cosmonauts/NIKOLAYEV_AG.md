@@ -3,7 +3,7 @@ name:	NIKOLAYEV, Andriyan Grigoriyevich
 type:	military
 dob:	1929-09-05
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/nikolayev_andriyan.htm
 missions:

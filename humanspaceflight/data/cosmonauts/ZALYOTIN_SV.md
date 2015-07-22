@@ -3,7 +3,7 @@ name:	ZALYOTIN, Sergei Viktorovich
 type:	military
 dob:	1962-04-21
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zalyotin_sergei.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/zalyotin_sergei.htm

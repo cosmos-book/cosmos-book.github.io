@@ -3,7 +3,7 @@ name:	ONUFRIYENKO, Yuri Ivanovich
 type:	military
 dob:	1961-02-06
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/onufriyenko_yuri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/onufriyenko_yuri.htm

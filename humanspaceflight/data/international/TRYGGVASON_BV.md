@@ -3,7 +3,7 @@ name:	TRYGGVASON, Bjarni Valdimar
 type:	civilian
 dob:	1945-09-21
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/tryggvason_bjarni.htm
 missions:

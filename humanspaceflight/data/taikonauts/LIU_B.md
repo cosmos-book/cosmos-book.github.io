@@ -3,7 +3,7 @@ name:	LIU, Boming
 type:	military
 dob:	1966-10-29
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/liu_buoming.htm
 missions:

@@ -3,7 +3,7 @@ name:	LEVCHENKO, Anatoli Semyonovich
 type:	military
 dob:	1941-05-21
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/levchenko_anatoli.htm
 missions:

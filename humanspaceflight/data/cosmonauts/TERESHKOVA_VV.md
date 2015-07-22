@@ -3,7 +3,7 @@ name:	TERESHKOVA, Valentina Vladimirovna
 type:	military
 dob:	1937-03-06
 country:
-  - SOV
+  - URS
 gender:	Female
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/tereshkova_valentina.htm

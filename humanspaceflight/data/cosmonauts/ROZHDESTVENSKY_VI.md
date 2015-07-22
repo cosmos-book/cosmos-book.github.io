@@ -3,7 +3,7 @@ name:	ROZHDESTVENSKY, Valeri Iliyich
 type:	military
 dob:	1939-02-13
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/rozhdestvensky_valeri.htm
 missions:

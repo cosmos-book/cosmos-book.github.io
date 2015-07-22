@@ -3,7 +3,7 @@ name:	EYHARTS, L&eacute;opold Paul Pierre
 type:	military
 dob:	1957-04-28
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/eyharts_leopold.htm
 missions:

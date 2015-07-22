@@ -3,7 +3,7 @@ name:	REMEK, Vladim&iacute;r 'Volodya'
 type:	military
 dob:	1948-09-26
 country:
-  - Czechoslovakia
+  - TCH
 references:
   - http://www.spacefacts.de/bios/international/english/remek_vladimir.htm
 missions:

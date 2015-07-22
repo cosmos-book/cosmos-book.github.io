@@ -3,7 +3,7 @@ name:	RAMON, Ilan
 type:	military
 dob:	1954-06-20
 country:
-  - Israel
+  - ISR
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.spacefacts.de/bios/international/english/ramon_ilan.htm

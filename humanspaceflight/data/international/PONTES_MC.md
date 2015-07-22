@@ -3,7 +3,7 @@ name:	PONTES, Marcos Cesar
 type:	military
 dob:	1963-03-11
 country:
-  - Brazil
+  - BRA
 references:
   - http://www.spacefacts.de/bios/international/english/pontes_marcos.htm
 missions:

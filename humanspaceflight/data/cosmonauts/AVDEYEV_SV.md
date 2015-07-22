@@ -3,7 +3,7 @@ name:	AVDEYEV, Sergei Vasiliyevich
 type:	civilian
 dob:	1956-01-01
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/avdeyev_sergei.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/avdeyev_sergei.htm

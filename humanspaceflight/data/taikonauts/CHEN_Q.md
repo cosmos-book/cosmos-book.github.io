@@ -3,7 +3,7 @@ name:	CHEN, Quan
 type:	military
 dob:	
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/chen_quan.htm
 missions:

@@ -3,7 +3,7 @@ name:	VIKTORENKO, Aleksandr Stepanovich
 type:	military
 dob:	1947-03-29
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/viktorenko_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/viktorenko_aleksandr.htm

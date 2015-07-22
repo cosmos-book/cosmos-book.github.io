@@ -3,7 +3,7 @@ name:	DYOMIN, Lev Stepanovich
 type:	military
 dob:	1926-01-11
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dyomin_lev.htm
 missions:

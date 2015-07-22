@@ -3,7 +3,7 @@ name:	GARRIOTTdeCAYEUX, Richard
 type:	tourist
 dob:	1961-07-04
 country:
-  - UK
+  - GBR
   - USA
 gender:	Male
 qualifications:

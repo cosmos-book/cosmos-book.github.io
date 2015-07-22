@@ -3,7 +3,7 @@ name:	KOMAROV, Vladimir Mikhailovich
 type:	military
 dob:	1927-03-16
 country:
-  - SOV
+  - URS
 qualifications:
   - Diploma of engineering
 diedinflight:	Parachute failure

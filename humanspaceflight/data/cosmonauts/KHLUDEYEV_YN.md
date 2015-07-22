@@ -3,7 +3,7 @@ name:	KHLUDEYEV, Yevgeni Nikolayevich
 type:	military
 dob:	1940-09-10
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/khludeyev_yevgeni.htm
 missions:

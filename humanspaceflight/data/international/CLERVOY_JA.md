@@ -3,7 +3,7 @@ name:	CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;
 type:	civilian
 dob:	1958-11-19
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/clervoy_jean-francois.htm
 missions:

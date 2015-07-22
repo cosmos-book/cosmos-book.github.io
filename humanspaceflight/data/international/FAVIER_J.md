@@ -3,7 +3,7 @@ name:	FAVIER, Jean-Jacques
 type:	civilian
 dob:	1949-04-13
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/favier_jean.htm
 missions:

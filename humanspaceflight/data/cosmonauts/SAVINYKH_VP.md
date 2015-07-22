@@ -3,7 +3,7 @@ name:	SAVINYKH, Viktor Petrovich
 type:	civilian
 dob:	1940-03-07
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/savinykh_viktor.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/savinykh_viktor.htm

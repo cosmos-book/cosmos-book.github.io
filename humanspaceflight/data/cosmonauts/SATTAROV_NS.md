@@ -3,7 +3,7 @@ name:	SATTAROV, Nail Sharipovich
 type:	military
 dob:	1941-12-23
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sattarov_nail.htm
 missions:

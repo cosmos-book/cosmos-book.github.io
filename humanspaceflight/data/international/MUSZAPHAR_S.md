@@ -3,7 +3,7 @@ name:	MUSZAPHAR, Sheikh
 type:	civilian
 dob:	1972-07-26
 country:
-  - Malaysia
+  - MYS
 references:
   - http://www.spacefacts.de/bios/international/english/muszaphar_sheikh.htm
 missions:

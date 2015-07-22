@@ -3,7 +3,7 @@ name:	WILLIAMS, Dafydd Rhys 'Dave'
 type:	civilian
 dob:	1954-05-16
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/williams_dafydd.htm
   - http://www.spacefacts.de/eva/international/english/williams_dafydd.htm

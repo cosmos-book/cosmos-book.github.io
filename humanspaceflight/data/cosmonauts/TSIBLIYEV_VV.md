@@ -3,7 +3,7 @@ name:	TSIBLIYEV, Vasili Vasiliyevich
 type:	military
 dob:	1954-02-20
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/tsibliyev_vasili.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/tsibliyev_vasili.htm

@@ -3,7 +3,7 @@ name:	VITTORI, Roberto
 type:	military
 dob:	1964-10-15
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/vittori_roberto.htm
 missions:

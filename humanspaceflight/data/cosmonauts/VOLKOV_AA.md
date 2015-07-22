@@ -3,7 +3,7 @@ name:	VOLKOV, Aleksandr Aleksandrovich
 type:	military
 dob:	1948-05-27
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/volkov_aleksandr.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/volkov_aleksandr.htm

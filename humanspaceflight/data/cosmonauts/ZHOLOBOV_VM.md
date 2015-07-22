@@ -3,7 +3,7 @@ name:	ZHOLOBOV, Vitali Mikhailovich
 type:	military
 dob:	1937-06-18
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zholobov_vitali.htm
 missions:

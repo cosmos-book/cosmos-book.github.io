@@ -3,7 +3,7 @@ name:	JäHN, Sigmund Werner Paul 'Sig'
 type:	military
 dob:	1937-02-13
 country:
-  - Germany (GDR)
+  - GDR
 references:
   - http://www.spacefacts.de/bios/international/english/jaehn_sigmund.htm
 missions:

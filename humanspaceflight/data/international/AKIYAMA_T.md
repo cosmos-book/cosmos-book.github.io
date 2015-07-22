@@ -3,7 +3,7 @@ name:	AKIYAMA, Toyohiro
 type:	civilian
 dob:	1942-07-22
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/akiyama_toyohiro.htm
 missions:

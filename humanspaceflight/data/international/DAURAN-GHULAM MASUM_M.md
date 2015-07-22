@@ -3,7 +3,7 @@ name:	DAURAN-GHULAM MASUM, Mohammed
 type:	military
 dob:	1954-01-20
 country:
-  - Afghanistan
+  - AFG
 references:
   - http://www.spacefacts.de/bios/international/english/dauran_mohammed.htm
 missions:

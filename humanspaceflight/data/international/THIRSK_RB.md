@@ -3,7 +3,7 @@ name:	THIRSK, Robert Brent
 type:	civilian
 dob:	1953-08-17
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/thirsk_robert.htm
 missions:

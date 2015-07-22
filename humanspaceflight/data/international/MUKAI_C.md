@@ -4,7 +4,7 @@ type:	civilian
 dob:	1952-05-06
 gender:	Female
 country:
-  - Japan
+  - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/mukai_chiaki.htm
 missions:

@@ -3,7 +3,7 @@ name:	GUIDONI, Umberto
 type:	civilian
 dob:	1954-08-18
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/guidoni_umberto.htm
 missions:

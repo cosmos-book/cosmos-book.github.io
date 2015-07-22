@@ -3,7 +3,7 @@ name:	OCKELS, Wubbo Johannes
 type:	civilian
 dob:	1946-03-28
 country:
-  - Netherlands
+  - NLD
 references:
   - http://www.spacefacts.de/bios/international/english/ockels_wubbo.htm
 missions:

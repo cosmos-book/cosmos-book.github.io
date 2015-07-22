@@ -3,7 +3,7 @@ name:	BAUDRY, Patrick Pierre Roger
 type:	military
 dob:	1946-03-06
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/baudry_patrick.htm
 missions:

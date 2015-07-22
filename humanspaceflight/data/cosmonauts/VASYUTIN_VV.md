@@ -3,7 +3,7 @@ name:	VASYUTIN, Vladimir Vladimirovich
 type:	military
 dob:	1952-03-08
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/vasyutin_vladimir.htm
 missions:

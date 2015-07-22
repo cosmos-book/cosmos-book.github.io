@@ -3,7 +3,7 @@ name:	EWALD, Reinhold
 type:	civilian
 dob:	1956-12-18
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/ewald_reinhold.htm
 missions:

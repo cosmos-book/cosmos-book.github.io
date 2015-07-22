@@ -3,7 +3,7 @@ name:	MALERBA, Franco Egidio
 type:	civilian
 dob:	1946-10-10
 country:
-  - Italy
+  - ITA
 references:
   - http://www.spacefacts.de/bios/international/english/malerba_franco.htm
 missions:

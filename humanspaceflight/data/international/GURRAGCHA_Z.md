@@ -3,7 +3,7 @@ name:	GURRAGCHA, Zhugderdemidiyn 'Gurr'
 type:	military
 dob:	1947-12-05
 country:
-  - Mongolia
+  - MNG
 references:
   - http://www.spacefacts.de/bios/international/english/gurragcha_jugderdemidin.htm
 missions:

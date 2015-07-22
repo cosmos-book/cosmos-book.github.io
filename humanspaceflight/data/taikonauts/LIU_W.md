@@ -3,7 +3,7 @@ name:	LIU, Wang
 type:	civilian
 dob:	1969-03-25
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/liu_wang.htm
 missions:

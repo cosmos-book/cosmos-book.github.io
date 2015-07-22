@@ -3,7 +3,7 @@ name:	YELISEYEV, Aleksei Stanislavovich
 type:	civilian
 dob:	1934-07-13
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/yeliseyev_aleksei.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/yeliseyev_aleksei.htm

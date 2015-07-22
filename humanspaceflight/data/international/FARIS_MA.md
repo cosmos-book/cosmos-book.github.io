@@ -3,7 +3,7 @@ name:	FARIS, Muhammed Achmed
 type:	military
 dob:	1951-05-26
 country:
-  - Syria
+  - SYR
 references:
   - http://www.spacefacts.de/bios/international/english/faris_muhammed.htm
 missions:

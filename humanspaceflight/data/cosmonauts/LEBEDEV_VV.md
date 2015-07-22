@@ -3,7 +3,7 @@ name:	LEBEDEV, Valentin Vitaliyevich
 type:	military
 dob:	1942-04-14
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/lebedev_valentin.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/lebedev_valentin.htm

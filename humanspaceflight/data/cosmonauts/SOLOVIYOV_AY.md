@@ -3,7 +3,7 @@ name:	SOLOVIYOV, Anatoli Yakovlevich
 type:	military
 dob:	1948-01-16
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_anatoli.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_anatoli.htm

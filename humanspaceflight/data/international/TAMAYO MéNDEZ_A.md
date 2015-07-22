@@ -3,7 +3,7 @@ name:	TAMAYO MéNDEZ, Arnaldo 'Guasso'
 type:	military
 dob:	1942-01-29
 country:
-  - Cuba
+  - CUB
 references:
   - http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
 missions:

@@ -3,7 +3,7 @@ name:	TOGNINI, Michel Ange-Charles
 type:	military
 dob:	1949-09-30
 country:
-  - France
+  - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/tognini_michel.htm
 missions:

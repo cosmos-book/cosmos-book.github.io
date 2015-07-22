@@ -3,7 +3,7 @@ name:	GLAZKOV, Yuri Nikolayevich
 type:	military
 dob:	1939-10-02
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/glazkov_yuri.htm
 missions:

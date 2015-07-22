@@ -3,7 +3,7 @@ name:	ALEKSANDROV, Aleksandr Pavlovich
 type:	civilian
 dob:	1943-02-20
 country:
-  - SOV
+  - URS
 gender:	Male
 qualifications:
   - PhD spacecraft steering systems

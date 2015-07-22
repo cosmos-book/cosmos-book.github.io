@@ -3,7 +3,7 @@ name:	MESSERSCHMID, Ernst Willi
 type:	civilian
 dob:	1945-05-21
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/messerschmid_ernst.htm
 missions:

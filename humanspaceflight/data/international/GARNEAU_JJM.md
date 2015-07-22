@@ -3,7 +3,7 @@ name:	GARNEAU, Joseph Jean-Pierre Marc
 type:	military
 dob:	1949-02-23
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/garneau_marc.htm
 missions:

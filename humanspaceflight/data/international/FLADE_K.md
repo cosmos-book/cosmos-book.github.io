@@ -3,7 +3,7 @@ name:	FLADE, Klaus-Dietrich
 type:	military
 dob:	1952-08-23
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/flade_klaus.htm
 missions:

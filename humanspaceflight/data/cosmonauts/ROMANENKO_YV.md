@@ -3,7 +3,7 @@ name:	ROMANENKO, Yuri Viktorovich
 type:	military
 dob:	1944-08-01
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/romanenko_yuri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/romanenko_yuri.htm

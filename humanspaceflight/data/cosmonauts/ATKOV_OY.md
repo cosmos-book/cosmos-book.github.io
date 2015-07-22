@@ -3,7 +3,7 @@ name:	ATKOV, Oleg Yuriyevich
 type:	civilian
 dob:	1949-05-09
 country:
-  - SOV
+  - URS
 qualifications:
   - Doctorate of medicine in cardiology
 references:

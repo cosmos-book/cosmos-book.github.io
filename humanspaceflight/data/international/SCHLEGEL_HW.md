@@ -3,7 +3,7 @@ name:	SCHLEGEL, Hans Wilhelm
 type:	civilian
 dob:	1951-08-03
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/schlegel_hans.htm
   - http://www.spacefacts.de/eva/international/english/schlegel_hans.htm

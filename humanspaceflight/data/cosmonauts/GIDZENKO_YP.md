@@ -3,7 +3,7 @@ name:	GIDZENKO, Yuri Pavlovich
 type:	military
 dob:	1962-03-26
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/gidzenko_yuri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/gidzenko_yuri.htm

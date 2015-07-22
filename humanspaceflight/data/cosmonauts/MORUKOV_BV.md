@@ -3,7 +3,7 @@ name:	MORUKOV, Boris Vladimirovich
 type:	civilian
 dob:	1950-10-01
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/morukov_boris.htm
 missions:

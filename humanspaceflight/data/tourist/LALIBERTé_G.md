@@ -3,7 +3,7 @@ name:	LALIBERTé, Guy
 type:	civilian
 dob:	1959-09-02
 country:
-  - Canada
+  - CAN
 references:
   - http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
 missions:

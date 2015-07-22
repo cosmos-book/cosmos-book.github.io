@@ -3,7 +3,7 @@ name:	FURRER, Reinhard Alfred
 type:	civilian
 dob:	1940-11-25
 country:
-  - Germany
+  - DEU
 references:
   - http://www.spacefacts.de/bios/international/english/furrer_reinhard.htm
 missions:

@@ -3,7 +3,7 @@ name:	STREKALOV, Gennadi Mikhailovich
 type:	civilian
 dob:	1940-10-28
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/strekalov_gennadi.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/strekalov_gennadi.htm

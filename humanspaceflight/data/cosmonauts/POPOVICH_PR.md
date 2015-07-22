@@ -3,7 +3,7 @@ name:	POPOVICH, Pavel Romanovich
 type:	military
 dob:	1930-10-05
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/popovich_pavel.htm
 missions:

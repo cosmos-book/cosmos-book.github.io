@@ -3,7 +3,7 @@ name:	FRIMOUT, Dirk Dries David Damiaan
 type:	civilian
 dob:	1941-03-21
 country:
-  - Belgium
+  - BEL
 references:
   - http://www.spacefacts.de/bios/international/english/frimout_dirk.htm
 missions:

@@ -3,7 +3,7 @@ name:	RYUMIN, Valeri Viktorovich
 type:	civilian
 dob:	1939-08-16
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ryumin_valeri.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/ryumin_valeri.htm

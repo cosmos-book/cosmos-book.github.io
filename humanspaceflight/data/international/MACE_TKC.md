@@ -3,7 +3,7 @@ name:	MACE, Timothy Kristian Charles
 type:	military
 dob:	1955-11-20
 country:
-  - United Kingdom
+  - GBR
 references:
   - http://www.spacefacts.de/bios/international/english/mace_timothy.htm
 missions:

@@ -3,7 +3,7 @@ name:	GAGARIN, Yuri Alekseyevich
 type:	military
 dob:	1934-03-09
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/gagarin_yuri.htm
 missions:

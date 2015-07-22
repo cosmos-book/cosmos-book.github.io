@@ -3,7 +3,7 @@ name:	SOLOVIYOV, Vladimir Alekseyevich
 type:	civilian
 dob:	1946-11-11
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_vladimir.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_vladimir.htm

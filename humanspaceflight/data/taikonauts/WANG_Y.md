@@ -4,7 +4,7 @@ type:	civilian
 dob:	1980-01-27
 gender:	Female
 country:
-  - China
+  - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/wang_yaping.htm
 missions:

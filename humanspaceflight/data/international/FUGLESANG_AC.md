@@ -3,7 +3,7 @@ name:	FUGLESANG, Arne Christer
 type:	civilian
 dob:	1957-03-18
 country:
-  - Sweden
+  - SWE
 references:
   - http://www.spacefacts.de/bios/international/english/fuglesang_christer.htm
   - http://www.spacefacts.de/eva/international/english/fuglesang_christer.htm

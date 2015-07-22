@@ -3,7 +3,7 @@ name:	KUBASOV, Valeri Nikolayevich
 type:	civilian
 dob:	1935-01-07
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kubasov_valeri.htm
 missions:

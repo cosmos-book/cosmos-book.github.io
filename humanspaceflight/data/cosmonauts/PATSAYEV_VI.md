@@ -3,7 +3,7 @@ name:	PATSAYEV, Viktor Ivanovich
 type:	civilian
 dob:	1933-06-19
 country:
-  - SOV
+  - URS
 diedinspace:	Decompression
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/patsayev_viktor.htm

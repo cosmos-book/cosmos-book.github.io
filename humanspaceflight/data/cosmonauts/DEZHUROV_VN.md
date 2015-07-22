@@ -3,7 +3,7 @@ name:	DEZHUROV, Vladimir Nikolayevich
 type:	military
 dob:	1962-07-30
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dezhurov_vladimir.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/dezhurov_vladimir.htm

@@ -3,7 +3,7 @@ name:	MAKAROV, Oleg Grigoriyevich
 type:	civilian
 dob:	1933-01-06
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/makarov_oleg.htm
 missions:

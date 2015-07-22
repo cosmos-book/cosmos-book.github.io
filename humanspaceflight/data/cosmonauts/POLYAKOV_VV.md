@@ -3,7 +3,7 @@ name:	POLYAKOV, Valeri Vladimirovich
 type:	civilian
 dob:	1942-04-27
 country:
-  - SOV
+  - URS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/polyakov_valeri.htm
 missions:

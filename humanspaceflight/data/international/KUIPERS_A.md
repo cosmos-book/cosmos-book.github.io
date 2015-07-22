@@ -3,7 +3,7 @@ name:	KUIPERS, Andr&eacute;
 type:	civilian
 dob:	1958-10-05
 country:
-  - Netherlands
+  - NLD
 references:
   - http://www.spacefacts.de/bios/international/english/kuipers_andre.htm
 missions:
