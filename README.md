@@ -1,6 +1,6 @@
 # Cosmos: The infographic book of space
 
-Life. The Universe. Everything. The human race has always revealed an insatiable hunger to search “to infinity and beyond”. In this truly mind-blowing book, partners in science Stuart Lowe and Chris North use cutting edge infographics to illuminate – in a new and unique way – the most amazing places and objects that modern science has laid bare. Featuring innovative, inspirational and original designs by leading authors in their field, COSMOS: AN INFOGRAPHIC BOOK OF SPACE delves into a truly international subject and will appeal to stargazers and space enthusiasts of all ages.
+Life. The Universe. Everything. The human race has always revealed an insatiable hunger to search “to infinity and beyond”. In this truly mind-blowing book, partners in science Stuart Lowe and Chris North use cutting edge infographics to illuminate – in a new and unique way – the most amazing places and objects that modern science has laid bare. Featuring innovative, inspirational and original designs by leading authors in their field, COSMOS: THE INFOGRAPHIC BOOK OF SPACE delves into a truly international subject and will appeal to stargazers and space enthusiasts of all ages.
 
 Including the Big Bang itself, COSMOS: THE INFOGRAPHIC BOOK OF SPACE
 
