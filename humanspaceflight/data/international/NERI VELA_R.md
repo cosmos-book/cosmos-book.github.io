@@ -7,8 +7,8 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/nerivela_rodolfo.htm
 missions:
-   - name: STS-61B
-     time_start:   
-     time_end:     
+  - name: STS-61B
+    time_start:   
+    time_end:     
 evas:
 ---

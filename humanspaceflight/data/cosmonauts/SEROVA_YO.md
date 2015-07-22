@@ -8,8 +8,8 @@ country:
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/serova_yelena.htm
 missions:
-   - name: Soyuz TMA-14M
-     time_start:   2014-09-25T20:25Z
-     time_end:     
+  - name: Soyuz TMA-14M
+    time_start:   2014-09-25T20:25Z
+    time_end:     
 evas:
 ---

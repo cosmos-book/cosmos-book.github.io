@@ -9,8 +9,8 @@ timeinspace:	12d19h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-119
-     time_start:   2009-03-15T23:43Z
-     time_end:     2009-03-28T19:14Z
+  - name: STS-119
+    time_start:   2009-03-15T23:43Z
+    time_end:     2009-03-28T19:14Z
 evas:
 ---

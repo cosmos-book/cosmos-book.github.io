@@ -6,7 +6,6 @@ country:
   - USA
 gender:	Female
 qualifications:
-  - 
 references:
 missions:
 evas:

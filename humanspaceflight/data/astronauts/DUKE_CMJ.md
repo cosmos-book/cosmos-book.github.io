@@ -9,8 +9,8 @@ timeinspace:	11d1h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: Apollo 16
-     time_start:   1972-04-16T17:54Z
-     time_end:     1972-04-27T19:45:06Z
+  - name: Apollo 16
+    time_start:   1972-04-16T17:54Z
+    time_end:     1972-04-27T19:45:06Z
 evas:
 ---

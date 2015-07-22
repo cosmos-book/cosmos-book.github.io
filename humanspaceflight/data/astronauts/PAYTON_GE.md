@@ -8,8 +8,8 @@ timeinspace:	3d1h33m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-51C
-     time_start:   
-     time_end:     
+  - name: STS-51C
+    time_start:   
+    time_end:     
 evas:
 ---

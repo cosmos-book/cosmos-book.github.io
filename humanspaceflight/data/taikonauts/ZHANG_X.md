@@ -7,8 +7,8 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/zhang_xiaoguan.htm
 missions:
-   - name: Shenzhou X
-     time_start:   2013-06-11T09:38:02Z
-     time_end:     2013-06-26T00:08Z
+  - name: Shenzhou X
+    time_start:   2013-06-11T09:38:02Z
+    time_end:     2013-06-26T00:08Z
 evas:
 ---

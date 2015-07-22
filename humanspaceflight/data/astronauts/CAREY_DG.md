@@ -9,8 +9,8 @@ timeinspace:	10d22h11m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-109
-     time_start:   2002-03-01T11:22:02Z
-     time_end:     2002-03-12T09:33:11Z
+  - name: STS-109
+    time_start:   2002-03-01T11:22:02Z
+    time_end:     2002-03-12T09:33:11Z
 evas:
 ---

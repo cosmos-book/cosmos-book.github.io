@@ -7,8 +7,8 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/alsaud_salman.htm
 missions:
-   - name: STS-51G
-     time_start:   
-     time_end:     
+  - name: STS-51G
+    time_start:   
+    time_end:     
 evas:
 ---

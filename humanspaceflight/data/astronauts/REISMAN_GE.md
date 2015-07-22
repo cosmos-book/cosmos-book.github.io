@@ -10,17 +10,17 @@ timeinspace:	107d3h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: Expedition 16/17: STS-123 Endeavour (up) and STS-124 Discovery (down)
-     time_start:   
-     time_end:     
-   - name: STS-123
-     time_start:   2008-03-11T06:28:14Z
-     time_end:     
-   - name: STS-124
-     time_start:   
-     time_end:     2008-06-14T15:15:20Z
-   - name: STS-132
-     time_start:   2010-05-14T18:20Z
-     time_end:     2010-05-26T12:49:19Z
+  - name: Expedition 16/17: STS-123 Endeavour (up) and STS-124 Discovery (down)
+    time_start:   
+    time_end:     
+  - name: STS-123
+    time_start:   2008-03-11T06:28:14Z
+    time_end:     
+  - name: STS-124
+    time_start:   
+    time_end:     2008-06-14T15:15:20Z
+  - name: STS-132
+    time_start:   2010-05-14T18:20Z
+    time_end:     2010-05-26T12:49:19Z
 evas:
 ---

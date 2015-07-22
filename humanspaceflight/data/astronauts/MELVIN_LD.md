@@ -9,11 +9,11 @@ timeinspace:	23d13h38m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-122
-     time_start:   2008-02-07T19:45Z
-     time_end:     2008-02-20T14:07:11Z
-   - name: STS-129
-     time_start:   2009-11-16T19:28:09Z
-     time_end:     2009-11-27T14:44:23Z
+  - name: STS-122
+    time_start:   2008-02-07T19:45Z
+    time_end:     2008-02-20T14:07:11Z
+  - name: STS-129
+    time_start:   2009-11-16T19:28:09Z
+    time_end:     2009-11-27T14:44:23Z
 evas:
 ---

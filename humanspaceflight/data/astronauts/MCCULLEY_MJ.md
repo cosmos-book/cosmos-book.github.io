@@ -10,8 +10,8 @@ qualifications:
   - MSc
 references:
 missions:
-   - name: STS-34
-     time_start:   1989-10-18T16:53:40Z
-     time_end:     1989-10-23T16:34Z
+  - name: STS-34
+    time_start:   1989-10-18T16:53:40Z
+    time_end:     1989-10-23T16:34Z
 evas:
 ---

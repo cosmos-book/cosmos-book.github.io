@@ -11,11 +11,11 @@ timeinspace:
 references:
   - https://en.wikipedia.org/wiki/Joseph_A._Walker
 missions:
-   - name: X-15 Flight 90
-     time_start:   
-     time_end:     
-   - name: X-15 Flight 91
-     time_start:   
-     time_end:     
+  - name: X-15 Flight 90
+    time_start:   
+    time_end:     
+  - name: X-15 Flight 91
+    time_start:   
+    time_end:     
 evas:
 ---

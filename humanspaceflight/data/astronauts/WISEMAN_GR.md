@@ -9,8 +9,8 @@ timeinspace:	0
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: Soyuz TMA-13M
-     time_start:   2014-05-28T19:57:41Z
-     time_end:     2014-11-10T03:58:00Z
+  - name: Soyuz TMA-13M
+    time_start:   2014-05-28T19:57:41Z
+    time_end:     2014-11-10T03:58:00Z
 evas:
 ---

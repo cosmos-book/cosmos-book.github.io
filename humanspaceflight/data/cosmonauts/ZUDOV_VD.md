@@ -7,8 +7,8 @@ country:
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zudov_vyacheslav.htm
 missions:
-   - name: Soyuz 23
-     time_start:   1976-10-14T17:39:18Z
-     time_end:     1976-10-16T17:45:54Z
+  - name: Soyuz 23
+    time_start:   1976-10-14T17:39:18Z
+    time_end:     1976-10-16T17:45:54Z
 evas:
 ---

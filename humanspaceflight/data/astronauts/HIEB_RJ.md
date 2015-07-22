@@ -9,14 +9,14 @@ timeinspace:	31d22h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-39
-     time_start:   1991-04-28T11:33:14Z
-     time_end:     1991-05-06T18:55:38Z
-   - name: STS-49
-     time_start:   1992-05-07T23:40Z
-     time_end:     1992-05-16T22:57:39Z
-   - name: STS-65
-     time_start:   1994-07-08T16:43:01Z
-     time_end:     1994-07-23T10:38:02Z
+  - name: STS-39
+    time_start:   1991-04-28T11:33:14Z
+    time_end:     1991-05-06T18:55:38Z
+  - name: STS-49
+    time_start:   1992-05-07T23:40Z
+    time_end:     1992-05-16T22:57:39Z
+  - name: STS-65
+    time_start:   1994-07-08T16:43:01Z
+    time_end:     1994-07-23T10:38:02Z
 evas:
 ---

@@ -9,11 +9,11 @@ timeinspace:	20d1h18m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-84
-     time_start:   1997-05-15T09:07:48Z
-     time_end:     1997-05-24T13:27:45Z
-   - name: STS-97
-     time_start:   2000-12-01T03:06Z
-     time_end:     2000-12-11T23:05Z
+  - name: STS-84
+    time_start:   1997-05-15T09:07:48Z
+    time_end:     1997-05-24T13:27:45Z
+  - name: STS-97
+    time_start:   2000-12-01T03:06Z
+    time_end:     2000-12-11T23:05Z
 evas:
 ---

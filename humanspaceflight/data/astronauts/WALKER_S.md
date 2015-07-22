@@ -9,8 +9,8 @@ timeinspace:	163d7h11m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: Expedition 24/25 on Soyuz
-     time_start:   
-     time_end:     
+  - name: Expedition 24/25 on Soyuz
+    time_start:   
+    time_end:     
 evas:
 ---

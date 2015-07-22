@@ -10,8 +10,8 @@ timeinspace:	13d21h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-114
-     time_start:   2005-07-26T14:39Z
-     time_end:     2005-08-09T12:11:23Z
+  - name: STS-114
+    time_start:   2005-07-26T14:39Z
+    time_end:     2005-08-09T12:11:23Z
 evas:
 ---

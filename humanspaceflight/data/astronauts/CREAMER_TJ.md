@@ -9,8 +9,8 @@ timeinspace:	163d5h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: Expedition 22/23 on Soyuz
-     time_start:   
-     time_end:     
+  - name: Expedition 22/23 on Soyuz
+    time_start:   
+    time_end:     
 evas:
 ---

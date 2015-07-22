@@ -10,8 +10,8 @@ timeinspace:	7d23h44m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-51-A
-     time_start:   1984-11-08T12:15Z
-     time_end:     1984-11-16T11:59:57Z
+  - name: STS-51-A
+    time_start:   1984-11-08T12:15Z
+    time_end:     1984-11-16T11:59:57Z
 evas:
 ---

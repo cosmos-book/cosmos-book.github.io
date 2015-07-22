@@ -6,14 +6,13 @@ country:
   - USA
 gender:	Male
 qualifications:
-  - 
 timeinspace:	
 references:
   - http://history.nasa.gov/x15/adams.html
 missions:
-   - name: X-15 Flight 191
-     time_start:   
-     time_end:     
+  - name: X-15 Flight 191
+    time_start:   
+    time_end:     
 evas:
 ---
 

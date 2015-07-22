@@ -9,8 +9,8 @@ timeinspace:	13d18h47m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-   - name: STS-113
-     time_start:   2002-11-23T00:49:47Z
-     time_end:     2002-12-07T19:38:26Z
+  - name: STS-113
+    time_start:   2002-11-23T00:49:47Z
+    time_end:     2002-12-07T19:38:26Z
 evas:
 ---
