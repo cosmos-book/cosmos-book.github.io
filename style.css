@@ -1,0 +1,32 @@
+body { font-family: "Helvetica Neue", sans-serif; text-align: center; }
+h1 { font-family: "Menlo Regular", monospace, sans-serif; font-weight: normal; margin-top: 0px; }
+p:last-child { margin-bottom: 0px; }
+.outer {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: 100;
+}
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+.inner {
+	margin-left: auto;
+	margin-right: auto; 
+	text-align: left;
+	max-width: 600px;
+	padding: 2.5em;
+	background: rgba(255,255,255,0.75);
+}
+#container,#info { max-width: 700px; margin: auto; }
+
+@media only screen and (max-width: 700px){
+
+}
