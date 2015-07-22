@@ -1,0 +1,11 @@
+---
+name:	MERCHEZ, Marianne
+type:	civilian
+dob:	1960-10-25
+country:
+  - Belgium
+references:
+  - http://www.spacefacts.de/bios/international/english/merchez_marianne.htm
+missions:
+evas:
+---
