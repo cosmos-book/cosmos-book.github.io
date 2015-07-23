@@ -186,7 +186,7 @@
 					if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
 					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
 					text += '<\/table>';
-					text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">raw data file<\/a>';
+					text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 					return text;
 				}
 			});
