@@ -17,4 +17,6 @@ missions:
     time_start:   2008-11-15T00:55Z
     time_end:     2008-11-30T21:26Z
 evas:
+  - time_start: 
+    duration:   33h42m
 ---

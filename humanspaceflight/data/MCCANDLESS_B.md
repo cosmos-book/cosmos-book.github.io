@@ -19,4 +19,8 @@ missions:
     time_start:   1990-04-24T12:33:51Z
     time_end:     1990-04-29T13:49:58Z
 evas:
+  - time_start: 1984-02-07
+    duration:   5h55m
+  - time_start: 1984-02-09
+    duration:   6h17m
 ---

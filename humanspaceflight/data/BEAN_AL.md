@@ -16,4 +16,6 @@ missions:
     time_start:   1973-07-28T11:10:50Z
     time_end:     1973-09-25T22:19:52Z
 evas:
+  - time_start: 
+    duration:   10h26m
 ---

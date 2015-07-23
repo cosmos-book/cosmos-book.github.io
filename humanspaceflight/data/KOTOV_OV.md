@@ -19,4 +19,16 @@ missions:
     time_start:   2013-09-25T20:58:50Z
     time_end:     2014-03-11T03:25Z
 evas:
+  - time_start: 2007-05-30
+    duration:   5h25m
+  - time_start: 2007-06-06
+    duration:   5h37m
+  - time_start: 2010-01-14
+    duration:   5h44m
+  - time_start: 2013-11-09
+    duration:   5h50m
+  - time_start: 2013-12-27
+    duration:   8h07m
+  - time_start: 2014-01-27
+    duration:   6h08m
 ---

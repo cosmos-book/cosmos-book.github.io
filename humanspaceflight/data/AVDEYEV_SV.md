@@ -22,4 +22,20 @@ missions:
     time_start:   
     time_end:     1999-08-28T00:34:21Z
 evas:
+  - time_start: 1992-09-03
+    duration:   3h56m
+  - time_start: 1992-09-07
+    duration:   5h08m
+  - time_start: 1992-09-11
+    duration:   5h44m
+  - time_start: 1992-09-15
+    duration:   3h33m
+  - time_start: 1995-10-20
+    duration:   5h16m
+  - time_start: 1998-11-10
+    duration:   5h54m
+  - time_start: 1999-07-23
+    duration:   6h07m
+  - time_start: 1999-07-28
+    duration:   5h22m
 ---

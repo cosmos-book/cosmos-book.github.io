@@ -19,4 +19,6 @@ missions:
     time_start:   
     time_end:     
 evas:
+  - time_start: 
+    duration:   13h17m
 ---

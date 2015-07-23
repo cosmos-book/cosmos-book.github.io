@@ -18,4 +18,6 @@ missions:
     time_start:   
     time_end:     1969-01-17T06:50:48Z
 evas:
+  - time_start: 1969-01-16
+    duration:   0h37m
 ---

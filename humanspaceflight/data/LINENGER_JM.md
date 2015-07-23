@@ -25,4 +25,6 @@ missions:
     time_start:   
     time_end:     1997-05-24T13:27:45Z
 evas:
+  - time_start: 
+    duration:   4h57m
 ---

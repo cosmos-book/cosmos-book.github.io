@@ -13,4 +13,16 @@ missions:
     time_start:   1991-05-18T12:50:28Z
     time_end:     1991-10-10T04:12:19Z
 evas:
+  - time_start: 1991-06-24
+    duration:   4h58m
+  - time_start: 1991-06-28
+    duration:   3h24m
+  - time_start: 1991-07-15
+    duration:   5h45m
+  - time_start: 1991-07-19
+    duration:   5h28m
+  - time_start: 1991-07-23
+    duration:   5h34m
+  - time_start: 1991-07-27
+    duration:   6h49m
 ---
