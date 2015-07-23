@@ -18,8 +18,8 @@ missions:
   - name: STS-52
     time_start:   1992-10-22T14:05:53Z
     time_end:     1992-11-01T09:05:53Z
-  - name: Expedition 1: Soyuz (up) in 2000 and STS-102 ' Discovery (down)
-    time_start:   
+  - name: Soyuz TM-31
+    time_start:   2000-10-31T07:52:47Z
     time_end:     
   - name: STS-102
     time_start:   
