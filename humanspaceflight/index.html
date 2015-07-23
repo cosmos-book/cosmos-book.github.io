@@ -100,6 +100,7 @@
 		}
 
 		$('#sort').on('change',function(){
+			sortBy('name');
 			sortBy($(this).val());
 			updateAstronauts();
 			$('.tooltip_close').trigger('click')
@@ -131,6 +132,7 @@
 		function parseAstronauts(data,attrs){
 
 			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'}]);
+
 			// Assign each one an ID
 			for(var i = 0; i < astronauts.length; i++){
 				astronauts[i].id = i;
@@ -168,10 +170,14 @@
 		<h1>Human spaceflight</h1>
 		<form>
 			<select id="sort">
-				<option value="name" selected="selected">Alphabetical</option>
+				<option value="" selected="selected">Vertical ordering</option>
+				<option value="name">Alphabetical</option>
 				<option value="dob">Date-of-birth</option>
 				<option value="time_eva">EVA duration</option>
 				<option value="firstlaunch_age">Age at first launch</option>
+				<option value="country">Country</option>
+				<option value="launches">Launches</option>
+				<option value="longest_trip">Longest single trip</option>
 			</select>
 		</form>
 		<div class="innerbox"></div>
