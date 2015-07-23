@@ -6,7 +6,6 @@ dob:	1947-08-15
 qualifications:
   - BA in chemistry from Emory University Doctor of Medicine
   - Doctor of Medicine
-timeinspace:	5d0h7m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

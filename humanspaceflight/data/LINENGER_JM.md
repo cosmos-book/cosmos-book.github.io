@@ -8,7 +8,6 @@ qualifications:
   - MSc in systems management
   - PhD in epidemiology
   - Doctor of Medicine
-timeinspace:	143d2h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

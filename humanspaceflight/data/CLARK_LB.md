@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in Zoology
   - Doctor of Medicine
-timeinspace:	15d22h20m
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

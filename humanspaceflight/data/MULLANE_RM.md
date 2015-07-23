@@ -6,7 +6,6 @@ dob:	1945-09-10
 qualifications:
   - BSc in military engineering
   - MSc in aeronautical engineering
-timeinspace:	14d20h20m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

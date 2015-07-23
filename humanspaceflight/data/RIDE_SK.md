@@ -8,7 +8,6 @@ qualifications:
   - BA in English
   - BSc in physics
   - MSc in physics
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

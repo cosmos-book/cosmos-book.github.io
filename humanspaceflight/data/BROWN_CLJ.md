@@ -5,7 +5,6 @@ type:	military
 dob:	1956-03-11
 qualifications:
   - BSc in electrical engineering
-timeinspace:	57d15h7m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -7,7 +7,6 @@ qualifications:
   - BSc in solid earth sciences
   - MSc in geophysics
   - PhD in seismology
-timeinspace:	28d15h17m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

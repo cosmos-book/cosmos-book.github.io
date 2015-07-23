@@ -6,12 +6,11 @@ dob:	1959-11-15
 qualifications:
   - BSc in chemistry
   - MSc in physics
-timeinspace:	163d5h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 22/23 on Soyuz
-    time_start:   
-    time_end:     
+  - name: Soyuz TMA-17
+    time_start:   2009-12-20T21:52Z
+    time_end:     2010-06-02T03:26Z
 evas:
 ---

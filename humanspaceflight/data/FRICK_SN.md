@@ -6,7 +6,6 @@ dob:	1964-09-30
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering
-timeinspace:	23d14h4m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

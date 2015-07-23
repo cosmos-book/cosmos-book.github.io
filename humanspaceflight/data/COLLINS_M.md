@@ -4,7 +4,6 @@ name:	COLLINS, Michael
 type:	civilian
 dob:	1930-10-31
 qualifications:
-timeinspace:	11d2h4m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

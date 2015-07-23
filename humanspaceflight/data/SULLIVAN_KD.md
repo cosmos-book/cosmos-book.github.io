@@ -8,7 +8,6 @@ qualifications:
   - MSc in earth sciences
   - PhD in geology
 gender:	Female
-timeinspace:	22d4h49m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

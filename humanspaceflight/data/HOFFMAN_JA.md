@@ -6,7 +6,6 @@ dob:	1944-11-02
 qualifications:
   - BA in astronomy
   - PhD in astrophysics
-timeinspace:	50d11h54m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1955-04-11
 qualifications:
   - BSc in ecological science
   - PhD in biometeorology
-timeinspace:	34d23h4m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1932-02-19
 qualifications:
   - BA in philosophy
   - Doctor of Medicine
-timeinspace:	28d0h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

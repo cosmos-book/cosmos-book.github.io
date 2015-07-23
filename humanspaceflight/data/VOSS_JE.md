@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in engineering science
   - MSc in electrical engineering
-timeinspace:	49d3h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

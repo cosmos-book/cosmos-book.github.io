@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in mechanical engineering
   - PhD in mechanical engineering
-timeinspace:	13d18h13m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

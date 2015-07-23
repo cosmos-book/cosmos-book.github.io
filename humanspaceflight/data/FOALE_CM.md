@@ -6,7 +6,6 @@ dob:	1957-01-06
 qualifications:
   - BA in physics
   - PhD in laboratory astrophysics
-timeinspace:	373d18h18m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

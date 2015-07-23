@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in engineering & management
   - MSc in space technology
-timeinspace:	29d15h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

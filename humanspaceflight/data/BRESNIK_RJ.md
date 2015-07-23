@@ -6,7 +6,6 @@ dob:	1967-09-11
 qualifications:
   - BA in mathematics
   - MSc in aviation systems
-timeinspace:	10d19h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

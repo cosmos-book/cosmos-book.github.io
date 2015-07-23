@@ -6,7 +6,6 @@ dob:	1937-06-27
 qualifications:
   - BA in mathematics and physics
   - PhD in physics
-timeinspace:	13d1h59m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

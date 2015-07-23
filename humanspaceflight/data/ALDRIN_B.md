@@ -6,7 +6,6 @@ dob:	1930-01-20
 qualifications:
   - BSc in mechanical engineering
   - ScD in astronautics
-timeinspace:	12d1h53m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

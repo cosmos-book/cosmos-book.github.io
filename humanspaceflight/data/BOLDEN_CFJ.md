@@ -6,7 +6,6 @@ dob:	1946-08-19
 qualifications:
   - BSc in electrical science
   - MSc in systems management
-timeinspace:	28d8h37m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

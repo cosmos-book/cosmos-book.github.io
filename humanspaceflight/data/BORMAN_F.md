@@ -5,7 +5,6 @@ type:	military
 dob:	1928-03-14
 qualifications:
   - MSc in aeronautical engineering
-timeinspace:	19d21h35m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

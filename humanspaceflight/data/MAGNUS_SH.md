@@ -8,7 +8,6 @@ qualifications:
   - BSc in physics
   - MSc in electrical engineering
   - PhD in materials science and engineering
-timeinspace:	157d8h44m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

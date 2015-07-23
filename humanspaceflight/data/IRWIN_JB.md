@@ -5,7 +5,6 @@ type:	military
 dob:	1930-03-17
 qualifications:
   - BSc in naval science
-timeinspace:	12d7h12m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

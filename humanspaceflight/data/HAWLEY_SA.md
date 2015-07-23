@@ -6,7 +6,6 @@ dob:	1951-12-12
 qualifications:
   - BA in physics & astronomy
   - PhD in astronomy & astrophysics
-timeinspace:	32d2h42m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -23,7 +22,7 @@ missions:
     time_start:   1997-02-11T08:55:17Z
     time_end:     1997-02-21T08:33Z
   - name: STS-93
-    time_start:   1999-07-23T16:31Z
+    time_start:   1999-07-23T04:31Z
     time_end:     1999-07-28T03:21Z
 evas:
 ---

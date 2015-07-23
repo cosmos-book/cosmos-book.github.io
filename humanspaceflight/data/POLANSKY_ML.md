@@ -5,7 +5,6 @@ type:	civilian
 dob:	1956-06-02
 qualifications:
   - MSc in aeronautical & astronautical engineering
-timeinspace:	41d10h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

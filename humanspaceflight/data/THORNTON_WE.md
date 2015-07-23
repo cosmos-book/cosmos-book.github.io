@@ -6,7 +6,6 @@ dob:	1929-04-14
 qualifications:
   - BSc in physics
   - Doctor of Medicine
-timeinspace:	13d2h47m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1946-06-28
 qualifications:
   - BSc in physics and mathematics
   - MSc in astrogeophysics
-timeinspace:	20d3h23m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

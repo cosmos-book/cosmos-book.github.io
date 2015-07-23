@@ -6,7 +6,6 @@ dob:	1970-07-28
 qualifications:
   - BSc in physics & mechanical engineering
   - PhD in mechanical engineering
-timeinspace:	29d12h17m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

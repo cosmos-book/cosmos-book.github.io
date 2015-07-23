@@ -6,7 +6,6 @@ dob:	1931-08-30
 qualifications:
   - BSc in mechanical engineering
   - MSc in aerospace science
-timeinspace:	5d22h54m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -5,7 +5,6 @@ type:	civilian
 dob:	1930-05-18
 qualifications:
   - BSc in physics
-timeinspace:	7d0h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

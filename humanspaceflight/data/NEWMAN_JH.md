@@ -7,7 +7,6 @@ qualifications:
   - BA in physics
   - MA in physics
   - PhD in physics
-timeinspace:	43d10h1m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

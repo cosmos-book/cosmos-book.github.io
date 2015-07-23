@@ -5,7 +5,6 @@ type:	military
 dob:	1932-06-06
 qualifications:
   - MSc in aeronautics & astronautics
-timeinspace:	22d18h54m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

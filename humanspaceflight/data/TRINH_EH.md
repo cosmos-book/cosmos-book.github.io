@@ -4,7 +4,6 @@ name:	TRINH, Eugene H.
 type:	civilian
 dob:	1950-09-14
 qualifications:
-timeinspace:	13d19h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -7,7 +7,6 @@ qualifications:
   - BA in biology and psychology
   - MSc in physiology
   - PhD in biology
-timeinspace:	15d21h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

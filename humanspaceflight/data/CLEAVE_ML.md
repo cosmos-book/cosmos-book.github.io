@@ -8,7 +8,6 @@ qualifications:
   - BSc in biological sciences
   - MSc in microbial ecology
   - PhD in environmental engineering
-timeinspace:	10d22h1m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

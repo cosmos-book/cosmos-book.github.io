@@ -6,7 +6,6 @@ dob:	1962-08-24
 gender:	Female
 qualifications:
   - BSc in chemical engineering
-timeinspace:	18d18h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

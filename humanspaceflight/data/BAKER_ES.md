@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BA in geology
   - Doctor of Medicine
-timeinspace:	28d14h31m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

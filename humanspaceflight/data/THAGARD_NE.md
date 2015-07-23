@@ -7,7 +7,6 @@ qualifications:
   - BSc in engineering science
   - MSc in engineering science
   - Doctor of Medicine
-timeinspace:	140d13h24m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

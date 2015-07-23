@@ -6,7 +6,6 @@ dob:	1956-04-16
 qualifications:
   - BSc in biology
   - Doctor of Medicine
-timeinspace:	15d22h20m
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

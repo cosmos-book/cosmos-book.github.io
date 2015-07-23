@@ -5,7 +5,6 @@ type:	civilian
 dob:	1965-09-22
 qualifications:
   - BSc in chemical engineering
-timeinspace:	10d19h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

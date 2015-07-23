@@ -8,7 +8,6 @@ qualifications:
   - PhD in electrical engineering
 gender:	Female
 diedinspace:	Disintegration during launch
-timeinspace:	6d0h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

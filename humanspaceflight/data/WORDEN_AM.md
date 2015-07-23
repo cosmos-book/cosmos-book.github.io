@@ -5,7 +5,6 @@ type:	military
 dob:	1932-02-07
 qualifications:
   - BSc in military science
-timeinspace:	12d7h12m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

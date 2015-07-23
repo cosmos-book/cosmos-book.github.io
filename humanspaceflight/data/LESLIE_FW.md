@@ -5,7 +5,6 @@ type:	civilian
 dob:	1951-12-19
 qualifications:
   - BSc in engineering science
-timeinspace:	15d21h52m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

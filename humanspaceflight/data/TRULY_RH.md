@@ -4,7 +4,6 @@ name:	TRULY, Richard H.
 type:	military
 dob:	1937-11-12
 qualifications:
-timeinspace:	8d7h21m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

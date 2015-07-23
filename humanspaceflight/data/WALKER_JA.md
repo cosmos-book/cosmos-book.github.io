@@ -8,7 +8,6 @@ country:
 gender:	Male
 qualifications:
   - BA in physics
-timeinspace:	
 references:
   - https://en.wikipedia.org/wiki/Joseph_A._Walker
 missions:

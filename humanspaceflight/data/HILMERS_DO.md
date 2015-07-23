@@ -6,7 +6,6 @@ dob:	1950-01-28
 qualifications:
   - BA in mathematics
   - MSc in electrical engineering
-timeinspace:	20d14h17m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

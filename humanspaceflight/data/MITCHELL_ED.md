@@ -6,7 +6,6 @@ dob:	1930-09-17
 qualifications:
   - BSc in industrial management
   - ScD in aeronautics and astronautics
-timeinspace:	9d0h42m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

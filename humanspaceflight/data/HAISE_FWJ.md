@@ -5,7 +5,6 @@ type:	civilian
 dob:	1933-11-14
 qualifications:
   - BSc in aeronautical engineering
-timeinspace:	5d22h54m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -5,7 +5,6 @@ type:	civilian
 dob:	1932-03-16
 qualifications:
   - MA in physics
-timeinspace:	10d20h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

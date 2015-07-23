@@ -6,7 +6,6 @@ dob:	1946-10-27
 qualifications:
   - BSc in aerospace engineering
   - MSc in mechanical engineering
-timeinspace:	30d1h36m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -15,7 +14,7 @@ missions:
     time_end:     1985-06-24T13:11:53Z
   - name: STS-61-A
     time_start:   1985-10-30T17:00Z
-    time_end:     1985-11-16T17:44:52Z
+    time_end:     1985-11-06T17:44:52Z
   - name: STS-37
     time_start:   1991-04-05T14:22:45Z
     time_end:     1991-04-11T13:55:30Z

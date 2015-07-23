@@ -6,7 +6,6 @@ dob:	1965-03-29
 qualifications:
   - BSc in electrical engineering
   - MSc in aviation systems
-timeinspace:	12d20h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

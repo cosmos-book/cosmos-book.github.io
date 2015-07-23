@@ -5,7 +5,6 @@ type:	military
 dob:	1929-10-05
 qualifications:
   - BSc in chemistry
-timeinspace:	13d3h53m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

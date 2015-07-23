@@ -6,7 +6,6 @@ dob:	1933-11-21
 qualifications:
   - BSc in physics
   - MSc in engineering science
-timeinspace:	20d2h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -18,6 +17,6 @@ missions:
     time_end:     1984-09-05T13:37:55Z
   - name: STS-61-A
     time_start:   1985-10-30T17:00Z
-    time_end:     1985-11-16T17:44:52Z
+    time_end:     1985-11-06T17:44:52Z
 evas:
 ---

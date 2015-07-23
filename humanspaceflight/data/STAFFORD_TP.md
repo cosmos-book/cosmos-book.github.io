@@ -4,7 +4,6 @@ name:	STAFFORD, Thomas P.
 type:	military
 dob:	1930-09-17
 qualifications:
-timeinspace:	21d3h43m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

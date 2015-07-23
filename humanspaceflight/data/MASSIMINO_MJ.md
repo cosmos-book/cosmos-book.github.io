@@ -7,7 +7,6 @@ qualifications:
   - BSc in industrial engineering
   - MSc in technology and policy
   - PhD in mechanical engineering
-timeinspace:	23d19h48m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

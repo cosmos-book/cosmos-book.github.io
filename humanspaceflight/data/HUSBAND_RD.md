@@ -6,7 +6,6 @@ dob:	1957-07-12
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering
-timeinspace:	25d17h33m
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

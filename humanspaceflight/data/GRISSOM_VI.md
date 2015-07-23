@@ -5,7 +5,6 @@ type:	military
 dob:	1926-04-03
 qualifications:
   - BSc in mechanical engineering
-timeinspace:	5h08m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

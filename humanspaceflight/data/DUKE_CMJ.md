@@ -6,7 +6,6 @@ dob:	1935-10-03
 qualifications:
   - BSc in naval sciences
   - MSc in aeronautics
-timeinspace:	11d1h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

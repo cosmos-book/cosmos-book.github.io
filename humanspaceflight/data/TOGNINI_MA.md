@@ -15,7 +15,7 @@ missions:
     time_start:   
     time_end:     1992-08-10T01:05:03Z
   - name: STS-93
-    time_start:   1999-07-23T16:31Z
+    time_start:   1999-07-23T04:31Z
     time_end:     1999-07-28T03:21Z
 evas:
 ---

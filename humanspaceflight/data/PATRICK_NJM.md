@@ -8,7 +8,6 @@ qualifications:
   - MSc in mechanical engineering
   - MA in engineering
   - PhD in mechanical engineering
-timeinspace:	26d14h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

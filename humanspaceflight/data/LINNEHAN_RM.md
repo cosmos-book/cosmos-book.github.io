@@ -5,7 +5,6 @@ type:	civilian
 dob:	1957-09-19
 qualifications:
   - Doctor of Veterinary Medicine
-timeinspace:	59d11h59m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

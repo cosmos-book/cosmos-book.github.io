@@ -5,7 +5,6 @@ type:	military
 dob:	1943-01-17
 qualifications:
   - BSc in mathematics & physics
-timeinspace:	32d21h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

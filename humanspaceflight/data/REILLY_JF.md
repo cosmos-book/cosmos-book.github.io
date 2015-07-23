@@ -7,7 +7,6 @@ qualifications:
   - BSc in geosciences
   - MSc in geosciences
   - PhD in geosciences
-timeinspace:	35d14h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

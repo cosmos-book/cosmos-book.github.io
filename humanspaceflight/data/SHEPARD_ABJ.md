@@ -4,7 +4,6 @@ name:	SHEPARD, Alan B. Jr.
 type:	military
 dob:	1923-11-18
 qualifications:
-timeinspace:	9d0h57m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

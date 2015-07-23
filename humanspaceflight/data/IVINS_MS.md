@@ -6,7 +6,6 @@ dob:	1951-04-15
 gender:	Female
 qualifications:
   - BSc in aerospace engineering
-timeinspace:	55d21h48m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

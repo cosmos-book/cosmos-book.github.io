@@ -6,7 +6,6 @@ dob:	1942-05-21
 qualifications:
   - BSc in naval science
   - MSc in operations research & systems analysis
-timeinspace:	9d21h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

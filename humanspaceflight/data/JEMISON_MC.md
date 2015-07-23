@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in chemical engineering
   - Doctor of Medicine
-timeinspace:	7d22h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

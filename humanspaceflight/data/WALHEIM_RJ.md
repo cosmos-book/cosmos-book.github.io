@@ -6,7 +6,6 @@ dob:	1962-10-10
 qualifications:
   - BSc in mechanical engineering
   - MSc in industrial engineering
-timeinspace:	36d8h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

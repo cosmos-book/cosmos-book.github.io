@@ -5,7 +5,6 @@ type:	military
 dob:	1961-08-11
 qualifications:
   - BSc in mechanical engineering
-timeinspace:	51d9h36m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -7,7 +7,6 @@ qualifications:
   - BSc in physics
   - MSc in engineering physics
   - Doctor of Medicine
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

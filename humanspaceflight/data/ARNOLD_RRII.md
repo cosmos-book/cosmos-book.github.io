@@ -6,7 +6,6 @@ dob:	1963-11-26
 qualifications:
   - BSc in accounting
   - MSc in marine, estuarine and environmental science
-timeinspace:	12d19h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

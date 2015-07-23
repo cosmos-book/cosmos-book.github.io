@@ -6,7 +6,6 @@ dob:	1956-08-23
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine
-timeinspace:	168d12h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -8,7 +8,6 @@ qualifications:
   - BSc in chemistry
   - MSc in biochemistry
   - PhD in biochemistry
-timeinspace:	223d2h53m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

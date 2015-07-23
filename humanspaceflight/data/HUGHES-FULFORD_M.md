@@ -6,7 +6,6 @@ dob:	1945-12-21
 gender:	Female
 qualifications:
   - BSc in chemistry and biology
-timeinspace:	9d2h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

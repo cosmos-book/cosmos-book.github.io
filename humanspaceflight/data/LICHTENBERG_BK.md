@@ -5,7 +5,6 @@ type:	civilian
 dob:	1948-02-19
 qualifications:
   - BSc in aerospace engineering
-timeinspace:	19d5h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

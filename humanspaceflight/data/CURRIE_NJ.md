@@ -8,7 +8,6 @@ qualifications:
   - BA in biological science
   - MSc in safety engineering
   - PhD in industrial engineering
-timeinspace:	41d15h32m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -5,7 +5,6 @@ type:	civilian
 dob:	1951-12-18
 qualifications:
   - PhD in mechanical engineering
-timeinspace:	177d9h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

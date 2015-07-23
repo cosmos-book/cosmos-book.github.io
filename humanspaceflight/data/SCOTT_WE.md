@@ -6,7 +6,6 @@ dob:	1950-08-06
 qualifications:
   - BA in music
   - MSc in aeronautical engineering
-timeinspace:	24d14h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

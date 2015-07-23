@@ -5,7 +5,6 @@ type:	civilian
 dob:	1932-03-24
 qualifications:
   - MSc in applied science
-timeinspace:	7d0h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

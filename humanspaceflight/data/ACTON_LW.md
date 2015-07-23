@@ -8,7 +8,6 @@ country:
 gender:	Male
 qualifications:
   - PhD
-timeinspace:	7d22h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

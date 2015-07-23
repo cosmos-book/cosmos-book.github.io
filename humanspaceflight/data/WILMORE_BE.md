@@ -5,7 +5,6 @@ type:	military
 dob:	1962-12-29
 qualifications:
   - MSc in electrical engineering
-timeinspace:	10d19h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

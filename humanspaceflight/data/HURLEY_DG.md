@@ -5,7 +5,6 @@ type:	military
 dob:	1966-10-21
 qualifications:
   - BSc in civil engineering
-timeinspace:	28d11h13m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

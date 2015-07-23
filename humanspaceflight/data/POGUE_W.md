@@ -6,7 +6,6 @@ dob:	1930-01-23
 qualifications:
   - BSc in education
   - MSc in mathematics
-timeinspace:	84d1h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

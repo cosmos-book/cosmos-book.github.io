@@ -9,7 +9,6 @@ gender:	Male
 qualifications:
   - BSc in engineering
   - MSc in aerospace engineering
-timeinspace:	13d22h21m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

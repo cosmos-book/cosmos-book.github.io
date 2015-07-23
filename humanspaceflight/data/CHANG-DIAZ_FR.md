@@ -6,7 +6,6 @@ dob:	1950-04-05
 qualifications:
   - BSc in mechanical engineering
   - PhD in applied plasma physics
-timeinspace:	66d18h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

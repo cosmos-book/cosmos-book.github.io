@@ -5,7 +5,6 @@ type:	military
 dob:	1939-05-19
 qualifications:
   - BSc in aerospace engineering
-timeinspace:	6d23h40m
 diedinspace:	Disintegration during launch
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

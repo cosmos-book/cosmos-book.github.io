@@ -5,7 +5,6 @@ type:	military
 dob:	1958-02-13
 qualifications:
   - BSc in mechanical engineering
-timeinspace:	11d23h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

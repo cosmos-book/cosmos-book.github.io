@@ -8,7 +8,6 @@ qualifications:
   - BSc in aeronautical engineering
   - MSc in aerospace engineering
   - PhD in aerospace engineering
-timeinspace:	30d14h54m
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

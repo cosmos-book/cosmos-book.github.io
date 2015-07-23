@@ -7,7 +7,6 @@ country:
   - USA
 gender:	Male
 qualifications:
-timeinspace:	
 references:
   - http://history.nasa.gov/x15/adams.html
 missions:

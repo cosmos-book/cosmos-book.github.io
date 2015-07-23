@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - MSc in chemistry
   - Doctor of Medicine
-timeinspace:	7d23h44m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

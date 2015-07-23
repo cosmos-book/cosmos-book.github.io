@@ -5,7 +5,6 @@ type:	military
 dob:	1962-11-05
 qualifications:
   - BSc in physics & astronautical engineering
-timeinspace:	25d13h
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

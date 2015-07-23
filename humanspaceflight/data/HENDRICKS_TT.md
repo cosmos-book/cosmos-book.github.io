@@ -6,7 +6,6 @@ dob:	1952-07-05
 qualifications:
   - BSc in civil engineering
   - MA in public administration
-timeinspace:	42d18h38m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

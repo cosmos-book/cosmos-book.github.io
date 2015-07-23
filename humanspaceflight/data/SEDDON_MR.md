@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BA in physiology
   - Doctor of Medicine
-timeinspace:	30d2h22m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

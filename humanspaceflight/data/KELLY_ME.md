@@ -6,7 +6,6 @@ dob:	1964-02-21
 qualifications:
   - BSc in marine engineering & nautical science
   - MSc in aeronautical engineering
-timeinspace:	54d2h24m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

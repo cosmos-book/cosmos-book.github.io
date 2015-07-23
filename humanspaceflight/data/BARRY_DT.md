@@ -6,7 +6,6 @@ dob:	1953-12-30
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine
-timeinspace:	30d12h53m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

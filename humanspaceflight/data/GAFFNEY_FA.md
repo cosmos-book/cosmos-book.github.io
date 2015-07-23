@@ -6,7 +6,6 @@ dob:	1946-06-09
 qualifications:
   - BA in psychology
   - Doctor of Medicine
-timeinspace:	9d2h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

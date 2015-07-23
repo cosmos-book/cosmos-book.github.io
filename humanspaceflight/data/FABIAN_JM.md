@@ -7,7 +7,6 @@ qualifications:
   - BSc in mechanical engineering
   - MSc in aerospace engineering
   - PhD in aeronautics & astronautics
-timeinspace:	13d4h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

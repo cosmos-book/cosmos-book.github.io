@@ -5,7 +5,6 @@ type:	civilian
 dob:	1944-09-18
 qualifications:
   - BSc in engineering management
-timeinspace:	18d4h18m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1952-02-22
 qualifications:
   - BSc in mechanical engineering
   - Doctor of Medicine
-timeinspace:	14d1h53m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

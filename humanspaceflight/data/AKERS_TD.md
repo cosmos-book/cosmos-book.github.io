@@ -5,7 +5,6 @@ type:	military
 dob:	1951-05-20
 qualifications:
   - MSc in applied mathematics
-timeinspace:	33d22h44m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

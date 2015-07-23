@@ -4,7 +4,6 @@ name:	CENKER, Robert
 type:	civilian
 dob:	1948-11-05
 qualifications:
-timeinspace:	6d2h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -7,7 +7,6 @@ qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical engineering
   - PhD in aeronautics and astronautics
-timeinspace:	198d18h2m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

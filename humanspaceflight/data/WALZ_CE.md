@@ -5,7 +5,6 @@ type:	military
 dob:	1955-09-06
 qualifications:
   - BSc in physics
-timeinspace:	230d13h4m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

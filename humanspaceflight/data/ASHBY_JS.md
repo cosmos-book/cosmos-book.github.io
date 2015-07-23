@@ -6,12 +6,11 @@ dob:	1954
 qualifications:
   - BSc in mechanical engineering
   - MSc in aviation systems
-timeinspace:	27d07h42m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
   - name: STS-93
-    time_start:   1999-07-23T16:31Z
+    time_start:   1999-07-23T04:31Z
     time_end:     1999-07-28T03:21Z
   - name: STS-100
     time_start:   2001-04-19T18:40:42Z

@@ -6,7 +6,6 @@ dob:	1958-08-16
 qualifications:
   - BSc in physics
   - PhD in applied physics
-timeinspace:	44d8h9m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

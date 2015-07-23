@@ -6,7 +6,6 @@ dob:	1960-02-09
 gender:	Female
 qualifications:
   - PhD in biochemistry
-timeinspace:	376d17h22m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

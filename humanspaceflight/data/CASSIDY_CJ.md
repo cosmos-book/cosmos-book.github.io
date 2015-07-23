@@ -6,7 +6,6 @@ dob:	1970-01-04
 qualifications:
   - BSc in mathematics
   - MSc in Ocean Engineering
-timeinspace:	15d16h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

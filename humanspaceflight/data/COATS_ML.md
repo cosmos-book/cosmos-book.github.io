@@ -5,7 +5,6 @@ type:	military
 dob:	1946-01-16
 qualifications:
   - MSc in administration of science & technology
-timeinspace:	19d7h57m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1956-05-04
 qualifications:
   - BSc in physics
   - PhD in bioengineering
-timeinspace:	43d7h1m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

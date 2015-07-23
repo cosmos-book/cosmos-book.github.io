@@ -6,7 +6,6 @@ dob:	1955-09-21
 qualifications:
   - BA in mathematics and physics
   - MSc in aerospace engineering
-timeinspace:	31d22h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

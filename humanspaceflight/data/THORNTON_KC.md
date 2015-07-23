@@ -8,7 +8,6 @@ qualifications:
   - BSc in physics
   - MSc in physics
   - PhD in physics
-timeinspace:	40d15h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1942-08-26
 qualifications:
   - BSc in engineering science
   - MSc in astronautical engineering
-timeinspace:	160d21h17m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

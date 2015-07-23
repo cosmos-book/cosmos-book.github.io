@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in engineering science
   - MSc in aerospace engineering
-timeinspace:	42d23h46m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

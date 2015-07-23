@@ -5,7 +5,6 @@ type:	military
 dob:	1933-10-22
 qualifications:
   - MSc in nuclear engineering
-timeinspace:	5d0h23m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -4,7 +4,6 @@ name:	NELSON, Bill
 type:	military
 dob:	1942-09-29
 qualifications:
-timeinspace:	6d2h4m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

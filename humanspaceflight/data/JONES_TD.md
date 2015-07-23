@@ -5,7 +5,6 @@ type:	civilian
 dob:	1955-01-22
 qualifications:
   - BSc in basic sciences
-timeinspace:	53d0h49m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

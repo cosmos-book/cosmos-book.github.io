@@ -5,7 +5,6 @@ type:	civilian
 dob:	1939-09-07
 qualifications:
   - MSc in administration
-timeinspace:	6d23h55m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

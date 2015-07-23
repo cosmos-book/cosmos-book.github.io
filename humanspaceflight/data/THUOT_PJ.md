@@ -6,7 +6,6 @@ dob:	1955-05-19
 qualifications:
   - BSc in physics
   - MSc in system management
-timeinspace:	27d6h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

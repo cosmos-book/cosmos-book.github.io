@@ -5,7 +5,6 @@ type:	military
 dob:	1951-08-12
 qualifications:
   - Doctor of Medicine
-timeinspace:	16d21h48m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

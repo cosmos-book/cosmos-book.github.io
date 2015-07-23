@@ -6,7 +6,6 @@ dob:	1956-09-29
 qualifications:
   - BSc in engineering
   - MSc in management
-timeinspace:	52d10h34m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

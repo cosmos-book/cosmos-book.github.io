@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in ocean engineering
   - MSc in ocean engineering
-timeinspace:	50d22h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

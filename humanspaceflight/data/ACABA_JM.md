@@ -9,7 +9,6 @@ gender:	Male
 qualifications:
   - BSc in geology
   - MSc in geology
-timeinspace:	137d19h22m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

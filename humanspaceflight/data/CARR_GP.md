@@ -7,7 +7,6 @@ qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautical engineering
   - ScD in aeronautical engineering
-timeinspace:	84d1h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

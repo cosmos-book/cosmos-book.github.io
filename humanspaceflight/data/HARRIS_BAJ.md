@@ -6,7 +6,6 @@ dob:	1956-06-26
 qualifications:
   - BSc in biology
   - Doctor of Medicine
-timeinspace:	18d6h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -4,7 +4,6 @@ name:	WALKER, David M.
 type:	military
 dob:	1944-05-20
 qualifications:
-timeinspace:	30d4h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

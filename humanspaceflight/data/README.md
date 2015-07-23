@@ -8,9 +8,9 @@ Humans who have been into space are separated into five categories:
 * international - Other countries
 * tourist - Space tourists
 
-## Time in space
+## Country
 
-This field is a placeholder and may or may not exist. It comes from a NASA document and represents a minimum time the person has spent in spaceflight. The actual time may be longer - add up all their mission time and use whichever is longer.
+This is either the [ISO 3166 alpha-3 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) or the [IOC country code](https://en.wikipedia.org/wiki/List_of_IOC_country_codes) for countries that no longer exist e.g. Soviet Union and Czechoslovakia. People can have more than one country.
 
 ## Missions
 

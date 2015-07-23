@@ -5,7 +5,6 @@ type:	civilian
 dob:	1956-09-16
 qualifications:
   - BSc in astronautical engineering
-timeinspace:	52d17h21m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

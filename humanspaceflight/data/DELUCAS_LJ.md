@@ -5,7 +5,6 @@ type:	civilian
 dob:	1950-07-11
 qualifications:
   - MSc in chemistry
-timeinspace:	13d19h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

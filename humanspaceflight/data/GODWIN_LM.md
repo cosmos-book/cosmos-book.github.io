@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in mathematics & physics
   - PhD in physics
-timeinspace:	38d6h33m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

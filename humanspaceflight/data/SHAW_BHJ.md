@@ -6,7 +6,6 @@ dob:	1945-05-16
 qualifications:
   - BSc in engineering mechanics
   - MSc in engineering mechanics
-timeinspace:	22d5h52m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

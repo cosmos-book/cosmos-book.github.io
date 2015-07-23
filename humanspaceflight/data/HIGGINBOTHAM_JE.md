@@ -6,7 +6,6 @@ dob:	1964-08-03
 gender:	Female
 qualifications:
   - BSc in electrical engineering
-timeinspace:	12d20h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

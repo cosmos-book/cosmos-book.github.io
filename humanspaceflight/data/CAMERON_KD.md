@@ -5,7 +5,6 @@ type:	military
 dob:	1949-11-29
 qualifications:
   - MSc in aeronautics & astronautics from MIT Graduated
-timeinspace:	23d10h11m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

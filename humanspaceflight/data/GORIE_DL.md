@@ -6,7 +6,6 @@ dob:	1957-05-02
 qualifications:
   - BSc in ocean engineering
   - MSc in aviation systems
-timeinspace:	48d15h27m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

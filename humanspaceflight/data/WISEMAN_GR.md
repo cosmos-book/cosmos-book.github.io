@@ -6,7 +6,6 @@ dob:	1975-11-11
 qualifications:
   - BSc in computer & systems engineering
   - MSc in systems engineering
-timeinspace:	0
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

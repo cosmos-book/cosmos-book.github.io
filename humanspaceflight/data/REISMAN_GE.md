@@ -7,7 +7,6 @@ qualifications:
   - BSc in economics
   - MSc in mechanical engineering
   - PhD in mechanical engineering
-timeinspace:	107d3h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

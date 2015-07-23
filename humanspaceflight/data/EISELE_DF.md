@@ -6,7 +6,6 @@ dob:	1930-06-23
 qualifications:
   - BSc in astronautics
   - MSc in astronautics
-timeinspace:	10d20h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -5,7 +5,6 @@ type:	military
 dob:	1967-12-01
 qualifications:
   - BSc in mathematics & minor in French
-timeinspace:	13d18h6m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

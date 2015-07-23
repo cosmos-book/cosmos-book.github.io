@@ -5,7 +5,6 @@ type:	civilian
 dob:	1935-10-25
 qualifications:
   - MSc in aeronautics & astronautics
-timeinspace:	10d1h
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

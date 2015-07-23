@@ -7,15 +7,14 @@ qualifications:
   - BSc in aerospace engineering
   - MSc in international relations
   - PhD in astronautical engineering
-timeinspace:	157d13h9m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
   - name: STS-128
     time_start:   2009-08-29T03:59Z
     time_end:     2009-09-12T00:54Z
-  - name: Expedition 33/34 on Soyuz
-    time_start:   
-    time_end:     
+  - name: Soyuz TMA-06M
+    time_start:   2012-10-23T10:51:11Z
+    time_end:     2013-03-16T03:12Z
 evas:
 ---

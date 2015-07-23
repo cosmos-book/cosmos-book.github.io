@@ -4,7 +4,6 @@ name:	PAILES, William A.
 type:	military
 dob:	1952-06-26
 qualifications:
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

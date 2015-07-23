@@ -6,7 +6,6 @@ dob:	1950-11-16
 qualifications:
   - BSc in electronics engineering
   - MSc in electronics engineering
-timeinspace:	29d16h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

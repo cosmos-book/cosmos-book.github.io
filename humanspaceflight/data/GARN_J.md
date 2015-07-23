@@ -5,7 +5,6 @@ type:	military
 dob:	1932-10-12
 qualifications:
   - BSc in business and finance
-timeinspace:	6d23h55m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

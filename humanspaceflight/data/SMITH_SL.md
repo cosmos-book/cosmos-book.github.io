@@ -6,7 +6,6 @@ dob:	1958-12-30
 qualifications:
   - BSc in electrical engineering
   - MSc in electrical engineering
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1940-09-12
 qualifications:
   - BSc in physics
   - PhD in physics
-timeinspace:	19d15h58m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -9,7 +9,6 @@ qualifications:
   - MSc in physiology and biophysics
   - MA in literature
   - Doctor of Medicine
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

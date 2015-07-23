@@ -6,7 +6,6 @@ dob:	1951-11-28
 gender:	Female
 qualifications:
   - BA in human biology
-timeinspace:	12d17h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

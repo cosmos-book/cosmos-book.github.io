@@ -4,7 +4,6 @@ name:	LOVELL, James A., Jr.
 type:	military
 dob:	1928-03-25
 qualifications:
-timeinspace:	29d19h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

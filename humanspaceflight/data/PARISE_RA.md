@@ -7,7 +7,6 @@ qualifications:
   - BSc in physics
   - MSc in astronomy
   - PhD in astronomy
-timeinspace:	25d14h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

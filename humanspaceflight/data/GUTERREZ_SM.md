@@ -6,7 +6,6 @@ dob:	1951-06-27
 qualifications:
   - BSc in aeronautical engineering
   - MA in management
-timeinspace:	20d8h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

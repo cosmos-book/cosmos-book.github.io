@@ -6,7 +6,6 @@ dob:	1933-10-17
 qualifications:
   - BSc in nuclear engineering
   - MSc in nuclear engineering
-timeinspace:	6d3h0m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

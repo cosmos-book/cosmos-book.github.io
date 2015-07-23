@@ -4,7 +4,6 @@ name:	GREGORY, Frederick D.
 type:	military
 dob:	1941-01-07
 qualifications:
-timeinspace:	18d23h7m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

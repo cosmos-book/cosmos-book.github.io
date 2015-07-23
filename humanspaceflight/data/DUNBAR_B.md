@@ -6,13 +6,12 @@ dob:	1949-03-03
 gender:	Female
 qualifications:
   - MSc in ceramic engineering
-timeinspace:	50d7h40m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
   - name: STS-61-A
     time_start:   1985-10-30T17:00Z
-    time_end:     1985-11-16T17:44:52Z
+    time_end:     1985-11-06T17:44:52Z
   - name: STS-32
     time_start:   1990-01-09T12:35Z
     time_end:     1990-01-20T09:35:38Z

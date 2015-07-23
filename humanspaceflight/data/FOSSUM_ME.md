@@ -6,7 +6,6 @@ dob:	1957-12-19
 qualifications:
   - BSc in mechanical engineering
   - MSc in systems engineering
-timeinspace:	193d19h2m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1964-02-15
 qualifications:
   - BSc in chemistry
   - MSc in materials science engineering
-timeinspace:	23d13h38m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

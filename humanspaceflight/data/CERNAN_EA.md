@@ -6,7 +6,6 @@ dob:	1934-03-14
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical engineering
-timeinspace:	23d14h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1964-02-21
 qualifications:
   - BSc in electrical engineering
   - MSc in aviation systems
-timeinspace:	180d1h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -16,8 +15,11 @@ missions:
   - name: STS-118
     time_start:   2007-08-08T22:36:42Z
     time_end:     2007-08-21T16:33:21Z
-  - name: Expedition 26 on Soyuz
-    time_start:   
+  - name: Soyuz TMA-01M
+    time_start:   2010-10-07T23:10:55Z
+    time_end:     2011-03-16T07:55Z
+  - name: Soyuz TMA-16M
+    time_start:   2015-03-27T19:42:57Z
     time_end:     
 evas:
 ---

@@ -5,7 +5,6 @@ type:	military
 dob:	1921-07-18
 qualifications:
   - BSc in engineering
-timeinspace:	9d2h39m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

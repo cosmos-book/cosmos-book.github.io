@@ -5,7 +5,6 @@ type:	military
 dob:	1945-06-13
 qualifications:
   - BSc in engineering science
-timeinspace:	26d3h11m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

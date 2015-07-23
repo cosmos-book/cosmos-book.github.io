@@ -4,7 +4,6 @@ name:	SCHIRRA, Walter M.
 type:	military
 dob:	1923-03-12
 qualifications:
-timeinspace:	12d7h12m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

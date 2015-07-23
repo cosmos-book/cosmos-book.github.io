@@ -6,7 +6,6 @@ dob:	1958-10
 qualifications:
   - BSc in physics
   - PhD in physics
-timeinspace:	58d15h3m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

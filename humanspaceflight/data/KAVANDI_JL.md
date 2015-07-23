@@ -8,7 +8,6 @@ qualifications:
   - BSc in chemistry
   - MSc in chemistry
   - PhD in analytical chemistry
-timeinspace:	33d20h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

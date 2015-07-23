@@ -5,7 +5,6 @@ type:	military
 dob:	1943-07-19
 qualifications:
   - MSc in astronautics
-timeinspace:	7d22h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

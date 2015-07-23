@@ -5,7 +5,6 @@ type:	civilian
 dob:	1955-10-26
 qualifications:
   - MSc in mechanical engineering
-timeinspace:	48d9h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

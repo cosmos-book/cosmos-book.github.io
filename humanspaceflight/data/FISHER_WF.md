@@ -6,7 +6,6 @@ dob:	1946-04-01
 qualifications:
   - MSc in engineering
   - Doctor of Medicine
-timeinspace:	7d2h17m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

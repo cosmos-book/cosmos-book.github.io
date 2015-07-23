@@ -6,7 +6,6 @@ dob:	1936-11-08
 qualifications:
   - BSc in engineering
   - PhD in engineering
-timeinspace:	84d1h15m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

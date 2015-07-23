@@ -6,7 +6,6 @@ dob:	1967-06-04
 qualifications:
   - BSc in aerospace engineering
   - MSc in operations research
-timeinspace:	15d20h30m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

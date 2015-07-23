@@ -6,7 +6,6 @@ dob:	1935-07-03
 qualifications:
   - BSc in geology
   - PhD in geology
-timeinspace:	12d13h51m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

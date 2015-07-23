@@ -5,7 +5,6 @@ type:	civilian
 dob:	1944-05-28
 qualifications:
   - BSc in applied mathematics
-timeinspace:	8d5h23m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

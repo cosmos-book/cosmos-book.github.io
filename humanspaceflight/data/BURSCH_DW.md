@@ -6,7 +6,6 @@ dob:	1957-07-25
 qualifications:
   - BSc in physics
   - MSc in engineering science
-timeinspace:	226d22h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -19,9 +18,12 @@ missions:
   - name: STS-77
     time_start:   1996-05-19T10:30Z
     time_end:     1996-05-29T11:09:19Z
-  - name: Expedition 4: STS-108 Endeavour (up) and STS-111 Endeavour (down)
-    time_start:   
+  - name: STS-108
+    time_start:   2001-12-05T22:19:28Z
     time_end:     
+  - name: STS-111
+    time_start:   
+    time_end:     2002-06-19T17:58:45Z
 evas:
   - time_start: 
     duration:   11h48m

@@ -6,7 +6,6 @@ dob:	1952-01-26
 qualifications:
   - BSc in earth & planetary science
   - MSc in atmospheric physics
-timeinspace:	22d23h8m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

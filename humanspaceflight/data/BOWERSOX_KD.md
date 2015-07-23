@@ -6,7 +6,6 @@ dob:	1956-11-14
 qualifications:
   - BSc in aerospace engineering
   - MSc in mechanical engineering
-timeinspace:	211d14h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
@@ -25,12 +24,9 @@ missions:
   - name: STS-113
     time_start:   2002-11-23T00:49:47Z
     time_end:     
-  - name: Expedition 6 ' STS-113 Endeavour (up)
+  - name: Soyuz TMA-1
     time_start:   
-    time_end:     
-  - name: Expedition 6 ' Soyuz (down)
-    time_start:   
-    time_end:     
+    time_end:     2003-05-04T02:04:25Z
 evas:
   - time_start: 
     duration:   13h17m

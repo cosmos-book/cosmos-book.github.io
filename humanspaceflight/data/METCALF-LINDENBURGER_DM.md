@@ -6,7 +6,6 @@ dob:	1975-05-02
 gender:	Female
 qualifications:
   - BA in geology
-timeinspace:	15d2h47m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -5,7 +5,6 @@ type:	military
 dob:	1936-10-11
 qualifications:
   - MSc in mechanical engineering
-timeinspace:	15d22h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

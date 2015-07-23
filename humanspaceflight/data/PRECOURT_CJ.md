@@ -7,7 +7,6 @@ qualifications:
   - BSc in aeronautical engineering
   - MSc in engineering management
   - MA in national security affairs & strategic studies
-timeinspace:	39d14h16m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

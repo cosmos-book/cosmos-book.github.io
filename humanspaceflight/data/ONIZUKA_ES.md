@@ -6,7 +6,6 @@ dob:	1946-06-24
 qualifications:
   - BSc in aerospace engineering
   - MSc in aerospace engineering
-timeinspace:	3d1h33m
 diedinspace:	Disintegration during launch
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

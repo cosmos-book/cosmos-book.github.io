@@ -6,7 +6,6 @@ dob:	1960-12-03
 qualifications:
   - BSc in engineering physics
   - PhD in computer science
-timeinspace:	26d15h41m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -6,7 +6,6 @@ dob:	1959-10-08
 qualifications:
   - BSc in computer science
   - MSc in computer science
-timeinspace:	20d1h18m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

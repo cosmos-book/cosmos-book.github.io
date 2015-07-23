@@ -6,7 +6,6 @@ dob:	1930-11-22
 qualifications:
   - BSc in electrical engineering
   - PhD in electrical engineering
-timeinspace:	69d18h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

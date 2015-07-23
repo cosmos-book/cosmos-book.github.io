@@ -5,7 +5,6 @@ type:	military
 dob:	1959-12-25
 qualifications:
   - MSc in physics
-timeinspace:	24d18h8m
 diedinspace:	Disintegration during re-entry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

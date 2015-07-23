@@ -7,7 +7,6 @@ gender:	Female
 qualifications:
   - BSc in applied biology
   - PhD in mechanical engineering
-timeinspace:	28d0h58m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

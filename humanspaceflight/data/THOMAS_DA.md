@@ -7,7 +7,6 @@ qualifications:
   - BSc in physics
   - MSc in materials science
   - PhD in materials science
-timeinspace:	43d8h13m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

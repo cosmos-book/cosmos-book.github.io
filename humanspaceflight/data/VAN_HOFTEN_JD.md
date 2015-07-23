@@ -7,7 +7,6 @@ qualifications:
   - BSc in civil engineering
   - MSc in hydraulic engineering
   - PhD in fluid mechanics
-timeinspace:	14d2h57m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

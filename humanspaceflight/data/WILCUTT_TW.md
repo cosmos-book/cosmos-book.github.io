@@ -5,7 +5,6 @@ type:	military
 dob:	1949-10-31
 qualifications:
   - BA in mathematics
-timeinspace:	42d0h5m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

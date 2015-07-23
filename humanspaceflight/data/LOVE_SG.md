@@ -6,7 +6,6 @@ dob:	1965-06-08
 qualifications:
   - BSc in physics
   - PhD in astronomy
-timeinspace:	
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

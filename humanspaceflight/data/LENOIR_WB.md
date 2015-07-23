@@ -7,7 +7,6 @@ qualifications:
   - BSc in electrical engineering
   - MSc in electrical engineering
   - PhD in electrical engineering
-timeinspace:	5d2h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

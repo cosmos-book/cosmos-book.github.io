@@ -4,7 +4,6 @@ name:	WALKER, Charles D
 type:	civilian
 dob:	1948-08-29
 qualifications:
-timeinspace:	19d21h56m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

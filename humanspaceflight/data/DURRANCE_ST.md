@@ -5,7 +5,6 @@ type:	civilian
 dob:	1943-09-17
 qualifications:
   - MSc in physics
-timeinspace:	25d14h14m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

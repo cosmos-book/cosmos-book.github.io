@@ -5,7 +5,6 @@ type:	military
 dob:	1954-07-30
 qualifications:
   - BSc in aerospace engineering
-timeinspace:	12d21h38m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

@@ -7,7 +7,6 @@ qualifications:
   - BA in mathematics
   - MA in astronomy
   - PhD in astronomy
-timeinspace:	7d22h45m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

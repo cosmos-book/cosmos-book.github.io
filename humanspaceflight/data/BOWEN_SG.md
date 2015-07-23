@@ -6,7 +6,6 @@ dob:	1964-02-13
 qualifications:
   - BSc in electrical engineering
   - MSc in Ocean Engineering
-timeinspace:	40d10h5m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

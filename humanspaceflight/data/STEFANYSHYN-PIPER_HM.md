@@ -6,7 +6,6 @@ dob:	1963-02-07
 gender:	Female
 qualifications:
   - BSc in mechanical engineering
-timeinspace:	27d15h36m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:

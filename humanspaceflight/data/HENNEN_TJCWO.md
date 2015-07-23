@@ -4,7 +4,6 @@ name:	HENNEN, Thomas J. Chief Warrant Officer
 type:	military
 dob:	1952-08-17
 qualifications:
-timeinspace:	6d22h50m
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
