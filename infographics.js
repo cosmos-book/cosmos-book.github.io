@@ -239,7 +239,7 @@ function addHistory(qs,fn,a){
 //     'html':function(){}
 // )
 function tooltip(data){
-	data.elements.on('mouseover',{data:data},function(d){
+	data.elements.on('mouseover click',{data:data},function(d){
 		//$('.tooltip').remove();
 		var text = d.data.data.html.call(this);
 		var l = parseInt($(this).offset().left);
