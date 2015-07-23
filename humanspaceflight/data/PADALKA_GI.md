@@ -27,16 +27,18 @@ missions:
 evas:
   - time_start: 1998-11-10
     duration:   5h54m
-  - time_start: 2004-06-24
+  - time_start: 2004-06-24T21:56Z
     duration:   0h14m
-  - time_start: 2004-06-30
+  - time_start: 2004-06-30T21:19Z
     duration:   5h40m
-  - time_start: 2004-08-03
+  - time_start: 2004-08-03T06:58Z
     duration:   4h30m
-  - time_start: 2004-09-03
-    duration:   5h21m
-  - time_start: 2009-06-05
+  - time_start: 2004-09-03T16:43Z
+    duration:   5h20m
+  - time_start: 2009-06-05T07:52Z
     duration:   4h54m
+  - time_start: 2009-06-10T06:55Z
+    duration:   0h12m
   - time_start: 2012-08-20
     duration:   5h51m
 gender:	Male
