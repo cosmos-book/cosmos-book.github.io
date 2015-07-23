@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
 missions:
 evas:
+gender:	Male
 ---

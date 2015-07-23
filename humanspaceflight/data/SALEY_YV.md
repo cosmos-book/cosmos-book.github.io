@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/saley_yevgeni.htm
 missions:
 evas:
+gender:	Male
 ---

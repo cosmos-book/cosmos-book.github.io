@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dolgopolov_gennadi.htm
 missions:
 evas:
+gender:	Male
 ---

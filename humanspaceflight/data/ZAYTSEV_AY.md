@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zaytsev_andrei.htm
 missions:
 evas:
+gender:	Male
 ---

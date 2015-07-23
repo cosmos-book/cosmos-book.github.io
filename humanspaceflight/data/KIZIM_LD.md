@@ -38,4 +38,5 @@ evas:
     duration:   3h50m
   - time_start: 1986-05-31
     duration:   5h02m
+gender:	Male
 ---

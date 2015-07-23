@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/money_kenneth.htm
 missions:
 evas:
+gender:	Male
 ---

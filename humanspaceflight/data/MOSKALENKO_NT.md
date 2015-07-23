@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/moskalenko_nikolai.htm
 missions:
 evas:
+gender:	Male
 ---

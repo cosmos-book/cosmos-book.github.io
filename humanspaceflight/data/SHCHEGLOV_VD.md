@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/shcheglov_vasili.htm
 missions:
 evas:
+gender:	Male
 ---

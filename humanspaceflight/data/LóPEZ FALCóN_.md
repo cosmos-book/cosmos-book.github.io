@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/lopez-falcon_jose.htm
 missions:
 evas:
+gender:	Male
 ---

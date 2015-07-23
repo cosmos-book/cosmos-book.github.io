@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/fefelov_nikolai.htm
 missions:
 evas:
+gender:	Male
 ---

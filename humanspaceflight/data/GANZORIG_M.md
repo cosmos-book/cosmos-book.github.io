@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/ganzorig_maidarzhavin.htm
 missions:
 evas:
+gender:	Male
 ---

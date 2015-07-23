@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/filatiyev_valentin.htm
 missions:
 evas:
+gender:	Male
 ---

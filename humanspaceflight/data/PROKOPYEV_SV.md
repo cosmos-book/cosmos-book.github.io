@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/prokopyev_sergei.htm
 missions:
 evas:
+gender:	Male
 ---

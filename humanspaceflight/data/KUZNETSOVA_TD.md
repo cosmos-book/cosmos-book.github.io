@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/enomoto_daisuke.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/peralta_ricardo.htm
 missions:
 evas:
+gender:	Male
 ---

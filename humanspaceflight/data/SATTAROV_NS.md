@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sattarov_nail.htm
 missions:
 evas:
+gender:	Male
 ---

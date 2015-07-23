@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/nelyubov_grigori.htm
 missions:
 evas:
+gender:	Male
 ---

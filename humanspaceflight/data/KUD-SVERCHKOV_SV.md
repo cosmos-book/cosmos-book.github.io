@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kud-sverchkov_sergei.htm
 missions:
 evas:
+gender:	Male
 ---

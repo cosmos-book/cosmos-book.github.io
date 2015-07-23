@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/machinski_georgi.htm
 missions:
 evas:
+gender:	Male
 ---

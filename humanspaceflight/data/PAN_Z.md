@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/pan_zhanchun.htm
 missions:
 evas:
+gender:	Male
 ---

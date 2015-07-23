@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/bhat_nagapathi.htm
 missions:
 evas:
+gender:	Male
 ---

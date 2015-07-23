@@ -50,4 +50,5 @@ evas:
     duration:   4h12m
   - time_start: 2005-08-18
     duration:   4h58m
+gender:	Male
 ---

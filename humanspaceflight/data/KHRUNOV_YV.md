@@ -20,4 +20,5 @@ missions:
 evas:
   - time_start: 1969-01-16
     duration:   0h37m
+gender:	Male
 ---

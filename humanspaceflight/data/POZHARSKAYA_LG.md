@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/pozharskaya_larisa.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/khaleed_faiz.htm
 missions:
 evas:
+gender:	Male
 ---

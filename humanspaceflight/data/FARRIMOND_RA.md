@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/farrimond_richard.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zakharova_tamara.htm
 missions:
 evas:
+gender:	Male
 ---

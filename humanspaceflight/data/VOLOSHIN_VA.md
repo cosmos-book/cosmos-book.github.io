@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/voloshin_valeri.htm
 missions:
 evas:
+gender:	Male
 ---

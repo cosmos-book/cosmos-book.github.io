@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/anikeyev_ivan.htm
 missions:
 evas:
+gender:	Male
 ---

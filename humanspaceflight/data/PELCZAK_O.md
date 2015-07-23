@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/pelczak_oldrich.htm
 missions:
 evas:
+gender:	Male
 ---

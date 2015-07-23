@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/mukhortov_pavel.htm
 missions:
 evas:
+gender:	Male
 ---

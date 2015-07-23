@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/stoyanov_krasimir.htm
 missions:
 evas:
+gender:	Male
 ---

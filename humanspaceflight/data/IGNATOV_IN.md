@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ignatov_ignat.htm
 missions:
 evas:
+gender:	Male
 ---

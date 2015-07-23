@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ivanova_yekaterina.htm
 missions:
 evas:
+gender:	Male
 ---

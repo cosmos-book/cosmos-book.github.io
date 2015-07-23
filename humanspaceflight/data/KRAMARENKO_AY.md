@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kramarenko_aleksandr.htm
 missions:
 evas:
+gender:	Male
 ---

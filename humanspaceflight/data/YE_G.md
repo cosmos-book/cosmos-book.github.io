@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/ye_guangfu.htm
 missions:
 evas:
+gender:	Male
 ---

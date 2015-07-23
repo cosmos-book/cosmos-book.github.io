@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/skvortsov_aleksandr_sen.htm
 missions:
 evas:
+gender:	Male
 ---

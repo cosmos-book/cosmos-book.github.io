@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/patat_frederic.htm
 missions:
 evas:
+gender:	Male
 ---

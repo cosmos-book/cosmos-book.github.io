@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/matinchenko_aleksandr.htm
 missions:
 evas:
+gender:	Male
 ---

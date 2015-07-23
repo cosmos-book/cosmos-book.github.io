@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/wu_jie.htm
 missions:
 evas:
+gender:	Male
 ---

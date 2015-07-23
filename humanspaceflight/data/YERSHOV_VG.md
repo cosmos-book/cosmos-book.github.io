@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/yershov_valentin.htm
 missions:
 evas:
+gender:	Male
 ---

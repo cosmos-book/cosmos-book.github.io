@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/grishchenko_vitali.htm
 missions:
 evas:
+gender:	Male
 ---

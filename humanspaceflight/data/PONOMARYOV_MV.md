@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ponomaryov_maksim.htm
 missions:
 evas:
+gender:	Male
 ---

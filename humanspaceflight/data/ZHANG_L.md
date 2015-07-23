@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/zhang_lu.htm
 missions:
 evas:
+gender:	Male
 ---

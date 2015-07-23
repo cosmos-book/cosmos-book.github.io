@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/latysheva_irina.htm
 missions:
 evas:
+gender:	Male
 ---

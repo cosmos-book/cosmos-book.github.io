@@ -23,4 +23,5 @@ evas:
     duration:   6h10m
   - time_start: 1992-02-20
     duration:   4h12m
+gender:	Male
 ---

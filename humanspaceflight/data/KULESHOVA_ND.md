@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kuleshova_natalya.htm
 missions:
 evas:
+gender:	Male
 ---

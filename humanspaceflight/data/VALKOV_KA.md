@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/valkov_konstantin.htm
 missions:
 evas:
+gender:	Male
 ---

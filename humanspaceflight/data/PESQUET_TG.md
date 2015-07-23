@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
 missions:
 evas:
+gender:	Male
 ---

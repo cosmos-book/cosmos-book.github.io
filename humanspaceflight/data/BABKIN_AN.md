@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/babkin_andrei.htm
 missions:
 evas:
+gender:	Male
 ---

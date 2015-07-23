@@ -24,4 +24,5 @@ missions:
     time_start:   
     time_end:     1978-09-03T11:40:35Z
 evas:
+gender:	Male
 ---

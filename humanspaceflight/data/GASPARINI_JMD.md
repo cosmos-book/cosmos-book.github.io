@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/gasparini_jean-marc.htm
 missions:
 evas:
+gender:	Male
 ---

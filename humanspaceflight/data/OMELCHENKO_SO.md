@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
 missions:
 evas:
+gender:	Male
 ---

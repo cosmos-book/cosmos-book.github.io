@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zabolotsky_viktor.htm
 missions:
 evas:
+gender:	Male
 ---

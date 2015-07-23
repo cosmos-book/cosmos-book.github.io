@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/fulier_michal.htm
 missions:
 evas:
+gender:	Male
 ---

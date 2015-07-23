@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/rafikov_mars.htm
 missions:
 evas:
+gender:	Male
 ---

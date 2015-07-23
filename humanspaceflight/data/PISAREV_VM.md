@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/pisarev_viktor.htm
 missions:
 evas:
+gender:	Male
 ---

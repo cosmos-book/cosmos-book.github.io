@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dobrokvashina_yelena.htm
 missions:
 evas:
+gender:	Male
 ---

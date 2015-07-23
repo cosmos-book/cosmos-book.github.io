@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/morgensen_andreas.htm
 missions:
 evas:
+gender:	Male
 ---

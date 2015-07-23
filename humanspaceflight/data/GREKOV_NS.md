@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/grekov_nikolai.htm
 missions:
 evas:
+gender:	Male
 ---

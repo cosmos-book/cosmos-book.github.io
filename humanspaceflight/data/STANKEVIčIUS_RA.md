@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/stankyavichus_rimantas.htm
 missions:
 evas:
+gender:	Male
 ---

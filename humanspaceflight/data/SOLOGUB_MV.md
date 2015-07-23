@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sologub_mikhail.htm
 missions:
 evas:
+gender:	Male
 ---

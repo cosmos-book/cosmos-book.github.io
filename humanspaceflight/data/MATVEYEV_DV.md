@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
 missions:
 evas:
+gender:	Male
 ---

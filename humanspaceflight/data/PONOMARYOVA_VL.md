@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ponomaryova_valentina.htm
 missions:
 evas:
+gender:	Male
 ---

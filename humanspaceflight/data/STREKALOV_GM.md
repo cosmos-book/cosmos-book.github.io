@@ -39,4 +39,5 @@ evas:
     duration:   6h52m
   - time_start: 1995-05-22
     duration:   5h15m
+gender:	Male
 ---

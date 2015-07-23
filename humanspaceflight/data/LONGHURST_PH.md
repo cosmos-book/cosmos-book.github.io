@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/longhurst_peter.htm
 missions:
 evas:
+gender:	Male
 ---

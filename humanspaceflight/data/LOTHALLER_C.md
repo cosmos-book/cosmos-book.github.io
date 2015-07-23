@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/lothaller_clemens.htm
 missions:
 evas:
+gender:	Male
 ---

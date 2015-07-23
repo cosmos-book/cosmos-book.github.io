@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/merchez_marianne.htm
 missions:
 evas:
+gender:	Male
 ---

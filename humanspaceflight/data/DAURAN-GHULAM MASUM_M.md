@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/dauran_mohammed.htm
 missions:
 evas:
+gender:	Male
 ---

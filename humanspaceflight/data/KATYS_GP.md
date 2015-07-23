@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/katys_georgi.htm
 missions:
 evas:
+gender:	Male
 ---

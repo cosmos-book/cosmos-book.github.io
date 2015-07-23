@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/andreyev_boris.htm
 missions:
 evas:
+gender:	Male
 ---

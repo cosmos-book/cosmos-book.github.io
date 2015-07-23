@@ -19,4 +19,5 @@ evas:
     duration:   5h30m
   - time_start: 2013-07-16
     duration:   1h32m
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/malhotra_ravish.htm
 missions:
 evas:
+gender:	Male
 ---

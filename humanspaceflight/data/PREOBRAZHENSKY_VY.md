@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/preobrazhensky_vladimir.htm
 missions:
 evas:
+gender:	Male
 ---

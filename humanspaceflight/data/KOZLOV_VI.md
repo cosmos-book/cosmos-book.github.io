@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kozlov_vladimir.htm
 missions:
 evas:
+gender:	Male
 ---

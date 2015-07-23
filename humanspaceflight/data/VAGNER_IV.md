@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/wagner_ivan.htm
 missions:
 evas:
+gender:	Male
 ---

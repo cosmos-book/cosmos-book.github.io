@@ -45,4 +45,5 @@ evas:
     duration:   0h38m
   - time_start: 1993-10-29
     duration:   4h12m
+gender:	Male
 ---

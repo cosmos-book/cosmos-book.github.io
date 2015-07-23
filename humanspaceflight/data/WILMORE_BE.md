@@ -17,4 +17,5 @@ missions:
 evas:
   - time_start: 2014-10-15
     duration:   6h34m
+gender:	Male
 ---

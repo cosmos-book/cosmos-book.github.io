@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/liem_bui.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/vorobiyov_lev.htm
 missions:
 evas:
+gender:	Male
 ---

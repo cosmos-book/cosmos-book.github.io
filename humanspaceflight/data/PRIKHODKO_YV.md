@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/prikhodko_yuri.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/batalli-cosmovici_cristiano.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -12,4 +12,5 @@ missions:
     time_start:   
     time_end:     
 evas:
+gender:	Male
 ---

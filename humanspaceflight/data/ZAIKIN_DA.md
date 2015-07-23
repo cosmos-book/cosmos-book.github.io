@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/zaikin_dmitri.htm
 missions:
 evas:
+gender:	Male
 ---

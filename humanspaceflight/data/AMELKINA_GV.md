@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/amelkina_galina.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/stepanov_eduard.htm
 missions:
 evas:
+gender:	Male
 ---

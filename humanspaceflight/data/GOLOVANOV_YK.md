@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/golovanov_yaroslav.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/sultanov_ural.htm
 missions:
 evas:
+gender:	Male
 ---

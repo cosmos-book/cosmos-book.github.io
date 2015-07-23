@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/habib_munir.htm
 missions:
 evas:
+gender:	Male
 ---

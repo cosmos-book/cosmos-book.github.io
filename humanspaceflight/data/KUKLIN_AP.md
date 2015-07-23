@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kuklin_anatoli.htm
 missions:
 evas:
+gender:	Male
 ---

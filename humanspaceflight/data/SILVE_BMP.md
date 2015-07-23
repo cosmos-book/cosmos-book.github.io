@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/silve_benoit.htm
 missions:
 evas:
+gender:	Male
 ---

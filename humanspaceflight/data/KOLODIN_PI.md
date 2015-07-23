@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/yorkina_zhanna.htm
 missions:
 evas:
+gender:	Male
 ---

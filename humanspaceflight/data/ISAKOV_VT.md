@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/isakov_vladimir.htm
 missions:
 evas:
+gender:	Male
 ---

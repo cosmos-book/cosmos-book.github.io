@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/isaulov_yuri.htm
 missions:
 evas:
+gender:	Male
 ---

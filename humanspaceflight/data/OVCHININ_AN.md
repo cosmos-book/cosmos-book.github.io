@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ovchinin_aleksei.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
 missions:
 evas:
+gender:	Male
 ---

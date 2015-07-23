@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 missions:
 evas:
+gender:	Male
 ---

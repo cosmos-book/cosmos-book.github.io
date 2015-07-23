@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/bruemmer_renate.htm
 missions:
 evas:
+gender:	Male
 ---

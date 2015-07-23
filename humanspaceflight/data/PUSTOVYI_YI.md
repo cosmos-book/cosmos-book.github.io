@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/pustovyi_yaroslav.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/viso_michel.htm
 missions:
 evas:
+gender:	Male
 ---

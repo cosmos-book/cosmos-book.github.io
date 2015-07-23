@@ -18,4 +18,5 @@ missions:
 evas:
   - time_start: 2008-02-13
     duration:   6h45m
+gender:	Male
 ---

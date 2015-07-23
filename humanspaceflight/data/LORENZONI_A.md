@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/lorenzoni_andrea.htm
 missions:
 evas:
+gender:	Male
 ---

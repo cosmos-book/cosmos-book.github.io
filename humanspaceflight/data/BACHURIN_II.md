@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/bachurin_ivan.htm
 missions:
 evas:
+gender:	Male
 ---

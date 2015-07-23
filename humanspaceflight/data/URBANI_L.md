@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/urbani_luca.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -27,4 +27,5 @@ missions:
 evas:
   - time_start: 1985-08-02
     duration:   5h00m
+gender:	Male
 ---

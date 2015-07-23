@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/nair_radakrishnan.htm
 missions:
 evas:
+gender:	Male
 ---

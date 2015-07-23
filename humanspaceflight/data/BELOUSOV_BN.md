@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/belousov_boris.htm
 missions:
 evas:
+gender:	Male
 ---

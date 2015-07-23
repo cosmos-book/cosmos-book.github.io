@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
 missions:
 evas:
+gender:	Male
 ---

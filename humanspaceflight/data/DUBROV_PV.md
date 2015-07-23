@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/dubrov_pyotr.htm
 missions:
 evas:
+gender:	Male
 ---

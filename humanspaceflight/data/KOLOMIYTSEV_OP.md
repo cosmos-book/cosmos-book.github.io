@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kolomiytsev_ordinard.htm
 missions:
 evas:
+gender:	Male
 ---

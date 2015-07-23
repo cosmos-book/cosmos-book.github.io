@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/chen_quan.htm
 missions:
 evas:
+gender:	Male
 ---

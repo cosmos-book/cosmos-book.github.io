@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/deng_qingming.htm
 missions:
 evas:
+gender:	Male
 ---

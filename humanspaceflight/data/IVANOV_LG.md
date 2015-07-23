@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/ivanov_leonid.htm
 missions:
 evas:
+gender:	Male
 ---

@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/lukiyanyuk_vasili.htm
 missions:
 evas:
+gender:	Male
 ---

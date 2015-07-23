@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/international/english/sudarmono_pratiwi.htm
 missions:
 evas:
+gender:	Male
 ---

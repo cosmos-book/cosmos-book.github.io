@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/buynovsky_eduard.htm
 missions:
 evas:
+gender:	Male
 ---

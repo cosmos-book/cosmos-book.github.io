@@ -9,4 +9,5 @@ references:
   - http://www.spacefacts.de/bios/cosmonauts/english/arzamazov_german.htm
 missions:
 evas:
+gender:	Male
 ---
