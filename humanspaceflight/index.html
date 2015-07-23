@@ -29,7 +29,7 @@
 		position: absolute;
 		left: 0em;
 		right: 0em;
-		top: 2.5em;
+		top: 4.5em;
 		bottom: 0em;		
 	}
 	.human {
@@ -41,8 +41,8 @@
 		top: 0px;
 		margin-top: -0.25em;
 		margin-left: -0.25em;
-	    -webkit-transition: left 2s;
-	    transition: left 2s;
+	    -webkit-transition: left 2s, top 2s;
+	    transition: left 2s, top 2s;
 	    cursor: pointer;
 	}
 	.human:hover {
@@ -68,46 +68,82 @@
 
 		loadDAT("data/processed/astronauts.tsv",parseAstronauts,{});
 
-		function parseAstronauts(data,attrs){
+		function sortBy(i){
+			astronauts.sort(function (a, b) {
+				return a[i] > b[i] 
+						   ? 1    // Move it down the list
+						   : -1;   // Keep it the same
+			});
+		}
 
-			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'}]);
+		function formatArray(str,lookup){
+			// Split array
+			var arr = str.split(/;/);
+			str = "";
+			for(var i = 0 ; i < arr.length; i++){
+				if(str) str += ", ";
+				if(lookup) str += lookup[arr[i]];
+				else str += arr[i];
+			}
+			return str;
+		}
 
-			var output = '';
+		function drawAstronauts(){
 			var mx = 0;
+			var output = "";
 			for(var i = 0; i < astronauts.length; i++){
-				output += '<div id="'+i+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/div>';
+				output += '<div id="'+astronauts[i].id+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/div>';
 				if(astronauts[i].time_space > mx) mx = astronauts[i].time_space;
 			}
 			$('.innerbox').append(output);
+			updateAstronauts();
+		}
+
+		$('#sort').on('change',function(){
+			sortBy($(this).val());
+			updateAstronauts();
+			$('.tooltip_close').trigger('click')
+		});
+
+		function updateAstronauts(){
 
 			var wide = $(window).width()-parseInt($('#0').width());
 			var tall = $(window).height()-parseInt($('#0').height());
 			var dx = tall/astronauts.length;
 			var xoff = 0;
+			var good = 0;
 			for(var i = 0; i < astronauts.length; i++){
-				y = i/astronauts.length;
+				if(astronauts[i].time_space_days > 0) good++;
+			}
+			for(var i = 0, j = 0; i < astronauts.length; i++){
+				y = j/good;
 				x = (astronauts[i].time_space_days >= 0 ? (Math.log10(astronauts[i].time_space_days)+1.1)/4 : 1);
-				if(astronauts[i].time_space_days == 0) x = -100;
-				$('#'+i).css({'left':(100*x)+"%",'top':(100*y)+"%"});
+				if(astronauts[i].time_space_days == 0){
+					x = -100;
+				}else{
+					j++;
+				}
+				$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 			}
 
-			var s = parseInt($('body').css('font-size'));
-			
-			function formatArray(str,lookup){
-				// Split array
-				var arr = str.split(/;/);
-				str = "";
-				for(var i = 0 ; i < arr.length; i++){
-					if(str) str += ", ";
-					if(lookup) str += lookup[arr[i]];
-					else str += arr[i];
-				}
-				return str;
+		}
+		
+		function parseAstronauts(data,attrs){
+
+			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'}]);
+			// Assign each one an ID
+			for(var i = 0; i < astronauts.length; i++){
+				astronauts[i].id = i;
 			}
+
+			drawAstronauts();
+			
 			tooltip({
 				'elements':$('.human'),
 				'html':function(){
-					var a = astronauts[parseInt($(this).attr('id'))];
+					var id = parseInt($(this).attr('id'));
+					for(var i = 0; i < astronauts.length; i++){ if(astronauts[i].id==id) break; }
+					var a = astronauts[i];
 					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
@@ -130,6 +166,14 @@
 <div class="outerbox">
 	<div class="middlebox">
 		<h1>Human spaceflight</h1>
+		<form>
+			<select id="sort">
+				<option value="name" selected="selected">Alphabetical</option>
+				<option value="dob">Date-of-birth</option>
+				<option value="time_eva">EVA duration</option>
+				<option value="firstlaunch_age">Age at first launch</option>
+			</select>
+		</form>
 		<div class="innerbox"></div>
 	</div>
 </div>
