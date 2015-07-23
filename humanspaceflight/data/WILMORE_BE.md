@@ -13,7 +13,7 @@ missions:
     time_end:     2009-11-27T14:44:23Z
   - name: Soyuz TMA-14M
     time_start:   2014-09-25T20:25Z
-    time_end:     
+    time_end:     2015-03-12T02:07Z
 evas:
   - time_start: 2014-10-15
     duration:   6h34m

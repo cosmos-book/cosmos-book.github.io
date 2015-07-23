@@ -11,6 +11,6 @@ references:
 missions:
   - name: Soyuz TMA-15M
     time_start:   2014-11-23T21:01:00Z
-    time_end:     
+    time_end:     2015-06-11T13:44Z
 evas:
 ---

@@ -15,6 +15,9 @@ missions:
   - name: Soyuz TMA-03M
     time_start:   2011-12-21T13:16Z
     time_end:     2012-07-01T08:15Z
+  - name: Soyuz TMA-17M
+    time_start:   2015-07-22T21:02:44Z
+    time_end:     
 evas:
   - time_start: 2008-07-10
     duration:   6h18m
