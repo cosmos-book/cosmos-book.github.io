@@ -78,13 +78,8 @@
 
 		function sortBy(i){
 			yaxis = i;
-			astronauts.sort(function (a, b) {
-				if(a[i] === b[i]){
-					return (a['name'] > b['name']) ? 1 : -1;
-				}else{
-					return a[i] > b[i] ? 1 : -1;
-				}
-				return 0;
+			astronauts = astronauts.sort(function (a, b) {
+				return a[i] > b[i] ? 1 : -1;
 			});
 		}
 
@@ -129,29 +124,41 @@
 			var dx = tall/astronauts.length;
 			var xoff = 0;
 			var good = 0;
-			var mx = -1e100;
-			var mn = 1e100;
+			var mx_x = -1e100;
+			var mn_x = 1e100;
+			var mx_y = -1e100;
+			var mn_y = 1e100;
 			if(!xaxis) xaxis = "time_space_days";
 			for(var i = 0; i < astronauts.length; i++){
 				if(astronauts[i].time_space_days > 0){
 					good++;
-					if(astronauts[i][xaxis] > mx) mx = astronauts[i][xaxis];
-					if(astronauts[i][xaxis] < mn) mn = astronauts[i][xaxis];
+					if(astronauts[i][xaxis] > mx_x) mx_x = astronauts[i][xaxis];
+					if(astronauts[i][xaxis] < mn_x) mn_x = astronauts[i][xaxis];
+					if(astronauts[i][yaxis] > mx_y) mx_y = astronauts[i][yaxis];
+					if(astronauts[i][yaxis] < mn_y) mn_y = astronauts[i][yaxis];
 				}
 			}
+			var output = "";
+			var dy = 1/good;
 			for(var i = 0, j = 0; i < astronauts.length; i++){
-				y = j/good;
+				
 				if(xaxis=="time_space_days" || xaxis=="longest_trip") x = (astronauts[i][xaxis] >= 0 ? (Math.log10(astronauts[i][xaxis])+1.1)/4 : 1);
-				else x = (astronauts[i][xaxis]-mn)/(mx-mn);
+				else x = (astronauts[i][xaxis]-mn_x)/(mx_x-mn_x);
+				
+				if(yaxis=="dob" || yaxis=="time_eva" || yaxis=="firstlaunch_age" || yaxis=="launches") y = (astronauts[i][yaxis]-mn_y)/(mx_y-mn_y);
+				else if(yaxis=="longest_trip") y = (astronauts[i][yaxis] >= 0 ? (Math.log10(astronauts[i][yaxis])+1.1)/4 : 1);
+				else y = j*dy;
+				
 				if(astronauts[i].time_space_days == 0){
 					x = -100;
 					$('#'+astronauts[i].id).remove();
 				}else{
 					j++;
+					output += astronauts[i].id+" ";
 					$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 				}
 			}
-
+			console.log(output)
 		}
 		
 		function parseAstronauts(data,attrs){
@@ -159,9 +166,7 @@
 			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'}]);
 
 			// Assign each one an ID
-			for(var i = 0; i < astronauts.length; i++){
-				astronauts[i].id = i;
-			}
+			for(var i = 0; i < astronauts.length; i++) astronauts[i].id = i;
 
 			drawAstronauts();
 			
@@ -203,7 +208,7 @@
 				<option value="firstlaunch_age">Age at first launch</option>
 				<option value="country">Country</option>
 				<option value="launches">Launches</option>
-				<option value="longest_trip">Longest single trip</option>
+				<option value="longest_trip">Longest individual trip</option>
 				<option value="gender">Gender</option>
 			</select>
 			<label for="xaxis">Horizontal</label>
