@@ -46,6 +46,7 @@
 		cursor: pointer;
 		z-index: 1;
 	}
+	.inorbit { border: 0.2em solid white; margin-left: -0.4em; margin-top: -0.4em; }
 	.human:hover, .human:focus {
 		width: 1.4em;
 		height: 1.4em;
@@ -57,6 +58,8 @@
 	    background-repeat:no-repeat;
 		background-position:center center;
 	}
+	.inorbit:focus, .inorbit:hover { margin-left: -0.8em; margin-top: -0.8em; }
+	
 	.astronaut { background-color: #00a2d3; }
 	.cosmonaut { background-color: #f04031; }
 	.taikonaut { background-color: #ffcb06; }
@@ -98,7 +101,7 @@
 		function drawAstronauts(){
 			var output = "";
 			for(var i = 0; i < astronauts.length; i++){
-				output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/a>';
+				output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+''+(astronauts[i].inspaceasof != null ? ' inorbit' : '')+'" title="'+astronauts[i].name+'"><\/a>';
 			}
 			$('.innerbox').append(output);
 			updateAstronauts();
@@ -154,16 +157,15 @@
 					$('#'+astronauts[i].id).remove();
 				}else{
 					j++;
-					output += astronauts[i].id+" ";
+					//output += astronauts[i].id+" ";
 					$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 				}
 			}
-			console.log(output)
 		}
 		
 		function parseAstronauts(data,attrs){
 
-			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'}]);
+			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'},{'name':'inspaceasof','format':'date'}]);
 
 			// Assign each one an ID
 			for(var i = 0; i < astronauts.length; i++) astronauts[i].id = i;
@@ -174,17 +176,21 @@
 				'elements':$('.human'),
 				'html':function(){
 					var id = parseInt($(this).attr('id'));
+					var now = new Date();
 					for(var i = 0; i < astronauts.length; i++){ if(astronauts[i].id==id) break; }
 					var a = astronauts[i];
+					var days = a.time_space_days;
 					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
 					text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
 					text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
-					text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days+' days<\/td><\/tr>';
+					if(a.inspaceasof != null) days += ((now-a.inspaceasof)/(1000*86400));
+					text += '<tr><td>Time in space:<\/td><td>'+days.toFixed(2)+' days<\/td><\/tr>';
 					if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
 					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
+					if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
 					text += '<\/table>';
 					text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 					return text;

@@ -142,7 +142,8 @@ function CSV2JSON(data,format,start,end){
 				}else if(format[j].format=="eval"){
 					if(line[j]!="") datum[format[j].name] = eval(line[j]);
 				}else if(format[j].format=="date"){
-					datum[format[j].name] = new Date(line[j].replace(/^"/,"").replace(/"$/,""));
+					if(line[j]) datum[format[j].name] = new Date(line[j].replace(/^"/,"").replace(/"$/,""));
+					else datum[format[j].name] = null;
 				}else if(format[j].format=="boolean"){
 					if(line[j]=="1" || line[j]=="true") datum[format[j].name] = true;
 					else if(line[j]=="0" || line[j]=="false") datum[format[j].name] = false;
@@ -249,7 +250,7 @@ function tooltip(data){
 		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
-		var dx = $(this).width()/2;
+		var dx = $(this).outerWidth()/2;
 
 		var x = l+dx;
 		var y = t+dx;
