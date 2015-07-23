@@ -256,10 +256,12 @@ function tooltip(data){
 
 		if(x+$('.tooltip').width()+fs*2 > $('.innerbox').width()){
 			x = l-$('.tooltip').width()+dx;
+			if(x < 0) x = 0;
 			c = "left";
 		}
-		if(y+$('.tooltip').height()+fs*2 > $('.innerbox').height()){
+		if(y+$('.tooltip').height()+fs*2 > $('.innerbox').offset().top+$('.innerbox').height()){
 			y = t-$('.tooltip').height()+dx;
+			if(y < 0) y = 0;
 			c += " bottom";
 		}
 		$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
