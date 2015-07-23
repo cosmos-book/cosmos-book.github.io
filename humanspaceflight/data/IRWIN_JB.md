@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	IRWIN, James B.
 type:	military
 dob:	1930-03-17

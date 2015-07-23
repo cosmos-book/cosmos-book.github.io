@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PETTIT, Donald R.
 type:	civilian
 dob:	1955-04-20

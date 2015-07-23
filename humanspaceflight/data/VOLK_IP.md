@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLK, Igor Petrovich 
 type:	military
 dob:	1937-04-12

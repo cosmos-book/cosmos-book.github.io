@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOLOVIYOVA, Irina Bayanovna 
 type:	military
 dob:	1937-09-06

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MORIN, Lee M., (M.D., Ph.D.) 
 type:	military
 dob:	1952-09-09

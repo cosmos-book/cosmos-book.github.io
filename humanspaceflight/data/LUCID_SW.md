@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LUCID, Shannon W.
 type:	civilian
 dob:	1943-01-14

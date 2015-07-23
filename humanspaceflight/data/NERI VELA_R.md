@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	NERI VELA, Rodolfo
 type:	civilian
 dob:	1952-02-19

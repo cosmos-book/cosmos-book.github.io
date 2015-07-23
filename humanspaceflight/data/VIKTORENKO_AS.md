@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VIKTORENKO, Aleksandr Stepanovich 
 type:	military
 dob:	1947-03-29

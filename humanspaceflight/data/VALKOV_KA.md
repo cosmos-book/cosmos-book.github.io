@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VALKOV, Konstantin Anatoliyevich 
 type:	military
 dob:	1971-11-11

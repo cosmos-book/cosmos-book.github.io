@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILLIAMS, Clifford C. Jr.
 type:	military
 dob:	1932-09-26

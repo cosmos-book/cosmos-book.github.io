@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DUTTON, James P., Jr.
 type:	military
 dob:	1968-11-20

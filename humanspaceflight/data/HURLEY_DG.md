@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HURLEY, Douglas G.
 type:	military
 dob:	1966-10-21

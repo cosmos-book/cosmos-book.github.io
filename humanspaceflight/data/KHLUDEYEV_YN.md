@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KHLUDEYEV, Yevgeni Nikolayevich 
 type:	military
 dob:	1940-09-10

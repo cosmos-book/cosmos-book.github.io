@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ATKOV, Oleg Yuriyevich
 type:	civilian
 dob:	1949-05-09

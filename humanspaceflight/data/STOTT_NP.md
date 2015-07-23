@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	STOTT, Nicole P.
 type:	civilian
 gender:	Female

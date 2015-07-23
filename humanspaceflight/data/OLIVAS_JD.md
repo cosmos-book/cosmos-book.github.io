@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	OLIVAS, John D.
 type:	civilian
 dob:	1966-05-25

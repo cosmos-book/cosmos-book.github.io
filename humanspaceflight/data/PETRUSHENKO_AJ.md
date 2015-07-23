@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PETRUSHENKO, Aleksandr Jakovlevich 
 type:	military
 dob:	1942-01-01

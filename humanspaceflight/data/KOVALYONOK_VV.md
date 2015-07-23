@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOVALYONOK, Vladimir Vasiliyevich 
 type:	military
 dob:	1942-03-03

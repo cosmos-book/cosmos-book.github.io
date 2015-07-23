@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	JANKOWSKI, Zenon 'Zden'
 type:	military
 dob:	1937-11-22

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	EDWARDS, Joe F., Jr.
 type:	military
 dob:	1958-02-03

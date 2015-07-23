@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TRESHCHYOV, Sergei Yevgeniyevich 
 type:	civilian
 dob:	1958-08-18

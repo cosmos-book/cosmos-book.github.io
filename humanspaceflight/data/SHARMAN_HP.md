@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	SHARMAN, Helen Patricia 'Lenochka'
 type:	civilian
 dob:	1963-05-30

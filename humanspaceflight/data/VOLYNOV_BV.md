@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLYNOV, Boris Valentinovich 
 type:	military
 dob:	1934-12-18

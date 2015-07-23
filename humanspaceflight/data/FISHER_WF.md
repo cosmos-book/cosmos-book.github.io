@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FISHER, William F.
 type:	civilian
 dob:	1946-04-01

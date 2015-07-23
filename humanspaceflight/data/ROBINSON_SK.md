@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ROBINSON, Stephen K.
 type:	civilian
 dob:	1955-10-26

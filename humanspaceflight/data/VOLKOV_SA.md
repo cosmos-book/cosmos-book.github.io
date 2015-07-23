@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLKOV, Sergei Aleksandrovich 
 type:	military
 dob:	1973-04-01

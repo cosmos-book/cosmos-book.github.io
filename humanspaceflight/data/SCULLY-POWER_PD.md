@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCULLY-POWER, Paul D.
 type:	civilian
 dob:	1944-05-28

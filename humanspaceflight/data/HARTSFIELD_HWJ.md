@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HARTSFIELD, Henry W., Jr.
 type:	military
 dob:	1933-11-21

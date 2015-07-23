@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SURAYEV, Maksim Viktorovich 
 type:	military
 dob:	1972-05-24

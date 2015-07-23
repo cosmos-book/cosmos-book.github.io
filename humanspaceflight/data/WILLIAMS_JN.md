@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILLIAMS, Jeffrey N.
 type:	military
 dob:	1958-01-18

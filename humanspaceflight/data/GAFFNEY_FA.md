@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GAFFNEY, F. Andrew (Drew)
 type:	civilian
 dob:	1946-06-09

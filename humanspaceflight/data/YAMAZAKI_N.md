@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	YAMAZAKI, Naoko
 type:	civilian
 dob:	1970-12-27

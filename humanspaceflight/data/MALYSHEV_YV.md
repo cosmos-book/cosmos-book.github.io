@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MALYSHEV, Yuri Vasiliyevich 
 type:	military
 dob:	1941-08-27

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HALSELL, James D., Jr.
 type:	military
 dob:	1956-09-29

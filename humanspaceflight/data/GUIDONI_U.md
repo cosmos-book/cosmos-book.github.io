@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	GUIDONI, Umberto
 type:	civilian
 dob:	1954-08-18

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BORODIN, Aleksandr Viktorovich
 type:	civilian
 dob:	1953-03-03

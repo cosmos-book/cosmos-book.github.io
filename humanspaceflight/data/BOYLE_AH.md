@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BOYLE, Anthony Hugh
 type:	civilian
 dob:	1941-01-18

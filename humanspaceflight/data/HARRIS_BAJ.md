@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HARRIS, Bernard A., Jr.
 type:	civilian
 dob:	1956-06-26

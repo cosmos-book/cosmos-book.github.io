@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BORMAN, Frank
 type:	military
 dob:	1928-03-14

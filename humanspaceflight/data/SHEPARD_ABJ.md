@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SHEPARD, Alan B. Jr.
 type:	military
 dob:	1923-11-18

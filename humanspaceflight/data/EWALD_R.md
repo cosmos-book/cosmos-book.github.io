@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	EWALD, Reinhold
 type:	civilian
 dob:	1956-12-18

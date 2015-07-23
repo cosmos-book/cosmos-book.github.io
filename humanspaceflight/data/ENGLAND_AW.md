@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ENGLAND, Anthony W.
 type:	civilian
 dob:	1942-05-15

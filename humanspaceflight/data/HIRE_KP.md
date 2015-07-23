@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HIRE, Kathryn P. 'Kay'
 type:	military
 dob:	1959-08-26

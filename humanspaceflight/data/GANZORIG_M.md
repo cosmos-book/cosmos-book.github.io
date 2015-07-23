@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	GANZORIG, Maidarzhavyn
 type:	civilian
 dob:	1949-02-05

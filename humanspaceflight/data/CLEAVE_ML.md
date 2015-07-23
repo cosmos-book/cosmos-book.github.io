@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CLEAVE, Mary L.
 type:	civilian
 dob:	1947-02-05

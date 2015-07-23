@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	WAKATA, Koichi
 type:	civilian
 dob:	1963-08-01

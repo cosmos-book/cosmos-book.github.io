@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILCUTT, Terrence W.
 type:	military
 dob:	1949-10-31

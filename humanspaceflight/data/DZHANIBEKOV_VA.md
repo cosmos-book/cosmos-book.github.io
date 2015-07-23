@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DZHANIBEKOV, Vladimir Aleksandrovich
 type:	military
 dob:	1942-05-13

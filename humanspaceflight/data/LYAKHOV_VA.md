@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LYAKHOV, Vladimir Afanasiyevich 
 type:	military
 dob:	1941-07-20

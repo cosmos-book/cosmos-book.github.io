@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BEREZOVOY, Anatoli Nikolayevich
 type:	military
 dob:	1942-04-11

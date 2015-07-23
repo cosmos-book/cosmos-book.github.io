@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GORIE, Dominic L.
 type:	military
 dob:	1957-05-02

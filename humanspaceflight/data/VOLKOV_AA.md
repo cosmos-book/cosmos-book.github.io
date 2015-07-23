@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLKOV, Aleksandr Aleksandrovich 
 type:	military
 dob:	1948-05-27

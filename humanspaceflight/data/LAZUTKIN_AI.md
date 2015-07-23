@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LAZUTKIN, Aleksandr Ivanovich 
 type:	civilian
 dob:	1957-10-30

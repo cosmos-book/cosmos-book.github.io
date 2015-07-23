@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GAYDUKOV, Sergei Nikolayevich
 type:	military
 dob:	1936-10-31

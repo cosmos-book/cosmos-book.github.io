@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BEAN, Alan L.
 type:	military
 dob:	1932-03-15

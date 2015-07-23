@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KORNIYENKO, Mikhail Borisovich 
 type:	civilian
 dob:	1960-04-15

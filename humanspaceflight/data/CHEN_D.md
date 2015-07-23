@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	CHEN, Dong
 type:	military
 dob:	

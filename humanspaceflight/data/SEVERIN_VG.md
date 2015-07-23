@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SEVERIN, Vladimir Gayevich 
 type:	civilian
 dob:	1956-11-20

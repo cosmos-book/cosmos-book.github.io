@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KALERI, Aleksandr Yuriyevich
 type:	civilian
 dob:	1956-05-13

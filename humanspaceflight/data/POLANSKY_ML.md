@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	POLANSKY, Mark L.
 type:	civilian
 dob:	1956-06-02

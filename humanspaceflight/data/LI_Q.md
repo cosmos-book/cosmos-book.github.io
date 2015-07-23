@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	LI, Qinglong
 type:	civilian
 dob:	

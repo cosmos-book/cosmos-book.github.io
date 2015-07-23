@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	AL-BASSAM, Abdulmohsen Hamad
 type:	military
 dob:	1948-12-12

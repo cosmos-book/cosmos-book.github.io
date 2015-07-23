@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LINNEHAN, Richard M.
 type:	civilian
 dob:	1957-09-19

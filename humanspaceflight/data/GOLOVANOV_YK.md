@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GOLOVANOV, Yaroslav Kirillovich
 type:	civilian
 dob:	1932-06-02

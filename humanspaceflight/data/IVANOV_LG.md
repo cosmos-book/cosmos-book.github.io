@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	IVANOV, Leonid Georgiyevich
 type:	military
 dob:	1950-06-25

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GARRIOTT, Owen K.
 type:	civilian
 dob:	1930-11-22

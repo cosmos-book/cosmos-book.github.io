@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ZAMKA, George D.
 type:	military
 dob:	1962-06-29

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KARTASHOV, Anatoli Yakovlevich
 type:	military
 dob:	1932-08-25

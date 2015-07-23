@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GERNHARDT, Michael L.
 type:	civilian
 dob:	1956-05-04

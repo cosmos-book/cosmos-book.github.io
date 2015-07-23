@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FISHER, Anna L.
 type:	civilian
 dob:	1949-08-24

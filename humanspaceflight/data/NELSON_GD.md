@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NELSON, George D.
 type:	civilian
 dob:	1950-07-13

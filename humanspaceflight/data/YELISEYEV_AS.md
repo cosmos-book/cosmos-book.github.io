@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YELISEYEV, Aleksei Stanislavovich 
 type:	civilian
 dob:	1934-07-13

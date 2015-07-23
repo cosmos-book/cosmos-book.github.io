@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	NIKOLAYEV, Andriyan Grigoriyevich 
 type:	military
 dob:	1929-09-05

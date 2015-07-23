@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MERBOLD, Ulf Dietrich
 type:	civilian
 dob:	1941-06-20

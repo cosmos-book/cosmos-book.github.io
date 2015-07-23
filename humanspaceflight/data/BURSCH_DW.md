@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BURSCH, Daniel W.
 type:	military
 dob:	1957-07-25

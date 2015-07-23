@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DURRANCE, Samuel T.
 type:	civilian
 dob:	1943-09-17

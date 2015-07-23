@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GRECHKO, Georgi Mikhailovich
 type:	civilian
 dob:	1931-05-25

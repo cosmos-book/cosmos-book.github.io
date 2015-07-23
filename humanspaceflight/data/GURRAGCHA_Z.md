@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	GURRAGCHA, Zhugderdemidiyn 'Gurr'
 type:	military
 dob:	1947-12-05

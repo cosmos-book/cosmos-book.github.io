@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THORNTON, William E.
 type:	civilian
 dob:	1929-04-14

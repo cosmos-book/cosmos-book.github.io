@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOLOMIYTSEV, Ordinard Panteleymonovich 
 type:	civilian
 dob:	1933-01-29

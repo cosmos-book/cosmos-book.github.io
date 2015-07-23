@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LINENGER, Jerry M.
 type:	military
 dob:	1955-01-16

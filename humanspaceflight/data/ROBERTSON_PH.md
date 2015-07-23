@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ROBERTSON, Patricia Hilliard
 type:	civilian
 dob:	1963-03-12

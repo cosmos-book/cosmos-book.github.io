@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HENNEN, Thomas J. Chief Warrant Officer
 type:	military
 dob:	1952-08-17

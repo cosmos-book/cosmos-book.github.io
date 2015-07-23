@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HERNANDEZ, Jose M.
 type:	civilian
 dob:	1962-08-07

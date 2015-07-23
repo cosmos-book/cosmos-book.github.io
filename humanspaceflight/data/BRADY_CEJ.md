@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BRADY, Charles E., Jr.
 type:	military
 dob:	1951-08-12

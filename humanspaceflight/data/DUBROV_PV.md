@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DUBROV, Pyotr Valerievich
 type:	civilian
 dob:	1978-01-30

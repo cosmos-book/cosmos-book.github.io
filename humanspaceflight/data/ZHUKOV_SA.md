@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZHUKOV, Sergei Aleksandrovich
 type:	civilian
 dob:	1956-09-08

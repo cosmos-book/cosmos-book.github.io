@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LAZAREV, Vasili Grigoriyevich 
 type:	military
 dob:	1928-02-23

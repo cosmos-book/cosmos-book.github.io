@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	CHEN, Quan
 type:	military
 dob:	

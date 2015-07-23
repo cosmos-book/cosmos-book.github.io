@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BORODAY, Aleksei Sergeyevich
 type:	military
 dob:	1947-07-28

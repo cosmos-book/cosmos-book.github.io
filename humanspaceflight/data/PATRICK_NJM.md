@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PATRICK, Nicholas J.M.
 type:	civilian
 dob:	1964-03-22

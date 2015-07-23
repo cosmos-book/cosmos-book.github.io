@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GRAVELINE, Duane F.
 type:	civilian
 dob:	1931-03-02

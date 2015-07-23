@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ARTSEBARSKY, Anatoli Pavlovich
 type:	military
 dob:	1956-09-09

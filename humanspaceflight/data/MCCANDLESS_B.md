@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCCANDLESS, Bruce, II
 type:	military
 dob:	1937-06-08

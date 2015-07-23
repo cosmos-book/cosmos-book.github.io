@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CREAMER, Timothy J.
 type:	military
 dob:	1959-11-15

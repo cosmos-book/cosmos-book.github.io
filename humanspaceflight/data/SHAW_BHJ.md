@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SHAW, Brewster H., Jr.
 type:	military
 dob:	1945-05-16

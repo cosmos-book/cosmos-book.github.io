@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MACLEAN, Steven Glenwood
 type:	civilian
 dob:	1954-12-14

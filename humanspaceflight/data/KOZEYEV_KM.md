@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOZEYEV, Konstantin Mirovich 
 type:	civilian
 dob:	1967-12-01

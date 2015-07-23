@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	RYAZANSKY, Sergei Nikolayevich
 type:	civilian
 dob:	1974-11-13

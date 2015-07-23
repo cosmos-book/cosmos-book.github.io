@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MUSGRAVE, Story 
 type:	civilian
 dob:	1935-08-19

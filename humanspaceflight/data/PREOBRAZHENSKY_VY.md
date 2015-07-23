@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PREOBRAZHENSKY, Vladimir Yevgeniyevich 
 type:	military
 dob:	1939-02-03

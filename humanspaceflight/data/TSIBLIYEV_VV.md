@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TSIBLIYEV, Vasili Vasiliyevich 
 type:	military
 dob:	1954-02-20

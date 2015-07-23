@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	DEDIU, Dumitru
 type:	military
 dob:	1942-05-12

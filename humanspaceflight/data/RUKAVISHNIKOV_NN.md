@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	RUKAVISHNIKOV, Nikolai Nikolayevich 
 type:	civilian
 dob:	1932-09-18

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HOSHIDE, Akihiko
 type:	civilian
 dob:	1968-12-28

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KONDAKOVA, Yelena Vladimirovna 
 type:	civilian
 dob:	1957-03-30

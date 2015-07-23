@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FAVIER, Jean-Jacques
 type:	civilian
 dob:	1949-04-13

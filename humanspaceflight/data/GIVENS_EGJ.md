@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GIVENS, Edward G. Jr.
 type:	military
 dob:	1930-01-05

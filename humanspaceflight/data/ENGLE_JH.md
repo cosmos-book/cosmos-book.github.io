@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ENGLE, Joe H.
 type:	military
 dob:	1932-08-26

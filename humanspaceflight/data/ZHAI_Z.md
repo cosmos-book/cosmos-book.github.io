@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	ZHAI, Zhigang
 type:	military
 dob:	1966-11-21

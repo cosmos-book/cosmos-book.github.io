@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZABOLOTSKY, Viktor Vasiliyevich 
 type:	civilian
 dob:	1946-04-19

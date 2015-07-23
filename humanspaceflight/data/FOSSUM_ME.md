@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FOSSUM, Michael E.
 type:	civilian
 dob:	1957-12-19

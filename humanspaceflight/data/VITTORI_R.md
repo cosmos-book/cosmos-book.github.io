@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	VITTORI, Roberto
 type:	military
 dob:	1964-10-15

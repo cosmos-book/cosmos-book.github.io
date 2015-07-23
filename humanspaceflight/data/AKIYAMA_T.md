@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	AKIYAMA, Toyohiro
 type:	civilian
 dob:	1942-07-22

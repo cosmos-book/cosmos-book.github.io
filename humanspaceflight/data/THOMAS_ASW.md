@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THOMAS, Andrew S.W.
 type:	civilian
 dob:	1951-12-18

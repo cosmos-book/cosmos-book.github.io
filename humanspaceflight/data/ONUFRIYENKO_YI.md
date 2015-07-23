@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ONUFRIYENKO, Yuri Ivanovich 
 type:	military
 dob:	1961-02-06

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MALENCHENKO, Yuri Ivanovich 
 type:	military
 dob:	1961-12-22

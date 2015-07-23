@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SMITH, Michael J.
 type:	military
 dob:	1945-08-30

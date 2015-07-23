@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KRIKALYOV, Sergei Konstantinovich 
 type:	civilian
 dob:	1958-08-27

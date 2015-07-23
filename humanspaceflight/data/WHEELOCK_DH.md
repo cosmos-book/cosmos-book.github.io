@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WHEELOCK, Douglas H.
 type:	military
 dob:	1960-05-05

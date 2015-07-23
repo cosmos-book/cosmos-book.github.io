@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	NIE, Haisheng
 type:	military
 dob:	1964-09-08

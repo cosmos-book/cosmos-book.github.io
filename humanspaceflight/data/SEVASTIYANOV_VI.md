@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SEVASTIYANOV, Vitali Ivanovich 
 type:	civilian
 dob:	1935-07-08

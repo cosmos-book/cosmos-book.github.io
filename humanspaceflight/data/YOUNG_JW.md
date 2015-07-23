@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	YOUNG, John W.
 type:	military
 dob:	1930-09-24

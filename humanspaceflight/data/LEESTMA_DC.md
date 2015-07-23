@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LEESTMA, David C.
 type:	military
 dob:	1949-05-06

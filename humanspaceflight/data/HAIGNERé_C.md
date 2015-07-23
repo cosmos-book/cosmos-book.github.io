@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HAIGNERé, Claudie
 type:	civilian
 dob:	1957-05-13

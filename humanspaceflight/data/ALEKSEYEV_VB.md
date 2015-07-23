@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ALEKSEYEV, Vladimir Borisovich
 type:	military
 dob:	1933-08-19

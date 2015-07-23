@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KREGEL, Kevin R.
 type:	civilian
 dob:	1956-09-16

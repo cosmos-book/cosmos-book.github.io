@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FARKAS, Bertalan 'Bertsi'
 type:	military
 dob:	1949-08-02

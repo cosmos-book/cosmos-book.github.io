@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BOWERSOX, Kenneth D.
 type:	military
 dob:	1956-11-14

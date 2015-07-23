@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	RYZHIKOV, Sergei Nikolaevich
 type:	military
 dob:	1974-08-19

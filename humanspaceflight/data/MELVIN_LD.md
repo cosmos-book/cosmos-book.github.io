@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MELVIN, Leland D.
 type:	civilian
 dob:	1964-02-15

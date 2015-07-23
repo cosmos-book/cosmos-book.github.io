@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SULTANOV, Ural Nazibovich 
 type:	military
 dob:	1948-11-18

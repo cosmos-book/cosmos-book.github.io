@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	POGUE, William
 type:	military
 dob:	1930-01-23

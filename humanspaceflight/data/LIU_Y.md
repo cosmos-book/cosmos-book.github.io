@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	LIU, Yang
 type:	civilian
 dob:	1978-10-06

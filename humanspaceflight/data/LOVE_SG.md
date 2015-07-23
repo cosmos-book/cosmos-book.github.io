@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOVE, Stanley G.
 type:	civilian
 dob:	1965-06-08

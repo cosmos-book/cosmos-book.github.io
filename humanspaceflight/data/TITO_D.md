@@ -1,4 +1,5 @@
 ---
+category:	tourist
 name:	TITO, Dennis
 type:	tourist
 dob:	1940-08-08

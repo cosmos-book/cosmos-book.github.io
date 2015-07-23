@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BACHURIN, Ivan Ivanovich
 type:	military
 dob:	1942-01-29

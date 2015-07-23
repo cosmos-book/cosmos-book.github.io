@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BABKIN, Andrei Nikolayevich
 type:	civilian
 dob:	1969-04-21

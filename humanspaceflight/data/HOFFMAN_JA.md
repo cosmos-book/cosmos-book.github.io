@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HOFFMAN, Jeffrey A.
 type:	civilian
 dob:	1944-11-02

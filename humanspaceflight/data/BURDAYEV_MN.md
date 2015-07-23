@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BURDAYEV, Mikhail Nikolayevich
 type:	military
 dob:	1932-08-27

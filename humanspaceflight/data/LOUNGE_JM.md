@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOUNGE, John M. 'Mike'
 type:	civilian
 dob:	1946-06-28

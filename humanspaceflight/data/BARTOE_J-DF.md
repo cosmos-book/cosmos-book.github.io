@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BARTOE, John-David F.
 type:	civilian
 dob:	1944-11-17

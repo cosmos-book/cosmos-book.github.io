@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RICHARDS, Paul W.
 type:	civilian
 dob:	1964-05-20

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DEGTYARYOV, Vladimir Aleksandrovich
 type:	military
 dob:	1932-04-04

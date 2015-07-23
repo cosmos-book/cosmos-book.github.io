@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BARRATT, Michael R.
 type:	civilian
 dob:	1959-04-16

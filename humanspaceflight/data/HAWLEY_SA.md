@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HAWLEY, Steven A.
 type:	civilian
 dob:	1951-12-12

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PERRIN, Philippe
 type:	military
 dob:	1963-01-06

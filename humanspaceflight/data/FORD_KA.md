@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FORD, Kevin A., (Ph.D.)
 type:	military
 dob:	1960-07-07

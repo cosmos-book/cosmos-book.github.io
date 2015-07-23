@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ARTEMYEV, Oleg Germanovich
 type:	civilian
 dob:	1970-12-28

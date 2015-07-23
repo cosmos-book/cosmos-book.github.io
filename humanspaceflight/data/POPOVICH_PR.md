@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POPOVICH, Pavel Romanovich 
 type:	military
 dob:	1930-10-05

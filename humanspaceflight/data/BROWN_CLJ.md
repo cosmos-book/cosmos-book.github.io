@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BROWN, Curtis L., Jr.
 type:	military
 dob:	1956-03-11

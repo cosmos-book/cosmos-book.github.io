@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SEROVA, Yelena Olegovna
 type:	civilian
 dob:	1976-04-22

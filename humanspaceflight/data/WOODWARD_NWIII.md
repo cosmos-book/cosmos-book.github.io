@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WOODWARD, Neil W., III
 type:	military
 dob:	1962-07-26

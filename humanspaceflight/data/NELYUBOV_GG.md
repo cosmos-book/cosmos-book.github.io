@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	NELYUBOV, Grigori Grigoriyevich 
 type:	military
 dob:	1934-03-31

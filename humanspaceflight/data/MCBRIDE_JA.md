@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCBRIDE, Jon Andrew
 type:	military
 dob:	1943-08-14

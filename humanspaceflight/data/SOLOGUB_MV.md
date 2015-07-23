@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOLOGUB, Mikhail Vladimirovich 
 type:	military
 dob:	1936-11-06

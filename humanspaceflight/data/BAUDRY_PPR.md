@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BAUDRY, Patrick Pierre Roger
 type:	military
 dob:	1946-03-06

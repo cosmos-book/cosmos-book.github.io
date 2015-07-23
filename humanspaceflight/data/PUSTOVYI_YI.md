@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PUSTOVYI, Yaroslav Igoryevich 'Yarko'
 type:	military
 dob:	1970-12-29

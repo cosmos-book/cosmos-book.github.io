@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	CHELI, Maurizio
 type:	military
 dob:	1959-05-04

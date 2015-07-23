@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FYODOROV, Anatoli Pawlovich
 type:	military
 dob:	1941-04-14

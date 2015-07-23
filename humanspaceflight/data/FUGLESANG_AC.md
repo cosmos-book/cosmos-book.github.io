@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FUGLESANG, Arne Christer
 type:	civilian
 dob:	1957-03-18

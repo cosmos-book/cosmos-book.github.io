@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GREGORY, Frederick D.
 type:	military
 dob:	1941-01-07

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WEBER, Mary E.
 type:	civilian
 dob:	1962-08-24

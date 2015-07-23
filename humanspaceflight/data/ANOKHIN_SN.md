@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ANOKHIN, Sergei Nikolayevich
 type:	military
 dob:	1910-04-01

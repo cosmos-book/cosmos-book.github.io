@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PAILES, William A.
 type:	military
 dob:	1952-06-26

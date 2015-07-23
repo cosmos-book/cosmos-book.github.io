@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PONOMARYOVA, Valentina Leonidovna 
 type:	military
 dob:	1933-09-18

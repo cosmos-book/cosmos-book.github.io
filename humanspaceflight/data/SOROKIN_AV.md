@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOROKIN, Aleksei Vasiliyevich 
 type:	military
 dob:	1931-03-30

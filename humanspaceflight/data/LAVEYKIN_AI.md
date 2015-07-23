@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LAVEYKIN, Aleksandr Ivanovich 
 type:	civilian
 dob:	1951-04-21

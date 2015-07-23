@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SWIGERT, John L., Jr.
 type:	civilian
 dob:	1931-08-30

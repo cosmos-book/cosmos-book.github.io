@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ROMINGER, Kent V.
 type:	military
 dob:	1956-08-07

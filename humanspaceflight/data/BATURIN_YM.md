@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BATURIN, Yuri Mikhailovich
 type:	military
 dob:	1949-06-12

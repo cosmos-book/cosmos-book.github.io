@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	REISMAN, Garrett E.
 type:	civilian
 dob:	1968-02-10

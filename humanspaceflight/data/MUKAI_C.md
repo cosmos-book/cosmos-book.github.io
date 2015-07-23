@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MUKAI, Chiaki
 type:	civilian
 dob:	1952-05-06

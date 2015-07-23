@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COATS, Michael L.
 type:	military
 dob:	1946-01-16

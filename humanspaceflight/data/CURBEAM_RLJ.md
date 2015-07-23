@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CURBEAM, Robert L., Jr.
 type:	military
 dob:	1962-03-05

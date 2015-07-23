@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KIZIM, Leonid Denisovich 
 type:	military
 dob:	1941-08-05

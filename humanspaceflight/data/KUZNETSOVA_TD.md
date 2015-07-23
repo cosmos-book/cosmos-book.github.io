@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUZNETSOVA, Tatiyana Dmitriyevna 
 type:	military
 dob:	1941-07-14

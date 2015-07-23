@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	TRINH, Eugene H.
 type:	civilian
 dob:	1950-09-14

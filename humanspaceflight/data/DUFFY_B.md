@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DUFFY, Brian
 type:	military
 dob:	1953-06-20

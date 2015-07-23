@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MOHRI, Mamoru
 type:	civilian
 dob:	1948-01-29

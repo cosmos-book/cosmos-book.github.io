@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	VAN DEN BERG, Lodewijk
 type:	civilian
 dob:	1932-03-24

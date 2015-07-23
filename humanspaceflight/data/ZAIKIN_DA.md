@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZAIKIN, Dmitri Alekseyevich 
 type:	military
 dob:	1932-04-29

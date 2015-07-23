@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YAZDOVSKY, Valeri Aleksandrovich 
 type:	civilian
 dob:	1930-06-08

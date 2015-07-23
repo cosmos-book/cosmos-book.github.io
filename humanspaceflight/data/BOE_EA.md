@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BOE, Eric A.
 type:	military
 dob:	1964-10-01

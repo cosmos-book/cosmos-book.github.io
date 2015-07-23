@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCCOOL, William
 type:	military
 dob:	1961-09-23

@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	ZHANG, Lu
 type:	military
 dob:	

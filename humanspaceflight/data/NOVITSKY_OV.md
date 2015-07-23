@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	NOVITSKY, Oleg Viktorovich
 type:	military
 dob:	1971-10-12

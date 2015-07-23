@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YORKINA, Zhanna Dmitriyevna 
 type:	military
 dob:	1939-05-06

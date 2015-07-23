@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JARVIS, Gregory
 type:	civilian
 dob:	1944-08-24

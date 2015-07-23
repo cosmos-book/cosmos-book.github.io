@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CABANA, Robert D. 
 type:	military
 dob:	1949-01-23

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RUNCO, Mario, Jr.
 type:	military
 dob:	1952-01-26

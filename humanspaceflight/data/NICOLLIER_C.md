@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	NICOLLIER, Claude
 type:	military
 dob:	1944-09-02

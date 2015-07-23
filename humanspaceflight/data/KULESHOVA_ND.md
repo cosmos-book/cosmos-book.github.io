@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KULESHOVA, Natalya Dmitriyevna 
 type:	civilian
 dob:	1956-03-14

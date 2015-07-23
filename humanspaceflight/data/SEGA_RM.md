@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SEGA, Ronald M.
 type:	military
 dob:	1952-12-04

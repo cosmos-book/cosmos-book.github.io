@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOTOV, Oleg Valeriyevich 
 type:	military
 dob:	1965-10-27

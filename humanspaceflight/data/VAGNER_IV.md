@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VAGNER, Ivan Viktorovich 
 type:	civilian
 dob:	1985-07-10

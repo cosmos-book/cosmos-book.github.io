@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WHITSON, Peggy A.
 type:	civilian
 dob:	1960-02-09

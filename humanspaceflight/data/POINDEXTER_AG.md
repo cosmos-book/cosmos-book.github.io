@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	POINDEXTER, Alan G.
 type:	military
 dob:	1961-11-05

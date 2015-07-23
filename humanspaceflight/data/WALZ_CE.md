@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALZ, Carl E.
 type:	military
 dob:	1955-09-06

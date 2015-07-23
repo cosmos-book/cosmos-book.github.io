@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PHAM, Tu&acirc;n
 type:	military
 dob:	1947-02-14

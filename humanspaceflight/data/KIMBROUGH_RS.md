@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KIMBROUGH, Robert Shane
 type:	military
 dob:	1967-06-04

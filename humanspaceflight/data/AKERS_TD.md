@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	AKERS, Thomas D.
 type:	military
 dob:	1951-05-20

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KHRUNOV, Yevgeni Vasiliyevich 
 type:	military
 dob:	1933-09-10

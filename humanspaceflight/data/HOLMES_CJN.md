@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HOLMES, Christopher John Nicholas
 type:	civilian
 dob:	1950-07-10

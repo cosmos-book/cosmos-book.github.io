@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MAYO, Itzhak
 type:	military
 dob:	1954-09-14

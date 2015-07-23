@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BUGROV, Vladimir Yevgrafovich
 type:	civilian
 dob:	1933-01-18

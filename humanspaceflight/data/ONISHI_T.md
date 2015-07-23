@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	ONISHI, Takuya
 type:	civilian
 dob:	1975

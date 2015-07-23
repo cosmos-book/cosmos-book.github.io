@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	JING, Haipeng
 type:	military
 dob:	1966-10-24

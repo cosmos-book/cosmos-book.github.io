@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FABIAN, John M.
 type:	military
 dob:	1939-01-28

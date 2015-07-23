@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BOBKO, Karol J.
 type:	military
 dob:	1937-12-23

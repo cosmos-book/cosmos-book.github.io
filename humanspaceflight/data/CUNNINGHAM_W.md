@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CUNNINGHAM, Walter
 type:	civilian
 dob:	1932-03-16

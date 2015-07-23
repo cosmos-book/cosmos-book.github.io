@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FISCHER, Jack David '2fish'
 type:	military
 dob:	1974-01-23

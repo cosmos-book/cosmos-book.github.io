@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SEDDON, Margaret Rhea
 type:	civilian
 dob:	1947-11-08

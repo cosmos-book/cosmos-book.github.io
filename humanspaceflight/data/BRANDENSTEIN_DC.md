@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BRANDENSTEIN, Daniel C.
 type:	military
 dob:	1943-01-17

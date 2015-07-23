@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KONDRATIYEV, Dmitri Yuriyevich 
 type:	military
 dob:	1969-05-25

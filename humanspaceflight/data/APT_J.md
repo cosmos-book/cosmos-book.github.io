@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	APT, Jerome
 type:	civilian
 dob:	1949-04-18

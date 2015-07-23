@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	VISO, Michel Yves
 type:	civilian
 dob:	1951-06-16

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TITOV, Vladimir Georgiyevich 
 type:	military
 dob:	1947-01-01

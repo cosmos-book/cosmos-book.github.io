@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HOROWITZ, Scott J.
 type:	military
 dob:	1957-03-24

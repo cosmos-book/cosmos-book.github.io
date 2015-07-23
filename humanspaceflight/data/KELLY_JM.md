@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KELLY, James M.
 type:	military
 dob:	1964-05-14

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MULLANE, Richard M.
 type:	military
 dob:	1945-09-10

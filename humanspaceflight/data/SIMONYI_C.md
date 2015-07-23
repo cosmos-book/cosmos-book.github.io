@@ -1,4 +1,5 @@
 ---
+category:	tourist
 name:	SIMONYI, Charles
 type:	tourist
 dob:	1948-09-10

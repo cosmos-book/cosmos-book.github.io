@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TARELKIN, Yevgeni Igorevich
 type:	military
 dob:	1974-12-29

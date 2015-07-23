@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PRONINA, Irina Rudolfovna 
 type:	civilian
 dob:	1953-04-14

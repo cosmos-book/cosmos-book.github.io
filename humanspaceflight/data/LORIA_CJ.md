@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LORIA, Christopher J. 'Gus'
 type:	military
 dob:	1960-07-09

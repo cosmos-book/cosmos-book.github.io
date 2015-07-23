@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ARZAMAZOV, German Semyonovich
 type:	civilian
 dob:	1946-03-09

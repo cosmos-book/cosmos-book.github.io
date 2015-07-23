@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	IGNATOV, Ignat Nikolaevich
 type:	civilian
 dob:	1982-03-20

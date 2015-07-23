@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	ZHANG, Xiaoguan
 type:	civilian
 dob:	

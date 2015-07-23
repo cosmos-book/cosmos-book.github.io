@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LISUN, Mikhail Ivanovich 
 type:	military
 dob:	1935-09-05

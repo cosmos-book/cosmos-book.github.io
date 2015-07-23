@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	WU, Jie
 type:	military
 dob:	1963-10-26

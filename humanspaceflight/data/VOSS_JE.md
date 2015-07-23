@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	VOSS, Janice E.
 type:	civilian
 dob:	1956-10-08

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PONOMARYOV, Yuri Anatoliyevich 
 type:	civilian
 dob:	1932-03-24

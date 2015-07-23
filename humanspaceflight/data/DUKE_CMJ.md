@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DUKE, Charles M., Jr.
 type:	military
 dob:	1935-10-03

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	REILLY, James F.
 type:	civilian
 dob:	1954-03-18

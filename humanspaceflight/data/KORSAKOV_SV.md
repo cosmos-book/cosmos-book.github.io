@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KORSAKOV, Sergei Vladimirovich
 type:	civilian
 dob:	1984-09-01

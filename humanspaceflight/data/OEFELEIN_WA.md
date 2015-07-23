@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	OEFELEIN, William A.
 type:	military
 dob:	1965-03-29

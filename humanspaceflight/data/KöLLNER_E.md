@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	KöLLNER, Eberhard 'Eb'
 type:	military
 dob:	1939-09-29

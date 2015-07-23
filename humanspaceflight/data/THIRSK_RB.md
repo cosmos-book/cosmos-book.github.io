@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	THIRSK, Robert Brent
 type:	civilian
 dob:	1953-08-17

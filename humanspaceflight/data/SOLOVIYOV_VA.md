@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOLOVIYOV, Vladimir Alekseyevich 
 type:	civilian
 dob:	1946-11-11

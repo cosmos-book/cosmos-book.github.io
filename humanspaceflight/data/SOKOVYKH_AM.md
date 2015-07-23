@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOKOVYKH, Anatoli Mikhailovich
 type:	military
 dob:	1944-01-12

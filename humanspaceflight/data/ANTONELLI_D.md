@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ANTONELLI, Dominic
 type:	military
 dob:	1967-08-23

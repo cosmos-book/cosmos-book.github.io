@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MELROY, Pamela A.
 type:	military
 dob:	1961-09-17

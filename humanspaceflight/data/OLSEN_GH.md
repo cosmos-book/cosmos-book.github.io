@@ -1,4 +1,5 @@
 ---
+category:	tourist
 name:	OLSEN, Gregory Hammond 'Greg'
 type:	tourist
 dob:	1945-04-20

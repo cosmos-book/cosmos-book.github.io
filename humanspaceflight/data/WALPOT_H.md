@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	WALPOT, Heike
 type:	civilian
 dob:	1960-06-19

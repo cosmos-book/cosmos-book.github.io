@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SAMOKUTYAYEV, Aleksandr Mikhailovich
 type:	military
 dob:	1970-03-13

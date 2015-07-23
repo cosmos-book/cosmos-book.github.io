@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ARTYUKHIN, Yuri Petrovich
 type:	military
 dob:	1930-06-22

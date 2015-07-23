@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PROKOPYEV, Sergei Valerievich
 type:	military
 dob:	1975-02-19

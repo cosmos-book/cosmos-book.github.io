@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GREGORY, William G.
 type:	military
 dob:	1957-05-14

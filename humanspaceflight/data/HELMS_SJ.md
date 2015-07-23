@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HELMS, Susan J.
 type:	military
 dob:	1958-02-26

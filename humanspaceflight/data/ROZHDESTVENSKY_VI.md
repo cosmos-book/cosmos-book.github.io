@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ROZHDESTVENSKY, Valeri Iliyich 
 type:	military
 dob:	1939-02-13

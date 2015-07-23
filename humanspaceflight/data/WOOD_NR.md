@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	WOOD, Nigel Richard
 type:	military
 dob:	1949-07-21

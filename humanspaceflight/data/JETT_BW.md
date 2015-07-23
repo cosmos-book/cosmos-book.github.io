@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JETT, Brent W.
 type:	military
 dob:	1958-10-05

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KISELYOV, Aleksandr Alexeyevich 
 type:	civilian
 dob:	1934-01-13

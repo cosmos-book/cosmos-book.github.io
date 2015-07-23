@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	TRYGGVASON, Bjarni Valdimar
 type:	civilian
 dob:	1945-09-21

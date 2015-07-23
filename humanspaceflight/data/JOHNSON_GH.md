@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JOHNSON, Gregory H.
 type:	military
 dob:	1962-05-12

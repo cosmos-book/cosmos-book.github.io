@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MEADE, Carl J.
 type:	military
 dob:	1950-11-16

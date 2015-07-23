@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	OVCHININ, Aleksei Nikolaevich
 type:	civilian
 dob:	1971-09-28

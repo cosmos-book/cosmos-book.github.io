@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BUYNOVSKY, Eduard Ivanovich
 type:	military
 dob:	1936-02-26

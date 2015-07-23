@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILMORE, Barry E. 'Butch'
 type:	military
 dob:	1962-12-29

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BAKER, Michael A.
 type:	military
 dob:	1953-10-27

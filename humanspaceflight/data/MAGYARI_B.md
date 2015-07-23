@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MAGYARI, B&eacute;la
 type:	military
 dob:	1949-08-08

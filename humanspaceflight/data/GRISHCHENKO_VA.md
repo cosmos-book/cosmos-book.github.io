@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GRISHCHENKO, Vitali Andreyevich
 type:	military
 dob:	1942-04-26

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ALTMAN, Scott D.
 type:	military
 dob:	1959-08-15

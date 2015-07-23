@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BULL, John S.
 type:	civilian
 dob:	1934-09-25

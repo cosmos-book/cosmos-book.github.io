@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	CHUB, Nikolai Aleksandrovich
 type:	civilian
 dob:	1984-06-10

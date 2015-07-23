@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FURUKAWA, Satoshi
 type:	civilian
 dob:	1964-04-04

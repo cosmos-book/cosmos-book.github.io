@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WOLF, David A.
 type:	civilian
 dob:	1956-08-23

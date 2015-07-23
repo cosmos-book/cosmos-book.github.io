@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ARMSTRONG, Neil A.
 type:	civilian
 dob:	1930-08-05

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	SUDARMONO, Pratiwi Pujilestari
 type:	civilian
 dob:	1952-07-31

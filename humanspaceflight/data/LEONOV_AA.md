@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LEONOV, Aleksei Arkhipovich 
 type:	military
 dob:	1934-05-30

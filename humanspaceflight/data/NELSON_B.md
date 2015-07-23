@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NELSON, Bill
 type:	military
 dob:	1942-09-29

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	AUBAKIROV, Toktar Ongarbayevich
 type:	military
 dob:	1946-07-27

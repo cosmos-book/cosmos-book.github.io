@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CASPER, John H.
 type:	military
 dob:	1943-07-09

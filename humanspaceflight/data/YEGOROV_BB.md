@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YEGOROV, Boris Borisovich 
 type:	military
 dob:	1937-11-26

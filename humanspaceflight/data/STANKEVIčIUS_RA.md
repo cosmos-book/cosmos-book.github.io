@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	STANKEVIčIUS, Rimantas Antanas-Antano 
 type:	military
 dob:	1944-07-26

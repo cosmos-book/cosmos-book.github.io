@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	KIKUCHI, Ryoko
 type:	civilian
 dob:	1964-09-15

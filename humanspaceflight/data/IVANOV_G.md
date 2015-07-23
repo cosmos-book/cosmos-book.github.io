@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	IVANOV, Georgi
 type:	civilian
 dob:	1940-07-02

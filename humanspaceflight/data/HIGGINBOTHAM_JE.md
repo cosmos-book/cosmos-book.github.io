@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HIGGINBOTHAM, Joan E.
 type:	civilian
 dob:	1964-08-03

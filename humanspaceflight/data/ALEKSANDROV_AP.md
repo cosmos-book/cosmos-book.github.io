@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ALEKSANDROV, Aleksandr Pavlovich 
 type:	civilian
 dob:	1943-02-20

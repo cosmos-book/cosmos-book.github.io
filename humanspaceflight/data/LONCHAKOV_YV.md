@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LONCHAKOV, Yuri Valentinovich 
 type:	military
 dob:	1965-03-04

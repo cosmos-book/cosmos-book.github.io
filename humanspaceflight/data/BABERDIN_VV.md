@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BABERDIN, Valeri Vasiliyevich
 type:	military
 dob:	1948-10-28

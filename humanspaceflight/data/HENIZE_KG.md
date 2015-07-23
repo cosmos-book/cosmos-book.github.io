@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HENIZE, Karl G.
 type:	civilian
 dob:	1926-10-17

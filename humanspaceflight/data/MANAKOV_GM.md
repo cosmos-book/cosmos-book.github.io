@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MANAKOV, Gennadi Mikhailovich 
 type:	military
 dob:	1950-06-01

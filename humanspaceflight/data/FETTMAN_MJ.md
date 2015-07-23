@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FETTMAN, Martin J.
 type:	civilian
 dob:	1956-12-31

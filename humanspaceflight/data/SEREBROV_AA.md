@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SEREBROV, Aleksandr Aleksandrovich 
 type:	civilian
 dob:	1944-02-15

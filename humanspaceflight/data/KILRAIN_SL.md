@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KILRAIN (Still), Susan L.
 type:	military
 dob:	1961-10-24

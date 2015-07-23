@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	GASPARINI, Jean-Marc Michel Daniel
 type:	military
 dob:	1963-01-22

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POTAPOV, Mikhail Georgiyevich 
 type:	civilian
 dob:	1952-10-28

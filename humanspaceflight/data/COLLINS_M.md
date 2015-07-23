@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COLLINS, Michael
 type:	civilian
 dob:	1930-10-31

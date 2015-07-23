@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HAM, Kenneth T.
 type:	military
 dob:	1964-12-12

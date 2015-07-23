@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MACHINSKY, Georgi Vladimirovich 
 type:	civilian
 dob:	1937-10-11

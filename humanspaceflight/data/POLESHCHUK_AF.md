@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POLESHCHUK, Aleksandr Fyodorovich 
 type:	military
 dob:	1953-10-30

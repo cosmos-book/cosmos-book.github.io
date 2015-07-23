@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	WANG, Yaping
 type:	civilian
 dob:	1980-01-27

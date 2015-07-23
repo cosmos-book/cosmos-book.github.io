@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BASSETT II, Charles A.
 type:	military
 dob:	1931-12-30

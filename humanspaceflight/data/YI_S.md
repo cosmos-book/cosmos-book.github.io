@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	YI, Soyeon
 type:	civilian
 dob:	1978-06-02

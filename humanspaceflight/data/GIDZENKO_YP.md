@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GIDZENKO, Yuri Pavlovich
 type:	military
 dob:	1962-03-26

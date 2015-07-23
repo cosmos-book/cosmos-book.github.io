@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BAKER, Ellen S. (M.D.)
 type:	civilian
 dob:	1953-04-27

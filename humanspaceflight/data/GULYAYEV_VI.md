@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GULYAYEV, Vladislav Ivanovich
 type:	civilian
 dob:	1937-05-31

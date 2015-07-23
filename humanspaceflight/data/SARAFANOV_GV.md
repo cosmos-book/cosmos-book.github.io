@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SARAFANOV, Gennadi Vasiliyevich 
 type:	military
 dob:	1942-01-01

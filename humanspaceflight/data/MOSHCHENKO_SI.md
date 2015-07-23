@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MOSHCHENKO, Sergei Ivanovich 
 type:	military
 dob:	1954-01-12

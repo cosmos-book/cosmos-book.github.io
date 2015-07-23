@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	GARNEAU, Joseph Jean-Pierre Marc
 type:	military
 dob:	1949-02-23

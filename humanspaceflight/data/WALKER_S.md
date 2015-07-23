@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALKER, Shannon
 type:	civilian
 dob:	1965-06-04

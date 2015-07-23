@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DOLGOPOLOV, Gennadi Aleksandrovich
 type:	civilian
 dob:	1935-11-14

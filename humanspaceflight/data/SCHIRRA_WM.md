@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCHIRRA, Walter M.
 type:	military
 dob:	1923-03-12

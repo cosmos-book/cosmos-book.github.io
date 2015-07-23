@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HERRINGTON, John B.
 type:	military
 dob:	1958-09-14

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ROMANENKO, Yuri Viktorovich 
 type:	military
 dob:	1944-08-01

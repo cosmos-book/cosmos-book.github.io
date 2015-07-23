@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DELUCAS, Lawrence J.
 type:	civilian
 dob:	1950-07-11

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POLONSKY, Anatoli Borisovich 
 type:	military
 dob:	1956-01-01

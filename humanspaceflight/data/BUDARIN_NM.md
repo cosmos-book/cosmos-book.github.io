@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BUDARIN, Nikolai Mikhailovich
 type:	civilian
 dob:	1953-04-29

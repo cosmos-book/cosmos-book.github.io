@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KOPRA, Timothy L.
 type:	military
 dob:	1963-04-09

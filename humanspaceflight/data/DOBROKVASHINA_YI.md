@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DOBROKVASHINA, Yelena Ivanovna
 type:	civilian
 dob:	1947-10-08

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ROMANENKO, Roman Yuriyevich 
 type:	military
 dob:	1971-08-09

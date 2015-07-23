@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;
 type:	civilian
 dob:	1958-11-19

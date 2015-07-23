@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	TANNER, Joseph R.
 type:	civilian
 dob:	1950-01-21

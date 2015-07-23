@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	DENG, Qingming
 type:	civilian
 dob:	

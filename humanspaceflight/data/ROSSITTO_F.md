@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	ROSSITTO, Franco
 type:	civilian
 dob:	1940-02-01

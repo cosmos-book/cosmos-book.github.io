@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LLEWELLYN, John A.
 type:	civilian
 dob:	1933-04-22

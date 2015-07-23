@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LU, Edward T.
 type:	civilian
 dob:	1963-07-01

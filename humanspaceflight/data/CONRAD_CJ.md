@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CONRAD, Charles, Jr.
 type:	military
 dob:	1930-06-02

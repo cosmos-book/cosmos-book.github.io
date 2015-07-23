@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WETHERBEE, James D.
 type:	military
 dob:	1952-11-27

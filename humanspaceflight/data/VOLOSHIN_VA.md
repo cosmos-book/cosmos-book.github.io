@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLOSHIN, Valeri Abramovich 
 type:	military
 dob:	1942-04-24

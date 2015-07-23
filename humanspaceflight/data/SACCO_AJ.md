@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SACCO, Albert, Jr.
 type:	civilian
 dob:	1949-05-03

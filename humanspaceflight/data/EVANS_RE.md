@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	EVANS, Ronald E.
 type:	military
 dob:	1933-11-10

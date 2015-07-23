@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCHMITT, Harrison H.
 type:	civilian
 dob:	1935-07-03

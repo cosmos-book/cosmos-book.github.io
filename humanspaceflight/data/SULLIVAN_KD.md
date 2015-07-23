@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SULLIVAN, Kathryn D.
 type:	civilian
 dob:	1951-10-03

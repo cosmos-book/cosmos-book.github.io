@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BIN KHALEED, Faiz
 type:	military
 dob:	1980-09-15

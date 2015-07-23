@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SPRING, Sherwood C.
 type:	military
 dob:	1944-09-03

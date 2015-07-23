@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TIKHONOV, Nikolai Vladimirovich
 type:	civilian
 dob:	1982-05-23

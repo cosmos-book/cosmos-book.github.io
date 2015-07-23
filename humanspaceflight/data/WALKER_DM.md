@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALKER, David M.
 type:	military
 dob:	1944-05-20

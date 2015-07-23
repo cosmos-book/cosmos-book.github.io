@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MACE, Timothy Kristian Charles
 type:	military
 dob:	1955-11-20

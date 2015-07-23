@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	STEWART, Robert L.
 type:	military
 dob:	1942-08-13

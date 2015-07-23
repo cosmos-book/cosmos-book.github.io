@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	USACHYOV, Yuri Vladimirovich 
 type:	civilian
 dob:	1957-10-09

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GULYAYEV, Rudolf Alekseyevich
 type:	civilian
 dob:	1934-11-14

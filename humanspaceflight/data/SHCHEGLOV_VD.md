@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHCHEGLOV, Vasili Dmitriyevich 
 type:	military
 dob:	1940-04-09

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MUKHORTOV, Pavel Petrovich 
 type:	military
 dob:	1966-03-11

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BLINOV, Oleg Vladimirovich
 type:	military
 dob:	1978-08-17

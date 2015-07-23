@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VASYUTIN, Vladimir Vladimirovich 
 type:	military
 dob:	1952-03-08

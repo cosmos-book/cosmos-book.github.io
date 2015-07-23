@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CARPENTER, M. Scott
 type:	military
 dob:	1925-05-01

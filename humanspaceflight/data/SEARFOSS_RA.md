@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SEARFOSS, Richard A.
 type:	military
 dob:	1956-06-05

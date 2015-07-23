@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BROWN, David M.
 type:	military
 dob:	1956-04-16

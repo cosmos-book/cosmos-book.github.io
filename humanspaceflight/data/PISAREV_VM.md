@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PISAREV, Viktor Mikhailovich 
 type:	military
 dob:	1941-08-15

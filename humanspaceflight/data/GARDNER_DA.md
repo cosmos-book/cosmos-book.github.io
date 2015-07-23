@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GARDNER, Dale A.
 type:	military
 dob:	1948-11-08

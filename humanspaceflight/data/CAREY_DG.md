@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CAREY, Duane G.
 type:	military
 dob:	1957-04-30

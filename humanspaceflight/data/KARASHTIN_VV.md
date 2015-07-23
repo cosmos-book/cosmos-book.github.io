@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KARASHTIN, Vladimir Vladimirovich
 type:	civilian
 dob:	1962-11-18

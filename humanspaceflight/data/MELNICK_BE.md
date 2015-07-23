@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MELNICK, Bruce E.
 type:	military
 dob:	1949-12-05

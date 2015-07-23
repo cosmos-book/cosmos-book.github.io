@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUKLIN, Anatoli Petrovich 
 type:	military
 dob:	1932-01-03

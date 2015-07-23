@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHARAFUTDINOV, Ansar Ilgamovich 
 type:	military
 dob:	1939-06-26

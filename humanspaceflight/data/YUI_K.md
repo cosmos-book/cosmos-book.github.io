@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	YUI, Kimiya
 type:	civilian
 dob:	1970

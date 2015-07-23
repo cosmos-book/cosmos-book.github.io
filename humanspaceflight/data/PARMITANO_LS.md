@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PARMITANO, Luca Salvo
 type:	military
 dob:	1976-09-27

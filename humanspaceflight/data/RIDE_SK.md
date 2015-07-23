@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RIDE, Sally K.
 type:	civilian
 dob:	1951-05-26

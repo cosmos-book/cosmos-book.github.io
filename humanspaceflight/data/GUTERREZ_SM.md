@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GUTERREZ, Sidney M.
 type:	military
 dob:	1951-06-27

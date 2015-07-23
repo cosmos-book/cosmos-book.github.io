@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHAPMAN, Philip K.
 type:	civilian
 dob:	1935-03-05

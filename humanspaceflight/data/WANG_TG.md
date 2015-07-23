@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WANG, Taylor G.
 type:	civilian
 dob:	1940-06-16

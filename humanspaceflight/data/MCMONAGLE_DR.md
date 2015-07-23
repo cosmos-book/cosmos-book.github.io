@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCMONAGLE, Donald Ray
 type:	military
 dob:	1952-05-14

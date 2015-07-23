@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BARRY, Daniel T. (M.D.)
 type:	civilian
 dob:	1953-12-30

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MUSABAYEV, Talgat Amangeldyevich 
 type:	military
 dob:	1951-01-07

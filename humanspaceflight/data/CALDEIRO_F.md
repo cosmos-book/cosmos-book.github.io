@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CALDEIRO, Fernando
 type:	civilian
 dob:	1958-06-12

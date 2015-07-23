@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MOROSOV, Svyatoslav Andreievich
 type:	civilian
 dob:	1985-08-22

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SMIRENNY, Lev Nikolayevich 
 type:	civilian
 dob:	1932-10-25

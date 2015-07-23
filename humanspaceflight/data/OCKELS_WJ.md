@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	OCKELS, Wubbo Johannes
 type:	civilian
 dob:	1946-03-28

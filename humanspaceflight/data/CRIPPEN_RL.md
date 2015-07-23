@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CRIPPEN, Robert L.
 type:	military
 dob:	1937-09-11

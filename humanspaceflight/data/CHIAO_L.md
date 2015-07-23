@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHIAO, Leroy
 type:	civilian
 dob:	1960-08-28

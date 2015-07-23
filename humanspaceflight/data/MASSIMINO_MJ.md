@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MASSIMINO, Michael J.
 type:	civilian
 dob:	1962-08-19

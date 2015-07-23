@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZAYTSEV, Andrei Yevgeniyevich 
 type:	civilian
 dob:	1957-08-05

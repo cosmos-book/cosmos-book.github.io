@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOROBIYOV, Lev Vasiliyevich 
 type:	military
 dob:	1931-02-24

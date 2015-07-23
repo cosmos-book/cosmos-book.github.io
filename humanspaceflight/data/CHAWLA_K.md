@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHAWLA, Kalpana
 type:	civilian
 dob:	1961-07-01

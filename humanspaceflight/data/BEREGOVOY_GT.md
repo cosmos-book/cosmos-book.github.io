@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BEREGOVOY, Georgi Timofeyevich
 type:	military
 dob:	1921-04-15

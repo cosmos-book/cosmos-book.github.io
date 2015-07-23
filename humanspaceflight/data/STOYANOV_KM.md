@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	STOYANOV, Krasimir Mihailov
 type:	military
 dob:	1961-01-24

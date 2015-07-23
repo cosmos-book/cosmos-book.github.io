@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LICHTENBERG, Byron K.
 type:	civilian
 dob:	1948-02-19

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LEBEDEV, Valentin Vitaliyevich
 type:	military
 dob:	1942-04-14

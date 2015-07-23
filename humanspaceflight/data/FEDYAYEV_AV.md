@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FEDYAYEV, Andrei Valereivich
 type:	military
 dob:	1981-02-26

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	STAFFORD, Thomas P.
 type:	military
 dob:	1930-09-17

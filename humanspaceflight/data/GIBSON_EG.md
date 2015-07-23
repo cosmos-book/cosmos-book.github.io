@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GIBSON, Edward G.
 type:	civilian
 dob:	1936-11-08

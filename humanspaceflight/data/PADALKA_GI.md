@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PADALKA, Gennadi Ivanovich 
 type:	military
 dob:	1958-06-21

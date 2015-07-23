@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FARTUSHNY, Vladimir Grigoriyevich
 type:	civilian
 dob:	1938-02-03

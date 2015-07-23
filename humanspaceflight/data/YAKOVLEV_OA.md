@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YAKOVLEV, Oleg Anatoliyevich 
 type:	military
 dob:	1940-12-31

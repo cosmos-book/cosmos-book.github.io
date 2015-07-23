@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PUCHKOV, Aleksandr Sergeyevich 
 type:	military
 dob:	1948-10-15

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHONIN, Georgi Stepanovich 
 type:	military
 dob:	1935-08-03

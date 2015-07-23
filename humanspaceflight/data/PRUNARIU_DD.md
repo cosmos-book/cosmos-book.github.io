@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PRUNARIU, Dumitru Dorin
 type:	military
 dob:	1952-09-27

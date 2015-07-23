@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BOWEN, Stephen G.
 type:	military
 dob:	1964-02-13

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ACTON, Loren W.
 type:	civilian
 dob:	1936-03-07

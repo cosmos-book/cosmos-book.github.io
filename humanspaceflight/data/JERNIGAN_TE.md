@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JERNIGAN, Tamara E.
 type:	civilian
 dob:	1959-05-07

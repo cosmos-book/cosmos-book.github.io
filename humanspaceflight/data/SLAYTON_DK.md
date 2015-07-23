@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SLAYTON, Donald K.
 type:	military
 dob:	1924-03-01

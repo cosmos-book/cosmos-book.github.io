@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ILLARIONOV, Valeri Vasiliyevich
 type:	military
 dob:	1939-06-02

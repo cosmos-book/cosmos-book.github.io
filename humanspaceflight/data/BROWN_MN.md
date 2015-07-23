@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BROWN, Mark N.
 type:	military
 dob:	1951-11-18

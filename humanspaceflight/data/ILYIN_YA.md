@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ILYIN, Yevgeni Aleksandrovich
 type:	civilian
 dob:	1937-08-17

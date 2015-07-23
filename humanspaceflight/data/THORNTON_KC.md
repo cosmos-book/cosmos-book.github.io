@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THORNTON, Kathryn C.
 type:	civilian
 dob:	1952-08-17

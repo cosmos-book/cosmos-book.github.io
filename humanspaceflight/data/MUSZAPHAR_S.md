@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MUSZAPHAR, Sheikh
 type:	civilian
 dob:	1972-07-26

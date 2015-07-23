@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MORUKOV, Boris Vladimirovich 
 type:	civilian
 dob:	1950-10-01

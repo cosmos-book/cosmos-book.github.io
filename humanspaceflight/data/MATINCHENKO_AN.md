@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MATINCHENKO, Aleksandr Nikolayevich 
 type:	military
 dob:	1927-09-04

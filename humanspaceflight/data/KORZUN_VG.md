@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KORZUN, Valeri Grigoriyevich 
 type:	military
 dob:	1953-03-05

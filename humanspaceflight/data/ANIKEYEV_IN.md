@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ANIKEYEV, Ivan Nikolayevich
 type:	military
 dob:	1933-02-12

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FILIPCHENKO, Anatoli Vasiliyevich
 type:	military
 dob:	1928-02-26

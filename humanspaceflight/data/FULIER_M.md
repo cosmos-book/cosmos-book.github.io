@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FULIER, Michal
 type:	military
 dob:	1955-02-20

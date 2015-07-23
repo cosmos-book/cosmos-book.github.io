@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BALANDIN, Aleksandr Nikolayevich
 type:	civilian
 dob:	1953-07-30

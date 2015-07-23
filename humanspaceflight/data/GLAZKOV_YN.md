@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GLAZKOV, Yuri Nikolayevich
 type:	military
 dob:	1939-10-02

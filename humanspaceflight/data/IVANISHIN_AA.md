@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	IVANISHIN, Anatoli Alekseyevich
 type:	military
 dob:	1969-01-15

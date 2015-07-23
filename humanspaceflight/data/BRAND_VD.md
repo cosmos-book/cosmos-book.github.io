@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BRAND, Vance D.
 type:	military
 dob:	1931-05-09

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MERCHEZ, Marianne
 type:	civilian
 dob:	1960-10-25

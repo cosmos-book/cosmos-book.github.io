@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	NOGUCHI, Soichi
 type:	civilian
 dob:	1965-04-15

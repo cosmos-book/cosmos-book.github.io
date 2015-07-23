@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BUCKEY, Jay Clark
 type:	civilian
 dob:	1956-06-06

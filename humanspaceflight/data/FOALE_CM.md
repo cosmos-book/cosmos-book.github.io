@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FOALE, C. Michael
 type:	civilian
 dob:	1957-01-06

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCNAIR, Ronald Ervin
 type:	civilian
 dob:	1950-10-21

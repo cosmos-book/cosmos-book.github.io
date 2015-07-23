@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PARAZYNSKI, Scott E.
 type:	civilian
 dob:	1961-07-28

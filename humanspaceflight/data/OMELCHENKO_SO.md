@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	OMELCHENKO, Svetlana Oktyabrevna 
 type:	civilian
 dob:	1951-08-20

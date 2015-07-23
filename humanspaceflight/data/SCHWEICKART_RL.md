@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCHWEICKART, Russell L.
 type:	civilian
 dob:	1935-10-25

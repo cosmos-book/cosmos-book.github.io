@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALKER, Charles D
 type:	civilian
 dob:	1948-08-29

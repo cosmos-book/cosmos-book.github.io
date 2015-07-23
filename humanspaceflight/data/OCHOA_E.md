@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	OCHOA, Ellen
 type:	civilian
 dob:	1958-05-10

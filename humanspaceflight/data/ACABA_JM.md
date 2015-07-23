@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ACABA, Joseph M.
 type:	civilian
 dob:	1967-05-17

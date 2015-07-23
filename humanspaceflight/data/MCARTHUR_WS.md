@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCARTHUR, William Surles, Jr
 type:	military
 dob:	1951-07-26

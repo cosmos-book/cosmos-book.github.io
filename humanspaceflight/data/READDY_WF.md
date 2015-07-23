@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	READDY, William F.
 type:	military
 dob:	1952-01-24

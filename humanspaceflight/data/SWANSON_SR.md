@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SWANSON, Steven R.
 type:	civilian
 dob:	1960-12-03

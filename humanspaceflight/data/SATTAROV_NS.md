@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SATTAROV, Nail Sharipovich 
 type:	military
 dob:	1941-12-23

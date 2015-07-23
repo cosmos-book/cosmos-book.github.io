@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALHEIM, Rex J.
 type:	military
 dob:	1962-10-10

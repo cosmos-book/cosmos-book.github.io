@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOW, G. David
 type:	civilian
 dob:	1956-02-19

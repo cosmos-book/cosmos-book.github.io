@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HOLMQUEST, Donald L.
 type:	civilian
 dob:	1939-04-07

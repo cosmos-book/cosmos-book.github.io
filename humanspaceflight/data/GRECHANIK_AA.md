@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GRECHANIK, Aleksei Anatoliyevich
 type:	military
 dob:	1939-03-25

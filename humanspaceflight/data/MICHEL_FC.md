@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MICHEL, F. Curtis
 type:	civilian
 dob:	1934-06-05

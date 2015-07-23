@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GOOD, Michael T.
 type:	military
 dob:	1962-10-13

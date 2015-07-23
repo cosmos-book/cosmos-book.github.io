@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GRUNSFELD, John M.
 type:	civilian
 dob:	1958-10

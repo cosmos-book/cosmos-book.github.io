@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	EYHARTS, L&eacute;opold Paul Pierre
 type:	military
 dob:	1957-04-28

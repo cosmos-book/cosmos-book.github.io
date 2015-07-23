@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GARDNER, Guy S.
 type:	military
 dob:	1948-01-06

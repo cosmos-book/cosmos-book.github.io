@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HAISE, Fred W., Jr.
 type:	civilian
 dob:	1933-11-14

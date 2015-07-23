@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CULBERTSON, Frank L., Jr.
 type:	military
 dob:	1949-05-15

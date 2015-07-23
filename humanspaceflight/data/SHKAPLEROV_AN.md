@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHKAPLEROV, Anton Nikolayevich
 type:	military
 dob:	1972-02-20

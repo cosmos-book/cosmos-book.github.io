@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ONIZUKA, Ellison S.
 type:	military
 dob:	1946-06-24

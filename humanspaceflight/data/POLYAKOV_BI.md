@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POLYAKOV, Boris Ivanovich 
 type:	civilian
 dob:	1938-05-10

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BELYAYEV, Pavel Ivanovich
 type:	military
 dob:	1925-06-26

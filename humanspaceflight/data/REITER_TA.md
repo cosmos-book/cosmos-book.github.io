@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	REITER, Thomas Arthur
 type:	military
 dob:	1958-05-23

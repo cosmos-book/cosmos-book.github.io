@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCOBEE, Francis Richard 'Dick'
 type:	military
 dob:	1939-05-19

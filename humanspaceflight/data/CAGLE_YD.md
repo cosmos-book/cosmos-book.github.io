@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CAGLE, Yvonne D., (M.D.) 
 type:	military
 dob:	1959-04-24

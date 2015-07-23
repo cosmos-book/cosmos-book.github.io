@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CAMARDA, Charles J.
 type:	civilian
 dob:	1952-05-08

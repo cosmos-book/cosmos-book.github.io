@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YUYUKOV, Dmitri Andreyevich 
 type:	military
 dob:	1941-02-26

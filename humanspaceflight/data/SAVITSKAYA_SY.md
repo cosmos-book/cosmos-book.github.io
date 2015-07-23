@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SAVITSKAYA, Svetlana Yevgeniyena 
 type:	civilian
 dob:	1948-08-08

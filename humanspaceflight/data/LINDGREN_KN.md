@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LINDGREN, Kjell N.
 type:	civilian
 dob:	1973-01-23

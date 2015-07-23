@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TITOV, German Stepanovich
 type:	military
 dob:	1935-09-11

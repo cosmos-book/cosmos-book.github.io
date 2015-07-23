@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PETELIN, Dmitri Aleksandrovich
 type:	civilian
 dob:	1983-07-10

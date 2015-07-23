@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DEZHUROV, Vladimir Nikolayevich
 type:	military
 dob:	1962-07-30

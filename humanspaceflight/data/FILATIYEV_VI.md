@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FILATIYEV, Valentin Ignatiyevich
 type:	military
 dob:	1930-01-21

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	LOTHALLER, Clemens
 type:	civilian
 dob:	1963-05-08

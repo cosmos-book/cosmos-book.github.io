@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FEOKTISTOV, Konstantin Petrovich
 type:	civilian
 dob:	1926-02-07

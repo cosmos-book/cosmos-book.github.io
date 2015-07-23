@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MOSHKIN, Oleg Yuriyevich 
 type:	military
 dob:	1964-04-23

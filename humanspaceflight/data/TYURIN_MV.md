@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TYURIN, Mikhail Vladislavovich 
 type:	civilian
 dob:	1960-03-02

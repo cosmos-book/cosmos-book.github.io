@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SKVORTSOV, Aleksandr Aleksandrovich Jr.
 type:	military
 dob:	1966-05-06

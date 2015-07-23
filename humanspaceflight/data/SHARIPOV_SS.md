@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHARIPOV, Salizhan Shakirovich 
 type:	military
 dob:	1964-08-24

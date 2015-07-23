@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HUSBAND, Rick D.
 type:	military
 dob:	1957-07-12

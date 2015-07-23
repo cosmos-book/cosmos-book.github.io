@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GUBAREV, Aleksei Aleksandrovich
 type:	military
 dob:	1931-03-29

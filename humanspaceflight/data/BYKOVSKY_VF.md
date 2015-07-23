@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BYKOVSKY, Valeri Fyodorovich
 type:	military
 dob:	1934-08-02

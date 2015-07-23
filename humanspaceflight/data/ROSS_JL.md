@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ROSS, Jerry L.
 type:	military
 dob:	1948-01-20

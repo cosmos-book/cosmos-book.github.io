@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KERWIN, Joseph P.
 type:	military
 dob:	1932-02-19

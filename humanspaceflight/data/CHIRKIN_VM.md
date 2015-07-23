@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	CHIRKIN, Viktor Martynovich
 type:	military
 dob:	1944-07-13

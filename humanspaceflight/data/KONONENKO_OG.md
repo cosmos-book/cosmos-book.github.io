@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KONONENKO, Oleg Grigoriyevich 
 type:	military
 dob:	1938-08-16

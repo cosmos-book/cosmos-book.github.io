@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SEROV, Mark Vyacheslavovich
 type:	civilian
 dob:	1974-05-23

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LESLIE, Fred W.
 type:	civilian
 dob:	1951-12-19

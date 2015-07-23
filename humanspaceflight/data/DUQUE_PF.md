@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	DUQUE, Pedro Francisco
 type:	civilian
 dob:	1963-03-14

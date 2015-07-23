@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOUSMA, Jack R.
 type:	military
 dob:	1936-02-29

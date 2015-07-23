@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WISOFF, Peter J. K.
 type:	civilian
 dob:	1958-08-16

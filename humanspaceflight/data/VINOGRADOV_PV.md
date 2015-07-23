@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VINOGRADOV, Pavel Vladimirovich 
 type:	civilian
 dob:	1953-08-31

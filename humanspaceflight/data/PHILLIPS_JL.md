@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PHILLIPS, John L.
 type:	military
 dob:	1951-04-15

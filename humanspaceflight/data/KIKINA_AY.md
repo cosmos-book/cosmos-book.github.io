@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KIKINA, Anna Yuryevna
 type:	civilian
 dob:	1984-08-27

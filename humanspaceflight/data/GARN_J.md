@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GARN, Jake
 type:	military
 dob:	1932-10-12

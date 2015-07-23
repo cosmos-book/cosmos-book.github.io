@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TRESVYATSKY, Sergei Nikolayevich 
 type:	military
 dob:	1954-05-06

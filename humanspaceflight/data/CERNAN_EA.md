@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CERNAN, Eugene A.
 type:	military
 dob:	1934-03-14

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOCKHART, Paul S.
 type:	military
 dob:	1956-04-28

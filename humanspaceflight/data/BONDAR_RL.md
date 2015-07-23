@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BONDAR, Roberta Lynn
 type:	civilian
 dob:	1945-12-04

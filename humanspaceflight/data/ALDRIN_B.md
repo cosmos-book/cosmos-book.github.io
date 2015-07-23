@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ALDRIN, Buzz
 type:	military
 dob:	1930-01-20

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SKVORTSOV, Aleksandr Aleksandrovich 
 type:	military
 dob:	1942-06-08

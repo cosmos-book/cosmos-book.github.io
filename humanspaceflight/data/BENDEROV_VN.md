@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BENDEROV, Vladimir Nikolayevich
 type:	military
 dob:	1924-08-04

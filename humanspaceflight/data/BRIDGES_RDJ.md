@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BRIDGES, Roy D., Jr.
 type:	military
 dob:	1943-07-19

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VORONOV, Anatoli Fyodorovich 
 type:	military
 dob:	1930-06-11

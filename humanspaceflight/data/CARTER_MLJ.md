@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CARTER, Manley Lanier, Jr., 'Sonny'
 type:	military
 dob:	1947-08-15

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ARCHAMBAULT, Lee J.
 type:	military
 dob:	1960-08-25

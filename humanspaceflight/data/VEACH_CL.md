@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	VEACH, Charles Lacy
 type:	civilian
 dob:	1944-09-18

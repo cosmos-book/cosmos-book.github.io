@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MALERBA, Franco Egidio
 type:	civilian
 dob:	1946-10-10

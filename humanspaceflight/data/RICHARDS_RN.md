@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RICHARDS, Richard N.
 type:	military
 dob:	1946-08-24

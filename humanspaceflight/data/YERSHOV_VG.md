@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YERSHOV, Valentin Gavriylovich 
 type:	civilian
 dob:	1928-01-21

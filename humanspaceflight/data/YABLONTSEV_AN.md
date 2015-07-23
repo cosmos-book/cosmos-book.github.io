@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YABLONTSEV, Aleksandr Nikolayevich 
 type:	military
 dob:	1955-04-03

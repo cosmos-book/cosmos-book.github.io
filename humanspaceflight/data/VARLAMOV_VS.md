@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VARLAMOV, Valentin Stepanovich 
 type:	military
 dob:	1934-08-15

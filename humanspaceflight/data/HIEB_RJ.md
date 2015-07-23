@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HIEB, Richard J.
 type:	civilian
 dob:	1955-09-21

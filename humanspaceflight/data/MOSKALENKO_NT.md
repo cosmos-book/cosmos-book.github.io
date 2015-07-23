@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MOSKALENKO, Nikolai Tikhonovich 
 type:	military
 dob:	1949-01-01

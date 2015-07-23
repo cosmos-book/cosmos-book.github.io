@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LETUNOV, Yuri Aleksandrovich 
 type:	civilian
 dob:	1926-10-26

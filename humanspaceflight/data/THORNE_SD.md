@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THORNE, Stephen D.
 type:	military
 dob:	1953-02-11

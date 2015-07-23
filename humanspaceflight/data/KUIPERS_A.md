@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	KUIPERS, Andr&eacute;
 type:	civilian
 dob:	1958-10-05

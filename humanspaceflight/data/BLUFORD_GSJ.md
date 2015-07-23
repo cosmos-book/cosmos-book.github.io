@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BLUFORD, Guion S., Jr
 type:	military
 dob:	1942-11-22

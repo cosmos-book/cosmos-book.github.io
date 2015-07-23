@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	YE, Guangfu
 type:	military
 dob:	

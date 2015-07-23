@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	DOI, Takao
 type:	civilian
 dob:	1954-09-18

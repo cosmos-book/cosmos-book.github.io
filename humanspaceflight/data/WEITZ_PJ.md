@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WEITZ, Paul J.
 type:	military
 dob:	1932-07-25

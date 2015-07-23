@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JOHNSON, Gregory C.
 type:	military
 dob:	1954-07-30

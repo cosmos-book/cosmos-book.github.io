@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DOBROVOLSKY, Georgi Timofeyevich
 type:	military
 dob:	1928-06-01

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	DEDKOV, Anatoli Ivanovich
 type:	military
 dob:	1944-07-24

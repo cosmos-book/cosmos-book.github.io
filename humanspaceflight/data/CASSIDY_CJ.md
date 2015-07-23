@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CASSIDY, Christopher J.
 type:	military
 dob:	1970-01-04

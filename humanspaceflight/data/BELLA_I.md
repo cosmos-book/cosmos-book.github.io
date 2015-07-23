@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BELLA, Ivan
 type:	military
 dob:	1964-05-25

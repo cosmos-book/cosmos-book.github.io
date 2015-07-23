@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	JäHN, Sigmund Werner Paul 'Sig'
 type:	military
 dob:	1937-02-13

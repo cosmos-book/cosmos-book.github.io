@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	WALTER, Ulrich Hans
 type:	civilian
 dob:	1954-02-09

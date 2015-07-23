@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCOTT, Winston E.
 type:	military
 dob:	1950-08-06

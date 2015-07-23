@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BUI, Thanh Liem
 type:	military
 dob:	1949-06-30

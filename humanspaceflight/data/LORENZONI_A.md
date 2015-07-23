@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	LORENZONI, Andrea
 type:	military
 dob:	1946-08-08

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SAVINYKH, Viktor Petrovich
 type:	civilian
 dob:	1940-03-07

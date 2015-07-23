@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ARNOLD, Richard R., II
 type:	civilian
 dob:	1963-11-26

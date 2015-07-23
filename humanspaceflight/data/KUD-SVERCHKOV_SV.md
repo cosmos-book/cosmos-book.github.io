@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUD-SVERCHKOV, Sergei Vladimirovich
 type:	civilian
 dob:	1983-08-23

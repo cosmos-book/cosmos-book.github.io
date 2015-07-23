@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUBASOV, Valeri Nikolayevich 
 type:	civilian
 dob:	1935-01-07

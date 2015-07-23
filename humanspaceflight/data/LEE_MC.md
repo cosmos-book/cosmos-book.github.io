@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LEE, Mark C.
 type:	military
 dob:	1952-08-14

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHATALOV, Vladimir Aleksandrovich 
 type:	military
 dob:	1927-12-08

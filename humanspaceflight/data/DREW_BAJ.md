@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DREW, B. Alvin, Jr.
 type:	military
 dob:	1962-11-05

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LIND, Don L.
 type:	civilian
 dob:	1930-05-18

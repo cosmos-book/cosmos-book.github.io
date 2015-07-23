@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THUOT, Pierre J.
 type:	military
 dob:	1955-05-19

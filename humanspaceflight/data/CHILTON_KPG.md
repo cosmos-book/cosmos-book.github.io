@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHILTON, Kevin P., General
 type:	military
 dob:	1954-11-03

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZAKHAROVA, Tamara Sergeyevna 
 type:	civilian
 dob:	1952-04-22

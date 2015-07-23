@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ISAKOV, Vladimir Timofeyevich
 type:	military
 dob:	1940-04-04

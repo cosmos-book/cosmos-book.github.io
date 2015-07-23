@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PAWELCZYK, James A.
 type:	civilian
 dob:	1960-09-20

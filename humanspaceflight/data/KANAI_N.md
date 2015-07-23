@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	KANAI, Norishige
 type:	civilian
 dob:	1976

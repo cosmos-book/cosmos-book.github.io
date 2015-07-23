@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GREKOV, Nikolai Sergeyevich
 type:	military
 dob:	1950-02-15

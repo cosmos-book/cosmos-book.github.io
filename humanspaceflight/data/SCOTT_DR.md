@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SCOTT, David R.
 type:	military
 dob:	1932-06-06

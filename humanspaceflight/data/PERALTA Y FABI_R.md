@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PERALTA Y FABI, Ricardo
 type:	civilian
 dob:	1950-08-15

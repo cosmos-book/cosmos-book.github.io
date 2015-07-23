@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MITCHELL, Edgar D.
 type:	military
 dob:	1930-09-17

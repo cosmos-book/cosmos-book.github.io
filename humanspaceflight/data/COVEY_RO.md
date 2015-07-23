@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COVEY, Richard O.
 type:	military
 dob:	1946-08-01

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HAIGNERé, Jean-Pierre
 type:	military
 dob:	1948-05-19

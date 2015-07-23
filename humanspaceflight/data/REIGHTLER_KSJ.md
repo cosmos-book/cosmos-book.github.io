@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	REIGHTLER, Kenneth S., Jr.
 type:	military
 dob:	1951-03-24

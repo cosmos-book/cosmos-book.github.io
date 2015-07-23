@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	EISELE, Donn F.
 type:	military
 dob:	1930-06-23

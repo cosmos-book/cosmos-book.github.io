@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	AL-SAUD, Sultan bin Salman bin Abdulaziz
 type:	military
 dob:	1956-06-27

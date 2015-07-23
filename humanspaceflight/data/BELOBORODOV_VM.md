@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BELOBORODOV, Valeri Mikhailovich
 type:	military
 dob:	1939-10-26

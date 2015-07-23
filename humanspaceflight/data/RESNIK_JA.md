@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RESNIK, Judith A.
 type:	civilian
 dob:	1949-04-05

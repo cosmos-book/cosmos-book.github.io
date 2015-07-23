@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LINDSEY, Steven W.
 type:	military
 dob:	1960-08-24

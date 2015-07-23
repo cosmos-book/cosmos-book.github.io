@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ADAMSON, James C.
 type:	military
 dob:	1946-03-03

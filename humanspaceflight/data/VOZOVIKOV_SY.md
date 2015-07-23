@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOZOVIKOV, Sergei Yuriyevich 
 type:	military
 dob:	1958-04-17

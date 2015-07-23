@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	VOLKOV, Vladislav Nikolayevich 
 type:	military
 dob:	1935-11-23

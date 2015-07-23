@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KRIKUN, Yuri Yuriyevich
 type:	civilian
 dob:	1963-06-03

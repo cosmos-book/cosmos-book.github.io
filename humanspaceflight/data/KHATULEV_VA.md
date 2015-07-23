@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KHATULEV, Vladimir Aleksandrovich 
 type:	civilian
 dob:	1947-02-26

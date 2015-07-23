@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ALLEN, Joseph P.
 type:	civilian
 dob:	1937-06-27

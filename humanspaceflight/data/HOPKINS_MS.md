@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HOPKINS, Michael S.
 type:	military
 dob:	1968-12-28

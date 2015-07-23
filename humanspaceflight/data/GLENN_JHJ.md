@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GLENN, John H., Jr.
 type:	military
 dob:	1921-07-18

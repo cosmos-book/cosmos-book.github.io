@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DAVIS, N. Jan
 type:	civilian
 dob:	1953-11-01

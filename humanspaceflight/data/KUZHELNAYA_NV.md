@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUZHELNAYA, Nadezhda Vasiliyevna 
 type:	civilian
 dob:	1962-11-06

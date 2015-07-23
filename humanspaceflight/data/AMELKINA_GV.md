@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	AMELKINA, Galina Vasiliyevna
 type:	civilian
 dob:	1954-05-22

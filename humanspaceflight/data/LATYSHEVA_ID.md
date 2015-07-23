@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LATYSHEVA, Irina Dmitriyevna
 type:	civilian
 dob:	1953-07-09

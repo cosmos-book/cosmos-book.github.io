@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZALYOTIN, Sergei Viktorovich 
 type:	military
 dob:	1962-04-21

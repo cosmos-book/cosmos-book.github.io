@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	LEVCHENKO, Anatoli Semyonovich 
 type:	military
 dob:	1941-05-21

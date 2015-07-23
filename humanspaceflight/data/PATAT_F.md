@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PATAT, Frederic
 type:	civilian
 dob:	1958-06-24

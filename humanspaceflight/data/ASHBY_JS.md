@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ASHBY, Jeffrey S.
 type:	military
 dob:	1954

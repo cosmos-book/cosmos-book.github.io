@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MAKSIMENKO, Valeri Yevgeniyevich 
 type:	military
 dob:	1950-07-16

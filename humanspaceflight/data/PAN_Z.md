@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	PAN, Zhanchun
 type:	civilian
 dob:	

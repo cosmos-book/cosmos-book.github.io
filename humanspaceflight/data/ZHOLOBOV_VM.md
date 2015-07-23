@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZHOLOBOV, Vitali Mikhailovich 
 type:	military
 dob:	1937-06-18

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ISAULOV, Yuri Fyodorovich
 type:	military
 dob:	1943-08-31

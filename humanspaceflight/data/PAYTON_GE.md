@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PAYTON, Gary E.
 type:	military
 dob:	1948-06-20

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BLAHA, John E.
 type:	military
 dob:	1942-08-26

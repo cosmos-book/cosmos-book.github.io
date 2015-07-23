@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TOLBOYEV, Magomed Omarovich 
 type:	military
 dob:	1951-01-20

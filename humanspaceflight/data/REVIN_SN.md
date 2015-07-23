@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	REVIN, Sergei Nikolayevich 
 type:	civilian
 dob:	1966-01-12

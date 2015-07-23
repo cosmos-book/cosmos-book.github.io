@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MISURKIN, Aleksandr Aleksandrovich
 type:	military
 dob:	1977-09-23

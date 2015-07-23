@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MCKAY, Michael John
 type:	military
 dob:	1963-05-10

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BRüMMER, Renate Luise
 type:	civilian
 dob:	1987-08-03

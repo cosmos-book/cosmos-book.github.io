@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	YANG, Liwei
 type:	military
 dob:	1965-06-21

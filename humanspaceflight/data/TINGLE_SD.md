@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	TINGLE, Scott D.
 type:	military
 dob:	1965-07-19

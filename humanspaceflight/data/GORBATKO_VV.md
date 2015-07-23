@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GORBATKO, Viktor Vasiliyevich
 type:	military
 dob:	1934-12-03

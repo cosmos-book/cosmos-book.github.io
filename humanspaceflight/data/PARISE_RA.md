@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PARISE, Ronald A.
 type:	civilian
 dob:	1951-05-24

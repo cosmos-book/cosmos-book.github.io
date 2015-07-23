@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COLEMAN, Catherine G. 'Cady', (Ph.D.)
 type:	military
 dob:	1960-12-14

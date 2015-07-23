@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	STEFANYSHYN-PIPER, Heidemarie M.
 type:	military
 dob:	1963-02-07

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	REBROV, Mikhail Fyodorovich 
 type:	military
 dob:	1931-07-03

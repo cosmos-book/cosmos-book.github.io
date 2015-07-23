@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GRABE, Ronald J.
 type:	military
 dob:	1945-06-13

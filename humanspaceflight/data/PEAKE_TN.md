@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PEAKE, Timothy Nagel
 type:	civilian
 dob:	1972-04-07

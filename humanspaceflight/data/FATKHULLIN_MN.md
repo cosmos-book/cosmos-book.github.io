@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FATKHULLIN, Mars Nurgaliyevich
 type:	civilian
 dob:	1939-05-14

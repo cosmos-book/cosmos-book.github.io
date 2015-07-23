@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	SCHLEGEL, Hans Wilhelm
 type:	civilian
 dob:	1951-08-03

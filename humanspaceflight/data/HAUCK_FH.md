@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HAUCK, Frederick H.
 type:	military
 dob:	1941-04-11

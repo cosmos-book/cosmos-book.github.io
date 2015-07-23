@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PORVATKIN, Nikolai Stepanovich 
 type:	military
 dob:	1932-04-15

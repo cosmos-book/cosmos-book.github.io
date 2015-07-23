@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LINTERIS, Gregory T.
 type:	civilian
 dob:	1957-10-04

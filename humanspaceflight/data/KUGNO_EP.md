@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KUGNO, Eduard Pavlovich 
 type:	military
 dob:	1935-06-27

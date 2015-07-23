@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BUCHLI, James F.
 type:	military
 dob:	1945-06-20

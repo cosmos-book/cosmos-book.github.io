@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NEWMAN, James H.
 type:	civilian
 dob:	1956-10-16

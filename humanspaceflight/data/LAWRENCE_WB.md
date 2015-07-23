@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LAWRENCE, Wendy B.
 type:	military
 dob:	1959-07-02

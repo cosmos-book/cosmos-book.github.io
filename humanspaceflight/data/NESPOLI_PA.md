@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	NESPOLI, Paolo Angelo
 type:	civilian
 dob:	1957-04-06

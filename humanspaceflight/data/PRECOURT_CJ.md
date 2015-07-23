@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PRECOURT, Charles J.,
 type:	military
 dob:	1955-06-29

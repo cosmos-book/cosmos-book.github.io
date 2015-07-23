@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CLIFFORD, Michael R.
 type:	military
 dob:	1952-10-13

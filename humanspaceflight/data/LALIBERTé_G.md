@@ -1,4 +1,5 @@
 ---
+category:	tourist
 name:	LALIBERTé, Guy
 type:	civilian
 dob:	1959-09-02

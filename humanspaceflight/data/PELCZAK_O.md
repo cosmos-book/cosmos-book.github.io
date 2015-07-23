@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PELCZAK, Oldrich 'Olda'
 type:	military
 dob:	1943-11-02

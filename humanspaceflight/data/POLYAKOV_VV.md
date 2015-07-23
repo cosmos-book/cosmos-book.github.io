@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POLYAKOV, Valeri Vladimirovich 
 type:	civilian
 dob:	1942-04-27

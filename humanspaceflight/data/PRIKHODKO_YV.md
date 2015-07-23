@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PRIKHODKO, Yuri Viktorovich 
 type:	military
 dob:	1953-11-15

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CLARK, Laurel B.
 type:	military
 dob:	1961-03-10

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	FEFELOV, Nikolai Nikolayevich
 type:	military
 dob:	1945-05-20

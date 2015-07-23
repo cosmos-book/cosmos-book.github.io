@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TERESHKOVA, Valentina Vladimirovna 
 type:	military
 dob:	1937-03-06

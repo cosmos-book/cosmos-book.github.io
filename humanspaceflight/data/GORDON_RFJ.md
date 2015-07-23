@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GORDON, Richard F., Jr.
 type:	military
 dob:	1929-10-05

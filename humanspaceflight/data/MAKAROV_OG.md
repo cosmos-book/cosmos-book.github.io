@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MAKAROV, Oleg Grigoriyevich 
 type:	civilian
 dob:	1933-01-06

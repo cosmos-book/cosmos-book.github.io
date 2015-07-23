@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HART, Terry J.
 type:	civilian
 dob:	1946-10-27

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COLLINS, Eileen M.
 type:	military
 dob:	1956-11-19

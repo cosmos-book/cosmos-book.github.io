@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BLOOMFIELD, Michael J.
 type:	military
 dob:	1959-03-16

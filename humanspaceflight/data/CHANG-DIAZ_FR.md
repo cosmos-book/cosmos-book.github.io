@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHANG-DIAZ, Franklin R.
 type:	civilian
 dob:	1950-04-05

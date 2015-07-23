@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHARGIN, Yuri Georgiyevich 
 type:	military
 dob:	1960-03-20

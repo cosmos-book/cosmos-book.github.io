@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	REMEK, Vladim&iacute;r 'Volodya'
 type:	military
 dob:	1948-09-26

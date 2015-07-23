@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	SILVE, Benoit Martin Philippe
 type:	civilian
 dob:	1958-07-15

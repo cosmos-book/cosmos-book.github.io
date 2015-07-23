@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HERMASZEWSKI, Miroslaw 'Mirek'
 type:	military
 dob:	1941-09-15

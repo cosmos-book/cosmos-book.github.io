@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	VAN HOFTEN, James D.
 type:	civilian
 dob:	1944-06-11

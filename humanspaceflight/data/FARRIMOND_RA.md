@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FARRIMOND, Richard Alfred
 type:	military
 dob:	1947-09-15

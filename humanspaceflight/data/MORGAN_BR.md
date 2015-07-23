@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MORGAN, Barbara R.
 type:	civilian
 dob:	1951-11-28

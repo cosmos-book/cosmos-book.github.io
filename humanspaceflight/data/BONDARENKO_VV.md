@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BONDARENKO, Valentin Vasiliyevich
 type:	military
 dob:	1937-02-16

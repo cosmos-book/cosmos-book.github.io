@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KRAMARENKO, Aleksandr Yakovlevich 
 type:	military
 dob:	1942-11-08

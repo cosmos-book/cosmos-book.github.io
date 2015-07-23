@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PONOMARYOV, Maksim Vladimirovich
 type:	civilian
 dob:	1980-02-20

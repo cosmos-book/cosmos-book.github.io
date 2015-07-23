@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PARKER, Robert A. R.
 type:	civilian
 dob:	1936-12-14

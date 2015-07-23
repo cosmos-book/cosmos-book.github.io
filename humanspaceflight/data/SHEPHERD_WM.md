@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SHEPHERD, William M.
 type:	military
 dob:	1949-07-26

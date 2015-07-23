@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FRICK, Stephen N.
 type:	military
 dob:	1964-09-30

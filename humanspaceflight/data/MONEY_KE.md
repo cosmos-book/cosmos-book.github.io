@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MONEY, Kenneth Eric
 type:	civilian
 dob:	1935-01-04

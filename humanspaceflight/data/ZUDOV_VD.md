@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ZUDOV, Vyacheslav Dmitriyevich 
 type:	military
 dob:	1942-01-08

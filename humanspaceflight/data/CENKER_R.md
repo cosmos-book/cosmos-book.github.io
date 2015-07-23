@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CENKER, Robert
 type:	civilian
 dob:	1948-11-05

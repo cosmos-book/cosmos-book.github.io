@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CREIGHTON, John O.
 type:	military
 dob:	1943-04-28

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BAGIAN, James P.
 type:	civilian
 dob:	1952-02-22

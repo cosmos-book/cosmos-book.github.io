@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOLODIN, Pyotr Ivanovich 
 type:	military
 dob:	1930-09-23

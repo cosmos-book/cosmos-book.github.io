@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FLADE, Klaus-Dietrich
 type:	military
 dob:	1952-08-23

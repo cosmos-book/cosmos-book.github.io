@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KLIMUK, Pyotr Iliyich 
 type:	military
 dob:	1942-07-10

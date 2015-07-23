@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GARAN, Ronald J., Jr.
 type:	military
 dob:	1961-10-30

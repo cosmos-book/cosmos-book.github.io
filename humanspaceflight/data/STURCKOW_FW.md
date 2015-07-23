@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	STURCKOW, Frederick W.
 type:	military
 dob:	1961-08-11

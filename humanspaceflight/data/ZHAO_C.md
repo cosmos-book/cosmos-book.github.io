@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	ZHAO, Chuandong
 type:	civilian
 dob:	

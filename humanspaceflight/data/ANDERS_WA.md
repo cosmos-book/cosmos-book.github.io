@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ANDERS, William A.
 type:	military
 dob:	1933-10-17

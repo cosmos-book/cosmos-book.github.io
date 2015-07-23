@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GEVORKYAN, Vladimir Mkrtychovich
 type:	civilian
 dob:	1952-05-28

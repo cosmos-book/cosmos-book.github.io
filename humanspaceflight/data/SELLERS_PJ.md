@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SELLERS, Piers J.
 type:	civilian
 dob:	1955-04-11

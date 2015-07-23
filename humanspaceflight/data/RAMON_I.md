@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	RAMON, Ilan
 type:	military
 dob:	1954-06-20

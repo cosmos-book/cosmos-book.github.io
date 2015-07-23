@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOLESNIKOV, Gennadi Mikhailovich 
 type:	military
 dob:	1936-10-07

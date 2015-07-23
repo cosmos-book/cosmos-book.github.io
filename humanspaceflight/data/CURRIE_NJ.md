@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CURRIE, Nancy J. (Sherlock), (Ph.D.) 
 type:	military
 dob:	1958-12-29

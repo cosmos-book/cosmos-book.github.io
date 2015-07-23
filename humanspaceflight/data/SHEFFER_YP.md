@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SHEFFER, Yuri Petrovich 
 type:	military
 dob:	1947-06-30

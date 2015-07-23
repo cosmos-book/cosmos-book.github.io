@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PUSHENKO, Nikolai Alekseyevich 
 type:	military
 dob:	1952-08-10

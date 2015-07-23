@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MARSHBURN, Thomas H.
 type:	civilian
 dob:	1960-08-29

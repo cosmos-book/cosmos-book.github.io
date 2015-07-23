@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HALIK, Nikos 'Nik'
 type:	civilian
 dob:	1971-05-14

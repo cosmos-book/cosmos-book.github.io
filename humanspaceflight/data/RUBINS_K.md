@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	RUBINS, Kathleen 'Kate'
 type:	civilian
 dob:	1978-10-14

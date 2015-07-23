@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	SHARMA, Rakesh 'Rikki'
 type:	military
 dob:	1949-01-13

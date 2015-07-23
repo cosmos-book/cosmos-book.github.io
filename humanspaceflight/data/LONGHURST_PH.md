@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	LONGHURST, Peter Hervey
 type:	civilian
 dob:	1943-03-08

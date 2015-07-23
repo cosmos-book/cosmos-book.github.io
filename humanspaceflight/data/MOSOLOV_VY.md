@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MOSOLOV, Vladimir Yemeliyanovich 
 type:	military
 dob:	1944-02-21

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SMITH, Steven L.
 type:	civilian
 dob:	1958-12-30

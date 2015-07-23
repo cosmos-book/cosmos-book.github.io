@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WHITE, Edward H. II
 type:	military
 dob:	1930-11-14

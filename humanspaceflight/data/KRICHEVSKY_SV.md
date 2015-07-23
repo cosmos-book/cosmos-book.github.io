@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KRICHEVSKY, Sergei Vladimirovich
 type:	military
 dob:	1955-07-09

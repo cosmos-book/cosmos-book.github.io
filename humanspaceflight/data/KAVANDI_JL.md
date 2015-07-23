@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KAVANDI, Janet L.
 type:	civilian
 dob:	1959-07-17

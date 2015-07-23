@@ -1,4 +1,5 @@
 ---
+category:	tourist
 name:	ANSARI, Anousheh
 type:	tourist
 dob:	1966-09-22

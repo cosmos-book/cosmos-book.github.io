@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	BATALLI-COSMOVICI, Cristiano
 type:	civilian
 dob:	1943-06-02

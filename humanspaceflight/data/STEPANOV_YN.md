@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	STEPANOV, Yuri Nikolayevich 
 type:	civilian
 dob:	1936-09-27

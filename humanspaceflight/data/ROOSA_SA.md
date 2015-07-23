@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ROOSA, Stuart A.
 type:	military
 dob:	1933-08-16

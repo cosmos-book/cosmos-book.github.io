@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	AKSYONOV, Vladimir Viktorovich
 type:	military
 dob:	1935-02-01

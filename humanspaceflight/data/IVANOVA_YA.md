@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	IVANOVA, Yekaterina Aleksandrovna
 type:	civilian
 dob:	1949-10-03

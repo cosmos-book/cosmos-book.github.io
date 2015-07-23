@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CARR, Gerald P.
 type:	military
 dob:	1932-08-22

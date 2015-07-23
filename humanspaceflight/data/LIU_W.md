@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	LIU, Wang
 type:	civilian
 dob:	1969-03-25

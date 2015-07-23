@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOSTENKO, Sergei Valerievich
 type:	civilian
 dob:	1963-04-20

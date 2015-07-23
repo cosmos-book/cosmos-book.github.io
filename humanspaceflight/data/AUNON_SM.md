@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	AUNON, Serena M.
 type:	civilian
 dob:	1976-04-09

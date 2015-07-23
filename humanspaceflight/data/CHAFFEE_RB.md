@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHAFFEE, Roger B.
 type:	military
 dob:	1935-02-15

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	DUNBAR, Bonnie
 type:	civilian
 dob:	1949-03-03

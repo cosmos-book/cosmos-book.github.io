@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BOLDEN, Charles F., Jr. 
 type:	military
 dob:	1946-08-19

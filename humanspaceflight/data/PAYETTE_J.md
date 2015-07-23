@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	PAYETTE, Julie
 type:	civilian
 dob:	1963-10-20

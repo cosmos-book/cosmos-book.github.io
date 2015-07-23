@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NYBERG, Karen L.
 type:	civilian
 dob:	1969-10-07

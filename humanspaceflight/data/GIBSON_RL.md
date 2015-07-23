@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GIBSON, Robert L. 'Hoot'
 type:	military
 dob:	1946-10-30

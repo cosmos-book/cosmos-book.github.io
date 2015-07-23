@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GRISSOM, Virgil I.
 type:	military
 dob:	1926-04-03

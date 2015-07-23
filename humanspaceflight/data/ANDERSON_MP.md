@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ANDERSON, Michael P.
 type:	military
 dob:	1959-12-25

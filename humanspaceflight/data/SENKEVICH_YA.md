@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SENKEVICH, Yuri Aleksandrovich 
 type:	military
 dob:	1937-03-04

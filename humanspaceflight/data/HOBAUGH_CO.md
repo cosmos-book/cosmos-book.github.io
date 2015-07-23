@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HOBAUGH, Charles O.
 type:	military
 dob:	1961-11-06

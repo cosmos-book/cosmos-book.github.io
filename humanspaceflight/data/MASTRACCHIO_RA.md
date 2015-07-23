@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MASTRACCHIO, Richard A.
 type:	civilian
 dob:	1960-02-11

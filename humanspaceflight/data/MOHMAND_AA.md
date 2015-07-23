@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	MOHMAND, Abdul Ahad 'Abdulah'
 type:	military
 dob:	1959-01-01

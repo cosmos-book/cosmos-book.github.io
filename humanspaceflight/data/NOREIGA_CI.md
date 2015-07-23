@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NOREIGA, Carlos I.
 type:	military
 dob:	1959-10-08

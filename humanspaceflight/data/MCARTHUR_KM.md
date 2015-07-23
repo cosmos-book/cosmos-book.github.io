@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCARTHUR, Katherine Megan
 type:	civilian
 dob:	1971-08-30

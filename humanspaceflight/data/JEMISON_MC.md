@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JEMISON, Mae C.
 type:	civilian
 dob:	1956-10-17

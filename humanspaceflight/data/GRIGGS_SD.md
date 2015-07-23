@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GRIGGS, S. David
 type:	civilian
 dob:	1939-09-07

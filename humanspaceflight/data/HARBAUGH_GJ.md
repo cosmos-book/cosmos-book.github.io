@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HARBAUGH, Gregory J.
 type:	civilian
 dob:	1956-04-15

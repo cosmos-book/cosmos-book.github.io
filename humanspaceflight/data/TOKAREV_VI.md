@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	TOKAREV, Valeri Ivanovich 
 type:	military
 dob:	1952-10-29

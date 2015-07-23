@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	FEI, Junlong
 type:	military
 dob:	1966-05-05

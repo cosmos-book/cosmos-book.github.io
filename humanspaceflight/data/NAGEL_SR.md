@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	NAGEL, Steven R.
 type:	military
 dob:	1946-10-27

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CHAMITOFF, Gregory E.
 type:	civilian
 dob:	1962-08-06

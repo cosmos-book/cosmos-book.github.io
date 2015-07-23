@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	STEPANOV, Eduard Nikolayevich 
 type:	military
 dob:	1937-04-14

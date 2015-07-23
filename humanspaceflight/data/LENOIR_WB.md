@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LENOIR, William B.
 type:	civilian
 dob:	1939-03-14

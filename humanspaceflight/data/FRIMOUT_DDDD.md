@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FRIMOUT, Dirk Dries David Damiaan
 type:	civilian
 dob:	1941-03-21

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOVELL, James A., Jr.
 type:	military
 dob:	1928-03-25

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	AVDEYEV, Sergei Vasiliyevich
 type:	civilian
 dob:	1956-01-01

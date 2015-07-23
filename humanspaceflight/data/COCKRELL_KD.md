@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COCKRELL, Kenneth D.
 type:	military
 dob:	1950-04-09

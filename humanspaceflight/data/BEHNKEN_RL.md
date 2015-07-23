@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BEHNKEN, Robert L., (Ph.D.) 
 type:	military
 dob:	1970-07-28

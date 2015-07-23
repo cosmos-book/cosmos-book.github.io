@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SALEY, Yevgeni Vladimirovich 
 type:	military
 dob:	1950-01-01

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MANAROV, Musa Khiramanovich 
 type:	military
 dob:	1951-03-22

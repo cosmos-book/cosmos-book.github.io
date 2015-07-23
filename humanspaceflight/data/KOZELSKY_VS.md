@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOZELSKY, Vladimir Sergeyevich 
 type:	military
 dob:	1942-01-12

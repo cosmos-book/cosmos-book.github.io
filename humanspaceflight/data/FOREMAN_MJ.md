@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FOREMAN, Michael J.
 type:	military
 dob:	1957-03-29

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THOMAS, Donald A.
 type:	civilian
 dob:	1955-05-06

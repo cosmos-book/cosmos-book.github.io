@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GEMAR, Charles D.
 type:	military
 dob:	1955-08-04

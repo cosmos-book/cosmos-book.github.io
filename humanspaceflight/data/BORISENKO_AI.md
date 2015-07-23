@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	BORISENKO, Andrei Ivanovich
 type:	military
 dob:	1964-04-17

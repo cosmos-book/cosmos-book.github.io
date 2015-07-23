@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YURCHIKHIN, Fyodor Nikolayevich 
 type:	civilian
 dob:	1959-01-03

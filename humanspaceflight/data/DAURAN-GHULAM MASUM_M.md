@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	DAURAN-GHULAM MASUM, Mohammed
 type:	military
 dob:	1954-01-20

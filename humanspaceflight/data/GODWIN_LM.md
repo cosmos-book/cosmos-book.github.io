@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	GODWIN, Linda M.
 type:	civilian
 dob:	1952-07-02

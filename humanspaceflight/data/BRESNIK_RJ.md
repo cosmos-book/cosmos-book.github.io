@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	BRESNIK, Randolph J.
 type:	military
 dob:	1967-09-11

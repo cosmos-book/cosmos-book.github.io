@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WORDEN, Alfred M.
 type:	military
 dob:	1932-02-07

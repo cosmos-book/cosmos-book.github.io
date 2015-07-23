@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	LOPEZ-ALEGRIA, Michael E.
 type:	military
 dob:	1958-05-30

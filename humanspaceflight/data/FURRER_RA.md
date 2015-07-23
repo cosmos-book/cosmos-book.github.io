@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FURRER, Reinhard Alfred
 type:	civilian
 dob:	1940-11-25

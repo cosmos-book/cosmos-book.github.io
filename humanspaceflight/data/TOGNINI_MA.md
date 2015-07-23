@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	TOGNINI, Michel Ange-Charles
 type:	military
 dob:	1949-09-30

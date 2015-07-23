@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	JONES, Thomas D.
 type:	civilian
 dob:	1955-01-22

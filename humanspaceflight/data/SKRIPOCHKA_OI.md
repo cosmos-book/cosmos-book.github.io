@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SKRIPOCHKA, Oleg Ivanovich 
 type:	civilian
 dob:	1969-12-24

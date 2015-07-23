@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	TANG, Hongbo
 type:	military
 dob:	

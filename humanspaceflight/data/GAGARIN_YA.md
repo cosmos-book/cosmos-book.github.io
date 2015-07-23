@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	GAGARIN, Yuri Alekseyevich
 type:	military
 dob:	1934-03-09

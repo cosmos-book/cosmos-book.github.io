@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ALLEN, Andrew M.
 type:	military
 dob:	1955-08-04

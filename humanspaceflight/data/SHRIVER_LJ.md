@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SHRIVER, Loren J.
 type:	military
 dob:	1944-09-23

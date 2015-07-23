@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	KELLY, Scott J.
 type:	military
 dob:	1964-02-21

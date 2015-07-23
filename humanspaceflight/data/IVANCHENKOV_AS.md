@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	IVANCHENKOV, Aleksandr Sergeyevich
 type:	civilian
 dob:	1940-09-28

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MAGNUS, Sandra H.
 type:	civilian
 dob:	1964-10-30

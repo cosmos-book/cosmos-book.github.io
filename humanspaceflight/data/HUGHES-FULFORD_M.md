@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	HUGHES-FULFORD, Millie
 type:	civilian
 dob:	1945-12-21

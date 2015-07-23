@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KOMAROV, Vladimir Mikhailovich 
 type:	military
 dob:	1927-03-16

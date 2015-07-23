@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MATTINGLY, Thomas K., II
 type:	military
 dob:	1936-03-17

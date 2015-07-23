@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SATCHER, Robert L., Jr.
 type:	civilian
 dob:	1965-09-22

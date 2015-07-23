@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	COOPER, L. Gordon, Jr.
 type:	military
 dob:	1927-03-06

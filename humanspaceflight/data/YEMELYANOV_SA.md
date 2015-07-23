@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	YEMELYANOV, Sergei Aleksandrovich 
 type:	civilian
 dob:	1951-08-03

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCDIVITT, James Alton 'Jim'
 type:	military
 dob:	1929-06-10

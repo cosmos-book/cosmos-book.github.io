@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	ANDREYEV, Boris Dmitriyevich
 type:	civilian
 dob:	1940-10-06

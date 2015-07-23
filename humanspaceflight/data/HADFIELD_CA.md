@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	HADFIELD, Chris Austin
 type:	military
 dob:	1959-08-19

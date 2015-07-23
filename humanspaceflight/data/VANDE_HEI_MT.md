@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	VANDE HEI, Mark T.
 type:	military
 dob:	1966-11-10

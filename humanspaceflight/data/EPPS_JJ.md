@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	EPPS, Jeanette J.
 type:	civilian
 dob:	1970-11-03

@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	MATVEYEV, Denis Vladimirovich
 type:	civilian
 dob:	1983-04-25

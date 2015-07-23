@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	FARIS, Muhammed Achmed
 type:	military
 dob:	1951-05-26

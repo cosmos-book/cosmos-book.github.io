@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KADENYUK, Leonid Konstantinovich
 type:	military
 dob:	1951-01-28

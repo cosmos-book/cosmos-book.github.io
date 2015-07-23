@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	OVERMYER, Robert F.
 type:	military
 dob:	1936-07-14

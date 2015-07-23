@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	PROTCHENKO, Sergei Filippovich 
 type:	military
 dob:	1947-01-03

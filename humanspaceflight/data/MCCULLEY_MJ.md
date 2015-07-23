@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	MCCULLEY, Michael J.
 type:	military
 dob:	1943-08-04

@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILLIAMS, Donald E.
 type:	military
 dob:	1958-02-13

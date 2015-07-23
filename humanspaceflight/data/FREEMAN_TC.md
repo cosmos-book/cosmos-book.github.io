@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FREEMAN, Theodore C.
 type:	military
 dob:	1930-02-18

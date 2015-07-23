@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	SOLOVIYOV, Anatoli Yakovlevich 
 type:	military
 dob:	1948-01-16

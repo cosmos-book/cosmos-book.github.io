@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	POPOV, Leonid Ivanovich 
 type:	military
 dob:	1945-08-31

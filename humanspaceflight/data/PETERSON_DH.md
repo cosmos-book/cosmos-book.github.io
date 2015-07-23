@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	PETERSON, Donald H.
 type:	military
 dob:	1933-10-22

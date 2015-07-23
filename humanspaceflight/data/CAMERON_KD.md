@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CAMERON, Kenneth D.
 type:	military
 dob:	1949-11-29

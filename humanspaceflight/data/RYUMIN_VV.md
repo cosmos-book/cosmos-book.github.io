@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	RYUMIN, Valeri Viktorovich 
 type:	civilian
 dob:	1939-08-16

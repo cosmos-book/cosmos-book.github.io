@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	RAFIKOV, Mars Zakirovich 
 type:	military
 dob:	1933-09-29

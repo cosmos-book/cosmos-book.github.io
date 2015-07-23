@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	THAGARD, Norman E.
 type:	civilian
 dob:	1943-07-03

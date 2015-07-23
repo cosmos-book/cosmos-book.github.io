@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	TANI, Daniel M.
 type:	civilian
 dob:	1961-02-01

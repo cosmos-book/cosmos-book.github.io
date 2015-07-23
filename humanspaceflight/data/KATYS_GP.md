@@ -1,4 +1,5 @@
 ---
+category:	cosmonaut
 name:	KATYS, Georgi Petrovich 
 type:	civilian
 dob:	1926-08-31

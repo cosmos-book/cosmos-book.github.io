@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	CROUCH, Roger K.
 type:	civilian
 dob:	1940-09-12

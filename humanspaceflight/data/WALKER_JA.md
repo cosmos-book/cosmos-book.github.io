@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WALKER, Joseph Albert 'Joe'
 type:	military
 dob:	1921-02-20

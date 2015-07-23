@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FEUSTEL, Andrew J.
 type:	civilian
 dob:	1965-08-25

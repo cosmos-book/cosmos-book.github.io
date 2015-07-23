@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	OSWALD, Stephen S.
 type:	civilian
 dob:	1951-06-30

@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	AKBAR, Taufik
 type:	civilian
 dob:	1951-01-08

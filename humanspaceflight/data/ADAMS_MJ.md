@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	ADAMS, Mike James
 type:	military
 dob:	1930-05-05

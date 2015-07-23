@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FERGUSON, Christopher J.
 type:	military
 dob:	1961-09-01

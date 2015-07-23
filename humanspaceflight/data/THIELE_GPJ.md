@@ -1,4 +1,5 @@
 ---
+category:	international
 name:	THIELE, Gerhard Paul Julius
 type:	civilian
 dob:	1953-09-02

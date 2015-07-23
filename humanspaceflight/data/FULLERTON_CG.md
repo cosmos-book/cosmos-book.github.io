@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	FULLERTON, C. Gordon
 type:	military
 dob:	1936-10-11

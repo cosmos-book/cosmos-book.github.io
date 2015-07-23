@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	IVINS, Marsha S.
 type:	civilian
 dob:	1951-04-15

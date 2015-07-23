@@ -1,4 +1,5 @@
 ---
+category:	taikonaut
 name:	LIU, Boming
 type:	military
 dob:	1966-10-29

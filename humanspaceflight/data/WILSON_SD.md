@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	WILSON, Stephanie D.
 type:	civilian
 dob:	1966-09-27

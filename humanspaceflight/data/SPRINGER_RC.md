@@ -1,4 +1,5 @@
 ---
+category:	astronaut
 name:	SPRINGER, Robert C.
 type:	military
 dob:	1942-05-21
