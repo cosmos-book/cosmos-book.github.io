@@ -2,7 +2,7 @@
 category:	astronaut
 name:	ASHBY, Jeffrey S.
 type:	military
-dob:	1954
+dob:	1954-06-16
 qualifications:
   - BSc in mechanical engineering
   - MSc in aviation systems

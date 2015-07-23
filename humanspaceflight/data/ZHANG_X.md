@@ -2,7 +2,7 @@
 category:	taikonaut
 name:	ZHANG, Xiaoguan
 type:	civilian
-dob:	
+dob:	1966-05-01
 country:
   - CHN
 references:
