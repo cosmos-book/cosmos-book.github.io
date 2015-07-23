@@ -14,4 +14,4 @@ The missions which have reached 100 km or higher are listed in date order with t
 
 ## EVAs
 
-The Extra-vehicular activites are listed with start times and durations. Durations are in the format =XXhYYm=.
+The Extra-vehicular activites are listed with start times and durations. Durations are in the format __XXhYYm__.
