@@ -1,23 +1,6 @@
 body { font-family: Helvetica, sans-serif; text-align: center; }
-body.SOL { background-color: #e1f4fe; }
 
-.outerbox {
-    display: table;
-    position: absolute;
-    height: 95%;
-    width: 95%;
-}
 
-.middlebox {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.innerbox {
-    margin-left: auto;
-    margin-right: auto; 
-    width: /*whatever width you want*/;
-}
 #container,#info { max-width: 700px; margin: auto; }
 
 h1 { font-size: 1.5em; }

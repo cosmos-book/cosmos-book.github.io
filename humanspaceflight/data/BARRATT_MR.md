@@ -10,9 +10,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 19/20 on Soyuz
+  - name: Soyuz TMA-14
     time_start:   2009-03-26T11:49:18Z
-    time_end:     2009-10-11T04:32Z
+    time_end:     2009-10-11T04:33Z
   - name: STS-133
     time_start:   2011-02-24T21:53:24Z
     time_end:     2011-03-09T16:58:15Z

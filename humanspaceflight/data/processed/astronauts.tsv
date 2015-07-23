@@ -47,7 +47,7 @@ BAGIAN, James P.	USA	Male	1952-02-22	14.08	1216393	0	2	0	1989-03-13T14:57Z	0.000
 BAKER, Ellen S. (M.D.)	USA	Female	1953-04-27	28.61	2471615	0	3	0	1989-10-18T16:53:40Z	0.000891	36	BA in geology;Doctor of Medicine	STS-34;STS-50;STS-71	13.81	19896500	00:00	astronaut
 BAKER, Michael A.	USA	Male	1953-10-27	40.13	3467045	0	4	0	1991-08-02T15:01:59Z	0.001250	37	BSc in aerospace engineering	STS-43;STS-52;STS-68;STS-81	11.24	27909712	00:00	astronaut
 BALANDIN, Aleksandr Nikolayevich	URS	Male	1953-07-30	179.05	15470278	38220	1	2	1990-02-11T06:16Z	0.005577	36		Soyuz TM-9	179.05	124535737	10:37	cosmonaut
-BARRATT, Michael R.	USA	Male	1959-04-16	211.49	18272853	17640	2	1	2009-03-26T11:49:18Z	0.006588	49	BSc in zoology;MSc in aerospace medicine;Doctor of Medicine	Expedition 19/20 on Soyuz;STS-133	198.70	147096466	04:54	astronaut
+BARRATT, Michael R.	USA	Male	1959-04-16	211.49	18272913	17640	2	1	2009-03-26T11:49:18Z	0.006588	49	BSc in zoology;MSc in aerospace medicine;Doctor of Medicine	Soyuz TMA-14;STS-133	198.70	147096949	04:54	astronaut
 BARRY, Daniel T. (M.D.)	USA	Male	1953-12-30	30.60	2644092	92940	3	1	1996-01-11T09:41Z	0.000953	42	BSc in electrical engineering;Doctor of Medicine	STS-72;STS-96;STS-105	11.88	21284940	25:49	astronaut
 BARTOE, John-David F.	USA	Male	1944-11-17	7.95	686727	0	1	0	1985-07-29T21:00:00Z	0.000248	40	BSc in physics;PhD in physics	STS-51-F	7.95	5528152	00:00	astronaut
 BASSETT II, Charles A.	USA	Male	1931-12-30	0.00	0	0	0	0		0.000000	0	BSc in electrical engineering		0.00	0	00:00	astronaut
@@ -129,7 +129,7 @@ CHIRKIN, Viktor Martynovich	URS	Male	1944-07-13	0.00	0	0	0	0		0.000000	0			0.00	
 CHRéTIEN, Jean-Loup Jacques Marie	FRA	Male	1938-08-20	43.47	3756060	22200	3	1	1982-06-24T16:29:48Z	0.001354	43		Soyuz T-6;Soyuz TM-7;Soyuz TM-6;STS-86	24.76	30236283	06:10	international
 CHUB, Nikolai Aleksandrovich	RUS	Male	1984-06-10	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut
 CLARK, Laurel B.	USA	Female	1961-03-10	15.93	1376400	0	1	0	2003-01-16T15:39Z	0.000496	41	BSc in Zoology;Doctor of Medicine	STS-107	15.93	11080020	00:00	astronaut
-CLEAVE, Mary L.	USA	Female	1947-02-05	4.04	348869	0	1	0	1989-05-04T18:48:59Z	0.000126	42	BSc in biological sciences;MSc in microbial ecology;PhD in environmental engineering	STS-61B -on Atlantis;STS-30	4.04	2808395	00:00	astronaut
+CLEAVE, Mary L.	USA	Female	1947-02-05	71.92	6213558	0	2	0	1985-09-27T00:29:00Z	0.002240	38	BSc in biological sciences;MSc in microbial ecology;PhD in environmental engineering	STS-61-B;STS-30	67.88	50019141	00:00	astronaut
 CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;	FRA	Male	1958-11-19	28.09	2426735	0	3	0	1994-11-03T16:59:43Z	0.000875	35		STS-66;STS-84;STS-103	10.94	19535216	00:00	international
 CLIFFORD, Michael R.	USA	Male	1952-10-13	0.00	0	0	0	0		0.000000	0	MSc in aerospace engineering		0.00	0	00:00	astronaut
 COATS, Michael L.	USA	Male	1946-01-16	19.33	1670241	0	3	0	1984-08-30T12:41:50Z	0.000602	38	MSc in administration of science & technology	STS-41-D;STS-29;STS-39	8.31	13445440	00:00	astronaut
@@ -486,7 +486,7 @@ NAIR, Paramaswaren Radhakrishnan	IND	Male	1943-10-10	0.00	0	0	0	0		0.000000	0			
 NELSON, Bill	USA	Male	1942-09-29	6.09	525832	0	1	0	1986-01-12T11:55Z	0.000190	43		STS-61-C	6.09	4232947	00:00	astronaut
 NELSON, George D.	USA	Male	1950-07-13	17.11	1478652	36360	3	1	1984-04-06T13:58Z	0.000533	33	BSc in physics;MSc in astronomy;PhD in astronomy	STS-41-C;STS-61-C;STS-26	6.99	11903148	10:06	astronaut
 NELYUBOV, Grigori Grigoriyevich	URS	Male	1934-03-31	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut
-NERI VELA, Rodolfo	MEX	Male	1952-02-19	0.00	0	0	0	0		0.000000	0		STS-61B	0.00	0	00:00	international
+NERI VELA, Rodolfo	MEX	Male	1952-02-19	67.88	5864689	0	1	0	1985-09-27T00:29:00Z	0.002114	33		STS-61-B	67.88	47210746	00:00	international
 NESPOLI, Paolo Angelo	ITA	Male	1957-04-06	174.40	15068520	0	2	0	2007-10-23T15:38:19Z	0.005432	50		STS-120;Soyuz TMA-20	159.30	121301586	00:00	international
 NEWMAN, James H.	USA	Male	1956-10-16	43.42	3751892	155580	4	1	1993-09-12T11:45Z	0.001353	36	BA in physics;MA in physics;PhD in physics	STS-51;STS-69;STS-88;STS-109	11.80	30202730	43:13	astronaut
 NICOLLIER, Claude	CHE	Male	1944-09-02	42.50	3672335	58800	4	2	1992-07-31T13:56:48Z	0.001324	47		STS-46;STS-61;STS-75;STS-103	15.74	29562296	16:20	international
