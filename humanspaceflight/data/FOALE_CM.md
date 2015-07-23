@@ -18,9 +18,6 @@ missions:
   - name: STS-63
     time_start:   1995-02-03T05:22:04Z
     time_end:     1995-02-11T11:50:20Z
-  - name: Mir 23 on STS-84 Atlantis(up) and STS-86 Atlantis(down)
-    time_start:   
-    time_end:     
   - name: STS-84
     time_start:   1997-05-15T09:07:48Z
     time_end:     
@@ -33,9 +30,6 @@ missions:
   - name: Soyuz TMA-3
     time_start:   2003-10-18T05:38:03Z
     time_end:     2004-04-30T00:11:16Z
-  - name: Expedition 8 on Soyuz
-    time_start:   
-    time_end:     
 evas:
   - time_start: 
     duration:   22h44m
