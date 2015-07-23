@@ -97,7 +97,7 @@ p:last-child { margin-bottom: 0px; }
 
 @media only screen and (max-width: 700px){
 	h1 { font-size: 1.3em; }
-	.tooltip { max-width: 100%; }
+	.tooltip { font-size: 1em; max-width: 100%; left: 0px; top: 0px; right: 0px; width: auto; }
 	.tooltip .tooltip_inner:before {
 		border: 0px;
 	}

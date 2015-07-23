@@ -244,8 +244,16 @@ function tooltip(data){
 		var text = d.data.data.html.call(this);
 		var l = parseInt($(this).offset().left);
 		var t = parseInt($(this).offset().top);
-		if($('.tooltip').length == 0) $('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><\/div>');
-		else $('.tooltip_inner').html(text);
+		if($('.tooltip').length == 0){
+			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><\/div>');
+			$('.tooltip').on('dblclick',function(){
+				$('.tooltip').remove();
+			});
+
+			$('.tooltip_close').on('click',function(){
+				$('.tooltip').remove();
+			});
+		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
 		var dx = $(this).width()/2;
