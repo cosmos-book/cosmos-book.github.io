@@ -18,4 +18,6 @@ evas:
   - time_start: 
     duration:   12h48m
 gender:	Male
+country:
+  - USA
 ---

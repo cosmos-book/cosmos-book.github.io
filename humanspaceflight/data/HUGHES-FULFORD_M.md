@@ -13,4 +13,6 @@ missions:
     time_start:   1991-06-05T13:24:51Z
     time_end:     1991-06-14T15:39:12Z
 evas:
+country:
+  - USA
 ---

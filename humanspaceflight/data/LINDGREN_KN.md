@@ -12,4 +12,6 @@ references:
 missions:
 evas:
 gender:	Male
+country:
+  - USA
 ---

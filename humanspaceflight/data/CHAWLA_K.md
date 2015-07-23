@@ -19,4 +19,6 @@ missions:
     time_start:   2003-01-16T15:39Z
     time_end:     2003-02-01T13:59Z
 evas:
+country:
+  - USA
 ---

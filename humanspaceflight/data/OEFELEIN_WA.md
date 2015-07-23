@@ -14,4 +14,6 @@ missions:
     time_end:     2006-12-22T22:33Z
 evas:
 gender:	Male
+country:
+  - USA
 ---

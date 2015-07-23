@@ -28,4 +28,6 @@ evas:
   - time_start: 2014-04-23
     duration:   1h36m
 gender:	Male
+country:
+  - USA
 ---

@@ -20,4 +20,6 @@ missions:
     time_end:     1990-03-04T18:08:45Z
 evas:
 gender:	Male
+country:
+  - USA
 ---

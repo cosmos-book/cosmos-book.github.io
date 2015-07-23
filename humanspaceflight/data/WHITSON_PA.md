@@ -37,4 +37,6 @@ evas:
     duration:   6h56m
   - time_start: 2008-01-30T09:56
     duration:   7h10m
+country:
+  - USA
 ---

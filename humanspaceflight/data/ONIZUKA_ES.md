@@ -18,4 +18,6 @@ missions:
     time_end:     
 evas:
 gender:	Male
+country:
+  - USA
 ---

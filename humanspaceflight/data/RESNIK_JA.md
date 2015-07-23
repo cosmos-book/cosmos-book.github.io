@@ -18,4 +18,6 @@ missions:
     time_start:   1986-01-28T16:38Z
     time_end:     
 evas:
+country:
+  - USA
 ---

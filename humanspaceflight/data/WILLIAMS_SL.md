@@ -25,4 +25,6 @@ missions:
 evas:
   - time_start: 
     duration:   50h40m
+country:
+  - USA
 ---
