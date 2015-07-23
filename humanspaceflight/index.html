@@ -97,7 +97,7 @@
 		function drawAstronauts(){
 			var output = "";
 			for(var i = 0; i < astronauts.length; i++){
-				output += '<div id="'+astronauts[i].id+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/div>';
+				output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/a>';
 			}
 			$('.innerbox').append(output);
 			updateAstronauts();
@@ -139,10 +139,11 @@
 				else x = (astronauts[i][xaxis]-mn)/(mx-mn);
 				if(astronauts[i].time_space_days == 0){
 					x = -100;
+					$('#'+astronauts[i].id).remove();
 				}else{
 					j++;
+					$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 				}
-				$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 			}
 
 		}

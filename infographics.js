@@ -239,9 +239,8 @@ function addHistory(qs,fn,a){
 //     'html':function(){}
 // )
 function tooltip(data){
-	data.elements.on('mouseover click',{data:data},function(d){
-		//$('.tooltip').remove();
-		var text = d.data.data.html.call(this);
+	data.elements.on('mouseover click focus',{data:data},function(e){
+		var text = e.data.data.html.call(this);
 		var l = parseInt($(this).offset().left);
 		var t = parseInt($(this).offset().top);
 		if($('.tooltip').length == 0){
