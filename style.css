@@ -94,12 +94,25 @@ p:last-child { margin-bottom: 0px; }
 	border-top-color: transparent;
 	border-bottom-color: white;
 }
+.tooltip .tooltip_close {
+	display: none;
+}
 
 @media only screen and (max-width: 700px){
 	h1 { font-size: 1.3em; }
-	.tooltip { font-size: 1em; max-width: 100%; left: 0px; top: 0px; right: 0px; width: auto; }
+	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px; right: 0px; width: auto; }
 	.tooltip .tooltip_inner:before {
 		border: 0px;
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
+	.tooltip .tooltip_close {
+		text-align: center;
+		display: inline-block;
+		background-color: #eeeeee;
+		font-size: 1.2em;
+		margin-right: 0.25em;
+		cursor: pointer;
+		padding: 0.25em;
+		margin-bottom: 0.5em;
+	}
 }
