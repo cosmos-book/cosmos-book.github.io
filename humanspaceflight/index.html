@@ -70,9 +70,12 @@
 
 		function sortBy(i){
 			astronauts.sort(function (a, b) {
-				return a[i] > b[i] 
-						   ? 1    // Move it down the list
-						   : -1;   // Keep it the same
+				if(a[i] === b[i]){
+					return (a['name'] > b['name']) ? 1 : -1;
+				}else{
+					return a[i] > b[i] ? 1 : -1;
+				}
+				return 0;
 			});
 		}
 
