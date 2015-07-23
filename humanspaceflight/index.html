@@ -45,11 +45,15 @@
 	    transition: left 2s, top 2s;
 	    cursor: pointer;
 	}
-	.human:hover {
-		width: 1em;
-		height: 1em;
-		margin-top: -0.5em;
-		margin-left: -0.5em;
+	.human:hover, .human:focus {
+		width: 1.4em;
+		height: 1.4em;
+		margin-top: -0.7em;
+		margin-left: -0.7em;
+	    background-image: url('astronaut.png');
+	    background-size: 40% 80%, auto;
+	    background-repeat:no-repeat;
+		background-position:center center;
 	}
 	.astronaut { background-color: #00a2d3; }
 	.cosmonaut { background-color: #f04031; }
