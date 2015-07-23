@@ -57,7 +57,7 @@
 * **BATURIN, Yuri Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/baturin_yuri.htm
 * **BAUDRY, Patrick Pierre Roger**: http://www.spacefacts.de/bios/international/english/baudry_patrick.htm
 * **BEAN, Alan L.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **BEHNKEN, Robert L., (Ph.D.) **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **BEHNKEN, Robert L., (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BELLA, Ivan**: http://www.spacefacts.de/bios/international/english/bella_ivan.htm
 * **BELOBORODOV, Valeri Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/beloborodov_valeri.htm
 * **BELOUSOV, Boris Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/belousov_boris.htm
@@ -74,7 +74,7 @@
 * **BLUFORD, Guion S., Jr**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BOBKO, Karol J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BOE, Eric A.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **BOLDEN, Charles F., Jr. **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **BOLDEN, Charles F., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BONDARENKO, Valentin Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/bondarenko_valentin.htm
 * **BONDAR, Roberta Lynn**: http://www.spacefacts.de/bios/international/english/bondar_roberta.htm
 * **BORISENKO, Andrei Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/borisenko_andrei.htm
@@ -105,8 +105,8 @@
 * **BURSCH, Daniel W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BUYNOVSKY, Eduard Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/buynovsky_eduard.htm
 * **BYKOVSKY, Valeri Fyodorovich**: http://www.spacefacts.de/bios/cosmonauts/english/bykovsky_valeri.htm
-* **CABANA, Robert D. **: http://www.nasa.gov/pdf/740566main_current.pdf
-* **CAGLE, Yvonne D., (M.D.) **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CABANA, Robert D.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CAGLE, Yvonne D., (M.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CALDEIRO, Fernando**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CALDWELL (Dyson), Tracy E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CAMARDA, Charles J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -153,7 +153,7 @@
 * **CULBERTSON, Frank L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CUNNINGHAM, Walter**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CURBEAM, Robert L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **CURRIE, Nancy J. (Sherlock), (Ph.D.) **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CURRIE, Nancy J. (Sherlock), (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DAURAN-GHULAM MASUM, Mohammed**: http://www.spacefacts.de/bios/international/english/dauran_mohammed.htm
 * **DAVIS, N. Jan**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DE WINNE, Frank**: http://www.spacefacts.de/bios/international/english/dewinne_frank.htm
@@ -340,81 +340,81 @@
 * **KANAI, Norishige**: http://www.spacefacts.de/bios/international/english/kanai_norishige.htm
 * **KARASHTIN, Vladimir Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/karashtin_vladimir.htm
 * **KARTASHOV, Anatoli Yakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/kartashov_anatoli.htm
-* **KATYS, Georgi Petrovich **: http://www.spacefacts.de/bios/cosmonauts/english/katys_georgi.htm
+* **KATYS, Georgi Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/katys_georgi.htm
 * **KAVANDI, Janet L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KELLY, James M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KELLY, Mark E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KELLY, Scott J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KERWIN, Joseph P.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **KHATULEV, Vladimir Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/khatulev_vladimir.htm
-* **KHLUDEYEV, Yevgeni Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/khludeyev_yevgeni.htm
+* **KHATULEV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/khatulev_vladimir.htm
+* **KHLUDEYEV, Yevgeni Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/khludeyev_yevgeni.htm
 * **KHOMENCHUK, Aleksei Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/khomenchuk_aleksei.htm
-* **KHRUNOV, Yevgeni Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/khrunov_yevgeni.htm
-* **KHRUNOV, Yevgeni Vasiliyevich **: http://www.spacefacts.de/eva/cosmonauts/english/khrunov_yevgeni.htm
+* **KHRUNOV, Yevgeni Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/khrunov_yevgeni.htm
+* **KHRUNOV, Yevgeni Vasiliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/khrunov_yevgeni.htm
 * **KIKINA, Anna Yuryevna**: http://www.spacefacts.de/bios/cosmonauts/english/kikina_anna.htm
 * **KIKUCHI, Ryoko**: http://www.spacefacts.de/bios/international/english/kikuchi_ryoko.htm
 * **KILRAIN (Still), Susan L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KIMBROUGH, Robert Shane**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **KISELYOV, Aleksandr Alexeyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
-* **KIZIM, Leonid Denisovich **: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
-* **KIZIM, Leonid Denisovich **: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
-* **KLIMUK, Pyotr Iliyich **: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
-* **KOLESNIKOV, Gennadi Mikhailovich **: http://www.spacefacts.de/bios/cosmonauts/english/kolesnikov_gennadi.htm
-* **KOLODIN, Pyotr Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm
-* **KOLOMIYTSEV, Ordinard Panteleymonovich **: http://www.spacefacts.de/bios/cosmonauts/english/kolomiytsev_ordinard.htm
-* **KOMAROV, Vladimir Mikhailovich **: http://www.spacefacts.de/bios/cosmonauts/english/komarov_vladimir.htm
-* **KONDAKOVA, Yelena Vladimirovna **: http://www.spacefacts.de/bios/cosmonauts/english/kondakova_yelena.htm
-* **KONDRATIYEV, Dmitri Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kondratiyev_dmitri.htm
-* **KONDRATIYEV, Dmitri Yuriyevich **: http://www.spacefacts.de/eva/cosmonauts/english/kondratiyev_dmitri.htm
-* **KONONENKO, Oleg Dmitriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
-* **KONONENKO, Oleg Dmitriyevich **: http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
-* **KONONENKO, Oleg Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
+* **KISELYOV, Aleksandr Alexeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
+* **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
+* **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
+* **KLIMUK, Pyotr Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
+* **KOLESNIKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolesnikov_gennadi.htm
+* **KOLODIN, Pyotr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm
+* **KOLOMIYTSEV, Ordinard Panteleymonovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolomiytsev_ordinard.htm
+* **KOMAROV, Vladimir Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/komarov_vladimir.htm
+* **KONDAKOVA, Yelena Vladimirovna**: http://www.spacefacts.de/bios/cosmonauts/english/kondakova_yelena.htm
+* **KONDRATIYEV, Dmitri Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kondratiyev_dmitri.htm
+* **KONDRATIYEV, Dmitri Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kondratiyev_dmitri.htm
+* **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
+* **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
+* **KONONENKO, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
 * **KOPRA, Timothy L.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **KORNIYENKO, Mikhail Borisovich **: http://www.spacefacts.de/bios/cosmonauts/english/korniyenko_mikhail.htm
-* **KORNIYENKO, Mikhail Borisovich **: http://www.spacefacts.de/eva/cosmonauts/english/korniyenko_mikhail.htm
+* **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/korniyenko_mikhail.htm
+* **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/eva/cosmonauts/english/korniyenko_mikhail.htm
 * **KORSAKOV, Sergei Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/korsakov_sergei.htm
-* **KORZUN, Valeri Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/korzun_valeri.htm
-* **KORZUN, Valeri Grigoriyevich **: http://www.spacefacts.de/eva/cosmonauts/english/korzun_valeri.htm
+* **KORZUN, Valeri Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/korzun_valeri.htm
+* **KORZUN, Valeri Grigoriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/korzun_valeri.htm
 * **KOSTENKO, Sergei Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/kostenko_sergei.htm
-* **KOTOV, Oleg Valeriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kotov_oleg.htm
-* **KOTOV, Oleg Valeriyevich **: http://www.spacefacts.de/eva/cosmonauts/english/kotov_oleg.htm
-* **KOVALYONOK, Vladimir Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kovalyonok_vladimir.htm
-* **KOZELSKY, Vladimir Sergeyevich **: http://www.spacefacts.de/bios/cosmonauts/english/kozelsky_vladimir.htm
-* **KOZEYEV, Konstantin Mirovich **: http://www.spacefacts.de/bios/cosmonauts/english/kozeyev_konstantin.htm
-* **KOZLOV, Vladimir Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/kozlov_vladimir.htm
+* **KOTOV, Oleg Valeriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kotov_oleg.htm
+* **KOTOV, Oleg Valeriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kotov_oleg.htm
+* **KOVALYONOK, Vladimir Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kovalyonok_vladimir.htm
+* **KOZELSKY, Vladimir Sergeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kozelsky_vladimir.htm
+* **KOZEYEV, Konstantin Mirovich**: http://www.spacefacts.de/bios/cosmonauts/english/kozeyev_konstantin.htm
+* **KOZLOV, Vladimir Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/kozlov_vladimir.htm
 * **KO, San**: http://www.spacefacts.de/bios/international/english/go_san.htm
-* **KRAMARENKO, Aleksandr Yakovlevich **: http://www.spacefacts.de/bios/cosmonauts/english/kramarenko_aleksandr.htm
+* **KRAMARENKO, Aleksandr Yakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/kramarenko_aleksandr.htm
 * **KREGEL, Kevin R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KRICHEVSKY, Sergei Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/krichevsky_sergei.htm
-* **KRIKALYOV, Sergei Konstantinovich **: http://www.spacefacts.de/bios/cosmonauts/english/krikalyov_sergei.htm
-* **KRIKALYOV, Sergei Konstantinovich **: http://www.spacefacts.de/eva/cosmonauts/english/krikalyov_sergei.htm
+* **KRIKALYOV, Sergei Konstantinovich**: http://www.spacefacts.de/bios/cosmonauts/english/krikalyov_sergei.htm
+* **KRIKALYOV, Sergei Konstantinovich**: http://www.spacefacts.de/eva/cosmonauts/english/krikalyov_sergei.htm
 * **KRIKUN, Yuri Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/krikun_yuri.htm
-* **KUBASOV, Valeri Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/kubasov_valeri.htm
+* **KUBASOV, Valeri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/kubasov_valeri.htm
 * **KUD-SVERCHKOV, Sergei Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/kud-sverchkov_sergei.htm
-* **KUGNO, Eduard Pavlovich **: http://www.spacefacts.de/bios/cosmonauts/english/kugno_eduard.htm
+* **KUGNO, Eduard Pavlovich**: http://www.spacefacts.de/bios/cosmonauts/english/kugno_eduard.htm
 * **KUIPERS, Andr&eacute;**: http://www.spacefacts.de/bios/international/english/kuipers_andre.htm
-* **KUKLIN, Anatoli Petrovich **: http://www.spacefacts.de/bios/cosmonauts/english/kuklin_anatoli.htm
-* **KULESHOVA, Natalya Dmitriyevna **: http://www.spacefacts.de/bios/cosmonauts/english/kuleshova_natalya.htm
-* **KUZHELNAYA, Nadezhda Vasiliyevna **: http://www.spacefacts.de/bios/cosmonauts/english/kuzhelnaya_nadezhda.htm
-* **KUZNETSOVA, Tatiyana Dmitriyevna **: http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
+* **KUKLIN, Anatoli Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/kuklin_anatoli.htm
+* **KULESHOVA, Natalya Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuleshova_natalya.htm
+* **KUZHELNAYA, Nadezhda Vasiliyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuzhelnaya_nadezhda.htm
+* **KUZNETSOVA, Tatiyana Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
 * **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 * **LALIBERTé, Guy**: http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
 * **LATYSHEVA, Irina Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/latysheva_irina.htm
-* **LAVEYKIN, Aleksandr Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
-* **LAVEYKIN, Aleksandr Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/laveykin_aleksandr.htm
+* **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
+* **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/laveykin_aleksandr.htm
 * **LAWRENCE, Wendy B.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LAZAREV, Vasili Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/lazarev_vasili.htm
-* **LAZUTKIN, Aleksandr Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/lazutkin_aleksandr.htm
+* **LAZAREV, Vasili Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/lazarev_vasili.htm
+* **LAZUTKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/lazutkin_aleksandr.htm
 * **LEBEDEV, Valentin Vitaliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/lebedev_valentin.htm
 * **LEBEDEV, Valentin Vitaliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/lebedev_valentin.htm
 * **LEESTMA, David C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LEE, Mark C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LENOIR, William B.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LEONOV, Aleksei Arkhipovich **: http://www.spacefacts.de/bios/cosmonauts/english/leonov_aleksei.htm
-* **LEONOV, Aleksei Arkhipovich **: http://www.spacefacts.de/eva/cosmonauts/english/leonov_aleksei.htm
+* **LEONOV, Aleksei Arkhipovich**: http://www.spacefacts.de/bios/cosmonauts/english/leonov_aleksei.htm
+* **LEONOV, Aleksei Arkhipovich**: http://www.spacefacts.de/eva/cosmonauts/english/leonov_aleksei.htm
 * **LESLIE, Fred W.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LETUNOV, Yuri Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/letunov_yuri.htm
-* **LEVCHENKO, Anatoli Semyonovich **: http://www.spacefacts.de/bios/cosmonauts/english/levchenko_anatoli.htm
+* **LETUNOV, Yuri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/letunov_yuri.htm
+* **LEVCHENKO, Anatoli Semyonovich**: http://www.spacefacts.de/bios/cosmonauts/english/levchenko_anatoli.htm
 * **LICHTENBERG, Byron K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LINDGREN, Kjell N.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LINDSEY, Steven W.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -422,15 +422,15 @@
 * **LINENGER, Jerry M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LINNEHAN, Richard M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LINTERIS, Gregory T.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LISUN, Mikhail Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/lisun_mikhail.htm
+* **LISUN, Mikhail Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/lisun_mikhail.htm
 * **LIU, Boming**: http://www.spacefacts.de/bios/international/english/liu_buoming.htm
 * **LIU, Wang**: http://www.spacefacts.de/bios/international/english/liu_wang.htm
 * **LIU, Yang**: http://www.spacefacts.de/bios/international/english/liu_yang.htm
 * **LI, Qinglong**: http://www.spacefacts.de/bios/international/english/li_qinglong.htm
 * **LLEWELLYN, John A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LOCKHART, Paul S.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LONCHAKOV, Yuri Valentinovich **: http://www.spacefacts.de/bios/cosmonauts/english/lonchakov_yuri.htm
-* **LONCHAKOV, Yuri Valentinovich **: http://www.spacefacts.de/eva/cosmonauts/english/lonchakov_yuri.htm
+* **LONCHAKOV, Yuri Valentinovich**: http://www.spacefacts.de/bios/cosmonauts/english/lonchakov_yuri.htm
+* **LONCHAKOV, Yuri Valentinovich**: http://www.spacefacts.de/eva/cosmonauts/english/lonchakov_yuri.htm
 * **LONGHURST, Peter Hervey**: http://www.spacefacts.de/bios/international/english/longhurst_peter.htm
 * **LOPEZ-ALEGRIA, Michael E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LORENZONI, Andrea**: http://www.spacefacts.de/bios/international/english/lorenzoni_andrea.htm
@@ -442,33 +442,33 @@
 * **LOVE, Stanley G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LOW, G. David**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LUCID, Shannon W.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LUKIYANYUK, Vasili Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/lukiyanyuk_vasili.htm
+* **LUKIYANYUK, Vasili Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/lukiyanyuk_vasili.htm
 * **LU, Edward T.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **LYAKHOV, Vladimir Afanasiyevich **: http://www.spacefacts.de/bios/cosmonauts/english/lyakhov_vladimir.htm
-* **LYAKHOV, Vladimir Afanasiyevich **: http://www.spacefacts.de/eva/cosmonauts/english/lyakhov_vladimir.htm
-* **LóPEZ FALCóN, **: http://www.spacefacts.de/bios/international/english/lopez-falcon_jose.htm
+* **LYAKHOV, Vladimir Afanasiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/lyakhov_vladimir.htm
+* **LYAKHOV, Vladimir Afanasiyevich**: http://www.spacefacts.de/eva/cosmonauts/english/lyakhov_vladimir.htm
+* **LóPEZ FALCóN,**: http://www.spacefacts.de/bios/international/english/lopez-falcon_jose.htm
 * **MACE, Timothy Kristian Charles**: http://www.spacefacts.de/bios/international/english/mace_timothy.htm
-* **MACHINSKY, Georgi Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/machinski_georgi.htm
+* **MACHINSKY, Georgi Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/machinski_georgi.htm
 * **MACLEAN, Steven Glenwood**: http://www.spacefacts.de/bios/international/english/maclean_steven.htm
 * **MACLEAN, Steven Glenwood**: http://www.spacefacts.de/eva/international/english/maclean_steven.htm
 * **MAGNUS, Sandra H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MAGYARI, B&eacute;la**: http://www.spacefacts.de/bios/international/english/magyari_bela.htm
-* **MAKAROV, Oleg Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/makarov_oleg.htm
-* **MAKRUSHIN, Valeri Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/makrushin_valeri.htm
-* **MAKSIMENKO, Valeri Yevgeniyevich **: http://www.spacefacts.de/bios/cosmonauts/english/maksimenko_valeri.htm
-* **MALENCHENKO, Yuri Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/malenchenko_yuri.htm
-* **MALENCHENKO, Yuri Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/malenchenko_yuri.htm
+* **MAKAROV, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/makarov_oleg.htm
+* **MAKRUSHIN, Valeri Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/makrushin_valeri.htm
+* **MAKSIMENKO, Valeri Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/maksimenko_valeri.htm
+* **MALENCHENKO, Yuri Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/malenchenko_yuri.htm
+* **MALENCHENKO, Yuri Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/malenchenko_yuri.htm
 * **MALERBA, Franco Egidio**: http://www.spacefacts.de/bios/international/english/malerba_franco.htm
 * **MALHOTRA, Ravish**: http://www.spacefacts.de/bios/international/english/malhotra_ravish.htm
-* **MALYSHEV, Yuri Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/malyshev_yuri.htm
-* **MANAKOV, Gennadi Mikhailovich **: http://www.spacefacts.de/bios/cosmonauts/english/manakov_gennadi.htm
-* **MANAKOV, Gennadi Mikhailovich **: http://www.spacefacts.de/eva/cosmonauts/english/manakov_gennadi.htm
-* **MANAROV, Musa Khiramanovich **: http://www.spacefacts.de/bios/cosmonauts/english/manarov_musa.htm
-* **MANAROV, Musa Khiramanovich **: http://www.spacefacts.de/eva/cosmonauts/english/manarov_musa.htm
+* **MALYSHEV, Yuri Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/malyshev_yuri.htm
+* **MANAKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/manakov_gennadi.htm
+* **MANAKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/eva/cosmonauts/english/manakov_gennadi.htm
+* **MANAROV, Musa Khiramanovich**: http://www.spacefacts.de/bios/cosmonauts/english/manarov_musa.htm
+* **MANAROV, Musa Khiramanovich**: http://www.spacefacts.de/eva/cosmonauts/english/manarov_musa.htm
 * **MARSHBURN, Thomas H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASSIMINO, Michael J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASTRACCHIO, Richard A.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **MATINCHENKO, Aleksandr Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/matinchenko_aleksandr.htm
+* **MATINCHENKO, Aleksandr Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/matinchenko_aleksandr.htm
 * **MATTINGLY, Thomas K., II**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
 * **MAYO, Itzhak**: http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
@@ -490,25 +490,25 @@
 * **MOHRI, Mamoru**: http://www.spacefacts.de/bios/international/english/mohri_mamoru.htm
 * **MONEY, Kenneth Eric**: http://www.spacefacts.de/bios/international/english/money_kenneth.htm
 * **MORGAN, Barbara R.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **MORIN, Lee M., (M.D., Ph.D.) **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **MORIN, Lee M., (M.D., Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MOROSOV, Svyatoslav Andreievich**: http://www.spacefacts.de/bios/cosmonauts/english/morosov_svyatoslav.htm
-* **MORUKOV, Boris Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/morukov_boris.htm
-* **MOSHCHENKO, Sergei Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/moshchenko_sergei.htm
-* **MOSHKIN, Oleg Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/moshkin_oleg.htm
-* **MOSKALENKO, Nikolai Tikhonovich **: http://www.spacefacts.de/bios/cosmonauts/english/moskalenko_nikolai.htm
-* **MOSOLOV, Vladimir Yemeliyanovich **: http://www.spacefacts.de/bios/cosmonauts/english/mosolov_vladimir.htm
+* **MORUKOV, Boris Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/morukov_boris.htm
+* **MOSHCHENKO, Sergei Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/moshchenko_sergei.htm
+* **MOSHKIN, Oleg Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/moshkin_oleg.htm
+* **MOSKALENKO, Nikolai Tikhonovich**: http://www.spacefacts.de/bios/cosmonauts/english/moskalenko_nikolai.htm
+* **MOSOLOV, Vladimir Yemeliyanovich**: http://www.spacefacts.de/bios/cosmonauts/english/mosolov_vladimir.htm
 * **MUKAI, Chiaki**: http://www.spacefacts.de/bios/international/english/mukai_chiaki.htm
-* **MUKHORTOV, Pavel Petrovich **: http://www.spacefacts.de/bios/cosmonauts/english/mukhortov_pavel.htm
+* **MUKHORTOV, Pavel Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/mukhortov_pavel.htm
 * **MULLANE, Richard M.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **MUSABAYEV, Talgat Amangeldyevich **: http://www.spacefacts.de/bios/cosmonauts/english/musabayev_talgat.htm
-* **MUSABAYEV, Talgat Amangeldyevich **: http://www.spacefacts.de/eva/cosmonauts/english/musabayev_talgat.htm
-* **MUSGRAVE, Story **: http://www.nasa.gov/pdf/740566main_current.pdf
+* **MUSABAYEV, Talgat Amangeldyevich**: http://www.spacefacts.de/bios/cosmonauts/english/musabayev_talgat.htm
+* **MUSABAYEV, Talgat Amangeldyevich**: http://www.spacefacts.de/eva/cosmonauts/english/musabayev_talgat.htm
+* **MUSGRAVE, Story**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MUSZAPHAR, Sheikh**: http://www.spacefacts.de/bios/international/english/muszaphar_sheikh.htm
 * **NAGEL, Steven R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **NAIR, Paramaswaren Radhakrishnan**: http://www.spacefacts.de/bios/international/english/nair_radakrishnan.htm
 * **NELSON, Bill**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **NELSON, George D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **NELYUBOV, Grigori Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/nelyubov_grigori.htm
+* **NELYUBOV, Grigori Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/nelyubov_grigori.htm
 * **NERI VELA, Rodolfo**: http://www.spacefacts.de/bios/international/english/nerivela_rodolfo.htm
 * **NESPOLI, Paolo Angelo**: http://www.spacefacts.de/bios/international/english/nespoli_paolo.htm
 * **NEWMAN, James H.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -516,7 +516,7 @@
 * **NICOLLIER, Claude**: http://www.spacefacts.de/eva/international/english/nicollier_claude.htm
 * **NICOLLIER, Claude**: http://www.spacefacts.de/eva/international/english/nicollier_claude.htm
 * **NIE, Haisheng**: http://www.spacefacts.de/bios/international/english/nie_haishen.htm
-* **NIKOLAYEV, Andriyan Grigoriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/nikolayev_andriyan.htm
+* **NIKOLAYEV, Andriyan Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/nikolayev_andriyan.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/bios/international/english/noguchi_soichi.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/eva/international/english/noguchi_soichi.htm
 * **NOREIGA, Carlos I.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -527,16 +527,16 @@
 * **OCKELS, Wubbo Johannes**: http://www.spacefacts.de/bios/international/english/ockels_wubbo.htm
 * **OEFELEIN, William A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OLIVAS, John D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **OMELCHENKO, Svetlana Oktyabrevna **: http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
+* **OMELCHENKO, Svetlana Oktyabrevna**: http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
 * **ONISHI, Takuya**: http://www.spacefacts.de/bios/international/english/onishi_takuya.htm
 * **ONIZUKA, Ellison S.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **ONUFRIYENKO, Yuri Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/onufriyenko_yuri.htm
-* **ONUFRIYENKO, Yuri Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/onufriyenko_yuri.htm
+* **ONUFRIYENKO, Yuri Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/onufriyenko_yuri.htm
+* **ONUFRIYENKO, Yuri Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/onufriyenko_yuri.htm
 * **OSWALD, Stephen S.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OVCHININ, Aleksei Nikolaevich**: http://www.spacefacts.de/bios/cosmonauts/english/ovchinin_aleksei.htm
 * **OVERMYER, Robert F.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PADALKA, Gennadi Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/padalka_gennadi.htm
-* **PADALKA, Gennadi Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/padalka_gennadi.htm
+* **PADALKA, Gennadi Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/padalka_gennadi.htm
+* **PADALKA, Gennadi Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/padalka_gennadi.htm
 * **PAILES, William A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PAN, Zhanchun**: http://www.spacefacts.de/bios/international/english/pan_zhanchun.htm
 * **PARAZYNSKI, Scott E.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -546,7 +546,7 @@
 * **PARMITANO, Luca Salvo**: http://www.spacefacts.de/eva/international/english/parmitano_luca.htm
 * **PATAT, Frederic**: http://www.spacefacts.de/bios/international/english/patat_frederic.htm
 * **PATRICK, Nicholas J.M.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PATSAYEV, Viktor Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/patsayev_viktor.htm
+* **PATSAYEV, Viktor Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/patsayev_viktor.htm
 * **PAWELCZYK, James A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PAYETTE, Julie**: http://www.spacefacts.de/bios/international/english/payette_julie.htm
 * **PAYTON, Gary E.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -558,42 +558,42 @@
 * **PESQUET, Thomas Gautier**: http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
 * **PETELIN, Dmitri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
 * **PETERSON, Donald H.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PETRUSHENKO, Aleksandr Jakovlevich **: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm
+* **PETRUSHENKO, Aleksandr Jakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm
 * **PETTIT, Donald R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PHAM, Tu&acirc;n**: http://www.spacefacts.de/bios/international/english/tuan_pham.htm
 * **PHILLIPS, John L.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PISAREV, Viktor Mikhailovich **: http://www.spacefacts.de/bios/cosmonauts/english/pisarev_viktor.htm
+* **PISAREV, Viktor Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/pisarev_viktor.htm
 * **POGUE, William**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **POINDEXTER, Alan G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **POLANSKY, Mark L.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **POLESHCHUK, Aleksandr Fyodorovich **: http://www.spacefacts.de/bios/cosmonauts/english/poleshchuk_aleksandr.htm
-* **POLESHCHUK, Aleksandr Fyodorovich **: http://www.spacefacts.de/eva/cosmonauts/english/poleshchuk_aleksandr.htm
-* **POLONSKY, Anatoli Borisovich **: http://www.spacefacts.de/bios/cosmonauts/english/polonsky_anatoli.htm
-* **POLYAKOV, Boris Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/polyakov_boris.htm
-* **POLYAKOV, Valeri Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/polyakov_valeri.htm
-* **PONOMARYOVA, Valentina Leonidovna **: http://www.spacefacts.de/bios/cosmonauts/english/ponomaryova_valentina.htm
+* **POLESHCHUK, Aleksandr Fyodorovich**: http://www.spacefacts.de/bios/cosmonauts/english/poleshchuk_aleksandr.htm
+* **POLESHCHUK, Aleksandr Fyodorovich**: http://www.spacefacts.de/eva/cosmonauts/english/poleshchuk_aleksandr.htm
+* **POLONSKY, Anatoli Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/polonsky_anatoli.htm
+* **POLYAKOV, Boris Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/polyakov_boris.htm
+* **POLYAKOV, Valeri Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/polyakov_valeri.htm
+* **PONOMARYOVA, Valentina Leonidovna**: http://www.spacefacts.de/bios/cosmonauts/english/ponomaryova_valentina.htm
 * **PONOMARYOV, Maksim Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/ponomaryov_maksim.htm
-* **PONOMARYOV, Yuri Anatoliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/ponomaryov_yuri.htm
+* **PONOMARYOV, Yuri Anatoliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/ponomaryov_yuri.htm
 * **PONTES, Marcos Cesar**: http://www.spacefacts.de/bios/international/english/pontes_marcos.htm
-* **POPOVICH, Pavel Romanovich **: http://www.spacefacts.de/bios/cosmonauts/english/popovich_pavel.htm
-* **POPOV, Leonid Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/popov_leonid.htm
-* **PORVATKIN, Nikolai Stepanovich **: http://www.spacefacts.de/bios/cosmonauts/english/porvatkin_nikolai.htm
-* **POTAPOV, Mikhail Georgiyevich **: http://www.spacefacts.de/bios/cosmonauts/english/potapov_mikhail.htm
-* **POZHARSKAYA, Larisa Grigoriyevna **: http://www.spacefacts.de/bios/cosmonauts/english/pozharskaya_larisa.htm
+* **POPOVICH, Pavel Romanovich**: http://www.spacefacts.de/bios/cosmonauts/english/popovich_pavel.htm
+* **POPOV, Leonid Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/popov_leonid.htm
+* **PORVATKIN, Nikolai Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/porvatkin_nikolai.htm
+* **POTAPOV, Mikhail Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/potapov_mikhail.htm
+* **POZHARSKAYA, Larisa Grigoriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/pozharskaya_larisa.htm
 * **PRECOURT, Charles J.,**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PREOBRAZHENSKY, Vladimir Yevgeniyevich **: http://www.spacefacts.de/bios/cosmonauts/english/preobrazhensky_vladimir.htm
-* **PRIKHODKO, Yuri Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/prikhodko_yuri.htm
+* **PREOBRAZHENSKY, Vladimir Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/preobrazhensky_vladimir.htm
+* **PRIKHODKO, Yuri Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/prikhodko_yuri.htm
 * **PROKOPYEV, Sergei Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/prokopyev_sergei.htm
-* **PRONINA, Irina Rudolfovna **: http://www.spacefacts.de/bios/cosmonauts/english/pronina_irina.htm
-* **PROTCHENKO, Sergei Filippovich **: http://www.spacefacts.de/bios/cosmonauts/english/protchenko_sergei.htm
+* **PRONINA, Irina Rudolfovna**: http://www.spacefacts.de/bios/cosmonauts/english/pronina_irina.htm
+* **PROTCHENKO, Sergei Filippovich**: http://www.spacefacts.de/bios/cosmonauts/english/protchenko_sergei.htm
 * **PRUNARIU, Dumitru Dorin**: http://www.spacefacts.de/bios/international/english/prunariu_dumitru.htm
-* **PUCHKOV, Aleksandr Sergeyevich **: http://www.spacefacts.de/bios/cosmonauts/english/puchkov_aleksandr.htm
-* **PUSHENKO, Nikolai Alekseyevich **: http://www.spacefacts.de/bios/cosmonauts/english/pushenko_nikolai.htm
+* **PUCHKOV, Aleksandr Sergeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/puchkov_aleksandr.htm
+* **PUSHENKO, Nikolai Alekseyevich**: http://www.spacefacts.de/bios/cosmonauts/english/pushenko_nikolai.htm
 * **PUSTOVYI, Yaroslav Igoryevich 'Yarko'**: http://www.spacefacts.de/bios/cosmonauts/english/pustovyi_yaroslav.htm
-* **RAFIKOV, Mars Zakirovich **: http://www.spacefacts.de/bios/cosmonauts/english/rafikov_mars.htm
+* **RAFIKOV, Mars Zakirovich**: http://www.spacefacts.de/bios/cosmonauts/english/rafikov_mars.htm
 * **RAMON, Ilan**: http://www.spacefacts.de/bios/international/english/ramon_ilan.htm
 * **READDY, William F.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **REBROV, Mikhail Fyodorovich **: http://www.spacefacts.de/bios/cosmonauts/english/rebrov_mikhail.htm
+* **REBROV, Mikhail Fyodorovich**: http://www.spacefacts.de/bios/cosmonauts/english/rebrov_mikhail.htm
 * **REIGHTLER, Kenneth S., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **REILLY, James F.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **REISMAN, Garrett E.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -601,42 +601,42 @@
 * **REITER, Thomas Arthur**: http://www.spacefacts.de/eva/international/english/reiter_thomas.htm
 * **REMEK, Vladim&iacute;r 'Volodya'**: http://www.spacefacts.de/bios/international/english/remek_vladimir.htm
 * **RESNIK, Judith A.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **REVIN, Sergei Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/revin_sergei.htm
+* **REVIN, Sergei Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/revin_sergei.htm
 * **RICHARDS, Paul W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RICHARDS, Richard N.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RIDE, Sally K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROBERTSON, Patricia Hilliard**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROBINSON, Stephen K.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **ROMANENKO, Roman Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/romanenko_roman.htm
-* **ROMANENKO, Roman Yuriyevich **: http://www.spacefacts.de/eva/cosmonauts/english/romanenko_roman.htm
-* **ROMANENKO, Yuri Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/romanenko_yuri.htm
-* **ROMANENKO, Yuri Viktorovich **: http://www.spacefacts.de/eva/cosmonauts/english/romanenko_yuri.htm
-* **ROMANOV, Valeri Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/romanov_valeri.htm
+* **ROMANENKO, Roman Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/romanenko_roman.htm
+* **ROMANENKO, Roman Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/romanenko_roman.htm
+* **ROMANENKO, Yuri Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/romanenko_yuri.htm
+* **ROMANENKO, Yuri Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/romanenko_yuri.htm
+* **ROMANOV, Valeri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/romanov_valeri.htm
 * **ROMINGER, Kent V.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROOSA, Stuart A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROSSITTO, Franco**: http://www.spacefacts.de/bios/international/english/rossitto_franco.htm
 * **ROSS, Jerry L.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **ROZHDESTVENSKY, Valeri Iliyich **: http://www.spacefacts.de/bios/cosmonauts/english/rozhdestvensky_valeri.htm
+* **ROZHDESTVENSKY, Valeri Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/rozhdestvensky_valeri.htm
 * **RUBINS, Kathleen 'Kate'**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **RUKAVISHNIKOV, Nikolai Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/rukavishnikov_nikolai.htm
+* **RUKAVISHNIKOV, Nikolai Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/rukavishnikov_nikolai.htm
 * **RUNCO, Mario, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RYAZANSKY, Sergei Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/ryazansky_sergei.htm
 * **RYAZANSKY, Sergei Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/ryazansky_sergei.htm
-* **RYUMIN, Valeri Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/ryumin_valeri.htm
-* **RYUMIN, Valeri Viktorovich **: http://www.spacefacts.de/eva/cosmonauts/english/ryumin_valeri.htm
+* **RYUMIN, Valeri Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/ryumin_valeri.htm
+* **RYUMIN, Valeri Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/ryumin_valeri.htm
 * **RYZHIKOV, Sergei Nikolaevich**: http://www.spacefacts.de/bios/cosmonauts/english/ryzhikov_sergei.htm
 * **SACCO, Albert, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SAINT-JACQUES, David**: http://www.spacefacts.de/bios/international/english/saint-jacques_david.htm
-* **SALEY, Yevgeni Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/saley_yevgeni.htm
+* **SALEY, Yevgeni Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/saley_yevgeni.htm
 * **SAMOKUTYAYEV, Aleksandr Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/samokutyayev_aleksandr.htm
 * **SAMOKUTYAYEV, Aleksandr Mikhailovich**: http://www.spacefacts.de/eva/cosmonauts/english/samokutyayev_aleksandr.htm
-* **SARAFANOV, Gennadi Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/sarafanov_gennadi.htm
+* **SARAFANOV, Gennadi Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/sarafanov_gennadi.htm
 * **SATCHER, Robert L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **SATTAROV, Nail Sharipovich **: http://www.spacefacts.de/bios/cosmonauts/english/sattarov_nail.htm
+* **SATTAROV, Nail Sharipovich**: http://www.spacefacts.de/bios/cosmonauts/english/sattarov_nail.htm
 * **SAVINYKH, Viktor Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/savinykh_viktor.htm
 * **SAVINYKH, Viktor Petrovich**: http://www.spacefacts.de/eva/cosmonauts/english/savinykh_viktor.htm
-* **SAVITSKAYA, Svetlana Yevgeniyena **: http://www.spacefacts.de/bios/cosmonauts/english/savitskaya_svetlana.htm
-* **SAVITSKAYA, Svetlana Yevgeniyena **: http://www.spacefacts.de/eva/cosmonauts/english/savitskaya_svetlana.htm
+* **SAVITSKAYA, Svetlana Yevgeniyena**: http://www.spacefacts.de/bios/cosmonauts/english/savitskaya_svetlana.htm
+* **SAVITSKAYA, Svetlana Yevgeniyena**: http://www.spacefacts.de/eva/cosmonauts/english/savitskaya_svetlana.htm
 * **SCHIRRA, Walter M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SCHLEGEL, Hans Wilhelm**: http://www.spacefacts.de/bios/international/english/schlegel_hans.htm
 * **SCHLEGEL, Hans Wilhelm**: http://www.spacefacts.de/eva/international/english/schlegel_hans.htm
@@ -651,58 +651,58 @@
 * **SEE, Elliot M., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SEGA, Ronald M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SELLERS, Piers J.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **SENKEVICH, Yuri Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/senkevich_yuri.htm
-* **SEREBROV, Aleksandr Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/serebrov_aleksandr.htm
-* **SEREBROV, Aleksandr Aleksandrovich **: http://www.spacefacts.de/eva/cosmonauts/english/serebrov_aleksandr.htm
+* **SENKEVICH, Yuri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/senkevich_yuri.htm
+* **SEREBROV, Aleksandr Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/serebrov_aleksandr.htm
+* **SEREBROV, Aleksandr Aleksandrovich**: http://www.spacefacts.de/eva/cosmonauts/english/serebrov_aleksandr.htm
 * **SEROVA, Yelena Olegovna**: http://www.spacefacts.de/bios/cosmonauts/english/serova_yelena.htm
 * **SEROV, Mark Vyacheslavovich**: http://www.spacefacts.de/bios/cosmonauts/english/serov_mark.htm
-* **SEVASTIYANOV, Vitali Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/sevastiyanov_vitali.htm
-* **SEVERIN, Vladimir Gayevich **: http://www.spacefacts.de/bios/cosmonauts/english/severin_vladimir.htm
-* **SHARAFUTDINOV, Ansar Ilgamovich **: http://www.spacefacts.de/bios/cosmonauts/english/sharafutdinov_ansar.htm
-* **SHARGIN, Yuri Georgiyevich **: http://www.spacefacts.de/bios/cosmonauts/english/shargin_yuri.htm
-* **SHARIPOV, Salizhan Shakirovich **: http://www.spacefacts.de/bios/cosmonauts/english/sharipov_salizhan.htm
-* **SHARIPOV, Salizhan Shakirovich **: http://www.spacefacts.de/eva/cosmonauts/english/sharipov_salizhan.htm
+* **SEVASTIYANOV, Vitali Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/sevastiyanov_vitali.htm
+* **SEVERIN, Vladimir Gayevich**: http://www.spacefacts.de/bios/cosmonauts/english/severin_vladimir.htm
+* **SHARAFUTDINOV, Ansar Ilgamovich**: http://www.spacefacts.de/bios/cosmonauts/english/sharafutdinov_ansar.htm
+* **SHARGIN, Yuri Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/shargin_yuri.htm
+* **SHARIPOV, Salizhan Shakirovich**: http://www.spacefacts.de/bios/cosmonauts/english/sharipov_salizhan.htm
+* **SHARIPOV, Salizhan Shakirovich**: http://www.spacefacts.de/eva/cosmonauts/english/sharipov_salizhan.htm
 * **SHARMAN, Helen Patricia 'Lenochka'**: http://www.spacefacts.de/bios/international/english/sharman_helen.htm
 * **SHARMA, Rakesh 'Rikki'**: http://www.spacefacts.de/bios/international/english/sharma_rakesh.htm
-* **SHAROV, Valeri Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/sharov_valeri.htm
-* **SHATALOV, Vladimir Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/shatalov_vladimir.htm
+* **SHAROV, Valeri Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/sharov_valeri.htm
+* **SHATALOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/shatalov_vladimir.htm
 * **SHAW, Brewster H., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **SHCHEGLOV, Vasili Dmitriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/shcheglov_vasili.htm
-* **SHCHUKIN, Aleksandr Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/shchukin_aleksandr.htm
-* **SHEFFER, Yuri Petrovich **: http://www.spacefacts.de/bios/cosmonauts/english/sheffer_yuri.htm
+* **SHCHEGLOV, Vasili Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/shcheglov_vasili.htm
+* **SHCHUKIN, Aleksandr Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/shchukin_aleksandr.htm
+* **SHEFFER, Yuri Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/sheffer_yuri.htm
 * **SHEPARD, Alan B. Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHEPHERD, William M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/shkaplerov_anton.htm
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/shkaplerov_anton.htm
-* **SHONIN, Georgi Stepanovich **: http://www.spacefacts.de/bios/cosmonauts/english/shonin_georgi.htm
+* **SHONIN, Georgi Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/shonin_georgi.htm
 * **SHRIVER, Loren J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHUTTLEWORTH, Mark Richard 'Buranov'**: http://www.spacefacts.de/bios/international/english/shuttleworth_mark.htm
 * **SILVE, Benoit Martin Philippe**: http://www.spacefacts.de/bios/international/english/silve_benoit.htm
-* **SKRIPOCHKA, Oleg Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/skripochka_oleg.htm
-* **SKRIPOCHKA, Oleg Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/skripochka_oleg.htm
-* **SKVORTSOV, Aleksandr Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/skvortsov_aleksandr_sen.htm
+* **SKRIPOCHKA, Oleg Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/skripochka_oleg.htm
+* **SKRIPOCHKA, Oleg Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/skripochka_oleg.htm
+* **SKVORTSOV, Aleksandr Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/skvortsov_aleksandr_sen.htm
 * **SKVORTSOV, Aleksandr Aleksandrovich Jr.**: http://www.spacefacts.de/bios/cosmonauts/english/skvortsov_aleksandr_jr.htm
 * **SKVORTSOV, Aleksandr Aleksandrovich Jr.**: http://www.spacefacts.de/eva/cosmonauts/english/skvortsov_aleksandr.htm
 * **SLAYTON, Donald K.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **SMIRENNY, Lev Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/smirenny_lev.htm
+* **SMIRENNY, Lev Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/smirenny_lev.htm
 * **SMITH, Michael J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SMITH, Steven L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SOKOVYKH, Anatoli Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/sokovykh_anatoli.htm
-* **SOLOGUB, Mikhail Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/sologub_mikhail.htm
-* **SOLOVIYOVA, Irina Bayanovna **: http://www.spacefacts.de/bios/cosmonauts/english/soloviyova_irina.htm
-* **SOLOVIYOV, Anatoli Yakovlevich **: http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_anatoli.htm
-* **SOLOVIYOV, Anatoli Yakovlevich **: http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_anatoli.htm
-* **SOLOVIYOV, Vladimir Alekseyevich **: http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_vladimir.htm
-* **SOLOVIYOV, Vladimir Alekseyevich **: http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_vladimir.htm
-* **SOROKIN, Aleksei Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/sorokin_aleksei.htm
+* **SOLOGUB, Mikhail Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/sologub_mikhail.htm
+* **SOLOVIYOVA, Irina Bayanovna**: http://www.spacefacts.de/bios/cosmonauts/english/soloviyova_irina.htm
+* **SOLOVIYOV, Anatoli Yakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_anatoli.htm
+* **SOLOVIYOV, Anatoli Yakovlevich**: http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_anatoli.htm
+* **SOLOVIYOV, Vladimir Alekseyevich**: http://www.spacefacts.de/bios/cosmonauts/english/soloviyov_vladimir.htm
+* **SOLOVIYOV, Vladimir Alekseyevich**: http://www.spacefacts.de/eva/cosmonauts/english/soloviyov_vladimir.htm
+* **SOROKIN, Aleksei Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/sorokin_aleksei.htm
 * **SPRINGER, Robert C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SPRING, Sherwood C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **STAFFORD, Thomas P.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **STANKEVIčIUS, Rimantas Antanas-Antano **: http://www.spacefacts.de/bios/cosmonauts/english/stankyavichus_rimantas.htm
+* **STANKEVIčIUS, Rimantas Antanas-Antano**: http://www.spacefacts.de/bios/cosmonauts/english/stankyavichus_rimantas.htm
 * **STEFANYSHYN-PIPER, Heidemarie M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **STEKLOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/steklov_vladimir.htm
-* **STEPANOV, Eduard Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_eduard.htm
-* **STEPANOV, Yuri Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_yuri.htm
+* **STEPANOV, Eduard Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_eduard.htm
+* **STEPANOV, Yuri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_yuri.htm
 * **STEWART, Robert L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **STOTT, Nicole P.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **STOYANOV, Krasimir Mihailov**: http://www.spacefacts.de/bios/international/english/stoyanov_krasimir.htm
@@ -711,9 +711,9 @@
 * **STURCKOW, Frederick W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SUDARMONO, Pratiwi Pujilestari**: http://www.spacefacts.de/bios/international/english/sudarmono_pratiwi.htm
 * **SULLIVAN, Kathryn D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **SULTANOV, Ural Nazibovich **: http://www.spacefacts.de/bios/cosmonauts/english/sultanov_ural.htm
-* **SURAYEV, Maksim Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/surayev_maksim.htm
-* **SURAYEV, Maksim Viktorovich **: http://www.spacefacts.de/eva/cosmonauts/english/surayev_maksim.htm
+* **SULTANOV, Ural Nazibovich**: http://www.spacefacts.de/bios/cosmonauts/english/sultanov_ural.htm
+* **SURAYEV, Maksim Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/surayev_maksim.htm
+* **SURAYEV, Maksim Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/surayev_maksim.htm
 * **SWANSON, Steven R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SWIGERT, John L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TAMAYO MéNDEZ, Arnaldo 'Guasso'**: http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
@@ -721,7 +721,7 @@
 * **TANI, Daniel M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TANNER, Joseph R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TARELKIN, Yevgeni Igorevich**: http://www.spacefacts.de/bios/cosmonauts/english/tarelkin_yevgeni.htm
-* **TERESHKOVA, Valentina Vladimirovna **: http://www.spacefacts.de/bios/cosmonauts/english/tereshkova_valentina.htm
+* **TERESHKOVA, Valentina Vladimirovna**: http://www.spacefacts.de/bios/cosmonauts/english/tereshkova_valentina.htm
 * **THAGARD, Norman E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **THIELE, Gerhard Paul Julius**: http://www.spacefacts.de/bios/international/english/thiele_gerhard.htm
 * **THIRSK, Robert Brent**: http://www.spacefacts.de/bios/international/english/thirsk_robert.htm
@@ -734,54 +734,54 @@
 * **TIKHONOV, Nikolai Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/tikhonov_nikolai.htm
 * **TINGLE, Scott D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TITOV, German Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/titov_german.htm
-* **TITOV, Vladimir Georgiyevich **: http://www.spacefacts.de/bios/cosmonauts/english/titov_vladimir.htm
-* **TITOV, Vladimir Georgiyevich **: http://www.spacefacts.de/eva/cosmonauts/english/titov_vladimir.htm
+* **TITOV, Vladimir Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/titov_vladimir.htm
+* **TITOV, Vladimir Georgiyevich**: http://www.spacefacts.de/eva/cosmonauts/english/titov_vladimir.htm
 * **TOGNINI, Michel Ange-Charles**: http://www.spacefacts.de/bios/international/english/tognini_michel.htm
-* **TOKAREV, Valeri Ivanovich **: http://www.spacefacts.de/bios/cosmonauts/english/tokarev_valeri.htm
-* **TOKAREV, Valeri Ivanovich **: http://www.spacefacts.de/eva/cosmonauts/english/tokarev_valeri.htm
-* **TOLBOYEV, Magomed Omarovich **: http://www.spacefacts.de/bios/cosmonauts/english/tolboyev_magomed.htm
-* **TRESHCHYOV, Sergei Yevgeniyevich **: http://www.spacefacts.de/bios/cosmonauts/english/treshchyov_sergei.htm
-* **TRESHCHYOV, Sergei Yevgeniyevich **: http://www.spacefacts.de/eva/cosmonauts/english/treshchyov_sergei.htm
-* **TRESVYATSKY, Sergei Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/tresvyatsky_sergei.htm
+* **TOKAREV, Valeri Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/tokarev_valeri.htm
+* **TOKAREV, Valeri Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/tokarev_valeri.htm
+* **TOLBOYEV, Magomed Omarovich**: http://www.spacefacts.de/bios/cosmonauts/english/tolboyev_magomed.htm
+* **TRESHCHYOV, Sergei Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/treshchyov_sergei.htm
+* **TRESHCHYOV, Sergei Yevgeniyevich**: http://www.spacefacts.de/eva/cosmonauts/english/treshchyov_sergei.htm
+* **TRESVYATSKY, Sergei Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/tresvyatsky_sergei.htm
 * **TRINH, Eugene H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TRULY, Richard H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TRYGGVASON, Bjarni Valdimar**: http://www.spacefacts.de/bios/international/english/tryggvason_bjarni.htm
-* **TSIBLIYEV, Vasili Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/tsibliyev_vasili.htm
-* **TSIBLIYEV, Vasili Vasiliyevich **: http://www.spacefacts.de/eva/cosmonauts/english/tsibliyev_vasili.htm
-* **TYURIN, Mikhail Vladislavovich **: http://www.spacefacts.de/bios/cosmonauts/english/tyurin_mikhail.htm
-* **TYURIN, Mikhail Vladislavovich **: http://www.spacefacts.de/eva/cosmonauts/english/tyurin_mikhail.htm
+* **TSIBLIYEV, Vasili Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/tsibliyev_vasili.htm
+* **TSIBLIYEV, Vasili Vasiliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/tsibliyev_vasili.htm
+* **TYURIN, Mikhail Vladislavovich**: http://www.spacefacts.de/bios/cosmonauts/english/tyurin_mikhail.htm
+* **TYURIN, Mikhail Vladislavovich**: http://www.spacefacts.de/eva/cosmonauts/english/tyurin_mikhail.htm
 * **URBANI, Luca**: http://www.spacefacts.de/bios/international/english/urbani_luca.htm
-* **USACHYOV, Yuri Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/usachyov_yuri.htm
-* **USACHYOV, Yuri Vladimirovich **: http://www.spacefacts.de/eva/cosmonauts/english/usachyov_yuri.htm
-* **VAGNER, Ivan Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/wagner_ivan.htm
-* **VALKOV, Konstantin Anatoliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/valkov_konstantin.htm
+* **USACHYOV, Yuri Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/usachyov_yuri.htm
+* **USACHYOV, Yuri Vladimirovich**: http://www.spacefacts.de/eva/cosmonauts/english/usachyov_yuri.htm
+* **VAGNER, Ivan Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/wagner_ivan.htm
+* **VALKOV, Konstantin Anatoliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/valkov_konstantin.htm
 * **VANDE HEI, Mark T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VAN DEN BERG, Lodewijk**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VAN HOFTEN, James D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **VARLAMOV, Valentin Stepanovich **: http://www.spacefacts.de/bios/cosmonauts/english/varlamov_valentin.htm
-* **VASYUTIN, Vladimir Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/vasyutin_vladimir.htm
+* **VARLAMOV, Valentin Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/varlamov_valentin.htm
+* **VASYUTIN, Vladimir Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/vasyutin_vladimir.htm
 * **VEACH, Charles Lacy**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VIEHBöCK, Franz Artur**: http://www.spacefacts.de/bios/international/english/viehboeck_franz.htm
-* **VIKTORENKO, Aleksandr Stepanovich **: http://www.spacefacts.de/bios/cosmonauts/english/viktorenko_aleksandr.htm
-* **VIKTORENKO, Aleksandr Stepanovich **: http://www.spacefacts.de/eva/cosmonauts/english/viktorenko_aleksandr.htm
-* **VINOGRADOV, Pavel Vladimirovich **: http://www.spacefacts.de/bios/cosmonauts/english/vinogradov_pavel.htm
-* **VINOGRADOV, Pavel Vladimirovich **: http://www.spacefacts.de/eva/cosmonauts/english/vinogradov_pavel.htm
+* **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/viktorenko_aleksandr.htm
+* **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/eva/cosmonauts/english/viktorenko_aleksandr.htm
+* **VINOGRADOV, Pavel Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/vinogradov_pavel.htm
+* **VINOGRADOV, Pavel Vladimirovich**: http://www.spacefacts.de/eva/cosmonauts/english/vinogradov_pavel.htm
 * **VIRTS, Terry**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VISO, Michel Yves**: http://www.spacefacts.de/bios/international/english/viso_michel.htm
 * **VITTORI, Roberto**: http://www.spacefacts.de/bios/international/english/vittori_roberto.htm
-* **VOLKOV, Aleksandr Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/volkov_aleksandr.htm
-* **VOLKOV, Aleksandr Aleksandrovich **: http://www.spacefacts.de/eva/cosmonauts/english/volkov_aleksandr.htm
-* **VOLKOV, Sergei Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/volkov_sergei.htm
-* **VOLKOV, Sergei Aleksandrovich **: http://www.spacefacts.de/eva/cosmonauts/english/volkov_sergei.htm
-* **VOLKOV, Vladislav Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/volkov_vladislav.htm
-* **VOLK, Igor Petrovich **: http://www.spacefacts.de/bios/cosmonauts/english/volk_igor.htm
-* **VOLOSHIN, Valeri Abramovich **: http://www.spacefacts.de/bios/cosmonauts/english/voloshin_valeri.htm
-* **VOLYNOV, Boris Valentinovich **: http://www.spacefacts.de/bios/cosmonauts/english/volynov_boris.htm
-* **VOROBIYOV, Lev Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/vorobiyov_lev.htm
-* **VORONOV, Anatoli Fyodorovich **: http://www.spacefacts.de/bios/cosmonauts/english/voronov_anatoli.htm
+* **VOLKOV, Aleksandr Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/volkov_aleksandr.htm
+* **VOLKOV, Aleksandr Aleksandrovich**: http://www.spacefacts.de/eva/cosmonauts/english/volkov_aleksandr.htm
+* **VOLKOV, Sergei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/volkov_sergei.htm
+* **VOLKOV, Sergei Aleksandrovich**: http://www.spacefacts.de/eva/cosmonauts/english/volkov_sergei.htm
+* **VOLKOV, Vladislav Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/volkov_vladislav.htm
+* **VOLK, Igor Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/volk_igor.htm
+* **VOLOSHIN, Valeri Abramovich**: http://www.spacefacts.de/bios/cosmonauts/english/voloshin_valeri.htm
+* **VOLYNOV, Boris Valentinovich**: http://www.spacefacts.de/bios/cosmonauts/english/volynov_boris.htm
+* **VOROBIYOV, Lev Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/vorobiyov_lev.htm
+* **VORONOV, Anatoli Fyodorovich**: http://www.spacefacts.de/bios/cosmonauts/english/voronov_anatoli.htm
 * **VOSS, Janice E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VOSS, James S.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **VOZOVIKOV, Sergei Yuriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/vozovikov_sergei.htm
+* **VOZOVIKOV, Sergei Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/vozovikov_sergei.htm
 * **WAKATA, Koichi**: http://www.spacefacts.de/bios/international/english/wakata_koichi.htm
 * **WALHEIM, Rex J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WALKER, Charles D**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -815,36 +815,36 @@
 * **WOOD, Nigel Richard**: http://www.spacefacts.de/bios/international/english/wood_nigel.htm
 * **WORDEN, Alfred M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WU, Jie**: http://www.spacefacts.de/bios/international/english/wu_jie.htm
-* **YABLONTSEV, Aleksandr Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/yablontsev_aleksandr.htm
-* **YAKOVLEV, Oleg Anatoliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/yakovlev_oleg.htm
+* **YABLONTSEV, Aleksandr Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/yablontsev_aleksandr.htm
+* **YAKOVLEV, Oleg Anatoliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/yakovlev_oleg.htm
 * **YAMAZAKI, Naoko**: http://www.spacefacts.de/bios/international/english/sumino_naoko.htm
 * **YANG, Liwei**: http://www.spacefacts.de/bios/international/english/yang_liwei.htm
-* **YAZDOVSKY, Valeri Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/yazdovsky_valeri.htm
-* **YEGOROV, Boris Borisovich **: http://www.spacefacts.de/bios/cosmonauts/english/yegorov_boris.htm
-* **YELISEYEV, Aleksei Stanislavovich **: http://www.spacefacts.de/bios/cosmonauts/english/yeliseyev_aleksei.htm
-* **YELISEYEV, Aleksei Stanislavovich **: http://www.spacefacts.de/eva/cosmonauts/english/yeliseyev_aleksei.htm
-* **YEMELYANOV, Sergei Aleksandrovich **: http://www.spacefacts.de/bios/cosmonauts/english/yemelyanov_sergei.htm
-* **YERSHOV, Valentin Gavriylovich **: http://www.spacefacts.de/bios/cosmonauts/english/yershov_valentin.htm
+* **YAZDOVSKY, Valeri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/yazdovsky_valeri.htm
+* **YEGOROV, Boris Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/yegorov_boris.htm
+* **YELISEYEV, Aleksei Stanislavovich**: http://www.spacefacts.de/bios/cosmonauts/english/yeliseyev_aleksei.htm
+* **YELISEYEV, Aleksei Stanislavovich**: http://www.spacefacts.de/eva/cosmonauts/english/yeliseyev_aleksei.htm
+* **YEMELYANOV, Sergei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/yemelyanov_sergei.htm
+* **YERSHOV, Valentin Gavriylovich**: http://www.spacefacts.de/bios/cosmonauts/english/yershov_valentin.htm
 * **YE, Guangfu**: http://www.spacefacts.de/bios/international/english/ye_guangfu.htm
 * **YI, Soyeon**: http://www.spacefacts.de/bios/international/english/lee_so-hyun.htm
-* **YORKINA, Zhanna Dmitriyevna **: http://www.spacefacts.de/bios/cosmonauts/english/yorkina_zhanna.htm
+* **YORKINA, Zhanna Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/yorkina_zhanna.htm
 * **YOUNG, John W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **YUI, Kimiya**: http://www.spacefacts.de/bios/international/english/yui_kimiya.htm
-* **YURCHIKHIN, Fyodor Nikolayevich **: http://www.spacefacts.de/bios/cosmonauts/english/yurchikhin_fyodor.htm
-* **YURCHIKHIN, Fyodor Nikolayevich **: http://www.spacefacts.de/eva/cosmonauts/english/yurchikhin_fyodor.htm
-* **YUYUKOV, Dmitri Andreyevich **: http://www.spacefacts.de/bios/cosmonauts/english/yuyukov_dmitri.htm
-* **ZABOLOTSKY, Viktor Vasiliyevich **: http://www.spacefacts.de/bios/cosmonauts/english/zabolotsky_viktor.htm
-* **ZAIKIN, Dmitri Alekseyevich **: http://www.spacefacts.de/bios/cosmonauts/english/zaikin_dmitri.htm
-* **ZAKHAROVA, Tamara Sergeyevna **: http://www.spacefacts.de/bios/cosmonauts/english/zakharova_tamara.htm
-* **ZALYOTIN, Sergei Viktorovich **: http://www.spacefacts.de/bios/cosmonauts/english/zalyotin_sergei.htm
-* **ZALYOTIN, Sergei Viktorovich **: http://www.spacefacts.de/eva/cosmonauts/english/zalyotin_sergei.htm
+* **YURCHIKHIN, Fyodor Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/yurchikhin_fyodor.htm
+* **YURCHIKHIN, Fyodor Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/yurchikhin_fyodor.htm
+* **YUYUKOV, Dmitri Andreyevich**: http://www.spacefacts.de/bios/cosmonauts/english/yuyukov_dmitri.htm
+* **ZABOLOTSKY, Viktor Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zabolotsky_viktor.htm
+* **ZAIKIN, Dmitri Alekseyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zaikin_dmitri.htm
+* **ZAKHAROVA, Tamara Sergeyevna**: http://www.spacefacts.de/bios/cosmonauts/english/zakharova_tamara.htm
+* **ZALYOTIN, Sergei Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/zalyotin_sergei.htm
+* **ZALYOTIN, Sergei Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/zalyotin_sergei.htm
 * **ZAMKA, George D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **ZAYTSEV, Andrei Yevgeniyevich **: http://www.spacefacts.de/bios/cosmonauts/english/zaytsev_andrei.htm
+* **ZAYTSEV, Andrei Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zaytsev_andrei.htm
 * **ZHAI, Zhigang**: http://www.spacefacts.de/bios/international/english/zhai_zhigang.htm
 * **ZHAI, Zhigang**: http://www.spacefacts.de/eva/taikonauts/english/zhai_zhigang.htm
 * **ZHANG, Lu**: http://www.spacefacts.de/bios/international/english/zhang_lu.htm
 * **ZHANG, Xiaoguan**: http://www.spacefacts.de/bios/international/english/zhang_xiaoguan.htm
 * **ZHAO, Chuandong**: http://www.spacefacts.de/bios/international/english/zhao_chuandong.htm
-* **ZHOLOBOV, Vitali Mikhailovich **: http://www.spacefacts.de/bios/cosmonauts/english/zholobov_vitali.htm
+* **ZHOLOBOV, Vitali Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/zholobov_vitali.htm
 * **ZHUKOV, Sergei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/zhukov_sergei.htm
-* **ZUDOV, Vyacheslav Dmitriyevich **: http://www.spacefacts.de/bios/cosmonauts/english/zudov_vyacheslav.htm
+* **ZUDOV, Vyacheslav Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zudov_vyacheslav.htm
