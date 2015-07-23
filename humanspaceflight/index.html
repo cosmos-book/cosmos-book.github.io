@@ -64,11 +64,14 @@
 	$(document).ready(function(){
 
 		var astronauts;
+		var xaxis;
+		var yaxis;
 		var cc = {'ABW':'Aruba','AFG':'Afghanistan','AGO':'Angola','AIA':'Anguilla','ALA':'&Aring;land Islands','ALB':'Albania','AND':'Andorra','ARE':'United Arab Emirates','ARG':'Argentina','ARM':'Armenia','ASM':'American Samoa','ATA':'Antarctica','ATF':'French Southern Territories','ATG':'Antigua and Barbuda','AUS':'Australia','AUT':'Austria','AZE':'Azerbaijan','BDI':'Burundi','BEL':'Belgium','BEN':'Benin','BES':'Bonaire, Sint Eustatius and Saba','BFA':'Burkina Faso','BGD':'Bangladesh','BGR':'Bulgaria','BHR':'Bahrain','BHS':'Bahamas','BIH':'Bosnia and Herzegovina','BLM':'Saint Barthélemy','BLR':'Belarus','BLZ':'Belize','BMU':'Bermuda','BOL':'Bolivia, Plurinational State of','BRA':'Brazil','BRB':'Barbados','BRN':'Brunei Darussalam','BTN':'Bhutan','BVT':'Bouvet Island','BWA':'Botswana','CAF':'Central African Republic','CAN':'Canada','CCK':'Cocos (Keeling) Islands','CHE':'Switzerland','CHL':'Chile','CHN':'China','CIV':'Côte d\'Ivoire','CMR':'Cameroon','COD':'Congo, the Democratic Republic of the','COG':'Congo','COK':'Cook Islands','COL':'Colombia','COM':'Comoros','CPV':'Cabo Verde','CRI':'Costa Rica','CUB':'Cuba','CUW':'Curaçao','CXR':'Christmas Island','CYM':'Cayman Islands','CYP':'Cyprus','CZE':'Czech Republic','DEU':'Germany','DJI':'Djibouti','DMA':'Dominica','DNK':'Denmark','DOM':'Dominican Republic','DZA':'Algeria','ECU':'Ecuador','EGY':'Egypt','ERI':'Eritrea','ESH':'Western Sahara','ESP':'Spain','EST':'Estonia','ETH':'Ethiopia','FIN':'Finland','FJI':'Fiji','FLK':'Falkland Islands (Malvinas)','FRA':'France','FRO':'Faroe Islands','FSM':'Micronesia, Federated States of','GAB':'Gabon','GBR':'United Kingdom','GEO':'Georgia','GGY':'Guernsey','GHA':'Ghana',	'GIB':'Gibraltar','GIN':'Guinea','GLP':'Guadeloupe','GMB':'Gambia','GNB':'Guinea-Bissau','GNQ':'Equatorial Guinea','GRC':'Greece','GRD':'Grenada','GRL':'Greenland','GTM':'Guatemala','GUF':'French Guiana','GUM':'Guam','GUY':'Guyana','HKG':'Hong Kong','HMD':'Heard Island and McDonald Islands','HND':'Honduras','HRV':'Croatia','HTI':'Haiti','HUN':'Hungary','IDN':'Indonesia','IMN':'Isle of Man','IND':'India','IOT':'British Indian Ocean Territory','IRL':'Ireland','IRN':'Iran, Islamic Republic of','IRQ':'Iraq','ISL':'Iceland','ISR':'Israel','ITA':'Italy','JAM':'Jamaica','JEY':'Jersey','JOR':'Jordan','JPN':'Japan','KAZ':'Kazakhstan','KEN':'Kenya','KGZ':'Kyrgyzstan','KHM':'Cambodia','KIR':'Kiribati','KNA':'Saint Kitts and Nevis','KOR':'Korea, Republic of','KWT':'Kuwait','LAO':'Lao People\'s Democratic Republic','LBN':'Lebanon','LBR':'Liberia','LBY':'Libya','LCA':'Saint Lucia','LIE':'Liechtenstein','LKA':'Sri Lanka','LSO':'Lesotho','LTU':'Lithuania','LUX':'Luxembourg','LVA':'Latvia','MAC':'Macao','MAF':'Saint Martin (French part)','MAR':'Morocco','MCO':'Monaco','MDA':'Moldova, Republic of','MDG':'Madagascar','MDV':'Maldives','MEX':'Mexico','MHL':'Marshall Islands','MKD':'Macedonia, the former Yugoslav Republic of','MLI':'Mali','MLT':'Malta','MMR':'Myanmar','MNE':'Montenegro','MNG':'Mongolia','MNP':'Northern Mariana Islands','MOZ':'Mozambique','MRT':'Mauritania','MSR':'Montserrat','MTQ':'Martinique','MUS':'Mauritius','MWI':'Malawi','MYS':'Malaysia','MYT':'Mayotte','NAM':'Namibia','NCL':'New Caledonia','NER':'Niger','NFK':'Norfolk Island','NGA':'Nigeria','NIC':'Nicaragua','NIU':'Niue',	'NLD':'Netherlands','NOR':'Norway','NPL':'Nepal','NRU':'Nauru','NZL':'New Zealand','OMN':'Oman','PAK':'Pakistan','PAN':'Panama','PCN':'Pitcairn','PER':'Peru','PHL':'Philippines','PLW':'Palau','PNG':'Papua New Guinea','POL':'Poland','PRI':'Puerto Rico','PRK':'Korea, Democratic People\'s Republic of','PRT':'Portugal','PRY':'Paraguay','PSE':'Palestine, State of','PYF':'French Polynesia','QAT':'Qatar','REU':'Réunion','ROU':'Romania','RUS':'Russian Federation','RWA':'Rwanda','SAU':'Saudi Arabia','SDN':'Sudan','SEN':'Senegal','SGP':'Singapore','SGS':'South Georgia and the South Sandwich Islands','SHN':'Saint Helena, Ascension and Tristan da Cunha','SJM':'Svalbard and Jan Mayen','SLB':'Solomon Islands','SLE':'Sierra Leone','SLV':'El Salvador','SMR':'San Marino','SOM':'Somalia','SPM':'Saint Pierre and Miquelon','SRB':'Serbia','SSD':'South Sudan','STP':'Sao Tome and Principe','SUR':'Suriname','SVK':'Slovakia','SVN':'Slovenia','SWE':'Sweden','SWZ':'Swaziland','SXM':'Sint Maarten (Dutch part)','SYC':'Seychelles','SYR':'Syrian Arab Republic','TCA':'Turks and Caicos Islands','TCD':'Chad','TGO':'Togo','THA':'Thailand','TJK':'Tajikistan','TKL':'Tokelau','TKM':'Turkmenistan','TLS':'Timor-Leste','TON':'Tonga','TTO':'Trinidad and Tobago','TUN':'Tunisia','TUR':'Turkey','TUV':'Tuvalu','TWN':'Taiwan, Province of China','TZA':'Tanzania, United Republic of','UGA':'Uganda','UKR':'Ukraine','UMI':'United States Minor Outlying Islands','URY':'Uruguay','USA':'United States','UZB':'Uzbekistan','VAT':'Holy See (Vatican City State)','VCT':'Saint Vincent and the Grenadines','VEN':'Venezuela, Bolivarian Republic of','VGB':'Virgin Islands, British','VIR':'Virgin Islands, U.S.','VNM':'Viet Nam','VUT':'Vanuatu','WLF':'Wallis and Futuna','WSM':'Samoa','YEM':'Yemen','ZAF':'South Africa','ZMB':'Zambia','ZWE':'Zimbabwe','URS':'Soviet Union','GDR':'East Germany','TCH':'Czechoslovakia'};
 
 		loadDAT("data/processed/astronauts.tsv",parseAstronauts,{});
 
 		function sortBy(i){
+			yaxis = i;
 			astronauts.sort(function (a, b) {
 				if(a[i] === b[i]){
 					return (a['name'] > b['name']) ? 1 : -1;
@@ -92,19 +95,23 @@
 		}
 
 		function drawAstronauts(){
-			var mx = 0;
 			var output = "";
 			for(var i = 0; i < astronauts.length; i++){
 				output += '<div id="'+astronauts[i].id+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/div>';
-				if(astronauts[i].time_space > mx) mx = astronauts[i].time_space;
 			}
 			$('.innerbox').append(output);
 			updateAstronauts();
 		}
 
-		$('#sort').on('change',function(){
+		$('#yaxis').on('change',function(){
 			sortBy('name');
 			sortBy($(this).val());
+			updateAstronauts();
+			$('.tooltip_close').trigger('click')
+		});
+
+		$('#xaxis').on('change',function(){
+			xaxis = $(this).val();
 			updateAstronauts();
 			$('.tooltip_close').trigger('click')
 		});
@@ -116,12 +123,20 @@
 			var dx = tall/astronauts.length;
 			var xoff = 0;
 			var good = 0;
+			var mx = -1e100;
+			var mn = 1e100;
+			if(!xaxis) xaxis = "time_space_days";
 			for(var i = 0; i < astronauts.length; i++){
-				if(astronauts[i].time_space_days > 0) good++;
+				if(astronauts[i].time_space_days > 0){
+					good++;
+					if(astronauts[i][xaxis] > mx) mx = astronauts[i][xaxis];
+					if(astronauts[i][xaxis] < mn) mn = astronauts[i][xaxis];
+				}
 			}
 			for(var i = 0, j = 0; i < astronauts.length; i++){
 				y = j/good;
-				x = (astronauts[i].time_space_days >= 0 ? (Math.log10(astronauts[i].time_space_days)+1.1)/4 : 1);
+				if(xaxis=="time_space_days" || xaxis=="longest_trip") x = (astronauts[i][xaxis] >= 0 ? (Math.log10(astronauts[i][xaxis])+1.1)/4 : 1);
+				else x = (astronauts[i][xaxis]-mn)/(mx-mn);
 				if(astronauts[i].time_space_days == 0){
 					x = -100;
 				}else{
@@ -172,13 +187,23 @@
 	<div class="middlebox">
 		<h1>Human spaceflight</h1>
 		<form>
-			<label for="sort">Vertical ordering</label>
-			<select id="sort">
+			<label for="yaxis">Vertical</label>
+			<select id="yaxis">
 				<option value="name" selected="selected">Alphabetical</option>
 				<option value="dob">Date-of-birth</option>
 				<option value="time_eva">EVA duration</option>
 				<option value="firstlaunch_age">Age at first launch</option>
 				<option value="country">Country</option>
+				<option value="launches">Launches</option>
+				<option value="longest_trip">Longest single trip</option>
+				<option value="gender">Gender</option>
+			</select>
+			<label for="xaxis">Horizontal</label>
+			<select id="xaxis">
+				<option value="time_space_days" selected="selected">Total time in space</option>
+				<option value="dob">Date-of-birth</option>
+				<option value="time_eva">EVA duration</option>
+				<option value="firstlaunch_age">Age at first launch</option>
 				<option value="launches">Launches</option>
 				<option value="longest_trip">Longest single trip</option>
 			</select>
