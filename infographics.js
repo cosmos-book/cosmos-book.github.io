@@ -244,8 +244,8 @@ function tooltip(data){
 		var l = parseInt($(this).offset().left);
 		var t = parseInt($(this).offset().top);
 		if($('.tooltip').length == 0){
-			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><div class="tooltip_close">close</div><\/div>');
-			$('.tooltip_close').on('click',function(){ $('.tooltip').remove(); });
+			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
+			$('.tooltip_close').on('click',function(e){ e.preventDefault(); $('.tooltip').remove(); });
 		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
