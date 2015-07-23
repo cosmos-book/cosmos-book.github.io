@@ -12,9 +12,6 @@ missions:
   - name: STS-58
     time_start:   1993-10-18T14:53Z
     time_end:     1993-11-01T15:05:43Z
-  - name: Mir: STS-86 (up) and STS-89 (down)
-    time_start:   
-    time_end:     
   - name: STS-86
     time_start:   1997-09-26T02:34:19Z
     time_end:     

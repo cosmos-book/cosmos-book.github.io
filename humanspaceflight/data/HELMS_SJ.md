@@ -22,9 +22,6 @@ missions:
   - name: STS-101
     time_start:   2000-05-19T10:11Z
     time_end:     2000-05-29T06:21Z
-  - name: Expedition 2: STS-102 Discovery (up) and STS-105 Discovery (down)
-    time_start:   
-    time_end:     
   - name: STS-102
     time_start:   2001-03-08T11:42Z
     time_end:     

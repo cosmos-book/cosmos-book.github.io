@@ -10,9 +10,6 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 16/17: STS-123 Endeavour (up) and STS-124 Discovery (down)
-    time_start:   
-    time_end:     
   - name: STS-123
     time_start:   2008-03-11T06:28:14Z
     time_end:     

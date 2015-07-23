@@ -10,9 +10,6 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 17/18: STS-124(up) / STS-126 Endeavour(down)
-    time_start:   
-    time_end:     
   - name: STS-124
     time_start:   2008-05-31T21:02:12Z
     time_end:     

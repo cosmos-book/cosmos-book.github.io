@@ -20,9 +20,6 @@ missions:
   - name: STS-108
     time_start:   
     time_end:     2001-12-17T17:56:14Z
-  - name: Expedition 3: STS-105 Discovery (up) and STS-108 Endeavour (down)
-    time_start:   
-    time_end:     
 evas:
   - time_start: 
     duration:   5h4m

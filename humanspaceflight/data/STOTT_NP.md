@@ -10,9 +10,6 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 20/21: STS-128 Discovery(up), STS-129 Atlantis(down)
-    time_start:   
-    time_end:     
   - name: STS-128
     time_start:   2009-08-29T03:59Z
     time_end:     

@@ -21,9 +21,6 @@ missions:
   - name: Soyuz TMA-9
     time_start:   2006-09-18T04:08Z
     time_end:     2007-04-21T12:32Z
-  - name: Expedition 14 on Soyuz
-    time_start:   
-    time_end:     
 evas:
   - time_start: 
     duration:   67h40m
