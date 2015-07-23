@@ -122,6 +122,7 @@
 
 		function updateAstronauts(){
 
+			var now = new Date();
 			var wide = $(window).width()-parseInt($('#0').width());
 			var tall = $(window).height()-parseInt($('#0').height());
 			var dx = tall/astronauts.length;
@@ -133,6 +134,7 @@
 			var mn_y = 1e100;
 			if(!xaxis) xaxis = "time_space_days";
 			for(var i = 0; i < astronauts.length; i++){
+				if(astronauts[i].inspaceasof != null) astronauts[i].time_space_days = (astronauts[i].time_space_days_original + ((now-astronauts[i].inspaceasof)/(1000*86400))).toFixed(2);
 				if(astronauts[i].time_space_days > 0){
 					good++;
 					if(astronauts[i][xaxis] > mx_x) mx_x = astronauts[i][xaxis];
@@ -168,7 +170,10 @@
 			astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'},{'name':'inspaceasof','format':'date'}]);
 
 			// Assign each one an ID
-			for(var i = 0; i < astronauts.length; i++) astronauts[i].id = i;
+			for(var i = 0; i < astronauts.length; i++){
+				astronauts[i].id = i;
+				astronauts[i].time_space_days_original = astronauts[i].time_space_days;
+			}
 
 			drawAstronauts();
 			
@@ -176,18 +181,15 @@
 				'elements':$('.human'),
 				'html':function(){
 					var id = parseInt($(this).attr('id'));
-					var now = new Date();
 					for(var i = 0; i < astronauts.length; i++){ if(astronauts[i].id==id) break; }
 					var a = astronauts[i];
-					var days = a.time_space_days;
 					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
 					text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
 					text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
-					if(a.inspaceasof != null) days += ((now-a.inspaceasof)/(1000*86400));
-					text += '<tr><td>Time in space:<\/td><td>'+days.toFixed(2)+' days<\/td><\/tr>';
+					text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days+' days<\/td><\/tr>';
 					if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
 					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
 					if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
