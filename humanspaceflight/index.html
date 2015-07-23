@@ -180,11 +180,11 @@
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-					text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+'<\/td><\/tr>';
+					text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
 					text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
+					text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days+' days<\/td><\/tr>';
+					if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
 					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
-					text += '<tr><td>Days in space:<\/td><td>'+a.time_space_days+'<\/td><\/tr>';
-					if(a.time_eva > 0) text += '<tr><td>Time in EVA:<\/td><td>'+a.eva_string+'<\/td><\/tr>';
 					text += '<\/table>';
 					text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">raw data file<\/a>';
 					return text;
