@@ -46,7 +46,7 @@
 		cursor: pointer;
 		z-index: 1;
 	}
-	.inorbit { border: 0.2em solid white; margin-left: -0.4em; margin-top: -0.4em; }
+	.inorbit { border: 0.4em solid white; margin-left: -0.5em; margin-top: -0.5em; }
 	.human:hover, .human:focus {
 		width: 1.4em;
 		height: 1.4em;
@@ -58,7 +58,7 @@
 	    background-repeat:no-repeat;
 		background-position:center center;
 	}
-	.inorbit:focus, .inorbit:hover { margin-left: -0.8em; margin-top: -0.8em; }
+	.inorbit:focus, .inorbit:hover { margin-left: -1em; margin-top: -1em; }
 	
 	.astronaut { background-color: #00a2d3; }
 	.cosmonaut { background-color: #f04031; }
@@ -134,6 +134,7 @@
 			var mn_y = 1e100;
 			if(!xaxis) xaxis = "time_space_days";
 			for(var i = 0; i < astronauts.length; i++){
+				// Update time in space for astronauts currently in space
 				if(astronauts[i].inspaceasof != null) astronauts[i].time_space_days = (astronauts[i].time_space_days_original + ((now-astronauts[i].inspaceasof)/(1000*86400))).toFixed(2);
 				if(astronauts[i].time_space_days > 0){
 					good++;
@@ -172,6 +173,7 @@
 			// Assign each one an ID
 			for(var i = 0; i < astronauts.length; i++){
 				astronauts[i].id = i;
+				// Keep a copy of the original number of days in space
 				astronauts[i].time_space_days_original = astronauts[i].time_space_days;
 			}
 
