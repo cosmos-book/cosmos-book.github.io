@@ -41,19 +41,20 @@
 		height: 0.6em;
 		display: inline-block;
 		border-radius: 100%;
-		margin-top: -0.3em;
-		margin-left: -0.3em;
 		z-index: 1;
 	}
 	.innerbox .human {
 		position: absolute;
 		left: 0px;
 		top: 0px;
+		display: block;
+		margin-top: -0.3em;
+		margin-left: -0.3em;
 		-webkit-transition: left 2s, top 2s;
 		transition: left 2s, top 2s;
 		cursor: pointer;
 	}
-	.inorbit { border: 0.4em solid white; margin-left: -0.7em; margin-top: -0.7em; }
+	.innerbox .inorbit { border: 0.4em solid white; margin-left: -0.7em; margin-top: -0.7em; }
 	.innerbox .human:hover, .innerbox .human:focus {
 		width: 1.4em;
 		height: 1.4em;
@@ -65,7 +66,7 @@
 	    background-repeat:no-repeat;
 		background-position:center center;
 	}
-	.inorbit:focus, .inorbit:hover { margin-left: -1em; margin-top: -1em; }
+	.innerbox .inorbit:focus, .innerbox .inorbit:hover { margin-left: -1em; margin-top: -1em; }
 	
 	.astronaut { background-color: #00a2d3; }
 	.cosmonaut { background-color: #f04031; }
