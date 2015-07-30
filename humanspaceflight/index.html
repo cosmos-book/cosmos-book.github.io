@@ -35,7 +35,7 @@
 	.middlebox ul { margin-top: 0.5em; margin-bottom: 0.5em; }
 	ul { list-style: none; margin-left: 0px; padding-left: 0; }
 	ul li { display: inline-block; margin-right: 1em; }
-	ul li:last-child { margin-child: 0; }
+	ul li:last-child { margin-right: 0; margin-left: 1.5em; }
 	.human {
 		width: 0.6em;
 		height: 0.6em;
@@ -54,7 +54,8 @@
 		transition: left 2s, top 2s;
 		cursor: pointer;
 	}
-	.innerbox .inorbit { border: 0.4em solid white; margin-left: -0.7em; margin-top: -0.7em; }
+	.inorbit { border: 0.4em solid white; position: absolute; margin-left: -1.6em; }
+	.innerbox .inorbit { margin-left: -0.7em; margin-top: -0.7em; }
 	.innerbox .human:hover, .innerbox .human:focus {
 		width: 1.4em;
 		height: 1.4em;
@@ -379,6 +380,7 @@
 				<li><span class="human taikonaut"></span> Chinese taikonauts</li>
 				<li><span class="human international"></span> International astronauts</li>
 				<li><span class="human tourist"></span> Space tourists</li>
+				<li><span class="human inorbit"></span> Currently in orbit</li>
 			</ul>
 			<form>
 				<label for="yaxis">Vertical axis</label>
