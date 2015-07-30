@@ -244,7 +244,7 @@
 					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i)+'<\/span><\/div>';
 				}
 			}else if(typ=="time_space_days" || typ=="longest_trip"){
-				var a = 1;
+				var a = 0.1;
 				var b = Math.floor(mx);
 				var steps = [1,2,3,4,5,6,7,8,9]
 				for(var i = a; i <= b; i*=10){
