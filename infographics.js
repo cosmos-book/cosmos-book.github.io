@@ -240,17 +240,14 @@ function addHistory(qs,fn,a){
 //     'html':function(){}
 // )
 function tooltip(data){
-	data.elements.on('mouseover click focus',{data:data},function(e){
-		var text = e.data.data.html.call(this);
-		var l = parseInt($(this).offset().left);
-		var t = parseInt($(this).offset().top);
+
+	function show(l,t,text,dx){
 		if($('.tooltip').length == 0){
 			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); $('.tooltip').remove(); });
 		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
-		var dx = $(this).outerWidth()/2;
 
 		var x = l+dx;
 		var y = t+dx;
@@ -267,7 +264,25 @@ function tooltip(data){
 			c += " bottom";
 		}
 		$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
-
+		
+	}
+	
+	data.elements.on('mouseover focus',{data:data},function(e){
+		if($('.tooltip').is(':visible')){
+			var text = e.data.data.html.call(this);
+			var l = parseInt($(this).offset().left);
+			var t = parseInt($(this).offset().top);
+			show(l,t,text,$(this).outerWidth()/2);
+		}
+	});
+	data.elements.on('click',{data:data},function(e){
+		if($('.tooltip').is(':visible')) $('.tooltip_close').trigger('click')
+		else{
+			var text = e.data.data.html.call(this);
+			var l = parseInt($(this).offset().left);
+			var t = parseInt($(this).offset().top);
+			show(l,t,text,$(this).outerWidth()/2);
+		}
 	})
 }
 
