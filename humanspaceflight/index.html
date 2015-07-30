@@ -46,7 +46,7 @@
 		cursor: pointer;
 		z-index: 1;
 	}
-	.inorbit { border: 0.4em solid white; margin-left: -0.5em; margin-top: -0.5em; }
+	.inorbit { border: 0.4em solid white; margin-left: -0.7em; margin-top: -0.7em; }
 	.human:hover, .human:focus {
 		width: 1.4em;
 		height: 1.4em;
@@ -66,10 +66,31 @@
 	.international { background-color: #67c18d; }
 	.tourist { background-color: #662d8f; }
 	.stripe { width: 100%; height: 4px; }
+
+	label { display: none; }
+	.xaxis { position: absolute; top: 0px; width: 100%; height: 100%; overflow: hidden; }
+	.yaxis { position: absolute; left: 0px; width: 100%; height: 100%; overflow: hidden; }
+	.xaxis .gridline {
+		position: absolute;
+		top: 0px;
+		border-left: 1px solid #fdcc9c;
+		height: 100%;
+	}
+	.yaxis .gridline {
+		position: absolute;
+		left: 0px;
+		border-top: 1px solid #fdcc9c;
+		width: 100%;
+	}
+	.xaxis .label { bottom: 0px; margin: 0.25em; margin-bottom: 0; line-height: 1em; }
+	.yaxis .label { right: 0px; margin: 0.25em; margin-right: 0; line-height: 1em; }
+	.xaxis .label, .yaxis .label { color: #fbb675; position: absolute; white-space: nowrap; }
+	.xaxis .label:hover, .yaxis .label:hover { color: black; }
 	</style>
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="../infographics.js"></script>
 	<script type="text/javascript">
+
 	$(document).ready(function(){
 
 		var astronauts;
@@ -77,7 +98,8 @@
 		var yaxis;
 		var cc = {'ABW':'Aruba','AFG':'Afghanistan','AGO':'Angola','AIA':'Anguilla','ALA':'&Aring;land Islands','ALB':'Albania','AND':'Andorra','ARE':'United Arab Emirates','ARG':'Argentina','ARM':'Armenia','ASM':'American Samoa','ATA':'Antarctica','ATF':'French Southern Territories','ATG':'Antigua and Barbuda','AUS':'Australia','AUT':'Austria','AZE':'Azerbaijan','BDI':'Burundi','BEL':'Belgium','BEN':'Benin','BES':'Bonaire, Sint Eustatius and Saba','BFA':'Burkina Faso','BGD':'Bangladesh','BGR':'Bulgaria','BHR':'Bahrain','BHS':'Bahamas','BIH':'Bosnia and Herzegovina','BLM':'Saint Barthélemy','BLR':'Belarus','BLZ':'Belize','BMU':'Bermuda','BOL':'Bolivia, Plurinational State of','BRA':'Brazil','BRB':'Barbados','BRN':'Brunei Darussalam','BTN':'Bhutan','BVT':'Bouvet Island','BWA':'Botswana','CAF':'Central African Republic','CAN':'Canada','CCK':'Cocos (Keeling) Islands','CHE':'Switzerland','CHL':'Chile','CHN':'China','CIV':'Côte d\'Ivoire','CMR':'Cameroon','COD':'Congo, the Democratic Republic of the','COG':'Congo','COK':'Cook Islands','COL':'Colombia','COM':'Comoros','CPV':'Cabo Verde','CRI':'Costa Rica','CUB':'Cuba','CUW':'Curaçao','CXR':'Christmas Island','CYM':'Cayman Islands','CYP':'Cyprus','CZE':'Czech Republic','DEU':'Germany','DJI':'Djibouti','DMA':'Dominica','DNK':'Denmark','DOM':'Dominican Republic','DZA':'Algeria','ECU':'Ecuador','EGY':'Egypt','ERI':'Eritrea','ESH':'Western Sahara','ESP':'Spain','EST':'Estonia','ETH':'Ethiopia','FIN':'Finland','FJI':'Fiji','FLK':'Falkland Islands (Malvinas)','FRA':'France','FRO':'Faroe Islands','FSM':'Micronesia, Federated States of','GAB':'Gabon','GBR':'United Kingdom','GEO':'Georgia','GGY':'Guernsey','GHA':'Ghana',	'GIB':'Gibraltar','GIN':'Guinea','GLP':'Guadeloupe','GMB':'Gambia','GNB':'Guinea-Bissau','GNQ':'Equatorial Guinea','GRC':'Greece','GRD':'Grenada','GRL':'Greenland','GTM':'Guatemala','GUF':'French Guiana','GUM':'Guam','GUY':'Guyana','HKG':'Hong Kong','HMD':'Heard Island and McDonald Islands','HND':'Honduras','HRV':'Croatia','HTI':'Haiti','HUN':'Hungary','IDN':'Indonesia','IMN':'Isle of Man','IND':'India','IOT':'British Indian Ocean Territory','IRL':'Ireland','IRN':'Iran, Islamic Republic of','IRQ':'Iraq','ISL':'Iceland','ISR':'Israel','ITA':'Italy','JAM':'Jamaica','JEY':'Jersey','JOR':'Jordan','JPN':'Japan','KAZ':'Kazakhstan','KEN':'Kenya','KGZ':'Kyrgyzstan','KHM':'Cambodia','KIR':'Kiribati','KNA':'Saint Kitts and Nevis','KOR':'Korea, Republic of','KWT':'Kuwait','LAO':'Lao People\'s Democratic Republic','LBN':'Lebanon','LBR':'Liberia','LBY':'Libya','LCA':'Saint Lucia','LIE':'Liechtenstein','LKA':'Sri Lanka','LSO':'Lesotho','LTU':'Lithuania','LUX':'Luxembourg','LVA':'Latvia','MAC':'Macao','MAF':'Saint Martin (French part)','MAR':'Morocco','MCO':'Monaco','MDA':'Moldova, Republic of','MDG':'Madagascar','MDV':'Maldives','MEX':'Mexico','MHL':'Marshall Islands','MKD':'Macedonia, the former Yugoslav Republic of','MLI':'Mali','MLT':'Malta','MMR':'Myanmar','MNE':'Montenegro','MNG':'Mongolia','MNP':'Northern Mariana Islands','MOZ':'Mozambique','MRT':'Mauritania','MSR':'Montserrat','MTQ':'Martinique','MUS':'Mauritius','MWI':'Malawi','MYS':'Malaysia','MYT':'Mayotte','NAM':'Namibia','NCL':'New Caledonia','NER':'Niger','NFK':'Norfolk Island','NGA':'Nigeria','NIC':'Nicaragua','NIU':'Niue',	'NLD':'Netherlands','NOR':'Norway','NPL':'Nepal','NRU':'Nauru','NZL':'New Zealand','OMN':'Oman','PAK':'Pakistan','PAN':'Panama','PCN':'Pitcairn','PER':'Peru','PHL':'Philippines','PLW':'Palau','PNG':'Papua New Guinea','POL':'Poland','PRI':'Puerto Rico','PRK':'Korea, Democratic People\'s Republic of','PRT':'Portugal','PRY':'Paraguay','PSE':'Palestine, State of','PYF':'French Polynesia','QAT':'Qatar','REU':'Réunion','ROU':'Romania','RUS':'Russian Federation','RWA':'Rwanda','SAU':'Saudi Arabia','SDN':'Sudan','SEN':'Senegal','SGP':'Singapore','SGS':'South Georgia and the South Sandwich Islands','SHN':'Saint Helena, Ascension and Tristan da Cunha','SJM':'Svalbard and Jan Mayen','SLB':'Solomon Islands','SLE':'Sierra Leone','SLV':'El Salvador','SMR':'San Marino','SOM':'Somalia','SPM':'Saint Pierre and Miquelon','SRB':'Serbia','SSD':'South Sudan','STP':'Sao Tome and Principe','SUR':'Suriname','SVK':'Slovakia','SVN':'Slovenia','SWE':'Sweden','SWZ':'Swaziland','SXM':'Sint Maarten (Dutch part)','SYC':'Seychelles','SYR':'Syrian Arab Republic','TCA':'Turks and Caicos Islands','TCD':'Chad','TGO':'Togo','THA':'Thailand','TJK':'Tajikistan','TKL':'Tokelau','TKM':'Turkmenistan','TLS':'Timor-Leste','TON':'Tonga','TTO':'Trinidad and Tobago','TUN':'Tunisia','TUR':'Turkey','TUV':'Tuvalu','TWN':'Taiwan, Province of China','TZA':'Tanzania, United Republic of','UGA':'Uganda','UKR':'Ukraine','UMI':'United States Minor Outlying Islands','URY':'Uruguay','USA':'United States','UZB':'Uzbekistan','VAT':'Holy See (Vatican City State)','VCT':'Saint Vincent and the Grenadines','VEN':'Venezuela, Bolivarian Republic of','VGB':'Virgin Islands, British','VIR':'Virgin Islands, U.S.','VNM':'Viet Nam','VUT':'Vanuatu','WLF':'Wallis and Futuna','WSM':'Samoa','YEM':'Yemen','ZAF':'South Africa','ZMB':'Zambia','ZWE':'Zimbabwe','URS':'Soviet Union','GDR':'East Germany','TCH':'Czechoslovakia'};
 
-		loadDAT("data/processed/astronauts.tsv",parseAstronauts,{});
+		loadDAT(getDataPath('#data'),parseAstronauts,{});
+		$('.noscript').hide();
 
 		function sortBy(i){
 			yaxis = i;
@@ -132,10 +154,12 @@
 			var mn_x = 1e100;
 			var mx_y = -1e100;
 			var mn_y = 1e100;
+			var x,y;
 			if(!xaxis) xaxis = "time_space_days";
 			for(var i = 0; i < astronauts.length; i++){
 				// Update time in space for astronauts currently in space
-				if(astronauts[i].inspaceasof != null) astronauts[i].time_space_days = (astronauts[i].time_space_days_original + ((now-astronauts[i].inspaceasof)/(1000*86400))).toFixed(2);
+				if(astronauts[i].inspaceasof != null) astronauts[i].time_space_days = parseFloat((astronauts[i].time_space_days_original + ((now-astronauts[i].inspaceasof)/(1000*86400))).toFixed(2));
+				if(astronauts[i].launches == 1 && astronauts[i].time_space_days > astronauts[i].longest_trip) astronauts[i].longest_trip = astronauts[i].time_space_days;
 				if(astronauts[i].time_space_days > 0){
 					good++;
 					if(astronauts[i][xaxis] > mx_x) mx_x = astronauts[i][xaxis];
@@ -144,15 +168,16 @@
 					if(astronauts[i][yaxis] < mn_y) mn_y = astronauts[i][yaxis];
 				}
 			}
+			console.log(mx_x,mn_x,mx_y,mn_y)
 			var output = "";
 			var dy = 1/good;
 			for(var i = 0, j = 0; i < astronauts.length; i++){
 				
-				if(xaxis=="time_space_days" || xaxis=="longest_trip") x = (astronauts[i][xaxis] >= 0 ? (Math.log10(astronauts[i][xaxis])+1.1)/4 : 1);
+				if(xaxis=="time_space_days" || xaxis=="longest_trip") x = (astronauts[i][xaxis] >= 0 ? (Math.log10(astronauts[i][xaxis]+1.1))/3 : 1);
 				else x = (astronauts[i][xaxis]-mn_x)/(mx_x-mn_x);
 				
 				if(yaxis=="dob" || yaxis=="time_eva" || yaxis=="firstlaunch_age" || yaxis=="launches") y = (astronauts[i][yaxis]-mn_y)/(mx_y-mn_y);
-				else if(yaxis=="longest_trip") y = (astronauts[i][yaxis] >= 0 ? (Math.log10(astronauts[i][yaxis])+1.1)/4 : 1);
+				else if(yaxis=="longest_trip") y = (astronauts[i][yaxis] >= 0 ? (Math.log10(astronauts[i][yaxis]+1.1))/3 : 1);
 				else y = j*dy;
 				
 				if(astronauts[i].time_space_days == 0){
@@ -160,10 +185,126 @@
 					$('#'+astronauts[i].id).remove();
 				}else{
 					j++;
-					//output += astronauts[i].id+" ";
 					$('#'+astronauts[i].id).css({'left':(100*x)+"%",'top':(100*y)+"%"});
 				}
 			}
+			if($('.yaxis').length==0) $('.innerbox').append('<div class="yaxis"><\/div>');
+			if($('.xaxis').length==0) $('.innerbox').append('<div class="xaxis"><\/div>');
+			
+			$('.xaxis').html(makeGridLines("x",xaxis,mx_x,mn_x));
+			$('.yaxis').html(makeGridLines("y",yaxis,mx_y,mn_y));
+
+		}
+
+		function styleGridLine(axis,v){
+			if(axis == "x") return 'left:'+(100*v)+'%';
+			else return 'top:'+(v*100)+'%';
+		}
+		function makeGridLines(axis,typ,mx,mn){
+			var html = "";
+			if(typ=="dob"){
+				var a = Math.ceil(mn.getFullYear()/10)*10;
+				var b = Math.floor(mx.getFullYear()/10)*10;
+				var d;
+				for(var i = a; i <= b; i += 10){
+					d = new Date(2015,1,1,0,0,0);
+					d.setFullYear(i);
+					x = (d-mn)/(mx-mn);
+					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+i+'<\/span><\/div>';
+				}
+			}else if(typ=="time_eva"){
+				var a = mn;
+				var b = mx;
+				var step = getGridSpacing(a*1000,b*1000,true)/1000;
+				for(var i = a; i <= b; i+=step){
+					x = (i-mn)/(mx-mn);
+					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i/3600)+' hr<\/span><\/div>';
+				}
+			}else if(typ=="firstlaunch_age"){
+				var step = 5;
+				var a = Math.ceil(mn/step)*step;
+				var b = Math.floor(mx/step)*step;
+				for(var i = a; i <= b; i+=step){
+					x = (i-mn)/(mx-mn);
+					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i)+' yr<\/span><\/div>';
+				}
+			}else if(typ=="launches"){
+				var step = 1;
+				var a = Math.ceil(mn/step)*step;
+				var b = Math.floor(mx/step)*step;
+				for(var i = a; i <= b; i+=step){
+					x = (i-mn)/(mx-mn);
+					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i)+'<\/span><\/div>';
+				}
+			}else if(typ=="time_space_days" || typ=="longest_trip"){
+				var a = 1;
+				var b = Math.floor(mx);
+				var steps = [1,2,3,4,5,6,7,8,9]
+				for(var i = a; i <= b; i*=10){
+					for(var s = 0; s < steps.length ; s++){
+						j = i*steps[s];
+						x = (Math.log10(j+1.1)/3);
+						html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(s==0 ? j+' day'+(j>1 ? 's':''): '')+'<\/span><\/div>';
+					}
+				}
+							
+			}
+			return html;
+		}
+		
+		// Calculate reasonable grid line spacings
+		function getGridSpacing(mn,mx,isDate){
+		
+			var spacing = 0;
+			var steps,t_div,t_inc,n,s,sp,t_max,t_min,i;
+			var rg = mx-mn;
+			
+			
+			var param = {'name': 'seconds', 'div': 1, 'base': 10};
+
+			if(isDate){
+				// Dates are in milliseconds
+				// Grid line spacings can range from 1 ms to 10000 years
+				steps = [{'name': 'seconds','div':1000,'spacings':[0.001,0.002,0.005,0.01,0.02,0.05,0.1,0.25,0.5,1,2,5,10,15]},
+						{'name': 'minutes', 'div':60000,'spacings':[0.5,1,2,5,10,15,20,30]},
+						{'name': 'hours', 'div':3600000,'spacings':[0.5,1,2,4,6]},
+						{'name': 'days', 'div':86400000,'spacings':[0.5,1,2,7]},
+						{'name': 'weeks', 'div':7*86400000,'spacings':[1,2,4,8]},
+						{'name': 'years', 'div':31557600000,'spacings':[0.25,0.5,1,2,5,10,20,50,100,200,500,1000,2000,5000]}];
+	
+				for(s = 0; s < steps.length ; s++){
+					for(sp = 0; sp < steps[s].spacings.length; sp++){
+						n = Math.ceil(rg/(steps[s].div*steps[s].spacings[sp]));
+						if(n < 1) continue;
+						if(!t_div || (n > 3 && n < t_div)){
+							t_div = n;
+							spacing = {'name':steps[s].name,'fract':steps[s].spacings[sp]};
+							t_inc = (steps[s].div*steps[s].spacings[sp]);
+						}
+					}
+				}
+			}else t_inc = Math.pow(param.base,Math.floor(Math.log(rg)/Math.log(param.base)));
+	
+			t_max = (Math.floor(mx/t_inc))*t_inc;
+			if(t_max < mx) t_max += t_inc;
+			t_min = t_max;
+			i = 0;
+			do {
+				i++;
+				t_min -= t_inc;
+			}while(t_min > mn);
+	
+			// Test for really tiny values that might mess up the calculation
+			if(Math.abs(t_min) < 1E-15) t_min = 0.0;
+		
+			// Add more tick marks if we only have a few
+			while(i < (isDate ? 3 : 5)) {
+				t_inc /= 2.0;
+				if((t_min + t_inc) <= mn) t_min += t_inc;
+				if((t_max - t_inc) >= mx) t_max -= t_inc ;
+				i = i*2;
+			}
+			return t_inc;
 		}
 		
 		function parseAstronauts(data,attrs){
@@ -210,7 +351,7 @@
 	<div class="middlebox">
 		<h1>Human spaceflight</h1>
 		<form>
-			<label for="yaxis">Vertical</label>
+			<label for="yaxis">Vertical axis</label>
 			<select id="yaxis">
 				<option value="name" selected="selected">Alphabetical</option>
 				<option value="dob">Date-of-birth</option>
@@ -221,17 +362,22 @@
 				<option value="longest_trip">Longest individual trip</option>
 				<option value="gender">Gender</option>
 			</select>
-			<label for="xaxis">Horizontal</label>
+			vs
+			<label for="xaxis">Horizontal axis</label>
 			<select id="xaxis">
 				<option value="time_space_days" selected="selected">Total time in space</option>
+				<option value="longest_trip">Longest individual trip</option>
 				<option value="dob">Date-of-birth</option>
 				<option value="time_eva">EVA duration</option>
 				<option value="firstlaunch_age">Age at first launch</option>
 				<option value="launches">Launches</option>
-				<option value="longest_trip">Longest individual trip</option>
 			</select>
 		</form>
-		<div class="innerbox"></div>
+		<div class="innerbox">
+			<div class="noscript">
+				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.tsv" id="data">data file</a></p>
+			</div>
+		</div>
 	</div>
 </div>
 

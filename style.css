@@ -14,6 +14,10 @@ h1, h2, h3 { font-family: "Menlo Regular", monospace, sans-serif; font-weight: n
 h1 { margin-bottom: 0.25em; }
 h3 { margin-bottom: 0em; }
 p:last-child { margin-bottom: 0px; }
+input[type=text], input[type=number] { height: 2em; font-size: 1em;}
+select { font-size: 1em; }
+
+
 .outer {
 	display: table;
 	position: absolute;

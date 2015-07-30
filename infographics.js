@@ -271,4 +271,22 @@ function tooltip(data){
 	})
 }
 
+// Function to get the relative path of the data file
+function getDataPath(el){
+	var url = "";
+	if($(el).attr('data')){
+		url = $(el).attr('data');
+	}else if($(el).attr('href')){
+		if($(el).attr('href').indexOf('blob/master/') > 0){
+			url = $(el).attr('href').substr($(el).attr('href').indexOf('blob/master/')+12)
+		}else{
+			url = $(el).attr('href');
+		}
+	}
+	if(location.href.indexOf('cosmos-book.github.io') > 0){
+		var path = location.href.substring(location.href.indexOf('cosmos-book.github.io')+22,location.href.lastIndexOf('/')+1);
+		if(url.lastIndexOf(path)>=0) url = url.substr(url.lastIndexOf(path)+path.length);
+	}
+	return url;
+}
 
