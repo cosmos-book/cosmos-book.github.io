@@ -19,7 +19,7 @@
 		position: absolute;
 		left: 2em;
 		right: 2em;
-		top: 2em;
+		top: 1em;
 		bottom: 2em;		
 	}
 	@media only screen and (max-width: 700px){
@@ -29,9 +29,10 @@
 		position: absolute;
 		left: 0em;
 		right: 0em;
-		top: 4.5em;
+		top: 6.5em;
 		bottom: 0em;		
 	}
+	.middlebox p { margin-top: 0.5em; margin-bottom: 0.5em; }
 	.human {
 		width: 0.6em;
 		height: 0.6em;
@@ -350,6 +351,7 @@
 <div class="outerbox">
 	<div class="middlebox">
 		<h1>Human spaceflight</h1>
+		<p>All the people who have been into space (above 100 km altitude)</p>
 		<form>
 			<label for="yaxis">Vertical axis</label>
 			<select id="yaxis">
@@ -359,14 +361,14 @@
 				<option value="firstlaunch_age">Age at first launch</option>
 				<option value="country">Country</option>
 				<option value="launches">Launches</option>
-				<option value="longest_trip">Longest individual trip</option>
+				<option value="longest_trip">Longest trip</option>
 				<option value="gender">Gender</option>
 			</select>
 			vs
 			<label for="xaxis">Horizontal axis</label>
 			<select id="xaxis">
 				<option value="time_space_days" selected="selected">Total time in space</option>
-				<option value="longest_trip">Longest individual trip</option>
+				<option value="longest_trip">Longest trip</option>
 				<option value="dob">Date-of-birth</option>
 				<option value="time_eva">EVA duration</option>
 				<option value="firstlaunch_age">Age at first launch</option>
