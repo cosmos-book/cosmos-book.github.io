@@ -33,22 +33,28 @@
 		bottom: 0em;		
 	}
 	.middlebox p { margin-top: 0.5em; margin-bottom: 0.5em; }
+	ul { list-style: none; margin-left: 0px; padding-left: 0; }
+	ul li { display: inline-block; margin-right: 1em; }
+	ul li:last-child { margin-child: 0; }
 	.human {
 		width: 0.6em;
 		height: 0.6em;
+		display: inline-block;
 		border-radius: 100%;
+		margin-top: -0.3em;
+		margin-left: -0.3em;
+		z-index: 1;
+	}
+	.innerbox .human {
 		position: absolute;
 		left: 0px;
 		top: 0px;
-		margin-top: -0.3em;
-		margin-left: -0.3em;
 		-webkit-transition: left 2s, top 2s;
 		transition: left 2s, top 2s;
 		cursor: pointer;
-		z-index: 1;
 	}
 	.inorbit { border: 0.4em solid white; margin-left: -0.7em; margin-top: -0.7em; }
-	.human:hover, .human:focus {
+	.innerbox .human:hover, .innerbox .human:focus {
 		width: 1.4em;
 		height: 1.4em;
 		margin-top: -0.7em;
@@ -360,7 +366,13 @@
 	<div class="middlebox">
 		<div class="topbox">
 			<h1>Human spaceflight</h1>
-			<p>All the people who have been into space (above 100 km altitude)</p>
+			<ul>
+				<li><span class="human cosmonaut"></span> Soviet/Russian cosmonauts</li>
+				<li><span class="human astronaut"></span> US astronauts</li>
+				<li><span class="human taikonaut"></span> Chinese taikonauts</li>
+				<li><span class="human international"></span> International astronauts</li>
+				<li><span class="human tourist"></span> Space tourists</li>
+			</ul>
 			<form>
 				<label for="yaxis">Vertical axis</label>
 				<select id="yaxis">
