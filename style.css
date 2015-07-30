@@ -67,6 +67,8 @@ select { font-size: 1em; }
     width: /*whatever width you want*/;
 }
 
+.footer { position: absolute; bottom: 0px; left: 0px; font-size: 0.8em; padding: 0.5em;}
+
 .tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; }
 .tooltip .tooltip_inner { margin: 1em; text-align: left; }
 .tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
