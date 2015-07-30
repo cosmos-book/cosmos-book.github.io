@@ -77,18 +77,24 @@
 	label { display: none; }
 	.xaxis { position: absolute; top: 0px; width: 100%; height: 100%; overflow: hidden; }
 	.yaxis { position: absolute; left: 0px; width: 100%; height: 100%; overflow: hidden; }
+	.xaxis .gridline, .yaxis .gridline { border: 1px solid #fdcc9c; }
 	.xaxis .gridline {
 		position: absolute;
 		top: 0px;
-		border-left: 1px solid #fdcc9c;
+		border-right: 0px;
+		border-top: 0px;
+		border-bottom: 0px;
 		height: 100%;
 	}
 	.yaxis .gridline {
 		position: absolute;
 		left: 0px;
-		border-top: 1px solid #fdcc9c;
+		border-right: 0px;
+		border-left: 0px;
+		border-bottom: 0px;
 		width: 100%;
 	}
+	.xaxis .majorgridline,.yaxis .majorgridline { border-color: white; border-width: 2px; }
 	.xaxis .label { bottom: 0px; margin: 0.25em; margin-bottom: 0; line-height: 1em; }
 	.yaxis .label { right: 0px; margin: 0.25em; margin-right: 0; line-height: 1em; }
 	.xaxis .label, .yaxis .label { color: #fbb675; position: absolute; white-space: nowrap; }
@@ -259,7 +265,7 @@
 					for(var s = 0; s < steps.length ; s++){
 						j = i*steps[s];
 						x = ((Math.log10(j)-Math.log10(mn))/(Math.log10(mx)-Math.log10(mn)));
-						html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(s==0 ? j+' day'+(j>1 ? 's':''): '')+'<\/span><\/div>';
+						html += '<div class="gridline'+(s==0 ? ' majorgridline':'')+'" style="'+styleGridLine(axis,x)+'"><span class="label">'+(s==0 ? j+' day'+(j>1 ? 's':''): '')+'<\/span><\/div>';
 					}
 				}
 							
