@@ -169,10 +169,12 @@
 				if(astronauts[i].launches == 1 && astronauts[i].time_space_days > astronauts[i].longest_trip) astronauts[i].longest_trip = astronauts[i].time_space_days;
 				if(astronauts[i].time_space_days > 0){
 					good++;
-					if(astronauts[i][xaxis] > mx_x) mx_x = astronauts[i][xaxis];
-					if(astronauts[i][xaxis] < mn_x) mn_x = astronauts[i][xaxis];
-					if(astronauts[i][yaxis] > mx_y) mx_y = astronauts[i][yaxis];
-					if(astronauts[i][yaxis] < mn_y) mn_y = astronauts[i][yaxis];
+					xaxistmp = (xaxis=="longest_trip" ? "time_space_days" : xaxis);
+					yaxistmp = (yaxis=="longest_trip" ? "time_space_days" : yaxis);
+					if(astronauts[i][xaxistmp] > mx_x) mx_x = astronauts[i][xaxistmp];
+					if(astronauts[i][xaxistmp] < mn_x) mn_x = astronauts[i][xaxistmp];
+					if(astronauts[i][yaxistmp] > mx_y) mx_y = astronauts[i][yaxistmp];
+					if(astronauts[i][yaxistmp] < mn_y) mn_y = astronauts[i][yaxistmp];
 				}
 			}
 			console.log(mx_x,mn_x,mx_y,mn_y)
@@ -210,6 +212,7 @@
 		function makeGridLines(axis,typ,mx,mn){
 			var html = "";
 			var x;
+			console.log(axis,mx,mn)
 			if(typ=="dob"){
 				var a = Math.ceil(mn.getFullYear()/10)*10;
 				var b = Math.floor(mx.getFullYear()/10)*10;
@@ -245,10 +248,8 @@
 					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i)+'<\/span><\/div>';
 				}
 			}else if(typ=="time_space_days" || typ=="longest_trip"){
-				var a = 0.1;
-				var b = mx;
 				var steps = [1,2,3,4,5,6,7,8,9]
-				for(var i = a; i <= b; i*=10){
+				for(var i = 0.1; i <= mx; i*=10){
 					for(var s = 0; s < steps.length ; s++){
 						j = i*steps[s];
 						x = ((Math.log10(j)-Math.log10(mn))/(Math.log10(mx)-Math.log10(mn)));
