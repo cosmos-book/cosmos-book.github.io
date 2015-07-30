@@ -202,4 +202,5 @@ input.button { padding: 6px 8px; /* Bug fix for Firefox over-riding the line-hei
 		border: 0px;
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
+	.wide { display: none; }
 }
