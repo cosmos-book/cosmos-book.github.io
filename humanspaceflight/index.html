@@ -263,6 +263,16 @@
 					x = getX(i,typ,mn,mx);
 					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+(i/3600)+' hr<\/span><\/div>';
 				}
+			}else if(typ=="time_dilation"){
+				// Time dilation
+				var a = mn;
+				var b = mx;
+				// Convert to Date-like objects to find a good step size then back into seconds
+				var step = getGridSpacing(a*1000,b*1000,true)/1000;
+				for(var i = a; i <= b; i+=step){
+					x = getX(i,typ,mn,mx);
+					html += '<div class="gridline" style="'+styleGridLine(axis,x)+'"><span class="label">'+parseInt(i*1000)+' ms<\/span><\/div>';
+				}
 			}else if(typ=="firstlaunch_age"){
 				// The age at first launch with a grid spacing of 5 years
 				var step = 5;
@@ -424,6 +434,7 @@
 					<option value="longest_trip">Longest trip</option>
 					<option value="dob">Date-of-birth</option>
 					<option value="time_eva">EVA duration</option>
+					<option value="time_dilation">Time dilation (est)</option>
 					<option value="firstlaunch_age">Age at first launch</option>
 					<option value="launches">Launches</option>
 				</select>
