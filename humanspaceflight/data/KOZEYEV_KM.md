@@ -13,7 +13,7 @@ missions:
     time_end:     
   - name: Soyuz TM-32
     time_start:   
-    time_end:     2001-10-31T06Z
+    time_end:     2001-10-31T05:00:00Z
 evas:
 gender:	Male
 ---

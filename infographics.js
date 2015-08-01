@@ -241,47 +241,46 @@ function addHistory(qs,fn,a){
 // )
 function tooltip(data){
 
-	function show(l,t,text,dx){
+	function show(el,text){
+
+		var l = parseInt($(el).offset().left);
+		var t = parseInt($(el).offset().top);
+		var dx = parseInt($(el).outerWidth());
+		var dy = parseInt($(el).outerHeight());
+
 		if($('.tooltip').length == 0){
 			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); $('.tooltip').remove(); });
 		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
-
 		var x = l+dx;
-		var y = t+dx;
+		var y = t+dy/2;
 		var c = "right";
 
 		if(x+$('.tooltip').width()+fs*2 > $('.innerbox').width()){
-			x = l-$('.tooltip').width()+dx;
+			x = l-$('.tooltip').width();
 			if(x < 0) x = 0;
 			c = "left";
 		}
 		if(y+$('.tooltip').height()+fs*2 > $('.innerbox').offset().top+$('.innerbox').height()){
-			y = t-$('.tooltip').height()+dx;
+			y = t-$('.tooltip').height()+dy/2;
 			if(y < 0) y = 0;
 			c += " bottom";
 		}
 		$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
 		
 	}
-	
+
 	data.elements.on('mouseover focus',{data:data},function(e){
 		if($('.tooltip').is(':visible')){
-			var text = e.data.data.html.call(this);
-			var l = parseInt($(this).offset().left);
-			var t = parseInt($(this).offset().top);
-			show(l,t,text,$(this).outerWidth()/2);
+			show(this,e.data.data.html.call(this));
 		}
 	});
 	data.elements.on('click',{data:data},function(e){
 		if($('.tooltip').is(':visible')) $('.tooltip_close').trigger('click')
 		else{
-			var text = e.data.data.html.call(this);
-			var l = parseInt($(this).offset().left);
-			var t = parseInt($(this).offset().top);
-			show(l,t,text,$(this).outerWidth()/2);
+			show(this,e.data.data.html.call(this));
 		}
 	})
 }
