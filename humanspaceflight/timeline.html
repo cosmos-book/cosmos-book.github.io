@@ -51,11 +51,6 @@
 		background-position: 0.5em center;
 	}
 	
-	.astronaut { background-color: #00a2d3; }
-	.cosmonaut { background-color: #f04031; }
-	.taikonaut { background-color: #ffcb06; }
-	.international { background-color: #67c18d; }
-	.tourist { background-color: #662d8f; }
 	.stripe { width: 100%; height: 4px; }
 
 	label { display: none; }
@@ -113,9 +108,13 @@
 			var launch,land;
 			var html = "";
 			var start = new Date('1961-01-01T00:00:00Z');
-			var now = new Date();
 			var end = new Date('2014-01-01T00:00:00Z');
-			end.setUTCFullYear(now.getUTCFullYear()+1);
+			var now = new Date();
+			end = new Date();
+			var tmp = new Date();
+			tmp.setMonth(0);
+			tmp.setDate(1);
+			var yfrac = (now-tmp)/(86400000*365.25);
 
 			$('.innerbox').append('<div id="timeline"><\/div>');
 
@@ -158,7 +157,7 @@
 			}
 			$('#timeline').append('<div class="data">'+html+'<\/div>');
 
-			$('#timeline').append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear(),start.getUTCFullYear())+'<\/div>');
+			$('#timeline').append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 	
 			function formatArray(str,lookup){
 				// Split array
