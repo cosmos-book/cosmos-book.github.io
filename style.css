@@ -16,6 +16,9 @@ h3 { margin-bottom: 0em; }
 p:last-child { margin-bottom: 0px; }
 input[type=text], input[type=number] { height: 2em; font-size: 1em;}
 select { font-size: 1em; }
+ul { padding-left: 1em; }
+ul ul li { margin-left: 0; list-style-type: circle; }
+
 
 
 .outer {
