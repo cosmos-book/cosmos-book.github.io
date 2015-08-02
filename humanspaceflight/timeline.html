@@ -84,7 +84,7 @@
 	.topbox { display: table-row; margin: 1em; padding-top: 1em; }
 	.innerbox { display: table-row; margin: 2em; overflow-x: scroll; }
 	
-	#timeline { width: 8000px; position: absolute; height: 100%; }
+	#timeline { width: 10000px; position: absolute; height: 100%; }
 
 	@media only screen and (max-width: 700px){
 		.topbox ul { font-size: 0.8em; }
@@ -105,6 +105,7 @@
 
 
 		function parseIt(data){
+
 			var launch,land;
 			var html = "";
 			var start = new Date('1961-01-01T00:00:00Z');
@@ -129,8 +130,8 @@
 			var nmax = 0;
 
 			for(name in data) {
-				for(var m = 0; m < data[name].missions.length; m++){
-					var ms = data[name].missions[m].split(/;/);
+				for(var m = 0; m < data[name].periods.length; m++){
+					var ms = data[name].periods[m].split(/;/);
 					launch = (ms[0]) ? new Date(ms[0]) : "BLAH";
 					land = (ms[1]) ? new Date(ms[1]) : new Date();
 					l = Math.floor((launch-start)*scale*wide);
@@ -149,7 +150,15 @@
 					for(var i = 0 ; i < pixels.length ; i++){
 						if(pixels[i].length > nmax) nmax = pixels[i].length;
 					}
-					astronauts.push({'name':name,'category':data[name].category,'n':n,'width':dl,'left':l,'launch':launch,'land':(ms[1] ? land : "")});
+					var a = JSON.parse(JSON.stringify(data[name]));
+					a.name = name;
+					a.n = n;
+					a.width = dl;
+					a.left = l;
+					a.launch = launch;
+					a.land = (ms[1] ? land : "");
+					a.dob = new Date(a.dob);
+					astronauts.push(a);
 				}
 			}
 			for(var a = 0 ; a < astronauts.length; a++){
@@ -160,8 +169,8 @@
 			$('#timeline').append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 	
 			function formatArray(str,lookup){
-				// Split array
-				var arr = str.split(/;/);
+				// Split into array
+				var arr = (typeof str==="string") ? str.split(/;/) : str;
 				str = "";
 				for(var i = 0 ; i < arr.length; i++){
 					if(str) str += ", ";
@@ -178,22 +187,13 @@
 					var id = parseInt($(this).attr('id'));
 					var a = astronauts[id];
 					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
-					text += '<tr><td>Launch date:<\/td><td>'+a.launch+'<\/td><\/tr>';
-					text += '<tr><td>Landing date:<\/td><td>'+a.land+'<\/td><\/tr>';
-					//text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+astronauts[id].file+'" class="repo">data file<\/a>';
-					text += '<\/table>';
-					return text;
-
-					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-					text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
-					text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
-					text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days+' days<\/td><\/tr>';
-					if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
-					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
-					if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
+					//if(a.eva.time > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva.string.substr(0,a.eva.string.lastIndexOf(":")))+' hours '+parseInt(a.eva.string.substr(a.eva.string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
+					//text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
+					text += '<tr><td>Trips to space:<\/td><td>'+a.periods.length+'<\/td><\/tr>';
+					text += '<tr><td>This mission:<\/td><td>'+a.launch.toLocaleDateString()+' - '+(a.land ? a.land.toLocaleDateString() : '')+'<\/td><\/tr>';
 					text += '<\/table>';
 					text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 					return text;
@@ -242,7 +242,7 @@
 		</div>
 		<div class="innerbox">
 			<div class="noscript">
-				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/timeinspace.json" id="data">data file</a></p>
+				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.json" id="data">data file</a></p>
 			</div>
 		</div>
 	</div>
