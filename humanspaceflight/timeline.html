@@ -136,9 +136,9 @@
 			var tall = $('#timeline').height();
 			
 			var pixels = new Array(wide);
-			for(px = 0; px < wide ; px++) pixels[px] = new Array(20);
+			for(px = 0; px < wide ; px++) pixels[px] = [false];
 
-			var nmax = 0;
+			var nmax = 1;
 
 			for(name in data) {
 				for(var m = 0; m < data[name].periods.length; m++){
@@ -148,19 +148,31 @@
 					l = Math.floor((launch-start)*scale*wide);
 					dl = Math.ceil((land-launch)*scale*wide);
 					var n = 0;
+					var row_ok = true;
 					// Find level to fill
-					for(var i = l ; i < l + dl ; i++){
-						for(var j = 0; j < pixels[i].length; j++){
-							if(pixels[i][j] && j >= n){
-								n = j+1;
+					for(var j = 0; j < nmax; j++){
+						row_ok = true;
+						for(var i = l ; i < l + dl ; i++){
+							if(pixels[i][j]){
+								row_ok = false;
+								break;
 							}
 						}
+						if(row_ok){
+							// This row has a suitably sized gap so fill it
+							for(var i = l ; i < l + dl ; i++){
+								pixels[i][j] = true;
+							}
+							n = j;
+							break;
+						}
 					}
-					for(var i = l ; i < l + dl ; i++) pixels[i][n] = true;
-					var nmax = 0;
-					for(var i = 0 ; i < pixels.length ; i++){
-						if(pixels[i].length > nmax) nmax = pixels[i].length;
+					if(!row_ok){
+						// There were no rows with a suitable sized gap so we create a new row
+						for(var i = 0 ; i < pixels.length ; i++) pixels[i].push((i >= l && i < l+dl) ? true : false);
+						n = j;
 					}
+					nmax = pixels[0].length;
 					// Make a copy of the object
 					var a = JSON.parse(JSON.stringify(data[name]));
 					a.name = name;
@@ -173,6 +185,7 @@
 					astronauts.push(a);
 				}
 			}
+			nmax++;
 			for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>'
 
 			$('#timeline').append('<div class="data">'+html+'<\/div>');
@@ -193,7 +206,7 @@
 
 			// Set up the tooltip
 			tooltip({
-				'elements':$('.human'),
+				'elements':$('.innerbox .human'),
 				'html':function(){
 					$('.human').removeClass('selected')
 					var id = parseInt($(this).attr('id'));
