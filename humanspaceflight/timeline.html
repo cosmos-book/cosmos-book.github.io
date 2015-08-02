@@ -93,7 +93,7 @@
 	h1 { margin-top: 0.5em; }
 	.middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
 	.topbox { display: table-row; margin: 1em; padding-top: 1em; }
-	.innerbox { display: table-row; margin: 2em; overflow-x: scroll; }
+	.innerbox { display: table-row; margin: 2em; overflow-x: auto; }
 	
 	#timeline { width: 8000px; position: absolute; height: 100%; }
 
@@ -154,15 +154,14 @@
 						row_ok = true;
 						for(var i = l ; i < l + dl ; i++){
 							if(pixels[i][j]){
+								// We can't use this row
 								row_ok = false;
 								break;
 							}
 						}
 						if(row_ok){
 							// This row has a suitably sized gap so fill it
-							for(var i = l ; i < l + dl ; i++){
-								pixels[i][j] = true;
-							}
+							for(var i = l ; i < l + dl ; i++) pixels[i][j] = true;
 							n = j;
 							break;
 						}
@@ -286,12 +285,12 @@
 		</div>
 		<div class="innerbox">
 			<div class="noscript">
-				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.json" id="data">data file</a></p>
+				<p>Sorry. The interactive timeline of everyone who has been in space won't display without Javascript.<br />However, all is not lost. You can look at the raw <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.json" id="data">data file</a> or browse <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data">data on each astronaut</a>.</p>
 			</div>
 			<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 		</div>
 	</div>
-	<div class="footer">Part of <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></div>
+	<div class="footer">Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data">astronaut data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></div>
 </div>
 </body>
 </html>
