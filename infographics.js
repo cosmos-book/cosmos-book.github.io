@@ -56,6 +56,7 @@ function loadFILE(file,fn,attrs,t){
 		error: function (request, status, error) {
 			console.log('error loading '+file)
 			console.log(request.responseText);
+			if(typeof attrs.error==="function") attrs.error.call(this,data,attrs);
 		}
 	});
 }

@@ -85,7 +85,7 @@
 	.topbox { display: table-row; margin: 1em; padding-top: 1em; }
 	.innerbox { display: table-row; margin: 2em; overflow-x: scroll; }
 	
-	#timeline { width: 10000px; position: absolute; height: 100%; }
+	#timeline { width: 8000px; position: absolute; height: 100%; }
 
 	@media only screen and (max-width: 700px){
 		.topbox ul { font-size: 0.8em; }
@@ -151,6 +151,7 @@
 					for(var i = 0 ; i < pixels.length ; i++){
 						if(pixels[i].length > nmax) nmax = pixels[i].length;
 					}
+					// Make a copy of the object
 					var a = JSON.parse(JSON.stringify(data[name]));
 					a.name = name;
 					a.n = n;
@@ -162,11 +163,9 @@
 					astronauts.push(a);
 				}
 			}
-			for(var a = 0 ; a < astronauts.length; a++){
-				html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>'
-			}
-			$('#timeline').append('<div class="data">'+html+'<\/div>');
+			for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>'
 
+			$('#timeline').append('<div class="data">'+html+'<\/div>');
 			$('#timeline').append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 	
 			function formatArray(str,lookup){
@@ -202,11 +201,14 @@
 					return text;
 				}
 			});
+			
+			// We can hide the loader/spinner
+			$('.loader').hide();
 
 		}
 
 		// Load the data file
-		loadJSON(getDataPath('#data'),parseIt,{});
+		loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
 		// Hide any non-Javascript elements
 		$('.noscript').hide();
@@ -247,6 +249,7 @@
 			<div class="noscript">
 				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.json" id="data">data file</a></p>
 			</div>
+			<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 		</div>
 	</div>
 	<div class="footer">Part of <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></div>
