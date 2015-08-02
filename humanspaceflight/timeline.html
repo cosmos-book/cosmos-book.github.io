@@ -208,7 +208,7 @@
 		loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
 		// If we click elsewhere we will deselect the astronaut
-		$(document).on('click',function(e){ $('.human').removeClass('selected'); });
+		$(document).on('click',function(e){ $('.human').removeClass('selected'); $('.tooltip_close').trigger('click') });
 		
 		// Hide any non-Javascript elements
 		$('.noscript').hide();
