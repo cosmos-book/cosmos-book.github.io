@@ -50,7 +50,7 @@
 	    background-repeat:no-repeat;
 		background-position: 0.5em center;
 	}
-	.innerbox .human.selected { border: 4px solid black; left: -4px; margin-top: -4px; }
+	.innerbox .human.selected { /*border: 4px solid black; left: -4px; margin-top: -4px;*/ background-color: black; }
 	
 	.stripe { width: 100%; height: 4px; }
 
@@ -192,8 +192,6 @@
 					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-					//if(a.eva.time > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva.string.substr(0,a.eva.string.lastIndexOf(":")))+' hours '+parseInt(a.eva.string.substr(a.eva.string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
-					//text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
 					text += '<tr><td>Trips to space:<\/td><td>'+a.periods.length+'<\/td><\/tr>';
 					text += '<tr><td>This mission:<\/td><td>'+a.launch.toLocaleDateString()+' - '+(a.land ? a.land.toLocaleDateString() : '')+'<\/td><\/tr>';
 					text += '<\/table>';
@@ -202,14 +200,16 @@
 				}
 			});
 			
-			// We can hide the loader/spinner
+			// We can hide the loader/spinner as everything seems to be OK
 			$('.loader').hide();
-
 		}
 
 		// Load the data file
 		loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
+		// If we click elsewhere we will deselect the astronaut
+		$(document).on('click',function(e){ $('.human').removeClass('selected'); });
+		
 		// Hide any non-Javascript elements
 		$('.noscript').hide();
 
