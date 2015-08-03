@@ -392,6 +392,8 @@
 					return text;
 				}
 			});
+			// We can hide the loader/spinner as everything seems to be OK
+			$('.loader').hide();
 		}
 	})
 	</script>
@@ -439,9 +441,10 @@
 			<div class="noscript">
 				<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.tsv" id="data">data file</a></p>
 			</div>
+			<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 		</div>
 	</div>
-	<div class="footer">Part of <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></div>
+	<div class="footer">Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/">data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></div>
 </div>
 </body>
 </html>
