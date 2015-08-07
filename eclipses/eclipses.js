@@ -168,7 +168,9 @@ r(function(){
 				if(lunar[i]['type'][0]=='N') avm = "7.2.2.3";
 				if(avm){
 					d = new Date(lunar[i].date);
-					p = drawObject(avm,getX(lunar[i].d.getDOY())+(dx/2)+(isLeapYear(lunar[i].y) ? 0 : dx),getY(lunar[i].y)+dy/2,dy*0.4,{'title':d.toDateString(),'cursor':'pointer'});
+					attr = {'title':d.toDateString()};
+					if(lunar[i].y >= 1996) attr.cursor = 'pointer';
+					p = drawObject(avm,getX(lunar[i].d.getDOY())+(dx/2)+(isLeapYear(lunar[i].y) ? 0 : dx),getY(lunar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
 					var j = i;
 					p.obj.data('i',i).click(function(e){ goTo('lunar',this.data("i")); });
@@ -186,7 +188,9 @@ r(function(){
 				if(avm){
 					var j = i;
 					d = new Date(solar[i].date);
-					p = drawObject(avm,getX(solar[i].d.getDOY())+(dx/2)+(isLeapYear(solar[i].y) ? 0 : dx),getY(solar[i].y)+dy/2,dy*0.4,{'title':d.toDateString(),'cursor':'pointer'});
+					attr = {'title':d.toDateString()};
+					if(solar[i].y >= 1996) attr.cursor = 'pointer';
+					p = drawObject(avm,getX(solar[i].d.getDOY())+(dx/2)+(isLeapYear(solar[i].y) ? 0 : dx),getY(solar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
 					p.obj.data('i',i).click(function(e){ goTo('solar',this.data("i")); });
 				}
