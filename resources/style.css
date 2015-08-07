@@ -20,10 +20,19 @@ ul { padding-left: 1em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
 
 
+.fullpage {
+	position: absolute;
+	height: auto;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+}
 
 .outer {
 	display: table;
-	position: absolute;
+	position: relative;
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
@@ -32,6 +41,9 @@ ul ul li { margin-left: 0; list-style-type: circle; }
 	top: 0px;
 	bottom: 0px;
 	z-index: 100;
+}
+body.fit .outer {
+	position: absolute;
 }
 .middle {
 	display: table-cell;
@@ -70,7 +82,41 @@ ul ul li { margin-left: 0; list-style-type: circle; }
     width: /*whatever width you want*/;
 }
 
+/*
+body.fullwidth .middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
+body.fullwidth .topbox { display: table-row; margin: 1em; padding-top: 1em; }
+body.fullwidth .innerbox { display: table-row; margin: 2em; }
+*/
 .footer { position: absolute; bottom: 0px; left: 0px; font-size: 0.8em; padding: 0.5em;}
+
+body.fullwidth .middlebox {
+	position: absolute;
+	left: 2em;
+	right: 2em;
+	top: 1em;
+	bottom: 2em;		
+}
+body.fullwidth .innerbox {
+	position: absolute;
+	left: 0em;
+	right: 0em;
+	top: 0em;
+	bottom: 0em;
+}
+body.fullwidth #container {
+	max-width: 100%;
+}
+
+body.fullwidth .innerbox, body.fullwidth .middlebox, body.fullwidth .outerbox {
+	position: relative;
+	left: auto;
+	right: auto;
+	top: auto;
+	bottom: auto;
+}
+body.fullwidth .footer {
+	position: relative;
+}
 
 .tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; }
 .tooltip .tooltip_inner { margin: 1em; text-align: left; }
@@ -255,4 +301,219 @@ input.button { padding: 6px 8px; /* Bug fix for Firefox over-riding the line-hei
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
+}
+
+.keyitem { display: inline-block; margin-right: 1em; }
+.keyitem:last-child { margin-right: 0; }
+.keysymbol { margin-right: 0.25em; }
+
+/* Solar System Styles */
+ul.solarsystem {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+	list-style: none;
+	-webkit-transition: all 0.09s ease-in;
+	-moz-transition: all 0.09s ease-in;
+	-o-transition: all 0.09s ease-in;
+	transition: all 0.09s ease-in;
+	overflow: hidden;
+	z-index: 0;
+}
+ul.solarsystem li {
+	text-indent: -9999px;
+	display: block;
+	position: absolute;
+	border: 1px solid #e1f4fe;
+}
+ul.solarsystem li span {
+	display: block;
+	position: absolute;
+	width: 0.6em;
+	height: 0.6em;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+ul.solarsystem li {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	top: 20em;
+}
+ul.solarsystem li.sun {
+	width: 24em;
+	height: 24em;
+	background: #ffcb06;
+	margin-top: -12em;
+	left: -12em;
+	border: none;
+	z-index: 100;
+}
+ul.solarsystem li.mercury {
+	width: 28em;
+	height: 28em;
+	margin-top: -14em;
+	left: -14em;
+	z-index: 99;
+	border-color: #f18500;
+}
+ul.solarsystem li.mercury span {
+	background: #f18500;
+	top: -0.3em;
+	left: 13.7em;
+}
+ul.solarsystem li.venus {
+	width: 32em;
+	height: 32em;
+	margin-top: -16em;
+	left: -16em;
+	z-index: 98;
+	border-color: #22a1d3;
+}
+ul.solarsystem li.venus span {
+	background: #22a1d3;
+	top: -0.3em;
+	left: 15.7em;
+}
+ul.solarsystem li.earth {
+	width: 36em;
+	height: 36em;
+	margin-top: -18em;
+	left: -18em;
+	z-index: 97;
+	border-color: #229838;
+}
+ul.solarsystem li.earth span {
+	background: #229838;
+	top: -0.3em;
+	left: 17.7em;
+}
+ul.solarsystem li.earth span.moon {
+	width: 0.3em;
+	height: 0.3em;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #999999;
+	top: 0.6em;
+	left: 0.6em;
+}
+ul.solarsystem li.mars {
+	width: 40em;
+	height: 40em;
+	margin-top: -20em;
+	left: -20em;
+	z-index: 96;
+	border-color: #e63322;
+}
+ul.solarsystem li.mars span {
+	background: #e63322;
+	top: -0.3em;
+	left: 19.7em;
+}
+ul.solarsystem li.jupiter {
+	width: 44em;
+	height: 44em;
+	margin-top: -22em;
+	left: -22em;
+	z-index: 95;
+	border-color: #c2c700;
+}
+ul.solarsystem li.jupiter span {
+	background: #c2c700;
+	top: -1.5em;
+	left: 20.5em;
+	width: 3em;
+	height: 3em;
+}
+ul.solarsystem li.saturn {
+	width: 48em;
+	height: 48em;
+	margin-top: -24em;
+	left: -24em;
+	z-index: 94;
+	border-color: #b91b5f;
+}
+ul.solarsystem li.saturn span {
+	background: #b91b5f;
+	top: -1.25em;
+	left: 22.5em;
+	width: 2.5em;
+	height: 2.5em;
+}
+ul.solarsystem li.uranus {
+	width: 52em;
+	height: 52em;
+	margin-top: -26em;
+	left: -26em;
+	z-index: 93;
+	border-color: #7465ab;
+}
+ul.solarsystem li.uranus span {
+	background: #7465ab;
+	top: -0.7em;
+	left: 25.3em;
+	width: 1.4em;
+	height: 1.4em;
+}
+ul.solarsystem li.neptune {
+	width: 56em;
+	height: 56em;
+	margin-top: -28em;
+	left: -28em;
+	z-index: 92;
+	border-color: #62b6ac;
+}
+ul.solarsystem li.neptune span {
+	background: #62b6ac;
+	top: -0.7em;
+	left: 27.3em;
+	width: 1.4em;
+	height: 1.4em;
+}
+
+
+/* CSS3 Animations */
+
+ul.solarsystem li {
+	animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite; -moz-animation-iteration-count:infinite;
+	animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
+	animation-name:orbit; -moz-animation-name:orbit; -webkit-animation-name:orbit;
+}
+
+ul.solarsystem li.earth span {
+	animation-iteration-count:infinite; -moz-animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite;
+	animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
+	animation-name:moon; -moz-animation-name:moon; -webkit-animation-name:moon;
+}
+
+ul.solarsystem li.mercury {-webkit-animation-duration:6s; -moz-animation-duration:6s; animation-duration: 6s; animation-delay: -2.5s;}
+ul.solarsystem li.venus {-webkit-animation-duration:9.2s; -moz-animation-duration:9.2s;animation-duration:9.2s; animation-delay: -3s;}
+ul.solarsystem li.earth {-webkit-animation-duration:15s; -moz-animation-duration:15s;animation-duration:15s;animation-delay: -2.5s;}
+ul.solarsystem li.earth span {-webkit-animation-duration:1.9s; -moz-animation-duration:1.9s;animation-duration:1.9s;}
+ul.solarsystem li.mars {-webkit-animation-duration:22.86s; -moz-animation-duration:22.86s;animation-duration:22.86s;animation-delay:-8.6s;}
+ul.solarsystem li.jupiter {-webkit-animation-duration:75.375s; -moz-animation-duration:75.375s;animation-duration:75.375s;animation-delay:-21s;}
+ul.solarsystem li.saturn {-webkit-animation-duration:143s; -moz-animation-duration:143s;animation-duration:143s;animation-delay:-35.75s;}
+ul.solarsystem li.uranus {-webkit-animation-duration:288s; -moz-animation-duration:288s;animation-duration:288s;animation-delay:-60s;}
+ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-duration:451s;animation-duration:451s;animation-delay:-137.8s;}
+
+@-webkit-keyframes orbit { 100% { -webkit-transform:rotate(360deg); } }
+@-moz-keyframes orbit { 100% { -moz-transform:rotate(360deg); } }
+@keyframes orbit { 100% { transform:rotate(360deg); } }
+@-webkit-keyframes moon { 100% { -webkit-transform:rotate(360deg); } }
+@-moz-keyframes moon { 100% { -moz-transform:rotate(360deg); } }
+@keyframes moon { 100% { transform:rotate(360deg); } }
+
+@media only screen and (max-width: 900px){
+	ul.solarsystem { font-size: 14px; }
+}
+@media only screen and (max-width: 700px){
+	ul.solarsystem { font-size: 12px; }
+}
+@media only screen and (max-width: 500px){
+	ul.solarsystem { font-size: 10px; }
 }
