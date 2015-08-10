@@ -55,6 +55,10 @@ body.TEL #footer a { color: #67c18d; }
 #header a.title:visited { color: black; }
 #header a.title:hover { text-decoration: underline; }
 
+ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; padding: 0px; }
+ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
+ul#menu a { color: black; text-decoration: none; }
+
 
 #main { background-color: transparent; }
 .padder { padding: 16px 24px; }
