@@ -251,7 +251,7 @@ function tooltip(data){
 		var inner = ($('.innerbox').length==1) ? $('.innerbox') : $('#content');
 
 		if($('.tooltip').length == 0){
-			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close"></a><\/div>');
+			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); $('.tooltip').remove(); });
 		}else $('.tooltip_inner').html(text);
 
