@@ -20,9 +20,41 @@ ul { padding-left: 1em; }
 ul li { margin-bottom: 0.5em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
 
-a { color: #00a2d3; }
-a:visited { color: #662d8f; }
-a.title:hover, a.title:focus { color: #00a2d3; }
+body.COS a { color: #7c52a1; }
+body.COS a:visited, body.COS #header a.title:hover, body.COS #header a.title:focus { color: #662d8f; }
+body.COS #footer a { color: #7d71b4; }
+body.ETL a { color: #cbd658; }
+body.ETL a:visited, body.ETL #header a.title:hover, body.ETL #header a.title:focus { color: #b6c727; }
+body.ETL #footer a { color: #dce57d; }
+body.SOL a { color: #00b9e4; }
+body.SOL a:visited, body.SOL #header a.title:hover, body.SOL #header a.title:focus { color: #00a2d3; }
+body.SOL #footer a { color: #48c7e9; }
+body.OTH a { color: #89d0c8; }
+body.OTH a:visited, body.OTH #header a.title:hover, body.OTH #header a.title:focus { color: #57b7aa; }
+body.OTH #footer a { color: #a8dbd5; }
+body.EXP a { color: #f05948; }
+body.EXP a:visited, body.EXP #header a.title:hover, body.EXP #header a.title:focus { color: #f04031; }
+body.EXP #footer a { color: #f68d69; }
+body.EXO a { color: #ffde00; }
+body.EXO a:visited, body.EXO #header a.title:hover, body.EXO #header a.title:focus { color: #ffcb06; }
+body.EXO #footer a { color: #fff200; }
+body.GAL a { color: #cbd658; }
+body.GAL a:visited, body.GAL #header a.title:hover, body.GAL #header a.title:focus { color: #b6c727; }
+body.GAL #footer a { color: #dce57d; }
+body.STA a { color: #f05948; }
+body.STA a:visited, body.STA #header a.title:hover, body.STA #header a.title:focus { color: #f04031; }
+body.STA #footer a { color: #f68d69; }
+body.SUN a { color: #ffde00; }
+body.SUN a:visited, body.SUN #header a.title:hover, body.SUN #header a.title:focus { color: #ffcb06; }
+body.SUN #footer a { color: #fff200; }
+body.TEL a { color: #0ab26b; }
+body.TEL a:visited, body.TEL #header a.title:hover, body.TEL #header a.title:focus { color: #02a24b; }
+body.TEL #footer a { color: #67c18d; }
+
+#header a.title { color: black; }
+#header a.title:visited { color: black; }
+#header a.title:hover { text-decoration: underline; }
+
 
 #main { background-color: transparent; }
 .padder { padding: 16px 24px; }
@@ -36,8 +68,7 @@ a.title:hover, a.title:focus { color: #00a2d3; }
 #header .padder { padding: 12px 24px; }
 #content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
 #footer { min-height: 4em; background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
-#footer a { color: #8fd7ed; text-decoration: none; }
-#footer a:visited { color: #af99c8; }
+#footer a { text-decoration: none; }
 .holder { position: absolute; height: 100%; width: 100%; }
 .outer {
 	display: table;
@@ -246,6 +277,7 @@ ul.key { margin: 0px; padding-left: 0; }
 .keyitem { display: inline-block; margin-right: 1em; }
 .keyitem:last-child { margin-right: 0; }
 .keysymbol { margin-right: 0.25em; }
+.keysymbol img { max-width: 0.75em; }
 
 /* Solar System Styles */
 ul.solarsystem {

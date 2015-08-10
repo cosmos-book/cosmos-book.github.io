@@ -51,12 +51,12 @@ function loadFILE(file,fn,attrs,t){
 		dataType: t,
 		success: function(data) {
 			files_to_load++;
-			if(typeof fn==="function") fn.call(this,data,attrs);
+			if(typeof fn==="function") fn.call((attrs['this'] ? attrs['this'] : this),data,attrs);
 		},
 		error: function (request, status, error) {
 			console.log('error loading '+file)
 			console.log(request.responseText);
-			if(typeof attrs.error==="function") attrs.error.call(this,data,attrs);
+			if(typeof attrs.error==="function") attrs.error.call((attrs['this'] ? attrs['this'] : this),data,attrs);
 		}
 	});
 }
@@ -248,6 +248,9 @@ function tooltip(data){
 		var t = parseInt($(el).offset().top);
 		var dx = parseInt($(el).outerWidth());
 		var dy = parseInt($(el).outerHeight());
+console.log(l,t)
+		var inner = ($('.innerbox').length==1) ? $('.innerbox') : $('#content');
+		
 
 		if($('.tooltip').length == 0){
 			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
@@ -259,12 +262,12 @@ function tooltip(data){
 		var y = t+dy/2;
 		var c = "right";
 
-		if(x+$('.tooltip').width()+fs*2 > $('.innerbox').width()){
+		if(x+$('.tooltip').width()+fs*2 > inner.width()){
 			x = l-$('.tooltip').width();
 			if(x < 0) x = 0;
 			c = "left";
 		}
-		if(y+$('.tooltip').height()+fs*2 > $('.innerbox').offset().top+$('.innerbox').height()){
+		if(y+$('.tooltip').height()+fs*2 > inner.offset().top+inner.height()){
 			y = t-$('.tooltip').height()+dy/2;
 			if(y < 0) y = 0;
 			c += " bottom";

@@ -1,0 +1,8 @@
+.entry { width: 100%; height: auto; display: block; }
+table { max-width: 100%; border-collapse: collapse; }
+tr:nth-child(10n) td { border-bottom: 1px solid white; }
+td:nth-child(10n) { border-right: 1px solid white; }
+td:last-child { border-right: 0px; }
+td { padding: 1px; margin: 0px; }
+.tooltip { width: 256px; }
+.tooltip img { width: 256px; height: 256px; cursor: pointer; }

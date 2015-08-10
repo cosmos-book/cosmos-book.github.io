@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>New General Catalogue</title>
+	<link rel="stylesheet" href="../../resources/style.css" />
+	<link rel="stylesheet" href="../style.css" />
+	<script type="text/javascript" src="../../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../../resources/infographics.js"></script>
+	<script type="text/javascript" src="../../resources/drawObject.js"></script>
+	<script type="text/javascript" src="../catalogue.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var catalogue = $.catalogue({'cols':100,'label':'NGC '});
+	});
+	</script>
+</head>
+<body class="OTH">
+
+	<div id="container">
+		<div id="main">
+			<div id="header">
+				<div class="padder"><a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a></div>
+			</div>
+			<div id="content">
+				<div class="padder">
+					<h1>New General Catalogue</h1>
+					<div class="noscript">
+						<p>Sorry. To display the chart you need Javascript.<br />However, all is not lost. You can look at the raw <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/catalogue/NGC/data/NGC.csv" id="data">data file</a>.</p>
+					</div>
+					<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+					<div id="holder">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="padder">
+				Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/catalogue/NGC/data/NGC.csv">data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> by <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a> / 22 October 2015 / Aurum Press Ltd
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

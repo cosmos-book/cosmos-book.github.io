@@ -86,6 +86,8 @@ function getObjectPath(avm,x,y,s,pp,attr){
 		for(var i = 0 ; i < bits.length; i++){
 			if(bits[i]!="m" && bits[i]!="c" && bits[i]!="z" && bits[i]!="l" && bits[i]!="a") bits[i] = (parseFloat(bits[i])*s/scale).toFixed(3);
 		}
+		if(typeof x!=="number") x = 0;
+		if(typeof y!=="number") y = 0;
 		prop.path = "M"+(x).toFixed(3)+','+(y).toFixed(3)+bits.join(' ');
 		if(!attr) attr = {};
 		attr.fill = prop.colour;
@@ -123,11 +125,10 @@ function drawSpiral(x,y,s,t){
 // y position
 // s size
 // attr attributes
-function drawObject(avm,x,y,s,attr){
+function drawObject(avm,x,y,s,attr,p){
 
 	// Use Mark's icons
-	return getObjectPath(avm,x+s,y+s,s,paper,attr)
-
+	return getObjectPath(avm,x+s,y+s,s,(p ? p : paper),attr)
 }
 
 
