@@ -76,7 +76,6 @@
 				y = yoff + row*(s*2+space);
 				
 				typ = getType(cat[i].avmcode);
-				console.log(typ)
 	
 				if(col == 0) html += "<tr>";
 	
