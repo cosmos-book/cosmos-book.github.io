@@ -38,7 +38,7 @@ a.title:hover, a.title:focus { color: #00a2d3; }
 #header, #content { display: table-row; }
 #header, #footer { text-align: left; }
 #content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
-#footer { height: 4em; }
+#footer { min-height: 4em; }
 .holder { position: absolute; height: 100%; width: 100%; }
 .outer {
 	display: table;
