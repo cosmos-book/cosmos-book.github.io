@@ -1,4 +1,4 @@
-.entry { width: 100%; height: auto; display: block; }
+.entry { width: 100%; height: auto; display: block; cursor: pointer; }
 table { max-width: 100%; border-collapse: collapse; }
 tr:nth-child(10n) td { border-bottom: 1px solid white; }
 td:nth-child(10n) { border-right: 1px solid white; }
