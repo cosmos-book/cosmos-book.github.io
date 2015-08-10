@@ -251,7 +251,7 @@ function tooltip(data){
 		var inner = ($('.innerbox').length==1) ? $('.innerbox') : $('#content');
 
 		if($('.tooltip').length == 0){
-			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="#" class="tooltip_close"></a><!--<a href="" class="tooltip_close button">close</a>--><\/div>');
+			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close"></a><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); $('.tooltip').remove(); });
 		}else $('.tooltip_inner').html(text);
 
@@ -286,7 +286,6 @@ function tooltip(data){
 		e.stopPropagation();
 		if($('.tooltip').is(':visible')){
 			$('.tooltip_close').trigger('click');
-			close();
 		}else{
 			show(this,e.data.data.html.call(this));
 		}
