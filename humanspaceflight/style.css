@@ -67,10 +67,10 @@ label { display: none; }
 
 .middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
 .topbox { display: table-row; margin: 1em; padding-top: 1em; }
-
+.innerbox { display: table-row; margin: 2em 2em 2em 2em; }
 
 @media only screen and (max-width: 700px){
 	.topbox ul { font-size: 0.8em; }
 	select { font-size: 0.8em; }
-	.innerbox { margin: 2em 0 2.5em 0; top: 7.5em;}
+	.innerbox { margin: 2em 1em 1em 1em; top: 7.5em;}
 }
