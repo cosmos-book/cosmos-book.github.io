@@ -284,6 +284,12 @@ ul.key { margin: 0px; padding-left: 0; }
 .keysymbol { margin-right: 0.25em; }
 .keysymbol img { max-width: 0.75em; }
 
+#syear { float: left; margin-left: -3.5em; }
+#eyear { float: right; margin-right: -3.5em; }
+#controls { width: 85%; margin: auto; }
+#range, #slider { display: block; }
+
+
 /* Solar System Styles */
 ul.solarsystem {
 	position: absolute;
