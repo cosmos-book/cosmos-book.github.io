@@ -57,7 +57,6 @@ r(function(){
 			var year = d.getFullYear();
 			if(year > prevdate.getFullYear()){
 				solarsystem.circle(x,y,2).attr({'fill':'#000000','stroke':0});	
-				//var year = (positions[i].date.substr(0,4));
 				if(year % 2 == 0) solarsystem.text(x+7,y,''+year).attr({'stroke':0,'fill':'#000000','text-anchor':'start'});
 				if(year == atyear){
 					// Draw Sun
