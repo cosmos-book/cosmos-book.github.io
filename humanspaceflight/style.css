@@ -1,0 +1,76 @@
+/* CSS3 Animations */
+#space {
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+.middlebox {
+	position: absolute;
+	left: 2em;
+	right: 2em;
+	top: 1em;
+	bottom: 2em;		
+}
+.innerbox {
+	position: absolute;
+	left: 0em;
+	right: 0em;
+	top: 6.5em;
+	bottom: 0em;		
+}
+.middlebox ul { margin-top: 0.5em; margin-bottom: 0.5em; }
+ul { list-style: none; margin-left: 0px; padding-left: 0; }
+ul li { display: inline-block; margin-right: 1em; }
+ul li:last-child { margin-right: 0; margin-left: 1.5em; }
+
+.stripe { width: 100%; height: 4px; }
+
+label { display: none; }
+.xaxis { position: absolute; top: 0px; width: 100%; height: 100%; overflow: hidden; }
+.yaxis { position: absolute; left: 0px; width: 100%; height: 100%; overflow: hidden; }
+.xaxis .gridline, .yaxis .gridline { border: 1px solid #fdcc9c; }
+.xaxis .gridline {
+	position: absolute;
+	top: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	height: 100%;
+}
+.yaxis .gridline {
+	position: absolute;
+	left: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	width: 100%;
+}
+.xaxis .majorgridline,.yaxis .majorgridline { border-color: white; border-width: 2px; }
+.xaxis .label { bottom: 0px; margin: 0.25em; margin-bottom: 0; line-height: 1em; }
+.yaxis .label { right: 0px; margin: 0.25em; margin-right: 0; line-height: 1em; }
+.xaxis .label, .yaxis .label { color: #fbb675; position: absolute; white-space: nowrap; }
+.xaxis .label:hover, .yaxis .label:hover { color: black; }
+.labelline {
+	border-left: 1px dashed black;
+	position: absolute;
+	top: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	height: 100%;
+}
+.label { display: inline-block; bottom: 1.5em; margin-left: 0.25em; position: absolute; white-space: nowrap; }
+
+.middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
+.topbox { display: table-row; margin: 1em; padding-top: 1em; }
+
+
+@media only screen and (max-width: 700px){
+	.topbox ul { font-size: 0.8em; }
+	select { font-size: 0.8em; }
+	.innerbox { margin: 2em 0 2.5em 0; }
+}

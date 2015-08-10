@@ -4,34 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<title>Human spaceflight timeline</title>
 	<link rel="stylesheet" href="../resources/style.css" />
+	<link rel="stylesheet" href="style.css" />
 	<style>
-	/* CSS3 Animations */
-	#space {
-		width: 100%;
-		height: 90%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top: 0px;
-		bottom: 0px;
-	}
-	.middlebox {
-		position: absolute;
-		left: 2em;
-		right: 2em;
-		top: 1em;
-		bottom: 2em;		
-	}
-	.innerbox {
-		position: absolute;
-		left: 0em;
-		right: 0em;
-		top: 4.5em;
-		bottom: 0em;		
-	}
-	.middlebox ul { margin-top: 0.5em; margin-bottom: 0.5em; }
-	ul { list-style: none; margin-left: 0px; padding-left: 0; }
-	ul li { display: inline-block; margin-right: 1em; }
 	.human {
 		width: 0.8em;
 		height: 0.8em;
@@ -51,48 +25,8 @@
 		background-position: 0.6em center;
 	}
 	.innerbox .human.selected { /*border: 4px solid black; left: -4px; margin-top: -4px;*/ background-color: black; }
-	
-	.stripe { width: 100%; height: 4px; }
 
-	label { display: none; }
-	.xaxis,.data,.labels { position: absolute; top: 0px; width: 100%; height: 100%; overflow: hidden; }
-	.yaxis { position: absolute; left: 0px; width: 100%; height: 100%; overflow: hidden; }
-	.xaxis .gridline, .yaxis .gridline { border: 1px solid #fdcc9c; }
-	.xaxis .gridline {
-		position: absolute;
-		top: 0px;
-		border-right: 0px;
-		border-top: 0px;
-		border-bottom: 0px;
-		height: 100%;
-	}
-	.yaxis .gridline {
-		position: absolute;
-		left: 0px;
-		border-right: 0px;
-		border-left: 0px;
-		border-bottom: 0px;
-		width: 100%;
-	}
-	.xaxis .majorgridline,.yaxis .majorgridline { border-color: white; border-width: 2px; }
-	.xaxis .label { bottom: 0px; margin: 0.25em; margin-bottom: 0; line-height: 1em; }
-	.yaxis .label { right: 0px; margin: 0.25em; margin-right: 0; line-height: 1em; }
-	.xaxis .label, .yaxis .label { color: #fbb675; position: absolute; white-space: nowrap; }
-	.xaxis .label:hover, .yaxis .label:hover { color: black; }
-	.labelline {
-		border-left: 1px dashed black;
-		position: absolute;
-		top: 0px;
-		border-right: 0px;
-		border-top: 0px;
-		border-bottom: 0px;
-		height: 100%;
-	}
-	.label { display: inline-block; bottom: 1.5em; margin-left: 0.25em; position: absolute; white-space: nowrap; }
-
-	.middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
-	.topbox { display: table-row; margin: 1em; padding-top: 1em; }
-	.innerbox { display: table-row; margin: 2em; overflow-x: auto; }
+	.innerbox { display: table-row; margin: 2em; overflow-x: auto; top: 4.5em; }
 	
 	#timeline { width: 8000px; position: absolute; height: 100%; }
 
@@ -101,7 +35,6 @@
 		select { font-size: 0.8em; }
 		.innerbox { margin: 2em 0 2.5em 0; }
 	}
-
 	</style>
 	<script src="../resources/jquery-1.11.0.min.js"></script>
 	<script src="../resources/infographics.js"></script>
@@ -115,15 +48,17 @@
 				<div class="padder"><a href="../index.html" class="title">Cosmos: The Infographic Book of Space</a></div>
 			</div>
 			<div id="content">
-				<div class="padder">					
-					<h1>Human spaceflight timeline</h1>
-					<ul>
-						<li><span class="human cosmonaut"></span> Soviet/Russian cosmonauts</li>
-						<li><span class="human astronaut"></span> US astronauts</li>
-						<li><span class="human taikonaut"></span> Chinese taikonauts</li>
-						<li><span class="human international"></span> International astronauts</li>
-						<li><span class="human tourist"></span> Space tourists</li>
-					</ul>
+				<div class="padder">
+					<div class="topbox">
+						<h1>Human spaceflight timeline</h1>
+						<ul class="key">
+							<li><span class="human cosmonaut"></span> Soviet/Russian cosmonauts</li>
+							<li><span class="human astronaut"></span> US astronauts</li>
+							<li><span class="human taikonaut"></span> Chinese taikonauts</li>
+							<li><span class="human international"></span> International astronauts</li>
+							<li><span class="human tourist"></span> Space tourists</li>
+						</ul>
+					</div>
 					<div class="innerbox">
 						<div class="noscript">
 							<p>Sorry. The interactive timeline of everyone who has been in space won't display without Javascript.<br />However, all is not lost. You can look at the raw <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.json" id="data">data file</a> or browse <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data">data on each astronaut</a>.</p>

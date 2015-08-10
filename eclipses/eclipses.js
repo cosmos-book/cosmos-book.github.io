@@ -134,7 +134,7 @@ r(function(){
 		var xoff = w-padd.right-140;
 		var yoff = padd.top + s;
 		var canvi = new Array();
-		$('#holder').prepend('<ul id="key"></ul>');
+		$('#holder').prepend('<ul class="key" id="key"></ul>');
 		// Extract the appropriate keys
 		for(var i = 0; i < key.length; i++){
 			if(key[i].code[0].indexOf('7.2')==0){

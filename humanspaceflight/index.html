@@ -4,35 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<title>Human spaceflight</title>
 	<link rel="stylesheet" href="../resources/style.css" />
+	<link rel="stylesheet" href="style.css" />
 	<style>
-	/* CSS3 Animations */
-	#space {
-		width: 100%;
-		height: 90%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top: 0px;
-		bottom: 0px;
-	}
-	.middlebox {
-		position: absolute;
-		left: 2em;
-		right: 2em;
-		top: 1em;
-		bottom: 2em;		
-	}
-	.innerbox {
-		position: absolute;
-		left: 0em;
-		right: 0em;
-		top: 6.5em;
-		bottom: 0em;		
-	}
-	.middlebox ul { margin-top: 0.5em; margin-bottom: 0.5em; }
-	ul { list-style: none; margin-left: 0px; padding-left: 0; }
-	ul li { display: inline-block; margin-right: 1em; }
-	ul li:last-child { margin-right: 0; margin-left: 1.5em; }
 	.human {
 		width: 0.6em;
 		height: 0.6em;
@@ -65,43 +38,8 @@
 		background-position:center center;
 	}
 	.innerbox .inorbit:focus, .innerbox .inorbit:hover { margin-left: -1.1em; margin-top: -1.1em; }
-	
-	.stripe { width: 100%; height: 4px; }
-
-	label { display: none; }
-	.xaxis { position: absolute; top: 0px; width: 100%; height: 100%; overflow: hidden; }
-	.yaxis { position: absolute; left: 0px; width: 100%; height: 100%; overflow: hidden; }
-	.xaxis .gridline, .yaxis .gridline { border: 1px solid #fdcc9c; }
-	.xaxis .gridline {
-		position: absolute;
-		top: 0px;
-		border-right: 0px;
-		border-top: 0px;
-		border-bottom: 0px;
-		height: 100%;
-	}
-	.yaxis .gridline {
-		position: absolute;
-		left: 0px;
-		border-right: 0px;
-		border-left: 0px;
-		border-bottom: 0px;
-		width: 100%;
-	}
-	.xaxis .majorgridline,.yaxis .majorgridline { border-color: white; border-width: 2px; }
-	.xaxis .label { bottom: 0px; margin: 0.25em; margin-bottom: 0; line-height: 1em; }
-	.yaxis .label { right: 0px; margin: 0.25em; margin-right: 0; line-height: 1em; }
-	.xaxis .label, .yaxis .label { color: #fbb675; position: absolute; white-space: nowrap; }
-	.xaxis .label:hover, .yaxis .label:hover { color: black; }
-
-	.middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
 	.innerbox { display: table-row; margin: 2em; }
-
-	@media only screen and (max-width: 700px){
-		.topbox ul { font-size: 0.8em; }
-		select { font-size: 0.8em; }
-	}
-
+	.topbox ul { margin-bottom: 0; }
 	</style>
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="../resources/infographics.js"></script>
@@ -112,44 +50,45 @@
 	<div id="container">
 		<div id="main">
 			<div id="header">
-				<div class="padder"><a href="../index.html" class="title">Cosmos: The Infographic Book of Space</a></div>
+				<div class="padder"><a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a></div>
 			</div>
 			<div id="content">
 				<div class="padder">
-							
-					<h1>Human spaceflight</h1>
-					<ul>
-						<li><span class="human cosmonaut"></span> Soviet/Russian cosmonauts</li>
-						<li><span class="human astronaut"></span> US astronauts</li>
-						<li><span class="human taikonaut"></span> Chinese taikonauts</li>
-						<li><span class="human international"></span> International astronauts</li>
-						<li><span class="human tourist"></span> Space tourists</li>
-						<li><span class="human inorbit"></span> Currently in orbit</li>
-					</ul>
-					<form>
-						<label for="yaxis">Vertical axis</label>
-						<select id="yaxis">
-							<option value="name" selected="selected">Names (A-Z)</option>
-							<option value="dob">Date-of-birth</option>
-							<option value="time_eva">EVA duration</option>
-							<option value="firstlaunch_age">Age at first launch</option>
-							<option value="country">Country</option>
-							<option value="launches">Launches</option>
-							<option value="longest_trip">Longest trip</option>
-							<option value="gender">Gender</option>
-						</select>
-						vs
-						<label for="xaxis">Horizontal axis</label>
-						<select id="xaxis">
-							<option value="time_space_days" selected="selected">Total time in space</option>
-							<option value="longest_trip">Longest trip</option>
-							<option value="dob">Date-of-birth</option>
-							<option value="time_eva">EVA duration</option>
-							<option value="time_dilation">Time dilation (est)</option>
-							<option value="firstlaunch_age">Age at first launch</option>
-							<option value="launches">Launches</option>
-						</select>
-					</form>
+					<div class="topbox">
+						<h1>Human spaceflight</h1>
+						<ul>
+							<li><span class="human cosmonaut"></span> Soviet/Russian cosmonauts</li>
+							<li><span class="human astronaut"></span> US astronauts</li>
+							<li><span class="human taikonaut"></span> Chinese taikonauts</li>
+							<li><span class="human international"></span> International astronauts</li>
+							<li><span class="human tourist"></span> Space tourists</li>
+							<li><span class="human inorbit"></span> Currently in orbit</li>
+						</ul>
+						<form>
+							<label for="yaxis">Vertical axis</label>
+							<select id="yaxis">
+								<option value="name" selected="selected">Names (A-Z)</option>
+								<option value="dob">Date-of-birth</option>
+								<option value="time_eva">EVA duration</option>
+								<option value="firstlaunch_age">Age at first launch</option>
+								<option value="country">Country</option>
+								<option value="launches">Launches</option>
+								<option value="longest_trip">Longest trip</option>
+								<option value="gender">Gender</option>
+							</select>
+							vs
+							<label for="xaxis">Horizontal axis</label>
+							<select id="xaxis">
+								<option value="time_space_days" selected="selected">Total time in space</option>
+								<option value="longest_trip">Longest trip</option>
+								<option value="dob">Date-of-birth</option>
+								<option value="time_eva">EVA duration</option>
+								<option value="time_dilation">Time dilation (est)</option>
+								<option value="firstlaunch_age">Age at first launch</option>
+								<option value="launches">Launches</option>
+							</select>
+						</form>
+					</div>
 					<div class="innerbox">
 						<div class="noscript">
 							<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/humanspaceflight/data/processed/astronauts.tsv" id="data">data file</a></p>
