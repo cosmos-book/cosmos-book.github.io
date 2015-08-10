@@ -1,4 +1,5 @@
-body { font-family: "Helvetica Neue", sans-serif; text-align: center; }
+/* Reset page styling */
+body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; }
 body.COS { background-color: #e9e2ef; }
 body.ETL { background-color: #f2f6d5; }
 body.EXO { background-color: #fffcd5; }
@@ -10,29 +11,39 @@ body.SOL { background-color: #e1f4fe; }
 body.SUN { background-color: #fffcd5; }
 body.TEL { background-color: #e4f2e7; }
 
-h1, h2, h3 { font-family: "Menlo Regular", monospace, sans-serif; font-weight: normal; margin-top: 0px; }
+h1, h2, h3, .title, .title:visited { font-family: "Menlo Regular", monospace, sans-serif; font-weight: normal; margin-top: 0px; text-decoration: none; color: inherit; }
 h1 { margin-bottom: 0.25em; font-size: 1.5em; }
 h3 { margin-bottom: 0em; }
 p:last-child { margin-bottom: 0px; }
 input[type=text], input[type=number] { height: 2em; font-size: 1em;}
 select { font-size: 1em; }
 ul { padding-left: 1em; }
+ul li { margin-bottom: 0.5em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
 
+a { color: #00a2d3; }
+a:visited { color: #662d8f; }
+a.title:hover, a.title:focus { color: #00a2d3; }
 
-.fullpage {
-	position: absolute;
-	height: auto;
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	left: 0px;
-	top: 0px;
-}
-
+#header { background-color: white; }
+#footer { background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
+#footer a { color: #8fd7ed; text-decoration: none; }
+#footer a:visited { color: #af99c8; }
+#main { background-color: transparent; }
+.padder { padding: 16px 24px; }
+#bg { position: absolute; min-height: 100%; top: 0px; bottom: 0px; left: 0px; right: 0px; 
+    z-index:-1; /* Remove this line if it's not going to be a background! */ }
+#container { width: 100%; display: block; position: absolute; top: 0px; bottom: 0px; z-index: 100; }
+#main { height: 100%; width: 100%; display: table; position: relative; }
+#header { height: 2em; }
+#header, #content { display: table-row; }
+#header, #footer { text-align: left; }
+#content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
+#footer { height: 4em; }
+.holder { position: absolute; height: 100%; width: 100%; }
 .outer {
 	display: table;
-	position: relative;
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
@@ -42,9 +53,6 @@ ul ul li { margin-left: 0; list-style-type: circle; }
 	bottom: 0px;
 	z-index: 100;
 }
-body.fit .outer {
-	position: absolute;
-}
 .middle {
 	display: table-cell;
 	vertical-align: middle;
@@ -53,71 +61,13 @@ body.fit .outer {
 	margin-left: auto;
 	margin-right: auto; 
 	text-align: left;
-	max-width: 600px;
+	max-width: 640px;
 	padding: 2.5em;
-	background: rgba(255,255,255,0.75);
-}
-#container,#info { max-width: 700px; margin: auto; }
-
-.outerbox {
-    display: table;
-    position: absolute;
-	height: 100%;
-	width: 100%;
-	max-width: 100%;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
+	background: rgba(255,255,255,0.85);
 }
 
-.middlebox {
-    display: table-cell;
-    vertical-align: middle;
-}
 
-.innerbox {
-    margin-left: auto;
-    margin-right: auto; 
-    width: /*whatever width you want*/;
-}
-
-/*
-body.fullwidth .middlebox { display: table; width: 100%; height: 100%; left: 0px; right: 0px; top: 0px; bottom: 0px; }
-body.fullwidth .topbox { display: table-row; margin: 1em; padding-top: 1em; }
-body.fullwidth .innerbox { display: table-row; margin: 2em; }
-*/
-.footer { position: absolute; bottom: 0px; left: 0px; font-size: 0.8em; padding: 0.5em;}
-
-body.fullwidth .middlebox {
-	position: absolute;
-	left: 2em;
-	right: 2em;
-	top: 1em;
-	bottom: 2em;		
-}
-body.fullwidth .innerbox {
-	position: absolute;
-	left: 0em;
-	right: 0em;
-	top: 0em;
-	bottom: 0em;
-}
-body.fullwidth #container {
-	max-width: 100%;
-}
-
-body.fullwidth .innerbox, body.fullwidth .middlebox, body.fullwidth .outerbox {
-	position: relative;
-	left: auto;
-	right: auto;
-	top: auto;
-	bottom: auto;
-}
-body.fullwidth .footer {
-	position: relative;
-}
-
+/* Tooltip styling */
 .tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; }
 .tooltip .tooltip_inner { margin: 1em; text-align: left; }
 .tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
@@ -162,6 +112,7 @@ body.fullwidth .footer {
 	text-align: center;
 	margin-bottom: 1em;
 }
+
 
 a.repo {
 	display: inline-block;

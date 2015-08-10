@@ -14,7 +14,6 @@ r(function(){
 	var h = dy*(range.y[1]-range.y[0] + 2) + padd.top + padd.bottom;
 	var mid = {'x': w/2,'y':h/2};
 	
-	el.html('');
 	paper = Raphael("holder", w, h);
 	$('#holder svg').attr('id','canvas');
 	var svg = paper.set();
@@ -51,6 +50,8 @@ r(function(){
 		
 		if(loaded==2) drawIt();
 	}
+
+	$('.noscript').remove();
 
 	// Load the files
 	loadCSV('data/solar.csv',parseFile,{'cat':'solar'});
@@ -200,7 +201,7 @@ r(function(){
 		// Add year labels
 		for(var y = miny; y < maxy; y++){
 			if(y%4==0){
-				paper.text(padd.left/2,parseFloat(getY(y))+dy/2,y).attr({'fill':'black','stroke':0})
+				paper.text(padd.left/2,parseFloat(getY(y))+dy/2,y).attr({'fill':'black','stroke':0,'font-size':dy+'px'})
 			}
 		}
 
@@ -209,10 +210,10 @@ r(function(){
 		for(var m = 0; m < monthnames.length; m++){
 			day += months[m]/2;
 			x = parseFloat(getX(day));
-			paper.text(x,padd.top+dy,monthnames[m]).attr({'fill':'black','stroke':0,'text-anchor':'middle'})
+			paper.text(x,padd.top+dy,monthnames[m]).attr({'fill':'black','stroke':0,'text-anchor':'middle','font-size':dy+'px'})
 			day += months[m]/2;
 		}
-
+		$('.loader').remove();
 	}
 
 	function dateFromDay(year, day){
