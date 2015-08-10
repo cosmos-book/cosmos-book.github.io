@@ -505,5 +505,5 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	#header .padder { padding: 4px 1em; }
 	.inner { padding: 0em;}
 	.padder { padding: 1em; }
-
+	ul#menu a { font-size: 0.8em;}
 }
