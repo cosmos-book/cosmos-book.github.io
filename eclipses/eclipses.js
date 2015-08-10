@@ -9,7 +9,7 @@ r(function(){
 	var el = $('#holder');
 
 	// Calculate values
-	var w = el.width()-10;
+	var w = el.width()-1;
 	var dy = 12;
 	var h = dy*(range.y[1]-range.y[0] + 2) + padd.top + padd.bottom;
 	var mid = {'x': w/2,'y':h/2};
