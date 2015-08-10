@@ -55,13 +55,10 @@ body.TEL a { color: #0ab26b; }
 body.TEL a:visited, body.TEL #header a:hover, body.TEL #header a:focus { color: #02a24b; }
 body.TEL #footer a { color: #67c18d; }
 
-#header a.title { color: black; }
-#header a.title:visited { color: black; }
-#header a.title:hover { text-decoration: underline; }
 
 ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; padding: 0px; }
 ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
-ul#menu a { color: inherit; text-decoration: none; }
+#header a { color: inherit; text-decoration: none; }
 
 
 #main { background-color: transparent; }
@@ -509,5 +506,5 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	#header .padder { padding: 4px 1em; }
 	.inner { padding: 0em;}
 	.padder { padding: 1em; }
-	ul#menu a { font-size: 0.8em;}
+	/*ul#menu a { font-size: 0.8em;}*/
 }
