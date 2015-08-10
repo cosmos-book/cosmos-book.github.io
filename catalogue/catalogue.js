@@ -51,16 +51,8 @@
 		if(w > this.el.width()-1) w = this.el.width();
 		var h = (Math.ceil(this.catalogue.length/this.ncols))*(dy+space*dx) + this.padd.top + this.padd.bottom;
 		var mid = {'x': w/2,'y':h/2};
-		
-		this.paper = Raphael("holder", w, h);
-		$('#holder svg').attr('id','canvas');
-		var svg = this.paper.set();
-		var mn,mx,yoff;
-	
-
+		var yoff;
 		collen = Math.ceil(this.catalogue.length/this.ncols);
-		//this.drawCatalogue(this.padd.left,this.padd.top,dx,space*dx);
-
 
 		var s = dx/2;
 		var xoff = this.padd.left;
@@ -71,45 +63,39 @@
 		var row,col;
 		var collen = Math.ceil(cat.length/this.ncols);
 
-		var n = cat.length;
-		var html = "<table>";
-		var typ;
-		for(var i = 0; i < n; i++){
-		
-			row = Math.floor(i/this.ncols);
-			col = i % this.ncols;
-
-			x = xoff + col*(s*2+space);
-			y = yoff + row*(s*2+space);
+		if($('#holder table').length==0){
+			var html = "";
+			var typ;
+			var n = cat.length;
+			for(var i = 0; i < n; i++){
 			
-			typ = getType(cat[i].avmcode);
-			console.log(typ)
-
-			if(col == 0) html += "<tr>";
-
-			html += '<td class="'+typ.shape+'"><img src="../'+typ.shape+'.png" class="entry" id="'+i+'" title="'+this.label+(i+1)+'" /></td>'
-
-			if(col % this.ncols == this.ncols-1) html += "</tr>";
-
+				row = Math.floor(i/this.ncols);
+				col = i % this.ncols;
+	
+				x = xoff + col*(s*2+space);
+				y = yoff + row*(s*2+space);
+				
+				typ = getType(cat[i].avmcode);
+				console.log(typ)
+	
+				if(col == 0) html += "<tr>";
+	
+				html += '<td class="'+typ.shape+'"><img src="../'+typ.shape+'.png" class="entry" id="'+i+'" title="'+this.label+(i+1)+'" /></td>'
+	
+				if(col % this.ncols == this.ncols-1) html += "</tr>";
+	
+			}
+			$('#holder').html('<div class="tableholder"><table>'+html+'</table></div>');
 		}
-		$('#holder').html(html+'</table>');
-		//$('.entry').css({'width': dx+'px', 'height': dx+'px' });
 		$('.loader').remove();
 
 		// Draw key
-		s = 5;
-		var y = 20;
-		xoff = w-this.padd.right-140;
-		yoff = this.padd.top + s;
-		var canvi = new Array();
 		$('#holder').prepend('<ul class="key" id="key"></ul>');
 		// Extract the appropriate keys
 		for(var i = 0; i < key.length; i++){
 			if(key[i].code[0].indexOf('7.2')<0){
 				// Append divs to hold key item
 				$('#key').append('<li class="keyitem"><span id="'+key[i].code[0]+'" class="keysymbol"><img src="../'+key[i].shape+'.png" alt="'+key[i].label+'" title="'+key[i].label+'" /></span><span class="keylabel">'+key[i].label+'</span></li>');
-				//canvi.push(Raphael(key[i].code[0],s*2,s*2));
-				//getObjectPath(key[i].code[0],s,s,s,canvi[canvi.length-1],{'title':key[i].label});
 			}
 		}
 
