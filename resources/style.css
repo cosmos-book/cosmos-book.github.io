@@ -1,5 +1,6 @@
 /* Reset page styling */
-body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; }
+body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; background-color: #f9f9f9; }
+body.cover { background-color: #ffffff; }
 body.COS { background-color: #e9e2ef; }
 body.ETL { background-color: #f2f6d5; }
 body.EXO { background-color: #fffcd5; }
@@ -20,6 +21,9 @@ ul { padding-left: 1em; }
 ul li { margin-bottom: 0.5em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
 
+a { color: #00b9e4; }
+a:visited, #header a:hover, #header a:focus { color: #00a2d3; }
+#footer a { color: #48c7e9; }
 body.COS a { color: #7c52a1; }
 body.COS a:visited, body.COS #header a:hover, body.COS #header a:focus { color: #662d8f; }
 body.COS #footer a { color: #7d71b4; }
@@ -69,7 +73,7 @@ ul#menu a { color: inherit; text-decoration: none; }
 #header { height: 2em; background-color: white; }
 #header, #content { display: table-row; }
 #header, #footer { text-align: left; }
-#header .padder { padding: 12px 24px; }
+#header .padder { padding: 12px 24px; border-bottom: 1px solid rgba(0,0,0,0.05); }
 #content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
 #footer { min-height: 4em; background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
 #footer a { text-decoration: none; }
