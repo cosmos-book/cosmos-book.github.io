@@ -210,7 +210,7 @@ r(function(){
 		for(var m = 0; m < monthnames.length; m++){
 			day += months[m]/2;
 			x = parseFloat(getX(day));
-			paper.text(x,padd.top+dy,monthnames[m]).attr({'fill':'black','stroke':0,'text-anchor':'middle','font-size':dy+'px'})
+			paper.text(x,padd.top+dy,$(window).width() < 700 ? monthnames[m].substr(0,3) : monthnames[m]).attr({'fill':'black','stroke':0,'text-anchor':'middle','font-size':dy+'px'})
 			day += months[m]/2;
 		}
 		$('.loader').remove();
