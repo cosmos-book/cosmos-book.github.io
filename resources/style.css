@@ -467,6 +467,7 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
-	.padder { padding: 8px; }
+	.inner { padding: 0em;}
+	.padder { padding: 1em; }
 
 }
