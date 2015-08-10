@@ -243,16 +243,6 @@ input.button { padding: 6px 8px; /* Bug fix for Firefox over-riding the line-hei
 	}
 }
 
-@media only screen and (max-width: 700px){
-	h1 { font-size: 1.3em; }
-	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px; right: 0px; width: auto; }
-	.tooltip .tooltip_inner:before {
-		border: 0px;
-	}
-	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
-	.wide { display: none; }
-}
-
 ul.key { margin: 0px; padding-left: 0; }
 .keyitem { display: inline-block; margin-right: 1em; }
 .keyitem:last-child { margin-right: 0; }
@@ -467,4 +457,16 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 }
 @media only screen and (max-width: 500px){
 	ul.solarsystem { font-size: 10px; }
+}
+
+@media only screen and (max-width: 700px){
+	h1 { font-size: 1.3em; }
+	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px; right: 0px; width: auto; }
+	.tooltip .tooltip_inner:before {
+		border: 0px;
+	}
+	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
+	.wide { display: none; }
+	.padder { padding: 8px; }
+
 }
