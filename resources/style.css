@@ -24,21 +24,20 @@ a { color: #00a2d3; }
 a:visited { color: #662d8f; }
 a.title:hover, a.title:focus { color: #00a2d3; }
 
-#header { background-color: white; }
-#footer { background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
-#footer a { color: #8fd7ed; text-decoration: none; }
-#footer a:visited { color: #af99c8; }
 #main { background-color: transparent; }
 .padder { padding: 16px 24px; }
 #bg { position: absolute; min-height: 100%; top: 0px; bottom: 0px; left: 0px; right: 0px; 
     z-index:-1; /* Remove this line if it's not going to be a background! */ }
 #container { width: 100%; display: block; position: absolute; top: 0px; bottom: 0px; z-index: 100; }
 #main { height: 100%; width: 100%; display: table; position: relative; }
-#header { height: 2em; }
+#header { height: 2em; background-color: white; }
 #header, #content { display: table-row; }
 #header, #footer { text-align: left; }
+#header .padder { padding: 12px 24px; }
 #content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
-#footer { min-height: 4em; }
+#footer { min-height: 4em; background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
+#footer a { color: #8fd7ed; text-decoration: none; }
+#footer a:visited { color: #af99c8; }
 .holder { position: absolute; height: 100%; width: 100%; }
 .outer {
 	display: table;
