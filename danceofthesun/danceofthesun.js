@@ -7320,6 +7320,8 @@ r(function(){
 { "date":"2065-Jan-01","jd":2475286.500,"lon":174.5823,"lat":0.9665,"r":1.003638949E+06,"rdot":-0.0039382,"delta":1.0036389490E+06,"deldot":-0.0039382,"onewaylighttime":0.055796 }
 	]
 	
+	$('.noscript').remove();
+
 	var el = $('#holder');
 
 	// Calculate values
@@ -7364,6 +7366,5 @@ r(function(){
 
 	solarsystem.path('M'+(w/2)+','+(h/2)+' l-5,0 l10,0 l-5,0 l0,5 l0,-10 z').attr({'stroke':'black'})
 
-	$('.noscript').remove();
 	$('.loader').remove();
 });
