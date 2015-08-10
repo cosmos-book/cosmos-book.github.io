@@ -49,8 +49,8 @@ r(function(){
 		
 		// Draw space
 		for(var i = 0; i < positions.length; i++,j++){
-			x = (w/2) - scale*positions[i].r*Math.cos(Math.PI*positions[i].lon/180);
-			y = (h/2) - scale*positions[i].r*Math.sin(Math.PI*positions[i].lon/180);
+			x = (w/2) - scale*positions[i].r*Math.cos(Math.PI*positions[i].l/180);
+			y = (h/2) - scale*positions[i].r*Math.sin(Math.PI*positions[i].l/180);
 			path += ' '+(j > 0 ? 'L':'M')+x+','+y;
 			// The Julian Date of the Unix Time epoch is 2440587.5
 			var d = new Date((positions[i].jd-2440587.5)*86400000);
