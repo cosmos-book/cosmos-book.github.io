@@ -31,7 +31,7 @@ r(function(){
 	var showlabels = true;
 	
 
-	$('form').prepend('<label for="inclination">Inclination:</label><input type="text" id="inclination" name="inclination" value="'+inclination+'" style="width: 3em;"/><button id="rotate_d" class="button">&darr;</button><button id="rotate_u" class="button">&uarr;</button><label for="elevation">Elevation:</label><input type="text" id="rotation" name="rotation" value="'+rotation+'" style="width: 3em;" /><button id="rotate_c" class="button">&larr;</button><button id="rotate_a" class="button">&rarr;</button><button id="toggle_animation" class="button">Spin</button>');
+	$('form').prepend('<label for="inclination">Inclination:</label><input type="text" id="inclination" name="inclination" value="'+inclination+'" style="width: 3em;"/><button id="rotate_d" class="button">&darr;</button><button id="rotate_u" class="button">&uarr;</button><label for="rotation">Rotation:</label><input type="text" id="rotation" name="rotation" value="'+rotation+'" style="width: 3em;" /><button id="rotate_c" class="button">&larr;</button><button id="rotate_a" class="button">&rarr;</button><button id="toggle_animation" class="button">Spin</button>');
 	$('#rotate_c').on('click',function(e){ e.preventDefault(); rotate(-5); });
 	$('#rotate_u').on('click',function(e){ e.preventDefault(); tilt(-5); });
 	$('#rotate_d').on('click',function(e){ e.preventDefault(); tilt(5); });
@@ -215,6 +215,7 @@ r(function(){
 
 	function rotate(r){
 		rotation += r;
+		rotation = rotation % 360;
 		$('#rotation').val(rotation);
 		drawIt();
 	}
