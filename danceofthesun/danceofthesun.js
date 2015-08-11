@@ -65,6 +65,7 @@ r(function(){
 		sun.push(solarsystem.circle(0,0,0.7*696342*scale).attr({'fill':'#fff79a','fill-opacity':0.3,'stroke':0}));	
 		// Draw core
 		sun.push(solarsystem.circle(0,0,0.25*696342*scale).attr({'fill':'#fffcd5','fill-opacity':0.3,'stroke':0}));	
+		sun.push(solarsystem.text(0,0,''+now.getFullYear()).attr({'stroke':0,'fill':'#000000','text-anchor':'middle'}));	
 
 		
 		// Draw space
@@ -77,17 +78,17 @@ r(function(){
 			var year = d.getFullYear();
 			if(year > prevdate.getFullYear()){
 				solarsystem.circle(x,y,1.5).attr({'fill':'#f6881f','stroke':0});	
-				if(year % 2 == 0) solarsystem.text(x+7,y,''+year).attr({'stroke':0,'fill':'#000000','text-anchor':'start'});
+				//if(year % 2 == 0) solarsystem.text(x+7,y,''+year).attr({'stroke':0,'fill':'#000000','text-anchor':'start'});
 				prevdate = d;
 			}
 			if(!foundnow && Math.abs(nowjd-positions[i].jd) < 3){
 				foundnow = true;
-				moveSun(x,y);
+				moveSun(x,y,year);
 			}
 		}
 	
 		// Draw barycentre path
-		solarsystem.path(path).attr({'stroke':'#f6881f','stroke-width':0.5,'opacity':1});
+		solarsystem.path(path).attr({'stroke':'#f6881f','stroke-width':1,'opacity':1});
 	
 		solarsystem.path('M'+(w/2)+','+(h/2)+' l-5,0 l10,0 l-5,0 l0,5 l0,-10 z').attr({'stroke':'black'})
 	
@@ -98,8 +99,9 @@ r(function(){
 		// The Julian Date of the Unix Time epoch is 2440587.5
 		return new Date((jd-2440587.5)*86400000);
 	}
-	function moveSun(x,y){
+	function moveSun(x,y,year){
 		for(var i = 0 ; i < sun.length;i++) sun[i].transform('T'+x+','+y);
+		if(sun.length > 0) sun[sun.length-1].attr({'text':year});
 	}
 	function getIndexFromYear(year){
 		var i,d,yr,x,y;
@@ -117,7 +119,7 @@ r(function(){
 		d = new Date((positions[i].jd-2440587.5)*86400000);
 		x = (w/2) - scale*positions[i].r*Math.cos(Math.PI*positions[i].l/180);
 		y = (h/2) - scale*positions[i].r*Math.sin(Math.PI*positions[i].l/180);
-		moveSun(x,y);
+		moveSun(x,y,year);
 
 		/*$(".titleyear").html(" in "+year);
 		var i;
