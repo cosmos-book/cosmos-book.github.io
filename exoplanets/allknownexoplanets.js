@@ -174,7 +174,7 @@ $(document).ready(function(){
 			.data(nodes.slice(1))
 			.enter().append("circle")
 			.attr("r", function(d) { return d.radius-1; })
-			.attr("class","planet")
+			.attr("class","exoplanet")
 			.attr("title",function (d,i){ return nodes[i]['P.Name'] })
 			.style("fill", function(d,i){
 				return (methods[d.method]) ? methods[d.method].colour : methods['other'].colour;
@@ -208,7 +208,7 @@ $(document).ready(function(){
 		svg.selectAll("circles")
 			.data(solnodes.slice(1))
 			.enter().append("circle")
-			.attr("r", function(d) { console.log('test'); return d.radius-1; })
+			.attr("r", function(d) { return d.radius-1; })
 			.attr("class","solar")
 			.style("fill", methods['other'].colour)
 			.style("fill-opacity",1)
@@ -248,7 +248,7 @@ $(document).ready(function(){
 			
 			while (++i < n) q.visit(collide(nodes[i]));
 			
-			svg.selectAll(".planet").attr("cx", function(d) { return d.x; }).attr("cy", function(d) { return d.y; });
+			svg.selectAll(".exoplanet").attr("cx", function(d) { return d.x; }).attr("cy", function(d) { return d.y; });
 		});
 		
 		solarforce.on("tick", function(e) {
