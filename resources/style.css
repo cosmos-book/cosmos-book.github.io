@@ -1,5 +1,5 @@
 /* Reset page styling */
-body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; background-color: #f9f9f9; }
+body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; background-color: #f9f9fa; }
 body.cover { background-color: #ffffff; }
 body.COS { background-color: #e9e2ef; }
 body.ETL { background-color: #f2f6d5; }
@@ -77,7 +77,7 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 #header { height: 2em; background-color: white; }
 #header, #content { display: table-row; }
 #header, #footer { text-align: left; }
-#header .padder { padding: 12px 24px; border-bottom: 1px solid rgba(0,0,0,0.05); }
+#header .padder { padding: 12px 24px; border-bottom: 1px solid #e8e8e8; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); }
 #content { text-align: left; position: relative; padding: 48px 48px; border: 2px solid green; }
 #footer { min-height: 4em; background-color: rgba(0, 0, 0, 0.85); color: #efefef; }
 #footer a { text-decoration: none; }
@@ -476,7 +476,7 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
-	#header .padder { padding: 4px 1em; }
+	#header .padder { padding: 0.5em 1em; }
 	.inner { padding: 0em;}
 	.padder { padding: 1em; }
 	/*ul#menu a { font-size: 0.8em;}*/
