@@ -1,0 +1,119 @@
+Symbol,Element,Type,Periodic Table Column,Periodic Table Row,Created,Human role (wikipedia)
+H,Hydrogen,Non-metal,1,1,Big Bang,Basic
+He,Helium,Non-metal,18,1,Big Bang; Stars; Massive stars; Supernovae,
+Li,Lithium,Metal,1,2,Big Bang,Functional
+Be,Beryllium,Metal,2,2,Big Bang,
+B,Boron,Metalloid,13,2,Big Bang,Functional
+C,Carbon,Non-metal,14,2,Stars;Massive stars;Supernovae,Basic
+N,Nitrogen,Non-metal,15,2,Stars;Massive stars;Supernovae,Basic
+O,Oxygen,Non-metal,16,2,Stars;Massive stars;Supernovae,Basic
+F,Fluorine,Non-metal,17,2,Massive stars;Supernovae,Functional
+Ne,Neon,Non-metal,18,2,Stars;Massive stars;Supernovae,
+Na,Sodium,Metal,1,3,Massive stars;Supernovae,Quantity
+Mg,Magnesium,Metal,2,3,Massive stars;Supernovae,Quantity
+Al,Aluminum,Metal,13,3,Massive stars;Supernovae,
+Si,Silicon,Metalloid,14,3,Massive stars;Supernovae,Functional
+P,Phosphorus,Non-metal,15,3,Massive stars;Supernovae,Quantity
+S,Sulfur,Non-metal,16,3,Massive stars;Supernovae,Quantity
+Cl,Chlorine,Non-metal,17,3,Massive stars;Supernovae,Quantity
+Ar,Argon,Non-metal,18,3,Massive stars;Supernovae,
+K,Potassium,Metal,1,4,Massive stars;Supernovae,Quantity
+Ca,Calcium,Metal,2,4,Massive stars;Supernovae,Quantity
+Sc,Scandium,Metal,3,4,Massive stars;Supernovae,
+Ti,Titanium,Metal,4,4,Massive stars;Supernovae,
+V,Vanadium,Metal,5,4,Massive stars;Supernovae,Functional
+Cr,Chromium,Metal,6,4,Massive stars;Supernovae,Functional
+Mn,Manganese,Metal,7,4,Massive stars;Supernovae,Trace
+Fe,Iron,Metal,8,4,Massive stars;Supernovae,Trace
+Co,Cobalt,Metal,9,4,Massive stars;Supernovae,Trace
+Ni,Nickel,Metal,10,4,Massive stars;Supernovae,Trace
+Cu,Copper,Metal,11,4,Massive stars;Supernovae,Trace
+Zn,Zinc,Metal,12,4,Massive stars;Supernovae,Trace
+Ga,Gallium,Metal,13,4,Massive stars;Supernovae,
+Ge,Germanium,Metalloid,14,4,Massive stars;Supernovae,
+As,Arsenic,Metalloid,15,4,Massive stars;Supernovae,Functional
+Se,Selenium,Non-metal,16,4,Supernovae,Trace
+Br,Bromine,Non-metal,17,4,Supernovae,Trace
+Kr,Krypton,Non-metal,18,4,Supernovae,
+Rb,Rubidium,Metal,1,5,Supernovae,
+Sr,Strontium,Metal,2,5,Massive stars;Supernovae,Functional
+Y,Yttrium,Metal,3,5,Massive stars;Supernovae,
+Zr,Zirconium,Metal,4,5,Massive stars;Supernovae,
+Nb,Niobium,Metal,5,5,Massive stars;Supernovae,
+Mo,Molybdenum,Metal,6,5,Massive stars;Supernovae,Trace
+Tc,Technetium,Metal,7,5,Radioactive decay,
+Ru,Ruthenium,Metal,8,5,Massive stars;Supernovae,
+Rh,Rhodium,Metal,9,5,Massive stars;Supernovae,
+Pd,Palladium,Metal,10,5,Massive stars;Supernovae,
+Ag,Silver,Metal,11,5,Massive stars;Supernovae,
+Cd,Cadmium,Metal,12,5,Massive stars;Supernovae,
+In,Indium,Metal,13,5,Massive stars;Supernovae,
+Sn,Tin,Metal,14,5,Massive stars;Supernovae,
+Sb,Antimony,Metalloid,15,5,Massive stars;Supernovae,
+Te,Tellurium,Metalloid,16,5,Supernovae,
+I,Iodine,Non-metal,17,5,Supernovae,Trace
+Xe,Xenon,Non-metal,18,5,Supernovae,
+Cs,Caesium,Metal,1,6,Supernovae,
+Ba,Barium,Metal,2,6,Massive stars;Supernovae,
+La,Lanthanum,Metal,3,9,Massive stars;Supernovae,
+Ce,Cerium,Metal,4,9,Massive stars;Supernovae,
+Pr,Praseodymium,Metal,5,9,Massive stars;Supernovae,
+Nd,Neodymium,Metal,6,9,Massive stars;Supernovae,
+Pm,Promethium,Metal,7,9,Radioactive decay,
+Sm,Samarium,Metal,8,9,Massive stars;Supernovae,
+Eu,Europium,Metal,9,9,Massive stars;Supernovae,
+Gd,Gadolinium,Metal,10,9,Supernovae,
+Tb,Terbium,Metal,11,9,Supernovae,
+Dy,Dysprosium,Metal,12,9,Supernovae,
+Ho,Holmium,Metal,13,9,Supernovae,
+Er,Erbium,Metal,14,9,Supernovae,
+Tm,Thulium,Metal,15,9,Supernovae,
+Yb,Ytterbium,Metal,16,9,Massive stars;Supernovae,
+Lu,Lutetium,Metal,17,9,Massive stars;Supernovae,
+Hf,Hafnium,Metal,4,6,Massive stars;Supernovae,
+Ta,Tantalum,Metal,5,6,Massive stars;Supernovae,
+W,Tungsten,Metal,6,6,Massive stars;Supernovae,
+Re,Rhenium,Metal,7,6,Supernovae,
+Os,Osmium,Metal,8,6,Supernovae,
+Ir,Iridium,Metal,9,6,Supernovae,
+Pt,Platinum,Metal,10,6,Supernovae,
+Au,Gold,Metal,11,6,Supernovae,
+Hg,Mercury,Metal,12,6,Massive stars;Supernovae,
+Tl,Thallium,Metal,13,6,Massive stars;Supernovae,
+Pb,Lead,Metal,14,6,Supernovae,
+Bi,Bismuth,Metal,15,6,Supernovae,
+Po,Polonium,Metalloid,16,6,Radioactive decay,
+At,Astatine,Non-metal,17,6,Radioactive decay,
+Rn,Radon,Non-metal,18,6,Radioactive decay,
+Fr,Francium,Metal,1,7,Radioactive decay,
+Ra,Radium,Metal,2,7,Radioactive decay,
+Ac,Actinium,Metal,3,10,Radioactive decay,
+Th,Thorium,Metal,4,10,Supernovae,
+Pa,Protactinium,Metal,5,10,Radioactive decay,
+U,Uranium,Metal,6,10,Supernovae,
+Np,Neptunium,,7,10,Radioactive decay,
+Pl,Plutonium,,8,10,Supernovae,
+Am,Americium,,9,10,Radioactive decay,
+Cm,Curium,,10,10,Radioactive decay,
+Bk,Berkelium,,11,10,Radioactive decay,
+Cf,Californium,,12,10,Radioactive decay,
+Es,Einsteinium,,13,10,Artificial,
+Fm,Fermium,,14,10,Artificial,
+Md,Mendelevium,,15,10,Artificial,
+No,Nobelium,,16,10,Artificial,
+Lr,Lawrencium,,17,10,Artificial,
+Rf,Rutherfordium,,4,7,Artificial,
+Db,Dubnium,,5,7,Artificial,
+Sg,Seaborgium,,6,7,Artificial,
+Bh,Bohrium,,7,7,Artificial,
+Hs,Hassium,,8,7,Artificial,
+Mt,Meitnerium,,9,7,Artificial,
+Ds,Darmstadtium,,10,7,Artificial,
+Rg,Roentgenium,,11,7,Artificial,
+Cn,Copernicium,,12,7,Artificial,
+Uut,Ununtrium,,13,7,Artificial,
+Fl,Flerovium,,14,7,Artificial,
+Uup,Ununpentium,,15,7,Artificial,
+Lv,Livermorium,,16,7,Artificial,
+Uus,Ununsptium,,17,7,Artificial,
+Uuo,Ununoctium,,18,7,Artificial,
