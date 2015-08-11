@@ -246,9 +246,9 @@ function tooltip(data){
 
 		var l = parseInt($(el).offset().left);
 		var t = parseInt($(el).offset().top);
-		var dx = parseInt($(el).outerWidth());
-		var dy = parseInt($(el).outerHeight());
-		var inner = ($('.innerbox').length==1) ? $('.innerbox') : $('#content');
+		var dx = ($(el).attr('r')) ? $(el).attr('r')*2 : parseInt($(el).outerWidth());
+		var dy = ($(el).attr('r')) ? $(el).attr('r')*2 : parseInt($(el).outerHeight());
+		var inner = ($('.innerbox').length==1) ? $('.innerbox') : ($('#content').length==1 ? $('#content') : $('#holder'));
 
 		if($('.tooltip').length == 0){
 			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
