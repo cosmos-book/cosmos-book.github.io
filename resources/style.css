@@ -481,3 +481,6 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	.padder { padding: 1em; }
 	/*ul#menu a { font-size: 0.8em;}*/
 }
+@media (max-width: 500px), (max-device-width: 500px) {
+	#controls { width: 70%; }
+}

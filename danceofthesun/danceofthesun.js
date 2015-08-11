@@ -34,6 +34,10 @@ r(function(){
 		// Calculate values
 		h = $(window).height()-$('#header').outerHeight();
 		w = h;
+		if(h > el.width()){
+			w = (el.width()-1);
+			h = w;
+		}
 		el.html('').css({'width':w+'px','height':h+'px','margin':'auto'});
 		var solarsystem = Raphael("holder", w, h);
 		$('#holder svg').attr({'id':'canvas'});
