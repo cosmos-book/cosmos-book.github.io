@@ -1,0 +1,9 @@
+Lower limit (km),Upper limit (km),Feature type,Name,Temperature (K),Pressure (bar),Colour
+0,50,Layer,Troposphere,250-150,,
+50,110,Layer,Mesosphere,240-300,,
+110,300,Layer,Thermosphere,300-300,,
+0,0,Boundary,Surface,,,
+50,50,Boundary,Tropopause,,,
+110,110,Boundary,Mesopause,,,
+20,30,Cloud layer,Water ice,,,Grey
+50,80,Cloud layer,CO2 ice,,,Blue

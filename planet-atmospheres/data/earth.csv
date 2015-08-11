@@ -1,0 +1,18 @@
+Lower limit (km),Upper limit (km),Feature type,Name,Temperature (K),Pressure (bar),Colour
+0,12,Layer,Troposphere,290-216,,
+12,50,Layer,Stratosphere,216-270,,
+50,85,Layer,Mesosphere,270-190,,
+85,300,Layer,Thermosphere,190-700,,
+0,0,Boundary,Surface,290,,
+12,12,Boundary,Tropopause,216,,
+50,50,Boundary,Stratopause,270,,
+85,85,Boundary,Mesopause,190,,
+5,10,Cloud layer,Water clouds,,,Grey
+25,35,Cloud layer,Ozone Layer,,,Blue
+70,80,Feature,Ionosphere D band,,,Orange
+75,85,Cloud layer,Noctilucent Clouds,,,Cyan
+10,10,Feature,Aeroplanes,,,
+40,40,Feature,Weather Balloons,,,
+100,100,Boundary,Edge of Space,,,
+100,100,Feature,Edge of Space,,,
+400,400,Feature,ISS,,,

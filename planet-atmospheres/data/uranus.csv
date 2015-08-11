@@ -1,0 +1,11 @@
+Lower limit (km),Upper limit (km),Feature type,Name,Temperature (K),Lower pressure (mbar),Upper pressure (mbar),Colour
+-250,30,Layer,Troposphere,300-100,100000,100,
+30,999,Layer,Stratosphere,120-250,100,1,
+999,999,Layer,Thermosphere,250-500,1,0.1,
+0,0,Boundary,Tropopause,,100,100,
+999,999,Boundary,Stratopause,,1,1,
+-250,-250,Cloud layer,Water ice,,30000,50000,Cyan
+-190,-190,Cloud layer,Ammonium Hydrosulphide ice,,10000,20000,Brown
+-110,-110,Cloud layer,Ammonia ice,,3000,4000,Grey
+-27,-27,Cloud layer,Methane ice,,1000,2000,Blue
+200,200,Cloud layer,Hydrocarbon haze,,2,20,Orange
