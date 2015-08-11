@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Exoplanets</title>
+	<link rel="stylesheet" href="../resources/style.css" />
+<style>
+
+circle {
+	fill: rgb(31, 119, 180);
+	fill-opacity: .25;
+	stroke: rgb(31, 119, 180);
+	stroke-width: 1px;
+	cursor: pointer;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: 1;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+	.stripe { height: 4px; }
+	.transit { background-color: #00a2d3; }
+	.ttv { background-color: #00a2d3; }
+	.radialvelocity{ background-color: #662d8f; }
+	.pulsar { background-color: #aaa5d1; }
+	.microlensing { background-color: #ffcb06; }
+	.imaging { background-color: #57b7aa; }
+	.astrometry { background-color: #b72268; }
+	.other { background-color: black; }
+			
+</style>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="../resources/2D.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="allknownexoplanets.js"></script>
+</head>
+<body class="EXO">
+
+	<div id="container">
+		<div id="main">
+			<div id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">infographics</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div class="padder">
+					<h1>All known exoplanets</h1>
+					<div id="holder"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="padder">
+				Based on <a href="http://phl.upr.edu/projects/habitable-exoplanets-catalog/data/database">data from PHL's Exoplanets Catalog</a> visualised for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

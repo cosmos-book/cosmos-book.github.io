@@ -3,7 +3,7 @@ body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0p
 body.cover { background-color: #ffffff; }
 body.COS { background-color: #e9e2ef; }
 body.ETL { background-color: #f2f6d5; }
-body.EXO { background-color: #fffcd5; }
+body.EXO { background-color: #e8e7f2; }
 body.EXP { background-color: #fee7dd; }
 body.GAL { background-color: #f2f6d5; }
 body.OTH { background-color: #e3f3f2; }
@@ -46,9 +46,9 @@ body.OTH #footer a { color: #a8dbd5; }
 body.EXP a { color: #f05948; }
 body.EXP a:visited, body.EXP #header a:hover, body.EXP #header a:focus { color: #f04031; }
 body.EXP #footer a { color: #f68d69; }
-body.EXO a { color: #ffde00; }
-body.EXO a:visited, body.EXO #header a:hover, body.EXO #header a:focus { color: #ffcb06; }
-body.EXO #footer a { color: #fff200; }
+body.EXO a { color: #6e69b0; }
+body.EXO a:visited, body.EXO #header a:hover, body.EXO #header a:focus { color: #4f4c9a; }
+body.EXO #footer a { color: #8a84bf; }
 body.GAL a { color: #cbd658; }
 body.GAL a:visited, body.GAL #header a:hover, body.GAL #header a:focus { color: #b6c727; }
 body.GAL #footer a { color: #dce57d; }
@@ -61,7 +61,6 @@ body.SUN #footer a { color: #fff200; }
 body.TEL a { color: #0ab26b; }
 body.TEL a:visited, body.TEL #header a:hover, body.TEL #header a:focus { color: #02a24b; }
 body.TEL #footer a { color: #67c18d; }
-
 
 ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; padding: 0px; }
 ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
@@ -186,7 +185,7 @@ a.button { text-decoration: none; color: black!important; }
 }
 body.COS .button { background-color: #7d71b4; border-color: #662d8f; }
 body.ETL .button { background-color: #dce57d; border-color: #b6c727; }
-body.EXO .button { background-color: #fff200; border-color: #ffcb06; }
+body.EXO .button { background-color: #8a84bf; border-color: #4f4c9a; }
 body.EXP .button { background-color: #f68d69; border-color: #f04031; }
 body.GAL .button { background-color: #dce57d; border-color: #b6c727; }
 body.OTH .button { background-color: #a8dbd5; border-color: #57b7aa; }
@@ -194,7 +193,6 @@ body.STA .button { background-color: #f68d69; border-color: #f04031; }
 body.SOL .button { background-color: #48c7e9; border-color: #00a2d3; }
 body.SUN .button { background-color: #fff200; border-color: #ffcb06; }
 body.TEL .button { background-color: #67c18d; border-color: #02a24b; }
-
 
 .astronaut { background-color: #00a2d3; }
 .cosmonaut { background-color: #f04031; }
@@ -245,10 +243,11 @@ body.TEL .button { background-color: #67c18d; border-color: #02a24b; }
 	}
 }
 
-ul.key { margin: 0px; padding-left: 0; }
+ul.key { margin: 0px; padding-left: 0; display: inline-block; }
 .keyitem { display: inline-block; margin-right: 1em; }
 .keyitem:last-child { margin-right: 0; }
 .keysymbol { margin-right: 0.25em; }
+.keycircle { margin-right: 0.25em; width: 0.8em; height: 0.8em; display: inline-block; border-radius: 100%; }
 .keysymbol img { max-width: 0.75em; }
 
 #syear { float: left; margin-left: -3.5em; }
