@@ -99,8 +99,8 @@ function Fixed2JSON(data,format,start){
 				}else if(format[j].format=="D"){
 					datum[format[j].name] = new Date(tmp);
 				}else if(format[j].format=="B"){
-					if(tmp=="1" || tmp=="true") datum[format[j].name] = true;
-					else if(tmp=="0" || tmp=="false") datum[format[j].name] = false;
+					if(tmp=="1" || tmp=="true" || tmp=="Y") datum[format[j].name] = true;
+					else if(tmp=="0" || tmp=="false" || tmp=="N") datum[format[j].name] = false;
 					else datum[format[j].name] = null;
 				}else{
 					datum[format[j].name] = (tmp[0]=='"' && tmp[tmp.length-1]=='"') ? tmp.substring(1,tmp.length-1) : tmp;
@@ -146,8 +146,8 @@ function CSV2JSON(data,format,start,end){
 					if(line[j]) datum[format[j].name] = new Date(line[j].replace(/^"/,"").replace(/"$/,""));
 					else datum[format[j].name] = null;
 				}else if(format[j].format=="boolean"){
-					if(line[j]=="1" || line[j]=="true") datum[format[j].name] = true;
-					else if(line[j]=="0" || line[j]=="false") datum[format[j].name] = false;
+					if(line[j]=="1" || line[j]=="true" || line[j]=="Y") datum[format[j].name] = true;
+					else if(line[j]=="0" || line[j]=="false" || line[j]=="N") datum[format[j].name] = false;
 					else datum[format[j].name] = null;
 				}else{
 					datum[format[j].name] = (line[j][0]=='"' && line[j][line[j].length-1]=='"') ? line[j].substring(1,line[j].length-1) : line[j];
