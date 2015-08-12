@@ -108,6 +108,7 @@ $(document).ready(function(){
 		
 		var methods = {
 			'Transit': {'label':'Transit','class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
+			"Primary Transit": {'class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
 			"TTV": {'class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
 			"Radial Velocity": {'class':'radialvelocity','label':'Radial Velocity','colour':$('<span class="radialvelocity"></span>').css('background-color'),'n':0 },
 			"radial velocity": {'class':'radialvelocity','colour':$('<span class="radialvelocity"></span>').css('background-color'),'n':0 },
