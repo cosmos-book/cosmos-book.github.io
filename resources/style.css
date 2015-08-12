@@ -117,8 +117,8 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 .tooltip h3 { text-align: center; }
 .tooltip p { margin-top: 0px; }
 .tooltip tr:hover { background-color: #eeeeee; }
-.tooltip.right { margin-left: 1.5em; }
-.tooltip.left { margin-left: -1.5em; }
+.tooltip.right { margin-left: 1.0em; }
+.tooltip.left { margin-left: -1.0em; }
 .tooltip .tooltip_inner:before {
 	content: '';
 	position: absolute;
@@ -126,18 +126,18 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 	top: auto;
 	width: 0;
 	height: 0;
-	border: 0.5em solid transparent;
+	border: 1em solid transparent;
 	border-top-color: white;
 	border-bottom-color: transparent;
 }
 .tooltip.right .tooltip_inner:before {
-	left: -0.9em;
+	left: -1em;
 	top: 0;
 	border-left-color: transparent;
 	border-right-color: white;
 }
 .tooltip.left .tooltip_inner:before {
-	right: -0.9em;
+	right: -1em;
 	top: 0;
 	border-left-color: white;
 	border-right-color: transparent;
