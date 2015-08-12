@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>We are stardust</title>
+	<script src="../resources/jquery-1.11.0.min.js"></script>
+	<script src="../resources/infographics.js"></script>
+	<script src="wearestardust.js"></script>
+	<link rel="stylesheet" href="../resources/style.css" />
+	<style>
+		.number { text-align: right; display: block; }
+		.symbol { font-size: 1.8em; font-weight: 300; }
+		.number, .name { font-size: 0.5em; }
+		.symbol,.name { max-width: 100%; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+		table.periodic { border-collapse: separate; border-spacing: 1px; width: 100%; table-layout: fixed; }
+		table.periodic td { width: 5.5555%; min-width: 5.5555%; max-width: 5.5555%; border: 1px solid #fee7dd; padding: 4px; }
+		table.periodic td.element { background-color: white; }
+		table.periodic td.spacer { height: 0.5em; }
+		table.periodic td.life { border-color: #b72268; }
+		table.periodic td.formed { background-color: #af99c8; }
+		@media only screen and (max-width: 1200px){
+			.symbol { font-size: 1.2em; }
+		}
+		@media only screen and (max-width: 900px){
+			.symbol { font-size: 1em; }
+			.number, .name{ font-size: 6px; }
+			table.periodic td { padding: 2px; }
+		}
+		@media only screen and (max-width: 700px){
+			.symbol { font-size: 0.8em; text-align: center; }
+			.number { text-align: center; }
+			.name{ display: none; }
+			table.periodic { border-spacing: 0px; }
+			table.periodic td { padding: 0px; }
+		}
+	</style>
+</head>
+<body class="STA">
+
+	<div id="container">
+		<div id="main">
+			<div id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">infographics</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div class="padder">
+							
+				<h1>We are stardust</h1>
+				<table class="periodic">
+				<tr>
+					<td class="element life formed"><div id="H" class="number">1</div><div class="symbol">H</div><div class="name">Hydrogen</div></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="element formed"><div id="He" class="number">2</div><div class="symbol">He</div><div class="name">Helium</div></td>
+				</tr>
+				<tr>
+					<td class="element life formed"><div id="Li" class="number">3</div><div class="symbol">Li</div><div class="name">Lithium</div></td>
+					<td class="element formed"><div id="Be" class="number">4</div><div class="symbol">Be</div><div class="name">Beryllium</div></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="element life formed"><div id="B" class="number">5</div><div class="symbol">B</div><div class="name">Boron</div></td>
+					<td class="element life"><div id="C" class="number">6</div><div class="symbol">C</div><div class="name">Carbon</div></td>
+					<td class="element life"><div id="N" class="number">7</div><div class="symbol">N</div><div class="name">Nitrogen</div></td>
+					<td class="element life"><div id="O" class="number">8</div><div class="symbol">O</div><div class="name">Oxygen</div></td>
+					<td class="element life"><div id="F" class="number">9</div><div class="symbol">F</div><div class="name">Fluorine</div></td>
+					<td class="element"><div id="Ne" class="number">10</div><div class="symbol">Ne</div><div class="name">Neon</div></td>
+				</tr>
+				<tr>
+					<td class="element life"><div id="Na" class="number">11</div><div class="symbol">Na</div><div class="name">Sodium</div></td>
+					<td class="element life"><div id="Mg" class="number">12</div><div class="symbol">Mg</div><div class="name">Magnesium</div></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="element"><div id="Al" class="number">13</div><div class="symbol">Al</div><div class="name">Aluminum</div></td>
+					<td class="element life"><div id="Si" class="number">14</div><div class="symbol">Si</div><div class="name">Silicon</div></td>
+					<td class="element life"><div id="P" class="number">15</div><div class="symbol">P</div><div class="name">Phosphorus</div></td>
+					<td class="element life"><div id="S" class="number">16</div><div class="symbol">S</div><div class="name">Sulfur</div></td>
+					<td class="element life"><div id="Cl" class="number">17</div><div class="symbol">Cl</div><div class="name">Chlorine</div></td>
+					<td class="element"><div id="Ar" class="number">18</div><div class="symbol">Ar</div><div class="name">Argon</div></td>
+				</tr>
+				<tr>
+					<td class="element life"><div id="K" class="number">19</div><div class="symbol">K</div><div class="name">Potassium</div></td>
+					<td class="element life"><div id="Ca" class="number">20</div><div class="symbol">Ca</div><div class="name">Calcium</div></td>
+					<td class="element"><div id="Sc" class="number">21</div><div class="symbol">Sc</div><div class="name">Scandium</div></td>
+					<td class="element"><div id="Ti" class="number">22</div><div class="symbol">Ti</div><div class="name">Titanium</div></td>
+					<td class="element life"><div id="V" class="number">23</div><div class="symbol">V</div><div class="name">Vanadium</div></td>
+					<td class="element life"><div id="Cr" class="number">24</div><div class="symbol">Cr</div><div class="name">Chromium</div></td>
+					<td class="element life"><div id="Mn" class="number">25</div><div class="symbol">Mn</div><div class="name">Manganese</div></td>
+					<td class="element life"><div id="Fe" class="number">26</div><div class="symbol">Fe</div><div class="name">Iron</div></td>
+					<td class="element life"><div id="Co" class="number">27</div><div class="symbol">Co</div><div class="name">Cobalt</div></td>
+					<td class="element life"><div id="Ni" class="number">28</div><div class="symbol">Ni</div><div class="name">Nickel</div></td>
+					<td class="element life"><div id="Cu" class="number">29</div><div class="symbol">Cu</div><div class="name">Copper</div></td>
+					<td class="element life"><div id="Zn" class="number">30</div><div class="symbol">Zn</div><div class="name">Zinc</div></td>
+					<td class="element"><div id="Ga" class="number">31</div><div class="symbol">Ga</div><div class="name">Gallium</div></td>
+					<td class="element"><div id="Ge" class="number">32</div><div class="symbol">Ge</div><div class="name">Germanium</div></td>
+					<td class="element life"><div id="As" class="number">33</div><div class="symbol">As</div><div class="name">Arsenic</div></td>
+					<td class="element life"><div id="Se" class="number">34</div><div class="symbol">Se</div><div class="name">Selenium</div></td>
+					<td class="element life"><div id="Br" class="number">35</div><div class="symbol">Br</div><div class="name">Bromine</div></td>
+					<td class="element"><div id="Kr" class="number">36</div><div class="symbol">Kr</div><div class="name">Krypton</div></td>
+				</tr>
+				<tr>
+					<td class="element"><div id="Rb" class="number">37</div><div class="symbol">Rb</div><div class="name">Rubidium</div></td>
+					<td class="element life"><div id="Sr" class="number">38</div><div class="symbol">Sr</div><div class="name">Strontium</div></td>
+					<td class="element"><div id="Y" class="number">39</div><div class="symbol">Y</div><div class="name">Yttrium</div></td>
+					<td class="element"><div id="Zr" class="number">40</div><div class="symbol">Zr</div><div class="name">Zirconium</div></td>
+					<td class="element"><div id="Nb" class="number">41</div><div class="symbol">Nb</div><div class="name">Niobium</div></td>
+					<td class="element life"><div id="Mo" class="number">42</div><div class="symbol">Mo</div><div class="name">Molybdenum</div></td>
+					<td class="element"><div id="Tc" class="number">43</div><div class="symbol">Tc</div><div class="name">Technetium</div></td>
+					<td class="element"><div id="Ru" class="number">44</div><div class="symbol">Ru</div><div class="name">Ruthenium</div></td>
+					<td class="element"><div id="Rh" class="number">45</div><div class="symbol">Rh</div><div class="name">Rhodium</div></td>
+					<td class="element"><div id="Pd" class="number">46</div><div class="symbol">Pd</div><div class="name">Palladium</div></td>
+					<td class="element"><div id="Ag" class="number">47</div><div class="symbol">Ag</div><div class="name">Silver</div></td>
+					<td class="element"><div id="Cd" class="number">48</div><div class="symbol">Cd</div><div class="name">Cadmium</div></td>
+					<td class="element"><div id="In" class="number">49</div><div class="symbol">In</div><div class="name">Indium</div></td>
+					<td class="element"><div id="Sn" class="number">50</div><div class="symbol">Sn</div><div class="name">Tin</div></td>
+					<td class="element"><div id="Sb" class="number">51</div><div class="symbol">Sb</div><div class="name">Antimony</div></td>
+					<td class="element"><div id="Te" class="number">52</div><div class="symbol">Te</div><div class="name">Tellurium</div></td>
+					<td class="element life"><div id="I" class="number">53</div><div class="symbol">I</div><div class="name">Iodine</div></td>
+					<td class="element"><div id="Xe" class="number">54</div><div class="symbol">Xe</div><div class="name">Xenon</div></td>
+				</tr>
+				<tr>
+					<td class="element"><div id="Cs" class="number">55</div><div class="symbol">Cs</div><div class="name">Caesium</div></td>
+					<td class="element"><div id="Ba" class="number">56</div><div class="symbol">Ba</div><div class="name">Barium</div></td>
+					<td class="empty"></td>
+					<td class="element"><div id="Hf" class="number">72</div><div class="symbol">Hf</div><div class="name">Hafnium</div></td>
+					<td class="element"><div id="Ta" class="number">73</div><div class="symbol">Ta</div><div class="name">Tantalum</div></td>
+					<td class="element"><div id="W" class="number">74</div><div class="symbol">W</div><div class="name">Tungsten</div></td>
+					<td class="element"><div id="Re" class="number">75</div><div class="symbol">Re</div><div class="name">Rhenium</div></td>
+					<td class="element"><div id="Os" class="number">76</div><div class="symbol">Os</div><div class="name">Osmium</div></td>
+					<td class="element"><div id="Ir" class="number">77</div><div class="symbol">Ir</div><div class="name">Iridium</div></td>
+					<td class="element"><div id="Pt" class="number">78</div><div class="symbol">Pt</div><div class="name">Platinum</div></td>
+					<td class="element"><div id="Au" class="number">79</div><div class="symbol">Au</div><div class="name">Gold</div></td>
+					<td class="element"><div id="Hg" class="number">80</div><div class="symbol">Hg</div><div class="name">Mercury</div></td>
+					<td class="element"><div id="Tl" class="number">81</div><div class="symbol">Tl</div><div class="name">Thallium</div></td>
+					<td class="element"><div id="Pb" class="number">82</div><div class="symbol">Pb</div><div class="name">Lead</div></td>
+					<td class="element"><div id="Bi" class="number">83</div><div class="symbol">Bi</div><div class="name">Bismuth</div></td>
+					<td class="element"><div id="Po" class="number">84</div><div class="symbol">Po</div><div class="name">Polonium</div></td>
+					<td class="element"><div id="At" class="number">85</div><div class="symbol">At</div><div class="name">Astatine</div></td>
+					<td class="element"><div id="Rn" class="number">86</div><div class="symbol">Rn</div><div class="name">Radon</div></td>
+				</tr>
+				<tr>
+					<td class="element"><div id="Fr" class="number">87</div><div class="symbol">Fr</div><div class="name">Francium</div></td>
+					<td class="element"><div id="Ra" class="number">88</div><div class="symbol">Ra</div><div class="name">Radium</div></td>
+					<td class="empty"></td>
+					<td class="element"><div id="Rf" class="number">104</div><div class="symbol">Rf</div><div class="name">Rutherfordium</div></td>
+					<td class="element"><div id="Db" class="number">105</div><div class="symbol">Db</div><div class="name">Dubnium</div></td>
+					<td class="element"><div id="Sg" class="number">106</div><div class="symbol">Sg</div><div class="name">Seaborgium</div></td>
+					<td class="element"><div id="Bh" class="number">107</div><div class="symbol">Bh</div><div class="name">Bohrium</div></td>
+					<td class="element"><div id="Hs" class="number">108</div><div class="symbol">Hs</div><div class="name">Hassium</div></td>
+					<td class="element"><div id="Mt" class="number">109</div><div class="symbol">Mt</div><div class="name">Meitnerium</div></td>
+					<td class="element"><div id="Ds" class="number">110</div><div class="symbol">Ds</div><div class="name">Darmstadtium</div></td>
+					<td class="element"><div id="Rg" class="number">111</div><div class="symbol">Rg</div><div class="name">Roentgenium</div></td>
+					<td class="element"><div id="Cn" class="number">112</div><div class="symbol">Cn</div><div class="name">Copernicium</div></td>
+					<td class="element"><div id="Uut" class="number">113</div><div class="symbol">Uut</div><div class="name">Ununtrium</div></td>
+					<td class="element"><div id="Fl" class="number">114</div><div class="symbol">Fl</div><div class="name">Flerovium</div></td>
+					<td class="element"><div id="Uup" class="number">115</div><div class="symbol">Uup</div><div class="name">Ununpentium</div></td>
+					<td class="element"><div id="Lv" class="number">116</div><div class="symbol">Lv</div><div class="name">Livermorium</div></td>
+					<td class="element"><div id="Uus" class="number">117</div><div class="symbol">Uus</div><div class="name">Ununsptium</div></td>
+					<td class="element"><div id="Uuo" class="number">118</div><div class="symbol">Uuo</div><div class="name">Ununoctium</div></td>	
+				</tr>
+				<tr>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+					<td class="empty spacer"></td>
+				</tr>
+				<tr>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="element"><div id="La" class="number">57</div><div class="symbol">La</div><div class="name">Lanthanum</div></td>
+					<td class="element"><div id="Ce" class="number">58</div><div class="symbol">Ce</div><div class="name">Cerium</div></td>
+					<td class="element"><div id="Pr" class="number">59</div><div class="symbol">Pr</div><div class="name">Praseodymium</div></td>
+					<td class="element"><div id="Nd" class="number">60</div><div class="symbol">Nd</div><div class="name">Neodymium</div></td>
+					<td class="element"><div id="Pm" class="number">61</div><div class="symbol">Pm</div><div class="name">Promethium</div></td>
+					<td class="element"><div id="Sm" class="number">62</div><div class="symbol">Sm</div><div class="name">Samarium</div></td>
+					<td class="element"><div id="Eu" class="number">63</div><div class="symbol">Eu</div><div class="name">Europium</div></td>
+					<td class="element"><div id="Gd" class="number">64</div><div class="symbol">Gd</div><div class="name">Gadolinium</div></td>
+					<td class="element"><div id="Tb" class="number">65</div><div class="symbol">Tb</div><div class="name">Terbium</div></td>
+					<td class="element"><div id="Dy" class="number">66</div><div class="symbol">Dy</div><div class="name">Dysprosium</div></td>
+					<td class="element"><div id="Ho" class="number">67</div><div class="symbol">Ho</div><div class="name">Holmium</div></td>
+					<td class="element"><div id="Er" class="number">68</div><div class="symbol">Er</div><div class="name">Erbium</div></td>
+					<td class="element"><div id="Tm" class="number">69</div><div class="symbol">Tm</div><div class="name">Thulium</div></td>
+					<td class="element"><div id="Yb" class="number">70</div><div class="symbol">Yb</div><div class="name">Ytterbium</div></td>
+					<td class="element"><div id="Lu" class="number">71</div><div class="symbol">Lu</div><div class="name">Lutetium</div></td>
+					<td class="empty"></td>
+				</tr>
+				<tr>
+					<td class="empty"></td>
+					<td class="empty"></td>
+					<td class="element"><div id="Ac" class="number">89</div><div class="symbol">Ac</div><div class="name">Actinium</div></td>
+					<td class="element"><div id="Th" class="number">90</div><div class="symbol">Th</div><div class="name">Thorium</div></td>
+					<td class="element"><div id="Pa" class="number">91</div><div class="symbol">Pa</div><div class="name">Protactinium</div></td>
+					<td class="element"><div id="U" class="number">92</div><div class="symbol">U</div><div class="name">Uranium</div></td>
+					<td class="element"><div id="Np" class="number">93</div><div class="symbol">Np</div><div class="name">Neptunium</div></td>
+					<td class="element"><div id="Pl" class="number">94</div><div class="symbol">Pl</div><div class="name">Plutonium</div></td>
+					<td class="element"><div id="Am" class="number">95</div><div class="symbol">Am</div><div class="name">Americium</div></td>
+					<td class="element"><div id="Cm" class="number">96</div><div class="symbol">Cm</div><div class="name">Curium</div></td>
+					<td class="element"><div id="Bk" class="number">97</div><div class="symbol">Bk</div><div class="name">Berkelium</div></td>
+					<td class="element"><div id="Cf" class="number">98</div><div class="symbol">Cf</div><div class="name">Californium</div></td>
+					<td class="element"><div id="Es" class="number">99</div><div class="symbol">Es</div><div class="name">Einsteinium</div></td>
+					<td class="element"><div id="Fm" class="number">100</div><div class="symbol">Fm</div><div class="name">Fermium</div></td>
+					<td class="element"><div id="Md" class="number">101</div><div class="symbol">Md</div><div class="name">Mendelevium</div></td>
+					<td class="element"><div id="No" class="number">102</div><div class="symbol">No</div><div class="name">Nobelium</div></td>
+					<td class="element"><div id="Lr" class="number">103</div><div class="symbol">Lr</div><div class="name">Lawrencium</div></td>
+					<td class="empty"></td>
+				</tr>
+				</table>
+				<div id="output"></div>
+				<div id="planets"></div>
+				<div id="info"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="padder">
+				Based on data compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
