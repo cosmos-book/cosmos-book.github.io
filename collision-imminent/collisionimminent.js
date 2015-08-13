@@ -124,6 +124,21 @@ $(document).ready(function(){
 		drawGrid();
 		drawAsteroids();
 		drawEarth();
+		
+		tooltip({
+			'elements':$('circle'),
+			'html':function(){
+				var id = $(this).attr('id');
+				if(!id) return "";
+				id = parseInt(id);
+				var a = data[id];
+				var text = '<div><\/div><h3>'+a.object+'<\/h3><table>';
+				text += '<tr><td>Discovered:<\/td><td>'+(a.date_disc.toDateString())+'<\/td><\/tr>';
+				text += '<tr><td>Size:<\/td><td>'+(a.size > 0 ? a.size+" m" : "unknown")+'<\/td><\/tr>';
+				text += '<\/table>';
+				return text;
+			}
+		});
 	}
 	function drawAsteroids(){
 		var x,y,c;
@@ -144,6 +159,7 @@ $(document).ready(function(){
 				if(data[i].collide) c = colours.red[0];
 				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8});
 				else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
+				asteroids[i].node.id = i;
 			}else{
 				if(asteroids[i]) asteroids[i].hide();
 			}
