@@ -5,12 +5,17 @@ $(document).ready(function(){
 	var moon = 380000; // km
 	var el = $('#holder');
 	var h = $('#content').outerHeight();
+	var asteroids;
+	var paths;
+	var grid;
 	if(el.width() < h){
 		w = el.width();
 		h = w;
 	}else{
 		w = h;
 	}
+	var mid = { 'x': w/2, 'y': h/2 };
+	var rad = (w/2)*0.85;
 	var y1 = new Date(years[0],1,1,0,0,0);
 	var y2 = new Date(years[1],1,1,0,0,0);
 
@@ -42,7 +47,7 @@ $(document).ready(function(){
 			data[i].date_disc = new Date(1900,1,1,0,0,0);
 			data[i].date_disc += data[i].discovery_year*86400*365.25
 		}
-		console.log(data)
+		//console.log(data)
 		buildPlot();
 	}
 	
@@ -59,33 +64,86 @@ $(document).ready(function(){
 		}
 	});
 	
+	function drawGrid(){
+		var gridding,t,x,y,rot,r;
+		
+		r = 1.01*rad;
+
+		if(grid) grid.remove();
+
+		// Draw line from centre to top
+		grid.push(paper.path('M'+mid.x+','+mid.y+' l0,-'+rad+'z').attr({'stroke':colours.blue[3],'stroke-width':0.5,'opacity':0.7}).toBack());
+		x = mid.x;
+		y = mid.y-r;
+		grid.push(paper.text(x,y,years[0]).attr({'stroke':0,'fill':'black','text-anchor':'start'}).toBack().transform('r-90,'+x+','+y));
+
+		// Draw the gridlines
+		gridding = 10;
+		if(years[1]-years[0] < 100) gridding = 5;
+		if(years[1]-years[0] < 40) gridding = 2;
+		if(years[1]-years[0] < 16) gridding = 1;
+		for(var yr = (years[0] + gridding - years[0]%gridding); yr < years[1]; yr += gridding){
+			t = getTheta(new Date(yr,1,1,0,0,0));
+			x = mid.x + r*Math.cos(t);
+			y = mid.y + r*Math.sin(t);
+			grid.push(paper.path('M'+mid.x+','+mid.y+' l'+(rad*Math.cos(t))+','+(rad*Math.sin(t))+'z').attr({'stroke':colours.blue[3],'stroke-width':0.5,'opacity':0.7}).toBack());
+			rot = (t*180/Math.PI);
+			flip = (rot > 90 && rot < 270);
+			if(flip) rot += 180
+			grid.push(paper.text(x,y,yr).attr({'stroke':0,'fill':'black','text-anchor':(flip) ? 'end':'start'}).toBack().transform('r'+rot+','+x+','+y));
+		}
+
+		// Draw main circle
+		grid.push(paper.circle(mid.x,mid.y,rad).attr({'stroke':colours.blue[3],'stroke-width':1,'opacity':0.7}).toBack());
+
+	}
+	
 	function buildPlot(){
 		
 		paper = Raphael("holder", w, h);
 		$('#holder svg').attr('id','canvas');
+		asteroids = paper.set();
+		paths = paper.set();
+		grid = paper.set();
 		
-		paper.circle(w/2,h/2,(w/2)-2).attr({'stroke':colours.blue[3],'stroke-width':1});
-
+		drawGrid();
+		drawAsteroids();
+	}
+	function drawAsteroids(){
+		var x,y;
+		var build = (asteroids.length==0);
 		for(var i = 0; i < data.length; i++){
 			if(data[i].date >= y1 && data[i].date <= y2 && data[i].distance_km < moon){
-				r = (data[i].distance_km/moon)*(w/2 - 2);
-				t = (2*Math.PI*(data[i].date-y1)/(y2-y1))-Math.PI/2;
+				r = (data[i].distance_km/moon)*rad;
+				t = getTheta(data[i].date);
 				
 				x = r*Math.cos(t);
 				y = r*Math.sin(t);
-				console.log(data[i].date)
-				s = (0.17*w/2)*(data[i].size/600);
+				//console.log(data[i].date)
+				s = (0.17*rad)*(data[i].size/600);
 				if(s < 1) s = 1;
-				paper.circle((w/2)+x,(h/2)+y,s).attr({'fill':(data[i].collide ? colours.red[0] : colours.blue[1]),'stroke':0,'opacity':0.8})
+				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':(data[i].collide ? colours.red[0] : colours.blue[1]),'stroke':0,'opacity':0.8});
+				else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
+			}else{
+				if(asteroids[i]) asteroids[i].hide();
 			}
 		}
-
+	
+	}
+	// Supply a date and get the theta back
+	function getTheta(d){
+		return (2*Math.PI*(d-y1)/(y2-y1))-Math.PI/2;
 	}
 	function updatePlot(ys){
 
 		if(ys && ys.length==2) years = ys;
 
-		console.log(years)
+		// Update year range
+		y1.setUTCFullYear(years[0])
+		y2.setUTCFullYear(years[1])
+
+		drawGrid()
+		drawAsteroids();
 
 		return;
 	}
