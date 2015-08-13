@@ -134,6 +134,7 @@ $(document).ready(function(){
 				var a = data[id];
 				var text = '<div><\/div><h3>'+a.object+'<\/h3><table>';
 				text += '<tr><td>Discovered:<\/td><td>'+(a.date_disc.toDateString())+'<\/td><\/tr>';
+				text += '<tr><td>Closest approach:<\/td><td>'+(a.date_close.toDateString())+'<\/td><\/tr>';
 				text += '<tr><td>Size:<\/td><td>'+(a.size > 0 ? a.size+" m" : "unknown")+'<\/td><\/tr>';
 				text += '<\/table>';
 				return text;
@@ -186,13 +187,15 @@ $(document).ready(function(){
 
 		drawGrid()
 		drawAsteroids();
+		$('.tooltip_close').trigger('click');
 
 		return;
 	}
 	function updateRange(d){
 		range = d;
 		drawAsteroids();
-		drawEarth()
+		drawEarth();
+		$('.tooltip_close').trigger('click');
 	}
 
 });
