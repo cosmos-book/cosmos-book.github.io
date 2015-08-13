@@ -244,6 +244,7 @@ function tooltip(data){
 
 	function show(el,text){
 
+		if(!text) return;
 		var l = parseInt($(el).offset().left);
 		var t = parseInt($(el).offset().top);
 		var dx = ($(el).attr('r')) ? $(el).attr('r')*2 : parseInt($(el).outerWidth());
