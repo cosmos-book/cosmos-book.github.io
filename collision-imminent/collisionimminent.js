@@ -160,7 +160,7 @@ $(document).ready(function(){
 				// If it is less than 30 days notice we make it orange
 				if(data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000) c = colours.orange[1];
 				if(data[i].collide) c = colours.red[0];
-				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8});
+				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8,'cursor':'pointer'});
 				else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
 				asteroids[i].node.id = i;
 			}else{
