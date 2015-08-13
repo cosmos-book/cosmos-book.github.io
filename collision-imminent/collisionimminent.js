@@ -2,12 +2,13 @@ $(document).ready(function(){
 
 	var data;
 	var years = [1900,2100];
-	var moon = 380000; // km
+	var range = 380000; // km
 	var el = $('#holder');
 	var h = $('#content').outerHeight();
 	var asteroids;
 	var paths;
 	var grid;
+	var earth;
 	if(el.width() < h){
 		w = el.width();
 		h = w;
@@ -63,6 +64,14 @@ $(document).ready(function(){
 			updatePlot(ui.values)
 		}
 	});
+	$("#slider2").slider({
+		min: 0,
+		max: range,
+		value: range,
+		slide: function(event, ui){
+			updateRange(ui.value)
+		}
+	});
 	
 	function drawGrid(){
 		var gridding,t,x,y,rot,r;
@@ -108,13 +117,14 @@ $(document).ready(function(){
 		
 		drawGrid();
 		drawAsteroids();
+		drawEarth();
 	}
 	function drawAsteroids(){
 		var x,y;
 		var build = (asteroids.length==0);
 		for(var i = 0; i < data.length; i++){
-			if(data[i].date >= y1 && data[i].date <= y2 && data[i].distance_km < moon){
-				r = (data[i].distance_km/moon)*rad;
+			if(data[i].date >= y1 && data[i].date <= y2 && data[i].distance_km < range){
+				r = (data[i].distance_km/range)*rad;
 				t = getTheta(data[i].date);
 				
 				x = r*Math.cos(t);
@@ -129,6 +139,12 @@ $(document).ready(function(){
 			}
 		}
 	
+	}
+	function drawEarth(){
+		var r = rad*6371/range;
+		if(r > rad) r = rad;
+		if(!earth) earth = paper.circle(mid.x,mid.y,r).attr({'fill':'black','stroke':0,'opacity':0.3}).toFront()
+		else earth.attr({'r':r})
 	}
 	// Supply a date and get the theta back
 	function getTheta(d){
@@ -146,6 +162,11 @@ $(document).ready(function(){
 		drawAsteroids();
 
 		return;
+	}
+	function updateRange(d){
+		range = d;
+		drawAsteroids();
+		drawEarth()
 	}
 
 });
