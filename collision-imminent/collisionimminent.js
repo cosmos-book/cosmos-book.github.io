@@ -52,6 +52,7 @@ $(document).ready(function(){
 			if(y%4==0) days = 366;
 			if(y%400==0) days = 365;
 			data[i].date_disc = new Date((new Date(y,0,1,0,0,0)).valueOf() + (data[i].discovery_year-y)*(days)*86400000);
+			data[i].dist = (data[i].distance_km < 6371 ? 6371 : data[i].distance_km);
 		}
 
 
@@ -134,7 +135,8 @@ $(document).ready(function(){
 				var a = data[id];
 				var text = '<div><\/div><h3>'+a.object+'<\/h3><table>';
 				text += '<tr><td>Discovered:<\/td><td>'+(a.date_disc.toDateString())+'<\/td><\/tr>';
-				text += '<tr><td>Closest approach:<\/td><td>'+(a.date_close.toDateString())+'<\/td><\/tr>';
+				text += '<tr><td>Closest:<\/td><td>'+(a.date_close.toDateString())+'<\/td><\/tr>';
+				text += '<tr><td>Closest approach:<\/td><td>'+Math.round(a.dist-6371)+' km<\/td><\/tr>';
 				text += '<tr><td>Size:<\/td><td>'+(a.size > 0 ? a.size+" m" : "unknown")+'<\/td><\/tr>';
 				text += '<\/table>';
 				return text;
@@ -145,8 +147,8 @@ $(document).ready(function(){
 		var x,y,c;
 		var build = (asteroids.length==0);
 		for(var i = 0; i < data.length; i++){
-			if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].distance_km < range){
-				r = (data[i].distance_km/range)*rad;
+			if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].dist < range){
+				r = (data[i].dist/range)*rad;
 				t = getTheta(data[i].date_close);
 				
 				x = r*Math.cos(t);
