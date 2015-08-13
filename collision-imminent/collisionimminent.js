@@ -17,8 +17,8 @@ $(document).ready(function(){
 	}
 	var mid = { 'x': w/2, 'y': h/2 };
 	var rad = (w/2)*0.85;
-	var y1 = new Date(years[0],1,1,0,0,0);
-	var y2 = new Date(years[1],1,1,0,0,0);
+	var y1 = new Date(years[0],0,1,0,0,0);
+	var y2 = new Date(years[1],0,1,0,0,0);
 
 
 	function parseFile(d,attrs){
@@ -43,12 +43,18 @@ $(document).ready(function(){
 		]);
 		
 		// Preprocess data
+		var v,y;
+		days = 365;
 		for(var i = 0; i < data.length; i++){
-			data[i].date = new Date((data[i].mjd-2440587.5)*86400000);
-			data[i].date_disc = new Date(1900,1,1,0,0,0);
-			data[i].date_disc += data[i].discovery_year*86400*365.25
+			data[i].date_close = new Date((data[i].mjd-2440587.5)*86400000);
+			y = Math.floor(data[i].discovery_year);
+			days = 365;
+			if(y%4==0) days = 366;
+			if(y%400==0) days = 365;
+			data[i].date_disc = new Date((new Date(y,0,1,0,0,0)).valueOf() + (data[i].discovery_year-y)*(days)*86400000);
 		}
-		//console.log(data)
+
+
 		buildPlot();
 	}
 	
@@ -92,7 +98,7 @@ $(document).ready(function(){
 		if(years[1]-years[0] < 40) gridding = 2;
 		if(years[1]-years[0] < 16) gridding = 1;
 		for(var yr = (years[0] + gridding - years[0]%gridding); yr < years[1]; yr += gridding){
-			t = getTheta(new Date(yr,1,1,0,0,0));
+			t = getTheta(new Date(yr,0,1,0,0,0));
 			x = mid.x + r*Math.cos(t);
 			y = mid.y + r*Math.sin(t);
 			grid.push(paper.path('M'+mid.x+','+mid.y+' l'+(rad*Math.cos(t))+','+(rad*Math.sin(t))+'z').attr({'stroke':colours.blue[3],'stroke-width':0.5,'opacity':0.7}).toBack());
@@ -120,19 +126,23 @@ $(document).ready(function(){
 		drawEarth();
 	}
 	function drawAsteroids(){
-		var x,y;
+		var x,y,c;
 		var build = (asteroids.length==0);
 		for(var i = 0; i < data.length; i++){
-			if(data[i].date >= y1 && data[i].date <= y2 && data[i].distance_km < range){
+			if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].distance_km < range){
 				r = (data[i].distance_km/range)*rad;
-				t = getTheta(data[i].date);
+				t = getTheta(data[i].date_close);
 				
 				x = r*Math.cos(t);
 				y = r*Math.sin(t);
-				//console.log(data[i].date)
 				s = (0.17*rad)*(data[i].size/600);
-				if(s < 1) s = 1;
-				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':(data[i].collide ? colours.red[0] : colours.blue[1]),'stroke':0,'opacity':0.8});
+				if(s < 1.2) s = 1.2;
+				c = colours.blue[1];
+				if(data[i].date_disc > data[i].date_close) c = colours.green[3];
+				// If it is less than 30 days notice we make it orange
+				if(data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000) c = colours.orange[1];
+				if(data[i].collide) c = colours.red[0];
+				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8});
 				else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
 			}else{
 				if(asteroids[i]) asteroids[i].hide();
