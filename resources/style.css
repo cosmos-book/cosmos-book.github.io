@@ -258,10 +258,14 @@ ul.key { margin: 0px; padding-left: 0; display: inline-block; }
 .keycircle { margin-right: 0.25em; width: 0.8em; height: 0.8em; display: inline-block; border-radius: 100%; }
 .keysymbol img { max-width: 0.75em; }
 
-#syear { float: left; margin-left: -3.5em; }
-#eyear { float: right; margin-right: -3.5em; }
-#controls { width: 85%; margin: auto; }
-#range, #slider { display: block; }
+
+#controls { width: 100%; }
+#controls .padder { padding-left: 0px; padding-right: 0px; }
+#controls .label_a { float: left; margin-left: -4em; text-align: right; width: 3em; margin-top:-2px;}
+#controls .label_b { float: right; margin-right: -4em; width: 3em; margin-top:-2px; }
+#controls .rangelabel { float: left; width: 10em; margin-top:-2px; }
+#controls .range { margin-left: 3.5em; margin-right: 3.5em; }
+#controls .rangelabel + .range { margin-left: 10em; }
 
 
 /* Solar System Styles */
@@ -489,5 +493,5 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	/*ul#menu a { font-size: 0.8em;}*/
 }
 @media (max-width: 700px), (max-device-width: 700px) {
-	#controls { width: 70%; }
+	/*#controls { width: 70%; }*/
 }

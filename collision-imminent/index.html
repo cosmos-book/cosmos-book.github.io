@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="../resources/ui.css">
 	<style>
 	.ui-widget-header { background-color: #00a2d3; }
+	#range2 .label_b { margin-right: -4em; }
+	#range2.range { margin-right: 4.5em; }
+	#holder svg { margin: auto; display: block; }
 	</style>
 </head>
 <body class="SOL">
@@ -33,11 +36,22 @@
 							
 					<h1>Collision imminent</h1>
 					<div id="controls">
-						<div id="range">
-							<div id="syear">1900</div>
-							<div id="eyear">2100</div>
+						<div class="padder">
+							<div class="rangelabel">Year range:</div>
+							<div id="range" class="range">
+								<div id="syear" class="label_a">1900</div>
+								<div id="eyear" class="label_b">2100</div>
+								<div id="slider" class="slider"></div>
+							</div>
 						</div>
-						<div id="slider"></div>
+						<div class="padder">
+							<div class="rangelabel">Distance range:</div>
+							<div id="range2" class="range">
+								<div id="sdist" class="label_a">0</div>
+								<div id="edist" class="label_b">380000</div>
+								<div id="slider2" class="slider"></div>
+							</div>
+						</div>
 					</div>
 					<div id="holder"></div>
 				</div>

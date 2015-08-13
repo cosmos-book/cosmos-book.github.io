@@ -1,9 +1,4 @@
 #info { max-width: 700px; margin: auto; }
-
-#syear { float: left; margin-left: -3.5em; }
-#eyear { float: right; margin-right: -3.5em; }
-#controls { width: 85%; margin: auto; }
-#range, #slider { display: block; }
 #output { margin-top: 1em; text-align: center; }
 .count { font-size: 10em; font-weight: bold; }
 #planets { position: relative; display: block; text-align: center; vertical-align: bottom; margin-top: 2em; margin-bottom: 1em; font-size: 1.4em; }
