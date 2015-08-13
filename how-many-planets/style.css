@@ -38,6 +38,5 @@
 #info { height: 2em; margin-bottom: 1em; }
 
 @media (max-width: 500px), (max-device-width: 500px) {
-	#controls { width: 70%; }
 	#info { height: auto; max-width: 90%; margin: auto;  }
 }
