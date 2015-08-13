@@ -96,7 +96,7 @@ $(document).ready(function(){
 		// Draw the gridlines
 		gridding = 10;
 		if(years[1]-years[0] < 100) gridding = 5;
-		if(years[1]-years[0] < 40) gridding = 2;
+		if(years[1]-years[0] < 30) gridding = 2;
 		if(years[1]-years[0] < 16) gridding = 1;
 		for(var yr = (years[0] + gridding - years[0]%gridding); yr < years[1]; yr += gridding){
 			t = getTheta(new Date(yr,0,1,0,0,0));
