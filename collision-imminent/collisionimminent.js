@@ -182,7 +182,7 @@ $(document).ready(function(){
 					if(asteroids[i]) asteroids[i].hide();
 				}
 	
-				if(data[i].date_close > y1 && data[i].date_disc < y2 && data[i].dist < range){
+				if(data[i].date_close <= y2 && data[i].date_close >= y1 && data[i].dist < range){
 					// Create new paths
 					path = arcPath(mid.x, mid.y, r, getTheta(data[i].date_disc), getTheta(data[i].date_close))
 					if(!shortnotice && advancenotice){
