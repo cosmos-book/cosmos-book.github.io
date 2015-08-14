@@ -175,8 +175,8 @@ r(function(){
 	
 	function getGalaxyColour(g){
 		//if(g.name == "Milky Way") return "#000000";
-		if(g.z >= 0) return colours.green[0];
-		else if(g.z < 0) return colours.yellowgreen[0];
+		if(g.z >= 0) return colours.orange[0];
+		else if(g.z < 0) return colours.blue[0];
 		else return "#000000";
 	}
 
@@ -200,7 +200,7 @@ r(function(){
 					galaxies[i].attr({'cx':xoff+p.x,'cy':yoff+p.y})
 				}
 				path = 'M'+(xoff+cen.x)+','+(yoff+cen.y)+' L'+(xoff+p.x0)+','+(yoff+p.y0)+' L'+(xoff+p.x)+','+(yoff+p.y+(z < 0 ? -r/2:r/2));
-				if(!lines[i]) lines[i] = paper.path(path).attr({'stroke':(data[i].z >= 0 ? colours.green[0] : colours.yellowgreen[0]),'stroke-width':0.5,'opacity':lop});
+				if(!lines[i]) lines[i] = paper.path(path).attr({'stroke':getGalaxyColour(data[i]),'stroke-width':0.5,'opacity':lop});
 				else lines[i].attr({'path':path});
 
 				if(z < 0){

@@ -19,6 +19,7 @@ $(document).ready(function(){
 	var rad = (w/2)*0.85;
 	var y1 = new Date(years[0],0,1,0,0,0);
 	var y2 = new Date(years[1],0,1,0,0,0);
+	var end = new Date(years[1],0,1,0,0,0);
 
 
 	function parseFile(d,attrs){
@@ -144,30 +145,59 @@ $(document).ready(function(){
 		});
 	}
 	function drawAsteroids(){
-		var x,y,c;
+		var x,y,c,shortnotice,advancenotice;
 		var build = (asteroids.length==0);
 		for(var i = 0; i < data.length; i++){
-			if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].dist < range){
-				r = (data[i].dist/range)*rad;
-				t = getTheta(data[i].date_close);
-				
-				x = r*Math.cos(t);
-				y = r*Math.sin(t);
-				s = (0.17*rad)*(data[i].size/600);
-				if(s < 1.2) s = 1.2;
+
+			if(data[i].date_close < end){
+
+				advancenotice = (data[i].date_disc < data[i].date_close)
+				shortnotice = (data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000);
+	
 				c = colours.blue[1];
-				if(data[i].date_disc > data[i].date_close) c = colours.green[3];
+	
+				// If it doesn't have advance notice we make it green
+				if(!advancenotice) c = colours.green[3];
 				// If it is less than 30 days notice we make it orange
-				if(data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000) c = colours.orange[1];
+				if(shortnotice) c = colours.orange[1];
+				// If it collides we make it red
 				if(data[i].collide) c = colours.red[0];
-				if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8,'cursor':'pointer'});
-				else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
-				asteroids[i].node.id = i;
-			}else{
-				if(asteroids[i]) asteroids[i].hide();
+	
+	
+				if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].dist < range){
+					r = (data[i].dist/range)*rad;
+					t = getTheta(data[i].date_close);
+					
+					x = r*Math.cos(t);
+					y = r*Math.sin(t);
+					s = (0.17*rad)*(data[i].size/600);
+					if(s < 1.2) s = 1.2;
+					
+					// Create or update the asteroids
+					if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8,'cursor':'pointer'});
+					else asteroids[i].attr({'cx':mid.x+x,'cy':mid.y+y}).show()
+					asteroids[i].node.id = i;
+					
+				}else{
+					if(asteroids[i]) asteroids[i].hide();
+				}
+	
+				if(data[i].date_close > y1 && data[i].date_disc < y2 && data[i].dist < range){
+					// Create new paths
+					path = arcPath(mid.x, mid.y, r, getTheta(data[i].date_disc), getTheta(data[i].date_close))
+					if(!shortnotice && advancenotice){
+						if(!paths[i]) paths[i] = paper.path(path).attr({'stroke':c,'stroke-width':0.5});
+						else paths[i].attr({'path':path}).show();
+					}
+				}else{
+					if(paths[i]) paths[i].hide();
+				}
 			}
 		}
-	
+	}
+
+	function arcPath(cx, cy, r, startAngle, endAngle){
+		return ["M", cx + r * Math.cos(startAngle), cy + r * Math.sin(startAngle), "A", r, r, 0, (endAngle-startAngle > Math.PI ? 1 : 0), 1, cx + r * Math.cos(endAngle), cy + r * Math.sin(endAngle), ""];
 	}
 	function drawEarth(){
 		var r = rad*6371/range;
@@ -177,7 +207,10 @@ $(document).ready(function(){
 	}
 	// Supply a date and get the theta back
 	function getTheta(d){
-		return (2*Math.PI*(d-y1)/(y2-y1))-Math.PI/2;
+		var t = (2*Math.PI*(d-y1)/(y2-y1));
+		if(d > y2) t = 2*Math.PI;
+		if(d < y1) t = 0;
+		return (t-Math.PI/2);
 	}
 	function updatePlot(ys){
 
