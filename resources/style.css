@@ -499,7 +499,7 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	#header .padder { padding: 0.5em 1em; }
 	.inner { padding: 0em;}
 	.padder { padding: 1em; }
-	/*ul#menu a { font-size: 0.8em;}*/
+	ul#menu { font-family: "Helvetica Neue", sans-serif; }
 }
 @media (max-width: 700px), (max-device-width: 700px) {
 	/*#controls { width: 70%; }*/
