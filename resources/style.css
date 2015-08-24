@@ -334,7 +334,7 @@ ul.solarsystem li.mercury {
 	margin-top: -14em;
 	left: -14em;
 	z-index: 99;
-	border-color: #f18500;
+	border-color: rgba(241,133,0,0.5);
 }
 ul.solarsystem li.mercury span {
 	background: #f18500;
@@ -347,7 +347,7 @@ ul.solarsystem li.venus {
 	margin-top: -16em;
 	left: -16em;
 	z-index: 98;
-	border-color: #22a1d3;
+	border-color: rgba(34,161,211,0.5);
 }
 ul.solarsystem li.venus span {
 	background: #22a1d3;
@@ -360,7 +360,7 @@ ul.solarsystem li.earth {
 	margin-top: -18em;
 	left: -18em;
 	z-index: 97;
-	border-color: #229838;
+	border-color: rgba(34,152,56,0.5);
 }
 ul.solarsystem li.earth span {
 	background: #229838;
@@ -383,7 +383,7 @@ ul.solarsystem li.mars {
 	margin-top: -20em;
 	left: -20em;
 	z-index: 96;
-	border-color: #e63322;
+	border-color: rgba(230,51,34,0.5);
 }
 ul.solarsystem li.mars span {
 	background: #e63322;
@@ -396,7 +396,7 @@ ul.solarsystem li.jupiter {
 	margin-top: -22em;
 	left: -22em;
 	z-index: 95;
-	border-color: #c2c700;
+	border-color: rgba(194,199,0,0.5);
 }
 ul.solarsystem li.jupiter span {
 	background: #c2c700;
@@ -411,7 +411,7 @@ ul.solarsystem li.saturn {
 	margin-top: -24em;
 	left: -24em;
 	z-index: 94;
-	border-color: #b91b5f;
+	border-color: rgba(185,27,95,0.5);
 }
 ul.solarsystem li.saturn span {
 	background: #b91b5f;
@@ -426,7 +426,7 @@ ul.solarsystem li.uranus {
 	margin-top: -26em;
 	left: -26em;
 	z-index: 93;
-	border-color: #7465ab;
+	border-color: rgba(116,101,171,0.5);
 }
 ul.solarsystem li.uranus span {
 	background: #7465ab;
@@ -441,7 +441,7 @@ ul.solarsystem li.neptune {
 	margin-top: -28em;
 	left: -28em;
 	z-index: 92;
-	border-color: #62b6ac;
+	border-color: rgba(98,182,172,0.5);
 }
 ul.solarsystem li.neptune span {
 	background: #62b6ac;
