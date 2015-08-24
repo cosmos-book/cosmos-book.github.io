@@ -143,6 +143,27 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 .tooltip .tooltip_close { text-align: center; margin-bottom: 1em; }
 
 
+/* form toggle */
+.toggleinput { vertical-align: middle; }
+.toggle-label1, .toggle-label2 { display: inline; position: relative; cursor: pointer; }
+.toggle-bg { display: inline-block; }
+.toggle-label1 { margin-right: 5px; }
+.toggle-label2 { margin-left: 5px; }
+.toggle-bg { background: #cccccc; border-radius: 1em;	 box-shadow: inset 0 0 3px rgba(0,0,0,0.4), inset 0 10px 0px rgba(0,0,0,0.05); position: relative; cursor: pointer; white-space: nowrap; }
+.toggle-bg input { height: 1.25em; left: 0; margin: 0; /* Reset the margins and padding */ opacity: 0.0; /* Invisible! */ padding: 0; position: absolute; top: 0; z-index: 2; 	/*IE*/ 	zoom: 1; 	filter: alpha(opacity=0); cursor: pointer; }
+/* As we are hiding the radio buttons we will make the switch glow when the radio button receives focus. We need to use some sibling selectors. */
+.toggle-bg input:focus + .switch, .toggle-bg input:focus + input + .switch, .toggle-bg input:hover + .switch, .toggle-bg input:hover + input + .switch { box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2, 0 0 4px 2px #3366dd; }
+.switch{ cursor: pointer; background: #ffffff; border-radius: 1em; box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2; display: inline-block; left: -1px; /* This is the starting point. When adding a border radius, a small bit of the background is shown if we use left: 0;, so -1px is best.*/ position: absolute; top: 0; /* ...To keep it centered vertically */ transition: left .25s ease; z-index: 1; /* Remember, it must be below the invisible inputs */ }
+.toggler { height: 1.25em;}
+.toggler.checked .switch { left: -1px; } /* initial toggle position */
+.toggler.checked .switch { left: 1.25em; } /* final relative toggle position */
+.toggle-bg input:checked{ z-index: 0; }
+.toggle-bg, .toggle-bg input, .switch, .toggleinput label { height: 1.25em; }
+.toggle-bg, .toggle-bg input { width: 2.5em; }
+.toggle-label1, .toggle-label2 { top: -0.25em; }
+.switch { width: 1.25em; }
+
+
 a.repo {
 	display: inline-block;
 	margin-top: 8px;
