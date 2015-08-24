@@ -30,12 +30,14 @@ $(document).ready(function(){
 		// Add toggles for each category
 		$('table.periodic').before('<ul class="key"></ul>');
 		for(c in categories){
-			$('.key').append('<li class="keyitem" style="margin-right:2em;text-align:center;" id="toggle_'+c+'"><div style="float: left;line-height: 1.25em;margin-right: 0.25em;">'+categories[c].name+'</div></li>');
-			toggles.addTo($('#toggle_'+c),c,{
+			$('.key').append('<li class="keyitem" style="margin-right:2em;text-align:center;" id="'+c+'"><div class="keylabel" style="float: left;line-height: 1.25em;margin-right: 0.25em;">'+categories[c].name+'</div></li>');
+			toggles.addTo($('#'+c),c,{
 				"off": {"label":"off","checked": true }, 
 				"on": { "label":"on" }
 			});
 		}
+		$(document).on('click','.keylabel',function(){ toggles.toggle($(this).parent().attr('id')) });
+
 
 		// Switch the Big Bang on
 		toggles.change('big_bang','on');
@@ -106,6 +108,13 @@ $(document).ready(function(){
 			updatePeriodicTable();
 		});
 
+		return this;
+	}
+
+	Toggler.prototype.toggle = function(id){
+		var t = this.toggles[id];
+		if(!t) return this;
+		$('#'+t.states['on'].id).trigger('click').closest('.toggler').trigger('click');
 		return this;
 	}
 
