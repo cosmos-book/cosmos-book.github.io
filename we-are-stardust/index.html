@@ -21,10 +21,13 @@
 		table.periodic td.life { border-color: #b72268; }
 		table.periodic td.formed { background-color: #af99c8; }
 		body.STA .toggler.checked .toggle-bg { background-color: #af99c8; }
-		form { display: inline-block; }
+		form { display: inline-block; margin: 0px; }
 		.toggle-label1,.toggle-label2 { display: none; }
 		li.keyitem { margin-right: 2em; text-align:center; }
-		li.keyitem .keylabel { cursor: pointer; }
+		li.keyitem .keylabel { cursor: pointer; float: left;line-height: 1.25em;margin-right: 0.25em; }
+		li.keyitem .keysymbol { width: 1em; height: 1em; float: left; margin-right: 0.25em; border: 1px solid #fee7dd; }
+		li.keyitem .life { border-color: #b72268; }
+		li.keyitem .formed { background-color: #af99c8; }
 		@media only screen and (max-width: 1200px){
 			.symbol { font-size: 1.2em; }
 		}

@@ -23,19 +23,24 @@ $(document).ready(function(){
 			var td = $('#'+table[i].symbol).parent();
 			for(var j = 0; j < table[i].created.length; j++){
 				var tmp = table[i].created[j].toLowerCase().replace(' ','_');
-				if(tmp && !categories[tmp]) categories[tmp] = {'name':table[i].created[j]};
+				if(tmp){
+					if(!categories[tmp]) categories[tmp] = {'name':table[i].created[j]};
+					table[i].created[j] = tmp;
+				}
 			}
 		}
 		
 		// Add toggles for each category
 		$('table.periodic').before('<ul class="key"></ul>');
 		for(c in categories){
-			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel" style="float: left;line-height: 1.25em;margin-right: 0.25em;">'+categories[c].name+'</div></li>');
+			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel">'+categories[c].name+'</div></li>');
 			toggles.addTo($('#'+c),c,{
 				"off": {"label":"off","checked": true }, 
 				"on": { "label":"on" }
 			});
 		}
+		$('.key').append('<li class="keyitem"><div class="keysymbol life"></div><div class="keylabel">Essential to life</div><form><div class="toggleinput toggler"></div></form></li>');
+		$('.key').append('<li class="keyitem"><div class="keysymbol formed"></div><div class="keylabel">Formed</div><form><div class="toggleinput toggler"></div></form></li>');
 		$(document).on('click','.keylabel',function(){ toggles.toggle($(this).parent().attr('id')) });
 
 
@@ -129,15 +134,14 @@ $(document).ready(function(){
 
 
 	function updatePeriodicTable(){
+		var td,ok,i,j,c;
 		for(c in categories) categories[c].val = toggles.val(c);
 
-		for(var i = 0; i < table.length; i++){
-			var td = $('#'+table[i].symbol).parent();
-			var ok = false;
-			for(var j = 0; j < table[i].created.length; j++){
-				var tmp = table[i].created[j].toLowerCase();
-				tmp = tmp.replace(' ','_');
-				if(tmp && categories[tmp].val=="on"){
+		for(i = 0; i < table.length; i++){
+			td = $('#'+table[i].symbol).parent();
+			ok = false;
+			for(j = 0; j < table[i].created.length; j++){
+				if(table[i].created[j] && categories[table[i].created[j]].val=="on"){
 					ok = true;
 					break;
 				}
