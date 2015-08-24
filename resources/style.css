@@ -149,7 +149,7 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 .toggle-bg { display: inline-block; }
 .toggle-label1 { margin-right: 5px; }
 .toggle-label2 { margin-left: 5px; }
-.toggle-bg { background: #cccccc; border-radius: 1em;	 box-shadow: inset 0 0 3px rgba(0,0,0,0.4), inset 0 10px 0px rgba(0,0,0,0.05); position: relative; cursor: pointer; white-space: nowrap; }
+.toggle-bg { background: #cccccc; border-radius: 1em; box-shadow: inset 0 0 3px rgba(0,0,0,0.4), inset 0 10px 0px rgba(0,0,0,0.05); position: relative; cursor: pointer; white-space: nowrap;  }
 .toggle-bg input { height: 1.25em; left: 0; margin: 0; /* Reset the margins and padding */ opacity: 0.0; /* Invisible! */ padding: 0; position: absolute; top: 0; z-index: 2; 	/*IE*/ 	zoom: 1; 	filter: alpha(opacity=0); cursor: pointer; }
 /* As we are hiding the radio buttons we will make the switch glow when the radio button receives focus. We need to use some sibling selectors. */
 .toggle-bg input:focus + .switch, .toggle-bg input:focus + input + .switch, .toggle-bg input:hover + .switch, .toggle-bg input:hover + input + .switch { box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2, 0 0 4px 2px #3366dd; }
@@ -162,6 +162,18 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 .toggle-bg, .toggle-bg input { width: 2.5em; }
 .toggle-label1, .toggle-label2 { top: -0.25em; }
 .switch { width: 1.25em; }
+
+body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.COS .toggler.checked .toggle-bg { background-color: #7d71b4; }
+body.ETL .toggler.checked .toggle-bg { background-color: #dce57d; }
+body.EXO .toggler.checked .toggle-bg { background-color: #8a84bf; }
+body.EXP .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.GAL .toggler.checked .toggle-bg { background-color: #dce57d; }
+body.OTH .toggler.checked .toggle-bg { background-color: #a8dbd5; }
+body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.SOL .toggler.checked .toggle-bg { background-color: #48c7e9; }
+body.SUN .toggler.checked .toggle-bg { background-color: #fff200; }
+body.TEL .toggler.checked .toggle-bg { background-color: #67c18d; }
 
 
 a.repo {
@@ -192,18 +204,6 @@ a.button { text-decoration: none; color: black!important; }
 	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);	
 }
-/*
-body.COS .button { background-color: #7d71b4; border-color: #662d8f; }
-body.ETL .button { background-color: #dce57d; border-color: #b6c727; }
-body.EXO .button { background-color: #8a84bf; border-color: #4f4c9a; }
-body.EXP .button { background-color: #f68d69; border-color: #f04031; }
-body.GAL .button { background-color: #dce57d; border-color: #b6c727; }
-body.OTH .button { background-color: #a8dbd5; border-color: #57b7aa; }
-body.STA .button { background-color: #f68d69; border-color: #f04031; }
-body.SOL .button { background-color: #48c7e9; border-color: #00a2d3; }
-body.SUN .button { background-color: #fff200; border-color: #ffcb06; }
-body.TEL .button { background-color: #67c18d; border-color: #02a24b; }
-*/
 body .button:active {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
