@@ -114,7 +114,8 @@ $(document).ready(function(){
 	Toggler.prototype.toggle = function(id){
 		var t = this.toggles[id];
 		if(!t) return this;
-		$('#'+t.states['on'].id).trigger('click').closest('.toggler').trigger('click');
+		if(t.states['off'].checked) $('#'+t.states['on'].id).trigger('click').closest('.toggler').trigger('click');
+		else $('#'+t.states['off'].id).trigger('click').closest('.toggler').trigger('click');
 		return this;
 	}
 
