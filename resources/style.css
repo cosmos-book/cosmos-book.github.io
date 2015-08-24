@@ -198,6 +198,7 @@ a.button { text-decoration: none; color: black!important; }
 	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);	
 }
+/*
 body.COS .button { background-color: #7d71b4; border-color: #662d8f; }
 body.ETL .button { background-color: #dce57d; border-color: #b6c727; }
 body.EXO .button { background-color: #8a84bf; border-color: #4f4c9a; }
@@ -208,6 +209,7 @@ body.STA .button { background-color: #f68d69; border-color: #f04031; }
 body.SOL .button { background-color: #48c7e9; border-color: #00a2d3; }
 body.SUN .button { background-color: #fff200; border-color: #ffcb06; }
 body.TEL .button { background-color: #67c18d; border-color: #02a24b; }
+*/
 body .button:active {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
