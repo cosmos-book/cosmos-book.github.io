@@ -23,7 +23,8 @@
 		body.STA .toggler.checked .toggle-bg { background-color: #af99c8; }
 		form { display: inline-block; }
 		.toggle-label1,.toggle-label2 { display: none; }
-		.keylabel { cursor: pointer; }
+		li.keyitem { margin-right: 2em; text-align:center; }
+		li.keyitem .keylabel { cursor: pointer; }
 		@media only screen and (max-width: 1200px){
 			.symbol { font-size: 1.2em; }
 		}
@@ -38,6 +39,9 @@
 			.name{ display: none; }
 			table.periodic { border-spacing: 0px; }
 			table.periodic td { padding: 0px; }
+			ul.key { width: auto; display: block; }
+			li.keyitem { display: block; line-height: 1.5em; margin-right: 0; text-align: right; }
+			li.keyitem .keylabel { float: left; }
 		}
 	</style>
 </head>

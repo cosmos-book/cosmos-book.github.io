@@ -30,7 +30,7 @@ $(document).ready(function(){
 		// Add toggles for each category
 		$('table.periodic').before('<ul class="key"></ul>');
 		for(c in categories){
-			$('.key').append('<li class="keyitem" style="margin-right:2em;text-align:center;" id="'+c+'"><div class="keylabel" style="float: left;line-height: 1.25em;margin-right: 0.25em;">'+categories[c].name+'</div></li>');
+			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel" style="float: left;line-height: 1.25em;margin-right: 0.25em;">'+categories[c].name+'</div></li>');
 			toggles.addTo($('#'+c),c,{
 				"off": {"label":"off","checked": true }, 
 				"on": { "label":"on" }
