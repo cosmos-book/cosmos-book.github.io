@@ -13,17 +13,14 @@ $(document).ready(function(){
 		var launch,land;
 		var html = "";
 		var start = new Date('1961-01-01T00:00:00Z');
-		var end = new Date('2014-01-01T00:00:00Z');
-		var now = new Date();
-		end = new Date();
+		var end = new Date();
 		var tmp = new Date();
 		tmp.setMonth(0);
 		tmp.setDate(1);
-		var yfrac = (now-tmp)/(86400000*365.25);
-
-
+		// Find the fraction we are into the current year
+		var yfrac = ((new Date())-tmp)/(86400000*365.25);
+		// Define the scale of the timeline
 		var scale = 1/(end-start);
-		var w = $('.human').outerWidth();
 		var wide = app.width();
 		var tall = app.height();
 		
@@ -77,22 +74,22 @@ $(document).ready(function(){
 			}
 		}
 		nmax++;
-		for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>'
+		for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>';
 
 		app.append('<div class="data">'+html+'<\/div>');
 		app.append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 		app.append('<div class="labels">'+makeLabels(end,start,labels)+'<\/div>');
 		app.parent().scrollLeft(wide);
 
-
+		// We provide a ";" separated list of values and format them into a nice, comma-separated string
+		// We can provide an optional "lookup" array to replace 
 		function formatArray(str,lookup){
 			// Split into array
 			var arr = (typeof str==="string") ? str.split(/;/) : str;
 			str = "";
 			for(var i = 0 ; i < arr.length; i++){
 				if(str) str += ", ";
-				if(lookup) str += lookup[arr[i]];
-				else str += arr[i];
+				str += (lookup) ? (lookup[arr[i]].indexOf(', ') > 0 ? lookup[arr[i]].substr(lookup[arr[i]].indexOf(', ')+2)+' '+lookup[arr[i]].substring(0,lookup[arr[i]].indexOf(', ')) : lookup[arr[i]]) : arr[i];
 			}
 			return str;
 		}
@@ -110,7 +107,9 @@ $(document).ready(function(){
 				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
 				text += '<tr><td>Trips to space:<\/td><td>'+a.periods.length+'<\/td><\/tr>';
-				text += '<tr><td>This mission:<\/td><td>'+a.launch.toLocaleDateString()+' - '+(a.land ? a.land.toLocaleDateString() : '')+'<\/td><\/tr>';
+				var start = a.launch.toLocaleDateString();
+				var end = (a.land ? a.land.toLocaleDateString() : '');
+				text += '<tr><td>This mission:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 				return text;
@@ -131,16 +130,12 @@ $(document).ready(function(){
 	$('.noscript').hide();
 
 	function makeGridLines(mx,mn){
-		var html = "";
-		var x;
-
-		// The age at first launch with a grid spacing of 1 year
-		var step = 1;
+		var step = 1;		// A grid spacing of 1 year
 		var a = Math.ceil(mn/step)*step;
 		var b = Math.floor(mx/step)*step;
-		for(var i = a; i <= b; i+=step){
-			html += '<div class="gridline" style="'+'left:'+(100*((i-mn)/(mx-mn)))+'%"><span class="label">'+(i)+'<\/span><\/div>';
-		}
+		var html = "";
+
+		for(var i = a; i <= b; i+=step) html += '<div class="gridline" style="'+'left:'+(100*((i-mn)/(mx-mn)))+'%"><span class="label">'+(i)+'<\/span><\/div>';
 
 		return html;
 	}
