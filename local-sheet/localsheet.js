@@ -10,6 +10,7 @@ r(function(){
 	var h = w*(1250/1909);
 	var mid = {'x': w/2,'y':h/2};
 	var url = getDataPath('#data');
+	var morph = { '-6':'Compact elliptical','-5':'Elliptical','-4':'Elliptical','-3':'Early lenticular','-2':'Lenticular','-1':'Late lenticular','0':'Spherical','1':'Spiral with tightly wrapped arms','2':'Tightly wrapped barred spiral','3':'Barred spiral','4':'Loosely wrapped barred spiral','5':'Loosely wrapped spiral','6':'Diffuse, loose, broken spiral arms','7':'Diffuse broken spiral arms with small bulge','8':'Irregular spiral','9':'Irregular','10':'Magellanic irregular', '11':'Compact' }
 
 	$('#holder').html('').css({'width':w+'px','height':h+'px'});
 	var paper = Raphael("holder", w, h);
@@ -31,7 +32,7 @@ r(function(){
 	var showlabels = true;
 	
 
-	$('form').prepend('<label for="inclination">Inclination:</label><input type="text" id="inclination" name="inclination" value="'+inclination+'" style="width: 3em;"/><button id="rotate_d" class="button">&darr;</button><button id="rotate_u" class="button">&uarr;</button><label for="rotation">Rotation:</label><input type="text" id="rotation" name="rotation" value="'+rotation+'" style="width: 3em;" /><button id="rotate_c" class="button">&larr;</button><button id="rotate_a" class="button">&rarr;</button><button id="toggle_animation" class="button">Spin</button>');
+	$('form').prepend('<label for="inclination">Inclination:</label><input type="text" id="inclination" name="inclination" value="'+inclination+'" style="width: 3em;"/><button id="rotate_d" class="button">&darr;</button><button id="rotate_u" class="button">&uarr;</button><label for="rotation">Rotation:</label><input type="text" id="rotation" name="rotation" value="'+rotation+'" style="width: 3em;" /><button id="rotate_c" class="button">&larr;</button><button id="rotate_a" class="button">&rarr;</button><button id="toggle_animation" class="button">Rotate view</button>');
 	$('#rotate_c').on('click',function(e){ e.preventDefault(); rotate(-5); });
 	$('#rotate_u').on('click',function(e){ e.preventDefault(); tilt(-5); });
 	$('#rotate_d').on('click',function(e){ e.preventDefault(); tilt(5); });
@@ -59,7 +60,7 @@ r(function(){
 			{'name':'z','format':'number'},
 			{'name':'l','format':'number'},
 			{'name':'b','format':'number'},
-			{'name':'morph','format':'string'},
+			{'name':'morph','format':'number'},
 			{'name':'v','format':'number'},
 			{'name':'tau','format':'number'},
 			{'name':'dist','format':'number'},
@@ -115,11 +116,13 @@ r(function(){
 				// angmom_b = Latitude of the angular momentum vector (deg)
 
 				var text = '<div><\/div><h3>'+a.name+'<\/h3><table>';
-				text += '<tr><td>Distance:<\/td><td>'+(a.distance/lyr2pc).toFixed(3)+' Mlyr<\/td><\/tr>';
+				text += '<tr><td>Distance:<\/td><td>'+(a.distance/lyr2pc).toFixed(2)+' Mlyr<\/td><\/tr>';
 				text += '<tr><td>Mass:<\/td><td>'+formatNumber(a.logmass)+' solar<\/td><\/tr>';
 				text += '<tr><td>Supergalactic lon:<\/td><td>'+a.l+'&deg;<\/td><\/tr>';
 				text += '<tr><td>Supergalactic lat:<\/td><td>'+a.b+'&deg;<\/td><\/tr>';
-				text += '<tr><td>B-V:<\/td><td>'+a['b-v']+'<\/td><\/tr>';
+				text += '<tr><td>Type:<\/td><td>'+morph[(a.morph).toFixed(0)]+'<\/td><\/tr>';
+				//text += '<tr><td>Rotational velocity:<\/td><td>'+a['v_rot']+' km/s<\/td><\/tr>';
+				//text += '<tr><td>B-V:<\/td><td>'+a['b-v']+'<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/localsheet/data/localsheet.csv" class="repo">data file<\/a>';
 				return text;
