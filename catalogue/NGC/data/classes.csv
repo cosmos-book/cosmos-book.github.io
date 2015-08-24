@@ -1,0 +1,221 @@
+Key,Explanation
+?,Object of unknown nature
+??,Lost Object of unknown nature
+Rad,Radio-source
+mR,metric Radio-source
+cm,centimetric Radio-source
+mm,millimetric Radio-source
+smm,sub-millimetric source
+HI,HI (21cm) source
+rB,radio Burst
+Mas,Maser
+IR,Infra-Red source
+FIR,Far-IR source (&lambda; >= 30 &micro;m)
+NIR,Near-IR source (&lambda; < 10 &micro;m)
+red,Very red source
+ERO,Extremely Red Object
+blu,Blue object
+UV,UV-emission source
+X,X-ray source
+UX?,Ultra-luminous X-ray candidate
+ULX,Ultra-luminous X-ray source
+gam,gamma-ray source
+gB,gamma-ray Burst
+?!?,Inexistent objects
+err,Not an object (artefact)
+grv,Gravitational Source
+Lev,(Micro)Lensing Event
+Le?,Possible gravitational lens
+LI?,Possible gravitationally lensed image
+gLe,Gravitational Lens
+..?,Candidate objects
+SC?,Possible Supercluster of Galaxies
+Cl?,Possible Cluster of Galaxies
+Gr?,Possible Group of Galaxies
+***,Group of stars
+**?,Interacting Binary Candidate
+*-*,Binary Stars
+EB?,Eclipsing Binary Candidate
+CV?,Cataclysmic Binary Candidate
+XB?,X-ray binary Candidate
+LX?,Low-Mass X-ray binary Candidate
+HX?,High-Mass X-ray binary Candidate
+Pec?,Possible Peculiar Star
+Y*?,Young Stellar Object Candidate
+pr?,Pre-main sequence Star Candidate
+TT?,T Tau star Candidate
+C*?,Possible Carbon Star
+S*?,Possible S Star
+OH?,Possible Star with envelope of OH/IR type
+CH?,Possible Star with envelope of CH type
+WR?,Possible Wolf-Rayet Star
+Be?,Possible Be Star
+HB?,Possible Horizontal Branch Star
+RB?,Possible Red Giant Branch Star
+sg?,Possible Red Supergiant Star
+AB?,Possible Asymptotic Giant Branch Star
+pA?,Post-AGB Star Candidate
+BS?,Candidate blue Straggler Star
+WD?,White Dwarf Candidate
+N*?,Neutron Star Candidate
+BH?,Black Hole Candidate
+SN?,SuperNova Candidate
+LM?,Low-mass star candidate
+BD?,Brown Dwarf Candidate
+mul,Composite object
+reg,Region defined in the sky
+vid,Underdense region of the Universe
+SCG,Supercluster of Galaxies
+ClG,Cluster of Galaxies
+GrG,Group of Galaxies
+CGG,Compact Group of Galaxies
+PaG,Pair of Galaxies
+IG,Interacting Galaxies
+Gl?,Possible Globular Cluster
+Cl*,Cluster of Stars
+GlC,Globular Cluster
+OpC,Open (galactic) Cluster
+As*,Association of Stars
+**,Double or multiple star
+EB*,Eclipsing binary
+Al*,Eclipsing binary of Algol type
+bL*,Eclipsing binary of beta Lyr type
+WU*,Eclipsing binary of W UMa type
+EP*,Star showing eclipses by its planet
+SB*,Spectroscopic binary
+CV*,Cataclysmic Variable Star
+DQ*,Cataclysmic Var. DQ Her type
+AM*,Cataclysmic Var. AM Her type
+NL*,Nova-like Star
+No*,Nova
+DN*,Dwarf Nova
+XB*,X-ray Binary
+LXB,Low Mass X-ray Binary
+HXB,High Mass X-ray Binary
+ISM,Insterstellar matter
+PoC,Part of Cloud
+PN?,Possible Planetary Nebula
+CGb,Cometary Globule
+bub,Bubble
+EmO,Emission Object
+Cld,Cloud of unknown nature
+GNe,Galactic Nebula
+BNe,Bright Nebula
+DNe,Dark Nebula
+RNe,Reflection Nebula
+HI,HI (neutral) region
+MoC,Molecular Cloud
+glb,Globule (low-mass dark cloud)
+cor,Dense core inside a molecular cloud
+HVC,High-velocity Cloud
+HII,HII (ionized) region
+PN,Planetary Nebula
+sh,HI shell
+SR?,SuperNova Remnant Candidate
+SNR,SuperNova Remnant
+cir,CircumStellar matter
+of?,Outflow candidate
+out,Outflow
+HH,Herbig-Haro Object
+*,Star
+*iC,Star in Cluster
+*iN,Star in Nebula
+*iA,Star in Association
+*i*,Star in double system
+V*?,Star suspected of Variability
+Pe*,Peculiar Star
+HB*,Horizontal Branch Star
+Y*O,Young Stellar Object
+Em*,Emission-line Star
+Be*,Be Star
+BS*,Blue Straggler Star
+RG*,Red Giant Branch star
+AB*,Asymptotic Giant Branch Star
+C*,Carbon Star
+S*,S Star
+sg*,Red supergiant star
+pA*,Post-AGB Star
+WD*,White Dwarf
+ZZ*,Pulsating White Dwarf
+LM*,Low-mass star (M<1solMass)
+BD*,Brown Dwarf (M<0.08solMass)
+OH*,Star with envelope of OH/IR type
+CH*,Star with envelope of CH type
+pr*,Pre-main sequence Star (optically detected)
+TT*,T Tau-type Star
+WR*,Wolf-Rayet Star
+PM*,High proper-motion Star
+HV*,High-velocity Star
+V*,Variable Star
+Ir*,Variable Star of irregular type
+Or*,Variable Star of Orion Type
+RI*,Variable Star with rapid variations
+Er*,Eruptive variable Star
+Fl*,Flare Star
+FU*,Variable Star of FU Ori type
+RC*,Variable Star of R CrB type
+Ro*,Rotationally variable Star
+a2*,Variable Star of alpha2 CVn type
+El*,Ellipsoidal variable Star
+Psr,Pulsar
+BY*,Variable of BY Dra type
+RS*,Variable of RS CVn type
+Pu*,Pulsating variable Star
+RR*,Variable Star of RR Lyr type
+Ce*,Cepheid variable Star
+dS*,Variable Star of delta Sct type
+RV*,Variable Star of RV Tau type
+WV*,Variable Star of W Vir type
+bC*,Variable Star of beta Cep type
+cC*,Classical Cepheid (delta Cep type)
+gD*,Variable Star of gamma Dor type
+SX*,Variable Star of SX Phe type (subdwarf)
+LP*,Long-period variable star
+Mi*,Variable Star of Mira Cet type
+sr*,Semi-regular pulsating Star
+SN*,SuperNova
+Sy*,Symbiotic Star
+su*,Sub-stellar object
+Pl?,Extra-solar Planet Candidate
+G,Galaxy
+PoG,Part of a Galaxy
+GiC,Galaxy in Cluster of Galaxies
+BiC,Brightest galaxy in a Cluster (BCG)
+GiG,Galaxy in Group of Galaxies
+GiP,Galaxy in Pair of Galaxies
+HzG,Galaxy with high redshift
+ALS,Absorption Line system
+LyA,Ly alpha Absorption Line system
+DLA,Damped Ly-alpha Absorption Line system
+mAL,metallic Absorption Line system
+LLS,Lyman limit system
+BAL,Broad Absorption Line system
+rG,Radio Galaxy
+H2G,HII Galaxy
+LSB,Low Surface Brightness Galaxy
+AG?,Possible Active Galaxy Nucleus
+Q?,Possible Quasar
+Bz?,Possible Blazar
+BL?,Possible BL Lac
+EmG,Emission-line galaxy
+SBG,Starburst Galaxy
+BCG,Blue compact Galaxy
+LeI,Gravitationally Lensed Image
+LeG,Gravitationally Lensed Image of a Galaxy
+LeQ,Gravitationally Lensed Image of a Quasar
+AGN,Active Galaxy Nucleus
+LIN,LINER-type Active Galaxy Nucleus
+SyG,Seyfert Galaxy
+Sy1,Seyfert 1 Galaxy
+Sy2,Seyfert 2 Galaxy
+Bla,Blazar
+BLL,BL Lac - type object
+OVV,Optically Violently Variable object
+QSO,Quasar
+S0,Lenticular Galaxy
+SB,Barred Galaxy
+S..,Spiral Galaxy
+E,Elliptical Galaxy
+SA0,Ring Galaxy
+Irr,Irregular Galaxy
+d,Dwarf Galaxy
