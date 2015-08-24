@@ -138,7 +138,7 @@ $(document).ready(function(){
 		for(c in categories) categories[c].val = toggles.val(c);
 
 		for(i = 0; i < table.length; i++){
-			td = $('#'+table[i].symbol).parent();
+			if(!table[i].td) table[i].td = $('#'+table[i].symbol).parent();
 			ok = false;
 			for(j = 0; j < table[i].created.length; j++){
 				if(table[i].created[j] && categories[table[i].created[j]].val=="on"){
@@ -146,8 +146,8 @@ $(document).ready(function(){
 					break;
 				}
 			}
-			if(ok) td.addClass('formed');
-			else td.removeClass('formed')
+			if(ok) table[i].td.addClass('formed');
+			else table[i].td.removeClass('formed')
 		}
 	}
 })
