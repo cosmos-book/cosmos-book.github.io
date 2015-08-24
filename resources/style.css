@@ -78,7 +78,7 @@ body.TEL a { color: #0ab26b; }
 body.TEL a:visited, body.TEL #header a:hover, body.TEL #header a:focus { color: #02a24b; }
 body.TEL #footer a { color: #67c18d; }
 
-ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; padding: 0px; }
+ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0.1em; padding: 0px; font-family: "Menlo Regular", monospace, sans-serif; }
 ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 #header a { color: inherit; }
 
@@ -90,10 +90,9 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 #container { width: 100%; display: block; position: absolute; top: 0px; bottom: 0px; z-index: 100; }
 #main { height: 100%; width: 100%; display: table; position: relative; }
 #header { height: 2em; background-color: white; /*position: fixed; right: 0px; left: 0px; top: 0px;*/ border-bottom: 1px solid #e8e8e8; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); /*z-index: 1000;*/ }
-#header .padder { /*display: block;*/ }
 #header, #content { display: table-row; }
 #header, #footer { text-align: left; }
-#header .padder { padding: 12px 24px;  }
+#header .padder { padding: 12px 24px; line-height: 1.2em; }
 #content { text-align: left; position: relative; padding: 48px 48px; }
 #footer { min-height: 10em; background-color: #616265; color: #efefef; }
 .holder { position: absolute; height: 100%; width: 100%; }
