@@ -9,8 +9,8 @@ references:
   - http://www.spacefacts.de/bios/international/english/garneau_marc.htm
 missions:
   - name: STS-41G
-    time_start:   
-    time_end:     
+    time_start:   1984-10-05T11:03Z
+    time_end:     1984-10-13T16:26:33Z
   - name: STS-77
     time_start:   1996-05-19T10:30Z
     time_end:     1996-05-29T11:09:19Z

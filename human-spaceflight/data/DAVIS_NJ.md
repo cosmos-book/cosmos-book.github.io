@@ -10,9 +10,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: STS-47on Endeavour
-    time_start:   
-    time_end:     
+  - name: STS-47
+    time_start:   1992-09-12T14:23:00Z
+    time_end:     1992-09-20T12:53:25Z
   - name: STS-60
     time_start:   1994-02-03T12:10Z
     time_end:     1994-02-11T19:19:23Z

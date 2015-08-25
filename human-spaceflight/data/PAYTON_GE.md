@@ -9,8 +9,8 @@ references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
   - name: STS-51C
-    time_start:   
-    time_end:     
+    time_start:   1985-01-24T19:50:00Z
+    time_end:     1985-01-27T21:23:23Z
 evas:
 gender:	Male
 country:

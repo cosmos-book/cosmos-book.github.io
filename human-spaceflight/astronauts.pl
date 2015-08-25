@@ -76,6 +76,7 @@ foreach $file (sort(@files)){
 	$longesttrip = 0;
 	$launches = 0;
 	$land = "";
+	$mname = "";
 	$reset = 0;
 	$json_mission = "";
 	$json_missionname = "";
@@ -120,11 +121,15 @@ foreach $file (sort(@files)){
 							print "$name seems to be $age years old at first launch\n";
 						}
 					}
+				}else{
+					#print "$name has no start time for $mname (may need checking)\n";
 				}
 			}elsif($line =~ /time_end:[\t\s]*([^\n\r]*)/){
 				$t2 = $1;
 				if($t2){
 					$land = $t2;
+				}else{
+					#print "$name has no end time for $mname (may need checking)\n";
 				}
 			}else{
 				if(!$land && $launch){

@@ -9,8 +9,8 @@ references:
   - http://www.spacefacts.de/bios/international/english/baudry_patrick.htm
 missions:
   - name: STS-51G
-    time_start:   
-    time_end:     
+    time_start:   1985-06-17T11:33:00Z
+    time_end:     1985-06-24T13:11:52Z
 evas:
 gender:	Male
 ---

@@ -8,9 +8,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: ASTP
-    time_start:   
-    time_end:     
+  - name: Apollo-Soyuz (Apollo)
+    time_start:   1975-07-15T19:50:00Z
+    time_end:     1975-07-24T21:18:00Z
   - name: STS-5
     time_start:   1982-11-11T12:19Z
     time_end:     1982-11-16T14:33:27Z

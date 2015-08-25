@@ -9,9 +9,12 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Expedition 20: STS-127 Endeavour(up) and STS-128 Discovery(down)
-    time_start:   
+  - name:	STS-127 Endeavour
+    time_start:   2009-07-15T22:03Z
     time_end:     
+  - name:	STS-128 Discovery
+    time_start:   
+    time_end:     2009-07-31T14:48Z
 evas:
   - time_start: 
     duration:   5h2m
