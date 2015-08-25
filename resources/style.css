@@ -464,7 +464,7 @@ ul.solarsystem li.earth span {
 ul.solarsystem li.mercury {-webkit-animation-duration:6s; -moz-animation-duration:6s; animation-duration: 6s; animation-delay: -2.5s;}
 ul.solarsystem li.venus {-webkit-animation-duration:9.2s; -moz-animation-duration:9.2s;animation-duration:9.2s; animation-delay: -3s;}
 ul.solarsystem li.earth {-webkit-animation-duration:15s; -moz-animation-duration:15s;animation-duration:15s;animation-delay: -2.5s;}
-ul.solarsystem li.earth span {-webkit-animation-duration:1.9s; -moz-animation-duration:1.9s;animation-duration:1.9s;}
+ul.solarsystem li.earth span {-webkit-animation-duration:1.15s; -moz-animation-duration:1.15s;animation-duration:1.15s;}
 ul.solarsystem li.mars {-webkit-animation-duration:22.86s; -moz-animation-duration:22.86s;animation-duration:22.86s;animation-delay:-8.6s;}
 ul.solarsystem li.jupiter {-webkit-animation-duration:75.375s; -moz-animation-duration:75.375s;animation-duration:75.375s;animation-delay:-21s;}
 ul.solarsystem li.saturn {-webkit-animation-duration:143s; -moz-animation-duration:143s;animation-duration:143s;animation-delay:-35.75s;}
