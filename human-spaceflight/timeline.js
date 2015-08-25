@@ -111,7 +111,7 @@ $(document).ready(function(){
 				var end = (a.land ? a.land.toLocaleDateString() : '');
 				text += '<tr><td>This mission:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<\/td><\/tr>';
 				text += '<\/table>';
-				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/humanspaceflight/data/'+a.file+'" class="repo">data file<\/a>';
+				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 				return text;
 			}
 		});
