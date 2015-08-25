@@ -7,9 +7,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
-  - name: Gemini 6
-    time_start:   
-    time_end:     
+  - name: Gemini 6A
+    time_start:   1965-12-15T13:37:26Z
+    time_end:     1965-12-16T15:28:51Z
   - name: Gemini 9
     time_start:   1966-06-03T13:39:33Z
     time_end:     1966-06-06T14:00:24Z
