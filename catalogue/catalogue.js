@@ -334,7 +334,7 @@
 				a = _obj.catalogue[id];
 				
 				var text = '<h3>'+(a.object.indexOf(_obj.label)==0 ? '' : _obj.label)+a.object+'<\/h3><table>';
-				text += '<tr><td style="text-align:center;">'+(classes[a.avmtype] ? classes[a.avmtype] : '')+'<\/td><\/tr>';
+				text += '<tr><td style="text-align:center;">'+(classes[a.avmtype] ? classes[a.avmtype] : a.avmtype)+'<\/td><\/tr>';
 				//text += '<tr><td>RA:<\/td><td>'+a.ra.toFixed(5)+'<\/td><\/tr>';
 				//text += '<tr><td>Declination:<\/td><td>'+a.dec.toFixed(5)+'<\/td><\/tr>';
 				text += '<tr><td><img src="http://server7.sky-map.org/imgcut?survey=DSS2&w=256&h=256&ra='+(a.ra/15)+'&de='+a.dec+'&angle=1.25&output=PNG" style="width:100%;height:auto;" /><\/tr>';
