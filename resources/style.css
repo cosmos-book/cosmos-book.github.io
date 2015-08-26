@@ -349,9 +349,6 @@ ul#menu {
 ul#menu li {
 	display: inline-block;
 }
-footer {
-	height: 5em;
-}
 footer a { color: inherit; }
 .padder { padding: 1em 1.5em; }
 .padded { margin: 1em 1.5em; }
