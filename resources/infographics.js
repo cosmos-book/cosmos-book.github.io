@@ -242,6 +242,8 @@ function addHistory(qs,fn,a){
 // )
 function tooltip(data){
 
+	var existinghtml = "";
+	
 	function show(el,text){
 
 		if(!text) return;
@@ -275,20 +277,19 @@ function tooltip(data){
 		
 	}
 
-	data.elements.on('mouseover focus',{data:data},function(e){
-		e.preventDefault();
-		e.stopPropagation();
-		if($('.tooltip').is(':visible')){
-			show(this,e.data.data.html.call(this));
-		}
-	});
 	data.elements.on('click',{data:data},function(e){
 		e.preventDefault();
 		e.stopPropagation();
-		if($('.tooltip').is(':visible')){
-			$('.tooltip_close').trigger('click');
+
+		var newhtml = e.data.data.html.call(this);
+		if(newhtml!=existinghtml){
+			show(this,newhtml);
+			existinghtml = newhtml;
 		}else{
-			show(this,e.data.data.html.call(this));
+			if($('.tooltip').is(':visible')){
+				$('.tooltip_close').trigger('click');
+				existinghtml = "";
+			}
 		}
 	})
 }
