@@ -50,6 +50,7 @@ r(function(){
 		return 'black';
 	}
 	
+	
 	// Draw the result
 	function drawIt(){
 
@@ -62,6 +63,19 @@ r(function(){
 			//console.log(atmospheres[i].data,atmospheres[i].data.length)
 			if(atmospheres[i]){
 				x = (dx*2*(i)+dx*0.5);
+
+				// Make graded background
+				grad = "90-rgb(255,255,255):0-rgb(255,255,255):75-#e1f4fe";
+				paper.rect(x,0,dx,h/2).attr({'fill':grad,'stroke':0});
+				hassurface = true;
+				for(var d = 0; d < atmospheres[i].data.length; d++){
+					if(atmospheres[i].data[d].lower < 0) hassurface = false;
+				}
+				if(!hassurface){
+					grad = "90-#e1f4fe:0-rgb(255,255,255):25-rgb(255,255,255)";
+					paper.rect(x,h/2,dx,h/2).attr({'fill':grad,'stroke':0});
+				}
+
 				for(var d = 0; d < atmospheres[i].data.length; d++){
 					y = h-(atmospheres[i].data[d].upper-range.y[0])*dy;
 					y2 = ((atmospheres[i].data[d].upper-atmospheres[i].data[d].lower)*dy);
