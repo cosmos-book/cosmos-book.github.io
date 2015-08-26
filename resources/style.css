@@ -28,6 +28,8 @@ body.cover { background-color: #ffffff; }
 .SOL { background-color: #e1f4fe; }
 .SUN { background-color: #fffcd5; }
 .TEL { background-color: #e4f2e7; }
+.SPACE { background-color: black; }
+.SPACE #content { color: white; }
 h1, h2, h3, .title, .title:visited { font-family: "Menlo Regular", monospace, sans-serif; font-weight: normal; margin-top: 0px; text-decoration: none; color: inherit; }
 h1 { margin-bottom: 0.25em; font-size: 1.5em; }
 h2 { font-size: 1.2em; line-height: 1.8em; margin: 1em 0 0 0; }

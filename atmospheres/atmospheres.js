@@ -101,9 +101,6 @@ r(function(){
 			v = (t > 400 ? 1 : t/400);
 			return 'rgba('+Math.round(255-(255-cold[0])*v)+','+Math.round(255-(255-cold[1])*v)+','+Math.round(255-(255-cold[2])*v)+',1)';
 		}else if (t==0) return 'rgba(255,255,255,1)';
-//		if(t<0) return 'rgba(0,162,211,'+(t > -200 ? -t/200 : 1).toFixed(2)+')';
-//		else if(t>0) return 'rgba(240,64,49,'+(t < 400 ? t/400 : 1).toFixed(2)+')';
-//		return 'rgba(255,255,255,1)';
 	}
 	
 	function getPressureColour(p){
