@@ -96,6 +96,15 @@ r(function(){
 		return 'rgba(255,255,255,1)';
 	}
 	
+	function getPressureColour(p){
+		var op = (p < 1000 ? (Math.log10(p)+6)/9 : 1);
+
+		// We can't have negative opacity
+		if(op < 0) op = 0;
+		
+		return 'rgba(255,255,255,'+op.toFixed(2)+')'
+	}
+	
 	// Draw the result
 	function drawIt(){
 	
@@ -128,25 +137,28 @@ r(function(){
 				// Have we loaded an atmospheric profile?
 				if(atmos[p].profile){
 
+					// Find closest point in profile to top of our displayed atmosphere
+					var top = 0;
+					for(var k=0; k <atmos[p].profile.length; k++){
+						if(atmos[p].profile[k].h > range.y[1]){
+							top = k;
+							break;
+						}
+					}
+
 					// Create a starting stop
-					var stops_p = [['rgba(255,255,255,0)',0]];
-					var stops_t = [[getTemperatureColour(atmos[p].profile[atmos[p].profile.length-1].T),0]];
+					var stops_p = [[getPressureColour(atmos[p].profile[top].P),0]];
+					var stops_t = [[getTemperatureColour(atmos[p].profile[top].T),0]];
 
 					// Loop over altitude data
 					for(var k=atmos[p].profile.length-1; k >= 0; k--){
 						if(atmos[p].profile[k].h < range.y[1]){
 
-							// Use the log_10 of the pressure to determine the opacity
-							op = (atmos[p].profile[k].P < 1000 ? (Math.log10(atmos[p].profile[k].P)+6)/9 : 1);
-
-							// We can't have negative opacity
-							if(op < 0) op = 0;
-
 							// Get the percent up the atmospheric range
 							y = 100*((range.y[1]-atmos[p].profile[k].h)/(range.y[1]-range.y[0]));
 
 							// Add a colour stop
-							stops_p.push(['rgba(255,255,255,'+op.toFixed(2)+')',y.toFixed(2)]);
+							stops_p.push([getPressureColour(atmos[p].profile[k].P),y.toFixed(2)]);
 							stops_t.push([getTemperatureColour(atmos[p].profile[k].T),y.toFixed(2)]);
 						}
 					}
