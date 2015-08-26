@@ -88,7 +88,6 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; line-height: 1em;
 footer { min-height: 10em; background-color: #616265; color: #efefef; }
 nav { background-color: white; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); line-height: 1em; }
 
-
 /* Front page */
 .holder { position: absolute; height: 100%; width: 100%; }
 .outer {
@@ -510,7 +509,7 @@ body .button:active {
 	}
 }
 
-ul.key { margin: 0px; padding-left: 0; display: inline-block; }
+.key { margin: 0px; padding-left: 0; display: inline-block; }
 .keyitem { display: inline-block; margin-right: 1em; }
 .keyitem:last-child { margin-right: 0; }
 .keysymbol { margin-right: 0.25em; }
@@ -525,6 +524,8 @@ ul.key { margin: 0px; padding-left: 0; display: inline-block; }
 #controls .rangelabel { float: left; width: 10em; margin-top:-2px; }
 #controls .range { margin-left: 3.5em; margin-right: 3.5em; }
 #controls .rangelabel + .range { margin-left: 10em; }
+
+.js-only { display: none; }
 
 
 @media only screen and (max-width: 700px){

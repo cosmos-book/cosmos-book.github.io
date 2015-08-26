@@ -32,11 +32,12 @@ r(function(){
 		drawIt();
 	}
 
-	$('.noscript').remove();
-
 	// Load the files
-	loadJSON('data/barycentre.json',parseFile,{});
+	loadJSON(getDataPath('#data'),parseFile,{});
 	var sun = new Array();
+
+	// Remove no script elements
+	$('.noscript').remove();
 
 	function drawIt(){
 	
@@ -108,6 +109,8 @@ r(function(){
 		solarsystem.path('M'+(w/2)+','+(h/2)+' l-5,0 l10,0 l-5,0 l0,5 l0,-10 z').attr({'stroke':'black'})
 	
 		$('.loader').remove();
+		$('.noscript').remove();
+		$('.js-only').show();
 	}
 	
 	function getDateFromJD(jd){

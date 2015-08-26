@@ -61,7 +61,7 @@ $(document).ready(function(){
 	}
 	
 	// Load the files
-	loadCSV('data/close-approaches_1900-2178_top300_details.csv',parseFile,{});
+	loadCSV(getDataPath('#data'),parseFile,{});
 	
 	$("#slider").slider({
 		range: true,
@@ -143,6 +143,10 @@ $(document).ready(function(){
 				return text;
 			}
 		});
+		
+		$('.loader').remove();
+		$('.noscript').remove();
+		$('.js-only').show();
 	}
 	function drawAsteroids(){
 		var x,y,c,shortnotice,advancenotice;

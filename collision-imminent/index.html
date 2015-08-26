@@ -35,7 +35,7 @@
 				<div class="padder">
 							
 					<h1>Collision imminent</h1>
-					<div id="controls">
+					<div id="controls" class="js-only">
 						<div class="padder">
 							<div class="rangelabel">Year range:</div>
 							<div id="range" class="range">
@@ -53,6 +53,8 @@
 							</div>
 						</div>
 					</div>
+					<p class="noscript">In the book we show all asteroids known to approach the Earth within the orbit of the Moon between 1900 and 2100. With Javascript enabled you'd see an interactive version of that. Without Javascript you can examine the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/collision-imminent/data/close-approaches_1900-2178_top300_details.csv" id="data">asteroid CSV file</a>.</p>
+					<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 					<div id="holder"></div>
 				</div>
 			</div>

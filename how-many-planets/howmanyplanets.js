@@ -250,7 +250,9 @@ $(document).ready(function(){
 		for(var p = 0; p < data[i].planets.names.length; p++){
 			planets += '<div class="planet '+data[i].planets.names[p]+'"><div class="disc"><\/div><div class="label">'+data[i].planets.names[p]+'<\/div><\/div>';
 		}
-		$("#planets").html(planets)
+		$("#planets").html(planets);
+		$('.noscript').hide();
+		$('.js-only').show();
 	
 	}
 
