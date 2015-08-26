@@ -255,7 +255,7 @@ function tooltip(data){
 
 		if($('.tooltip').length == 0){
 			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
-			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); existinghtml = ""; $('.tooltip').remove(); });
+			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); closeTooltip(); });
 		}else $('.tooltip_inner').html(text);
 
 		var fs = parseInt($('.tooltip').css('font-size'));
@@ -276,6 +276,11 @@ function tooltip(data){
 		$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
 		
 	}
+	function closeTooltip(){
+		existinghtml = "";
+		$('.tooltip').remove();
+		$('body').removeClass('hastooltip');
+	}
 
 	data.elements.on('click',{data:data},function(e){
 		e.preventDefault();
@@ -284,6 +289,7 @@ function tooltip(data){
 		var newhtml = e.data.data.html.call(this);
 		if(newhtml!=existinghtml){
 			show(this,newhtml);
+			$('body').addClass('hastooltip');
 			existinghtml = newhtml;
 		}else{
 			if($('.tooltip').is(':visible')){

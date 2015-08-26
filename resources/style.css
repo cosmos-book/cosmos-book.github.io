@@ -531,7 +531,8 @@ body .button:active {
 
 @media only screen and (max-width: 700px){
 	h1 { font-size: 1.3em; }
-	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px!important; bottom: 0px; right: 0px; width: auto; position: fixed; }
+	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px!important; bottom: 0px; right: 0px; width: auto; position: fixed; overflow-y: auto; }
+	body.hastooltip { overflow: hidden; }
 	.tooltip .tooltip_inner:before { border: 0px; }
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
