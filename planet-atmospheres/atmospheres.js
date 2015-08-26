@@ -160,8 +160,8 @@ r(function(){
 					grad_t = buildCSSGradient(stops_t);
 
 					// Add the HTML element to the DOM
-					$('#holder').append('<div style="'+grad_p+';width: '+dx+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
-					$('#holder').append('<div style="'+grad_t+';width: '+(dx/4)+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
+					$('#holder').append('<div style="'+grad_p+';width: '+(dx*0.75)+'px;height:'+dh+'px;position: absolute; left:'+(x+dx*0.25)+'px;top:'+padd.top+'px;z-index:0;"></div>')
+					$('#holder').append('<div style="'+grad_t+';width: '+(dx*0.25)+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
 				}
 
 				// Loop over the constituents
