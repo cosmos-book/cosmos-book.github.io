@@ -3,7 +3,7 @@ r(function(){
 	// Configure
 	var range = {'y':[-320,320] };
 	var el = $('#holder');
-	var planets = ['Venus','Earth','Mars','Titan','Jupiter','Saturn','Uranus','Neptune','Pluto'];
+	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
 
 	// Calculate values
 	var w = el.width()-1;
