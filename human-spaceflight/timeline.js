@@ -96,7 +96,7 @@ $(document).ready(function(){
 
 		// Set up the tooltip
 		tooltip({
-			'elements':$('.innerbox .human'),
+			'elements':$('#timeline .human'),
 			'html':function(){
 				$('.human').removeClass('selected')
 				var id = parseInt($(this).attr('id'));
@@ -125,7 +125,7 @@ $(document).ready(function(){
 	loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
 	// If we click elsewhere we will deselect the astronaut
-	$(document).on('click',function(e){ $('.human').removeClass('selected'); $('.tooltip_close').trigger('click') });
+	$(document).on('click',function(e){ $('.human').removeClass('selected'); });
 	
 	// Hide any non-Javascript elements
 	$('.noscript').hide();
