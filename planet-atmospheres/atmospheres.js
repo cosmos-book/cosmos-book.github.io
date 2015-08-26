@@ -88,6 +88,13 @@ r(function(){
 		return css;		
 	}
 	
+	function getTemperatureColour(t){
+		t -= 273.15;
+		if(t<0) return 'rgba(0,162,211,'+(t > -200 ? -t/200 : 1).toFixed(2)+')';
+		else if(t>0) return 'rgba(240,64,49,'+(t < 400 ? t/400 : 1).toFixed(2)+')';
+		return 'rgba(255,255,255,1)';
+	}
+	
 	// Draw the result
 	function drawIt(){
 	
@@ -111,33 +118,45 @@ r(function(){
 				for(var d = 0; d < atmos[i].data.length; d++){
 					if(atmos[i].data[d].lower < 0) hassurface = false;
 				}
+
 				// Have we loaded an atmospheric profile?
 				if(atmos[i].profile){
-					stops = [['rgba(255,255,255,0)',0]];
+
+					// Create a starting stop
+					var stops_p = [['rgba(255,255,255,0)',0]];
+					var stops_t = [[getTemperatureColour(atmos[i].profile[atmos[i].profile.length-1].T),0]];
+
+					// Loop over altitude data
 					for(var k=atmos[i].profile.length-1; k >= 0; k--){
 						if(atmos[i].profile[k].h < range.y[1]){
+
 							// Use the log_10 of the pressure to determine the opacity
 							op = (atmos[i].profile[k].P < 1000 ? (Math.log10(atmos[i].profile[k].P)+6)/9 : 1);
+
 							// We can't have negative opacity
 							if(op < 0) op = 0;
+
 							// Get the percent up the atmospheric range
 							y = 100*((range.y[1]-atmos[i].profile[k].h)/(range.y[1]-range.y[0]));
+
 							// Add a colour stop
-							stops.push(['rgba(255,255,255,'+op.toFixed(2)+')',y.toFixed(2)]);
+							stops_p.push(['rgba(255,255,255,'+op.toFixed(2)+')',y.toFixed(2)]);
+							stops_t.push([getTemperatureColour(atmos[i].profile[k].T),y.toFixed(2)]);
 						}
 					}
-					// At end stops
-					if(hassurface) stops.push(['rgba(255,255,255,0)',50.001]);
-					else stops.push(['rgba(255,255,255,0)',100]);
+
+					// Add end stops
+					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.001 : 100)]);
+					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.001 : 100)]);
+
 					// Build the CSS for our stops
-					grad = buildCSSGradient(stops);
-				}else{
-					// Build a default gradient that depends on if we have a surface or not
-					if(hassurface) grad = buildCSSGradient([['rgba(255,255,255,0)',0],['rgba(255,255,255,1)',20],['rgba(255,255,255,1)',50],['rgba(255,255,255,0)',50.001]]);
-					else grad = buildCSSGradient([['rgba(255,255,255,0)',0],['rgba(255,255,255,1)',20],['rgba(255,255,255,1)',80],['rgba(255,255,255,0)',100]]);
+					grad_p = buildCSSGradient(stops_p);
+					grad_t = buildCSSGradient(stops_t);
+
+					// Add the HTML element to the DOM
+					$('#holder').append('<div style="'+grad_p+';width: '+dx+'px;height:'+h+'px;position: absolute; left:'+x+'px;top:0px;z-index:0;"></div>')
+					$('#holder').append('<div style="'+grad_t+';width: '+(dx/4)+'px;height:'+h+'px;position: absolute; left:'+x+'px;top:0px;z-index:0;"></div>')
 				}
-				// Add the HTML element to the DOM
-				$('#holder').append('<div style="'+grad+';width: '+dx+'px;height:'+h+'px;position: absolute; left:'+x+'px;top:0px;z-index:0;"></div>')
 
 				// Loop over the constituents
 				for(var d = 0; d < atmos[i].data.length; d++){
@@ -152,7 +171,7 @@ r(function(){
 					p = dx*0.05;
 					c = getColour(atmos[i].data[d].name);
 
-					if(atmos[i].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0) paper.rect(x,y,dx,y2).attr({'fill':c,'stroke':0,'opacity':0.5,'title':atmos[i].data[d].name})
+					if(atmos[i].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0) paper.rect(x+dx*0.25,y,dx*0.75,y2).attr({'fill':c,'stroke':0,'opacity':0.5,'title':atmos[i].data[d].name})
 
 					if(atmos[i].data[d].feature.indexOf('Boundary') == 0){
 						paper.path('M'+(x-p)+','+y+'l'+(dx+2*p)+',0').attr({'stroke':'black','stroke-width':0.5,'stroke-dasharray':'- '})
