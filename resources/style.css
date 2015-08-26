@@ -537,7 +537,7 @@ ul.key { margin: 0px; padding-left: 0; display: inline-block; }
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
 	.inner { padding: 0em;}
-	.padder { padding: 0.5em 1em; }
-	.padded { margin: 0.5em 1em; }
+	.padder { padding: 0.5em; }
+	.padded { margin: 0.5em; }
 	ul#menu { font-family: "Helvetica Neue", sans-serif; }
 }
