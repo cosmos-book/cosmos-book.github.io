@@ -91,9 +91,19 @@ r(function(){
 	
 	function getTemperatureColour(t){
 		t -= 273.15;
-		if(t<0) return 'rgba(0,162,211,'+(t > -200 ? -t/200 : 1).toFixed(2)+')';
-		else if(t>0) return 'rgba(240,64,49,'+(t < 400 ? t/400 : 1).toFixed(2)+')';
-		return 'rgba(255,255,255,1)';
+		var v;
+		var hot = [0,162,211];
+		var cold = [240,64,49];
+		if(t < 0){
+			v = (t > -200 ? -t/200 : 1);
+			return 'rgba('+Math.round(255-(255-hot[0])*v)+','+Math.round(255-(255-hot[1])*v)+','+Math.round(255-(255-hot[2])*v)+',1)';
+		}else if(t > 0){
+			v = (t > 400 ? 1 : t/400);
+			return 'rgba('+Math.round(255-(255-cold[0])*v)+','+Math.round(255-(255-cold[1])*v)+','+Math.round(255-(255-cold[2])*v)+',1)';
+		}else if (t==0) return 'rgba(255,255,255,1)';
+//		if(t<0) return 'rgba(0,162,211,'+(t > -200 ? -t/200 : 1).toFixed(2)+')';
+//		else if(t>0) return 'rgba(240,64,49,'+(t < 400 ? t/400 : 1).toFixed(2)+')';
+//		return 'rgba(255,255,255,1)';
 	}
 	
 	function getPressureColour(p){
@@ -166,7 +176,7 @@ r(function(){
 					// Add end stops
 					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
 					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
-
+console.log(stops_t)
 					// Build the CSS for our stops
 					grad_p = buildCSSGradient(stops_p);
 					grad_t = buildCSSGradient(stops_t);
