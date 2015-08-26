@@ -1,0 +1,13 @@
+Lower limit (km),Upper limit (km),Feature type,Name,Temperature (K),Pressure (bar),Colour
+0,40,Layer,Troposphere,290-216,,
+40,300,Layer,Stratosphere,216-270,,
+300,500,Layer,Mesosphere,270-190,,
+500,1200,Layer,Thermosphere,190-700,,
+0,0,Boundary,Surface,290,,
+40,40,Boundary,Tropopause,216,,
+300,300,Boundary,Stratopause,270,,
+500,500,Boundary,Mesopause,190,,
+10,10,Feature,Methane rain,,,
+15,30,Cloud layer,Methane clouds,,,Blue
+100,200,Cloud layer,Tholin haze layer,,,Brown
+450,500,Cloud layer,Haze layer,,,Orange
