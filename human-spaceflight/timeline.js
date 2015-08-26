@@ -74,7 +74,7 @@ $(document).ready(function(){
 			}
 		}
 		nmax++;
-		for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/div>';
+		for(var a = 0 ; a < astronauts.length; a++) html += '<a href="#" class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'px;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/a>';
 
 		app.append('<div class="data">'+html+'<\/div>');
 		app.append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
@@ -102,6 +102,13 @@ $(document).ready(function(){
 				var id = parseInt($(this).attr('id'));
 				$('.human[title="'+$(this).attr('title')+'"').addClass('selected');
 				var a = astronauts[id];
+				var prev = "";
+				var next = "";
+				var missions = $('.human[title="'+$(this).attr('title')+'"');
+				for(var i = 0; i < missions.length; i++){
+					if($(missions[i]).attr('id') == id-1) prev = '<a href="#'+$(missions[i]).attr('id')+'" class="jumper prev" data-id="'+$(missions[i]).attr('id')+'">&lt; previous</a>';
+					if($(missions[i]).attr('id') == id+1) next = '<a href="#'+$(missions[i]).attr('id')+'" class="jumper next" data-id="'+$(missions[i]).attr('id')+'">next &gt;</a>';
+				}
 				var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
 				text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
@@ -110,10 +117,22 @@ $(document).ready(function(){
 				var start = a.launch.toLocaleDateString();
 				var end = (a.land ? a.land.toLocaleDateString() : '');
 				text += '<tr><td>This mission:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<\/td><\/tr>';
+				if(prev || next) text += '<tr><td>'+prev+'<\/td><td>'+next+'<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 				return text;
 			}
+		});
+
+		$(document).on('click','.jumper',function(e){
+			e.preventDefault();
+			e.stopPropagation();
+			// Get the element we need to jump to; its ID is stored in the data-id attribute
+			var el = $('#'+$(this).attr('data-id'));
+			// Scroll the timeline to the appropriate place
+			app.parent().scrollLeft(parseInt(el.css('margin-left')));
+			// Simulate a click of the element
+			el.trigger('click')
 		});
 		
 		// We can hide the loader/spinner as everything seems to be OK
