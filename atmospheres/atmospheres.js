@@ -173,7 +173,7 @@ r(function(){
 					// Add end stops
 					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
 					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
-console.log(stops_t)
+
 					// Build the CSS for our stops
 					grad_p = buildCSSGradient(stops_p);
 					grad_t = buildCSSGradient(stops_t);
@@ -185,6 +185,13 @@ console.log(stops_t)
 
 				// Loop over the constituents
 				for(var d = 0; d < atmos[p].data.length; d++){
+
+					// Deal with lower and upper bounds being the wrong way around
+					if(atmos[p].data[d].upper < atmos[p].data[d].lower){
+						tmp = atmos[p].data[d].lower;
+						atmos[p].data[d].lower = atmos[p].data[d].upper;
+						atmos[p].data[d].upper = tmp;
+					}
 
 					// Find the vertical position of the top and bottom of this layer
 					y = padd.top + dh - (atmos[p].data[d].upper-range.y[0])*dy;
