@@ -2,6 +2,7 @@ r(function(){
 
 	// Configure
 	var range = {'y':[-320,320] };
+	var padd = {'left':0,'right':0,'top':20,'bottom':0};
 	var el = $('#holder');
 	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
 
@@ -98,16 +99,21 @@ r(function(){
 	// Draw the result
 	function drawIt(){
 	
+		// Get reduced vertical height once padding is taken into account
+		dh = (h - padd.top - padd.bottom);
+		
 		// Work out the width of a column
 		dx = w/(planets.length*2);
 		
 		// Work out the scaling for the vertical direction px/km
-		dy = h/(range.y[1]-range.y[0]);
+		dy = dh/(range.y[1]-range.y[0]);
 
 		var j = 0;
-		for(var i in atmos){
+		for(var i = 0; i < planets.length; i++){
 
-			if(atmos[i]){
+			p = planets[i];
+
+			if(atmos[p]){
 
 				// Find the left edge of this column
 				x = (dx*2*j+dx*0.5);
@@ -115,71 +121,71 @@ r(function(){
 				// Make graded background
 				grad = '';
 				hassurface = true; // Does this object have a surface?
-				for(var d = 0; d < atmos[i].data.length; d++){
-					if(atmos[i].data[d].lower < 0) hassurface = false;
+				for(var d = 0; d < atmos[p].data.length; d++){
+					if(atmos[p].data[d].lower < 0) hassurface = false;
 				}
 
 				// Have we loaded an atmospheric profile?
-				if(atmos[i].profile){
+				if(atmos[p].profile){
 
 					// Create a starting stop
 					var stops_p = [['rgba(255,255,255,0)',0]];
-					var stops_t = [[getTemperatureColour(atmos[i].profile[atmos[i].profile.length-1].T),0]];
+					var stops_t = [[getTemperatureColour(atmos[p].profile[atmos[p].profile.length-1].T),0]];
 
 					// Loop over altitude data
-					for(var k=atmos[i].profile.length-1; k >= 0; k--){
-						if(atmos[i].profile[k].h < range.y[1]){
+					for(var k=atmos[p].profile.length-1; k >= 0; k--){
+						if(atmos[p].profile[k].h < range.y[1]){
 
 							// Use the log_10 of the pressure to determine the opacity
-							op = (atmos[i].profile[k].P < 1000 ? (Math.log10(atmos[i].profile[k].P)+6)/9 : 1);
+							op = (atmos[p].profile[k].P < 1000 ? (Math.log10(atmos[p].profile[k].P)+6)/9 : 1);
 
 							// We can't have negative opacity
 							if(op < 0) op = 0;
 
 							// Get the percent up the atmospheric range
-							y = 100*((range.y[1]-atmos[i].profile[k].h)/(range.y[1]-range.y[0]));
+							y = 100*((range.y[1]-atmos[p].profile[k].h)/(range.y[1]-range.y[0]));
 
 							// Add a colour stop
 							stops_p.push(['rgba(255,255,255,'+op.toFixed(2)+')',y.toFixed(2)]);
-							stops_t.push([getTemperatureColour(atmos[i].profile[k].T),y.toFixed(2)]);
+							stops_t.push([getTemperatureColour(atmos[p].profile[k].T),y.toFixed(2)]);
 						}
 					}
 
 					// Add end stops
-					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.001 : 100)]);
-					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.001 : 100)]);
+					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
+					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
 
 					// Build the CSS for our stops
 					grad_p = buildCSSGradient(stops_p);
 					grad_t = buildCSSGradient(stops_t);
 
 					// Add the HTML element to the DOM
-					$('#holder').append('<div style="'+grad_p+';width: '+dx+'px;height:'+h+'px;position: absolute; left:'+x+'px;top:0px;z-index:0;"></div>')
-					$('#holder').append('<div style="'+grad_t+';width: '+(dx/4)+'px;height:'+h+'px;position: absolute; left:'+x+'px;top:0px;z-index:0;"></div>')
+					$('#holder').append('<div style="'+grad_p+';width: '+dx+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
+					$('#holder').append('<div style="'+grad_t+';width: '+(dx/4)+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
 				}
 
 				// Loop over the constituents
-				for(var d = 0; d < atmos[i].data.length; d++){
+				for(var d = 0; d < atmos[p].data.length; d++){
 
 					// Find the vertical position of the top and bottom of this layer
-					y = h-(atmos[i].data[d].upper-range.y[0])*dy;
-					y2 = ((atmos[i].data[d].upper-atmos[i].data[d].lower)*dy);
+					y = padd.top + dh - (atmos[p].data[d].upper-range.y[0])*dy;
+					y2 = ((atmos[p].data[d].upper-atmos[p].data[d].lower)*dy);
 
 					// Have a minimum size so we can see it
 					if(y2==0) y2 = 2;
 
-					p = dx*0.05;
-					c = getColour(atmos[i].data[d].name);
+					px = dx*0.05;
+					c = getColour(atmos[p].data[d].name);
 
-					if(atmos[i].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0) paper.rect(x+dx*0.25,y,dx*0.75,y2).attr({'fill':c,'stroke':0,'opacity':0.5,'title':atmos[i].data[d].name})
+					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0) paper.rect(x+dx*0.25,y,dx*0.75,y2).attr({'fill':c,'stroke':0,'opacity':0.5,'title':atmos[p].data[d].name})
 
-					if(atmos[i].data[d].feature.indexOf('Boundary') == 0){
-						paper.path('M'+(x-p)+','+y+'l'+(dx+2*p)+',0').attr({'stroke':'black','stroke-width':0.5,'stroke-dasharray':'- '})
-						paper.text(x-p,y,atmos[i].data[d].name).attr({'text-anchor':'end','fill':'black','stroke':0})
+					if(atmos[p].data[d].feature.indexOf('Boundary') == 0){
+						paper.path('M'+(x-px)+','+(Math.round(y)+0.5)+'l'+(dx+2*px)+',0').attr({'stroke':'black','stroke-width':0.5,'stroke-dasharray':'- '})
+						paper.text(x-px,y,atmos[p].data[d].name).attr({'text-anchor':'end','fill':'black','stroke':0})
 					}
 				}
 				// Write the name of the planet
-				paper.text(x+dx*0.5,h-10,i).attr({'text-anchor':'middle','fill':'black','stroke':0})
+				paper.text(x+dx*0.5,8,p).attr({'text-anchor':'middle','fill':'black','stroke':0,'font-size':12})
 			}
 			j++;
 		}
