@@ -14,7 +14,7 @@
 		z-index: 1;
 		cursor: pointer;
 	}
-	.innerbox .human {
+	.full-width .human {
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -24,10 +24,9 @@
 	    background-repeat:no-repeat;
 		background-position: 0.6em center;
 	}
-	.innerbox .human.selected { /*border: 4px solid black; left: -4px; margin-top: -4px;*/ background-color: black; }
-	.innerbox { overflow-x: auto; top: 4.5em; }
+	.full-width .human.selected { /*border: 4px solid black; left: -4px; margin-top: -4px;*/ background-color: black; }
 
-	#timeline { width: 12000px; position: absolute; height: 100%; }
+	#timeline { width: 12000px; height: 100%; position: relative; top: 0px; bottom: 0px; }
 
 	</style>
 	<script src="../resources/jquery-1.11.0.min.js"></script>
@@ -38,7 +37,7 @@
 
 	<div id="container">
 		<div id="main">
-			<div id="header">
+			<nav id="header">
 				<div class="padder">
 					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
 					<ul id="menu">
@@ -47,10 +46,10 @@
 						<li><a href="../errata/index.html">errata</a></li>
 					</ul>
 				</div>
-			</div>
+			</nav>
 			<div id="content">
-				<div class="padder">
-					<div class="topbox">
+				<div class="table">
+					<div class="table-row-top padded">
 						<h1>Spaceflight timeline</h1>
 						<ul class="key">
 							<li><span class="human cosmonaut"></span> Soviet/Russian<span class="wide"> cosmonauts</span></li>
@@ -60,20 +59,22 @@
 							<li><span class="human tourist"></span> Space tourists</li>
 						</ul>
 					</div>
-					<div class="innerbox">
-						<div class="noscript">
-							<p>Sorry. The interactive timeline of everyone who has been in space won't display without Javascript.<br />However, all is not lost. You can look at the raw <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="data">data file</a> or browse <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data">data on each astronaut</a>.</p>
+					<div class="table-row">
+						<div class="full-width padded">
+							<div class="noscript">
+								<p>Sorry. The interactive timeline of everyone who has been in space won't display without Javascript.<br />However, all is not lost. You can look at the raw <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="data">data file</a> or browse <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data">data on each astronaut</a>.</p>
+							</div>
+							<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 						</div>
-						<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="footer">
+		<footer id="footer">
 			<div class="padder">
 				Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data">astronaut data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
 			</div>
-		</div>
+		</footer>
 	</div>
 
 </body>

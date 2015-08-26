@@ -3,9 +3,9 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<title>How many planets are there?</title>
-	<script src="../resources/jquery-1.11.0.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="howmanyplanets.js"></script>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/jquery-ui.js"></script>
+	<script type="text/javascript" src="howmanyplanets.js"></script>
 	<link rel="stylesheet" href="../resources/style.css" />
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="../resources/ui.css">
@@ -14,7 +14,7 @@
 
 	<div id="container">
 		<div id="main">
-			<div id="header">
+			<nav id="header">
 				<div class="padder">
 					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
 					<ul id="menu">
@@ -23,10 +23,8 @@
 						<li><a href="../errata/index.html">errata</a></li>
 					</ul>
 				</div>
-			</div>
-			<div id="content">
-				<div class="padder">
-							
+			</nav>
+			<div id="content" class="padded">
 				<h1>How many planets are there in the Solar System?</h1>
 				<p>The answer is surprisingly varied. Choose a year.</p>
 				<div id="controls">
@@ -39,14 +37,13 @@
 				<div id="output"></div>
 				<div id="planets"></div>
 				<div id="info"></div>
-				</div>
 			</div>
 		</div>
-		<div id="footer">
+		<footer id="footer">
 			<div class="padder">
 				Based on data compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
 			</div>
-		</div>
+		</footer>
 	</div>
 
 </body>

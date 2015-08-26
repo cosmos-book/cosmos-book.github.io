@@ -1,5 +1,22 @@
-/* Reset page styling */
-body { font-family: "Helvetica Neue", sans-serif; text-align: center; margin: 0px; background-color: #f9f9fa; }
+/* Reset block */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { color: black; }
+
+
+
+/* Cosmos-specific styles */
+html,body {
+	height: 100%;
+	margin: 0px;
+}
+body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; }
 body.cover { background-color: #ffffff; }
 .COS { background-color: #f3e5e9; }
 .ETL { background-color: #e9e2ef; }
@@ -11,13 +28,13 @@ body.cover { background-color: #ffffff; }
 .SOL { background-color: #e1f4fe; }
 .SUN { background-color: #fffcd5; }
 .TEL { background-color: #e4f2e7; }
-
 h1, h2, h3, .title, .title:visited { font-family: "Menlo Regular", monospace, sans-serif; font-weight: normal; margin-top: 0px; text-decoration: none; color: inherit; }
 h1 { margin-bottom: 0.25em; font-size: 1.5em; }
-h2 { font-size: 1.2em; line-height: 1.8em; }
+h2 { font-size: 1.2em; line-height: 1.8em; margin: 1em 0 0 0; }
 h3 { margin-bottom: 0em; }
-p { max-width: 600px; }
-p:last-child { margin-bottom: 0px; }
+p { max-width: 600px; line-height: 1.25em; }
+p { margin-top: 1em; }
+p:first-child { margin-top: 0; }
 input[type=text], input[type=number] {
 	height: 2em;
 	font-size: 1em;
@@ -27,25 +44,13 @@ input[type=text], input[type=number] {
 	-webkit-box-sizing: border-box;
 }
 ul { padding-left: 1em; }
-ul.indent { padding: 0em 1em 1em 2em; }
-ul li { margin-bottom: 0.5em; }
+ul.indent { padding: 0.5em 1em 0em 2em; }
+ul li { margin-top: 0.5em; list-style-type: disc; line-height: 1.25em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
 
 a { color: #00b9e4; text-decoration: none; }
 a:hover, a.focus { text-decoration: underline; }
-a:visited, #header a:hover, #header a:focus { color: #00a2d3; }
-#footer a { color: inherit; }
-
-h2.COS { padding-left: 0.5em; border-left: 0.5em solid #cd7d94; }
-h2.ETL { padding-left: 0.5em; border-left: 0.5em solid #7d71b4; }
-h2.EXO { padding-left: 0.5em; border-left: 0.5em solid #7d71b4; }
-h2.EXP { padding-left: 0.5em; border-left: 0.5em solid #fbb675; }
-h2.GAL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
-h2.OTH { padding-left: 0.5em; border-left: 0.5em solid #a8dbd5; }
-h2.STA { padding-left: 0.5em; border-left: 0.5em solid #f68d69; }
-h2.SOL { padding-left: 0.5em; border-left: 0.5em solid #48c7e9; }
-h2.SUN { padding-left: 0.5em; border-left: 0.5em solid #fff200; }
-h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
+a:visited, nav a:hover, nav a:focus { color: #00a2d3; }
 
 body.COS a { color: #7c52a1; }
 body.COS a:visited, body.COS #header a:hover, body.COS #header a:focus { color: #662d8f; }
@@ -77,24 +82,14 @@ body.SUN #footer a { color: #fff79a; }
 body.TEL a { color: #0ab26b; }
 body.TEL a:visited, body.TEL #header a:hover, body.TEL #header a:focus { color: #02a24b; }
 body.TEL #footer a { color: #67c18d; }
+ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0em; padding: 0px; font-family: "Menlo Regular", monospace, sans-serif; }
+ul#menu li { display: inline-block; margin: 0px; padding: 0px; line-height: 1em; }
+#header a, #footer a { color: inherit; }
+footer { min-height: 10em; background-color: #616265; color: #efefef; }
+nav { background-color: white; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); line-height: 1em; }
 
-ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0.1em; padding: 0px; font-family: "Menlo Regular", monospace, sans-serif; }
-ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
-#header a { color: inherit; }
 
-
-#main { background-color: transparent; /*padding-top: 3em;*/ }
-.padder { padding: 16px 24px; }
-#bg { position: absolute; min-height: 100%; top: 0px; bottom: 0px; left: 0px; right: 0px; 
-    z-index:-1; /* Remove this line if it's not going to be a background! */ }
-#container { width: 100%; display: block; position: absolute; top: 0px; bottom: 0px; z-index: 100; }
-#main { height: 100%; width: 100%; display: table; position: relative; }
-#header { height: 2em; background-color: white; /*position: fixed; right: 0px; left: 0px; top: 0px;*/ border-bottom: 1px solid #e8e8e8; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); /*z-index: 1000;*/ }
-#header, #content { display: table-row; }
-#header, #footer { text-align: left; }
-#header .padder { padding: 12px 24px; line-height: 1.2em; }
-#content { text-align: left; position: relative; padding: 48px 48px; }
-#footer { min-height: 10em; background-color: #616265; color: #efefef; }
+/* Front page */
 .holder { position: absolute; height: 100%; width: 100%; }
 .outer {
 	display: table;
@@ -108,174 +103,8 @@ ul#menu li { display: inline-block; margin: 0px; padding: 0px; }
 	bottom: 0px;
 	z-index: 100;
 }
-.middle {
-	display: table-cell;
-	vertical-align: middle;
-}
-.inner {
-	margin-left: auto;
-	margin-right: auto; 
-	text-align: left;
-	max-width: 640px;
-	padding: 2.5em;
-	background: rgba(255,255,255,0.85);
-}
-
-
-/* Tooltip styling */
-
-.tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; }
-.tooltip .tooltip_inner { margin: 1em; text-align: left; }
-.tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
-.tooltip .tooltip_inner table td { text-align: left; vertical-align: top; padding: 2px; }
-.tooltip .tooltip_inner table td:last-child { text-align: right; }
-.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; }
-.tooltip h3 { text-align: center; }
-.tooltip p { margin-top: 0px; }
-.tooltip tr:hover { background-color: #eeeeee; }
-.tooltip.right { margin-left: 1.0em; }
-.tooltip.left { margin-left: -1.0em; }
-.tooltip .tooltip_inner:before { content: ''; position: absolute; left: auto; top: auto; width: 0; height: 0; border: 1em solid transparent; border-top-color: white; border-bottom-color: transparent; }
-.tooltip.right .tooltip_inner:before { left: -1em; top: 0; border-left-color: transparent; border-right-color: white; }
-.tooltip.left .tooltip_inner:before { right: -1em; top: 0; border-left-color: white; border-right-color: transparent; }
-.tooltip.bottom .tooltip_inner:before { top: auto; bottom: 0; border-top-color: transparent; border-bottom-color: white; }
-.tooltip .tooltip_close { text-align: center; margin-bottom: 1em; }
-
-
-/* form toggle */
-.toggleinput { vertical-align: middle; }
-.toggle-label1, .toggle-label2 { display: inline; position: relative; cursor: pointer; }
-.toggle-bg { display: inline-block; }
-.toggle-label1 { margin-right: 5px; }
-.toggle-label2 { margin-left: 5px; }
-.toggle-bg { background: #cccccc; border-radius: 1em; box-shadow: inset 0 0 3px rgba(0,0,0,0.4), inset 0 10px 0px rgba(0,0,0,0.05); position: relative; cursor: pointer; white-space: nowrap;  }
-.toggle-bg input { height: 1.25em; left: 0; margin: 0; /* Reset the margins and padding */ opacity: 0.0; /* Invisible! */ padding: 0; position: absolute; top: 0; z-index: 2; 	/*IE*/ 	zoom: 1; 	filter: alpha(opacity=0); cursor: pointer; }
-/* As we are hiding the radio buttons we will make the switch glow when the radio button receives focus. We need to use some sibling selectors. */
-.toggle-bg input:focus + .switch, .toggle-bg input:focus + input + .switch, .toggle-bg input:hover + .switch, .toggle-bg input:hover + input + .switch { box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2, 0 0 4px 2px #3366dd; }
-.switch{ cursor: pointer; background: #ffffff; border-radius: 1em; box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2; display: inline-block; left: -1px; /* This is the starting point. When adding a border radius, a small bit of the background is shown if we use left: 0;, so -1px is best.*/ position: absolute; top: 0; /* ...To keep it centered vertically */ transition: left .25s ease; z-index: 1; /* Remember, it must be below the invisible inputs */ }
-.toggler { height: 1.25em;}
-.toggler.checked .switch { left: -1px; } /* initial toggle position */
-.toggler.checked .switch { left: 1.25em; } /* final relative toggle position */
-.toggle-bg input:checked{ z-index: 0; }
-.toggle-bg, .toggle-bg input, .switch, .toggleinput label { height: 1.25em; }
-.toggle-bg, .toggle-bg input { width: 2.5em; }
-.toggle-label1, .toggle-label2 { top: -0.25em; }
-.switch { width: 1.25em; }
-
-body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
-body.COS .toggler.checked .toggle-bg { background-color: #7d71b4; }
-body.ETL .toggler.checked .toggle-bg { background-color: #dce57d; }
-body.EXO .toggler.checked .toggle-bg { background-color: #8a84bf; }
-body.EXP .toggler.checked .toggle-bg { background-color: #f68d69; }
-body.GAL .toggler.checked .toggle-bg { background-color: #dce57d; }
-body.OTH .toggler.checked .toggle-bg { background-color: #a8dbd5; }
-body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
-body.SOL .toggler.checked .toggle-bg { background-color: #48c7e9; }
-body.SUN .toggler.checked .toggle-bg { background-color: #fff200; }
-body.TEL .toggler.checked .toggle-bg { background-color: #67c18d; }
-
-
-a.repo {
-	display: inline-block;
-	margin-top: 8px;
-	padding-left: 22px;
-	background: transparent;
-	background-image: url('/github.png');
-	background-position: center left;
-	background-repeat: no-repeat;
-}
-
-a.button { text-decoration: none; color: black!important; }
-.button {
-	font-size: 1em;
-	padding: 0.25em 1em;
-	margin: 0 0.25em;
-	display: inline-block;
-	border: 1px solid #b3b3b3;
-	border-radius: 4px;
-	cursor: pointer;
-	min-width: 1em;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	background-color: #dfdfdf;
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);	
-}
-body .button:active {
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	background-color: white;
-	border-color: #dfdfdf;
-}
-
-.astronaut { background-color: #00a2d3; }
-.cosmonaut { background-color: #f04031; }
-.taikonaut { background-color: #ffcb06; }
-.international { background-color: #67c18d; }
-.tourist { background-color: #7c52a1; }
-
-
-.loader {
-	margin: 100px auto 0;
-	width: auto;
-	text-align: center;
-}
-
-.loader > div {
-	width: 18px;
-	height: 18px;
-	background-color: #333;
-	
-	border-radius: 100%;
-	display: inline-block;
-	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.loader .bounce:nth-child(3n+1) {
-	-webkit-animation-delay: -0.32s;
-	animation-delay: -0.32s;
-}
-
-.loader .bounce:nth-child(3n+2) {
-	-webkit-animation-delay: -0.16s;
-	animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-	0%, 80%, 100% { -webkit-transform: scale(0) }
-	40% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bouncedelay {
-	0%, 80%, 100% { 
-	-webkit-transform: scale(0);
-	transform: scale(0);
-	} 40% { 
-	-webkit-transform: scale(1.0);
-	transform: scale(1.0);
-	}
-}
-
-ul.key { margin: 0px; padding-left: 0; display: inline-block; }
-.keyitem { display: inline-block; margin-right: 1em; }
-.keyitem:last-child { margin-right: 0; }
-.keysymbol { margin-right: 0.25em; }
-.keycircle { margin-right: 0.25em; width: 0.8em; height: 0.8em; display: inline-block; border-radius: 100%; }
-.keysymbol img { max-width: 0.75em; }
-
-
-#controls { width: 100%; }
-#controls .padder { padding-left: 0px; padding-right: 0px; }
-#controls .label_a { float: left; margin-left: -4em; text-align: right; width: 3em; margin-top:-2px;}
-#controls .label_b { float: right; margin-right: -4em; width: 3em; margin-top:-2px; }
-#controls .rangelabel { float: left; width: 10em; margin-top:-2px; }
-#controls .range { margin-left: 3.5em; margin-right: 3.5em; }
-#controls .rangelabel + .range { margin-left: 10em; }
-
+#bg { position: absolute; min-height: 100%; top: 0px; bottom: 0px; left: 0px; right: 0px; 
+    z-index:-1; /* Remove this line if it's not going to be a background! */ }
 
 /* Solar System Styles */
 ul.solarsystem {
@@ -445,22 +274,17 @@ ul.solarsystem li.neptune span {
 	width: 1.4em;
 	height: 1.4em;
 }
-
-
 /* CSS3 Animations */
-
 ul.solarsystem li {
 	animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite; -moz-animation-iteration-count:infinite;
 	animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
 	animation-name:orbit; -moz-animation-name:orbit; -webkit-animation-name:orbit;
 }
-
 ul.solarsystem li.earth span {
 	animation-iteration-count:infinite; -moz-animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite;
 	animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
 	animation-name:moon; -moz-animation-name:moon; -webkit-animation-name:moon;
 }
-
 ul.solarsystem li.mercury {-webkit-animation-duration:6s; -moz-animation-duration:6s; animation-duration: 6s; animation-delay: -2.5s;}
 ul.solarsystem li.venus {-webkit-animation-duration:9.2s; -moz-animation-duration:9.2s;animation-duration:9.2s; animation-delay: -3s;}
 ul.solarsystem li.earth {-webkit-animation-duration:15s; -moz-animation-duration:15s;animation-duration:15s;animation-delay: -2.5s;}
@@ -470,14 +294,12 @@ ul.solarsystem li.jupiter {-webkit-animation-duration:75.375s; -moz-animation-du
 ul.solarsystem li.saturn {-webkit-animation-duration:143s; -moz-animation-duration:143s;animation-duration:143s;animation-delay:-35.75s;}
 ul.solarsystem li.uranus {-webkit-animation-duration:288s; -moz-animation-duration:288s;animation-duration:288s;animation-delay:-60s;}
 ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-duration:451s;animation-duration:451s;animation-delay:-137.8s;}
-
 @-webkit-keyframes orbit { 100% { -webkit-transform:rotate(360deg); } }
 @-moz-keyframes orbit { 100% { -moz-transform:rotate(360deg); } }
 @keyframes orbit { 100% { transform:rotate(360deg); } }
 @-webkit-keyframes moon { 100% { -webkit-transform:rotate(360deg); } }
 @-moz-keyframes moon { 100% { -moz-transform:rotate(360deg); } }
 @keyframes moon { 100% { transform:rotate(360deg); } }
-
 @media only screen and (max-width: 900px){
 	ul.solarsystem { font-size: 14px; }
 }
@@ -487,6 +309,226 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 @media only screen and (max-width: 500px){
 	ul.solarsystem { font-size: 10px; }
 }
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+.inner {
+	margin-left: auto;
+	margin-right: auto; 
+	text-align: left;
+	max-width: 640px;
+	padding: 2.5em;
+	background: rgba(255,255,255,0.85);
+}
+
+
+
+
+
+
+/* Other pages */
+#container {
+	height: 100%;
+}
+#main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+#content {
+	flex: 1 100%;
+}
+#content {
+	position: relative;
+}
+ul#menu {
+	float: right;
+	margin: 0px;
+}
+ul#menu li {
+	display: inline-block;
+}
+footer {
+	height: 5em;
+}
+footer a { color: inherit; }
+.padder { padding: 1em 1.5em; }
+.padded { margin: 1em 1.5em; }
+.table { height: 100%; width: 100%; display: flex; flex-direction: column; position: absolute; bottom: 0px; }
+.table-row-top > .padder { padding-bottom: 0px; }
+.table-row-top.padded { margin-bottom: 0px; }
+.table-row { position: relative; flex: 1 100%; }
+.table-row > .padder { position: absolute; bottom: 0px; left: 0px; top: 0px; right: 0px; }
+.full-width { position: absolute; left: 0px; right:0px; top:0px; bottom:0px; overflow-x: auto; overflow-y: hidden; }
+
+
+/* Contents */
+h2.COS { padding-left: 0.5em; border-left: 0.5em solid #cd7d94; }
+h2.ETL { padding-left: 0.5em; border-left: 0.5em solid #7d71b4; }
+h2.EXO { padding-left: 0.5em; border-left: 0.5em solid #7d71b4; }
+h2.EXP { padding-left: 0.5em; border-left: 0.5em solid #fbb675; }
+h2.GAL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
+h2.OTH { padding-left: 0.5em; border-left: 0.5em solid #a8dbd5; }
+h2.STA { padding-left: 0.5em; border-left: 0.5em solid #f68d69; }
+h2.SOL { padding-left: 0.5em; border-left: 0.5em solid #48c7e9; }
+h2.SUN { padding-left: 0.5em; border-left: 0.5em solid #fff200; }
+h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
+
+
+/* Tooltip styling */
+.tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; }
+.tooltip .tooltip_inner { margin: 1em; text-align: left; }
+.tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
+.tooltip .tooltip_inner table td { text-align: left; vertical-align: top; padding: 2px; }
+.tooltip .tooltip_inner table td:last-child { text-align: right; }
+.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; }
+.tooltip h3 { text-align: center; }
+.tooltip p { margin-top: 0px; }
+.tooltip tr:hover { background-color: #eeeeee; }
+.tooltip.right { margin-left: 1.0em; }
+.tooltip.left { margin-left: -1.0em; }
+.tooltip .tooltip_inner:before { content: ''; position: absolute; left: auto; top: auto; width: 0; height: 0; border: 1em solid transparent; border-top-color: white; border-bottom-color: transparent; }
+.tooltip.right .tooltip_inner:before { left: -1em; top: 0; border-left-color: transparent; border-right-color: white; }
+.tooltip.left .tooltip_inner:before { right: -1em; top: 0; border-left-color: white; border-right-color: transparent; }
+.tooltip.bottom .tooltip_inner:before { top: auto; bottom: 0; border-top-color: transparent; border-bottom-color: white; }
+.tooltip .tooltip_close { text-align: center; margin-bottom: 1em; }
+
+
+/* form toggle */
+.toggleinput { vertical-align: middle; }
+.toggle-label1, .toggle-label2 { display: inline; position: relative; cursor: pointer; }
+.toggle-bg { display: inline-block; }
+.toggle-label1 { margin-right: 5px; }
+.toggle-label2 { margin-left: 5px; }
+.toggle-bg { background: #cccccc; border-radius: 1em; box-shadow: inset 0 0 3px rgba(0,0,0,0.4), inset 0 10px 0px rgba(0,0,0,0.05); position: relative; cursor: pointer; white-space: nowrap;  }
+.toggle-bg input { height: 1.25em; left: 0; margin: 0; /* Reset the margins and padding */ opacity: 0.0; /* Invisible! */ padding: 0; position: absolute; top: 0; z-index: 2; 	/*IE*/ 	zoom: 1; 	filter: alpha(opacity=0); cursor: pointer; }
+/* As we are hiding the radio buttons we will make the switch glow when the radio button receives focus. We need to use some sibling selectors. */
+.toggle-bg input:focus + .switch, .toggle-bg input:focus + input + .switch, .toggle-bg input:hover + .switch, .toggle-bg input:hover + input + .switch { box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2, 0 0 4px 2px #3366dd; }
+.switch{ cursor: pointer; background: #ffffff; border-radius: 1em; box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2; display: inline-block; left: -1px; /* This is the starting point. When adding a border radius, a small bit of the background is shown if we use left: 0;, so -1px is best.*/ position: absolute; top: 0; /* ...To keep it centered vertically */ transition: left .25s ease; z-index: 1; /* Remember, it must be below the invisible inputs */ }
+.toggler { height: 1.25em;}
+.toggler.checked .switch { left: -1px; } /* initial toggle position */
+.toggler.checked .switch { left: 1.25em; } /* final relative toggle position */
+.toggle-bg input:checked{ z-index: 0; }
+.toggle-bg, .toggle-bg input, .switch, .toggleinput label { height: 1.25em; }
+.toggle-bg, .toggle-bg input { width: 2.5em; }
+.toggle-label1, .toggle-label2 { top: -0.25em; }
+.switch { width: 1.25em; }
+
+body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.COS .toggler.checked .toggle-bg { background-color: #7d71b4; }
+body.ETL .toggler.checked .toggle-bg { background-color: #dce57d; }
+body.EXO .toggler.checked .toggle-bg { background-color: #8a84bf; }
+body.EXP .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.GAL .toggler.checked .toggle-bg { background-color: #dce57d; }
+body.OTH .toggler.checked .toggle-bg { background-color: #a8dbd5; }
+body.STA .toggler.checked .toggle-bg { background-color: #f68d69; }
+body.SOL .toggler.checked .toggle-bg { background-color: #48c7e9; }
+body.SUN .toggler.checked .toggle-bg { background-color: #fff200; }
+body.TEL .toggler.checked .toggle-bg { background-color: #67c18d; }
+
+
+a.repo {
+	display: inline-block;
+	margin-top: 8px;
+	padding-left: 22px;
+	background: transparent;
+	background-image: url('/github.png');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+a.button { text-decoration: none; color: black!important; }
+.button {
+	font-size: 1em;
+	padding: 0.25em 1em;
+	margin: 0 0.25em;
+	display: inline-block;
+	border: 1px solid #b3b3b3;
+	border-radius: 4px;
+	cursor: pointer;
+	min-width: 1em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #dfdfdf;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);	
+}
+body .button:active {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: white;
+	border-color: #dfdfdf;
+}
+
+.astronaut { background-color: #00a2d3; }
+.cosmonaut { background-color: #f04031; }
+.taikonaut { background-color: #ffcb06; }
+.international { background-color: #67c18d; }
+.tourist { background-color: #7c52a1; }
+
+
+.loader {
+	margin: 100px auto 0;
+	width: auto;
+	text-align: center;
+}
+
+.loader > div {
+	width: 18px;
+	height: 18px;
+	background-color: #333;
+	
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.loader .bounce:nth-child(3n+1) {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.loader .bounce:nth-child(3n+2) {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% { 
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	} 40% { 
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	}
+}
+
+ul.key { margin: 0px; padding-left: 0; display: inline-block; }
+.keyitem { display: inline-block; margin-right: 1em; }
+.keyitem:last-child { margin-right: 0; }
+.keysymbol { margin-right: 0.25em; }
+.keycircle { margin-right: 0.25em; width: 0.8em; height: 0.8em; display: inline-block; border-radius: 100%; }
+.keysymbol img { max-width: 0.75em; }
+
+
+#controls { width: 100%; margin-top: 1em; }
+#controls .padder { padding-left: 0px; padding-right: 0px; }
+#controls .label_a { float: left; margin-left: -4em; text-align: right; width: 3em; margin-top:-2px;}
+#controls .label_b { float: right; margin-right: -4em; width: 3em; margin-top:-2px; }
+#controls .rangelabel { float: left; width: 10em; margin-top:-2px; }
+#controls .range { margin-left: 3.5em; margin-right: 3.5em; }
+#controls .rangelabel + .range { margin-left: 10em; }
+
 
 @media only screen and (max-width: 700px){
 	h1 { font-size: 1.3em; }
@@ -496,11 +538,8 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	}
 	.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
 	.wide { display: none; }
-	#header .padder { padding: 0.5em 1em; }
+	#header .padded { margin: 0.5em 1em; }
 	.inner { padding: 0em;}
 	.padder { padding: 1em; }
-	ul#menu { font-family: "Helvetica Neue", sans-serif; margin-top: 0px; }
-}
-@media (max-width: 700px), (max-device-width: 700px) {
-	/*#controls { width: 70%; }*/
+	ul#menu { font-family: "Helvetica Neue", sans-serif; }
 }

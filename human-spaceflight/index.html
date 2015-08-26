@@ -40,15 +40,15 @@
 	.innerbox .inorbit:focus, .innerbox .inorbit:hover { margin-left: -1.1em; margin-top: -1.1em; }
 	.topbox ul { margin-bottom: 0; }
 	</style>
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="../resources/infographics.js"></script>
-	<script src="humanspaceflight.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="humanspaceflight.js"></script>
 </head>
 <body class="EXP">
 
 	<div id="container">
 		<div id="main">
-			<div id="header">
+			<nav id="header">
 				<div class="padder">
 					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
 					<ul id="menu">
@@ -57,10 +57,10 @@
 						<li><a href="../errata/index.html">errata</a></li>
 					</ul>
 				</div>
-			</div>
+			</nav>
 			<div id="content">
-				<div class="padder">
-					<div class="topbox">
+				<div class="table">
+					<div class="table-row-top padded">
 						<h1>Travels in time and space</h1>
 						<ul class="key">
 							<li><span class="human cosmonaut"></span> Soviet/Russian<span class="wide"> cosmonauts</span></li>
@@ -95,20 +95,25 @@
 							</select>
 						</form>
 					</div>
-					<div class="innerbox">
-						<div class="noscript">
-							<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">data file</a></p>
+					<div class="table-row">
+						<div class="full-width padded">
+							<div class="innerbox">
+								<div class="noscript">
+									<p>This is an interactive version of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">data file</a></p>
+								</div>
+								<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+							</div>				
+
 						</div>
-						<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
-					</div>				
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="footer">
+		<footer id="footer">
 			<div class="padder">
 				Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/">data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
 			</div>
-		</div>
+		</footer>
 	</div>
 
 </body>

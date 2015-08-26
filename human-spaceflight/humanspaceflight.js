@@ -32,7 +32,7 @@ $(document).ready(function(){
 	}
 
 	function drawAstronauts(){
-		var output = "";
+		var output = '';
 		for(var i = 0; i < astronauts.length; i++) output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+''+(astronauts[i].inspaceasof != null ? ' inorbit' : '')+'" title="'+astronauts[i].name+'"><\/a>';
 		$('.innerbox').append(output);
 		updateAstronauts();
