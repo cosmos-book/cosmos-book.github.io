@@ -336,6 +336,7 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	min-height: 100%;
 }
 #content {
+	-webkit-flex: 1 100%;
 	flex: 1 100%;
 }
 #content {
@@ -351,10 +352,10 @@ ul#menu li {
 footer a { color: inherit; }
 .padder { padding: 1em 1.5em; }
 .padded { margin: 1em 1.5em; }
-.table { height: 100%; width: 100%; display: flex; flex-direction: column; position: absolute; bottom: 0px; }
+.table { height: 100%; width: 100%; display: table; display: flex; flex-direction: column; position: absolute; top: 0px; bottom: 0px; }
 .table-row-top > .padder { padding-bottom: 0px; }
 .table-row-top.padded { margin-bottom: 0px; }
-.table-row { position: relative; flex: 1 100%; }
+.table-row { display: block; bottom: 0px; top: 0px; height: 500px; display: flex; position: relative; flex: 1 100%; }
 .table-row > .padder { position: absolute; bottom: 0px; left: 0px; top: 0px; right: 0px; }
 .full-width { position: absolute; left: 0px; right:0px; top:0px; bottom:0px; overflow-x: auto; overflow-y: hidden; }
 

@@ -28,12 +28,20 @@ $(document).ready(function(){
 		for(px = 0; px < wide ; px++) pixels[px] = [false];
 
 		var nmax = 1;
+		
+		// Function to add seconds to date strings if they don't exist otherwise Safari 5 can't cope
+		function fixDateString(d){
+			var t = d.indexOf('T');
+			var z = d.indexOf('Z');
+			if(z-t == 6) d = d.substr(0,z)+':00Z';
+			return d;
+		}
 
 		for(name in data) {
 			for(var m = 0; m < data[name].periods.length; m++){
 				var ms = data[name].periods[m].split(/;/);
-				launch = (ms[0]) ? new Date(ms[0]) : "BLAH";
-				land = (ms[1]) ? new Date(ms[1]) : new Date();
+				launch = (ms[0]) ? new Date(fixDateString(ms[0])) : "BLAH";
+				land = (ms[1]) ? new Date(fixDateString(ms[1])) : new Date();
 				l = Math.floor((launch-start)*scale*wide);
 				dl = Math.ceil((land-launch)*scale*wide);
 				var n = 0;
@@ -100,11 +108,11 @@ $(document).ready(function(){
 			'html':function(){
 				$('.human').removeClass('selected')
 				var id = parseInt($(this).attr('id'));
-				$('.human[title="'+$(this).attr('title')+'"').addClass('selected');
+				var missions = $('.human[title="'+$(this).attr('title')+'"]');
+				missions.addClass('selected');
 				var a = astronauts[id];
 				var prev = "";
 				var next = "";
-				var missions = $('.human[title="'+$(this).attr('title')+'"');
 				for(var i = 0; i < missions.length; i++){
 					if($(missions[i]).attr('id') == id-1) prev = '<a href="#'+$(missions[i]).attr('id')+'" class="jumper prev" data-id="'+$(missions[i]).attr('id')+'">&lt; previous</a>';
 					if($(missions[i]).attr('id') == id+1) next = '<a href="#'+$(missions[i]).attr('id')+'" class="jumper next" data-id="'+$(missions[i]).attr('id')+'">next &gt;</a>';
