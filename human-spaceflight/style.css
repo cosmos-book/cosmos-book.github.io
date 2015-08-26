@@ -63,4 +63,5 @@ label { display: none; }
 	.topbox ul { font-size: 0.8em; }
 	select { font-size: 0.8em; }
 	.innerbox { top: 0em;}
+	ul li { margin-right: 0.5em; margin-top: 0em; }
 }
