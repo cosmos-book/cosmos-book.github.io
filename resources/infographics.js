@@ -313,3 +313,5 @@ function getDataPath(el){
 	return url;
 }
 
+// Make a log10 function if it doesn't exist
+if(!Math.log10 || typeof Math.log10!=="function"){ Math.log10 = function(v) { return Math.log(v)/2.302585092994046; }; }
