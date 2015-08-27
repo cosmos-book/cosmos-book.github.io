@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Constellations</title>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="virtualsky_reduced.js"></script>
+	<script type="text/javascript" src="constellations.js"></script>
+	<script>
+	var constellations = {};
+	$(document).ready(function(){
+	
+		var con = ["And","Ant","Aps","Aqr","Aql","Ara","Ari","Aur","Boo","Cae","Cam","Cnc","CVn","CMa","CMi","Cap","Car","Cas","Cen","Cep","Cet","Cha","Cir","Col","Com","CrA","CrB","Crv","Crt","Cru","Cyg","Del","Dor","Dra","Equ","Eri","For","Gem","Gru","Her","Hor","Hya","Hyi","Ind","Lac","Leo","LMi","Lep","Lib","Lup","Lyn","Lyr","Men","Mic","Mon","Mus","Nor","Oct","Oph","Ori","Pav","Peg","Per","Phe","Pic","Psc","PsA","Pup","Pyx","Ret","Sge","Sgr","Sco","Scl","Sct","Ser","Sex","Tau","Tel","Tri","TrA","Tuc","UMa","UMi","Vel","Vir","Vol","Vul"];
+		var co = new Array();
+		var cols = Math.floor($('#holder').width()/100);
+		var grid = [cols,Math.ceil(88/cols)];
+
+		var c = 0;
+		
+		for(var j = 0; j < grid[1]; j++){
+			for(var i = 0; i < grid[0]; i++,c++){
+				x = (i*2 + 1)/(grid[0]*2);
+				y = (j*2 + 1)/(grid[1]*2);
+				co.push([con[c],x,y]);
+			}
+		}
+		
+		function parseFile(d,attrs){
+			var data = CSV2JSON(d,[
+				{'name':'name','format':'string'},
+				{'name':'code','format':'string'},
+				{'name':'desc','format':'string'},
+				{'name':'pronunciation','format':'string'},
+				{'name':'genitive','format':'string'},
+				{'name':'area','format':'number'},
+				{'name':'ra_low_hh','format':'number'},
+				{'name':'ra_low_mm','format':'number'},
+				{'name':'ra_high_hh','format':'number'},
+				{'name':'ra_high_mm','format':'number'},
+				{'name':'dec_low_dd','format':'number'},
+				{'name':'dec_low_mm','format':'number'},
+				{'name':'dec_high_dd','format':'number'},
+				{'name':'dec_high_mm','format':'number'},
+				{'name':'ra_mid_hh','format':'number'},
+				{'name':'ra_mid_mm','format':'number'},
+				{'name':'dec_mid_dd','format':'number'},
+				{'name':'dec_mid_mm','format':'number'},
+				{'name':'M','format':'number'},
+				{'name':'F','format':'number'},
+				{'name':'Caldwell','format':'number'},
+				{'name':'S','format':'number'},
+				{'name':'NGC','format':'number'},
+				{'name':'date','format':'string'},
+				{'name':'V','format':'string'}
+			]);
+			for(var i = 0; i < data.length; i++) constellations[data[i].code] = data[i];
+
+			drawConstellations(co,0.049*0.3,{'grid':grid});
+			
+			// Set up the tooltip
+			tooltip({
+				'elements':$('svg path'),
+				'html':function(){
+					var abbr = $(this).attr('id');
+					var text = '<div><\/div><h3>'+parseHTML(constellations[abbr].name)+'<\/h3><table>';
+					text += '<tr><td>Meaning:<\/td><td>'+constellations[abbr].desc+'<\/td><\/tr>';
+					text += '<tr><td>Pronunciation:<\/td><td>'+constellations[abbr].pronunciation+'<\/td><\/tr>';
+					text += '<tr><td>Area:<\/td><td>'+Math.round(constellations[abbr].area)+' sq &deg;<\/td><\/tr>';
+					text += '<tr><td>Messier objects:<\/td><td>'+(constellations[abbr].M ? constellations[abbr].M : 0)+'<\/td><\/tr>';
+					text += '<tr><td>NGC objects:<\/td><td>'+(constellations[abbr].NGC ? constellations[abbr].NGC : 0)+'<\/td><\/tr>';
+					text += '<tr><td colspan="2" style="background-color:black;"><iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://lcogt.net/virtualsky/embed/?projection=gnomic&constellationboundaries=true&fov=60&cardinalpoints=false&showposition=false&constellationlabels=true&ra='+(15*(constellations[abbr].ra_mid_hh+constellations[abbr].ra_mid_mm/60))+'&dec='+(constellations[abbr].dec_mid_dd+constellations[abbr].dec_mid_mm/60)+'" allowTransparency="true"><\/iframe><\/td><\/tr>';
+					text += '<\/table>';
+					return text;
+				}
+			});
+
+		}
+
+		// Load the constituent files
+		loadCSV('data/constellations.csv',parseFile);
+
+
+	});
+	</script>
+	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
+</head>
+<body class="STA">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">infographics</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="padder">
+					<h1>Constellations</h1>
+					<p>The sky is split up into 88 constellations. They range in size from Hydra (the largest) to Crux (the smallest).</p>
+					<div id="holder">Loading...</div>
+
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Based on data from the <a href="http://calgary.rasc.ca/constellation.htm">Royal Astronomical Society of Canada Constellation List</a> (Larry McNish) visualised with <a href="http://slowe.github.io/VirtualSky/">Virtual Sky</a> for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

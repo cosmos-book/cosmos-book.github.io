@@ -1,0 +1,90 @@
+Name,Code,Description,Pronunciation,Genitive,Area (sq deg),RA low hours,RA low minutes,RA high hours,RA high minutes,Dec low degrees,Dec low arcminutes,Dec high degrees,Dec high arcminutes,RA mid hours,RA mid minutes,Dec mid hours,Dec mid arcminutes,Messier objects,Finest NGC,Caldwell,Brightest stars,NGC objects,Best date,V
+Andromeda,And,The Daughter of Cassiopeia,an-drom-E-du,Andromedae,722.278,22,57.37,02,39.54,+21,40.60,+53,11.22,00,48.46,+37,25.91,3,2,3,3,160,Oct 4,V
+Antlia,Ant,The Air Pump,ant-lE-u,Antliae,238.901,09,26.94,11,05.92,-40,25.48,-24,32.55,10,16.43,-32,29.01,,,,,66,Feb 25,P
+Apus,Aps,The Bird of Paradise,A-pus,Apodis,206.327,13,49.84,18,27.46,-83,07.20,-67,28.80,16,08.65,-75,18.00,,,1,,9,May 25,N
+Aquarius,Aqr,The Water-bearer,u-kwer-E-us,Aquarii,979.854,20,38.32,23,56.44,-24,54.24,+03,19.54,22,17.38,-10,47.35,3,2,2,,146,Aug 27,V
+Aquila,Aql,The Eagle,u-kwil-u or ak-wil-u,Aquilae,652.473,18,41.30,20,38.74,-11,51.99,+18,41.29,19,40.02,+03,24.65,,1,,1,41,Jul 18,V
+Ara,Ara,The Altar,A-ru,Arae,237.057,16,34.28,18,10.69,-67,41.43,-45,29.16,17,22.49,-56,35.30,,,3,,17,Jun 13,N
+Aries,Ari,The Ram,e-rEz or e-ri-Ez,Arietis,441.395,01,46.62,03,29.71,+10,21.79,+31,13.28,02,38.16,+20,47.54,,1,,1,81,Nov 1,V
+Auriga,Aur,The Charioteer,o-rI-gu or o-rE-gu,Aurigae,657.438,04,37.91,07,30.94,+27,53.48,+56,09.89,06,04.42,+42,01.68,3,1,1,2,25,Dec 23,V
+Bootes,Boo,The Herdsman,bO-O-tEz,Bootis,906.831,13,35.82,15,49.46,+07,21.63,+55,02.69,14,42.64,+31,12.16,,1,1,2,289,May 3,V
+Caelum,Cae,The Chisel,sE-lum,Caeli,124.865,04,19.53,05,05.02,-48,44.31,-27,01.49,04,42.27,-37,52.90,,,,,16,Dec 2,P
+Camelopardalis,Cam,The Giraffe,ka-mel-O-por-du-lis,Camelopardalis,756.828,03,15.60,14,27.13,+52,39.93,+86,05.85,08,51.37,+69,22.89,,3,2,,53,Feb 3,V
+Cancer,Cnc,The Crab,kan-ser,Cancri,505.872,07,55.33,09,22.58,+06,28.20,+33,08.49,08,38.96,+19,48.35,2,,1,,125,Jan 31,V
+Canes Venatici,CVn,The Hunting Dogs,kA-nEz vE-nat-i-sI,Canum Venaticorum,465.194,12,06.37,14,07.56,+27,50.63,+52,21.59,13,06.96,+40,06.11,5,9,4,,227,Apr 9,V
+Canis Major,CMa,The Big Dog,kA-nis mA-jer,Canis Majoris,380.118,06,11.60,07,27.89,-33,15.03,-11,01.81,06,49.74,-22,08.42,1,1,2,5,39,Jan 3,V
+Canis Minor,CMi,The Little Dog,kA-nis mI-ner,Canis Minoris,183.367,07,06.66,08,11.69,+00,22.16,+13,13.43,07,39.17,+06,25.63,,,,1,19,Jan 16,V
+Capricornus,Cap,The Goat,kap-ri-kor-nus,Capricorni,413.947,20,06.77,21,59.08,-27,38.51,-08,24.26,21,02.93,-18,01.39,1,,,,28,Aug 8,V
+Carina,Car,The Keel,ku-rI-nu or ku-rE-nu,Carinae,494.184,06,02.77,11,20.62,-75,41.04,-50,45.27,08,41.70,-63,13.16,,,5,4,44,Feb 1,N
+Cassiopeia,Cas,The Queen,kas-E-O-pE-yu,Cassiopeiae,598.407,22,57.08,03,41.23,+46,40.55,+77,41.54,01,19.16,+62,11.04,2,7,6,3,41,Oct 12,V
+Centaurus,Cen,The Centaur,sen-tor-us,Centauri,1060.422,11,05.35,15,03.19,-64,41.75,-29,59.69,13,04.27,-47,20.72,,,6,9,174,Apr 8,P
+Cepheus,Cep,The King,sE-fE-us or sE-fUs,Cephei,587.787,20,01.94,09,03.33,+53,21.20,+88,39.83,02,32.64,+71,00.51,,4,5,1,36,Oct 30,V
+Cetus,Cet,The Whale,sE-tus,Ceti,1231.411,23,56.41,03,23.79,-24,52.37,+10,30.86,01,40.10,-07,10.76,1,2,3,2,418,Oct 17,V
+Chamaeleon,Cha,The Chameleon,ku-mE-lE-un,Chamaeleontis,131.592,07,26.61,13,56.44,-83,07.20,-75,17.40,10,41.53,-79,12.30,,,1,,4,Mar 3,N
+Circinus,Cir,The Compasses,ser-sin-us,Circini,93.353,13,38.72,15,30.36,-70,37.47,-55,26.18,14,34.54,-63,01.82,,,1,,5,May 1,N
+Columba,Col,The Dove,kO-lum-bu,Columbae,270.184,05,03.90,06,39.62,-43,06.70,-27,04.63,05,51.76,-35,05.67,,,1,,17,Dec 20,P
+Coma Berenices,Com,Berenice's Hair,kO-mu ber-e-nI-sEz,Comae Berenices,386.475,11,58.42,13,36.12,+13,18.24,+33,18.45,12,47.27,+23,18.34,8,6,3,,329,Apr 4,V
+Corona Australis,CrA,The Southern Crown,kO-rO-nu aus-trA-lis,Coronae Australis,127.696,17,58.50,19,19.08,-45,30.98,-36,46.71,18,38.79,-41,08.85,,,2,,5,Jul 2,P
+Corona Borealis,CrB,The Northern Crown,kO-rO-nu bOr-E-al-is,Coronae Borealis,178.710,15,16.06,16,25.12,+25,32.28,+39,42.70,15,50.59,+32,37.49,,,,1,43,May 20,V
+Corvus,Crv,The Crow,kor-vus,Corvi,183.801,11,56.37,12,56.67,-25,11.75,-11,40.64,12,26.52,-18,26.20,,2,2,,35,Mar 30,V
+Crater,Crt,The Cup,krA-ter,Crateris,282.398,10,51.10,11,56.39,-25,11.75,-06,39.73,11,23.75,-15,55.74,,,,,90,Mar 14,V
+Crux,Cru,The Cross,kruks,Crucis,68.447,11,56.23,12,57.75,-64,41.75,-55,40.63,12,26.99,-60,11.19,,,3,3,8,Mar 30,N
+Cygnus,Cyg,The Swan,sig-nus,Cygni,803.983,19,07.51,22,03.05,+27,43.94,+61,21.46,20,35.28,+44,32.70,2,7,6,3,67,Aug 1,V
+Delphinus,Del,The Dolphin,del-fI-nus,Delphini,188.549,20,14.24,21,08.99,+02,24.13,+20,56.40,20,41.61,+11,40.26,,,2,,24,Aug 2,V
+Dorado,Dor,The Swordfish,dO-ro-dO,Doradus,179.173,03,53.28,06,35.75,-70,06.25,-48,40.20,05,14.51,-59,23.22,,,1,,301,Dec 10,N
+Draco,Dra,The Dragon,drA-kO,Draconis,1082.952,09,22.46,20,54.82,+47,32.86,+86,27.94,15,08.64,+67,00.40,1,3,2,1,313,May 10,V
+Equuleus,Equ,The Little Horse,E-kwoo-lE-us,Equulei,71.641,20,56.18,21,26.33,+02,28.64,+13,02.34,21,11.26,+07,45.49,,,,,4,Aug 10,V
+Eridanus,Eri,The River,E-rid-a-nus,Eridani,1137.919,01,24.82,05,11.22,-57,54.97,+00,24.22,03,18.02,-28,45.37,,2,,1,338,Nov 11,P
+Fornax,For,The Furnace,for-naks,Fornacis,397.502,01,45.40,03,50.36,-39,30.77,-23,45.38,02,47.88,-31,38.07,,,1,,77,Nov 3,P
+Gemini,Gem,The Twins,jem-i-nI,Geminorum,513.761,06,00.50,08,07.97,+09,48.59,+35,23.43,07,04.24,+22,36.01,1,2,1,3,67,Jan 7,V
+Grus,Gru,The Crane,grus,Gruis,365.513,21,27.71,23,27.07,-56,23.45,-36,18.77,22,27.39,-46,21.11,,,,2,62,Aug 29,P
+Hercules,Her,The Son of Zeus,her-cU-lEz,Herculis,1225.148,15,48.50,18,57.83,+03,40.41,+51,19.46,17,23.16,+27,29.93,2,1,,,226,Jun 13,V
+Horologium,Hor,The Clock,hor-O-lO-jE-um,Horologii,248.885,02,12.81,04,20.31,-67,02.15,-39,38.21,03,16.56,-53,20.18,,,1,,25,Nov 10,N
+Hydra,Hya,The female Water Snake,hId-ru,Hydrae,1302.844,08,10.94,15,02.52,-35,41.63,+06,37.81,11,36.73,-14,31.91,3,1,2,1,237,Mar 17,V
+Hydrus,Hyi,The male Water Snake,hId-rus,Hydri,243.035,00,06.13,04,35.18,-82,03.87,-57,50.90,02,20.65,-69,57.39,,,,,16,Oct 27,N
+Indus,Ind,The Indian,in-dus,Indi,294.006,20,28.68,23,27.99,-74,27.27,-44,57.53,21,58.33,-59,42.40,,,,,48,Aug 22,N
+Lacerta,Lac,The Lizard,lu-ser-tu,Lacertae,200.688,21,57.51,22,57.86,+35,09.94,+56,55.08,22,27.68,+46,02.51,,,1,,26,Aug 29,V
+Leo,Leo,The Lion,lE-O,Leonis,946.964,09,21.62,11,58.44,-06,41.50,+32,58.15,10,40.03,+13,08.32,5,5,1,4,409,Mar 3,V
+Leo Minor,LMi,The Little Lion,lE-O mI-ner,Leonis Minoris,231.956,09,22.58,11,06.86,+22,50.26,+41,25.90,10,14.72,+32,08.08,,3,,,65,Feb 24,V
+Lepus,Lep,The Hare,lE-pus,Leporis,290.291,04,55.04,06,12.86,-27,16.73,-10,48.83,05,33.95,-19,02.78,1,,,1,32,Dec 15,V
+Libra,Lib,The Balance,lE-bru or lI-bru,Librae,538.052,14,21.63,16,02.29,-29,59.69,+00,28.46,15,11.96,-15,14.08,,,,,58,May 11,V
+Lupus,Lup,The Wolf,loo-pus,Lupi,333.683,14,17.80,16,08.61,-55,34.80,-29,50.27,15,13.21,-42,42.53,,,,1,18,May 11,P
+Lynx,Lyn,The Lynx,links,Lyncis,545.386,06,16.23,09,42.84,+32,58.15,+61,57.85,07,59.53,+47,28.00,,1,1,,107,Jan 21,V
+Lyra,Lyr,The Lyre,lI-ru,Lyrae,286.476,18,13.87,19,28.48,+25,39.85,+47,42.86,18,51.17,+36,41.36,2,,,1,34,Jul 5,V
+Mensa,Men,The Table,men-su,Mensae,153.484,03,12.93,07,36.86,-85,15.69,-69,44.80,05,24.90,-77,30.24,,,,,74,Dec 13,N
+Microscopium,Mic,The Microscope,mI-krO-scO-pE-um,Microscopii,209.513,20,27.59,21,28.17,-45,05.40,-27,27.58,20,57.88,-36,16.49,,,,,11,Aug 6,P
+Monoceros,Mon,The Unicorn,mO-nos-er-us,Monocerotis,481.569,05,55.86,08,11.40,-11,22.13,+11,56.00,07,03.63,+00,16.93,1,2,4,,58,Jan 7,V
+Musca,Mus,The Fly,mus-ku,Muscae,138.355,11,19.43,13,51.13,-75,41.04,-64,38.28,12,35.28,-70,09.66,,,2,,6,Apr 1,N
+Norma,Nor,The Square,nor-mu,Normae,165.290,15,12.23,16,36.14,-60,26.13,-42,16.05,15,54.18,-51,21.09,,,1,,14,May 21,N
+Octans,Oct,The Octant,ok-tanz,Octantis,291.045,00,00.00,24,00.00,-90,00.00,-74,18.24,23,00.00,-82,09.12,,,,,10,Sep 6,N
+Ophiuchus,Oph,The Serpent-holder,O-fE-U-kus,Ophiuchi,948.340,16,01.55,18,45.83,-30,12.74,+14,23.25,17,23.69,-07,54.74,7,3,,3,42,Jun 13,V
+Orion,Ori,The Hunter,O-rI-un,Orionis,594.120,04,43.41,06,25.78,-10,58.71,+22,52.59,05,34.59,+05,56.94,3,5,,7,66,Dec 15,V
+Pavo,Pav,The Peacock,pA-vO,Pavonis,377.666,17,40.67,21,32.74,-74,58.47,-56,35.31,19,36.71,-65,46.89,,,2,1,54,Jul 17,N
+Pegasus,Peg,The Winged Horse,peg-u-sus,Pegasi,1120.794,21,08.72,00,14.96,+02,19.54,+36,36.41,22,41.84,+19,27.98,1,1,3,3,335,Sep 2,V
+Perseus,Per,The Rescuer of Andromeda,per-sE-us or per-sus,Persei,614.997,01,29.63,04,51.36,+30,55.31,+59,06.28,03,10.50,+45,00.79,2,3,2,2,98,Nov 9,V
+Phoenix,Phe,The Phoenix,fE-niks,Phoenicis,469.319,23,26.77,02,25.06,-57,50.90,-39,18.77,00,55.91,-48,34.84,,,,1,41,Oct 6,N
+Pictor,Pic,The Painter,pic-ter,Pictoris,246.739,04,32.87,06,52.04,-64,09.11,-42,47.78,05,42.46,-53,28.45,,,,,21,Dec 17,N
+Pisces,Psc,The Fishes,pI-sEz,Piscium,889.417,22,51.29,02,06.66,-06,18.45,+33,40.91,00,28.97,+13,41.23,1,,,,312,Sep 29,V
+Piscis Austrinus,PsA,The Southern Fish,pI-sis aus-trI-nus,Piscis Austrini,245.375,21,27.23,23,06.91,-36,27.56,-24,49.50,22,17.07,-30,38.53,,,,1,39,Aug 26,V
+Puppis,Pup,The Stern,pup-is,Puppis,673.434,06,03.00,08,27.96,-51,06.16,-11,15.13,07,15.48,-31,10.64,3,2,1,1,56,Jan 10,P
+Pyxis,Pyx,The Compass,pik-sis,Pyxidis,220.833,08,26.71,09,27.62,-37,17.52,-17,24.68,08,57.16,-27,21.10,,,,,12,Feb 5,V
+Reticulum,Ret,The Reticle,rE-tik-U-lum,Reticuli,113.936,03,13.45,04,37.10,-67,14.88,-52,44.82,03,55.27,-59,59.85,,,,,12,Nov 20,N
+Sagitta,Sge,The Arrow,su-jit-u,Sagittae,79.932,18,57.36,20,20.75,+16,04.75,+21,38.62,19,39.05,+18,51.68,1,,,,6,Jul 17,V
+Sagittarius,Sgr,The Archer,saj-i-ter-E-us,Sagittarii,867.432,17,43.20,20,28.68,-45,16.65,-11,40.57,19,05.94,-28,28.61,15,3,1,2,87,Jul 9,P
+Scorpius,Sco,The Scorpion,skor-pE-us,Scorpii,496.783,15,47.25,17,59.24,-45,46.02,-08,17.75,16,53.24,-27,01.89,4,,3,7,51,Jun 5,P
+Sculptor,Scl,The Sculptor,skulp-ter,Sculptoris,474.764,23,06.72,01,45.84,-39,22.36,-24,48.25,00,26.28,-32,05.30,,1,3,,64,Sep 28,P
+Scutum,Sct,The Shield,skU-tum,Scuti,109.114,18,21.60,18,59.17,-15,56.61,-03,50.02,18,40.39,-09,53.32,2,1,,,12,Jul 2,V
+Serpens (Caput),Ser,The (Head of the) Serpent,ser-penz,Serpentis,428.48,15,10.42,16,22.55,-03,43.45,+25,39.85,15,46.49,+10,58.20,1,,,,84,May 19,V
+Serpens (Cauda),Ser,The (Tail of the) Serpent,ser-penz,Serpentis,208.44,17,16.89,18,58.31,-16,08.40,+06,24.94,18,07.60,-04,51.73,1,,,,tot,Jun 24,V
+Sextans,Sex,The Sextant,seks-tuns,Sextantis,313.515,09,41.08,10,51.50,-11,39.73,+06,25.97,10,16.29,-02,36.88,,1,1,,64,Feb 25,V
+Taurus,Tau,The Bull,tor-us,Tauri,797.249,03,23.35,06,00.92,-01,20.77,+31,06.02,04,42.13,+14,52.63,2,1,1,2,48,Dec 2,V
+Telescopium,Tel,The Telescope,tel-e-skO-pE-um,Telescopii,251.512,18,09.24,20,29.84,-56,59.03,-45,05.40,19,19.54,-51,02.21,,,,,42,Jul 12,N
+Triangulum,Tri,The Triangle,trI-ang-gU-lum,Trianguli,131.847,01,31.47,02,50.67,+25,36.30,+37,20.83,02,11.07,+31,28.56,1,,,,84,Oct 25,V
+Triangulum Australe,TrA,The Southern Triangle,trI-ang-gU-lum aus-trA-lE,Trainguli Australis,109.978,14,56.01,17,13.88,-70,30.69,-60,15.87,16,04.95,-65,23.28,,,1,1,6,May 24,N
+Tucana,Tuc,The Toucan,too-kan-u or too-kA-nu,Tucanae,294.557,22,08.45,01,24.82,-75,20.83,-56,18.76,23,46.64,-65,49.80,,,2,,63,Sep 18,N
+Ursa Major,UMa,The Great Bear,Er-su mA-jer,Ursae Majoris,1279.660,08,08.52,14,29.00,+28,18.24,+73,08.30,11,18.76,+50,43.27,7,9,,6,439,Mar 12,V
+Ursa Minor,UMi,The Little Bear,Er-su mI-ner,Ursae Minoris,255.864,00,00.00,24,00.00,+65,23.98,+90,00.00,15,00.00,+77,41.99,,,,2,39,May 8,V
+Vela,Vel,The Sails,vE-lu,Velorum,499.649,08,03.45,11,05.83,-57,10.47,-37,09.60,09,34.64,-47,10.03,,,3,4,42,Feb 14,P
+Virgo,Vir,The Maiden,ver-gO,Virginis,1294.428,11,37.37,15,11.41,-22,40.64,+14,21.63,13,24.39,-04,09.51,11,10,1,1,720,Apr 13,V
+Volans,Vol,The Flying Fish,vO-lanz,Volantis,141.354,06,31.08,09,04.38,-75,29.73,-64,06.42,07,47.73,-69,48.07,,,,,13,Jan 18,N
+Vulpecula,Vul,The Fox,vul-pek-U-lu,Vulpeculae,268.165,18,57.11,21,30.65,+19,23.90,+29,29.23,20,13.88,+24,26.56,1,2,1,,21,Jul 26,V
