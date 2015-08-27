@@ -87,7 +87,7 @@ body.TEL #footer a { color: #67c18d; }
 ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0em; padding: 0px; font-family: "Menlo Regular", monospace, sans-serif; }
 ul#menu li { display: inline-block; margin: 0px; padding: 0px; line-height: 1em; }
 #header a, #footer a { color: inherit; }
-footer { min-height: 10em; background-color: #616265; color: #efefef; }
+footer { background-color: #616265; color: #efefef; }
 nav { background-color: white; box-shadow: 0px 0px 1px rgba(0,0,0,0.05); line-height: 1em; }
 
 /* Front page */
@@ -381,8 +381,8 @@ h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 .tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
 .tooltip .tooltip_inner table td { text-align: left; vertical-align: top; padding: 2px; }
 .tooltip .tooltip_inner table td:last-child { text-align: right; }
-.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; }
-.tooltip h3 { text-align: center; }
+.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; font-weight: bold; }
+.tooltip h3 { text-align: center; font-weight: bold; }
 .tooltip p { margin-top: 0px; }
 .tooltip tr:hover { background-color: #eeeeee; }
 .tooltip.right { margin-left: 1.0em; }

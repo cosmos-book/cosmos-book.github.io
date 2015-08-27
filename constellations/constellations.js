@@ -230,7 +230,7 @@ function drawConstellation(abbr,xoff,yoff,attr){
 		}
 		path += "z";
 		// Draw constellation boundaries
-		areasvg.push(paper.path(path).attr({'title':constellations[abbr].name,'fill':colours[attr.colour][3],'stroke':colours[attr.colour][2],'stroke-width':0,'opacity':0.7}));
+		areasvg.push(paper.path(path).attr({'title':constellations[abbr].name,'cursor':'pointer','fill':colours[attr.colour][3],'stroke':colours[attr.colour][2],'stroke-width':0,'opacity':0.7}));
 		areasvg[areasvg.length-1].node.id = abbr;
 		areasvg[areasvg.length-1].click(function(e){
 			for(var i = 0; i < areasvg.length; i++) areasvg[i].attr({'fill':colours[attr.colour][3],'opacity':0.7});
@@ -238,6 +238,7 @@ function drawConstellation(abbr,xoff,yoff,attr){
 			this.toFront()
 		}).hover(function(e){
 			this.attr({'opacity':1,'fill':'white','stroke-width':1})
+			this.toFront()
 		},function(e){
 			this.attr({'opacity':0.7,'fill':colours[attr.colour][3],'stroke-width':0})		
 		})

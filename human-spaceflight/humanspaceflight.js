@@ -33,9 +33,22 @@ $(document).ready(function(){
 
 	function drawAstronauts(){
 		var output = '';
-		for(var i = 0; i < astronauts.length; i++) output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+''+(astronauts[i].inspaceasof != null ? ' inorbit' : '')+'" title="'+astronauts[i].name+'"><\/a>';
+		for(var i = 0; i < astronauts.length; i++) output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+''+(astronauts[i].inspaceasof != null ? ' inorbit' : '')+'" title="'+astronauts[i].name+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>';
 		$('.innerbox').append(output);
 		updateAstronauts();
+		
+//		var form = $('<form>').attr({'class':'filter','action':'#'});
+		var labl = $('<label>').attr({'for':'filter_text'}).html('Filter');
+		var inpt = $('<input>').attr({'class':'filterinp','id':'filter_text','type':'text','placeholder':'Filter by name e.g. \'Armstrong\''});
+		$('form.axes').append(labl).append(inpt);
+		
+		$(inpt).on('change',function(){
+			var search = $(this).val().toLowerCase();
+			$('a.human.unmatched').removeClass('unmatched');
+			if(search) $('.innerbox').find('a.human:not([data-name*="'+search+'"])').addClass('unmatched');
+		}).on('keyup',function(){
+			$(this).change();
+		});
 	}
 
 	// Add events to deal with changes to the drop down select lists
