@@ -37,7 +37,6 @@ $(document).ready(function(){
 		$('.innerbox').append(output);
 		updateAstronauts();
 		
-//		var form = $('<form>').attr({'class':'filter','action':'#'});
 		var labl = $('<label>').attr({'for':'filter_text'}).html('Filter');
 		var inpt = $('<input>').attr({'class':'filterinp','id':'filter_text','type':'text','placeholder':'Filter by name e.g. \'Armstrong\''});
 		$('form.axes').append(labl).append(inpt);
