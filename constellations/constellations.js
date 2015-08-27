@@ -138,14 +138,7 @@ function drawConstellations(d,s,attr){
 
 	var padd = 30;
 
-	$('#saver').on('click',function(e){
-		e.preventDefault();
-		savesvg();
-	});
-
-	for(var i = 0; i < d.length; i++){
-		drawConstellation(d[i][0],padd+(w-padd*2)*d[i][1],padd+(h-padd*2)*d[i][2],attr);
-	}
+	for(var i = 0; i < d.length; i++) drawConstellation(d[i][0],padd+(w-padd*2)*d[i][1],padd+(h-padd*2)*d[i][2],attr);
 		
 	return attr;
 }
@@ -241,8 +234,12 @@ function drawConstellation(abbr,xoff,yoff,attr){
 		areasvg[areasvg.length-1].node.id = abbr;
 		areasvg[areasvg.length-1].click(function(e){
 			for(var i = 0; i < areasvg.length; i++) areasvg[i].attr({'fill':colours[attr.colour][3],'opacity':0.7});
-			if(this.attr('fill')==colours[attr.colour][3]) this.attr({'fill':colours[attr.colour][0],'opacity':1})
+			if(this.attr('fill')==colours[attr.colour][3]) this.attr({'fill':'white','opacity':1})
 			this.toFront()
+		}).hover(function(e){
+			this.attr({'opacity':1,'fill':'white','stroke-width':1})
+		},function(e){
+			this.attr({'opacity':0.7,'fill':colours[attr.colour][3],'stroke-width':0})		
 		})
 	}
 
