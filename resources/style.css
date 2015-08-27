@@ -374,6 +374,15 @@ h2.SOL { padding-left: 0.5em; border-left: 0.5em solid #48c7e9; }
 h2.SUN { padding-left: 0.5em; border-left: 0.5em solid #fff200; }
 h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 
+/* Subtle vignette */
+.EXO #content { box-shadow:inset 0px 0px 200px rgba(102,45,143,0.06); }
+.EXP #content { box-shadow:inset 0px 0px 200px rgba(246,136,31,0.06); }
+.GAL #content { box-shadow:inset 0px 0px 200px rgba(2,162,75,0.06); }
+.OTH #content { box-shadow:inset 0px 0px 200px rgba(87,183,170,0.06); }
+.SOL #content { box-shadow:inset 0px 0px 200px rgba(0,162,211,0.06); }
+.STA #content { box-shadow:inset 0px 0px 200px rgba(240,64,49,0.06); }
+.SUN #content { box-shadow:inset 0px 0px 200px rgba(255,203,6,0.06); }
+
 
 /* Tooltip styling */
 .tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; text-align: center; }
