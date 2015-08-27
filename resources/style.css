@@ -17,7 +17,7 @@ html,body {
 	height: 100%;
 	margin: 0px;
 }
-body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; }
+body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; background-image: url("paper.png");}
 body.cover { background-color: #ffffff; }
 .COS { background-color: #f3e5e9; }
 .ETL { background-color: #e9e2ef; }
@@ -31,7 +31,7 @@ body.cover { background-color: #ffffff; }
 .TEL { background-color: #e4f2e7; }
 .SPACE { background-color: black; }
 .SPACE #content { color: white; }
-h1, h2, h3, .title, .title:visited { font-family: "Source Code Pro", "Menlo Regular", monospace, sans-serif; font-weight: 500; letter-spacing: -1px; margin-top: 0px; text-decoration: none; color: inherit; }
+h1, h2, h3, .title, .title:visited { font-family: "Source Code Pro", monospace, sans-serif; font-weight: 500; letter-spacing: -1px; margin-top: 0px; text-decoration: none; color: inherit; }
 h1 { margin-bottom: 0.25em; font-size: 1.5em; }
 h2 { font-size: 1.2em; line-height: 1.8em; margin: 1em 0 0 0; }
 h3 { margin-bottom: 0em; }
@@ -85,7 +85,7 @@ body.SUN #footer a { color: #fff79a; }
 body.TEL a { color: #0ab26b; }
 body.TEL a:visited, body.TEL #header a:hover, body.TEL #header a:focus { color: #02a24b; }
 body.TEL #footer a { color: #67c18d; }
-ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0em; padding: 0px; font-family: "Menlo Regular", monospace, sans-serif; }
+ul#menu { display: inline-block; float: right; list-style: none; margin: 0px; margin-top: 0em; padding: 0px; font-family: "Source Code Pro", monospace, sans-serif; font-weight: 500; }
 ul#menu li { display: inline-block; margin: 0px; padding: 0px; line-height: 1em; }
 #header a, #footer a { color: inherit; }
 footer { background-color: #616265; color: #efefef; }
@@ -391,8 +391,8 @@ h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 .tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
 .tooltip .tooltip_inner table td { text-align: left; vertical-align: top; padding: 2px; }
 .tooltip .tooltip_inner table td:last-child { text-align: right; }
-.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; font-weight: bold; }
-.tooltip h3 { text-align: center; font-weight: bold; }
+.tooltip .tooltip_inner table td:first-child { text-align: left; width: 40%; font-weight: bold; font-weight: 500; }
+.tooltip h3 { text-align: center; }
 .tooltip p { margin-top: 0px; }
 .tooltip tr:hover { background-color: #eeeeee; }
 .tooltip.right { margin-left: 1.0em; }
@@ -551,5 +551,5 @@ body .button:active {
 	.inner { padding: 0em;}
 	.padder { padding: 0.5em; }
 	.padded { margin: 0.5em; }
-	ul#menu { font-family: "Helvetica Neue", sans-serif; }
+	ul#menu { font-family: "Helvetica Neue", sans-serif; font-weight: normal; }
 }
