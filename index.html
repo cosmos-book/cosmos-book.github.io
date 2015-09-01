@@ -4,6 +4,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<title>Cosmos: The infographic book of space</title>
 	<link rel="stylesheet" href="resources/style.css" />
+	<script type="text/javascript" src="resources/infographics.js"></script>
+	<script type="text/javascript">
+	r(function(){
+		function updateCountdown(){
+			var countdown,launch,now,diff,dd,hh,mm,ss,msperday;
+			countdown = document.getElementById('countdown');
+			launch = new Date('2015-10-22T00:00:00+01:00');
+			now = new Date();
+			diff = (launch-now);
+			msperday = 86400000;
+			dd = Math.floor(diff/msperday);
+			diff -= dd*msperday;
+			hh = Math.floor(24*diff/msperday);
+			diff -= (hh/24)*msperday;
+			mm = Math.floor(24*60*diff/msperday);
+			diff -= (mm/(24*60))*msperday;
+			ss = Math.floor(24*3600*diff/msperday);
+			countdown.innerHTML = '<div class="label">Launch countdown:<\/div><ul>'+formatPeriod(dd,'days')+formatPeriod(hh,'hours')+formatPeriod(mm,'minutes')+formatPeriod(ss,'seconds')+'<\/ul>';
+		}
+		function formatPeriod(v,p){ return '<li class="part"><span class="value">'+((v < 10) ? "0"+v : v)+'<\/span> <span class="period">'+p+'<\/span><\/li>'; }
+		setInterval(updateCountdown,1000);
+	});
+	</script>
+	<style>
+	#countdown { vertical-align: top; margin-bottom: 1em; }
+	#countdown ul { margin: 0px; padding: 0px; }
+	#countdown .label { display: block; }
+	#countdown li { margin: 0px; }
+	li.part { display: inline-block; line-height: 1em; font-size: 1.5em; position: relative; }
+	li.part .value:after { content:':'; margin-right: 0px; }
+	li.part:last-child .value:after { content:''; }
+	li.part .value { display: inline-block; float: left; font-family: "Source Code Pro", monospace, sans-serif; font-weight: 500; letter-spacing: -1px; }
+	li.part .period { font-size: 0.3em; position: absolute; left: 0px; bottom: 0px; line-height: 1em; margin-bottom: -1em; }
+	</style>
 </head>
 <body class="cover">
 	<div id="container">
@@ -32,6 +66,7 @@
 							<p>Aurum Press Ltd</p>
 							<p>Life. The Universe. Everything. The human race has always revealed an insatiable hunger to search &quot;to infinity and beyond&quot;. Astronomers Stuart Lowe and Chris North use cutting-edge infographics to illuminate the most amazing places and objects that modern science has laid bare. Featuring innovative, inspirational and original designs, the book delves into a truly international subject and will appeal to stargazers and space enthusiasts of all ages.</p>
 							<!--<p>This repository accompanies the book. It will contain interactive versions of selected infographics, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/sources behind the graphics.</p>-->
+							<p id="countdown"></p>
 						</div>
 					</div>
 				</div>
