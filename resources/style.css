@@ -38,6 +38,7 @@ h3 { margin-bottom: 0em; }
 p { max-width: 600px; line-height: 1.25em; }
 p { margin-top: 1em; }
 p:first-child { margin-top: 0; }
+p.columns { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; column-gap: 1em; column-width: 600px; max-width: 100%; }
 input[type=text], input[type=number] {
 	height: 2em;
 	font-size: 1em;
@@ -47,9 +48,10 @@ input[type=text], input[type=number] {
 	-webkit-box-sizing: border-box;
 }
 ul { padding-left: 1em; }
-ul.indent { padding: 0.5em 1em 0em 2em; }
+ul.indent { padding: 0.5em 0em 0em 2em; }
 ul li { margin-top: 0.5em; list-style-type: disc; line-height: 1.25em; }
 ul ul li { margin-left: 0; list-style-type: circle; }
+.pagenum { float: right; margin-right: 0.5em; }
 
 a { color: #00b9e4; text-decoration: none; }
 a:hover, a.focus { text-decoration: underline; }
@@ -522,7 +524,7 @@ body .button:active {
 	}
 }
 
-.key { margin: 0px; padding-left: 0; display: inline-block; }
+.key { margin: 0px; padding-left: 0; display: inline-block; margin-bottom: 0.5em; }
 .keyitem { display: inline-block; margin-right: 1em; }
 .keyitem:last-child { margin-right: 0; }
 .keysymbol { margin-right: 0.25em; }
@@ -540,7 +542,9 @@ body .button:active {
 
 .js-only { display: none; }
 
-
+@media only screen and (max-width: 900px){
+	p.columns { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
+}
 @media only screen and (max-width: 700px){
 	h1 { font-size: 1.3em; }
 	.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px!important; bottom: 0px; right: 0px; width: auto; position: fixed; overflow-y: auto; }
@@ -552,4 +556,5 @@ body .button:active {
 	.padder { padding: 0.5em; }
 	.padded { margin: 0.5em; }
 	ul#menu { font-family: "Helvetica Neue", sans-serif; font-weight: normal; }
+	p.columns { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 }
