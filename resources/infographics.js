@@ -255,10 +255,10 @@ function tooltip(data){
 		var inner = ($('.innerbox').length==1) ? $('.innerbox') : ($('#content').length==1 ? $('#content') : $('#holder'));
 
 		if($('.tooltip').length == 0){
-			$('body').append('<div class="tooltip"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div>');
+			$('body').append('<div class="tooltip"><div class="tooltip_padd"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); closeTooltip(); });
 		}else $('.tooltip_inner').html(text);
-
+		
 		var fs = parseInt($('.tooltip').css('font-size'));
 		var x = l+dx;
 		var y = t+dy/2;

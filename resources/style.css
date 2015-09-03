@@ -389,7 +389,8 @@ h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 
 /* Tooltip styling */
 .tooltip { z-index: 1000; font-size: 0.85em; width: 350px; margin-left: 0px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); position: absolute; background-color: white; -webkit-transition: left 0.2s, top 0.2s; transition: left 0.2s, top 0.2s; transition-timing-function: ease-in; text-align: center; }
-.tooltip .tooltip_inner { margin: 1em; text-align: left; }
+.tooltip .tooltip_padd { padding: 1em; }
+.tooltip .tooltip_inner { text-align: left; }
 .tooltip .tooltip_inner table { width: 100%; padding: 0px; margin: 0px; border-collapse: collapse; }
 .tooltip .tooltip_inner table td { text-align: left; vertical-align: top; padding: 2px; }
 .tooltip .tooltip_inner table td:last-child { text-align: right; }
@@ -403,7 +404,7 @@ h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 .tooltip.right .tooltip_inner:before { left: -1em; top: 0; border-left-color: transparent; border-right-color: white; }
 .tooltip.left .tooltip_inner:before { right: -1em; top: 0; border-left-color: white; border-right-color: transparent; }
 .tooltip.bottom .tooltip_inner:before { top: auto; bottom: 0; border-top-color: transparent; border-bottom-color: white; }
-.tooltip .tooltip_close { text-align: center; margin: auto; margin-bottom: 1em; }
+.tooltip .tooltip_close { text-align: center; margin: auto; }
 
 
 /* form toggle */
