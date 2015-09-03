@@ -56,7 +56,7 @@ $(document).ready(function(){
 	}
 
 	function updateAstronautCount(){
-		for(var i = 0; i < categories.length; i++) $('.'+categories[i]+'_count').html(' / '+$('.human.'+categories[i]+':not(.unmatched)').length);
+		for(var i = 0; i < categories.length; i++) $('.'+categories[i]+'_count').html(' / '+$('.innerbox .human.'+categories[i]+':not(.unmatched)').length);
 	}
 	// Add events to deal with changes to the drop down select lists
 	$('#yaxis').on('change',function(){
