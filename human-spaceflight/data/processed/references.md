@@ -3,6 +3,7 @@
 * **ACTON, Loren W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ADAMSON, James C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ADAMS, Mike James**: http://history.nasa.gov/x15/adams.html
+* **AIMBETOV, Aidyn Akanovich**: https://en.wikipedia.org/wiki/Aidyn_Aimbetov
 * **AKBAR, Taufik**: http://www.spacefacts.de/bios/international/english/akbar_taufik.htm
 * **AKERS, Thomas D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **AKIYAMA, Toyohiro**: http://www.spacefacts.de/bios/international/english/akiyama_toyohiro.htm
