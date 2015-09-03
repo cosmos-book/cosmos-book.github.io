@@ -106,8 +106,8 @@ foreach $file (sort(@files)){
 				$mname = $1;
 				if($missions){ $missions .= ";"; }
 				$missions .= "$mname";
-				if($json_missionname){ $json_missionname .= ","; }
-				$json_missionname .= "\"$mname\"";
+				if($json_missionname){ $json_missionname .= ";"; }
+				$json_missionname .= "$mname";
 			}elsif($line =~ /time_start:[\t\s]*([^\n\r]*)/){
 				$t1 = $1;
 				$land = "";
@@ -146,7 +146,8 @@ foreach $file (sort(@files)){
 			# travelled etc.
 			if($launch && $land){
 
-				$json_mission .= "\"$launch;".($inspace==1 ? "": $land)."\",";
+				$json_mission .= "{\"names\":\"$json_missionname\",\"a\":\"$launch\",\"b\":\"".($inspace==1 ? "": $land)."\"},";
+				$json_missionname = "";
 
 				$durn = duration($launch,$land);
 				if($durn > $longesttrip){ $longesttrip = $durn; }
@@ -233,7 +234,7 @@ foreach $file (sort(@files)){
 
 	# If the person has spent time in space we build some JSON for them
 	if($timeinspace){
-		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":{\"time\":$eva,\"string\":\"".formatTime($eva)."\"},\"file\":\"$file\",\"periods\":[$json_mission]},\n";
+		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]},\n";
 	}
 
 	# Print a warning that no gender (Male/Female/Other) is set

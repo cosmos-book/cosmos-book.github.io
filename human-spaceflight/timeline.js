@@ -39,10 +39,10 @@ $(document).ready(function(){
 		}
 
 		for(name in data) {
-			for(var m = 0; m < data[name].periods.length; m++){
-				var ms = data[name].periods[m].split(/;/);
-				launch = (ms[0]) ? new Date(fixDateString(ms[0])) : "BLAH";
-				land = (ms[1]) ? new Date(fixDateString(ms[1])) : new Date();
+			for(var m = 0; m < data[name].missions.length; m++){
+				//var ms = data[name].missions[m].period.split(/;/);
+				launch = (data[name].missions[m].a) ? new Date(fixDateString(data[name].missions[m].a)) : "BLAH";
+				land = (data[name].missions[m].b) ? new Date(fixDateString(data[name].missions[m].b)) : new Date();
 				l = Math.floor((launch-start)*scale*wide);
 				dl = Math.ceil((land-launch)*scale*wide);
 				var n = 0;
@@ -64,7 +64,7 @@ $(document).ready(function(){
 						break;
 					}
 				}
-				if(name.indexOf('LIU')==0) console.log(name,l,new Date(fixDateString(ms[0])),fixDateString(ms[0]),new Date('1983-08-30T06:53:00Z'))
+				if(name.indexOf('LIU')==0) console.log(name,l,new Date(fixDateString(data[name].missions[m].a)),fixDateString(data[name].missions[m].a),new Date('1983-08-30T06:53:00Z'))
 				if(!row_ok){
 					// There were no rows with a suitable sized gap so we create a new row
 					for(var i = 0 ; i < pixels.length ; i++) pixels[i].push((i >= l && i < l+dl) ? true : false);
@@ -77,8 +77,9 @@ $(document).ready(function(){
 				a.n = n;
 				a.width = dl;
 				a.left = l;
+				a.missionnames = data[name].missions[m].names.split(";");
 				a.launch = launch;
-				a.land = (ms[1] ? land : "");
+				a.land = (data[name].missions[m].b ? land : "");
 				a.dob = new Date(a.dob);
 				astronauts.push(a);
 			}
@@ -123,10 +124,10 @@ $(document).ready(function(){
 				text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-				text += '<tr><td>Trips to space:<\/td><td>'+a.periods.length+'<\/td><\/tr>';
+				text += '<tr><td>Trips to space:<\/td><td>'+a.missions.length+'<\/td><\/tr>';
 				var start = a.launch.toLocaleDateString();
 				var end = (a.land ? a.land.toLocaleDateString() : '');
-				text += '<tr><td>This mission:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<\/td><\/tr>';
+				text += '<tr><td>This trip:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<br />('+formatArray(a.missionnames)+')<\/td><\/tr>';
 				if(prev || next) text += '<tr><td>'+prev+'<\/td><td>'+next+'<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
