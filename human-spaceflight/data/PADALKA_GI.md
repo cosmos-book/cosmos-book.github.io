@@ -4,7 +4,7 @@ name:	PADALKA, Gennadi Ivanovich
 type:	military
 dob:	1958-06-21
 country:
-  - URS
+  - RUS
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/padalka_gennadi.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/padalka_gennadi.htm

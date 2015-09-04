@@ -1,5 +1,5 @@
 ---
-category:	cosmonaut
+category:	international
 name:	AIMBETOV, Aidyn Akanovich
 type:	civilian
 dob:	1972-07-27
