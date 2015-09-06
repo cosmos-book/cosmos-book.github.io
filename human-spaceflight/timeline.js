@@ -64,7 +64,7 @@ $(document).ready(function(){
 						break;
 					}
 				}
-				if(name.indexOf('LIU')==0) console.log(name,l,new Date(fixDateString(data[name].missions[m].a)),fixDateString(data[name].missions[m].a),new Date('1983-08-30T06:53:00Z'))
+				//if(name.indexOf('LIU')==0) console.log(name,l,new Date(fixDateString(data[name].missions[m].a)),fixDateString(data[name].missions[m].a),new Date('1983-08-30T06:53:00Z'))
 				if(!row_ok){
 					// There were no rows with a suitable sized gap so we create a new row
 					for(var i = 0 ; i < pixels.length ; i++) pixels[i].push((i >= l && i < l+dl) ? true : false);

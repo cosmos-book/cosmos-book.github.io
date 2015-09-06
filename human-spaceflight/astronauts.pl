@@ -23,6 +23,8 @@ $epsilon_moon = (1 - ($speed_moon*$speed_moon)/($speed_light*$speed_light));
 $gamma_leo = 1/sqrt($epsilon_leo);
 $gamma_moon = 1/sqrt($epsilon_moon);
 
+%countrycode = ('ABW'=>'Aruba','AFG'=>'Afghanistan','AGO'=>'Angola','AIA'=>'Anguilla','ALA'=>'&Aring;land Islands','ALB'=>'Albania','AND'=>'Andorra','ARE'=>'United Arab Emirates','ARG'=>'Argentina','ARM'=>'Armenia','ASM'=>'American Samoa','ATA'=>'Antarctica','ATF'=>'French Southern Territories','ATG'=>'Antigua and Barbuda','AUS'=>'Australia','AUT'=>'Austria','AZE'=>'Azerbaijan','BDI'=>'Burundi','BEL'=>'Belgium','BEN'=>'Benin','BES'=>'Bonaire, Sint Eustatius and Saba','BFA'=>'Burkina Faso','BGD'=>'Bangladesh','BGR'=>'Bulgaria','BHR'=>'Bahrain','BHS'=>'Bahamas','BIH'=>'Bosnia and Herzegovina','BLM'=>'Saint Barthélemy','BLR'=>'Belarus','BLZ'=>'Belize','BMU'=>'Bermuda','BOL'=>'Bolivia, Plurinational State of','BRA'=>'Brazil','BRB'=>'Barbados','BRN'=>'Brunei Darussalam','BTN'=>'Bhutan','BVT'=>'Bouvet Island','BWA'=>'Botswana','CAF'=>'Central African Republic','CAN'=>'Canada','CCK'=>'Cocos (Keeling) Islands','CHE'=>'Switzerland','CHL'=>'Chile','CHN'=>'China','CIV'=>'Côte d\'Ivoire','CMR'=>'Cameroon','COD'=>'Congo, the Democratic Republic of the','COG'=>'Congo','COK'=>'Cook Islands','COL'=>'Colombia','COM'=>'Comoros','CPV'=>'Cabo Verde','CRI'=>'Costa Rica','CUB'=>'Cuba','CUW'=>'Curaçao','CXR'=>'Christmas Island','CYM'=>'Cayman Islands','CYP'=>'Cyprus','CZE'=>'Czech Republic','DEU'=>'Germany','DJI'=>'Djibouti','DMA'=>'Dominica','DNK'=>'Denmark','DOM'=>'Dominican Republic','DZA'=>'Algeria','ECU'=>'Ecuador','EGY'=>'Egypt','ERI'=>'Eritrea','ESH'=>'Western Sahara','ESP'=>'Spain','EST'=>'Estonia','ETH'=>'Ethiopia','FIN'=>'Finland','FJI'=>'Fiji','FLK'=>'Falkland Islands (Malvinas)','FRA'=>'France','FRO'=>'Faroe Islands','FSM'=>'Micronesia, Federated States of','GAB'=>'Gabon','GBR'=>'United Kingdom','GEO'=>'Georgia','GGY'=>'Guernsey','GHA'=>'Ghana',	'GIB'=>'Gibraltar','GIN'=>'Guinea','GLP'=>'Guadeloupe','GMB'=>'Gambia','GNB'=>'Guinea-Bissau','GNQ'=>'Equatorial Guinea','GRC'=>'Greece','GRD'=>'Grenada','GRL'=>'Greenland','GTM'=>'Guatemala','GUF'=>'French Guiana','GUM'=>'Guam','GUY'=>'Guyana','HKG'=>'Hong Kong','HMD'=>'Heard Island and McDonald Islands','HND'=>'Honduras','HRV'=>'Croatia','HTI'=>'Haiti','HUN'=>'Hungary','IDN'=>'Indonesia','IMN'=>'Isle of Man','IND'=>'India','IOT'=>'British Indian Ocean Territory','IRL'=>'Ireland','IRN'=>'Iran, Islamic Republic of','IRQ'=>'Iraq','ISL'=>'Iceland','ISR'=>'Israel','ITA'=>'Italy','JAM'=>'Jamaica','JEY'=>'Jersey','JOR'=>'Jordan','JPN'=>'Japan','KAZ'=>'Kazakhstan','KEN'=>'Kenya','KGZ'=>'Kyrgyzstan','KHM'=>'Cambodia','KIR'=>'Kiribati','KNA'=>'Saint Kitts and Nevis','KOR'=>'Korea, Republic of','KWT'=>'Kuwait','LAO'=>'Lao People\'s Democratic Republic','LBN'=>'Lebanon','LBR'=>'Liberia','LBY'=>'Libya','LCA'=>'Saint Lucia','LIE'=>'Liechtenstein','LKA'=>'Sri Lanka','LSO'=>'Lesotho','LTU'=>'Lithuania','LUX'=>'Luxembourg','LVA'=>'Latvia','MAC'=>'Macao','MAF'=>'Saint Martin (French part)','MAR'=>'Morocco','MCO'=>'Monaco','MDA'=>'Moldova, Republic of','MDG'=>'Madagascar','MDV'=>'Maldives','MEX'=>'Mexico','MHL'=>'Marshall Islands','MKD'=>'Macedonia, the former Yugoslav Republic of','MLI'=>'Mali','MLT'=>'Malta','MMR'=>'Myanmar','MNE'=>'Montenegro','MNG'=>'Mongolia','MNP'=>'Northern Mariana Islands','MOZ'=>'Mozambique','MRT'=>'Mauritania','MSR'=>'Montserrat','MTQ'=>'Martinique','MUS'=>'Mauritius','MWI'=>'Malawi','MYS'=>'Malaysia','MYT'=>'Mayotte','NAM'=>'Namibia','NCL'=>'New Caledonia','NER'=>'Niger','NFK'=>'Norfolk Island','NGA'=>'Nigeria','NIC'=>'Nicaragua','NIU'=>'Niue',	'NLD'=>'Netherlands','NOR'=>'Norway','NPL'=>'Nepal','NRU'=>'Nauru','NZL'=>'New Zealand','OMN'=>'Oman','PAK'=>'Pakistan','PAN'=>'Panama','PCN'=>'Pitcairn','PER'=>'Peru','PHL'=>'Philippines','PLW'=>'Palau','PNG'=>'Papua New Guinea','POL'=>'Poland','PRI'=>'Puerto Rico','PRK'=>'Korea, Democratic People\'s Republic of','PRT'=>'Portugal','PRY'=>'Paraguay','PSE'=>'Palestine, State of','PYF'=>'French Polynesia','QAT'=>'Qatar','REU'=>'Réunion','ROU'=>'Romania','RUS'=>'Russian Federation','RWA'=>'Rwanda','SAU'=>'Saudi Arabia','SDN'=>'Sudan','SEN'=>'Senegal','SGP'=>'Singapore','SGS'=>'South Georgia and the South Sandwich Islands','SHN'=>'Saint Helena, Ascension and Tristan da Cunha','SJM'=>'Svalbard and Jan Mayen','SLB'=>'Solomon Islands','SLE'=>'Sierra Leone','SLV'=>'El Salvador','SMR'=>'San Marino','SOM'=>'Somalia','SPM'=>'Saint Pierre and Miquelon','SRB'=>'Serbia','SSD'=>'South Sudan','STP'=>'Sao Tome and Principe','SUR'=>'Suriname','SVK'=>'Slovakia','SVN'=>'Slovenia','SWE'=>'Sweden','SWZ'=>'Swaziland','SXM'=>'Sint Maarten (Dutch part)','SYC'=>'Seychelles','SYR'=>'Syrian Arab Republic','TCA'=>'Turks and Caicos Islands','TCD'=>'Chad','TGO'=>'Togo','THA'=>'Thailand','TJK'=>'Tajikistan','TKL'=>'Tokelau','TKM'=>'Turkmenistan','TLS'=>'Timor-Leste','TON'=>'Tonga','TTO'=>'Trinidad and Tobago','TUN'=>'Tunisia','TUR'=>'Turkey','TUV'=>'Tuvalu','TWN'=>'Taiwan, Province of China','TZA'=>'Tanzania, United Republic of','UGA'=>'Uganda','UKR'=>'Ukraine','UMI'=>'United States Minor Outlying Islands','URY'=>'Uruguay','USA'=>'United States','UZB'=>'Uzbekistan','VAT'=>'Holy See (Vatican City State)','VCT'=>'Saint Vincent and the Grenadines','VEN'=>'Venezuela, Bolivarian Republic of','VGB'=>'Virgin Islands, British','VIR'=>'Virgin Islands, U.S.','VNM'=>'Viet Nam','VUT'=>'Vanuatu','WLF'=>'Wallis and Futuna','WSM'=>'Samoa','YEM'=>'Yemen','ZAF'=>'South Africa','ZMB'=>'Zambia','ZWE'=>'Zimbabwe','URS'=>'Soviet Union','GDR'=>'East Germany','TCH'=>'Czechoslovakia');
+
 
 # Find all the astronaut Markdown files
 @files = ();
@@ -36,6 +38,7 @@ while(my $file = readdir $dh) {
 closedir($dh);
 
 @output = "";
+@li = "";
 %byyear = "";
 $reflist = "";
 $json = "";
@@ -81,6 +84,25 @@ foreach $file (sort(@files)){
 	$json_mission = "";
 	$json_missionname = "";
 
+	# Pre-check for country
+	foreach $line (@lines){
+		if($line =~ /^country:\t(.*)/){ $country = $1; }
+		if($incountry){
+			if($line =~ / -[\t\s]*(.*)/){
+				if($country){ $country .= ";"; }
+				$country .= $1;
+			}
+		}
+		# Which section of the yaml are we in?
+		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; }
+		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; }
+		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; }
+		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
+		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
+		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
+		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
+	}
+
 	foreach $line (@lines){
 
 		$line =~ s/[\n\r]//g;	# Remove newline characters
@@ -88,7 +110,7 @@ foreach $file (sort(@files)){
 		# Find the values for various properties
 		if($line =~ /^name:\t(.*)/){ $name = $1; $name =~ s/\s*$//; }
 		if($line =~ /^dob:\t(.*)/){ $dob = $1; }
-		if($line =~ /^country:\t(.*)/){ $country = $1; }
+		#if($line =~ /^country:\t(.*)/){ $country = $1; }
 		if($line =~ /^category:\t(.*)/){ $category = $1; }
 		if($line =~ /^gender:\t(.*)/){ $gender = $1; }
 
@@ -148,6 +170,21 @@ foreach $file (sort(@files)){
 
 				$json_mission .= "{\"names\":\"$json_missionname\",\"a\":\"$launch\",\"b\":\"".($inspace==1 ? "": $land)."\"},";
 				$json_missionname = "";
+				$launchstr = $launch;
+				$launchstr =~ s/T.*$//g;
+				$landstr = ($inspace==1 ? "": $land);
+				$yearstr = $landstr;
+				$yearstr =~ s/T.*$//g;
+				if($country eq ""){ print "Can't find country for $name\n"; }
+				@countries = split(/;/,$country);
+				$n = @countries;
+				$countrystr = '';
+				for($n = 0; $n < @countries; $n++){
+					if($countrystr){ $countrystr .= "/"; }
+					$countrystr .= '<span class="country '.$countries[$n].'">'.$countrycode{$countries[$n]}.'</span>';
+				}
+				#push(@li,'<li><span class="d"><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$land.'">'.$landstr.'</time></span>/<span class="name">'.$name.'</span>/'.$countrystr.'/<time datetime="'.$dob.'" class="dob">'.$dob.'</time><span class="human '.$category.'"></span></li>');
+				push(@li,'<li><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$landstr.'">'.$yearstr.'</time>/<span class="name">'.$name.'</span><span class="human '.$category.'"></span></li>');
 
 				$durn = duration($launch,$land);
 				if($durn > $longesttrip){ $longesttrip = $durn; }
@@ -212,12 +249,12 @@ foreach $file (sort(@files)){
 				$quals .= "$1";
 			}
 		}
-		if($incountry){
-			if($line =~ / -[\t\s]*(.*)/){
-				if($country){ $country .= ";"; }
-				$country .= $1;
-			}
-		}
+		#if($incountry){
+		#	if($line =~ / -[\t\s]*(.*)/){
+		#		if($country){ $country .= ";"; }
+		#		$country .= $1;
+		#	}
+		#}
 		
 		$name =~ s/\"/\'/g;	# Fix nickname quoting
 
@@ -264,7 +301,31 @@ foreach $out (@output){
 	$i++;
 }
 close(FILE);
-	
+
+open(FILE,'who.html');
+@lines = <FILE>;
+close(FILE);
+open(FILE,'>','who.html');
+$inmain = 0;
+$indent = "";
+foreach $line (@lines){
+
+	if($line =~ /<\!-- End Timeline -->/){ $inmain = 0; }
+	if($inmain==0){ print FILE $line; }
+	if($line =~ /^([\s]*)<\!-- Start Timeline -->/){
+		$inmain = 1;
+		$indent = $1; 
+		print FILE $indent."<ol class=\"trips\">\n";
+		@li = reverse(sort(@li));
+		for($i = 0; $i < @li; $i++){
+			print FILE $indent.$li[$i]."\n";
+		}
+		print FILE $indent."</ol>\n";
+	}
+}
+close(FILE);
+
+
 print "$procdir\n";
 open(FILE,">",$procdir."references.md");
 print FILE "# References\n";
