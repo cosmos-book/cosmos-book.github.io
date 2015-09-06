@@ -35,12 +35,13 @@
 	#timeline ol.missions li:after { margin-right: 0.5em; }
 
 	.divider { margin-left: 0.5em; margin-right: 0.5em; }
-	#inspace { position: relative; }
-	body.scrolling #inspace,body.scrolling #calendar,body.scrolling .fixedheader { position:fixed; z-index: 1; }
+	#inspace { position: relative; width: 100%; }
+	body.scrolling #calendar,body.scrolling .fixedheader { position:fixed; z-index: 1; right: 1.5em; left: 1.5em; }
 	#calendar {
 		position: absolute;
 		top: 1em;
 		right: 1.5em;
+		text-align:right;
 	}
 	#scrollmsg {
 		-webkit-transition: all 1s ease-in;
@@ -49,9 +50,8 @@
 		transition: all 1s ease-in;
 		text-align: right;
 	}
-	body.scrolling #inspace { top: 5.5em; bottom: 1.5em; left:1.5em; right: 1.5em; }
 	body.scrolling #calendar { top: 1em; }
-	body.scrolling .fixedheader { top: 1em; }
+	body.scrolling .fixedheader { top: 1em;}
 	body.scrolling .noscrolling { opacity: 0; }
 	#calendar .title { font-size: 1.5em; }
 	#scrollmsg { position: fixed; bottom: 1.5em; right: 1.5em; }
@@ -59,7 +59,7 @@
 	.time { font-size: 0.8em; }
 
 	#inspace ul { list-style: none; width: 100%; margin: 0px; padding: 0px; height: 100%; }
-	#inspace ul li { margin: 0px; display: inline-block; padding: 0em; margin: 0; margin-bottom: 1em; margin-right: 2%; width: 32%; float:left; min-height: 5em; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }
+	#inspace ul li { margin: 0px; display: inline-block; padding: 0em; margin: 0; margin-bottom: 0.25em; margin-right: 2%; width: 32%; float:left; min-height: 4.5em; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }
 	#inspace ul li:nth-child(3n) { margin-right: 0; }
 	#inspace ul li .padder { padding-left: 2em; }
 	.name { margin: auto; }
@@ -68,15 +68,17 @@
 			top: 0.5em;
 			right: 0.5em;
 		}
+		body.scrolling #calendar,body.scrolling .fixedheader { top: 0.5em; right: 0.5em; left: 0.5em; }
 		#calendar .title { font-size: 1.25em; }
-		body.scrolling #inspace { left: 0.5em; right: 0.5em; }
 		#inspace ul li { width: 49%; margin-bottom: 0.25em; min-height: 3em; }
 		#inspace ul li:nth-child(3n) { margin-right: 2%; }
 		#inspace ul li:nth-child(2n) { margin-right: 0; }
+		.keyitem { margin-top: 0; line-height: 1em; margin-right: 0.5em; }
+		.keyitem .human { margin-top: -0em; margin-right: 0.25em; }
 	}
 	@media only screen and (max-width: 500px){
 		#inspace ul li { width: 100%; margin-bottom: 0.25em; min-height: auto; }
-		#inspace ul li .padder { padding-top:0.1em;padding-bottom:0.1em; }
+		#inspace ul li .padder { padding-top:0em;padding-bottom:0em; }
 	}
 	</style>
 	<script src="../resources/jquery-1.11.0.min.js"></script>
@@ -109,10 +111,10 @@
 								<li class="keyitem"><span class="human international"></span> International<span class="wide"> astronauts</span></li>
 								<li class="keyitem"><span class="human tourist"></span><span class="wide"> Space</span> Tourists</li>
 							</ul>
+							<div id="inspace"></div>
 						</div>
 						<p id="scrollmsg" class="noscrolling">Scroll down to go back in time &#8675;</p>
 						<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
-						<div id="inspace"></div>
 						<div id="calendar"></div>
 						<div id="timeline">
 						<!--<li title="VOLKOV, Sergei Aleksandrovich" class="human cosmonaut"><span class="cosmonaut"></span><span class="dates"><time datetime="2015-09-02T19:32:01Z" class="launch">2015-09-02</time><span class="divider">-</span><time datetime="2015-09-05T15:30Z" class="land">2015-09-05</time></span><span class="divider">/</span><abbr class="USA">USA</abbr><span class="divider">/</span><span class="name">VOLKOV, Sergei Aleksandrovich</span><span class="divider">/</span><time datetime="1973-04-01" class="dob">1973-04-01</time><ol class="missions"><li>Soyuz TMA-18M</li><li>Soyuz TMA-19M</li></ol></li>-->
