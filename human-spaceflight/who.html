@@ -44,10 +44,10 @@
 		text-align:right;
 	}
 	#scrollmsg {
-		-webkit-transition: all 1s ease-in;
-		-moz-transition: all 1s ease-in;
-		-o-transition: all 1s ease-in;
-		transition: all 1s ease-in;
+		-webkit-transition: opacity 1s ease-in;
+		-moz-transition: opacity 1s ease-in;
+		-o-transition: opacity 1s ease-in;
+		transition: opacity 1s ease-in;
 		text-align: right;
 	}
 	body.scrolling #calendar { top: 1em; }
@@ -78,7 +78,8 @@
 	}
 	@media only screen and (max-width: 500px){
 		#inspace ul li { width: 100%; margin-bottom: 0.25em; min-height: auto; }
-		#inspace ul li .padder { padding-top:0em;padding-bottom:0em; }
+		#inspace ul li .padder { padding-top:0em;padding-bottom:0em; padding-left: 1.2em;}
+		.human { background-position: 0.4em center; }
 	}
 	</style>
 	<script src="../resources/jquery-1.11.0.min.js"></script>
