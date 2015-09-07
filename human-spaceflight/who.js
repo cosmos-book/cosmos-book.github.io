@@ -20,15 +20,19 @@ $(document).ready(function(){
 		updateTimeline(getYFrac());
 		$('.tooltip_close').trigger('click')
 	});
+	
+	// If the user has changed the date we update the page
+	$(document).on('change','#dateedit',function(e){ setFromAnchor($(this).val()) });
 
 	// Add event for monitoring anchor changes
 	window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ setFromAnchor(); };
 	
 	// Set the scroll position using the page anchor
-	function setFromAnchor(){
-		var a = location.href.split("#")[1];
+	function setFromAnchor(a){
+		if(!a) a = location.href.split("#")[1];
 		if(a) setYPos(a);
 	}
+
 	// Get the fractional position in time
 	function getYFrac(){
 		var tl = $('#now');
@@ -43,6 +47,7 @@ $(document).ready(function(){
 		if(y > endscroll) frac = 1;
 		return frac;
 	}
+
 	// Set the vertical scroll using a date string
 	function setYPos(a){
 		var d = Date.parse(a);
@@ -55,8 +60,11 @@ $(document).ready(function(){
 			var y = ( (1-frac)*($(document).height() - $(window).height() - startscroll) + startscroll );
 			scrollTop = y;
 			$(document).scrollTop(y);
+		}else{
+			$('#dateedit').val(now.toISOString().substr(0,10))
 		}
 	}
+
 	function updateTimeline(frac){
 		var d,html;
 		if(frac >= 0){
@@ -66,11 +74,14 @@ $(document).ready(function(){
 			$('body').removeClass('scrolling')
 			d = new Date();
 		}
-		
+
+		// Get the ISO formatted string for this date
 		var iso = d.toISOString();
-		html = '<div class="title"><time datetime="'+iso+'"><span class="date">'+iso.substr(0,10)+'<\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
+		now = d;
+		html = '<div class="title"><time datetime="'+iso+'"><span class="date"><input type="text" value="'+iso.substr(0,10)+'" name="dateedit" id="dateedit" /><span class="year">'+iso.substr(0,4)+'</span>-<span class="month">'+iso.substr(5,2)+'</span>-<span class="day">'+iso.substr(8,2)+'</span><\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
 		$('#calendar').html(html);
 
+		// Build the timeline
 		html = '<ul class="timeline">';
 		for(var i = 0; i < trips.length; i++){
 			if((trips[i].launchday < d && trips[i].landday > d) || (trips[i].launchday < d && !trips[i].landday)){
@@ -78,8 +89,8 @@ $(document).ready(function(){
 			}
 		}
 		html += '<\/ul>';
-
 		$('#inspace').html(html);
+
 		// Set up the tooltip
 		tooltip({
 			'elements':$('.timeline .human'),

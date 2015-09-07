@@ -26,6 +26,9 @@
 		background-position: 1em center;
 	}
 
+	.date input[type=text] { position: absolute; width: 8em; right: 0px; font-size: 0.8em; top:-0.25em; text-align:right; opacity: 0; }
+	.date:hover input[type=text] { opacity: 1; }
+
 	.divider { margin-left: 0.5em; margin-right: 0.5em; }
 	#inspace { position: relative; width: 100%; }
 	body.scrolling #calendar,body.scrolling .fixedheader { position:fixed; z-index: 1; right: 1.5em; left: 1.5em; }
@@ -47,7 +50,7 @@
 	body.scrolling .noscrolling { opacity: 0; }
 	#calendar .title { font-size: 1.5em; }
 	#scrollmsg { position: fixed; bottom: 1.5em; right: 1.5em; }
-	.date,.time { display: block; }
+	.date,.time { display: inline-block; }
 	.time { font-size: 0.8em; }
 	.timeline span,.timeline time { margin-right: 0.5em; margin-left: 0.5em; }
 	/*.timeline .human { margin-right: 0; }*/

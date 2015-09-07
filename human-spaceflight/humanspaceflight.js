@@ -12,6 +12,9 @@ $(document).ready(function(){
 	// Hide any non-Javascript elements
 	$('.noscript').hide();
 
+	// Stop form submitting when return key is pressed
+	$('form').on('submit',function(e){ e.preventDefault(); });
+
 	// Sort the astronauts
 	function sortBy(i){
 		yaxis = i;
