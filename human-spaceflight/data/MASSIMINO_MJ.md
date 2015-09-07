@@ -3,6 +3,7 @@ category:	astronaut
 name:	MASSIMINO, Michael J.
 type:	civilian
 dob:	1962-08-19
+twitter:	@Astro_Mike
 qualifications:
   - BSc in industrial engineering
   - MSc in technology and policy

@@ -3,6 +3,7 @@ category:	astronaut
 name:	JOHNSON, Gregory H.
 type:	military
 dob:	1962-05-12
+twitter:	@Astro_Box
 qualifications:
   - BSc in aeronautical engineering
   - MSc in flight structures engineering

@@ -4,6 +4,7 @@ name:	WILLIAMS, Sunita L.
 type:	military
 dob:	1965-09-19
 gender:	Female
+twitter:	@Astro_Maker
 qualifications:
   - BSc in physical science
   - MSc in engineering management

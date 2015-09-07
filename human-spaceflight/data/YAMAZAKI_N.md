@@ -4,6 +4,7 @@ name:	YAMAZAKI, Naoko
 type:	civilian
 dob:	1970-12-27
 gender:	Female
+twitter:	@Astro_Naoko
 country:
   - JPN
 references:

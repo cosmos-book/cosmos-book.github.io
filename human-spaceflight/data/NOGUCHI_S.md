@@ -3,6 +3,7 @@ category:	international
 name:	NOGUCHI, Soichi
 type:	civilian
 dob:	1965-04-15
+twitter:	@Astro_Soichi
 country:
   - JPN
 references:

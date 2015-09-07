@@ -3,6 +3,7 @@ category:	astronaut
 name:	SATCHER, Robert L., Jr.
 type:	civilian
 dob:	1965-09-22
+twitter:	@ZeroG_MD
 qualifications:
   - BSc in chemical engineering
 references:

@@ -3,6 +3,7 @@ category:	astronaut
 name:	FOREMAN, Michael J.
 type:	military
 dob:	1957-03-29
+twitter:	@foreman_mike
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

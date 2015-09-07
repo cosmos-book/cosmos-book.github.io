@@ -3,6 +3,7 @@ category:	international
 name:	PESQUET, Thomas Gautier
 type:	civilian
 dob:	1978-02-27
+twitter:	 @Thom_astro
 country:
   - FRA
 references:

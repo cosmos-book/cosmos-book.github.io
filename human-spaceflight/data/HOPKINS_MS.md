@@ -3,6 +3,7 @@ category:	astronaut
 name:	HOPKINS, Michael S.
 type:	military
 dob:	1968-12-28
+twitter:	@AstroIllini
 qualifications:
   - BSc in aerospace engineering
   - MSc in aerospace engineering

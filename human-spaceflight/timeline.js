@@ -125,6 +125,7 @@ $(document).ready(function(){
 				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
 				text += '<tr><td>Trips to space:<\/td><td>'+a.missions.length+'<\/td><\/tr>';
+				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter.substr(1)+'">'+a.twitter+'</a><\/td><\/tr>';
 				var start = a.launch.toLocaleDateString();
 				var end = (a.land ? a.land.toLocaleDateString() : '');
 				text += '<tr><td>This trip:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<br />('+formatArray(a.missionnames)+')<\/td><\/tr>';

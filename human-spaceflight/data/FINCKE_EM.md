@@ -3,6 +3,7 @@ category:	astronaut
 name:	FINCKE, Edward Michael 'Mike'
 type:	military
 dob:	1967-03-14
+twitter:	@AstroIronMike
 qualifications:
   - BSc in aeronautics & astronautics
   - MSc in aeronautics & astronautics

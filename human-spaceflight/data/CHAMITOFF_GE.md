@@ -3,6 +3,7 @@ category:	astronaut
 name:	CHAMITOFF, Gregory E.
 type:	civilian
 dob:	1962-08-06
+twitter:	@Astro_Taz
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical engineering

@@ -4,6 +4,7 @@ name:	NYBERG, Karen L.
 type:	civilian
 dob:	1969-10-07
 gender:	Female
+twitter:	@AstroKarenN
 qualifications:
   - BSc in mechanical engineering
   - PhD in mechanical engineering

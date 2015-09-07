@@ -3,6 +3,7 @@ category:	international
 name:	PARMITANO, Luca Salvo
 type:	military
 dob:	1976-09-27
+twitter:	@astro_luca
 country:
   - ITA
 references:

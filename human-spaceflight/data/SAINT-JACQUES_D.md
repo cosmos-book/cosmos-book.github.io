@@ -3,6 +3,7 @@ category:	international
 name:	SAINT-JACQUES, David
 type:	civilian
 dob:	1970-01-06
+twitter:	@Astro_DavidS
 country:
   - CAN
 references:

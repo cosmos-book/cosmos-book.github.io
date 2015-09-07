@@ -3,6 +3,7 @@ category:	astronaut
 name:	FOSSUM, Michael E.
 type:	civilian
 dob:	1957-12-19
+twitter:	@astro_aggie
 qualifications:
   - BSc in mechanical engineering
   - MSc in systems engineering

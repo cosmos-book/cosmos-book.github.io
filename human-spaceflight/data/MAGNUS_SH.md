@@ -4,6 +4,7 @@ name:	MAGNUS, Sandra H.
 type:	civilian
 dob:	1964-10-30
 gender:	Female
+twitter:	@Astro_Sandy
 qualifications:
   - BSc in physics
   - MSc in electrical engineering

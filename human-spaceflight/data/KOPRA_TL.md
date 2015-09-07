@@ -3,6 +3,7 @@ category:	astronaut
 name:	KOPRA, Timothy L.
 type:	military
 dob:	1963-04-09
+twitter:	@astro_tim
 qualifications:
   - BSc in computer science
   - MSc in aerospace engineering

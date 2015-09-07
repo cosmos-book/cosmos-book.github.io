@@ -3,6 +3,7 @@ category:	astronaut
 name:	AUNON, Serena M.
 type:	civilian
 dob:	1976-04-09
+twitter:	@AstroSerena
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine

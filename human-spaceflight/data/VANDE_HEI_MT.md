@@ -3,6 +3,7 @@ category:	astronaut
 name:	VANDE HEI, Mark T.
 type:	military
 dob:	1966-11-10
+twitter:	@Astro_Sabot
 qualifications:
   - BSc in physics
   - MSc in applied physics

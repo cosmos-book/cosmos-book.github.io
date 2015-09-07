@@ -3,6 +3,7 @@ category:	astronaut
 name:	KELLY, Scott J.
 type:	military
 dob:	1964-02-21
+twitter:	@StationCDRKelly
 qualifications:
   - BSc in electrical engineering
   - MSc in aviation systems

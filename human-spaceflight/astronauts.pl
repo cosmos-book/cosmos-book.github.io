@@ -65,6 +65,7 @@ foreach $file (sort(@files)){
 	$evas = 0;
 	$country = "";
 	$gender = "";
+	$twitter = "";
 	$missions = "";
 	$inspace = 0;
 	$inmission = 0;
@@ -100,6 +101,7 @@ foreach $file (sort(@files)){
 		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
 		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
+		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
 	}
 
@@ -113,6 +115,7 @@ foreach $file (sort(@files)){
 		#if($line =~ /^country:\t(.*)/){ $country = $1; }
 		if($line =~ /^category:\t(.*)/){ $category = $1; }
 		if($line =~ /^gender:\t(.*)/){ $gender = $1; }
+		if($line =~ /^twitter:\t(.*)/){ $twitter = $1; }
 
 		if($inmission){
 
@@ -266,13 +269,14 @@ foreach $file (sort(@files)){
 		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
 		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
+		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
 	}
 	
 	$json_mission =~ s/\,$//;
 
 	# If the person has spent time in space we build some JSON for them
 	if($timeinspace){
-		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]},\n";
+		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "")."},\n";
 	}
 
 	# Print a warning that no gender (Male/Female/Other) is set
@@ -282,7 +286,7 @@ foreach $file (sort(@files)){
 	if(!$country && $category eq "astronauts"){ $country = "USA"; }
 
 	# Store some tsv data for them
-	push(@output,"$name\t$country\t$gender\t$dob\t".sprintf("%.2f",$timeinspace/86400)."\t$timeinspace\t$eva\t$launches\t$evas\t$firstlaunch\t".sprintf("%.6f",$timedilation)."\t$age\t$quals\t$missions\t".sprintf("%.2f",$longesttrip/86400)."\t".sprintf("%d",$distance/1000)."\t".formatTime($eva)."\t".$category."\t".$file."\t".($inspace ? $now : ""));
+	push(@output,"$name\t$country\t$gender\t$dob\t".sprintf("%.2f",$timeinspace/86400)."\t$timeinspace\t$eva\t$launches\t$evas\t$firstlaunch\t".sprintf("%.6f",$timedilation)."\t$age\t$quals\t$missions\t".sprintf("%.2f",$longesttrip/86400)."\t".sprintf("%d",$distance/1000)."\t".formatTime($eva)."\t".$category."\t".$file."\t".($inspace ? $now : "")."\t".$twitter);
 
 }
 
@@ -294,7 +298,7 @@ print FILE "$json";
 close(FILE);
 
 open(FILE,">",$procdir."astronauts.tsv");
-print FILE "Name\tCountry\tGender\tDate of Birth\tTime in Space (days)\tTime in Space (s)\tEVA Time (s)\tNumber of Launches\tNumber of EVAs\tFirst Launch\tTime dilation (s)\tAge at first launch (yr)\tQualifications\tMissions\tLongest single trip (days)\tTotal distance covered (km)\tEVA (hh:mm)\tType\tFilename\tIn space as of";
+print FILE "Name\tCountry\tGender\tDate of Birth\tTime in Space (days)\tTime in Space (s)\tEVA Time (s)\tNumber of Launches\tNumber of EVAs\tFirst Launch\tTime dilation (s)\tAge at first launch (yr)\tQualifications\tMissions\tLongest single trip (days)\tTotal distance covered (km)\tEVA (hh:mm)\tType\tFilename\tIn space as of\tTwitter";
 $i = 0;
 foreach $out (@output){
 	if($i > 0){ print FILE "\n"; }

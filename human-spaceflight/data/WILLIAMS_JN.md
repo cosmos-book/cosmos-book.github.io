@@ -3,6 +3,7 @@ category:	astronaut
 name:	WILLIAMS, Jeffrey N.
 type:	military
 dob:	1958-01-18
+twitter:	@Astro_Jeff
 qualifications:
   - MSc in aeronautical engineering
   - MA in national security and strategic studies

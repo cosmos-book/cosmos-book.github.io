@@ -3,6 +3,7 @@ category:	astronaut
 name:	MELVIN, Leland D.
 type:	civilian
 dob:	1964-02-15
+twitter:	@Astro_Flow
 qualifications:
   - BSc in chemistry
   - MSc in materials science engineering

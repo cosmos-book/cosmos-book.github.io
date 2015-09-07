@@ -3,6 +3,7 @@ category:	astronaut
 name:	CREAMER, Timothy J.
 type:	military
 dob:	1959-11-15
+twitter:	@Astro_TJ
 qualifications:
   - BSc in chemistry
   - MSc in physics

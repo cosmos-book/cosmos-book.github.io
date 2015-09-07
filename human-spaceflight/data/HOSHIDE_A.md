@@ -3,6 +3,7 @@ category:	international
 name:	HOSHIDE, Akihiko
 type:	civilian
 dob:	1968-12-28
+twitter:	@Aki_Hoshide
 country:
   - JPN
 references:

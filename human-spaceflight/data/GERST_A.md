@@ -3,6 +3,7 @@ category:	international
 name:	GERST, Alexander
 type:	civilian
 dob:	1976-05-03
+twitter:	@Astro_Alex
 country:
   - DEU
 references:

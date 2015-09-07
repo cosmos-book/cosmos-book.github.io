@@ -267,7 +267,7 @@ $(document).ready(function(){
 	function parseAstronauts(data,attrs){
 
 		// Parse the data from the CSV file
-		astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'},{'name':'inspaceasof','format':'date'}]);
+		astronauts = CSV2JSON(data,[{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'},{'name':'inspaceasof','format':'date'},{'name':'twitter','format':'string'}]);
 
 		// Assign each one an ID
 		for(var i = 0; i < astronauts.length; i++){
@@ -295,6 +295,7 @@ $(document).ready(function(){
 				text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days+' days<\/td><\/tr>';
 				if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+' hours '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+' mins<\/td><\/tr>';
 				text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
+				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter.substr(1)+'">'+a.twitter+'</a><\/td><\/tr>';
 				if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';

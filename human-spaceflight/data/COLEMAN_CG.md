@@ -4,6 +4,7 @@ name:	COLEMAN, Catherine G. 'Cady', (Ph.D.)
 type:	military
 dob:	1960-12-14
 gender:	Female
+twitter:	@Astro_Cady
 qualifications:
   - BSc in chemistry
   - PhD in polymer science & engineering

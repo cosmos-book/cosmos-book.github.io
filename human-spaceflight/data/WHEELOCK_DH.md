@@ -3,6 +3,7 @@ category:	astronaut
 name:	WHEELOCK, Douglas H.
 type:	military
 dob:	1960-05-05
+twitter:	@Astro_Wheels
 qualifications:
   - MSc in aerospace engineering
 references:

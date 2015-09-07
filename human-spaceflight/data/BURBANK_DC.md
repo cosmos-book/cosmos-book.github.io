@@ -3,6 +3,7 @@ category:	astronaut
 name:	BURBANK, Daniel C.
 type:	military
 dob:	1961-07-27
+twitter:	@AstroCoastie
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical science

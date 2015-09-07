@@ -3,6 +3,7 @@ category:	international
 name:	YUI, Kimiya
 type:	civilian
 dob:	1970-01-30
+twitter:	 @Astro_Kimiya
 country:
   - JPN
 references:

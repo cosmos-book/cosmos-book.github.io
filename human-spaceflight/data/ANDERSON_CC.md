@@ -3,6 +3,7 @@ category:	astronaut
 name:	ANDERSON, Clayton C.
 type:	civilian
 dob:	1959-02-23
+twitter:	@Astro_Clay
 qualifications:
   - BSc in physics
   - MSc in aerospace engineering

@@ -3,6 +3,7 @@ category:	international
 name:	HANSEN, Jeremy Roger
 type:	military
 dob:	1976-01-27
+twitter:	@Astro_Jeremy
 country:
   - CAN
 references:

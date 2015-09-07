@@ -4,6 +4,7 @@ name:	STOTT, Nicole P.
 type:	civilian
 gender:	Female
 dob:	1962-11-19
+twitter:	@Astro_Nicole
 qualifications:
   - BSc in aeronautical engineering
   - MSc in engineering management

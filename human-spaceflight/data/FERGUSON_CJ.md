@@ -3,6 +3,7 @@ category:	astronaut
 name:	FERGUSON, Christopher J.
 type:	military
 dob:	1961-09-01
+twitter:	@Astro_Ferg
 qualifications:
   - BSc in mechanical engineering
   - MSc in aeronautical engineering

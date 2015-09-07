@@ -3,6 +3,7 @@ category:	international
 name:	MOGENSEN, Andreas Enevold
 type:	civilian
 dob:	1976-11-02
+twitter:	@Astro_Andreas
 country:
   - DNK
 references:

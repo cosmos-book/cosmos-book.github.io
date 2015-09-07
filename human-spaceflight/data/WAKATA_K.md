@@ -3,6 +3,7 @@ category:	international
 name:	WAKATA, Koichi
 type:	civilian
 dob:	1963-08-01
+twitter:	 @Astro_Wakata
 country:
   - JPN
 references:

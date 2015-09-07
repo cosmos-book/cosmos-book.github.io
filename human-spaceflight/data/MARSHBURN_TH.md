@@ -3,6 +3,7 @@ category:	astronaut
 name:	MARSHBURN, Thomas H.
 type:	civilian
 dob:	1960-08-29
+twitter:	@AstroMarshburn
 qualifications:
   - BSc in physics
   - MSc in engineering physics

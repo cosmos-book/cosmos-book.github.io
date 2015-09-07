@@ -3,6 +3,7 @@ category:	astronaut
 name:	PATRICK, Nicholas J.M.
 type:	civilian
 dob:	1964-03-22
+twitter:	@Astro_Nicholas
 qualifications:
   - BA in engineering
   - MSc in mechanical engineering

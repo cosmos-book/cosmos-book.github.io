@@ -3,6 +3,7 @@ category:	astronaut
 name:	HURLEY, Douglas G.
 type:	military
 dob:	1966-10-21
+twitter:	@Astro_Doug
 qualifications:
   - BSc in civil engineering
 references:

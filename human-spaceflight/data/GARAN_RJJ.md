@@ -3,6 +3,7 @@ category:	astronaut
 name:	GARAN, Ronald J., Jr.
 type:	military
 dob:	1961-10-30
+twitter:	@Astro_Ron
 qualifications:
   - BSc in business economics
   - MSc in aerospace engineering

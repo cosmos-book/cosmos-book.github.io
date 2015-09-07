@@ -3,6 +3,7 @@ category:	international
 name:	KUIPERS, Andr&eacute;
 type:	civilian
 dob:	1958-10-05
+twitter:	@astro_andre
 country:
   - NLD
 references:

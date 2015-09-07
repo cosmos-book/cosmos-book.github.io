@@ -3,6 +3,7 @@ category:	astronaut
 name:	WISEMAN, G. Reid
 type:	military
 dob:	1975-11-11
+twitter:	@astro_reid
 qualifications:
   - BSc in computer & systems engineering
   - MSc in systems engineering

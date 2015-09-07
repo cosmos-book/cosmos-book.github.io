@@ -4,6 +4,7 @@ name:	METCALF-LINDENBURGER, Dorothy M.
 type:	civilian
 dob:	1975-05-02
 gender:	Female
+twitter:	@AstroDot
 qualifications:
   - BA in geology
 references:

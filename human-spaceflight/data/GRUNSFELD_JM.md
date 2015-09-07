@@ -3,6 +3,7 @@ category:	astronaut
 name:	GRUNSFELD, John M.
 type:	civilian
 dob:	1958-10-10
+twitter:	@SciAstro
 qualifications:
   - BSc in physics
   - PhD in physics

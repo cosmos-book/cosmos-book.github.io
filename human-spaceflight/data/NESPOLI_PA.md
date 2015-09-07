@@ -3,6 +3,7 @@ category:	international
 name:	NESPOLI, Paolo Angelo
 type:	civilian
 dob:	1957-04-06
+twitter:	@astro_paolo
 country:
   - ITA
 references:

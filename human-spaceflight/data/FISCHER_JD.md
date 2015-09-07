@@ -3,6 +3,7 @@ category:	astronaut
 name:	FISCHER, Jack David '2fish'
 type:	military
 dob:	1974-01-23
+twitter:	@Astro2fish
 qualifications:
   - BSc in astronautical engineering
   - MSc in aeronautics & astronautics

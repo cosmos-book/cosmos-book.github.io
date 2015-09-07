@@ -3,6 +3,7 @@ category:	astronaut
 name:	PETTIT, Donald R.
 type:	civilian
 dob:	1955-04-20
+twitter:	@astro_Pettit
 qualifications:
   - BSc in chemical engineering
 references:

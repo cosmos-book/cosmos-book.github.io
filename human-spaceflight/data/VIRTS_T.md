@@ -3,6 +3,7 @@ category:	astronaut
 name:	VIRTS, Terry
 type:	military
 dob:	1967-12-01
+twitter:	@AstroTerry
 qualifications:
   - BSc in mathematics & minor in French
 references:

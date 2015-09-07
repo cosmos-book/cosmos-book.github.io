@@ -3,6 +3,7 @@ category:	cosmonaut
 name:	VOLKOV, Sergei Aleksandrovich 
 type:	military
 dob:	1973-04-01
+twitter:	@Volkov_ISS
 country:
   - RUS
 references:

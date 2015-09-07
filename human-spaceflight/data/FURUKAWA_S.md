@@ -3,6 +3,7 @@ category:	international
 name:	FURUKAWA, Satoshi
 type:	civilian
 dob:	1964-04-04
+twitter:	@Astro_Satoshi
 country:
   - JPN
 references:

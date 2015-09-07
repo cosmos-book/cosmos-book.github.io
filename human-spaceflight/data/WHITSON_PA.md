@@ -4,6 +4,7 @@ name:	WHITSON, Peggy A.
 type:	civilian
 dob:	1960-02-09
 gender:	Female
+twitter:	@AstroPeggy
 qualifications:
   - PhD in biochemistry
 references:
