@@ -13,17 +13,24 @@
 			launch = new Date('2015-10-22T00:00:00+01:00');
 			now = new Date();
 			diff = (launch-now);
-			msperday = 86400000;
-			dd = Math.floor(diff/msperday);
-			diff -= dd*msperday;
-			hh = Math.floor(24*diff/msperday);
-			diff -= (hh/24)*msperday;
-			mm = Math.floor(24*60*diff/msperday);
-			diff -= (mm/(24*60))*msperday;
-			ss = Math.floor(24*3600*diff/msperday);
-			countdown.innerHTML = '<div class="label">Launch countdown:<\/div><ul>'+formatPeriod(dd,'days')+formatPeriod(hh,'hours')+formatPeriod(mm,'minutes')+formatPeriod(ss,'seconds')+'<\/ul>';
+			if(diff > 0){
+				msperday = 86400000;
+				dd = Math.floor(diff/msperday);
+				diff -= dd*msperday;
+				hh = Math.floor(24*diff/msperday);
+				diff -= (hh/24)*msperday;
+				mm = Math.floor(24*60*diff/msperday);
+				diff -= (mm/(24*60))*msperday;
+				ss = Math.floor(24*3600*diff/msperday);
+				countdown.innerHTML = '<div class="label">Launch countdown:<\/div><ul>'+formatPeriod(dd,'days')+formatPeriod(hh,'hours')+formatPeriod(mm,'minutes')+formatPeriod(ss,'seconds')+'<\/ul>';
+			}else if(diff < 1000 && diff > -86400000){
+				countdown.innerHTML = 'Launched!';
+			}else{
+				countdown.innerHTML = '';
+			}
 		}
 		function formatPeriod(v,p){ return '<li class="part"><span class="value">'+((v < 10) ? "0"+v : v)+'<\/span> <span class="period">'+p+'<\/span><\/li>'; }
+		updateCountdown();
 		setInterval(updateCountdown,1000);
 	});
 	</script>
