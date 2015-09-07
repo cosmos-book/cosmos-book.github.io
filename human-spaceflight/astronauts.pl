@@ -320,6 +320,7 @@ foreach $line (@lines){
 		@li = reverse(sort(@li));
 		for($i = 0; $i < @li; $i++){
 			$li[$i] =~ s/(<li)(>.*)<span( class="human[^\"]*")><\/span>/$1$3$2/g;
+			# Only add those currently in space as raw HTML
 			if($li[$i] =~ /<span class="divider">-<\/span><time datetime=""><\/time>/){
 				print FILE $indent."\t".$li[$i]."\n";
 			}

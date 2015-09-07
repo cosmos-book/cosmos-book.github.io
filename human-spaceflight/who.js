@@ -16,7 +16,10 @@ $(document).ready(function(){
 	loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
 	// Add scroll event
-	$(document).on('scroll',function(e){ updateTimeline(getYFrac()); });
+	$(document).on('scroll',function(e){
+		updateTimeline(getYFrac());
+		$('.tooltip_close').trigger('click')
+	});
 
 	// Add event for monitoring anchor changes
 	window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ setFromAnchor(); };
