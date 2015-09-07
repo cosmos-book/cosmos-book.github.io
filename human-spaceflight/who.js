@@ -22,7 +22,9 @@ $(document).ready(function(){
 	});
 	
 	// If the user has changed the date we update the page
-	$(document).on('change','#dateedit',function(e){ setFromAnchor($(this).val()) });
+	$(document).on('click','#calendar .date time',function(e){ $('#calendar .date').toggleClass('editable'); $('#calendar input[type=text]').focus(); });
+	$(document).on('change','#calendar input[type=text]',function(e){ setFromAnchor($(this).val()) });
+	$(document).on('blur','#calendar input[type=text]',function(e){ $('#calendar .date').removeClass('editable'); });
 
 	// Add event for monitoring anchor changes
 	window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ setFromAnchor(); };
@@ -78,7 +80,7 @@ $(document).ready(function(){
 		// Get the ISO formatted string for this date
 		var iso = d.toISOString();
 		now = d;
-		html = '<div class="title"><time datetime="'+iso+'"><span class="date"><input type="text" value="'+iso.substr(0,10)+'" name="dateedit" id="dateedit" /><span class="year">'+iso.substr(0,4)+'</span>-<span class="month">'+iso.substr(5,2)+'</span>-<span class="day">'+iso.substr(8,2)+'</span><\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
+		html = '<div class="title date"><input type="text" value="'+iso.substr(0,10)+'" name="dateedit" id="dateedit" /><time datetime="'+iso+'"><span class="year">'+iso.substr(0,4)+'</span>-<span class="month">'+iso.substr(5,2)+'</span>-<span class="day">'+iso.substr(8,2)+'</span><\/time><\/div>';
 		$('#calendar').html(html);
 
 		// Build the timeline
