@@ -56,6 +56,10 @@
 	.timeline span,.timeline time { margin-right: 0.5em; margin-left: 0.5em; }
 	/*.timeline .human { margin-right: 0; }*/
 	.timeline time, .timeline .divider { display: none; }
+	.timeline span { margin-left: 0em; }
+	.timeline span:last-child { margin-right: 0em; }
+	.timeline span:before { content:'/';margin-left: 0em; margin-right: 0.25em; }
+	.timeline span:first-child:before { content:'';margin-left: 0em; margin-right: 0em; }
 
 	ul.timeline, ol.timeline { list-style: none; width: 100%; margin: 0px; padding: 0px; height: 100%; cursor: pointer; }
 	ul.timeline li, ol.timeline li { margin: 0px; display: inline-block; padding: 0em; margin: 0; margin-bottom: 0.25em; margin-right: 2%; width: 32%; float:left; min-height: 4.5em; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }

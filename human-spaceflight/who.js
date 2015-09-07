@@ -87,7 +87,7 @@ $(document).ready(function(){
 		html = '<ul class="timeline">';
 		for(var i = 0; i < trips.length; i++){
 			if((trips[i].launchday < d && trips[i].landday > d) || (trips[i].launchday < d && !trips[i].landday)){
-				html += '<li class="human '+trips[i].category+'" id="'+i+'"><div class="padder"><span class="name">'+trips[i].name+'</span></div><\/li>';
+				html += '<li class="human '+trips[i].category+'" id="'+i+'"><div class="padder"><span class="name">'+trips[i].name+'</span><span class="daysinspace">'+Math.floor((d.getTime()-trips[i].launch.getTime())/86400000)+' days</span></div><\/li>';
 			}
 		}
 		html += '<\/ul>';
