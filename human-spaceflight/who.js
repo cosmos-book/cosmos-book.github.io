@@ -4,28 +4,57 @@ $(document).ready(function(){
 	var start = new Date('1961-04-12T07:00Z');
 	var end = new Date();
 	var trips = new Array();
-	var pxperyear = 1000;
+	var pxperyear = 1095;
 	var h = Math.round(pxperyear*(end-start)/(86400000*365.25));
 	$('#timeline').css({'min-height':h});
 	$('.loader').remove();
 	$('#timeline ol').hide();
+	$('#scrollmsg').html('Scroll down to go back in time &#8675;')
 	parseTrips();
-
-	$(document).on('scroll',function(e){
-		updateTimeline(getYFrac());
-	});
 
 	updateTimeline(getYFrac());
 	
+	setFromAnchor();
+	
+	// We create a variable used if we've set the scroll position
+	var scrollTop = 0;
+	$(document).on('scroll',{'test':'me'},function(e){
+		updateTimeline(getYFrac());
+		scrollTop = 0;	// Reset variable
+	});
+	// Add event for monitoring anchor changes
+	window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ setFromAnchor(); };
+	
+	// Set the scroll position using the page anchor
+	function setFromAnchor(){
+		var a = location.href.split("#")[1];
+		if(a) setYPos(a);
+	}
+	// Get the fractional position in time
 	function getYFrac(){
 		var tl = $('#now');
-		var y = $(document).scrollTop();
-		var startscroll = Math.round(tl.offset().top);
+		// If we've set the scroll position we use that rather than read it to avoid rounding errors
+		var y = (scrollTop) ? scrollTop : $(document).scrollTop();
+		var startscroll = (tl.offset().top);
 		var endscroll = startscroll + tl.height();
 		var frac = -1;
 		if(y > startscroll) frac = (y-startscroll)/($(document).height() - $(window).height() - startscroll);
 		if(y > endscroll) frac = 1;
 		return frac;
+	}
+	// Set the vertical scroll using a date string
+	function setYPos(a){
+		var d = Date.parse(a);
+		if(isFinite(d)){
+			$('body').addClass('scrolling');	// Avoid the page changing in length
+			var frac = (d-start.getTime())/(end.getTime()-start.getTime());
+			var tl = $('#now');
+			var startscroll = (tl.offset().top);
+			//var endscroll = startscroll + tl.height();
+			var y = ( (1-frac)*($(document).height() - $(window).height() - startscroll) + startscroll );
+			scrollTop = y;
+			$(document).scrollTop(y);
+		}
 	}
 	function updateTimeline(frac){
 		var d,html;
@@ -37,7 +66,8 @@ $(document).ready(function(){
 			d = new Date();
 		}
 		
-		html = '<div class="title"><time datetime="'+d.toISOString()+'"><span class="date">'+d.toLocaleDateString()+'<\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
+		var iso = d.toISOString();
+		html = '<div class="title"><time datetime="'+iso+'"><span class="date">'+iso.substr(0,10)+'<\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
 		$('#calendar').html(html);
 
 		html = '<ul>';
@@ -47,7 +77,6 @@ $(document).ready(function(){
 			}
 		}
 		html += '<\/ul>';
-
 
 		$('#inspace').html(html);
 	}
