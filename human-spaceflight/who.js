@@ -6,22 +6,20 @@ $(document).ready(function(){
 	var trips = new Array();
 	var pxperyear = 1095;
 	var h = Math.round(pxperyear*(end-start)/(86400000*365.25));
-	$('#timeline').css({'min-height':h});
-	$('.loader').remove();
-	$('#timeline ol').hide();
-	$('#scrollmsg').html('Scroll down to go back in time &#8675;')
-	parseTrips();
-
-	updateTimeline(getYFrac());
-	
-	setFromAnchor();
-	
 	// We create a variable used if we've set the scroll position
 	var scrollTop = 0;
-	$(document).on('scroll',{'test':'me'},function(e){
-		updateTimeline(getYFrac());
-		scrollTop = 0;	// Reset variable
-	});
+	$('#timelinedummy').css({'min-height':h});
+	$('.loader').remove();
+
+	// Load the data file
+	loadJSON(getDataPath('#data'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
+
+	//parseTrips();
+
+	
+	// Add scroll event
+	$(document).on('scroll',function(e){ updateTimeline(getYFrac()); });
+
 	// Add event for monitoring anchor changes
 	window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){ setFromAnchor(); };
 	
@@ -35,6 +33,8 @@ $(document).ready(function(){
 		var tl = $('#now');
 		// If we've set the scroll position we use that rather than read it to avoid rounding errors
 		var y = (scrollTop) ? scrollTop : $(document).scrollTop();
+		if(scrollTop==0 && $('#scrollmsg').is(':visible')) $('#scrollmsg').css('opacity',0);
+		scrollTop = 0;
 		var startscroll = (tl.offset().top);
 		var endscroll = startscroll + tl.height();
 		var frac = -1;
@@ -70,7 +70,7 @@ $(document).ready(function(){
 		html = '<div class="title"><time datetime="'+iso+'"><span class="date">'+iso.substr(0,10)+'<\/span><!--<span class="time">'+d.toLocaleTimeString()+'<\/span>--><\/time><\/div>';
 		$('#calendar').html(html);
 
-		html = '<ul>';
+		html = '<ul class="timeline">';
 		for(var i = 0; i < trips.length; i++){
 			if((trips[i].launchday < d && trips[i].landday > d) || (trips[i].launchday < d && !trips[i].landday)){
 				html += '<li class="human '+trips[i].category+'"><div class="padder"><span class="name">'+trips[i].name+'</span></div><\/li>';
@@ -81,7 +81,7 @@ $(document).ready(function(){
 		$('#inspace').html(html);
 	}
 	function parseTrips(){
-		var a = $('#timeline ol.trips li');
+		var a = $('#inspace .timeline li');
 		for(var i = 0; i < a.length; i++){
 			var t = $(a[i]).find('time');
 			var launch = new Date($(t[0]).attr('datetime'));
@@ -98,10 +98,68 @@ $(document).ready(function(){
 				landday.setMinutes(59);
 				landday.setSeconds(59);
 			}
-			trips.push({'launch':launch,'land':land,'launchday':launchday,'landday':landday,'name':$(a[i]).find('.name').html(),'category':$(a[i]).find('.human').attr('class').substr(6)});
+			trips.push({'launch':launch,'land':land,'launchday':launchday,'landday':landday,'name':$(a[i]).find('.name').html(),'category':$(a[i]).attr('class').substr(6)});
 		}
 	}
 
+	function parseIt(data){
+		var launch,land,launchday,landday;
+		var html = "";
+		
+		var nmax = 1;
+		
+		// Function to add seconds to date strings if they don't exist otherwise Safari 5 can't cope
+		function fixDateString(d){
+			var t = d.indexOf('T');
+			var z = d.indexOf('Z');
+			if(z < 1) d = d+'Z';
+			if(z-t == 6) d = d.substr(0,z)+':00Z';
+			return d;
+		}
+
+		trips = new Array();
+		for(name in data) {
+			for(var m = 0; m < data[name].missions.length; m++){
+				//var ms = data[name].missions[m].period.split(/;/);
+				launch = (data[name].missions[m].a) ? new Date(fixDateString(data[name].missions[m].a)) : "";
+				launchday = (data[name].missions[m].a) ? new Date(fixDateString(data[name].missions[m].a)) : "";
+				land = (data[name].missions[m].b) ? new Date(fixDateString(data[name].missions[m].b)) : "";
+				landday = (data[name].missions[m].b) ? new Date(fixDateString(data[name].missions[m].b)) : "";
+
+				// The start of the launch day
+				if(launchday){
+					launchday.setHours(0);
+					launchday.setMinutes(0);
+					launchday.setSeconds(0);
+				}
+				// The end of the landing day
+				if(landday){
+					landday.setHours(23);
+					landday.setMinutes(59);
+					landday.setSeconds(59);
+				}
+				trips.push({'launch':launch,'land':land,'launchday':launchday,'landday':landday,'name':name,'category':data[name].category});
+				//"ACTON, Loren W.":{"category":"astronaut","gender":"Male","dob":"1936-03-07","country":"USA","eva":0,"file":"ACTON_LW.md","missions":[{"names":"STS-51-F","a":"1985-07-29T21:00:00Z","b":"1985-08-06T19:45:27Z"}]},
+
+/*
+				a.name = name;
+				a.n = n;
+				a.width = dl;
+				a.left = l;
+				a.missionnames = data[name].missions[m].names.split(";");
+				a.launch = launch;
+				a.land = (data[name].missions[m].b ? land : "");
+				a.dob = new Date(a.dob);
+				astronauts.push(a);*/
+			}
+		}
+
+		$('#inspace .timeline').remove();
+		$('#scrollmsg').html('Scroll down to go back in time &#8675;')
+	
+		updateTimeline(-1);
+		setFromAnchor();
+	}
 	// We provide a ";" separated list of values and format them into a nice, comma-separated string
 	// We can provide an optional "lookup" array to replace 
 	function formatArray(str,lookup){

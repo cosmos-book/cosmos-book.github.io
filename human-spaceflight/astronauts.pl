@@ -184,7 +184,8 @@ foreach $file (sort(@files)){
 					$countrystr .= '<span class="country '.$countries[$n].'">'.$countrycode{$countries[$n]}.'</span>';
 				}
 				#push(@li,'<li><span class="d"><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$land.'">'.$landstr.'</time></span>/<span class="name">'.$name.'</span>/'.$countrystr.'/<time datetime="'.$dob.'" class="dob">'.$dob.'</time><span class="human '.$category.'"></span></li>');
-				push(@li,'<li><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$landstr.'">'.$yearstr.'</time>/<span class="name">'.$name.'</span><span class="human '.$category.'"></span></li>');
+				# We temporarily put the category at the end for the purposes of sorting
+				push(@li,'<li><div class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></div></li>');
 
 				$durn = duration($launch,$land);
 				if($durn > $longesttrip){ $longesttrip = $durn; }
@@ -315,10 +316,13 @@ foreach $line (@lines){
 	if($line =~ /^([\s]*)<\!-- Start Timeline -->/){
 		$inmain = 1;
 		$indent = $1; 
-		print FILE $indent."<ol class=\"trips\">\n";
+		print FILE $indent."<ol class=\"timeline\">\n";
 		@li = reverse(sort(@li));
 		for($i = 0; $i < @li; $i++){
-			print FILE $indent.$li[$i]."\n";
+			$li[$i] =~ s/(<li)(>.*)<span( class="human[^\"]*")><\/span>/$1$3$2/g;
+			if($li[$i] =~ /<span class="divider">-<\/span><time datetime=""><\/time>/){
+				print FILE $indent."\t".$li[$i]."\n";
+			}
 		}
 		print FILE $indent."</ol>\n";
 	}
