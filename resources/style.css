@@ -417,13 +417,15 @@ h2.TEL { padding-left: 0.5em; border-left: 0.5em solid #67c18d; }
 .toggle-bg input { height: 1.25em; left: 0; margin: 0; /* Reset the margins and padding */ opacity: 0.0; /* Invisible! */ padding: 0; position: absolute; top: 0; z-index: 2; 	/*IE*/ 	zoom: 1; 	filter: alpha(opacity=0); cursor: pointer; }
 /* As we are hiding the radio buttons we will make the switch glow when the radio button receives focus. We need to use some sibling selectors. */
 .toggle-bg input:focus + .switch, .toggle-bg input:focus + input + .switch, .toggle-bg input:hover + .switch, .toggle-bg input:hover + input + .switch { box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2, 0 0 4px 2px #3366dd; }
+.switch_holder { display: inline-block; width: 100%; height: 1.25em; }
 .switch{ cursor: pointer; background: #ffffff; border-radius: 1em; box-shadow: 0 1px 1px #65727b, 0 0 1px #b6bdc2; display: inline-block; left: -1px; /* This is the starting point. When adding a border radius, a small bit of the background is shown if we use left: 0;, so -1px is best.*/ position: absolute; top: 0; /* ...To keep it centered vertically */ transition: left .25s ease; z-index: 1; /* Remember, it must be below the invisible inputs */ }
 .toggler { height: 1.25em;}
 .toggler.checked .switch { left: -1px; } /* initial toggle position */
 .toggler.checked .switch { left: 1.25em; } /* final relative toggle position */
 .toggle-bg input:checked{ z-index: 0; }
 .toggle-bg, .toggle-bg input, .switch, .toggleinput label { height: 1.25em; }
-.toggle-bg, .toggle-bg input { width: 2.5em; }
+.toggle-bg { width: 2.5em; }
+.toggle-bg input { width: 3.5em; height: 2em; }
 .toggle-label1, .toggle-label2 { top: -0.25em; }
 .switch { width: 1.25em; }
 

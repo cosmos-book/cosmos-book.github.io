@@ -23,7 +23,8 @@
 		body.STA .toggler.checked .toggle-bg { background-color: #af99c8; }
 		form { display: inline-block; margin: 0px; }
 		.toggle-label1,.toggle-label2 { display: none; }
-		li.keyitem { margin-right: 2em; text-align:center; }
+		li.keyitem { margin-right: 1.5em; text-align:center; }
+		li.keyitem:first-child { margin-right: 0.5em; text-align: left; }
 		li.keyitem .keylabel { cursor: pointer; float: left;line-height: 1.25em;margin-right: 0.25em; }
 		li.keyitem .keysymbol { width: 1em; height: 1em; float: left; margin-right: 0.25em; border: 1px solid #fee7dd; }
 		li.keyitem .life { border-color: #b72268; }
@@ -45,6 +46,7 @@
 			ul.key { width: auto; display: block; }
 			li.keyitem { display: block; line-height: 1.5em; margin-right: 0; text-align: right; }
 			li.keyitem .keylabel { float: left; }
+			li.keyitem:first-child .keylabel { float: none; }
 		}
 	</style>
 </head>
@@ -268,9 +270,7 @@
 					<td class="empty"></td>
 				</tr>
 				</table>
-				<div id="output"></div>
-				<div id="planets"></div>
-				<div id="info"></div>
+				<p>Note: elements can be created in more than one process.</p>
 				</div>
 			</div>
 		</div>
