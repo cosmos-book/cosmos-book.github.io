@@ -105,9 +105,9 @@ $(document).ready(function(){
 				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
 				text += '<tr><td>Trips to space:<\/td><td>'+a.missions+'<\/td><\/tr>';
 				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter.substr(1)+'">'+a.twitter+'</a><\/td><\/tr>';
-				var start = a.launch.toISOString().substr(0,10);
-				var end = (a.land ? a.land.toISOString().substr(0,10) : '');
-				text += '<tr><td>This trip:<\/td><td>'+start+(end!=start ? ' - '+end : '')+'<br />('+formatArray(a.missionnames)+')<\/td><\/tr>';
+				var start = '<time datetime="'+a.launch.toISOString()+'" title="'+a.launch.toISOString()+'">'+a.launch.toISOString().substr(0,10)+'</time>';
+				var end = (a.land ? '<time datetime="'+a.land.toISOString()+'" title="'+a.land.toISOString()+'">'+a.land.toISOString().substr(0,10)+'</time>' : '');
+				text += '<tr><td>This trip:<\/td><td>'+start+(a.land ? ' &rarr; ' : '')+(end!=start ? end : '')+'<br />('+formatArray(a.missionnames)+')<\/td><\/tr>';
 				text += '<\/table>';
 				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
 				return text;
