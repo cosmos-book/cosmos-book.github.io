@@ -23,7 +23,7 @@ missions:
     time_end:     2012-09-17T02:54Z
   - name: Soyuz TMA-16M
     time_start:   2015-03-27T19:42:57Z
-    time_end:     
+    time_end:     2015-09-12T00:51:36Z
 evas:
   - time_start: 1998-09-15T20:00Z
     duration:   0h30m
@@ -43,7 +43,7 @@ evas:
     duration:   0h12m
   - time_start: 2012-08-20T15:37Z
     duration:   5h51m
-  - time_start: 2015-08-10T15:20Z
+  - time_start: 2015-08-10T14:20Z
     duration:   5h31m
 gender:	Male
 ---
