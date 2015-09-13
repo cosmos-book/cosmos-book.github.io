@@ -69,6 +69,7 @@
 * **BEREZOVOY, Anatoli Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/berezovoy_anatoli.htm
 * **BHAT, Nagapathi Chidambar**: http://www.spacefacts.de/bios/international/english/bhat_nagapathi.htm
 * **BIN KHALEED, Faiz**: http://www.spacefacts.de/bios/international/english/khaleed_faiz.htm
+* **BINNIE, Brian**: http://www.spacefacts.de/bios/astronauts/english/binnie_brian.htm
 * **BLAHA, John E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BLINOV, Oleg Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/blinov_oleg.htm
 * **BLOOMFIELD, Michael J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -477,6 +478,8 @@
 * **MEADE, Carl J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELNICK, Bruce E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELROY, Pamela A.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **MELVILL, Michael Winston 'Mike'**: http://www.spacefacts.de/bios/astronauts/english/melvill_michael.htm
+* **MELVILL, Michael Winston 'Mike'**: http://www.spaceflightnow.com/ss1/status2.html
 * **MELVIN, Leland D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MERBOLD, Ulf Dietrich**: http://www.spacefacts.de/bios/international/english/merbold_ulf.htm
 * **MERCHEZ, Marianne**: http://www.spacefacts.de/bios/international/english/merchez_marianne.htm

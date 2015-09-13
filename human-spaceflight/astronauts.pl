@@ -141,7 +141,7 @@ foreach $file (sort(@files)){
 					$launches++;
 					if(!$firstlaunch){
 						$firstlaunch = $launch;
-						$age = int(duration($dob."T00:00Z",$launch)/(365.25*86400));
+						$age = int(duration(fixDate($dob)."T00:00Z",$launch)/(365.25*86400));
 						if($age < 20){ 
 							print "$name seems to be $age years old at first launch\n";
 						}
@@ -280,7 +280,7 @@ foreach $file (sort(@files)){
 	}
 
 	# Print a warning that no gender (Male/Female/Other) is set
-	if($gender ne "Male" && $gender ne "Female" && $gender ne "Other"){ print "$name is without a gender (Male, Female or Other)\n"; }
+	if($gender ne "Male" && $gender ne "Female" && $gender ne "Other"){ print "$name is without a gender (Male/Female/Other)\n"; }
 
 	# If anyone doesn't have a country but is defined as "astronauts" we'll set their country to the USA
 	if(!$country && $category eq "astronauts"){ $country = "USA"; }
@@ -342,3 +342,15 @@ print FILE $reflist;
 close(FILE);
 
 
+
+sub fixDate {
+	my $d = $_[0];
+	$d =~ s/\?\?/01/g;
+	if(length($d)==4){
+		$d .= "-01-01";	# We don't know the month or day so set them to the start of the year
+	}
+	if(length($d)==7){
+		$d .= "-01";	# We don't know the day so set it to the start of the month
+	}
+	return $d;
+}

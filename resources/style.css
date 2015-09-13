@@ -482,7 +482,7 @@ body .button:active {
 .cosmonaut { background-color: #f04031; }
 .taikonaut { background-color: #ffcb06; }
 .international { background-color: #67c18d; }
-.tourist { background-color: #7c52a1; }
+.tourist,.commercial { background-color: #7c52a1; }
 
 
 .loader {
