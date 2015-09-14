@@ -57,6 +57,8 @@ ul li { display: inline-block; margin-right: 1em; }
 	border-bottom: 0px;
 	height: 100%;
 }
+.labels .label { display: inline-block; bottom: 1.5em; margin-left: 0.25em; position: absolute; white-space: nowrap; }
+
 form.axes input {
 	float: right;
 	width: 220px;
