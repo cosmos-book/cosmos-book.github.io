@@ -174,7 +174,6 @@ $(document).ready(function(){
 		for(var i = 0; i < categories.length; i++){
 			if(totals[categories[i]] < mn) mn = totals[categories[i]];
 		}
-		//output += '<tr>';
 		for(var c = 0; c < categories.length; c++){
 			var s = Math.ceil(Math.ceil(Math.sqrt(totals[categories[c]]))*w);
 			if(totals[categories[c]]){
@@ -256,7 +255,8 @@ $(document).ready(function(){
 			var reverse = attr.reverse;
 			var output = '';
 			var n = 10;
-			sortBy('name');
+			if(reverse) sortBy('name',true);
+			else sortBy('name');
 			if(sort){
 				if(reverse) sortBy(sort,true);
 				else sortBy(sort);
