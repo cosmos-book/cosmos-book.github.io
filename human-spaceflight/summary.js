@@ -296,7 +296,7 @@ $(document).ready(function(){
 
 		// Longest trip
 		output += makePanel({
-			'title':'Longest single trip',
+			'title':'<a href="timeline.html">Longest single trip</a>',
 			'value': function(i){ return astronauts[i].longest_trip.toFixed(1)+' days'; },
 			'sort':'longest_trip',
 			'reverse':true
