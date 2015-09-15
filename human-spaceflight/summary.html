@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Travels in time and space</title>
+	<link rel="stylesheet" href="../resources/style.css" />
+	<link rel="stylesheet" href="style.css" />
+	<style>
+	.human {
+		width: 0.6em;
+		height: 0.6em;
+		display: inline-block;
+		border-radius: 100%;
+		z-index: 1;
+	}
+	.humans {
+		width: 0.6em;
+		height: 0.6em;
+		display: inline-block;
+		background-color: white;
+	}
+	.total { background-color: black; }
+	.stats .human {
+		width: 1.2em;
+		height: 1.2em;
+		left: 0px;
+		top: 0px;
+		display: inline-block;
+		float: left;
+		position: relative;
+		margin-top: 0em;
+		-webkit-transition: left 2s, top 2s;
+		transition: left 2s, top 2s;
+		cursor: pointer;
+	    background-image: url('astronaut.png');
+	    background-size: 35% 70%, auto;
+	    background-repeat:no-repeat;
+		background-position:center center;
+	}
+	.inorbit { border: 0.4em solid white; position: absolute; margin-left: -1.6em; }
+	.key .inorbit { position: relative; float: left; margin-left: 0em; margin-right: 0.3em; }
+	.stats .inorbit { margin-left: -0.7em; margin-top: -0.7em; }
+
+	.topbox ul { margin-bottom: 0; }
+	.stats table { width: 100%; }
+	.stats table td { vertical-align: top; }
+	.stats table.total_category td:first-child { text-align: right;  padding-right: 0.5em; }
+	.stats table td .bar { height: 1.2em; }
+	.stats table.gender_split th:first-child { text-align: right;  padding-right: 0.5em; }
+	.stats table.gender_split th:last-child { text-align: left;  padding-left: 0.5em; }
+	.stats table.gender_split td:first-child .bar { float: right; }
+	table.gender_split td:first-child { width: 45%; }
+	table.gender_split td:nth-child(4n+2) { text-align: right; padding-right: 0.5em; padding-left: 0.5em; }
+	table.gender_split td:nth-child(4n+3) { padding-left: 0.5em; padding-right: 0.5em; }
+	table.gender_split td:last-child { width: 45%; }
+	.number { font-family: "Source Code Pro", monospace, sans-serif; }
+	
+	.panel { width: 25%; display: inline-block; }
+	.panel table { width: 95%; }
+	.panel table tr:hover { background-color: #fdcc9c; }
+	.panel table td { padding: 0.25em; }
+	.panel table td:last-child { text-align: right; }
+	.panel .human { margin-right: 0.2em; }
+	.gender { display:inline-block; }
+	.gender .human { margin-right: 0; }
+	.gender.male { text-align:right; }
+	.gender.male .human { float: right; }
+
+	@media only screen and (max-width: 1024px){
+		.panel { width: 50%; display: inline-block; }
+	}
+	@media only screen and (max-width: 600px){
+		.panel { width: 100%; display: inline-block; }
+	}
+	</style>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="summary.js"></script>
+</head>
+<body class="EXP">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">infographics</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="padder">
+					<h1>Human spaceflight summary</h1>
+					<ul class="key js-only">
+						<li class="keyitem"><span class="human cosmonaut"></span> Russian<span class="wide"> cosmonauts</span></li>
+						<li class="keyitem"><span class="human astronaut"></span> US<span class="wide"> astronauts</span></li>
+						<li class="keyitem"><span class="human taikonaut"></span> Chinese<span class="wide"> taikonauts</span></li>
+						<li class="keyitem"><span class="human international"></span> International<span class="wide"> astronauts</span></li>
+						<li class="keyitem"><span class="human tourist"></span> Commercial/tourist</li>
+					</ul>
+					<div class="stats js-only">
+						<p>In the book we have an infographic showing the total amount of time every astronaut has been in space (defined as above 100km). With Javascript, this page would show a summary of the <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">compiled data set of astronauts</a> or as <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="json">json</a>. You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data">data for each astronaut on Github</a>.</p>
+						<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Only includes humans who have reached altitudes of at least 100 km. Flight durations are based on take-off/landing so short flights over-estimate the time in space. Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/">data</a> compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
