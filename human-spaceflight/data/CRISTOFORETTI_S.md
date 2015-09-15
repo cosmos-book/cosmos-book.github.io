@@ -3,6 +3,7 @@ category:	international
 name:	CRISTOFORETTI, Samantha
 type:	military
 dob:	1977-04-26
+twitter:	@AstroSamantha
 country:
   - ITA
 gender:	Female

@@ -1,7 +1,7 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	OLSEN, Gregory Hammond 'Greg'
-type:	tourist
+type:	civilian
 dob:	1945-04-20
 country:
   - USA

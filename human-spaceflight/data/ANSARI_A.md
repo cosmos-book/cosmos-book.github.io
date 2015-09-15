@@ -1,7 +1,7 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	ANSARI, Anousheh
-type:	tourist
+type:	civilian
 dob:	1966-09-22
 country:
   - USA

@@ -1,7 +1,7 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	TITO, Dennis
-type:	tourist
+type:	civilian
 dob:	1940-08-08
 country:
   - USA

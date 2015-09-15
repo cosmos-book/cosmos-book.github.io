@@ -1,5 +1,5 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	SHUTTLEWORTH, Mark Richard 'Buranov'
 type:	civilian
 dob:	1973-09-18

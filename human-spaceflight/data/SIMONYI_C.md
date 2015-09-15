@@ -1,7 +1,7 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	SIMONYI, Charles
-type:	tourist
+type:	civilian
 dob:	1948-09-10
 country:
   - HUN

@@ -1,7 +1,7 @@
 ---
-category:	tourist
+category:	commercial tourist
 name:	GARRIOTTdeCAYEUX, Richard
-type:	tourist
+type:	civilian
 dob:	1961-07-04
 country:
   - GBR
