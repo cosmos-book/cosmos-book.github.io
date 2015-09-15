@@ -160,7 +160,8 @@ $(document).ready(function(){
 		// By category breakdown
 		var totals = {};
 		sortBy('category');
-		output += '<div style="display:block;clear:both;"><h2>All people</h2><table class="total_category">';
+		output += '<div class="columns">'
+		output += '<div class="column column-3"><h2>Everyone who has been to space</h2><table class="total_category">';
 		for(var i = 0; i < astronauts.length; i++){
 			var c = astronauts[i].category;
 			if(c.indexOf(' ') > 0) c = c.substr(0,c.indexOf(' '));
@@ -187,12 +188,12 @@ $(document).ready(function(){
 		output += '</table></div>';
 		
 		
-		
 		// By gender
+		output += '<div class="column column-1">';
+
 		var total = { 'Male': 0, 'Female':0, 'Other':0 }
 		sortBy('category');
 		for(var i = 0; i < astronauts.length; i++) total[astronauts[i].gender]++;
-		output += '<div style="display:block;clear:both;">';
 		var gender = {};
 		for(var c = 0; c < categories.length; c++) gender[categories[c]] = { 'Male': 0, 'Female':0, 'Other':0 };
 		gender['total'] = { 'Male': 0, 'Female':0, 'Other':0 };
@@ -210,70 +211,139 @@ $(document).ready(function(){
 		}
 		output += '</table>';
 
+		// By birth decade
+		sortBy('dob');
+		var decade = {};
+		var now = new Date();
+		for(var i = 0; i < astronauts.length; i++){
+			d = Math.floor(astronauts[i].dob.getFullYear()/10)*10;
+			console.log(d)
+			if(!decade[d+'s']){
+				decade[d+'s'] = {};
+				for(var c = 0; c < categories.length; c++) decade[d+'s'][categories[c]] = 0;
+			}
+			var c = astronauts[i].category;
+			if(c.indexOf(' ') > 0) c = c.substr(0,c.indexOf(' '));
+			decade[d+'s'][c]++;
+		}
+		output += '<h2>Birth decade breakdown</h2><table class="birth_split">';
+		var mx = 0;
+		for(var d in decade){
+			var t = 0;
+			for(var c in categories){
+				t+=decade[d][categories[c]];
+			}
+			if(t > mx) mx = t;
+		}
+		for(var d in decade){
+			output += '<tr><td>'+d+'</td><td>';
+			//var g = gender[c];
+			//var f = 100*g['Female']/(g['Male']+g['Female']+g['Other']);	// Fraction that are female
+			//output += '<tr><td><div class="'+c+' bar" style="width:'+f+'%" title="'+g['Female']+'"></div></td><td>'+Math.round(f)+'%</td><td>'+Math.round(100-f)+'%</td><td><div class="'+c+' bar" style="width:'+(100-f)+'%" title="'+g['Male']+'"></div></td></tr>';
+			for(var c in categories){
+console.log(decade[d][categories[c]])
+			
+				var f = 100*decade[d][categories[c]]/mx;
+				output += '<div class="bar '+categories[c]+'" style="width:'+f+'%;">&nbsp;</div>';
+			}
+			output += '</td></tr>';
+		}
+		output += '</table>';
+		output += '</div>';
+		output += '</div>';
+
 		function makeRow(i,v){
 			//return '<li><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+' / '+v+'</li>';
 			return '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
 		}
+		function makePanel(attr){
+			var title = attr.title;
+			var value = attr.value;
+			var sort = attr.sort;
+			var reverse = attr.reverse;
+			var output = '';
+			var n = 10;
+			sortBy('name');
+			if(sort){
+				if(reverse) sortBy(sort,true);
+				else sortBy(sort);
+			}
+			output += '<div class="panel">'+(value ? '<div class="big number">'+value.call(this,0)+'</div>':'')+'<table class="longest"><tr><th colspan="2">'+title+'</th></tr>';
+			if(title=="Currently in space"){
+				for(var i = 0; i < astronauts.length; i++){
+					if(astronauts[i].inspaceasof != null){
+						output += '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name+'</td><td></td></tr>';
+					}
+				}
+			}else{
+				for(var i = 0; i < n; i++) output += makeRow(i,value.call(this,i));//makeRow(i,astronauts[i].oldest);
+			}
+			output += '</table></div>'
+			return output;
+		}
 
 
 		// Most launches
-		sortBy('name');
-		sortBy('launches',true);
-		output += '<div class="panel"><h2>Most launches</h2><table class="launches">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].launches);
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Most launches',
+			'value': function(i){ return astronauts[i].launches; },
+			'sort':'launches',
+			'reverse':true
+		});
 
 		// Longest time in space
-		sortBy('name');
-		sortBy('time_space',true);
-		output += '<div class="panel"><h2>Most time in space</h2><table class="longest_time">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].time_space_days.toFixed(2)+' days');
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Most time in space',
+			'value': function(i){ return astronauts[i].time_space_days.toFixed(1)+' days'; },
+			'sort':'time_space',
+			'reverse':true
+		});
 
 		// Longest trip
-		sortBy('name');
-		sortBy('longest_trip',true);
-		output += '<div class="panel"><h2>Longest single trip</h2><table class="longest_trip">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].longest_trip.toFixed(2)+' days');
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Longest single trip',
+			'value': function(i){ return astronauts[i].longest_trip.toFixed(1)+' days'; },
+			'sort':'longest_trip',
+			'reverse':true
+		});
 
 		// Longest EVA
-		sortBy('name');
-		sortBy('time_eva',true);
-		output += '<div class="panel"><h2>Most EVA</h2><table class="longest_eva">';
-		for(var i = 0; i < n; i++) output += makeRow(i,parseInt(astronauts[i].eva_string.substr(0,astronauts[i].eva_string.lastIndexOf(":")))+'h '+parseInt(astronauts[i].eva_string.substr(astronauts[i].eva_string.lastIndexOf(":")+1))+'m');
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Most EVA',
+			'value': function(i){ return parseInt(astronauts[i].eva_string.substr(0,astronauts[i].eva_string.lastIndexOf(":")))+'h '+parseInt(astronauts[i].eva_string.substr(astronauts[i].eva_string.lastIndexOf(":")+1))+'m'; },
+			'sort':'time_eva',
+			'reverse':true
+		});
 
 		// Youngest
-		sortBy('name');
-		sortBy('firstlaunch_age');
-		output += '<div class="panel"><h2>Youngest in space</h2><table class="longest">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].firstlaunch_age);
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Youngest in space',
+			'value': function(i){ return astronauts[i].firstlaunch_age; },
+			'sort':'firstlaunch_age'
+		});
+
 
 		// Oldest in space  - based on their date of birth and the last time they were in space
-		sortBy('name');
-		sortBy('oldest',true);
-		output += '<div class="panel"><h2>Oldest in space</h2><table class="longest">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].oldest);
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Oldest in space',
+			'value': function(i){ console.log(i); return astronauts[i].oldest; },
+			'sort':'oldest',
+			'reverse':true
+		});
 
 		// Most recently born
-		sortBy('name');
-		sortBy('dob',true);
-		output += '<div class="panel"><h2>Most recently born</h2><table class="current">';
-		for(var i = 0; i < n; i++) output += makeRow(i,astronauts[i].dob.getFullYear());
-		output += '</table></div>'
+		output += makePanel({
+			'title':'Most recent birth date',
+			'value': function(i){ console.log(i); return astronauts[i].dob.toISOString().substr(0,10) },
+			'sort':'dob',
+			'reverse':true
+		});
 
-		// Currently in space
-		sortBy('name');
-		output += '<div class="panel"><h2>Currently in space</h2><table class="current">';
-		for(var i = 0; i < astronauts.length; i++){
-			if(astronauts[i].inspaceasof != null){
-				output += '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name+'</td><td></td></tr>';
-			}
-		}
-		output += '</table></div>'
+		// Most recently born
+		output += makePanel({
+			'title':'Currently in space'
+		});
+
 
 
 

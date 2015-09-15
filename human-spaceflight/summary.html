@@ -41,25 +41,34 @@
 	.key .inorbit { position: relative; float: left; margin-left: 0em; margin-right: 0.3em; }
 	.stats .inorbit { margin-left: -0.7em; margin-top: -0.7em; }
 
+	.columns { display: table; }
+	.column { display: table-cell; clear:both; width:25%; }
+	.column-2 { width: 50%; }
+	.column-3 { width: 75%; }
 	.topbox ul { margin-bottom: 0; }
 	.stats table { width: 100%; }
+	.stats table th { font-family: "Source Code Pro", monospace, sans-serif; }
 	.stats table td { vertical-align: top; }
 	.stats table.total_category td:first-child { text-align: right;  padding-right: 0.5em; }
+	.stats table.total_category td:last-child { padding-right: 1em; }
 	.stats table td .bar { height: 1.2em; }
 	.stats table.gender_split th:first-child { text-align: right;  padding-right: 0.5em; }
 	.stats table.gender_split th:last-child { text-align: left;  padding-left: 0.5em; }
 	.stats table.gender_split td:first-child .bar { float: right; }
-	table.gender_split td:first-child { width: 45%; }
-	table.gender_split td:nth-child(4n+2) { text-align: right; padding-right: 0.5em; padding-left: 0.5em; }
-	table.gender_split td:nth-child(4n+3) { padding-left: 0.5em; padding-right: 0.5em; }
-	table.gender_split td:last-child { width: 45%; }
+	.stats table.gender_split td:first-child { width: 45%; }
+	.stats table.gender_split td:nth-child(4n+2) { text-align: right; padding-right: 0.5em; padding-left: 0.5em; }
+	.stats table.gender_split td:nth-child(4n+3) { padding-left: 0.5em; padding-right: 0.5em; }
+	.stats table.gender_split td:last-child { width: 45%; }
+	.stats table.birth_split td:first-child { width: 3em; }
+	.stats table.birth_split .bar { display: inline-block; height: 1.2em; }
 	.number { font-family: "Source Code Pro", monospace, sans-serif; }
+	.big { font-size: 2.5em; display: none; }
 	
-	.panel { width: 25%; display: inline-block; }
+	.panel { width: 25%; display: inline-block; vertical-align: top; padding-top: 1.5em; }
 	.panel table { width: 95%; }
-	.panel table tr:hover { background-color: #fdcc9c; }
-	.panel table td { padding: 0.25em; }
-	.panel table td:last-child { text-align: right; }
+	.panel table tr:hover > td { background-color: #fdcc9c; }
+	.panel table td,.panel table th { padding: 0.25em; }
+	.panel table td:last-child,.panel table th:nth-child(2n+0) { text-align: right; }
 	.panel .human { margin-right: 0.2em; }
 	.gender { display:inline-block; }
 	.gender .human { margin-right: 0; }
@@ -68,6 +77,9 @@
 
 	@media only screen and (max-width: 1024px){
 		.panel { width: 50%; display: inline-block; }
+		.columns { display: block; }
+		.column { display: block; width:100%; }
+		.stats table.total_category td:last-child { padding-right: 0em; }
 	}
 	@media only screen and (max-width: 600px){
 		.panel { width: 100%; display: inline-block; }
