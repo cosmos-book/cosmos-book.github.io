@@ -237,12 +237,7 @@ $(document).ready(function(){
 		}
 		for(var d in decade){
 			output += '<tr><td>'+d+'</td><td>';
-			//var g = gender[c];
-			//var f = 100*g['Female']/(g['Male']+g['Female']+g['Other']);	// Fraction that are female
-			//output += '<tr><td><div class="'+c+' bar" style="width:'+f+'%" title="'+g['Female']+'"></div></td><td>'+Math.round(f)+'%</td><td>'+Math.round(100-f)+'%</td><td><div class="'+c+' bar" style="width:'+(100-f)+'%" title="'+g['Male']+'"></div></td></tr>';
 			for(var c in categories){
-console.log(decade[d][categories[c]])
-			
 				var f = 100*decade[d][categories[c]]/mx;
 				output += '<div class="bar '+categories[c]+'" style="width:'+f+'%;">&nbsp;</div>';
 			}
