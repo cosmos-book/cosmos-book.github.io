@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	AUNON, Serena M.
+name:	AU&Ntilde;&Oacute;N, Serena M.
 type:	civilian
 dob:	1976-04-09
 twitter:	@AstroSerena

@@ -40,7 +40,7 @@
 * **ASHBY, Jeffrey S.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ATKOV, Oleg Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/atkov_oleg.htm
 * **AUBAKIROV, Toktar Ongarbayevich**: http://www.spacefacts.de/bios/cosmonauts/english/aubakirov_toktar.htm
-* **AUNON, Serena M.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **AU&Ntilde;&Oacute;N, Serena M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **AVDEYEV, Sergei Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/avdeyev_sergei.htm
 * **AVDEYEV, Sergei Vasiliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/avdeyev_sergei.htm
 * **AYMAKHANOV, Mukhtar Rabatovich**: http://www.spacefacts.de/bios/international/english/aymakhanov_mukhtar.htm
