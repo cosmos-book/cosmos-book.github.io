@@ -242,8 +242,43 @@ $(document).ready(function(){
 			output += '</td></tr>';
 		}
 		output += '</table>';
+
+
+		sortBy('name');
+		output += '<ol>'
+		for(var i = 0; i < astronauts.length; i++){
+			output += '<li>'+astronauts[i].name+'</li>'
+		}
+		output += '</ol>'
+		// By birth decade/gender
+		/*sortBy('dob');
+		var decade = {};
+		var genders = ['Female','Male','Other']
+		var now = new Date();
+		for(var i = 0; i < astronauts.length; i++){
+			d = Math.floor(astronauts[i].dob.getFullYear()/10)*10;
+			if(!decade[d+'s']) decade[d+'s'] = { 'Male': 0, 'Female':0, 'Other':0 };
+			decade[d+'s'][astronauts[i].gender]++;
+		}
+		output += '<h2>Birth/gender breakdown</h2><table class="birth_split birth_gender">';
+		for(var d in decade){
+			var t = 0;
+			for(var c = 0; c < genders.length; c++) t += decade[d][genders[c]];
+			output += '<tr><td>'+d+' / '+t+'</td><td>';
+			for(var c = 0; c < genders.length; c++){
+				var f = 100*decade[d][genders[c]]/t;
+				output += '<div class="bar total '+genders[c]+'" style="width:'+f+'%;" title="'+f.toFixed(1)+'%">&nbsp;</div>';
+			}
+			output += '</td></tr>';
+		}
+		output += '</table>';*/
+
+
 		output += '</div>';
+
 		output += '</div>';
+
+
 
 		function makeRow(i,v){
 			return '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';

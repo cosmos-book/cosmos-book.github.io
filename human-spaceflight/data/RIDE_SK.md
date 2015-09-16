@@ -11,6 +11,12 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
+  - name: STS-7
+    time_start:   1983-06-18T11:33Z
+    time_end:     1983-06-24T13:57:00Z
+  - name: STS-41-G
+    time_start:   1984-10-05T11:03Z
+    time_end:     1984-10-13T16:26:34Z
 evas:
 country:
   - USA

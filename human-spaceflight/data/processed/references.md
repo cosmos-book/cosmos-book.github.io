@@ -3,6 +3,8 @@
 * **ACTON, Loren W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ADAMSON, James C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ADAMS, Mike James**: http://history.nasa.gov/x15/adams.html
+* **AFANASYEV, Viktor Mikhailovich**: http://www.jsc.nasa.gov/Bios/htmlbios/afanasyev-vm.html
+* **AFANASYEV, Viktor Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/afanasiyev_viktor.htm
 * **AIMBETOV, Aidyn Akanovich**: https://en.wikipedia.org/wiki/Aidyn_Aimbetov
 * **AKBAR, Taufik**: http://www.spacefacts.de/bios/international/english/akbar_taufik.htm
 * **AKERS, Thomas D.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -529,6 +531,7 @@
 * **NYBERG, Karen L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OCHOA, Ellen**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OCKELS, Wubbo Johannes**: http://www.spacefacts.de/bios/international/english/ockels_wubbo.htm
+* **O'CONNOR, Bryan D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OEFELEIN, William A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OLIVAS, John D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OMELCHENKO, Svetlana Oktyabrevna**: http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
