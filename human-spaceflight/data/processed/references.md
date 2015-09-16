@@ -134,8 +134,8 @@
 * **CHIAO, Leroy**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHILTON, Kevin P., General**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHIRKIN, Viktor Martynovich**: http://www.spacefacts.de/bios/cosmonauts/english/chirkin_viktor.htm
-* **CHRéTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
-* **CHRéTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm
+* **CHRÉTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
+* **CHRÉTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm
 * **CHUB, Nikolai Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/chub_nikolai.htm
 * **CLARK, Laurel B.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CLEAVE, Mary L.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -278,9 +278,9 @@
 * **HABIB, Munir Habib**: http://www.spacefacts.de/bios/international/english/habib_munir.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/eva/international/english/hadfield_chris.htm
-* **HAIGNERé, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
-* **HAIGNERé, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
-* **HAIGNERé, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
+* **HAIGNERÉ, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
+* **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
+* **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
 * **HAISE, Fred W., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HALIK, Nikos 'Nik'**: http://www.spacefacts.de/bios/international/english/halik_nik.htm
 * **HALSELL, James D., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -402,7 +402,7 @@
 * **KUZHELNAYA, Nadezhda Vasiliyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuzhelnaya_nadezhda.htm
 * **KUZNETSOVA, Tatiyana Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
 * **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
-* **LALIBERTé, Guy**: http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
+* **LALIBERTÉ, Guy**: http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
 * **LATYSHEVA, Irina Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/latysheva_irina.htm
 * **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
 * **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/laveykin_aleksandr.htm
@@ -768,7 +768,7 @@
 * **VARLAMOV, Valentin Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/varlamov_valentin.htm
 * **VASYUTIN, Vladimir Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/vasyutin_vladimir.htm
 * **VEACH, Charles Lacy**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **VIEHBöCK, Franz Artur**: http://www.spacefacts.de/bios/international/english/viehboeck_franz.htm
+* **VIEHBÖCK, Franz Artur**: http://www.spacefacts.de/bios/international/english/viehboeck_franz.htm
 * **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/viktorenko_aleksandr.htm
 * **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/eva/cosmonauts/english/viktorenko_aleksandr.htm
 * **VINOGRADOV, Pavel Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/vinogradov_pavel.htm

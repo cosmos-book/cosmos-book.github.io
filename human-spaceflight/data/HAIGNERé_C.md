@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	HAIGNERé, Claudie
+name:	HAIGNERÉ, Claudie
 type:	civilian
 dob:	1957-05-13
 gender:	Female

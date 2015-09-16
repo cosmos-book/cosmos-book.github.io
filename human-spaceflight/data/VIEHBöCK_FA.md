@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	VIEHBöCK, Franz Artur
+name:	VIEHBÖCK, Franz Artur
 type:	civilian
 dob:	1960-08-24
 country:

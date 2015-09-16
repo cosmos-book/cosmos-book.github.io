@@ -1,6 +1,6 @@
 ---
 category:	commercial tourist
-name:	LALIBERTé, Guy
+name:	LALIBERTÉ, Guy
 type:	civilian
 dob:	1959-09-02
 country:
