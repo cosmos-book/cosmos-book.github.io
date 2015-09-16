@@ -11,6 +11,7 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 a { color: black; }
+sup { font-size: 0.8em; position: relative; top: -0.5em;}
 
 /* Cosmos-specific styles */
 html,body {

@@ -161,7 +161,7 @@ $(document).ready(function(){
 		var totals = {};
 		sortBy('category');
 		output += '<div class="columns">'
-		output += '<div class="column column-3"><h2><a href="index.html">Everyone who has been to space</a></h2><table class="total_category">';
+		output += '<div class="column column-3"><h2><a href="index.html">Everyone who has been to space</a><sup>*</sup></h2><table class="total_category">';
 		for(var i = 0; i < astronauts.length; i++){
 			var c = astronauts[i].category;
 			if(c.indexOf(' ') > 0) c = c.substr(0,c.indexOf(' '));
@@ -184,7 +184,7 @@ $(document).ready(function(){
 				output += '</td></tr>'
 			}
 		}
-		output += '</table></div>';
+		output += '</table><p style="font-size: 0.8em;"><sup>*</sup>Humans who have reached altitudes of at least 100 km.</p></div>';
 		
 		
 		// By gender
