@@ -15,6 +15,11 @@
 	#range2 .label_b { margin-right: -4em; }
 	#range2.range { margin-right: 4.5em; }
 	#holder svg { margin: auto; display: block; }
+	.asteroid { background-color: #00b9e4; }
+	.asteroid_after { background-color: #9bd4ae; }
+	.asteroid_short { background-color: #f9a04a; }
+	.asteroid_collide { background-color: #f04031; }
+	.asteroid_time { height: 0.1em; width: 1em; display: inline-block; margin: 0.6em 0.25em 0.55em 0; float: left; background-color: #00b9e4; }
 	</style>
 </head>
 <body class="SOL">
@@ -33,8 +38,14 @@
 			</nav>
 			<div id="content">
 				<div class="padder">
-							
 					<h1>Collision imminent</h1>
+					<ul class="key">
+						<li class="keyitem"><span class="asteroid keycircle"></span> Flyby with at least 1 month warning</li>
+						<li class="keyitem"><span class="asteroid_after keycircle"></span> Discovered after flyby</li>
+						<li class="keyitem"><span class="asteroid_short keycircle"></span> Flyby with little or no warning</li>
+						<li class="keyitem"><span class="asteroid_collide keycircle"></span> Impacted</li>
+						<li class="keyitem"><span class="asteroid_time"></span> Warning time</li>
+					</ul>
 					<div id="controls" class="js-only">
 						<div class="padder">
 							<div class="rangelabel">Year range:</div>

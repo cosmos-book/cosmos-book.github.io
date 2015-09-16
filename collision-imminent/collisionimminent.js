@@ -151,6 +151,12 @@ $(document).ready(function(){
 	function drawAsteroids(){
 		var x,y,c,shortnotice,advancenotice;
 		var build = (asteroids.length==0);
+		var acol = {
+			'normal': $('.asteroid').css('background-color'),
+			'after': $('.asteroid_after').css('background-color'),
+			'short': $('.asteroid_short').css('background-color'),
+			'collide': $('.asteroid_collide').css('background-color'),
+		}
 		for(var i = 0; i < data.length; i++){
 
 			if(data[i].date_close < end){
@@ -158,14 +164,14 @@ $(document).ready(function(){
 				advancenotice = (data[i].date_disc < data[i].date_close)
 				shortnotice = (data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000);
 	
-				c = colours.blue[1];
+				c = acol.normal;
 	
-				// If it doesn't have advance notice we make it green
-				if(!advancenotice) c = colours.green[3];
-				// If it is less than 30 days notice we make it orange
-				if(shortnotice) c = colours.orange[1];
+				// If it doesn't have advance notice
+				if(!advancenotice) c = acol.after;
+				// If it is less than 30 days notice
+				if(shortnotice) c = acol.short;
 				// If it collides we make it red
-				if(data[i].collide) c = colours.red[0];
+				if(data[i].collide) c = acol.collide;
 	
 	
 				if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].dist < range){
