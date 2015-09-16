@@ -125,6 +125,7 @@ $(document).ready(function(){
 		
 		drawGrid();
 		drawAsteroids();
+		drawKey();
 		drawEarth();
 		
 		tooltip({
@@ -148,10 +149,32 @@ $(document).ready(function(){
 		$('.noscript').remove();
 		$('.js-only').show();
 	}
+	function asteroidSize(s){
+		s = (0.17*rad)*(s/600);
+		if(s < 1.2) s = 1.2;
+		return s;
+	}
+	function drawKey(){
+
+		var a = [500,100,50,20];
+		var label = '';
+		var p = 1;
+		var s = new Array(a.length);
+		for(var i = 0; i < a.length; i++) s[i] = asteroidSize(a[i]);
+		for(var i = 0; i < s.length; i++){
+			// Create the asteroids for the key
+			x = s[0]*2+p - s[i];
+			y = s[0]+p;
+			paper.circle(x,y,s[i]).attr({'fill':'','stroke':'black','stroke-width':0.5});
+			if(label!="") label += ' / ';
+			label += (i < s.length-1 ? '':'<')+a[i]+'m';
+		}
+		paper.text(s[0]*2+p+4,s[0]+p,label).attr({'text-anchor':'start'})
+	}
 	function drawAsteroids(){
 		var x,y,c,shortnotice,advancenotice;
 		var build = (asteroids.length==0);
-		var acol = {
+		var colour = {
 			'normal': $('.asteroid').css('background-color'),
 			'after': $('.asteroid_after').css('background-color'),
 			'short': $('.asteroid_short').css('background-color'),
@@ -164,14 +187,14 @@ $(document).ready(function(){
 				advancenotice = (data[i].date_disc < data[i].date_close)
 				shortnotice = (data[i].date_disc < data[i].date_close && data[i].date_close-data[i].date_disc < 30*86400000);
 	
-				c = acol.normal;
+				c = colour.normal;
 	
 				// If it doesn't have advance notice
-				if(!advancenotice) c = acol.after;
+				if(!advancenotice) c = colour.after;
 				// If it is less than 30 days notice
-				if(shortnotice) c = acol.short;
+				if(shortnotice) c = colour.short;
 				// If it collides we make it red
-				if(data[i].collide) c = acol.collide;
+				if(data[i].collide) c = colour.collide;
 	
 	
 				if(data[i].date_close >= y1 && data[i].date_close <= y2 && data[i].dist < range){
@@ -180,8 +203,7 @@ $(document).ready(function(){
 					
 					x = r*Math.cos(t);
 					y = r*Math.sin(t);
-					s = (0.17*rad)*(data[i].size/600);
-					if(s < 1.2) s = 1.2;
+					s = asteroidSize(data[i].size);
 					
 					// Create or update the asteroids
 					if(!asteroids[i]) asteroids[i] = paper.circle(mid.x+x,mid.y+y,s).attr({'fill':c,'stroke':0,'opacity':0.8,'cursor':'pointer'});
