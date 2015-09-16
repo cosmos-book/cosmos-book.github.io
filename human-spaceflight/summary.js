@@ -244,12 +244,6 @@ $(document).ready(function(){
 		output += '</table>';
 
 
-		sortBy('name');
-		output += '<ol>'
-		for(var i = 0; i < astronauts.length; i++){
-			output += '<li>'+astronauts[i].name+'</li>'
-		}
-		output += '</ol>'
 		// By birth decade/gender
 		/*sortBy('dob');
 		var decade = {};
