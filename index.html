@@ -26,7 +26,7 @@
 			}else if(diff < 1000 && diff > -86400000){
 				countdown.innerHTML = 'Launched!';
 			}else{
-				countdown.innerHTML = '';
+				countdown.innerHTML = '<p>This <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository<\/a> accompanies the book. It contains <a href="contents.html">interactive versions of selected infographics<\/a>, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/sources behind the graphics.</p>';
 			}
 		}
 		function formatPeriod(v,p){ return '<li class="part"><span class="value">'+((v < 10) ? "0"+v : v)+'<\/span> <span class="period">'+p+'<\/span><\/li>'; }
