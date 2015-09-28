@@ -5,6 +5,7 @@ r(function(){
 	var padd = {'left':0,'right':0,'top':20,'bottom':0};
 	var el = $('#holder');
 	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
+	var pstops = [0.001,1,1000,10000,100000];
 
 	// Calculate values
 	var w = el.width()-1;
@@ -108,6 +109,17 @@ r(function(){
 		return 'rgba(255,255,255,'+op.toFixed(2)+')'
 	}
 	
+	function formatPressure(p){
+		var unit = 'mbar';
+		if(p >= 1000){
+			p /= 1000;
+			unit = 'bar';
+		}else if(p < 0.1){
+			p *= 1000;
+			unit = '&micro;bar';
+		}
+		return '<span class="number">'+(p)+'</span>'+unit;
+	}
 	// Draw the result
 	function drawIt(){
 	
@@ -126,11 +138,9 @@ r(function(){
 			p = planets[i];
 			var planet = '';
 			var keyitems = {};
+			var pres = '';
 
 			if(atmos[p]){
-
-				// Find the left edge of this column
-				x = (dx*2*j+dx*0.5);
 
 				// Make graded background
 				grad = '';
@@ -168,6 +178,20 @@ r(function(){
 						}
 					}
 
+					for(var pr = 0; pr < pstops.length; pr++){
+					
+						var near = new Array(atmos[p].profile.length);
+						for(var k=0; k < atmos[p].profile.length; k++) near[k] = Math.abs(atmos[p].profile[k].P - pstops[pr]);
+						function indexMin(a){ return a.indexOf(Math.min.apply(Math, a)); }
+						var pi = indexMin(near);
+						if(pi && pi >=0){
+							// Get the percent up the atmospheric range
+							y = 100*((range.y[1]-atmos[p].profile[indexMin(near)].h)/(range.y[1]-range.y[0]));
+							pres += '<div class="pressurelabel label" style="top:'+y+'%;">'+formatPressure(pstops[pr])+'</div>';
+						}
+					}
+
+
 					// Add end stops
 					stops_p.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
 					stops_t.push(['rgba(255,255,255,0)',(hassurface ? 50.0001 : 100)]);
@@ -182,7 +206,7 @@ r(function(){
 				}
 
 				var layers = '';
-				var labels = '';
+				var labels = (pres ? pres : '');
 				// Loop over the constituents
 				for(var d = 0; d < atmos[p].data.length; d++){
 
@@ -201,7 +225,6 @@ r(function(){
 					if(y2==0) y2 = 2+'px';
 					else y2 = y2+'%';
 
-					px = dx*0.05;
 					c = getColour(atmos[p].data[d].name);
 
 					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0){
@@ -220,7 +243,7 @@ r(function(){
 			var key = '';
 			var n;
 			for(ki in keyitems){
-				n = ki.replace("CO2","CO<sub>2</sub>");
+				n = ki.replace("O2","O<sub>2</sub>");
 				key = '<li class="keyitem"><span class="keycircle" style="background-color:'+keyitems[ki]+';"></span><span class="keylabel">'+n+'</span></li>'+key;
 			}
 			$('#holder').append('<div class="planet"><h2 class="header">'+p+'</h2><div class="planet_inner">'+planet+'</div><div class="key"><div class="curly-brace"><div class="left brace"></div><div class="right brace"></div></div>'+(key!="" ? '<ul class="key">'+key+'</ul>':'')+'</div></div>');

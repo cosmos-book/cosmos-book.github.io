@@ -11,7 +11,7 @@
 	#holder { position: relative; }
 	.planet { width: 11.1%; display: inline-block; vertical-align: top; }
 	.planet .planet_inner { display: block; position: relative; min-height: 600px; overflow: hidden; }
-	.planet .header { font-size: 0.8em; width: 60%; left: 40%; height: 1.5em; margin-top: 0; display: block; text-align: center; position: relative; }
+	.planet .header { font-size: 0.8em; width: 60%; left: 40%; height: 1.5em; margin-top: 0; margin-bottom: 0.5em; display: block; text-align: center; position: relative; }
 	.planet .temp, .planet .pres, .planet .labl, .planet .atmo { height: 100%; }
 	.planet .temp { left: 40%; width: 15%; position: absolute; z-index:0; }
 	.planet .pres { left: 55%; width: 45%; position: absolute; z-index:0; }
@@ -19,7 +19,9 @@
 	.planet .atmo { left: 55%; width: 45%; position: absolute; z-index:0; }
 	.planet .atmo .layer { width: 100%; position:absolute; }
 	.planet .atmo .layer, .key .keycircle { opacity:0.5; }
-	.planet .label { width: 100%; position: absolute; margin-top: -0.4em; }
+	.planet .label { width: 100%; position: absolute; margin-top: -0.5em; }
+	.planet .pressurelabel { left: 55%; width: 45%; display: inline-block; font-size: 0.6em; z-index: 100; text-align: center; }
+	.planet .pressurelabel .number { background-color: black; color: white; border-radius: 1em; margin-top:-0.5em; margin-right: 0.2em; position: relative; padding: 0 0.4em; display: inline-block; text-align: center; white-space: nowrap; }
 	.planet .label .name { display:inline-block; font-size:0.6em; position: absolute; overflow:hidden; text-overflow: '-'; height: 1.5em; width: 26%; left: 10%; text-align: right; }
 	.planet .label .dottedline { display:inline-block; border-top: 2px dotted black; position: absolute;margin-top:0.4em; right: 0px; width: 62%; }
 
