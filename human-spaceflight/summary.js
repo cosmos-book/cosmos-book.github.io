@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+	// Attach 
+	$('.js-only').removeClass('js-only');
+			
+
 	var astronauts = new Array();
 	var xaxis;
 	var yaxis;
@@ -133,7 +137,6 @@ $(document).ready(function(){
 		
 		// We can hide the loader/spinner as everything seems to be OK
 		$('.loader').hide();
-		$('.js-only').show();
 
 		return;
 
@@ -171,6 +174,7 @@ $(document).ready(function(){
 		$('.stats').append('<div class="human"></div>');
 		var w = $('.stats .human').outerWidth();
 		$('.stats .human').remove();
+		
 		for(var i = 0; i < categories.length; i++){
 			if(totals[categories[i]] < mn) mn = totals[categories[i]];
 		}
@@ -186,6 +190,7 @@ $(document).ready(function(){
 		}
 		output += '</table>';//<p style="font-size: 0.8em;"><sup>*</sup>Humans who have reached altitudes of <a href="http://www.fai.org/icare-records/100km-altitude-boundary-for-astronautics">at least 100 km</a>.</p></div>';
 		$('h2.all').after(output);
+		$('table.total_category').after($('#footnote').detach())
 		
 		// By gender
 		var total = { 'Male': 0, 'Female':0, 'Other':0 }

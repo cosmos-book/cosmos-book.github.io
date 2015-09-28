@@ -252,7 +252,7 @@ $(document).ready(function(){
 		}
 		$("#planets").html(planets);
 		$('.noscript').hide();
-		$('.js-only').show();
+		$('.js-only').removeClass('js-only');
 	
 	}
 

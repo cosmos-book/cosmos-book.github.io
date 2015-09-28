@@ -129,7 +129,7 @@ r(function(){
 			}
 		});
 		$('.loader').remove();
-
+		$('.js-only').removeClass('js-only');
 
 	}
 

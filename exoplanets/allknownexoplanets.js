@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 	var w = $('#holder').width()-1;
 	var h = w*0.6;
@@ -6,6 +5,8 @@ $(document).ready(function(){
 	var loaded = 0;
 	var exo;
 	var solar;
+
+	$('.noscript').remove();
 
 	function parsePlanets(data,attrs){
 
@@ -319,7 +320,6 @@ $(document).ready(function(){
 			}
 		});
 				
-
 	}
 
 	// Load the data

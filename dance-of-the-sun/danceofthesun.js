@@ -110,7 +110,7 @@ r(function(){
 	
 		$('.loader').remove();
 		$('.noscript').remove();
-		$('.js-only').show();
+		$('.js-only').removeClass('js-only');
 	}
 	
 	function getDateFromJD(jd){

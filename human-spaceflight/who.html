@@ -62,10 +62,12 @@
 	.timeline span:before { content:'/';margin-left: 0em; margin-right: 0.25em; }
 	.timeline span:first-child:before { content:'';margin-left: 0em; margin-right: 0em; }
 
-	ul.timeline, ol.timeline { list-style: none; width: 100%; margin: 0px; padding: 0px; height: 100%; cursor: pointer; }
+	ul.timeline, ol.timeline { list-style: none; width: 100%; margin: 0px; padding: 0px; height: 100%; }
 	ul.timeline li, ol.timeline li { margin: 0px; display: inline-block; padding: 0em; margin: 0; margin-bottom: 0.25em; margin-right: 2%; width: 32%; float:left; min-height: 4.5em; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; }
 	ul.timeline li:nth-child(3n), ol.timeline li:nth-child(3n) { margin-right: 0; }
-	ul.timeline li .padder, ol.timeline li .padder { padding-left: 2em; }
+	ul.timeline li .padder, ol.timeline li .padder { padding-left: 2em; width: 100%; }
+	ul.timeline li a, ol.timeline li a { color: inherit; text-decoration: none; margin: auto; }
+	ul.timeline li a:visited, ol.timeline li a:visited { color: inherit; }
 	.name { margin: auto; }
 	@media only screen and (max-width: 700px){
 		#calendar {
@@ -109,6 +111,7 @@
 					<div class="padder">
 						<div class="fixedheader">
 							<h1>Who's in space?</h1>
+							<p class="noscript">At the last update of our data files these are the people who were in space<a href="#footnote">*</a>. You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/" id="datadir">data for each individual astronaut on Github</a>. If you spot any mistakes, do please <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">let us know</a> or, even better, fix it for yourself in the repository and submit <a href="https://github.com/cosmos-book/cosmos-book.github.io/pulls">a pull request</a>.</p>
 							<ul class="key">
 								<li class="keyitem"><span class="human cosmonaut"></span> Russian<span class="wide"> cosmonauts</span></li>
 								<li class="keyitem"><span class="human astronaut"></span> US<span class="wide"> astronauts</span></li>
@@ -119,18 +122,18 @@
 							<div id="inspace">
 								<!-- Start Timeline -->
 								<ol class="timeline">
-									<li class="human cosmonaut"><div class="padder"><time datetime="2015-09-02T04:37:42Z">2015-09-02</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">VOLKOV, Sergei Aleksandrovich</span></div></li>
-									<li class="human international"><div class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">YUI, Kimiya</span></div></li>
-									<li class="human astronaut"><div class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">LINDGREN, Kjell N.</span></div></li>
-									<li class="human cosmonaut"><div class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KONONENKO, Oleg Dmitriyevich</span></div></li>
-									<li class="human cosmonaut"><div class="padder"><time datetime="2015-03-27T19:42:57Z">2015-03-27</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KORNIYENKO, Mikhail Borisovich</span></div></li>
-									<li class="human astronaut"><div class="padder"><time datetime="2015-03-27T19:42:57Z">2015-03-27</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KELLY, Scott J.</span></div></li>
+									<li class="human international"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/YUI_K.md" class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">YUI, Kimiya</span></a></li>
+									<li class="human cosmonaut"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/VOLKOV_SA.md" class="padder"><time datetime="2015-09-02T04:37:42Z">2015-09-02</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">VOLKOV, Sergei Aleksandrovich</span></a></li>
+									<li class="human astronaut"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/LINDGREN_KN.md" class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">LINDGREN, Kjell N.</span></a></li>
+									<li class="human cosmonaut"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KORNIYENKO_MB.md" class="padder"><time datetime="2015-03-27T19:42:57Z">2015-03-27</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KORNIYENKO, Mikhail Borisovich</span></a></li>
+									<li class="human cosmonaut"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KONONENKO_OD.md" class="padder"><time datetime="2015-07-22T21:02:44Z">2015-07-22</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KONONENKO, Oleg Dmitriyevich</span></a></li>
+									<li class="human astronaut"><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KELLY_SJ.md" class="padder"><time datetime="2015-03-27T19:42:57Z">2015-03-27</time><span class="divider">-</span><time datetime=""></time><span class="divider">/</span><span class="name">KELLY, Scott J.</span></a></li>
 								</ol>
 								<!-- End Timeline -->
 							</div>
 						</div>
 						<p id="scrollmsg"></p>
-						<div class="loader"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+						<div class="loader js-only"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
 						<div id="calendar"></div>
 						<div id="timelinedummy"></div>
 					</div>
@@ -139,7 +142,7 @@
 		</div>
 		<footer id="footer">
 			<div class="padder">
-				Only includes humans who have reached altitudes of at least 100 km. Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="data">data</a> compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+				<a name="footnote"></a>Only includes humans who have reached altitudes of at least 100 km. Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="data">data</a> compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
 			</div>
 		</footer>
 	</div>

@@ -147,7 +147,7 @@ $(document).ready(function(){
 		
 		$('.loader').remove();
 		$('.noscript').remove();
-		$('.js-only').show();
+		$('.js-only').removeClass('js-only');
 	}
 	function asteroidSize(s){
 		s = (0.17*rad)*(s/600);

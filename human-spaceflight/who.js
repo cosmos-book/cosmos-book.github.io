@@ -5,6 +5,7 @@ $(document).ready(function(){
 	var end = new Date();
 	var trips = new Array();
 	var pxperyear = 1095;
+	var dir = $('#datadir').attr('href');	// Get astronaut base directory from document
 	var h = Math.round(pxperyear*(end-start)/(86400000*365.25));
 	// We create a variable used if we've set the scroll position
 	var scrollTop = 0;
@@ -87,7 +88,7 @@ $(document).ready(function(){
 		html = '<ul class="timeline">';
 		for(var i = 0; i < trips.length; i++){
 			if((trips[i].launchday < d && trips[i].landday > d) || (trips[i].launchday < d && !trips[i].landday)){
-				html += '<li class="human '+trips[i].category+''+(trips[i].land && trips[i].land < d ? " landed" : "")+'" id="'+i+'"><div class="padder"><span class="name">'+trips[i].name+'</span><span class="daysinspace">'+Math.max(0,Math.floor((d.getTime()-trips[i].launch.getTime())/86400000))+' days</span></div><\/li>';
+				html += '<li class="human '+trips[i].category+''+(trips[i].land && trips[i].land < d ? " landed" : "")+'" id="'+i+'"><a href="'+dir+trips[i].file+'" class="padder"><span class="name">'+trips[i].name+'</span><span class="daysinspace">'+Math.max(0,Math.floor((d.getTime()-trips[i].launch.getTime())/86400000))+' days</span></a><\/li>';
 			}
 		}
 		html += '<\/ul>';
@@ -109,7 +110,7 @@ $(document).ready(function(){
 				var end = (a.land ? '<time datetime="'+a.land.toISOString()+'" title="'+a.land.toISOString()+'">'+a.land.toISOString().substr(0,10)+'</time>' : '');
 				text += '<tr><td>This trip:<\/td><td>'+start+(a.land ? ' &rarr; ' : '')+(end!=start ? end : '')+'<br />('+formatArray(a.missionnames)+')<\/td><\/tr>';
 				text += '<\/table>';
-				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
+				text += '<a href="'+dir+a.file+'" class="repo">data file<\/a>';
 				return text;
 			}
 		});

@@ -544,7 +544,7 @@ body .button:active {
 #controls .range { margin-left: 3.5em; margin-right: 3.5em; }
 #controls .rangelabel + .range { margin-left: 10em; }
 
-.js-only { display: none; }
+.js-only { display: none!important; }
 
 @media only screen and (max-width: 900px){
 	p.columns { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }

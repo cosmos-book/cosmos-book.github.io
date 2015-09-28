@@ -188,7 +188,7 @@ foreach $file (sort(@files)){
 				}
 				#push(@li,'<li><span class="d"><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$land.'">'.$landstr.'</time></span>/<span class="name">'.$name.'</span>/'.$countrystr.'/<time datetime="'.$dob.'" class="dob">'.$dob.'</time><span class="human '.$category.'"></span></li>');
 				# We temporarily put the category at the end for the purposes of sorting
-				push(@li,'<li><div class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></div></li>');
+				push(@li,'<li><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'.$file.'" class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></a></li>');
 
 				$durn = duration($launch,$land);
 				if($durn > $longesttrip){ $longesttrip = $durn; }

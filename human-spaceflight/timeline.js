@@ -149,7 +149,7 @@ $(document).ready(function(){
 		
 		// We can hide the loader/spinner as everything seems to be OK
 		$('.loader').hide();
-		$('.js-only').show();
+		$('.js-only').removeClass('js-only');
 	}
 
 	// Load the data file
