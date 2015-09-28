@@ -12,10 +12,6 @@ r(function(){
 	var h = 600;
 	var mid = {'x': w/2,'y':h/2};
 	
-	// Build our Raphael canvas
-	var paper = Raphael("holder", w, h);
-	$('#holder svg').attr('id','canvas');
-	var svg = paper.set();
 	var loaded = 0;
 	var atmos = {};
 
@@ -128,6 +124,8 @@ r(function(){
 		for(var i = 0; i < planets.length; i++){
 
 			p = planets[i];
+			var planet = '';
+			var keyitems = {};
 
 			if(atmos[p]){
 
@@ -179,10 +177,12 @@ r(function(){
 					grad_t = buildCSSGradient(stops_t);
 
 					// Add the HTML element to the DOM
-					$('#holder').append('<div style="'+grad_p+';width: '+(dx*0.75)+'px;height:'+dh+'px;position: absolute; left:'+(x+dx*0.25)+'px;top:'+padd.top+'px;z-index:0;"></div>')
-					$('#holder').append('<div style="'+grad_t+';width: '+(dx*0.25)+'px;height:'+dh+'px;position: absolute; left:'+x+'px;top:'+padd.top+'px;z-index:0;"></div>')
+					planet += '<div class="temp" style="'+grad_t+';"></div>';
+					planet += '<div class="pres" style="'+grad_p+';"></div>';
 				}
 
+				var layers = '';
+				var labels = '';
 				// Loop over the constituents
 				for(var d = 0; d < atmos[p].data.length; d++){
 
@@ -194,25 +194,36 @@ r(function(){
 					}
 
 					// Find the vertical position of the top and bottom of this layer
-					y = padd.top + dh - (atmos[p].data[d].upper-range.y[0])*dy;
-					y2 = ((atmos[p].data[d].upper-atmos[p].data[d].lower)*dy);
+					y = (100-100*(atmos[p].data[d].upper-range.y[0])/(range.y[1]-range.y[0]));
+					y2 = (100*(atmos[p].data[d].upper-atmos[p].data[d].lower)/(range.y[1]-range.y[0]))
 
 					// Have a minimum size so we can see it
-					if(y2==0) y2 = 2;
+					if(y2==0) y2 = 2+'px';
+					else y2 = y2+'%';
 
 					px = dx*0.05;
 					c = getColour(atmos[p].data[d].name);
 
-					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0) paper.rect(x+dx*0.25,y,dx*0.75,y2).attr({'fill':c,'stroke':0,'opacity':0.5,'title':atmos[p].data[d].name})
+					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0){
+						layers += '<div class="layer" style="background-color:'+c+';top:'+y+'%;height:'+y2+';" title="'+atmos[p].data[d].name+'"></div>';
+						keyitems[atmos[p].data[d].name] = c;
+					}
 
 					if(atmos[p].data[d].feature.indexOf('Boundary') == 0){
-						paper.path('M'+(x-px)+','+(Math.round(y)+0.5)+'l'+(dx+2*px)+',0').attr({'stroke':'black','stroke-width':0.5,'stroke-dasharray':'- '})
-						paper.text(x-px,y,atmos[p].data[d].name).attr({'text-anchor':'end','fill':'black','stroke':0})
+						labels += '<div class="label" style="top:'+y+'%;"><div class="name" title="'+atmos[p].data[d].name+'">'+atmos[p].data[d].name+'</div><div class="dottedline"></div></div>';
 					}
 				}
-				// Write the name of the planet
-				paper.text(x+dx*0.5,8,p).attr({'text-anchor':'middle','fill':'black','stroke':0,'font-size':12})
+
+				planet += '<div class="atmo">'+layers+'</div>';
+				planet += '<div class="labl">'+labels+'</div>';
 			}
+			var key = '';
+			var n;
+			for(ki in keyitems){
+				n = ki.replace("CO2","CO<sub>2</sub>");
+				key = '<li class="keyitem"><span class="keycircle" style="background-color:'+keyitems[ki]+';"></span><span class="keylabel">'+n+'</span></li>'+key;
+			}
+			$('#holder').append('<div class="planet"><h2 class="header">'+p+'</h2><div class="planet_inner">'+planet+'</div><div class="key"><div class="curly-brace"><div class="left brace"></div><div class="right brace"></div></div>'+(key!="" ? '<ul class="key">'+key+'</ul>':'')+'</div></div>');
 			j++;
 		}
 

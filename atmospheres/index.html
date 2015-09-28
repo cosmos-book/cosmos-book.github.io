@@ -4,13 +4,49 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<title>Planetary atmospheres</title>
 	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="../resources/raphael-min.js"></script>
 	<script type="text/javascript" src="../resources/infographics.js"></script>
 	<script type="text/javascript" src="atmospheres.js"></script>
 	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
 	<style>
 	#holder { position: relative; }
-	#holder svg { z-index: 1; }
+	.planet { width: 11.1%; display: inline-block; vertical-align: top; }
+	.planet .planet_inner { display: block; position: relative; min-height: 600px; overflow: hidden; }
+	.planet .header { font-size: 0.8em; width: 60%; left: 40%; height: 1.5em; margin-top: 0; display: block; text-align: center; position: relative; }
+	.planet .temp, .planet .pres, .planet .labl, .planet .atmo { height: 100%; }
+	.planet .temp { left: 40%; width: 15%; position: absolute; z-index:0; }
+	.planet .pres { left: 55%; width: 45%; position: absolute; z-index:0; }
+	.planet .labl { left: 0%; width: 100%; position: absolute; z-index:0; }
+	.planet .atmo { left: 55%; width: 45%; position: absolute; z-index:0; }
+	.planet .atmo .layer { width: 100%; position:absolute; }
+	.planet .atmo .layer, .key .keycircle { opacity:0.5; }
+	.planet .label { width: 100%; position: absolute; margin-top: -0.4em; }
+	.planet .label .name { display:inline-block; font-size:0.6em; position: absolute; overflow:hidden; text-overflow: '-'; height: 1.5em; width: 26%; left: 10%; text-align: right; }
+	.planet .label .dottedline { display:inline-block; border-top: 2px dotted black; position: absolute;margin-top:0.4em; right: 0px; width: 62%; }
+
+	.planet .key { width: 100%; position: relative; font-size: 0.8em; }
+	.planet .key li { margin-right: 0px; margin-left: 40%; display: block; }
+	.planet .key .keycircle { float: left; margin-left: -1.5em; margin-top: 0.2em; }
+	.planet .key .keylabel { margin-left: 0em; display: block; }
+	
+	sub { font-size: 0.8em; position: relative; bottom: -0.2em;}
+
+	.curly-brace { width: 60%; position: relative; height: 1.2em; margin-left: 40%; margin-top: 0.2em; }
+	.brace { border-bottom: 0.2em solid; margin: 0 10%; width: 30%; height: 0.4em; float: left; }
+	.brace:before, .brace:after { content: ""; width: 10%; height: 1em; position: absolute; display: block; }
+	.curly-brace .left:before { border-bottom: 0.2em solid;   border-bottom-left-radius: 1em; margin-left: -10%; margin-top: -0.6em; }
+	.curly-brace .left:after { border-top: 0.2em solid; border-top-right-radius: 1em; margin-left: 30%; margin-top: 0.4em; }
+	.curly-brace .right:before { border-top: 0.2em solid; border-top-left-radius: 1em; margin-left: -10%; margin-top: 0.4em; }
+	.curly-brace .right:after { border-bottom: 0.2em solid; border-bottom-right-radius: 1em; margin-left: 30%; margin-top: -0.6em; }
+
+	@media only screen and (max-width: 1200px){
+		.planet { width: 20%; display: inline-block; }
+	}
+	@media only screen and (max-width: 1020px){
+		.planet { width: 33%; display: inline-block; }
+	}
+	@media only screen and (max-width: 620px){
+		.planet { width: 50%; display: inline-block; }
+	}
 	</style>
 </head>
 <body class="SOL">
