@@ -11,9 +11,9 @@
 	#holder { position: relative; }
 	.planet { width: 11.1%; display: inline-block; vertical-align: top; margin-top: 1em; }
 	.planet .planet_inner { display: block; position: relative; }
-	.planet .header { font-size: 0.8em; width: 60%; left: 40%; height: 1.5em; margin-top: 0; margin-bottom: 0.5em; display: block; text-align: center; position: relative; }
+	.planet .header { font-size: 0.8em; height: 1.5em; margin-top: 0; margin-bottom: 0.5em; display: block; text-align: center; position: relative; }
 	.planet .atmosphere, .planet .clickable, .planet .temp, .planet .pres, .planet .labl, .planet .atmo { height: 100%; }
-	.planet .atmosphere, .planet .clickable { position: absolute; left: 40%; width: 60%; z-index: 0; }
+	.planet .atmosphere, .planet .clickable { position: absolute; z-index: 0; }
 	.planet .clickable { cursor: pointer; }
 	.planet .temp { left: 0%; width: 20%; position: absolute; z-index:0; }
 	.planet .pres { left: 20%; width: 80%; position: absolute; z-index:0; }
@@ -26,6 +26,7 @@
 	.planet .pressurelabel .number { background-color: black; color: white; border-radius: 1em; margin-top:-0.5em; margin-right: 0.2em; position: relative; padding: 0 0.4em; display: inline-block; text-align: center; white-space: nowrap; }
 	.planet .label .name { display:inline-block; font-size:0.6em; position: absolute; overflow:hidden; text-overflow: '-'; height: 1.5em; width: 26%; left: 10%; text-align: right; }
 	.planet .label .dottedline { display:inline-block; border-top: 2px dotted black; position: absolute;margin-top:0.4em; right: 0px; width: 62%; }
+	.planet .atmosphere, .planet .clickable, .planet .header, .curly-brace, .planet .key li { left: 45%; width: 55%; }
 
 	.planet .indicator {
 		font-size: 0.6em;
@@ -45,7 +46,7 @@
 		position: absolute;
 		right: 0;
 		top: 0;
-		width: 60%;
+		width: 55%;
 		cursor: ns-resize;
 	}
 	.planet .indicator .handle:before {
@@ -65,7 +66,7 @@
 		background-color: black;
 		color: white;
 		display: inline-block;
-		width: 35%;
+		width: 40%;
 		top: -2.2em;
 		z-index: 100;
 		min-height: 2em;
@@ -76,13 +77,13 @@
 	.planet .indicator.limited .handle:before { border-left-color: #808080; }
 
 	.planet .key { width: 100%; position: relative; font-size: 0.8em; }
-	.planet .key li { margin-right: 0px; margin-left: 40%; display: block; }
+	.planet .key li { margin-right: 0px; position: relative; display: block; }
 	.planet .key .keycircle { float: left; margin-left: -1.5em; margin-top: 0.2em; }
 	.planet .key .keylabel { margin-left: 0em; display: block; }
 	
 	sub { font-size: 0.8em; position: relative; bottom: -0.2em;}
 
-	.curly-brace { width: 60%; position: relative; height: 1.2em; margin-left: 40%; margin-top: 0.2em; }
+	.curly-brace { position: relative; height: 1.2em; margin-top: 0.2em; }
 	.brace { border-bottom: 0.2em solid; margin: 0 10%; width: 30%; height: 0.4em; float: left; }
 	.brace:before, .brace:after { content: ""; width: 10%; height: 1em; position: absolute; display: block; }
 	.curly-brace .left:before { border-bottom: 0.2em solid;   border-bottom-left-radius: 1em; margin-left: -10%; margin-top: -0.6em; }

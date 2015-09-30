@@ -363,6 +363,11 @@ r(function(){
 			limited = true;
 		}
 
+		// Now we have the altitude we position the indicator
+		setHeight(p,altitude,limited);
+	}
+	function setHeight(p,altitude,limited){
+
 		// If we have a surface we limit the altitude
 		if(atmos[p].hassurface && altitude < 0){
 			altitude = 0;
@@ -379,10 +384,7 @@ r(function(){
 			limited = true;
 		}
 
-		// Now we have the altitude we position the indicator
-		setHeight(p,altitude,limited);
-	}
-	function setHeight(p,altitude,limited){
+
 		var el = $('.planet[data-name='+p+']');
 		var i = el.find('.indicator');
 		i.css({'top':100*(range.y[1]-altitude)/(range.y[1]-range.y[0])+'%'});
