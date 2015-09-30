@@ -5,6 +5,7 @@ $(document).ready(function(){
 			
 
 	var astronauts = new Array();
+	var dir = $('#datadir').attr('href');
 	var xaxis;
 	var yaxis;
 	var categories = ['astronaut','cosmonaut','international','taikonaut','commercial'];
@@ -130,7 +131,7 @@ $(document).ready(function(){
 				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter.substr(1)+'">'+a.twitter+'</a><\/td><\/tr>';
 				if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
 				text += '<\/table>';
-				text += '<a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'+a.file+'" class="repo">data file<\/a>';
+				text += '<a href="'+dir+a.file+'" class="repo">data file<\/a>';
 				return text;
 			}
 		});
@@ -183,7 +184,7 @@ $(document).ready(function(){
 			if(totals[categories[c]]){
 				output += '<tr><td class="number">'+totals[categories[c]]+'</td><td>';// style="width:'+(100/categories.length)+'%;">'//<div class="humans" style="width:'+s+'px;height:'+s+'px;">';
 				for(var i = 0; i < astronauts.length; i++){
-					if(astronauts[i].category.indexOf(categories[c])==0) output += '<a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>'
+					if(astronauts[i].category.indexOf(categories[c])==0) output += '<a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>'
 				}
 				output += '</td></tr>'
 			}
