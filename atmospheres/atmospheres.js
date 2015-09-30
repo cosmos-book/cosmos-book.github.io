@@ -170,8 +170,7 @@ r(function(){
 	}
 	function formatAltitude(v){
 		var unit = 'km';
-		v = v.toFixed(1);
-		v = v.replace(".0","");
+		v = Math.round(v);
 		return '<span class="number">'+(v)+'</span>'+unit;
 	}
 	// Draw the result
@@ -300,11 +299,10 @@ r(function(){
 				}
 
 				planet += '<div class="atmo">'+layers+'</div>';
-				planet += '</div>';
+				planet += '</div>';	// Close the container of the atmosphere
 				planet += '<div class="labl">'+labels+'</div>';
 				planet += '<div class="indicator"><div class="values"><div class="values_inner"></div></div><div class="handle"></div></div>';
-				planet += '<div class="clickable">';
-				planet += '</div>';
+				planet += '<div class="clickable"></div>';	// Add the clickable (empty) layer on top
 			}
 			var key = '';
 			var n;
@@ -315,8 +313,8 @@ r(function(){
 			$('#holder').append('<div class="planet" data-name="'+p+'"><h2 class="header">'+p+'</h2><div class="planet_inner">'+planet+'</div><div class="key"><div class="curly-brace"><div class="left brace"></div><div class="right brace"></div></div>'+(key!="" ? '<ul class="key">'+key+'</ul>':'')+'</div></div>');
 			j++;
 
+			// Set the label position to an altitude of 0km
 			setHeight(p,0);
-			//setPressure(p,1);
 		}
 
 		$('.loader').remove();
@@ -324,6 +322,8 @@ r(function(){
 		
 	}
 
+	// For the specified planet, p, and an altitude we return formatted
+	// strings for altitude (h), pressure (P) and temperature (T)
 	function getValues(p,altitude){
 		var k = 0;
 		for(k=0; k < atmos[p].profile.length; k++){
@@ -347,6 +347,7 @@ r(function(){
 		return {'h':formatAltitude(altitude),'P':formatPressure(atmos[p].profile[k].P + dP),'T':formatTemperature(atmos[p].profile[k].T + dT)};
 	}
 	
+	// Set the label position for planet, p, by the pressure (mbar)
 	function setPressure(p,pressure){
 		var altitude = 0;
 		var limited = false;
@@ -366,6 +367,9 @@ r(function(){
 		// Now we have the altitude we position the indicator
 		setHeight(p,altitude,limited);
 	}
+
+	// Set the label position for planet, p, by the altitude
+	// Also pass in a flag to say if we are limiting the altitude
 	function setHeight(p,altitude,limited){
 
 		// If we have a surface we limit the altitude
@@ -374,22 +378,25 @@ r(function(){
 			limited = true;
 		}
 
-		// Don't drop off the bottom or the top
+		// Don't drop off the bottom of our displayed range
 		if(altitude < range.y[0]){
 			altitude = range.y[0];
 			limited = true;
 		}
+		// Don't drop off the top of our range
 		if(altitude > range.y[1]){
 			altitude = range.y[1];
 			limited = true;
 		}
 
-
 		var el = $('.planet[data-name='+p+']');
 		var i = el.find('.indicator');
 		i.css({'top':100*(range.y[1]-altitude)/(range.y[1]-range.y[0])+'%'});
+
+		// If we've limited the altitude we add a CSS class
 		if(limited) i.addClass('limited');
 		else i.removeClass('limited');
+
 		var v = getValues(p,altitude);
 		el.find('.values_inner').html(v.h+'<br />'+v.P+'<br />'+v.T);
 	}
