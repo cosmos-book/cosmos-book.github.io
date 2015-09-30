@@ -1,11 +1,46 @@
 r(function(){
 
 	// Configure
-	var range = {'y':[-320,320] };
+	var range = {'y':[-320,320], 'px':800 };
 	var padd = {'left':0,'right':0,'top':20,'bottom':0};
 	var el = $('#holder');
 	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
 	var pstops = [0.001,1,1000,10000,100000];
+	
+	// Add style
+	var ypx = Math.round(100*range.px/(range.y[1]-range.y[0]));
+	var offs = ypx*(range.y[1]%100)/100;
+	$('<style type="text/css">.planet .planet_inner { min-height: '+range.px+'px; } .planet_inner { background-image: linear-gradient(white .1em, transparent .1em); background-position: 0 '+offs+'px; background-size: 100% '+ypx+'px; box-sizing: border-box; }</style>').appendTo("head");
+
+	$('#holder').before('<div class="form"><label>Set all altitudes:</label><button class="button" data-type="altitude" data-value="0">0 km</button><label>Set all pressures:</label><button class="button" data-value="0.001" data-type="pressure">1 &micro;bar</button><button class="button" data-value="1" data-type="pressure">1 mbar</button><button class="button" data-value="10" data-type="pressure">10 mbar</button><button class="button" data-value="100" data-type="pressure">100 mbar</button><button class="button" data-value="1000" data-type="pressure">1 bar</button><button class="button" data-value="10000" data-type="pressure">10 bar</button><button class="button" data-value="100000" data-type="pressure">100 bar</button></div>');
+
+	// Add events for control buttons - set the height or pressure for all planets
+	$(document).on('click','button.button',function(){
+		// Which property are we using?
+		var t = $(this).attr('data-type');
+		// What is the value?
+		var v = parseFloat($(this).attr('data-value'));
+		if(!v) v = 0;
+		for(var i = 0; i < planets.length; i++){
+			if(t == "altitude") setHeight(planets[i],v);
+			else if(t=="pressure") setPressure(planets[i],v);
+		}
+	});
+	
+	var dragging = false;
+	$(document).on('click','.clickable,.handle',function(e){
+		dragging = true;
+		setFromY($(this).closest('.planet').attr('data-name'),e.pageY-$(this).closest('.planet_inner').offset().top-1);
+		dragging = false;
+	}).on('mousedown','.clickable,.handle',function(e){
+		dragging = true;
+		return false;	// Don't allow text selection when starting to drag on the handle
+	}).on('mouseup','.clickable,.handle',function(e){
+		dragging = false;
+	}).on('mousemove','.clickable,.handle',function(e){
+		if(dragging) setFromY($(this).closest('.planet').attr('data-name'),e.pageY-$(this).closest('.planet_inner').offset().top-1);
+	})
+	function setFromY(p,y){ setHeight(p,range.y[0] + (range.y[1]-range.y[0])*(1 - y/range.px)); }
 
 	// Calculate values
 	var w = el.width()-1;
@@ -37,6 +72,7 @@ r(function(){
 			]);
 		}
 		loaded++;
+
 		// If we've loaded all the files we can draw everything
 		if(loaded==planets.length*2) drawIt();
 	}
@@ -109,16 +145,34 @@ r(function(){
 		return 'rgba(255,255,255,'+op.toFixed(2)+')'
 	}
 	
-	function formatPressure(p){
+	function formatPressure(v){
 		var unit = 'mbar';
-		if(p >= 1000){
-			p /= 1000;
+		if(v >= 990){
+			v /= 1000;
 			unit = 'bar';
-		}else if(p < 0.1){
-			p *= 1000;
+		}else if(v < 0.1){
+			v *= 1000;
 			unit = '&micro;bar';
+			if(v < 0.1){
+				v *= 1000;
+				unit = 'nbar';
+			}
 		}
-		return '<span class="number">'+(p)+'</span>'+unit;
+		v = v.toFixed(1);
+		v = v.replace(".0","");
+		return '<span class="number">'+(v)+'</span>'+unit;
+	}
+	function formatTemperature(v){
+		var unit = 'K';
+		v = v.toFixed(1);
+		v = v.replace(".0","");
+		return '<span class="number">'+(v)+'</span>'+unit;
+	}
+	function formatAltitude(v){
+		var unit = 'km';
+		v = v.toFixed(1);
+		v = v.replace(".0","");
+		return '<span class="number">'+(v)+'</span>'+unit;
 	}
 	// Draw the result
 	function drawIt(){
@@ -148,6 +202,9 @@ r(function(){
 				for(var d = 0; d < atmos[p].data.length; d++){
 					if(atmos[p].data[d].lower < 0) hassurface = false;
 				}
+				atmos[p].hassurface = hassurface;
+
+				planet += '<div class="atmosphere">';
 
 				// Have we loaded an atmospheric profile?
 				if(atmos[p].profile){
@@ -178,18 +235,23 @@ r(function(){
 						}
 					}
 
-					for(var pr = 0; pr < pstops.length; pr++){
+					/*for(var pr = 0; pr < pstops.length; pr++){
 					
 						var near = new Array(atmos[p].profile.length);
 						for(var k=0; k < atmos[p].profile.length; k++) near[k] = Math.abs(atmos[p].profile[k].P - pstops[pr]);
-						function indexMin(a){ return a.indexOf(Math.min.apply(Math, a)); }
-						var pi = indexMin(near);
-						if(pi && pi >=0){
+						function indexMin(a,tol){
+							var mn = Math.min.apply(Math, a);
+							if(!tol) tol = mn;
+							return (mn <= tol) ? a.indexOf(mn) : -1;
+						}
+						var pi = indexMin(near,pstops[pr]*0.1);	// Find the index of the closest value within 10%.
+						if(pi >= 0){
 							// Get the percent up the atmospheric range
 							y = 100*((range.y[1]-atmos[p].profile[indexMin(near)].h)/(range.y[1]-range.y[0]));
 							pres += '<div class="pressurelabel label" style="top:'+y+'%;">'+formatPressure(pstops[pr])+'</div>';
 						}
 					}
+					*/
 
 
 					// Add end stops
@@ -219,7 +281,7 @@ r(function(){
 
 					// Find the vertical position of the top and bottom of this layer
 					y = (100-100*(atmos[p].data[d].upper-range.y[0])/(range.y[1]-range.y[0]));
-					y2 = (100*(atmos[p].data[d].upper-atmos[p].data[d].lower)/(range.y[1]-range.y[0]))
+					y2 = (100*(atmos[p].data[d].upper-atmos[p].data[d].lower)/(range.y[1]-range.y[0]));
 
 					// Have a minimum size so we can see it
 					if(y2==0) y2 = 2+'px';
@@ -227,18 +289,22 @@ r(function(){
 
 					c = getColour(atmos[p].data[d].name);
 
-					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0){
+					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0 && atmos[p].data[d].lower < range.y[1] && atmos[p].data[d].upper > range.y[0]){
 						layers += '<div class="layer" style="background-color:'+c+';top:'+y+'%;height:'+y2+';" title="'+atmos[p].data[d].name+'"></div>';
 						keyitems[atmos[p].data[d].name] = c;
 					}
 
-					if(atmos[p].data[d].feature.indexOf('Boundary') == 0){
-						labels += '<div class="label" style="top:'+y+'%;"><div class="name" title="'+atmos[p].data[d].name+'">'+atmos[p].data[d].name+'</div><div class="dottedline"></div></div>';
+					if(atmos[p].data[d].feature.indexOf('Boundary') == 0 && atmos[p].data[d].name != "Surface" && atmos[p].data[d].lower < range.y[1] && atmos[p].data[d].upper > range.y[0]){
+						labels += '<div class="label" style="top:'+y+'%;"><div class="name" title="'+atmos[p].data[d].name+'">'+atmos[p].data[d].name+'</div><div class="dottedline '+atmos[p].data[d].name+'"></div></div>';
 					}
 				}
 
 				planet += '<div class="atmo">'+layers+'</div>';
+				planet += '</div>';
 				planet += '<div class="labl">'+labels+'</div>';
+				planet += '<div class="indicator"><div class="values"><div class="values_inner"></div></div><div class="handle"></div></div>';
+				planet += '<div class="clickable">';
+				planet += '</div>';
 			}
 			var key = '';
 			var n;
@@ -246,14 +312,85 @@ r(function(){
 				n = ki.replace("O2","O<sub>2</sub>");
 				key = '<li class="keyitem"><span class="keycircle" style="background-color:'+keyitems[ki]+';"></span><span class="keylabel">'+n+'</span></li>'+key;
 			}
-			$('#holder').append('<div class="planet"><h2 class="header">'+p+'</h2><div class="planet_inner">'+planet+'</div><div class="key"><div class="curly-brace"><div class="left brace"></div><div class="right brace"></div></div>'+(key!="" ? '<ul class="key">'+key+'</ul>':'')+'</div></div>');
+			$('#holder').append('<div class="planet" data-name="'+p+'"><h2 class="header">'+p+'</h2><div class="planet_inner">'+planet+'</div><div class="key"><div class="curly-brace"><div class="left brace"></div><div class="right brace"></div></div>'+(key!="" ? '<ul class="key">'+key+'</ul>':'')+'</div></div>');
 			j++;
+
+			setHeight(p,0);
+			//setPressure(p,1);
 		}
 
 		$('.loader').remove();
 		$('.noscript').remove();
+		
 	}
 
+	function getValues(p,altitude){
+		var k = 0;
+		for(k=0; k < atmos[p].profile.length; k++){
+			if(atmos[p].profile[k].h > altitude){
+				k--;
+				break;
+			}
+			if(atmos[p].profile[k].h == altitude) break;
+		}
+		var delta = 0;
+		var dP = 0;
+		var dT = 0;
+		if(k < atmos[p].profile.length-1 && k >= 0){
+			delta = (altitude-atmos[p].profile[k].h)/(atmos[p].profile[k+1].h-atmos[p].profile[k].h)
+			dP = (atmos[p].profile[k+1].P - atmos[p].profile[k].P)*delta;
+			dT = (atmos[p].profile[k+1].T - atmos[p].profile[k].T)*delta
+		}else{
+			if(k > atmos[p].profile.length-1) k = atmos[p].profile.length - 1;
+			if(k < 0) k = 0;
+		}
+		return {'h':formatAltitude(altitude),'P':formatPressure(atmos[p].profile[k].P + dP),'T':formatTemperature(atmos[p].profile[k].T + dT)};
+	}
+	
+	function setPressure(p,pressure){
+		var altitude = 0;
+		var limited = false;
+		for(var k=1; k < atmos[p].profile.length; k++){
+			if(pressure >= atmos[p].profile[k].P){
+				delta = (pressure - atmos[p].profile[k-1].P)/(atmos[p].profile[k].P - atmos[p].profile[k-1].P);
+				altitude = atmos[p].profile[k-1].h + (atmos[p].profile[k].h - atmos[p].profile[k-1].h)*delta;
+				break;
+			}
+		}
+		// If we can't find such a low pressure we use the maximum height
+		if(k == atmos[p].profile.length){
+			altitude = atmos[p].profile[atmos[p].profile.length-1].h;
+			limited = true;
+		}
+
+		// If we have a surface we limit the altitude
+		if(atmos[p].hassurface && altitude < 0){
+			altitude = 0;
+			limited = true;
+		}
+
+		// Don't drop off the bottom or the top
+		if(altitude < range.y[0]){
+			altitude = range.y[0];
+			limited = true;
+		}
+		if(altitude > range.y[1]){
+			altitude = range.y[1];
+			limited = true;
+		}
+
+		// Now we have the altitude we position the indicator
+		setHeight(p,altitude,limited);
+	}
+	function setHeight(p,altitude,limited){
+		var el = $('.planet[data-name='+p+']');
+		var i = el.find('.indicator');
+		i.css({'top':100*(range.y[1]-altitude)/(range.y[1]-range.y[0])+'%'});
+		if(limited) i.addClass('limited');
+		else i.removeClass('limited');
+		var v = getValues(p,altitude);
+		el.find('.values_inner').html(v.h+'<br />'+v.P+'<br />'+v.T);
+	}
 
 });
 
