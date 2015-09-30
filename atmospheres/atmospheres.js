@@ -10,7 +10,7 @@ r(function(){
 	// Add style
 	var ypx = Math.round(100*range.px/(range.y[1]-range.y[0]));
 	var offs = ypx*(range.y[1]%100)/100;
-	$('<style type="text/css">.planet .planet_inner { min-height: '+range.px+'px; } .planet_inner { background-image: linear-gradient(white .1em, transparent .1em); background-position: 0 '+offs+'px; background-size: 100% '+ypx+'px; box-sizing: border-box; }</style>').appendTo("head");
+	$('<style type="text/css">.planet .planet_inner { min-height: '+range.px+'px; } .planet_inner { background-image: linear-gradient(white .14em, transparent .14em); background-position: 0 '+offs+'px; background-size: 100% '+ypx+'px; box-sizing: border-box; }</style>').appendTo("head");
 
 	$('#holder').before('<div class="form"><label>Set all altitudes:</label><button class="button" data-type="altitude" data-value="0">0 km</button><label>Set all pressures:</label><button class="button" data-value="0.001" data-type="pressure">1 &micro;bar</button><button class="button" data-value="1" data-type="pressure">1 mbar</button><button class="button" data-value="10" data-type="pressure">10 mbar</button><button class="button" data-value="100" data-type="pressure">100 mbar</button><button class="button" data-value="1000" data-type="pressure">1 bar</button><button class="button" data-value="10000" data-type="pressure">10 bar</button><button class="button" data-value="100000" data-type="pressure">100 bar</button></div>');
 
