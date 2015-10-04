@@ -2,7 +2,6 @@ $(document).ready(function(){
 
 	// Attach 
 	$('.js-only').removeClass('js-only');
-			
 
 	var astronauts = new Array();
 	var dir = $('#datadir').attr('href');
@@ -14,9 +13,8 @@ $(document).ready(function(){
 	// Load the data file
 	loadJSON(getDataPath('#json'),parseIt,{error:function(){ $('.loader').html("Oops. Couldn't find the data."); }});
 
-
 	// Hide any non-Javascript elements
-	$('.noscript').hide();
+	$('.noscript').remove();
 
 	// Sort the astronauts
 	function sortBy(i,reverse){
@@ -189,9 +187,8 @@ $(document).ready(function(){
 				output += '</td></tr>'
 			}
 		}
-		output += '</table>';//<p style="font-size: 0.8em;"><sup>*</sup>Humans who have reached altitudes of <a href="http://www.fai.org/icare-records/100km-altitude-boundary-for-astronautics">at least 100 km</a>.</p></div>';
-		$('h2.all').after(output);
-		$('table.total_category').after($('#footnote').detach())
+		output += '</table>';
+		$('table.total_category').html(output);
 		
 		// By gender
 		var total = { 'Male': 0, 'Female':0, 'Other':0 }
@@ -213,7 +210,7 @@ $(document).ready(function(){
 			output += '<tr><td><div class="'+c+' bar" style="width:'+f+'%" title="'+g['Female']+'"></div></td><td>'+Math.round(f)+'%</td><td>'+Math.round(100-f)+'%</td><td><div class="'+c+' bar" style="width:'+(100-f)+'%" title="'+g['Male']+'"></div></td></tr>';
 		}
 		output += '</table>';
-		$('h2.gendertable').after(output);
+		$('table.gender_split').html(output);
 
 		// By birth decade
 		sortBy('dob');
@@ -247,30 +244,7 @@ $(document).ready(function(){
 			output += '</td></tr>';
 		}
 		output += '</table>';
-		$('h2.birthtable').after(output);
-
-		// By birth decade/gender
-		/*sortBy('dob');
-		var decade = {};
-		var genders = ['Female','Male','Other']
-		var now = new Date();
-		for(var i = 0; i < astronauts.length; i++){
-			d = Math.floor(astronauts[i].dob.getFullYear()/10)*10;
-			if(!decade[d+'s']) decade[d+'s'] = { 'Male': 0, 'Female':0, 'Other':0 };
-			decade[d+'s'][astronauts[i].gender]++;
-		}
-		output += '<h2>Birth/gender breakdown</h2><table class="birth_split birth_gender">';
-		for(var d in decade){
-			var t = 0;
-			for(var c = 0; c < genders.length; c++) t += decade[d][genders[c]];
-			output += '<tr><td>'+d+' / '+t+'</td><td>';
-			for(var c = 0; c < genders.length; c++){
-				var f = 100*decade[d][genders[c]]/t;
-				output += '<div class="bar total '+genders[c]+'" style="width:'+f+'%;" title="'+f.toFixed(1)+'%">&nbsp;</div>';
-			}
-			output += '</td></tr>';
-		}
-		output += '</table>';*/
+		$('table.birth_split').html(output);
 
 		function makeRow(i,v){
 			return '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
@@ -367,6 +341,10 @@ $(document).ready(function(){
 			'title':'<a href="who.html">Currently in space</a>'
 		});
 
+		// Remove the existing panels
+		$('.stats .panel').remove();
+
+		// Add the new panels
 		$('.stats').append(output);
 		
 	}
