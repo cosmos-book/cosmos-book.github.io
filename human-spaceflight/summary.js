@@ -51,7 +51,7 @@ $(document).ready(function(){
 		return d;
 	}
 	function inYears(t){
-		return Math.floor(t/(365.25*86400000));
+		return (t/(365.25*86400000));
 	}
 
 	function parseIt(data){
@@ -128,7 +128,7 @@ $(document).ready(function(){
 				text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
 				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
 				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-				text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
+				text += '<tr><td>Age at first launch:<\/td><td>'+Math.floor(a.firstlaunch_age)+' years<\/td><\/tr>';
 				text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
 				text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days.toFixed(2)+' days<\/td><\/tr>';
 				if(a.time_eva > 0) text += '<tr><td>Total <dfn title="Extra-vehicular activity - space walks">EVA</dfn>:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+'h '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+'m<\/td><\/tr>';
@@ -334,7 +334,7 @@ $(document).ready(function(){
 		output += makePanel({
 			'id':'youngest',
 			'title':'Youngest in space',
-			'value': function(i){ return astronauts[i].firstlaunch_age; },
+			'value': function(i){ var y = Math.floor(astronauts[i].firstlaunch_age); var m = Math.floor((astronauts[i].firstlaunch_age-y)*12); return '<span title="'+y+' years '+m+' month'+(m == 1 ? '':'s')+'">'+Math.floor(astronauts[i].firstlaunch_age)+'</span>'; },
 			'sort':'firstlaunch_age'
 		});
 
@@ -343,7 +343,7 @@ $(document).ready(function(){
 		output += makePanel({
 			'id':'oldest',
 			'title':'Oldest in space',
-			'value': function(i){ return astronauts[i].oldest; },
+			'value': function(i){ var y = Math.floor(astronauts[i].oldest); var m = Math.floor((astronauts[i].oldest-y)*12); return '<span title="'+y+' years '+m+' month'+(m == 1 ? '':'s')+'">'+Math.floor(astronauts[i].oldest)+'</span>'; },
 			'sort':'oldest',
 			'reverse':true
 		});
