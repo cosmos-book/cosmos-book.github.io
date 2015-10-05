@@ -3,6 +3,10 @@ category:	international
 name:	GARNEAU, Joseph Jean-Pierre Marc
 type:	military
 dob:	1949-02-23
+birthplace:
+  - name:	Quebec City, Quebec, Canada
+    latitude:	46.837299
+    longitude:	-71.304161
 country:
   - CAN
 references:

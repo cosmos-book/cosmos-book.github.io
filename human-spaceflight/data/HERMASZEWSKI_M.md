@@ -3,6 +3,10 @@ category:	international
 name:	HERMASZEWSKI, Miroslaw 'Mirek'
 type:	military
 dob:	1941-09-15
+birthplace:
+  - name:	Lipniki, Ukraine
+    latitude:	48.382881
+    longitude:	31.173441
 country:
   - POL
 references:

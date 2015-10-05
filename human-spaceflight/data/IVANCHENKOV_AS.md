@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	IVANCHENKOV, Aleksandr Sergeyevich
 type:	civilian
 dob:	1940-09-28
+birthplace:
+  - name:	Ivanteyevka, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

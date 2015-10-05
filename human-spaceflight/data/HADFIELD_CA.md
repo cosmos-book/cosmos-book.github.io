@@ -3,6 +3,10 @@ category:	international
 name:	HADFIELD, Chris Austin
 type:	military
 dob:	1959-08-19
+birthplace:
+  - name:	Sarnia, Ontario, Canada
+    latitude:	42.9627
+    longitude:	-82.387398
 twitter:	@Cmdr_Hadfield
 country:
   - CAN

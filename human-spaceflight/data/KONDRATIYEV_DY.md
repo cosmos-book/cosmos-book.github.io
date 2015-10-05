@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KONDRATIYEV, Dmitri Yuriyevich 
 type:	military
 dob:	1969-05-25
+birthplace:
+  - name:	Irkutsk, Russia
+    latitude:	52.30695
+    longitude:	104.273529
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KORZUN, Valeri Grigoriyevich 
 type:	military
 dob:	1953-03-05
+birthplace:
+  - name:	Krasny Sulin, Rostov Oblast, Russian SFSR, Soviet Union
+    latitude:	47.882252
+    longitude:	40.063358
 country:
   - URS
 references:

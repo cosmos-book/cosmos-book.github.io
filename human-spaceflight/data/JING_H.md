@@ -3,6 +3,10 @@ category:	taikonaut
 name:	JING, Haipeng
 type:	military
 dob:	1966-10-24
+birthplace:
+  - name:	Yuncheng city, Shanxi
+    latitude:	35.112518
+    longitude:	110.988869
 country:
   - CHN
 references:

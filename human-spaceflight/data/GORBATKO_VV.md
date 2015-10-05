@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GORBATKO, Viktor Vasiliyevich
 type:	military
 dob:	1934-12-03
+birthplace:
+  - name:	Ventsy-Zarya, Krasnodar Krai, Soviet Union
+    latitude:	45.33176
+    longitude:	40.82542
 country:
   - URS
 references:

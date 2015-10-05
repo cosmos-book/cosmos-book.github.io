@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KHRUNOV, Yevgeni Vasiliyevich 
 type:	military
 dob:	1933-09-10
+birthplace:
+  - name:	Tula Oblast, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

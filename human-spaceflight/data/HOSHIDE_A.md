@@ -3,6 +3,10 @@ category:	international
 name:	HOSHIDE, Akihiko
 type:	civilian
 dob:	1968-12-28
+birthplace:
+  - name:	Setagaya, Tokyo, Japan
+    latitude:	35.63649
+    longitude:	139.634491
 twitter:	@Aki_Hoshide
 country:
   - JPN

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	IVANISHIN, Anatoli Alekseyevich
 type:	military
 dob:	1969-01-15
+birthplace:
+  - name:	Irkutsk, Russia
+    latitude:	52.30695
+    longitude:	104.273529
 country:
   - RUS
 references:

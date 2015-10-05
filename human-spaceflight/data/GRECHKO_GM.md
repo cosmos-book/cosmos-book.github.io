@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GRECHKO, Georgi Mikhailovich
 type:	civilian
 dob:	1931-05-25
+birthplace:
+  - name:	Leningrad, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

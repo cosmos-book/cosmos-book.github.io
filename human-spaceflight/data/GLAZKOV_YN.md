@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GLAZKOV, Yuri Nikolayevich
 type:	military
 dob:	1939-10-02
+birthplace:
+  - name:	Moscow, Russia
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 references:

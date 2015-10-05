@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KIZIM, Leonid Denisovich 
 type:	military
 dob:	1941-08-05
+birthplace:
+  - name:	Krasnyi Lyman, Donetsk Oblast, Soviet Union
+    latitude:	48.984219
+    longitude:	37.810329
 country:
   - URS
 references:

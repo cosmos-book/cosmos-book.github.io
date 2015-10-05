@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GIDZENKO, Yuri Pavlovich
 type:	military
 dob:	1962-03-26
+birthplace:
+  - name:	Elanets, Ukraine, Soviet Union
+    latitude:	47.710861
+    longitude:	31.85714
 country:
   - URS
 references:

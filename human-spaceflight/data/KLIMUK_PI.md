@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KLIMUK, Pyotr Iliyich 
 type:	military
 dob:	1942-07-10
+birthplace:
+  - name:	Kamaroŭka, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

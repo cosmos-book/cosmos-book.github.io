@@ -3,6 +3,10 @@ category:	international
 name:	IVANOV, Georgi
 type:	civilian
 dob:	1940-07-02
+birthplace:
+  - name:	Lovech, Bulgaria
+    latitude:	43.044151
+    longitude:	24.717569
 country:
   - BGR
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	GURRAGCHA, Zhugderdemidiyn 'Gurr'
 type:	military
 dob:	1947-12-05
+birthplace:
+  - name:	Gurvanbulag, Bulgan, Mongolia
+    latitude:	47.633709
+    longitude:	103.530418
 country:
   - MNG
 references:

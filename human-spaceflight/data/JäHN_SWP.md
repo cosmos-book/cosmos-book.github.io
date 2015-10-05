@@ -3,6 +3,10 @@ category:	international
 name:	JäHN, Sigmund Werner Paul 'Sig'
 type:	military
 dob:	1937-02-13
+birthplace:
+  - name:	Morgenröthe-Rautenkranz, Saxony, Germany
+    latitude:	50.447578
+    longitude:	12.50666
 country:
   - GDR
 references:

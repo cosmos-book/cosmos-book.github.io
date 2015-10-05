@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KOTOV, Oleg Valeriyevich 
 type:	military
 dob:	1965-10-27
+birthplace:
+  - name:	Simferopol, Ukrainian SSR, Soviet Union
+    latitude:	44.948101
+    longitude:	34.104198
 country:
   - RUS
 references:

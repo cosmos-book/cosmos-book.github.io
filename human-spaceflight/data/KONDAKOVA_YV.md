@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KONDAKOVA, Yelena Vladimirovna 
 type:	civilian
 dob:	1957-03-30
+birthplace:
+  - name:	Mytishchi, Russian SFSR, Soviet Union
+    latitude:	55.91663
+    longitude:	37.745762
 gender:	Female
 country:
   - URS

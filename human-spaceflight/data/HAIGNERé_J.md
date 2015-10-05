@@ -3,6 +3,10 @@ category:	international
 name:	HAIGNERÉ, Jean-Pierre
 type:	military
 dob:	1948-05-19
+birthplace:
+  - name:	Paris, France
+    latitude:	48.85693
+    longitude:	2.3412
 country:
   - FRA
 references:

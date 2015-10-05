@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KADENYUK, Leonid Konstantinovich
 type:	military
 dob:	1951-01-28
+birthplace:
+  - name:	Klishkivtsi, Chernivtsi Oblast, Ukraine
+    latitude:	48.4333
+    longitude:	26.266701
 country:
   - UKR
 references:

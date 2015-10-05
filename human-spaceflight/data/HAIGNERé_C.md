@@ -3,6 +3,10 @@ category:	international
 name:	HAIGNERÉ, Claudie
 type:	civilian
 dob:	1957-05-13
+birthplace:
+  - name:	Le Creusot, France
+    latitude:	46.799278
+    longitude:	4.43189
 gender:	Female
 country:
   - FRA

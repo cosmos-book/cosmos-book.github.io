@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KALERI, Aleksandr Yuriyevich
 type:	civilian
 dob:	1956-05-13
+birthplace:
+  - name:	Jūrmala, Latvian SSR, Soviet Union
+    latitude:	56.966702
+    longitude:	23.5667
 country:
   - URS
 references:

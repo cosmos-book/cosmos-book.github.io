@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KONONENKO, Oleg Dmitriyevich 
 type:	military
 dob:	1964-06-21
+birthplace:
+  - name:	Chardzhou, Turkmen SSR
+    latitude:	39.099998
+    longitude:	63.5667
 country:
   - RUS
 references:

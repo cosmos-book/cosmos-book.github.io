@@ -3,6 +3,10 @@ category:	international
 name:	GERST, Alexander
 type:	civilian
 dob:	1976-05-03
+birthplace:
+  - name:	Künzelsau, Baden-Württemberg, Germany
+    latitude:	49.279079
+    longitude:	9.68769
 twitter:	@Astro_Alex
 country:
   - DEU

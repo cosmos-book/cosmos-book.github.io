@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KOMAROV, Vladimir Mikhailovich 
 type:	military
 dob:	1927-03-16
+birthplace:
+  - name:	Moscow, Soviet Union
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 qualifications:

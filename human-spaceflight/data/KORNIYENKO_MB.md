@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KORNIYENKO, Mikhail Borisovich 
 type:	civilian
 dob:	1960-04-15
+birthplace:
+  - name:	Syzran, Kuibyshev Region, Russia
+    latitude:	52.532001
+    longitude:	103.886253
 country:
   - RUS
 references:

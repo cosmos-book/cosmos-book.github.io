@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	GARRIOTTdeCAYEUX, Richard
 type:	civilian
 dob:	1961-07-04
+birthplace:
+  - name:	Cambridge, England, UK
+    latitude:	52.19944
+    longitude:	0.13354
 country:
   - GBR
   - USA

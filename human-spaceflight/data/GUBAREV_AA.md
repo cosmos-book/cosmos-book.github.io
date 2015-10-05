@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GUBAREV, Aleksei Aleksandrovich
 type:	military
 dob:	1931-03-29
+birthplace:
+  - name:	Gvardeitsi, Samara Oblast, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	GUIDONI, Umberto
 type:	civilian
 dob:	1954-08-18
+birthplace:
+  - name:	Rome, Italy
+    latitude:	41.898399
+    longitude:	12.4956
 country:
   - ITA
 references:
