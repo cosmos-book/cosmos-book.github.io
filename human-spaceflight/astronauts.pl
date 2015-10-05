@@ -298,7 +298,7 @@ foreach $file (sort(@files)){
 
 $html = "{\n";
 foreach $my (sort{ $allmissions{$a}{'launch'} <=> $allmissions{$b}{'launch'} } keys(%allmissions)){
-	if($my){
+	if($my && $allmissions{$my}{'launch'}){
 		$html .= "\t\"$my\": { \"launch\":\"$allmissions{$my}{'launch'}\",\"land\":\"$allmissions{$my}{'land'}\" },\n";
 	}
 }
