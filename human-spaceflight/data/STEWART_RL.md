@@ -3,6 +3,10 @@ category:	astronaut
 name:	STEWART, Robert L.
 type:	military
 dob:	1942-08-13
+birthplace:
+  - name:	Washington D.C.
+    latitude:	38.904758
+    longitude:	-77.016251
 qualifications:
   - BSc in mathematics
   - MSc in aerospace engineering

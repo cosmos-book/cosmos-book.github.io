@@ -3,6 +3,10 @@ category:	astronaut
 name:	JETT, Brent W.
 type:	military
 dob:	1958-10-05
+birthplace:
+  - name:	Pontiac, Michigan
+    latitude:	42.636871
+    longitude:	-83.288422
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

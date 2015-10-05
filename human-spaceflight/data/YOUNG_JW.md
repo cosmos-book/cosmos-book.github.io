@@ -3,6 +3,10 @@ category:	astronaut
 name:	YOUNG, John W.
 type:	military
 dob:	1930-09-24
+birthplace:
+  - name:	San Francisco, California
+    latitude:	37.747398
+    longitude:	-122.439217
 qualifications:
   - BSc in aeronautical engineering
 references:

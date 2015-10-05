@@ -3,6 +3,10 @@ category:	astronaut
 name:	LINTERIS, Gregory T.
 type:	civilian
 dob:	1957-10-04
+birthplace:
+  - name:	Englewood, New Jersey
+    latitude:	40.891609
+    longitude:	-73.973679
 qualifications:
   - BSc in chemical engineering
   - MSc in mechanical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	GRISSOM, Virgil I.
 type:	military
 dob:	1926-04-03
+birthplace:
+  - name:	Mitchell, Indiana
+    latitude:	38.73711
+    longitude:	-86.474518
 qualifications:
   - BSc in mechanical engineering
 references:

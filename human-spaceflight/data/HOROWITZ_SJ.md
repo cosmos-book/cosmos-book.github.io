@@ -3,6 +3,10 @@ category:	astronaut
 name:	HOROWITZ, Scott J.
 type:	military
 dob:	1957-03-24
+birthplace:
+  - name:	Philadelphia, Pennsylvania
+    latitude:	40.007629
+    longitude:	-75.133957
 qualifications:
   - BSc in engineering
   - MSc in aerospace engineering

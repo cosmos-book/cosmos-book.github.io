@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCOTT, David R.
 type:	military
 dob:	1932-06-06
+birthplace:
+  - name:	San Antonio, Texas
+    latitude:	29.460711
+    longitude:	-98.521606
 qualifications:
   - MSc in aeronautics & astronautics
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	VAN DEN BERG, Lodewijk
 type:	civilian
 dob:	1932-03-24
+birthplace:
+  - name:	Sluiskil, The Netherlands
+    latitude:	51.282398
+    longitude:	3.83272
 qualifications:
   - MSc in applied science
 references:

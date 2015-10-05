@@ -3,6 +3,10 @@ category:	astronaut
 name:	THORNTON, Kathryn C.
 type:	civilian
 dob:	1952-08-17
+birthplace:
+  - name:	Montgomery, Alabama
+    latitude:	32.380119
+    longitude:	-86.300629
 gender:	Female
 qualifications:
   - BSc in physics

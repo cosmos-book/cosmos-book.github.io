@@ -3,6 +3,10 @@ category:	astronaut
 name:	FRICK, Stephen N.
 type:	military
 dob:	1964-09-30
+birthplace:
+  - name:	Pittsburgh, Pennsylvania
+    latitude:	40.431301
+    longitude:	-79.980698
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	ROMINGER, Kent V.
 type:	military
 dob:	1956-08-07
+birthplace:
+  - name:	Del Norte, Colorado
+    latitude:	37.678261
+    longitude:	-106.352509
 qualifications:
   - BSc in civil engineering
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	FISHER, Anna L.
 type:	civilian
 dob:	1949-08-24
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 gender:	Female
 qualifications:
   - MSc in chemistry

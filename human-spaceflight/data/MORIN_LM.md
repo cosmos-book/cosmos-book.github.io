@@ -3,6 +3,10 @@ category:	astronaut
 name:	MORIN, Lee M., (M.D., Ph.D.) 
 type:	military
 dob:	1952-09-09
+birthplace:
+  - name:	Manchester, New Hampshire
+    latitude:	42.991169
+    longitude:	-71.463089
 qualifications:
   - MSc in biochemistry
   - Doctor of Medicine

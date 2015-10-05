@@ -3,6 +3,10 @@ category:	astronaut
 name:	ENGLAND, Anthony W.
 type:	civilian
 dob:	1942-05-15
+birthplace:
+  - name:	Indianapolis, Indiana
+    latitude:	39.766911
+    longitude:	-86.149963
 qualifications:
   - MSc in geology
   - PhD in geophysics

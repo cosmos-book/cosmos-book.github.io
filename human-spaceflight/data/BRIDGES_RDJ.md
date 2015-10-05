@@ -3,6 +3,10 @@ category:	astronaut
 name:	BRIDGES, Roy D., Jr.
 type:	military
 dob:	1943-07-19
+birthplace:
+  - name:	Atlanta, Georgia
+    latitude:	33.763191
+    longitude:	-84.423058
 qualifications:
   - MSc in astronautics
 references:

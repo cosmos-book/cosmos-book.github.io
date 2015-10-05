@@ -3,6 +3,10 @@ category:	astronaut
 name:	NELSON, George D.
 type:	civilian
 dob:	1950-07-13
+birthplace:
+  - name:	Charles City, Iowa
+    latitude:	43.064621
+    longitude:	-92.674232
 qualifications:
   - BSc in physics
   - MSc in astronomy

@@ -3,6 +3,10 @@ category:	astronaut
 name:	ASHBY, Jeffrey S.
 type:	military
 dob:	1954-06-16
+birthplace:
+  - name:	Dallas, Texas
+    latitude:	32.78183
+    longitude:	-96.79586
 qualifications:
   - BSc in mechanical engineering
   - MSc in aviation systems

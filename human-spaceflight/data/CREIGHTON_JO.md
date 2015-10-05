@@ -3,6 +3,10 @@ category:	astronaut
 name:	CREIGHTON, John O.
 type:	military
 dob:	1943-04-28
+birthplace:
+  - name:	Orange, Texas
+    latitude:	30.0931
+    longitude:	-93.736679
 qualifications:
   - MSc in administration of science & technology
 references:

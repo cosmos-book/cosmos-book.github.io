@@ -3,6 +3,10 @@ category:	astronaut
 name:	NOWAK, Lisa M.
 type:	military
 dob:	1963-05-10
+birthplace:
+  - name:	Washington D.C.
+    latitude:	38.904758
+    longitude:	-77.016251
 gender:	Female
 qualifications:
   - BSc in aerospace engineering

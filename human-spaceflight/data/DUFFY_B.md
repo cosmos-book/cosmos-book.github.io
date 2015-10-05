@@ -3,6 +3,10 @@ category:	astronaut
 name:	DUFFY, Brian
 type:	military
 dob:	1953-06-20
+birthplace:
+  - name:	Boston, Massachusetts
+    latitude:	42.358631
+    longitude:	-71.056702
 qualifications:
   - BSc in mathematics
   - MSc in systems management

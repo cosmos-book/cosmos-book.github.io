@@ -3,6 +3,10 @@ category:	astronaut
 name:	HAM, Kenneth T.
 type:	military
 dob:	1964-12-12
+birthplace:
+  - name:	Plainfield, New Jersey
+    latitude:	40.615452
+    longitude:	-74.41568
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOUSMA, Jack R.
 type:	military
 dob:	1936-02-29
+birthplace:
+  - name:	Grand Rapids, Michigan
+    latitude:	42.968948
+    longitude:	-85.636658
 qualifications:
   - BSc in aeronautical engineering
 references:

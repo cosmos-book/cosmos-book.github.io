@@ -3,6 +3,10 @@ category:	astronaut
 name:	VAN HOFTEN, James D.
 type:	civilian
 dob:	1944-06-11
+birthplace:
+  - name:	Fresno, California
+    latitude:	36.78334
+    longitude:	-119.79435
 qualifications:
   - BSc in civil engineering
   - MSc in hydraulic engineering

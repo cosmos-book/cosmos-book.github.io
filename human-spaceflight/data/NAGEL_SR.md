@@ -3,6 +3,10 @@ category:	astronaut
 name:	NAGEL, Steven R.
 type:	military
 dob:	1946-10-27
+birthplace:
+  - name:	Canton, Illinois
+    latitude:	40.558319
+    longitude:	-90.028603
 qualifications:
   - BSc in aerospace engineering
   - MSc in mechanical engineering

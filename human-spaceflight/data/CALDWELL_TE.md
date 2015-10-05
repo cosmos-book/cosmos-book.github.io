@@ -3,6 +3,10 @@ category:	astronaut
 name:	CALDWELL (Dyson), Tracy E.
 type:	civilian
 dob:	1969-08-14
+birthplace:
+  - name:	Arcadia, California
+    latitude:	34.133499
+    longitude:	-118.036522
 gender:	Female
 qualifications:
   - BSc in chemistry

@@ -3,6 +3,10 @@ category:	astronaut
 name:	ANDERSON, Michael P.
 type:	military
 dob:	1959-12-25
+birthplace:
+  - name:	Plattsburgh, New York
+    latitude:	44.696098
+    longitude:	-73.456703
 qualifications:
   - MSc in physics
 diedinspace:	Disintegration during re-entry

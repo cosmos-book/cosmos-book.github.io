@@ -3,6 +3,10 @@ category:	astronaut
 name:	FEUSTEL, Andrew J.
 type:	civilian
 dob:	1965-08-25
+birthplace:
+  - name:	Lancaster, Pennsylvania
+    latitude:	40.039799
+    longitude:	-76.300003
 qualifications:
   - BSc in solid earth sciences
   - MSc in geophysics

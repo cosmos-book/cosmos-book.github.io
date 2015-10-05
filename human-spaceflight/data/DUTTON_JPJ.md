@@ -3,6 +3,10 @@ category:	astronaut
 name:	DUTTON, James P., Jr.
 type:	military
 dob:	1968-11-20
+birthplace:
+  - name:	Eugene, Oregon
+    latitude:	44.049919
+    longitude:	-123.088539
 qualifications:
   - BSc in astronautical engineering
   - MSc in aeronautics & astronautics

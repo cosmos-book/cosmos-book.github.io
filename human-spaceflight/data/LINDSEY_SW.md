@@ -3,6 +3,10 @@ category:	astronaut
 name:	LINDSEY, Steven W.
 type:	military
 dob:	1960-08-24
+birthplace:
+  - name:	Arcadia, California
+    latitude:	34.133499
+    longitude:	-118.036522
 qualifications:
   - BSc in engineering sciences
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	COLEMAN, Catherine G. 'Cady', (Ph.D.)
 type:	military
 dob:	1960-12-14
+birthplace:
+  - name:	Charleston, South Carolina
+    latitude:	32.781151
+    longitude:	-79.931602
 gender:	Female
 twitter:	@Astro_Cady
 qualifications:

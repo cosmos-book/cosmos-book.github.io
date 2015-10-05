@@ -3,6 +3,10 @@ category:	astronaut
 name:	THORNE, Stephen D.
 type:	military
 dob:	1953-02-11
+birthplace:
+  - name:	Frankfurt-on-Main, West Germany
+    latitude:	50.11208
+    longitude:	8.68341
 qualifications:
   - BSc in engineering
 references:

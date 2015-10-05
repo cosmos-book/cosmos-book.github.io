@@ -3,6 +3,10 @@ category:	astronaut
 name:	GRABE, Ronald J.
 type:	military
 dob:	1945-06-13
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 qualifications:
   - BSc in engineering science
 references:

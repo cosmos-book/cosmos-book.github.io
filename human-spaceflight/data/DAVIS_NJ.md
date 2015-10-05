@@ -3,6 +3,10 @@ category:	astronaut
 name:	DAVIS, N. Jan
 type:	civilian
 dob:	1953-11-01
+birthplace:
+  - name:	Cocoa Beach, Florida
+    latitude:	28.332769
+    longitude:	-80.627052
 gender:	Female
 qualifications:
   - BSc in applied biology

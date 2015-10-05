@@ -3,6 +3,10 @@ category:	astronaut
 name:	IRWIN, James B.
 type:	military
 dob:	1930-03-17
+birthplace:
+  - name:	Pittsburgh, Pennsylvania
+    latitude:	40.431301
+    longitude:	-79.980698
 qualifications:
   - BSc in naval science
 references:

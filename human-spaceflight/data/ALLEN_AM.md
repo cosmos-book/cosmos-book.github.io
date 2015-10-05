@@ -3,6 +3,10 @@ category:	astronaut
 name:	ALLEN, Andrew M.
 type:	military
 dob:	1955-08-04
+birthplace:
+  - name:	Philadelphia, Pennsylvania
+    latitude:	40.007629
+    longitude:	-75.133957
 qualifications:
   - BSc in mechanical engineering
 references:

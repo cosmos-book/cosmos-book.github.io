@@ -3,6 +3,10 @@ category:	astronaut
 name:	THORNTON, William E.
 type:	civilian
 dob:	1929-04-14
+birthplace:
+  - name:	Faison, North Carolina
+    latitude:	35.116482
+    longitude:	-78.136208
 qualifications:
   - BSc in physics
   - Doctor of Medicine

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BROWN, Curtis L., Jr.
 type:	military
 dob:	1956-03-11
+birthplace:
+  - name:	Elizabethtown, North Carolina
+    latitude:	34.623192
+    longitude:	-78.610062
 qualifications:
   - BSc in electrical engineering
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILLIAMS, Sunita L.
 type:	military
 dob:	1965-09-19
+birthplace:
+  - name:	Euclid, Ohio
+    latitude:	41.599201
+    longitude:	-81.526817
 gender:	Female
 twitter:	@Astro_Maker
 qualifications:

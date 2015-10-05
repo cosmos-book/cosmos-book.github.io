@@ -3,6 +3,10 @@ category:	astronaut
 name:	LIND, Don L.
 type:	civilian
 dob:	1930-05-18
+birthplace:
+  - name:	Midvale, Utah
+    latitude:	40.61076
+    longitude:	-111.908722
 qualifications:
   - BSc in physics
 references:

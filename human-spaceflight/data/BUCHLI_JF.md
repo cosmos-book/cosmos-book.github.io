@@ -3,6 +3,10 @@ category:	astronaut
 name:	BUCHLI, James F.
 type:	military
 dob:	1945-06-20
+birthplace:
+  - name:	New Rockford, North Dakota
+    latitude:	47.68092
+    longitude:	-99.140846
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautical engineering systems

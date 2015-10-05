@@ -3,6 +3,10 @@ category:	astronaut
 name:	HARBAUGH, Gregory J.
 type:	civilian
 dob:	1956-04-15
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - BSc in aeronautical and astronautical engineering
   - MSc in physical science

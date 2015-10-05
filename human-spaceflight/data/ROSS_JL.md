@@ -3,6 +3,10 @@ category:	astronaut
 name:	ROSS, Jerry L.
 type:	military
 dob:	1948-01-20
+birthplace:
+  - name:	Crown Point, Indiana
+    latitude:	41.414028
+    longitude:	-87.345734
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

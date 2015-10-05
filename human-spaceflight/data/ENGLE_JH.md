@@ -3,6 +3,10 @@ category:	astronaut
 name:	ENGLE, Joe H.
 type:	military
 dob:	1932-08-26
+birthplace:
+  - name:	Dickinson County, Kansas
+    latitude:	38.871281
+    longitude:	-97.135681
 qualifications:
   - BSc in aeronautical engineering
 references:

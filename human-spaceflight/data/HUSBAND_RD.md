@@ -3,6 +3,10 @@ category:	astronaut
 name:	HUSBAND, Rick D.
 type:	military
 dob:	1957-07-12
+birthplace:
+  - name:	Amarillo, Texas
+    latitude:	35.207249
+    longitude:	-101.833893
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

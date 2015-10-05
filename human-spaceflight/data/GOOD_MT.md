@@ -3,6 +3,10 @@ category:	astronaut
 name:	GOOD, Michael T.
 type:	military
 dob:	1962-10-13
+birthplace:
+  - name:	Parma, Ohio
+    latitude:	41.384312
+    longitude:	-81.728531
 qualifications:
   - MSc in aerospace engineering
 references:

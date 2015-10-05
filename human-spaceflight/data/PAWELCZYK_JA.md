@@ -3,6 +3,10 @@ category:	astronaut
 name:	PAWELCZYK, James A.
 type:	civilian
 dob:	1960-09-20
+birthplace:
+  - name:	Buffalo, New York
+    latitude:	42.896198
+    longitude:	-78.875999
 qualifications:
   - BA in biology and psychology
   - MSc in physiology

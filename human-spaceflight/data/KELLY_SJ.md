@@ -3,6 +3,10 @@ category:	astronaut
 name:	KELLY, Scott J.
 type:	military
 dob:	1964-02-21
+birthplace:
+  - name:	Orange, New Jersey
+    latitude:	40.768101
+    longitude:	-74.234894
 twitter:	@StationCDRKelly
 qualifications:
   - BSc in electrical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	TANNER, Joseph R.
 type:	civilian
 dob:	1950-01-21
+birthplace:
+  - name:	Danville, Illinois
+    latitude:	40.159458
+    longitude:	-87.630432
 qualifications:
   - BSc in mechanical engineering
 references:

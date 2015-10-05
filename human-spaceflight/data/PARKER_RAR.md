@@ -3,6 +3,10 @@ category:	astronaut
 name:	PARKER, Robert A. R.
 type:	civilian
 dob:	1936-12-14
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 qualifications:
   - BA in astronomy and physics
   - PhD in astronomy

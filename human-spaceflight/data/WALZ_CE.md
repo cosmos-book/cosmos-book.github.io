@@ -3,6 +3,10 @@ category:	astronaut
 name:	WALZ, Carl E.
 type:	military
 dob:	1955-09-06
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - BSc in physics
 references:

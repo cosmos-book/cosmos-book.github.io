@@ -3,6 +3,10 @@ category:	astronaut
 name:	APT, Jerome
 type:	civilian
 dob:	1949-04-18
+birthplace:
+  - name:	Springfield, Massachusetts
+    latitude:	42.10125
+    longitude:	-72.589287
 qualifications:
   - BA in physics
   - PhD in physics

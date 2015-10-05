@@ -3,6 +3,10 @@ category:	astronaut
 name:	HART, Terry J.
 type:	civilian
 dob:	1946-10-27
+birthplace:
+  - name:	Pittsburgh, Pennsylvania
+    latitude:	40.431301
+    longitude:	-79.980698
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

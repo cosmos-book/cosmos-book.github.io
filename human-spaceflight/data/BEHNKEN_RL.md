@@ -3,6 +3,10 @@ category:	astronaut
 name:	BEHNKEN, Robert L., (Ph.D.) 
 type:	military
 dob:	1970-07-28
+birthplace:
+  - name:	Creve Coeur, Missouri
+    latitude:	38.662071
+    longitude:	-90.443069
 qualifications:
   - BSc in physics & mechanical engineering
   - PhD in mechanical engineering

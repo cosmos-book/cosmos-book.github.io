@@ -3,6 +3,10 @@ category:	astronaut
 name:	ARCHAMBAULT, Lee J.
 type:	military
 dob:	1960-08-25
+birthplace:
+  - name:	Oak Park, Illinois
+    latitude:	41.887161
+    longitude:	-87.789932
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

@@ -3,6 +3,10 @@ category:	astronaut
 name:	KERWIN, Joseph P.
 type:	military
 dob:	1932-02-19
+birthplace:
+  - name:	Oak Park, Illinois
+    latitude:	41.887161
+    longitude:	-87.789932
 qualifications:
   - BA in philosophy
   - Doctor of Medicine

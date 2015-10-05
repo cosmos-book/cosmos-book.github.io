@@ -3,6 +3,10 @@ category:	astronaut
 name:	WETHERBEE, James D.
 type:	military
 dob:	1952-11-27
+birthplace:
+  - name:	Flushing, New York
+    latitude:	40.767239
+    longitude:	-73.829231
 qualifications:
   - BSc in aerospace engineering
 references:

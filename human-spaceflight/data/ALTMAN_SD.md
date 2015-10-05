@@ -3,6 +3,10 @@ category:	astronaut
 name:	ALTMAN, Scott D.
 type:	military
 dob:	1959-08-15
+birthplace:
+  - name:	Lincoln, Illinois
+    latitude:	40.151821
+    longitude:	-89.357559
 qualifications:
   - BSc in aeronautical & astronautical engineering
   - MSc in aeronautical engineering

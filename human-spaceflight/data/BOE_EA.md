@@ -3,6 +3,10 @@ category:	astronaut
 name:	BOE, Eric A.
 type:	military
 dob:	1964-10-01
+birthplace:
+  - name:	Miami, Florida
+    latitude:	25.782551
+    longitude:	-80.221748
 qualifications:
   - BSc in aeronautical engineering
   - MSc in electrical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	PATRICK, Nicholas J.M.
 type:	civilian
 dob:	1964-03-22
+birthplace:
+  - name:	Saltburn, North Yorkshire, United Kingdom
+    latitude:	54.579868
+    longitude:	-0.98148
 twitter:	@Astro_Nicholas
 qualifications:
   - BA in engineering

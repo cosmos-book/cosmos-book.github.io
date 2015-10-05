@@ -3,6 +3,10 @@ category:	astronaut
 name:	GREGORY, William G.
 type:	military
 dob:	1957-05-14
+birthplace:
+  - name:	Lockport, New York
+    latitude:	43.1688
+    longitude:	-78.7006
 qualifications:
   - BSc in engineering science
   - MSc in engineering mechanics

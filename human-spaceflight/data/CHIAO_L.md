@@ -3,6 +3,10 @@ category:	astronaut
 name:	CHIAO, Leroy
 type:	civilian
 dob:	1960-08-28
+birthplace:
+  - name:	Milwaukee, Wisconsin
+    latitude:	43.041809
+    longitude:	-87.906837
 qualifications:
   - BSc in chemical engineering
 references:

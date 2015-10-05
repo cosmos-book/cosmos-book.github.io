@@ -3,6 +3,10 @@ category:	astronaut
 name:	MASSIMINO, Michael J.
 type:	civilian
 dob:	1962-08-19
+birthplace:
+  - name:	Oceanside, New York
+    latitude:	40.633499
+    longitude:	-73.637802
 twitter:	@Astro_Mike
 qualifications:
   - BSc in industrial engineering

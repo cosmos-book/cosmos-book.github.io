@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOVE, Stanley G.
 type:	civilian
 dob:	1965-06-08
+birthplace:
+  - name:	San Diego, California
+    latitude:	32.831699
+    longitude:	-117.122002
 qualifications:
   - BSc in physics
   - PhD in astronomy

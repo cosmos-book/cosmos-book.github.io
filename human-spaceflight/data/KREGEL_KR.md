@@ -3,6 +3,10 @@ category:	astronaut
 name:	KREGEL, Kevin R.
 type:	civilian
 dob:	1956-09-16
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 qualifications:
   - BSc in astronautical engineering
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	ANTONELLI, Dominic
 type:	military
 dob:	1967-08-23
+birthplace:
+  - name:	Detroit, Michigan
+    latitude:	42.33168
+    longitude:	-83.04792
 qualifications:
   - BSc in aeronautics & astronautics
   - MSc in aeronautics & astronautics

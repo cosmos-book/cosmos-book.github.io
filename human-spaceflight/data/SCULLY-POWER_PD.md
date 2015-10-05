@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCULLY-POWER, Paul D.
 type:	civilian
 dob:	1944-05-28
+birthplace:
+  - name:	Sydney, Australia
+    latitude:	-33.856281
+    longitude:	151.020966
 qualifications:
   - BSc in applied mathematics
 references:

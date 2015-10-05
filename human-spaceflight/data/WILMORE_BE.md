@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILMORE, Barry E. 'Butch'
 type:	military
 dob:	1962-12-29
+birthplace:
+  - name:	Murfreesboro, Tennessee
+    latitude:	35.844398
+    longitude:	-86.394341
 qualifications:
   - MSc in electrical engineering
 references:

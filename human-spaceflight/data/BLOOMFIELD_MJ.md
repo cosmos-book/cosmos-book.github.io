@@ -3,6 +3,10 @@ category:	astronaut
 name:	BLOOMFIELD, Michael J.
 type:	military
 dob:	1959-03-16
+birthplace:
+  - name:	Flint, Michigan
+    latitude:	43.00259
+    longitude:	-83.7826
 qualifications:
   - BSc in engineering mechanics
 references:

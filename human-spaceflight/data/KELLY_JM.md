@@ -3,6 +3,10 @@ category:	astronaut
 name:	KELLY, James M.
 type:	military
 dob:	1964-05-14
+birthplace:
+  - name:	Burlington, Iowa
+    latitude:	40.81205
+    longitude:	-91.100731
 qualifications:
   - BSc in astronautical engineering
   - MSc in aerospace engineering

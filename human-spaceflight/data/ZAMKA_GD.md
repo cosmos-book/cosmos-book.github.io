@@ -3,6 +3,10 @@ category:	astronaut
 name:	ZAMKA, George D.
 type:	military
 dob:	1962-06-29
+birthplace:
+  - name:	Jersey City, New Jersey
+    latitude:	40.711079
+    longitude:	-74.064522
 qualifications:
   - BSc in mathematics
   - MSc in engineering management

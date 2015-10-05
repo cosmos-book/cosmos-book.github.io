@@ -3,6 +3,10 @@ category:	astronaut
 name:	COLLINS, Michael
 type:	civilian
 dob:	1930-10-31
+birthplace:
+  - name:	Rome, Italy
+    latitude:	41.898399
+    longitude:	12.4956
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

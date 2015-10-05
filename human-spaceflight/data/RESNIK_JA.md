@@ -3,6 +3,10 @@ category:	astronaut
 name:	RESNIK, Judith A.
 type:	civilian
 dob:	1949-04-05
+birthplace:
+  - name:	Akron, Ohio
+    latitude:	41.080551
+    longitude:	-81.522209
 qualifications:
   - BSc in electrical engineering
   - PhD in electrical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	TRINH, Eugene H.
 type:	civilian
 dob:	1950-09-14
+birthplace:
+  - name:	Saigon, Vietnam
+    latitude:	10.77489
+    longitude:	106.66198
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

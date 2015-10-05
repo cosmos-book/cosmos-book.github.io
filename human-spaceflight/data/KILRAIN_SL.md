@@ -3,6 +3,10 @@ category:	astronaut
 name:	KILRAIN (Still), Susan L.
 type:	military
 dob:	1961-10-24
+birthplace:
+  - name:	Augusta, Georgia
+    latitude:	33.44828
+    longitude:	-82.033447
 gender:	Female
 qualifications:
   - BSc in aeronautical engineering

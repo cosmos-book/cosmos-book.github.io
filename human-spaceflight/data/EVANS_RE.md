@@ -3,6 +3,10 @@ category:	astronaut
 name:	EVANS, Ronald E.
 type:	military
 dob:	1933-11-10
+birthplace:
+  - name:	St. Francis, Kansas
+    latitude:	39.77129
+    longitude:	-101.801201
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical engineering

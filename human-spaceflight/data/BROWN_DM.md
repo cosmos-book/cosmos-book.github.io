@@ -3,6 +3,10 @@ category:	astronaut
 name:	BROWN, David M.
 type:	military
 dob:	1956-04-16
+birthplace:
+  - name:	Arlington, Virginia
+    latitude:	38.878632
+    longitude:	-77.10099
 qualifications:
   - BSc in biology
   - Doctor of Medicine

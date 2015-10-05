@@ -3,6 +3,10 @@ category:	astronaut
 name:	THUOT, Pierre J.
 type:	military
 dob:	1955-05-19
+birthplace:
+  - name:	Groton, Connecticut
+    latitude:	41.354839
+    longitude:	-72.07074
 qualifications:
   - BSc in physics
   - MSc in system management

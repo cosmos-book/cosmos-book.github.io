@@ -3,6 +3,10 @@ category:	astronaut
 name:	CUNNINGHAM, Walter
 type:	civilian
 dob:	1932-03-16
+birthplace:
+  - name:	Creston, Iowa
+    latitude:	41.059368
+    longitude:	-94.364769
 qualifications:
   - MA in physics
 references:

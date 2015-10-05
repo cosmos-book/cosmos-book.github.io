@@ -3,6 +3,10 @@ category:	astronaut
 name:	CAREY, Duane G.
 type:	military
 dob:	1957-04-30
+birthplace:
+  - name:	St. Paul, Minnesota
+    latitude:	44.947769
+    longitude:	-93.103882
 qualifications:
   - BSc in aerospace engineering & mechanics
   - MSc in aerospace engineering

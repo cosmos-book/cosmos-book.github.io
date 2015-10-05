@@ -3,6 +3,10 @@ category:	astronaut
 name:	MITCHELL, Edgar D.
 type:	military
 dob:	1930-09-17
+birthplace:
+  - name:	Hereford, Texas
+    latitude:	34.812141
+    longitude:	-102.405762
 qualifications:
   - BSc in industrial management
   - ScD in aeronautics and astronautics

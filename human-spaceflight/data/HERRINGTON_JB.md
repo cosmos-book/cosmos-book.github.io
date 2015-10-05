@@ -3,6 +3,10 @@ category:	astronaut
 name:	HERRINGTON, John B.
 type:	military
 dob:	1958-09-14
+birthplace:
+  - name:	Wetumka, Oklahoma
+    latitude:	35.240978
+    longitude:	-96.239029
 qualifications:
   - BSc in applied mathematics
   - MSc in aeronautical engineering

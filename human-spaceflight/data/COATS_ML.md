@@ -3,6 +3,10 @@ category:	astronaut
 name:	COATS, Michael L.
 type:	military
 dob:	1946-01-16
+birthplace:
+  - name:	Sacramento, California
+    latitude:	38.56789
+    longitude:	-121.468849
 qualifications:
   - MSc in administration of science & technology
 references:

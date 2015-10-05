@@ -3,6 +3,10 @@ category:	astronaut
 name:	MEADE, Carl J.
 type:	military
 dob:	1950-11-16
+birthplace:
+  - name:	Chanute Air Force Base, Illinois
+    latitude:	39.739262
+    longitude:	-89.504089
 qualifications:
   - BSc in electronics engineering
   - MSc in electronics engineering

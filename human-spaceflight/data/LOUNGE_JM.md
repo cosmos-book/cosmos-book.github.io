@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOUNGE, John M. 'Mike'
 type:	civilian
 dob:	1946-06-28
+birthplace:
+  - name:	Denver, Colorado
+    latitude:	39.740002
+    longitude:	-104.991997
 qualifications:
   - BSc in physics and mathematics
   - MSc in astrogeophysics

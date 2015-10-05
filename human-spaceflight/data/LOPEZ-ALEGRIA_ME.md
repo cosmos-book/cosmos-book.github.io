@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOPEZ-ALEGRIA, Michael E.
 type:	military
 dob:	1958-05-30
+birthplace:
+  - name:	Madrid, Spain
+    latitude:	40.421429
+    longitude:	-3.67163
 qualifications:
   - BSc in systems engineering
   - MSc in aeronautical engineering

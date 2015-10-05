@@ -3,6 +3,10 @@ category:	astronaut
 name:	JOHNSON, Gregory C.
 type:	military
 dob:	1954-07-30
+birthplace:
+  - name:	Seattle, Washington
+    latitude:	47.603561
+    longitude:	-122.329437
 qualifications:
   - BSc in aerospace engineering
 references:

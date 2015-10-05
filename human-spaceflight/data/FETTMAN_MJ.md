@@ -3,6 +3,10 @@ category:	astronaut
 name:	FETTMAN, Martin J.
 type:	civilian
 dob:	1956-12-31
+birthplace:
+  - name:	Brooklyn, New York
+    latitude:	40.655071
+    longitude:	-73.948883
 qualifications:
   - BSc in animal nutrition
   - PhD in physiology

@@ -3,6 +3,10 @@ category:	astronaut
 name:	CLIFFORD, Michael R.
 type:	military
 dob:	1952-10-13
+birthplace:
+  - name:	San Bernardino, California
+    latitude:	34.138271
+    longitude:	-117.294678
 qualifications:
   - MSc in aerospace engineering
 references:

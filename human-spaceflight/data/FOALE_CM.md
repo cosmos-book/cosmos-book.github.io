@@ -3,6 +3,10 @@ category:	astronaut
 name:	FOALE, C. Michael
 type:	civilian
 dob:	1957-01-06
+birthplace:
+  - name:	Louth, England
+    latitude:	53.369469
+    longitude:	0.00007
 qualifications:
   - BA in physics
   - PhD in laboratory astrophysics

@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCOTT, Winston E.
 type:	military
 dob:	1950-08-06
+birthplace:
+  - name:	Miami, Florida
+    latitude:	25.782551
+    longitude:	-80.221748
 qualifications:
   - BA in music
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	STEFANYSHYN-PIPER, Heidemarie M.
 type:	military
 dob:	1963-02-07
+birthplace:
+  - name:	St. Paul, Minnesota
+    latitude:	44.947769
+    longitude:	-93.103882
 gender:	Female
 qualifications:
   - BSc in mechanical engineering

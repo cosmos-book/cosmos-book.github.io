@@ -3,6 +3,10 @@ category:	astronaut
 name:	LUCID, Shannon W.
 type:	civilian
 dob:	1943-01-14
+birthplace:
+  - name:	Shanghai, China
+    latitude:	31.247709
+    longitude:	121.472618
 gender:	Female
 qualifications:
   - BSc in chemistry

@@ -3,6 +3,10 @@ category:	astronaut
 name:	JERNIGAN, Tamara E.
 type:	civilian
 dob:	1959-05-07
+birthplace:
+  - name:	Chattanooga, Tennessee
+    latitude:	35.066639
+    longitude:	-85.248199
 gender:	Female
 qualifications:
   - BSc in physics

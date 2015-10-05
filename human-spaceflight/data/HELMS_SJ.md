@@ -3,6 +3,10 @@ category:	astronaut
 name:	HELMS, Susan J.
 type:	military
 dob:	1958-02-26
+birthplace:
+  - name:	Charlotte, North Carolina
+    latitude:	35.2225
+    longitude:	-80.83754
 gender:	Female
 qualifications:
   - BSc in aeronautical engineering

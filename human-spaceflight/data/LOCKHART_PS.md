@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOCKHART, Paul S.
 type:	military
 dob:	1956-04-28
+birthplace:
+  - name:	Amarillo, Texas
+    latitude:	35.207249
+    longitude:	-101.833893
 qualifications:
   - BA in mathematics
   - MSc in aerospace engineering

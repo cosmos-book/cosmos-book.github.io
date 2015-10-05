@@ -3,6 +3,10 @@ category:	astronaut
 name:	HAWLEY, Steven A.
 type:	civilian
 dob:	1951-12-12
+birthplace:
+  - name:	Ottawa, Kansas
+    latitude:	38.600941
+    longitude:	-95.26413
 qualifications:
   - BA in physics & astronomy
   - PhD in astronomy & astrophysics

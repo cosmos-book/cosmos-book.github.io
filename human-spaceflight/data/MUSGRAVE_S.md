@@ -3,6 +3,10 @@ category:	astronaut
 name:	MUSGRAVE, Story 
 type:	civilian
 dob:	1935-08-19
+birthplace:
+  - name:	Boston, Massachusetts
+    latitude:	42.358631
+    longitude:	-71.056702
 qualifications:
   - BA in chemistry
   - BSc in mathematics and statistics

@@ -3,6 +3,10 @@ category:	astronaut
 name:	GRUNSFELD, John M.
 type:	civilian
 dob:	1958-10-10
+birthplace:
+  - name:	Chicago, Illinois
+    latitude:	41.884151
+    longitude:	-87.632408
 twitter:	@SciAstro
 qualifications:
   - BSc in physics

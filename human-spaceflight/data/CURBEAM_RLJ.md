@@ -3,6 +3,10 @@ category:	astronaut
 name:	CURBEAM, Robert L., Jr.
 type:	military
 dob:	1962-03-05
+birthplace:
+  - name:	Baltimore, Maryland
+    latitude:	39.300968
+    longitude:	-76.610611
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

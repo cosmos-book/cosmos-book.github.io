@@ -3,6 +3,10 @@ category:	astronaut
 name:	HUGHES-FULFORD, Millie
 type:	civilian
 dob:	1945-12-21
+birthplace:
+  - name:	Mineral Wells, Texas
+    latitude:	32.816479
+    longitude:	-98.077477
 gender:	Female
 qualifications:
   - BSc in chemistry and biology

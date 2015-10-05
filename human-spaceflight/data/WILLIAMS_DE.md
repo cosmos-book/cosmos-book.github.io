@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILLIAMS, Donald E.
 type:	military
 dob:	1958-02-13
+birthplace:
+  - name:	Lafayette, Indiana
+    latitude:	40.41737
+    longitude:	-86.876549
 qualifications:
   - BSc in mechanical engineering
 references:

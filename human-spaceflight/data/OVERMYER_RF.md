@@ -3,6 +3,10 @@ category:	astronaut
 name:	OVERMYER, Robert F.
 type:	military
 dob:	1936-07-14
+birthplace:
+  - name:	Lorain, Ohio
+    latitude:	41.468201
+    longitude:	-82.178146
 qualifications:
   - BSc in physics
   - MSc in aeronautics

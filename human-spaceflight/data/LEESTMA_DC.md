@@ -3,6 +3,10 @@ category:	astronaut
 name:	LEESTMA, David C.
 type:	military
 dob:	1949-05-06
+birthplace:
+  - name:	Muskegon, Michigan
+    latitude:	43.245811
+    longitude:	-86.217072
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautical engineering

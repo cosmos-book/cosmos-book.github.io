@@ -3,6 +3,10 @@ category:	astronaut
 name:	CABANA, Robert D. 
 type:	military
 dob:	1949-01-23
+birthplace:
+  - name:	Minneapolis, Minnesota
+    latitude:	44.979031
+    longitude:	-93.264931
 qualifications:
   - BSc in mathematics
 references:

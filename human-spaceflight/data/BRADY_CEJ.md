@@ -3,6 +3,10 @@ category:	astronaut
 name:	BRADY, Charles E., Jr.
 type:	military
 dob:	1951-08-12
+birthplace:
+  - name:	Pinehurst, North Carolina
+    latitude:	35.191299
+    longitude:	-79.471977
 qualifications:
   - Doctor of Medicine
 references:

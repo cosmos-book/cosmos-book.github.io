@@ -3,6 +3,10 @@ category:	astronaut
 name:	STAFFORD, Thomas P.
 type:	military
 dob:	1930-09-17
+birthplace:
+  - name:	Weatherford, Oklahoma
+    latitude:	35.526081
+    longitude:	-98.707031
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

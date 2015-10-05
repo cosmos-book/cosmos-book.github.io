@@ -3,6 +3,10 @@ category:	astronaut
 name:	NELSON, Bill
 type:	military
 dob:	1942-09-29
+birthplace:
+  - name:	Miami, Florida
+    latitude:	25.782551
+    longitude:	-80.221748
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

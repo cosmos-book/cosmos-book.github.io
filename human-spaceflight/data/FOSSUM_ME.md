@@ -3,6 +3,10 @@ category:	astronaut
 name:	FOSSUM, Michael E.
 type:	civilian
 dob:	1957-12-19
+birthplace:
+  - name:	Sioux Falls, South Dakota
+    latitude:	43.545349
+    longitude:	-96.731277
 twitter:	@astro_aggie
 qualifications:
   - BSc in mechanical engineering

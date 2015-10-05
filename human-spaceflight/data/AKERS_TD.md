@@ -3,6 +3,10 @@ category:	astronaut
 name:	AKERS, Thomas D.
 type:	military
 dob:	1951-05-20
+birthplace:
+  - name:	St. Louis, Missouri
+    latitude:	38.627701
+    longitude:	-90.199501
 qualifications:
   - MSc in applied mathematics
 references:

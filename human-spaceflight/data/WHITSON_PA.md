@@ -3,6 +3,10 @@ category:	astronaut
 name:	WHITSON, Peggy A.
 type:	civilian
 dob:	1960-02-09
+birthplace:
+  - name:	Mt. Ayr, Iowa
+    latitude:	40.714211
+    longitude:	-94.237572
 gender:	Female
 twitter:	@AstroPeggy
 qualifications:

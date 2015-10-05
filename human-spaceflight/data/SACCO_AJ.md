@@ -3,6 +3,10 @@ category:	astronaut
 name:	SACCO, Albert, Jr.
 type:	civilian
 dob:	1949-05-03
+birthplace:
+  - name:	Boston, Massachusetts
+    latitude:	42.358631
+    longitude:	-71.056702
 qualifications:
   - PhD in chemical engineering
 references:

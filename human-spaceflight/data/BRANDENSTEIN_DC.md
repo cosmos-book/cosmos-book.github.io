@@ -3,6 +3,10 @@ category:	astronaut
 name:	BRANDENSTEIN, Daniel C.
 type:	military
 dob:	1943-01-17
+birthplace:
+  - name:	Watertown, Wisconsin
+    latitude:	43.19099
+    longitude:	-88.727676
 qualifications:
   - BSc in mathematics & physics
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BARTOE, John-David F.
 type:	civilian
 dob:	1944-11-17
+birthplace:
+  - name:	Abington, Pennsylvania
+    latitude:	40.109901
+    longitude:	-75.114899
 qualifications:
   - BSc in physics
   - PhD in physics

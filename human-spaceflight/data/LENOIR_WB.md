@@ -3,6 +3,10 @@ category:	astronaut
 name:	LENOIR, William B.
 type:	civilian
 dob:	1939-03-14
+birthplace:
+  - name:	Miami, Florida
+    latitude:	25.782551
+    longitude:	-80.221748
 qualifications:
   - BSc in electrical engineering
   - MSc in electrical engineering

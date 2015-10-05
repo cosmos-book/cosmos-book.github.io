@@ -3,6 +3,10 @@ category:	astronaut
 name:	CARR, Gerald P.
 type:	military
 dob:	1932-08-22
+birthplace:
+  - name:	Denver, Colorado
+    latitude:	39.740002
+    longitude:	-104.991997
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautical engineering

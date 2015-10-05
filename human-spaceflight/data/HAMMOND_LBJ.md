@@ -3,6 +3,10 @@ category:	astronaut
 name:	HAMMOND, L. Brain, Jr.
 type:	military
 dob:	1952-01-16
+birthplace:
+  - name:	Savannah, Georgia
+    latitude:	32.025311
+    longitude:	-81.135727
 qualifications:
   - BSc in engineering science and mechanics
   - MSc in engineering science and mechanics

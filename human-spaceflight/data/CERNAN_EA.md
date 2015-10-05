@@ -3,6 +3,10 @@ category:	astronaut
 name:	CERNAN, Eugene A.
 type:	military
 dob:	1934-03-14
+birthplace:
+  - name:	Chicago, Illinois
+    latitude:	41.884151
+    longitude:	-87.632408
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical engineering

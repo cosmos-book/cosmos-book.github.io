@@ -3,6 +3,10 @@ category:	astronaut
 name:	SPRINGER, Robert C.
 type:	military
 dob:	1942-05-21
+birthplace:
+  - name:	St. Louis, Missouri
+    latitude:	38.627701
+    longitude:	-90.199501
 qualifications:
   - BSc in naval science
   - MSc in operations research & systems analysis

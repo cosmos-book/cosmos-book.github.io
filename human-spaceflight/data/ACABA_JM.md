@@ -3,6 +3,10 @@ category:	astronaut
 name:	ACABA, Joseph M.
 type:	civilian
 dob:	1967-05-17
+birthplace:
+  - name: Inglewood, California
+    latitude:	33.956379
+    longitude:	-118.34433
 twitter:	@AstroAcaba
 country:
   - USA

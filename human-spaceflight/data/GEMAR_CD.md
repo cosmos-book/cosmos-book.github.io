@@ -3,6 +3,10 @@ category:	astronaut
 name:	GEMAR, Charles D.
 type:	military
 dob:	1955-08-04
+birthplace:
+  - name:	Yanktown, South Dakota
+    latitude:	42.871792
+    longitude:	-97.397049
 qualifications:
   - BSc in engineering
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	ACTON, Loren W.
 type:	civilian
 dob:	1936-03-07
+birthplace:
+  - name:	Lewistown, Montana
+    latitude:	47.063831
+    longitude:	-109.4291
 country:
   - USA
 gender:	Male

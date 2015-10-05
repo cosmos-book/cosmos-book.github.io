@@ -3,6 +3,10 @@ category:	astronaut
 name:	HARTSFIELD, Henry W., Jr.
 type:	military
 dob:	1933-11-21
+birthplace:
+  - name:	Birmingham, Alabama
+    latitude:	33.531269
+    longitude:	-86.823967
 qualifications:
   - BSc in physics
   - MSc in engineering science

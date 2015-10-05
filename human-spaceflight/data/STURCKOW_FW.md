@@ -3,6 +3,10 @@ category:	astronaut
 name:	STURCKOW, Frederick W.
 type:	military
 dob:	1961-08-11
+birthplace:
+  - name:	La Mesa, California
+    latitude:	32.770409
+    longitude:	-117.020767
 qualifications:
   - BSc in mechanical engineering
 references:

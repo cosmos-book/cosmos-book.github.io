@@ -3,6 +3,10 @@ category:	astronaut
 name:	O'CONNOR, Bryan D.
 type:	military
 dob:	1946-09-06
+birthplace:
+  - name:	Orange, California
+    latitude:	33.804741
+    longitude:	-117.823311
 qualifications:
   - BSc in engineering
 references:

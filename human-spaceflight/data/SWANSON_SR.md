@@ -3,6 +3,10 @@ category:	astronaut
 name:	SWANSON, Steven R.
 type:	civilian
 dob:	1960-12-03
+birthplace:
+  - name:	Syracuse, New York
+    latitude:	43.035198
+    longitude:	-76.139297
 qualifications:
   - BSc in engineering physics
   - PhD in computer science

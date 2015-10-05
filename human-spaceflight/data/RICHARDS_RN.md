@@ -3,6 +3,10 @@ category:	astronaut
 name:	RICHARDS, Richard N.
 type:	military
 dob:	1946-08-24
+birthplace:
+  - name:	Key West, Florida
+    latitude:	24.56292
+    longitude:	-81.776314
 qualifications:
   - BSc in chemical engineering
   - MSc in aeronautical systems

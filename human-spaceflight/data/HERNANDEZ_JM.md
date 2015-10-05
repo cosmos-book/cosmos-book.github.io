@@ -3,6 +3,10 @@ category:	astronaut
 name:	HERNANDEZ, Jose M.
 type:	civilian
 dob:	1962-08-07
+birthplace:
+  - name:	French Camp, California
+    latitude:	37.879879
+    longitude:	-121.280273
 qualifications:
   - BSc in electrical engineering
   - MSc in electrical & computer engineering

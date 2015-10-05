@@ -3,6 +3,10 @@ category:	astronaut
 name:	CHANG-DIAZ, Franklin R.
 type:	civilian
 dob:	1950-04-05
+birthplace:
+  - name:	San Jose, Costa Rica
+    latitude:	9.93047
+    longitude:	-84.078621
 qualifications:
   - BSc in mechanical engineering
   - PhD in applied plasma physics

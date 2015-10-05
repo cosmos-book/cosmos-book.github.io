@@ -3,6 +3,10 @@ category:	astronaut
 name:	CONRAD, Charles, Jr.
 type:	military
 dob:	1930-06-02
+birthplace:
+  - name:	Philadelphia, Pennsylvania
+    latitude:	40.007629
+    longitude:	-75.133957
 qualifications:
   - BSc in aeronautical engineering
 references:

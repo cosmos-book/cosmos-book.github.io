@@ -3,6 +3,10 @@ category:	astronaut
 name:	WHEELOCK, Douglas H.
 type:	military
 dob:	1960-05-05
+birthplace:
+  - name:	Binghamton, New York
+    latitude:	42.101799
+    longitude:	-75.903603
 twitter:	@Astro_Wheels
 qualifications:
   - MSc in aerospace engineering

@@ -1,8 +1,12 @@
 ---
 category:	astronaut
-name:	ALDRIN, Buzz
+name:	ALDRIN, Edwin "Buzz"
 type:	military
 dob:	1930-01-20
+birthplace:
+  - name:	Montclair, New Jersey
+    latitude:	40.817402
+    longitude:	-74.216103
 qualifications:
   - BSc in mechanical engineering
   - ScD in astronautics

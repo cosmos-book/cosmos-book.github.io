@@ -3,6 +3,10 @@ category:	astronaut
 name:	SEGA, Ronald M.
 type:	military
 dob:	1952-12-04
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - BSc in physics & math
   - MSc in physics

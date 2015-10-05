@@ -3,6 +3,10 @@ category:	astronaut
 name:	WOLF, David A.
 type:	civilian
 dob:	1956-08-23
+birthplace:
+  - name:	Indianapolis, Indiana
+    latitude:	39.766911
+    longitude:	-86.149963
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine

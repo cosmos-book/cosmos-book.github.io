@@ -3,6 +3,10 @@ category:	astronaut
 name:	COVEY, Richard O.
 type:	military
 dob:	1946-08-01
+birthplace:
+  - name:	Fayetteville, Arkansas
+    latitude:	36.063202
+    longitude:	-94.157913
 qualifications:
   - BSc in engineering sciences
   - MSc in aeronautics and astronautics

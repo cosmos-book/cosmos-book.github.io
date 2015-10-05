@@ -3,6 +3,10 @@ category:	astronaut
 name:	BARRY, Daniel T. (M.D.)
 type:	civilian
 dob:	1953-12-30
+birthplace:
+  - name:	Norwalk, Connecticut
+    latitude:	41.113659
+    longitude:	-73.407654
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine

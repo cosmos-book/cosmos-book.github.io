@@ -3,6 +3,10 @@ category:	astronaut
 name:	SELLERS, Piers J.
 type:	civilian
 dob:	1955-04-11
+birthplace:
+  - name:	Crowborough, Sussex, United Kingdom
+    latitude:	51.054352
+    longitude:	0.16767
 qualifications:
   - BSc in ecological science
   - PhD in biometeorology

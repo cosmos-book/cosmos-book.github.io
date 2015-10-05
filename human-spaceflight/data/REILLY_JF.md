@@ -3,6 +3,10 @@ category:	astronaut
 name:	REILLY, James F.
 type:	civilian
 dob:	1954-03-18
+birthplace:
+  - name:	Mountain Home AFB, Idaho
+    latitude:	43.056469
+    longitude:	-115.85601
 qualifications:
   - BSc in geosciences
   - MSc in geosciences

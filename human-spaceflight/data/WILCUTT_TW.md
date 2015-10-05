@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILCUTT, Terrence W.
 type:	military
 dob:	1949-10-31
+birthplace:
+  - name:	Russellville, Kentucky
+    latitude:	36.83997
+    longitude:	-86.895729
 qualifications:
   - BA in mathematics
 references:

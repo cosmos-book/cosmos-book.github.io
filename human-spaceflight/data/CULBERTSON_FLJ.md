@@ -3,6 +3,10 @@ category:	astronaut
 name:	CULBERTSON, Frank L., Jr.
 type:	military
 dob:	1949-05-15
+birthplace:
+  - name:	Charleston, South Carolina
+    latitude:	32.781151
+    longitude:	-79.931602
 qualifications:
   - BSc in aerospace engineering
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	GIBSON, Robert L. 'Hoot'
 type:	military
 dob:	1946-10-30
+birthplace:
+  - name:	Cooperstown, New York
+    latitude:	42.700298
+    longitude:	-74.930496
 qualifications:
   - BSc in aeronautical engineering
 references:

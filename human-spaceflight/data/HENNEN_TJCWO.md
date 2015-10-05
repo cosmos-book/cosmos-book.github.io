@@ -3,6 +3,10 @@ category:	astronaut
 name:	HENNEN, Thomas J. Chief Warrant Officer
 type:	military
 dob:	1952-08-17
+birthplace:
+  - name:	Albany, Georgia
+    latitude:	31.580759
+    longitude:	-84.156013
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BROWN, Mark N.
 type:	military
 dob:	1951-11-18
+birthplace:
+  - name:	Valparaiso, Indiana
+    latitude:	41.467751
+    longitude:	-87.061623
 qualifications:
   - BSc in aeronautical & astronautical engineering
   - MSc in astronautical engineering

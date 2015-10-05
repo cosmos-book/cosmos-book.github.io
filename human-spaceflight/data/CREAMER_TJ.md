@@ -3,6 +3,10 @@ category:	astronaut
 name:	CREAMER, Timothy J.
 type:	military
 dob:	1959-11-15
+birthplace:
+  - name:	Ft. Huachuca, Arizona
+    latitude:	31.55479
+    longitude:	-110.346153
 twitter:	@Astro_TJ
 qualifications:
   - BSc in chemistry

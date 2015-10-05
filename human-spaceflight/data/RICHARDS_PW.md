@@ -3,6 +3,10 @@ category:	astronaut
 name:	RICHARDS, Paul W.
 type:	civilian
 dob:	1964-05-20
+birthplace:
+  - name:	Scranton, Pennsylvania
+    latitude:	41.404301
+    longitude:	-75.662201
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

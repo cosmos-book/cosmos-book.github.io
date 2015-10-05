@@ -3,6 +3,10 @@ category:	astronaut
 name:	VOSS, Janice E.
 type:	civilian
 dob:	1956-10-08
+birthplace:
+  - name:	South Bend, Indiana
+    latitude:	41.677101
+    longitude:	-86.269073
 gender:	Female
 qualifications:
   - BSc in engineering science

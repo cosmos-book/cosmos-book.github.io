@@ -3,6 +3,10 @@ category:	astronaut
 name:	NOREIGA, Carlos I.
 type:	military
 dob:	1959-10-08
+birthplace:
+  - name:	Lima, Peru
+    latitude:	-12.0436
+    longitude:	-77.021217
 qualifications:
   - BSc in computer science
   - MSc in computer science

@@ -3,6 +3,10 @@ category:	astronaut
 name:	MARSHBURN, Thomas H.
 type:	civilian
 dob:	1960-08-29
+birthplace:
+  - name:	Statesville, North Carolina
+    latitude:	35.78577
+    longitude:	-80.888924
 twitter:	@AstroMarshburn
 qualifications:
   - BSc in physics

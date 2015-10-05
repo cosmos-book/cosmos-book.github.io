@@ -3,6 +3,10 @@ category:	astronaut
 name:	GORDON, Richard F., Jr.
 type:	military
 dob:	1929-10-05
+birthplace:
+  - name:	Seattle, Washington
+    latitude:	47.603561
+    longitude:	-122.329437
 qualifications:
   - BSc in chemistry
 references:

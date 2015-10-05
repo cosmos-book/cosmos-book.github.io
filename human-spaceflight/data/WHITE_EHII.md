@@ -3,6 +3,10 @@ category:	astronaut
 name:	WHITE, Edward H. II
 type:	military
 dob:	1930-11-14
+birthplace:
+  - name:	San Antonio, Texas
+    latitude:	29.460711
+    longitude:	-98.521606
 qualifications:
   - MSc in aeronautical engineering
 references:

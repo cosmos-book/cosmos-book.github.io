@@ -3,6 +3,10 @@ category:	astronaut
 name:	READDY, William F.
 type:	military
 dob:	1952-01-24
+birthplace:
+  - name:	Quonset Point, Rhode Island
+    latitude:	41.661221
+    longitude:	-71.55587
 qualifications:
   - BSc in aerospace engineering
 references:

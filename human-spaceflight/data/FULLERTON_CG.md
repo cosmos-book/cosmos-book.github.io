@@ -3,6 +3,10 @@ category:	astronaut
 name:	FULLERTON, C. Gordon
 type:	military
 dob:	1936-10-11
+birthplace:
+  - name:	Rochester, New York
+    latitude:	43.186199
+    longitude:	-77.616402
 qualifications:
   - MSc in mechanical engineering
 references:

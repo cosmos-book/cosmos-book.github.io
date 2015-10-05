@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILLIAMS, Jeffrey N.
 type:	military
 dob:	1958-01-18
+birthplace:
+  - name:	Superior, Wisconsin
+    latitude:	46.72131
+    longitude:	-92.103951
 twitter:	@Astro_Jeff
 qualifications:
   - MSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	HIRE, Kathryn P. 'Kay'
 type:	military
 dob:	1959-08-26
+birthplace:
+  - name:	Mobile, Alabama
+    latitude:	30.68639
+    longitude:	-88.053238
 gender:	Female
 qualifications:
   - BSc in engineering & management

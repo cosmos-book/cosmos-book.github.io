@@ -3,6 +3,10 @@ category:	astronaut
 name:	SHEPARD, Alan B. Jr.
 type:	military
 dob:	1923-11-18
+birthplace:
+  - name:	East Derry, New Hampshire
+    latitude:	42.894669
+    longitude:	-71.289917
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

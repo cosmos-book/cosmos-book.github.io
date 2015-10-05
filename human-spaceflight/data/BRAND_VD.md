@@ -3,10 +3,15 @@ category:	astronaut
 name:	BRAND, Vance D.
 type:	military
 dob:	1931-05-09
+birthplace:
+  - name:	Longmont, Colorado
+    latitude:	40.169102
+    longitude:	-105.099876
 qualifications:
   - BSc in aeronautical engineering
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - http://www.jsc.nasa.gov/Bios/htmlbios/brand.html
 missions:
   - name: Apollo-Soyuz (Apollo)
     time_start:   1975-07-15T19:50:00Z

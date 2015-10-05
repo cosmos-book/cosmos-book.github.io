@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOVELL, James A., Jr.
 type:	military
 dob:	1928-03-25
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

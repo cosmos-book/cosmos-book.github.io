@@ -3,6 +3,10 @@ category:	astronaut
 name:	BOBKO, Karol J.
 type:	military
 dob:	1937-12-23
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 qualifications:
   - MSc in aerospace engineering
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	THOMAS, Andrew S.W.
 type:	civilian
 dob:	1951-12-18
+birthplace:
+  - name:	Adelaide, South Australia
+    latitude:	-34.918072
+    longitude:	138.598236
 qualifications:
   - PhD in mechanical engineering
 references:

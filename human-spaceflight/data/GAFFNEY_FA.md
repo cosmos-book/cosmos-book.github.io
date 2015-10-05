@@ -3,6 +3,10 @@ category:	astronaut
 name:	GAFFNEY, F. Andrew (Drew)
 type:	civilian
 dob:	1946-06-09
+birthplace:
+  - name:	Carlsbad, New Mexico
+    latitude:	32.40638
+    longitude:	-104.238647
 qualifications:
   - BA in psychology
   - Doctor of Medicine

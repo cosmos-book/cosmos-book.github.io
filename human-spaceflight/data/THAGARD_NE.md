@@ -3,6 +3,10 @@ category:	astronaut
 name:	THAGARD, Norman E.
 type:	civilian
 dob:	1943-07-03
+birthplace:
+  - name:	Marianna, Florida
+    latitude:	30.775379
+    longitude:	-85.226822
 qualifications:
   - BSc in engineering science
   - MSc in engineering science

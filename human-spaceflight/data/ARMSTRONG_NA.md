@@ -3,6 +3,10 @@ category:	astronaut
 name:	ARMSTRONG, Neil A.
 type:	civilian
 dob:	1930-08-05
+birthplace:
+  - name:	Wapakoneta, Ohio
+    latitude:	40.568119
+    longitude:	-84.190742
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aerospace engineering

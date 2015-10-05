@@ -3,6 +3,10 @@ category:	astronaut
 name:	MAGNUS, Sandra H.
 type:	civilian
 dob:	1964-10-30
+birthplace:
+  - name:	Belleville, Illinois
+    latitude:	38.512131
+    longitude:	-89.98423
 gender:	Female
 twitter:	@Astro_Sandy
 qualifications:

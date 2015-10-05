@@ -3,6 +3,10 @@ category:	astronaut
 name:	DREW, B. Alvin, Jr.
 type:	military
 dob:	1962-11-05
+birthplace:
+  - name:	Washington D.C.
+    latitude:	38.904758
+    longitude:	-77.016251
 qualifications:
   - BSc in physics & astronautical engineering
 references:

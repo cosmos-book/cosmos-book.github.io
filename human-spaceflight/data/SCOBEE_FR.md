@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCOBEE, Francis Richard 'Dick'
 type:	military
 dob:	1939-05-19
+birthplace:
+  - name:	Cle Elum, Washington
+    latitude:	47.193089
+    longitude:	-120.963173
 qualifications:
   - BSc in aerospace engineering
 diedinspace:	Disintegration during launch

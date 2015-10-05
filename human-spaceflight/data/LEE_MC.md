@@ -3,6 +3,10 @@ category:	astronaut
 name:	LEE, Mark C.
 type:	military
 dob:	1952-08-14
+birthplace:
+  - name:	Viroqua, Wisconsin
+    latitude:	43.559589
+    longitude:	-90.887138
 qualifications:
   - BSc in civil engineering
   - MSc in mechanical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	HENDRICKS, Terence T.
 type:	military
 dob:	1952-07-05
+birthplace:
+  - name:	Bryan, Ohio
+    latitude:	41.471031
+    longitude:	-84.548309
 qualifications:
   - BSc in civil engineering
   - MA in public administration

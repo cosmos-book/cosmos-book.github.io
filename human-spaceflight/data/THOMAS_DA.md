@@ -3,6 +3,10 @@ category:	astronaut
 name:	THOMAS, Donald A.
 type:	civilian
 dob:	1955-05-06
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - BSc in physics
   - MSc in materials science

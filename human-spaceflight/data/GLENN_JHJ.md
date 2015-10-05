@@ -3,6 +3,10 @@ category:	astronaut
 name:	GLENN, John H., Jr.
 type:	military
 dob:	1921-07-18
+birthplace:
+  - name:	Cambridge, Ohio
+    latitude:	40.023979
+    longitude:	-81.58757
 qualifications:
   - BSc in engineering
 references:

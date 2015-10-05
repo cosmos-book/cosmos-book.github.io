@@ -3,6 +3,10 @@ category:	astronaut
 name:	CASPER, John H.
 type:	military
 dob:	1943-07-09
+birthplace:
+  - name:	Greenville, South Carolina
+    latitude:	34.83707
+    longitude:	-82.365143
 qualifications:
   - BSc in engineering science
   - MSc in astronautics

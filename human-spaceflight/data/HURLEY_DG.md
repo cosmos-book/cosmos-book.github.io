@@ -3,6 +3,10 @@ category:	astronaut
 name:	HURLEY, Douglas G.
 type:	military
 dob:	1966-10-21
+birthplace:
+  - name:	Endicott, New York
+    latitude:	42.0952
+    longitude:	-76.071098
 twitter:	@Astro_Doug
 qualifications:
   - BSc in civil engineering

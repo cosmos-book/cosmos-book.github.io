@@ -3,6 +3,10 @@ category:	astronaut
 name:	BORMAN, Frank
 type:	military
 dob:	1928-03-14
+birthplace:
+  - name:	Gary, Indiana
+    latitude:	41.602989
+    longitude:	-87.337151
 qualifications:
   - MSc in aeronautical engineering
 references:

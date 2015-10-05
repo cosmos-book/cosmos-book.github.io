@@ -3,6 +3,10 @@ category:	astronaut
 name:	RIDE, Sally K.
 type:	civilian
 dob:	1951-05-26
+birthplace:
+  - name:	Los Angeles, California
+    latitude:	34.053501
+    longitude:	-118.245003
 gender:	Female
 qualifications:
   - BA in English

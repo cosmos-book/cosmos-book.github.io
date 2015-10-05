@@ -3,6 +3,10 @@ category:	astronaut
 name:	SHRIVER, Loren J.
 type:	military
 dob:	1944-09-23
+birthplace:
+  - name:	Jefferson, Iowa
+    latitude:	42.01725
+    longitude:	-94.379059
 qualifications:
   - BSc in aeronautical engineering
   - MSc in astronautical engineering

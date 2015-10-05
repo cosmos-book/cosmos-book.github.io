@@ -3,6 +3,10 @@ category:	astronaut
 name:	CRIPPEN, Robert L.
 type:	military
 dob:	1937-09-11
+birthplace:
+  - name:	Beaumont, Texas
+    latitude:	30.086149
+    longitude:	-94.101578
 qualifications:
   - BSc in aerospace engineering
 references:

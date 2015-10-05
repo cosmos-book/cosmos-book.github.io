@@ -3,6 +3,10 @@ category:	astronaut
 name:	WANG, Taylor G.
 type:	civilian
 dob:	1940-06-16
+birthplace:
+  - name:	Jiangxi, China
+    latitude:	27.298889
+    longitude:	116.025711
 qualifications:
   - BSc in physics
   - MSc in physics

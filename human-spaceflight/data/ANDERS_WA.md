@@ -3,6 +3,10 @@ category:	astronaut
 name:	ANDERS, William A.
 type:	military
 dob:	1933-10-17
+birthplace:
+  - name:	Hong Kong
+    latitude:	22.4112
+    longitude:	114.153999
 qualifications:
   - BSc in nuclear engineering
   - MSc in nuclear engineering

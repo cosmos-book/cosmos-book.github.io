@@ -3,6 +3,10 @@ category:	astronaut
 name:	LICHTENBERG, Byron K.
 type:	civilian
 dob:	1948-02-19
+birthplace:
+  - name:	Stroudsburg, Pennsylvania
+    latitude:	40.986198
+    longitude:	-75.197601
 qualifications:
   - BSc in aerospace engineering
 references:

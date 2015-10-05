@@ -3,6 +3,10 @@ category:	astronaut
 name:	HOBAUGH, Charles O.
 type:	military
 dob:	1961-11-06
+birthplace:
+  - name:	Bar Harbor, Maine
+    latitude:	44.389511
+    longitude:	-68.284332
 qualifications:
   - BSc in aerospace engineering
 references:

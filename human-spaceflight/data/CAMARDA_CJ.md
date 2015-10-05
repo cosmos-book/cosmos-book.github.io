@@ -3,6 +3,10 @@ category:	astronaut
 name:	CAMARDA, Charles J.
 type:	civilian
 dob:	1952-05-08
+birthplace:
+  - name:	Queens, New York
+    latitude:	40.7038
+    longitude:	-73.83168
 qualifications:
   - BSc in aerospace engineering
   - MSc in engineering science

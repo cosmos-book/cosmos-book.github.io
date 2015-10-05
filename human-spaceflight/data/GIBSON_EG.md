@@ -3,6 +3,10 @@ category:	astronaut
 name:	GIBSON, Edward G.
 type:	civilian
 dob:	1936-11-08
+birthplace:
+  - name:	Buffalo, New York
+    latitude:	42.896198
+    longitude:	-78.875999
 qualifications:
   - BSc in engineering
   - PhD in engineering

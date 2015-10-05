@@ -3,6 +3,10 @@ category:	astronaut
 name:	WALKER, Shannon
 type:	civilian
 dob:	1965-06-04
+birthplace:
+  - name:	Houston, Texas
+    latitude:	29.775419
+    longitude:	-95.381889
 gender:	Female
 qualifications:
   - PhD in space physics

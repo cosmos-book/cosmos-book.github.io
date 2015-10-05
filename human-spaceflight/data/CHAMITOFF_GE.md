@@ -3,6 +3,10 @@ category:	astronaut
 name:	CHAMITOFF, Gregory E.
 type:	civilian
 dob:	1962-08-06
+birthplace:
+  - name:	Montreal, Canada
+    latitude:	45.536491
+    longitude:	-73.625122
 twitter:	@Astro_Taz
 qualifications:
   - BSc in electrical engineering

@@ -4,6 +4,10 @@ name:	COLLINS, Eileen M.
 type:	military
 dob:	1956-11-19
 gender:	Female
+birthplace:
+  - name:	Elmira, New York
+    latitude:	42.0924
+    longitude:	-76.809502
 qualifications:
   - BA in mathematics & economics
   - MSc in operations research

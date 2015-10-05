@@ -3,6 +3,10 @@ category:	astronaut
 name:	OSWALD, Stephen S.
 type:	civilian
 dob:	1951-06-30
+birthplace:
+  - name:	Seattle, Washington
+    latitude:	47.603561
+    longitude:	-122.329437
 qualifications:
   - BSc in aerospace engineering
 references:

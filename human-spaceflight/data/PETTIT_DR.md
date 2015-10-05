@@ -3,6 +3,10 @@ category:	astronaut
 name:	PETTIT, Donald R.
 type:	civilian
 dob:	1955-04-20
+birthplace:
+  - name:	Silverton, Oregon
+    latitude:	45.005032
+    longitude:	-122.781319
 twitter:	@astro_Pettit
 qualifications:
   - BSc in chemical engineering

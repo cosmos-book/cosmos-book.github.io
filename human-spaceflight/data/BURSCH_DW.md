@@ -3,6 +3,10 @@ category:	astronaut
 name:	BURSCH, Daniel W.
 type:	military
 dob:	1957-07-25
+birthplace:
+  - name:	Bristol, Pennsylvania
+    latitude:	40.104599
+    longitude:	-74.854401
 qualifications:
   - BSc in physics
   - MSc in engineering science

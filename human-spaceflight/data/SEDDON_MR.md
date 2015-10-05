@@ -3,6 +3,10 @@ category:	astronaut
 name:	SEDDON, Margaret Rhea
 type:	civilian
 dob:	1947-11-08
+birthplace:
+  - name:	Murfreesboro, Tennessee
+    latitude:	35.844398
+    longitude:	-86.394341
 gender:	Female
 qualifications:
   - BA in physiology

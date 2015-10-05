@@ -3,6 +3,10 @@ category:	astronaut
 name:	OCHOA, Ellen
 type:	civilian
 dob:	1958-05-10
+birthplace:
+  - name:	Los Angeles, California
+    latitude:	34.053501
+    longitude:	-118.245003
 gender:	Female
 qualifications:
   - BSc in physics

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BRESNIK, Randolph J.
 type:	military
 dob:	1967-09-11
+birthplace:
+  - name:	Fort Knox, Kentucky
+    latitude:	37.891232
+    longitude:	-85.963631
 qualifications:
   - BA in mathematics
   - MSc in aviation systems

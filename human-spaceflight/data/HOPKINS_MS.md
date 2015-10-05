@@ -3,6 +3,10 @@ category:	astronaut
 name:	HOPKINS, Michael S.
 type:	military
 dob:	1968-12-28
+birthplace:
+  - name:	Lebanon, Missouri
+    latitude:	37.671612
+    longitude:	-92.659889
 twitter:	@AstroIllini
 qualifications:
   - BSc in aerospace engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BLUFORD, Guion S., Jr
 type:	military
 dob:	1942-11-22
+birthplace:
+  - name:	Philadelphia, Pennsylvania
+    latitude:	40.007629
+    longitude:	-75.133957
 qualifications:
   - BSc in aerospace engineering
   - PhD in aerospace engineering

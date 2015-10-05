@@ -3,6 +3,10 @@ category:	astronaut
 name:	PAILES, William A.
 type:	military
 dob:	1952-06-26
+birthplace:
+  - name:	Hackensack, New Jersey
+    latitude:	40.889259
+    longitude:	-74.046623
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

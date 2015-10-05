@@ -4,6 +4,10 @@ name:	ANDERSON, Clayton C.
 type:	civilian
 dob:	1959-02-23
 twitter:	@Astro_Clay
+birthplace:
+  - name:	Omaha, Nebraska
+    latitude:	41.263561
+    longitude:	-96.03553
 qualifications:
   - BSc in physics
   - MSc in aerospace engineering

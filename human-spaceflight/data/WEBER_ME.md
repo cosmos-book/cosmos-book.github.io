@@ -3,6 +3,10 @@ category:	astronaut
 name:	WEBER, Mary E.
 type:	civilian
 dob:	1962-08-24
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 gender:	Female
 qualifications:
   - BSc in chemical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	POLANSKY, Mark L.
 type:	civilian
 dob:	1956-06-02
+birthplace:
+  - name:	Paterson, New Jersey
+    latitude:	40.914761
+    longitude:	-74.162033
 qualifications:
   - MSc in aeronautical & astronautical engineering
 references:

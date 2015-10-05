@@ -3,6 +3,10 @@ category:	astronaut
 name:	GERNHARDT, Michael L.
 type:	civilian
 dob:	1956-05-04
+birthplace:
+  - name:	Mansfield, Ohio
+    latitude:	40.758511
+    longitude:	-82.514801
 qualifications:
   - BSc in physics
   - PhD in bioengineering

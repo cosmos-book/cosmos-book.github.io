@@ -3,6 +3,10 @@ category:	astronaut
 name:	EDWARDS, Joe F., Jr.
 type:	military
 dob:	1958-02-03
+birthplace:
+  - name:	Richmond, Virginia
+    latitude:	37.52943
+    longitude:	-77.475639
 qualifications:
   - BSc in aerospace engineering
   - MSc in aviation systems

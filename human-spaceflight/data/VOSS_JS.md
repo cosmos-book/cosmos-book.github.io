@@ -3,6 +3,10 @@ category:	astronaut
 name:	VOSS, James S.
 type:	military
 dob:	1949-03-03
+birthplace:
+  - name:	Cordova, Alabama
+    latitude:	33.75491
+    longitude:	-87.182198
 qualifications:
   - BSc in aerospace engineering
   - MSc in aerospace engineering sciences

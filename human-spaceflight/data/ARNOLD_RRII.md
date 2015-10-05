@@ -3,6 +3,10 @@ category:	astronaut
 name:	ARNOLD, Richard R., II
 type:	civilian
 dob:	1963-11-26
+birthplace:
+  - name:	Cheverly, Maryland
+    latitude:	38.925529
+    longitude:	-76.913857
 qualifications:
   - BSc in accounting
   - MSc in marine, estuarine and environmental science

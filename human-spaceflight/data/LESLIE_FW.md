@@ -3,6 +3,10 @@ category:	astronaut
 name:	LESLIE, Fred W.
 type:	civilian
 dob:	1951-12-19
+birthplace:
+  - name:	Ancon, Panama
+    latitude:	8.9667
+    longitude:	-79.550003
 qualifications:
   - BSc in engineering science
 references:

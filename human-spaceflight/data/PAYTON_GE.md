@@ -3,6 +3,10 @@ category:	astronaut
 name:	PAYTON, Gary E.
 type:	military
 dob:	1948-06-20
+birthplace:
+  - name:	Rock Island, Illinois
+    latitude:	41.471279
+    longitude:	-90.581627
 qualifications:
   - MSc in astronautical and aeronautical engineering
 references:

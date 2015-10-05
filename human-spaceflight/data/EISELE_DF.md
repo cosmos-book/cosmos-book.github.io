@@ -3,6 +3,10 @@ category:	astronaut
 name:	EISELE, Donn F.
 type:	military
 dob:	1930-06-23
+birthplace:
+  - name:	Columbus, Ohio
+    latitude:	39.98914
+    longitude:	-82.985329
 qualifications:
   - BSc in astronautics
   - MSc in astronautics

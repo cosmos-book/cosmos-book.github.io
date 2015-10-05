@@ -3,6 +3,10 @@ category:	astronaut
 name:	HAISE, Fred W., Jr.
 type:	civilian
 dob:	1933-11-14
+birthplace:
+  - name:	Biloxi, Mississippi
+    latitude:	30.394381
+    longitude:	-88.896378
 qualifications:
   - BSc in aeronautical engineering
 references:

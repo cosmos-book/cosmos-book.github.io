@@ -3,6 +3,10 @@ category:	astronaut
 name:	DURRANCE, Samuel T.
 type:	civilian
 dob:	1943-09-17
+birthplace:
+  - name:	Tallahassee, Florida
+    latitude:	30.43977
+    longitude:	-84.280647
 qualifications:
   - MSc in physics
 references:

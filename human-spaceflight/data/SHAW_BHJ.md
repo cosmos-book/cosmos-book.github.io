@@ -3,6 +3,10 @@ category:	astronaut
 name:	SHAW, Brewster H., Jr.
 type:	military
 dob:	1945-05-16
+birthplace:
+  - name:	Cass City, Michigan
+    latitude:	43.60059
+    longitude:	-83.176697
 qualifications:
   - BSc in engineering mechanics
   - MSc in engineering mechanics

@@ -3,6 +3,10 @@ category:	astronaut
 name:	BLAHA, John E.
 type:	military
 dob:	1942-08-26
+birthplace:
+  - name:	San Antonio, Texas
+    latitude:	29.460711
+    longitude:	-98.521606
 qualifications:
   - BSc in engineering science
   - MSc in astronautical engineering

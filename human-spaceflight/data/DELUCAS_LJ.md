@@ -3,6 +3,10 @@ category:	astronaut
 name:	DELUCAS, Lawrence J.
 type:	civilian
 dob:	1950-07-11
+birthplace:
+  - name:	Syracuse, New York
+    latitude:	43.035198
+    longitude:	-76.139297
 qualifications:
   - MSc in chemistry
 references:

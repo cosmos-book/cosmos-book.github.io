@@ -3,6 +3,10 @@ category:	astronaut
 name:	BEAN, Alan L.
 type:	military
 dob:	1932-03-15
+birthplace:
+  - name:	Wheeler, Texas
+    latitude:	35.44109
+    longitude:	-100.275238
 qualifications:
   - BSc in aeronautical engineering
 references:

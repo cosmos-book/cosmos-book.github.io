@@ -3,6 +3,10 @@ category:	astronaut
 name:	WEITZ, Paul J.
 type:	military
 dob:	1932-07-25
+birthplace:
+  - name:	Erie, Pennsylvania
+    latitude:	42.116699
+    longitude:	-80.073143
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautical engineering

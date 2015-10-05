@@ -3,6 +3,10 @@ category:	astronaut
 name:	SHEPHERD, William M.
 type:	military
 dob:	1949-07-26
+birthplace:
+  - name:	Oak Ridge, Tennessee
+    latitude:	36.01453
+    longitude:	-84.256538
 qualifications:
   - BSc in aerospace engineering
   - MSc in mechanical engineering

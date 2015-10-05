@@ -3,6 +3,10 @@ category:	astronaut
 name:	HIEB, Richard J.
 type:	civilian
 dob:	1955-09-21
+birthplace:
+  - name:	Jamestown, North Dakota
+    latitude:	46.91008
+    longitude:	-98.708527
 qualifications:
   - BA in mathematics and physics
   - MSc in aerospace engineering

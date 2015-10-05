@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCHMITT, Harrison H.
 type:	civilian
 dob:	1935-07-03
+birthplace:
+  - name:	Santa Rita, New Mexico
+    latitude:	32.804741
+    longitude:	-108.060081
 qualifications:
   - BSc in geology
   - PhD in geology

@@ -3,6 +3,10 @@ category:	astronaut
 name:	CHAWLA, Kalpana
 type:	civilian
 dob:	1961-07-01
+birthplace:
+  - name:	Karnal, India
+    latitude:	29.683451
+    longitude:	76.978203
 gender:	Female
 qualifications:
   - BSc in aeronautical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	CARTER, Manley Lanier, Jr., 'Sonny'
 type:	military
 dob:	1947-08-15
+birthplace:
+  - name:	Macon, Georgia
+    latitude:	32.83968
+    longitude:	-83.627579
 qualifications:
   - BA in chemistry from Emory University Doctor of Medicine
   - Doctor of Medicine

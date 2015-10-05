@@ -3,6 +3,10 @@ category:	astronaut
 name:	GARDNER, Guy S.
 type:	military
 dob:	1948-01-06
+birthplace:
+  - name:	Altavista, Virginia
+    latitude:	37.109169
+    longitude:	-79.289162
 qualifications:
   - BSc in engineering sciences, astronautics and mathematics
   - MSc in astronautics

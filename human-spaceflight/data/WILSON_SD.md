@@ -3,6 +3,10 @@ category:	astronaut
 name:	WILSON, Stephanie D.
 type:	civilian
 dob:	1966-09-27
+birthplace:
+  - name:	Boston, Massachusetts
+    latitude:	42.358631
+    longitude:	-71.056702
 gender:	Female
 qualifications:
   - BSc in engineering science

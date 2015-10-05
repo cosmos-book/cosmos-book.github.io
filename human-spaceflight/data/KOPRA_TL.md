@@ -3,6 +3,10 @@ category:	astronaut
 name:	KOPRA, Timothy L.
 type:	military
 dob:	1963-04-09
+birthplace:
+  - name:	Austin, Texas
+    latitude:	30.30637
+    longitude:	-97.752762
 twitter:	@astro_tim
 qualifications:
   - BSc in computer science

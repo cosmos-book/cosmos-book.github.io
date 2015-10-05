@@ -3,6 +3,10 @@ category:	astronaut
 name:	PHILLIPS, John L.
 type:	military
 dob:	1951-04-15
+birthplace:
+  - name:	Fort Belvoir, Virginia
+    latitude:	38.711819
+    longitude:	-77.145897
 qualifications:
   - BSc in mathematics
   - MSc in aeronautical systems

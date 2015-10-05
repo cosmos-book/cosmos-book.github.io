@@ -3,6 +3,10 @@ category:	astronaut
 name:	SMITH, Michael J.
 type:	military
 dob:	1945-08-30
+birthplace:
+  - name:	Beaufort, North Carolina
+    latitude:	34.717289
+    longitude:	-76.651817
 qualifications:
   - BSc in naval science
   - MSc in aeronautical engineering

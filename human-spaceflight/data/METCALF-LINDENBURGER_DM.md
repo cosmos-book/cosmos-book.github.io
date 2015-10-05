@@ -3,6 +3,10 @@ category:	astronaut
 name:	METCALF-LINDENBURGER, Dorothy M.
 type:	civilian
 dob:	1975-05-02
+birthplace:
+  - name:	Colorado Springs, Colorado
+    latitude:	38.867352
+    longitude:	-104.760803
 gender:	Female
 twitter:	@AstroDot
 qualifications:

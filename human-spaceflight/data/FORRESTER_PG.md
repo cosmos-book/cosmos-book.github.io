@@ -3,6 +3,10 @@ category:	astronaut
 name:	FORRESTER, Patrick G.
 type:	military
 dob:	1957-03-31
+birthplace:
+  - name:	El Paso, Texas
+    latitude:	31.849831
+    longitude:	-106.437187
 qualifications:
   - BSc in applied sciences and engineering
   - MSc in mechanical & aerospace engineering

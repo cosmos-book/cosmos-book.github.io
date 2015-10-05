@@ -3,6 +3,10 @@ category:	astronaut
 name:	BOWERSOX, Kenneth D.
 type:	military
 dob:	1956-11-14
+birthplace:
+  - name:	Portsmouth, Virginia
+    latitude:	36.832642
+    longitude:	-76.297707
 qualifications:
   - BSc in aerospace engineering
   - MSc in mechanical engineering

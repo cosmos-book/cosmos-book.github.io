@@ -3,6 +3,10 @@ category:	astronaut
 name:	MULLANE, Richard M.
 type:	military
 dob:	1945-09-10
+birthplace:
+  - name:	Wichita Falls, Texas
+    latitude:	33.907001
+    longitude:	-98.529068
 qualifications:
   - BSc in military engineering
   - MSc in aeronautical engineering

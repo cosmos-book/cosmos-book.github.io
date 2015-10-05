@@ -3,6 +3,10 @@ category:	astronaut
 name:	IVINS, Marsha S.
 type:	civilian
 dob:	1951-04-15
+birthplace:
+  - name:	Baltimore, Maryland
+    latitude:	39.300968
+    longitude:	-76.610611
 gender:	Female
 qualifications:
   - BSc in aerospace engineering

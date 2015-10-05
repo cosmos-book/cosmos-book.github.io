@@ -3,6 +3,10 @@ category:	astronaut
 name:	GUTERREZ, Sidney M.
 type:	military
 dob:	1951-06-27
+birthplace:
+  - name:	Albuquerque, New Mexico
+    latitude:	35.10503
+    longitude:	-106.647179
 qualifications:
   - BSc in aeronautical engineering
   - MA in management

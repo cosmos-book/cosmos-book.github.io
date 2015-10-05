@@ -3,6 +3,10 @@ category:	astronaut
 name:	MELNICK, Bruce E.
 type:	military
 dob:	1949-12-05
+birthplace:
+  - name:	New York, New York
+    latitude:	40.71455
+    longitude:	-74.007118
 qualifications:
   - BSc in engineering
   - MSc in aeronautical systems

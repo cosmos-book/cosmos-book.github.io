@@ -3,6 +3,10 @@ category:	astronaut
 name:	VIRTS, Terry
 type:	military
 dob:	1967-12-01
+birthplace:
+  - name:	Baltimore, Maryland
+    latitude:	39.300968
+    longitude:	-76.610611
 twitter:	@AstroTerry
 qualifications:
   - BSc in mathematics & minor in French

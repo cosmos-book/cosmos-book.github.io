@@ -3,6 +3,10 @@ category:	astronaut
 name:	CASSIDY, Christopher J.
 type:	military
 dob:	1970-01-04
+birthplace:
+  - name:	Salem, Massachusetts
+    latitude:	42.5224
+    longitude:	-70.895813
 qualifications:
   - BSc in mathematics
   - MSc in Ocean Engineering

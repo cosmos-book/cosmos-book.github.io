@@ -3,6 +3,10 @@ category:	astronaut
 name:	GARDNER, Dale A.
 type:	military
 dob:	1948-11-08
+birthplace:
+  - name:	Fairmont, Minnesota
+    latitude:	43.644241
+    longitude:	-94.461571
 qualifications:
   - BSc in engineering physics
 references:

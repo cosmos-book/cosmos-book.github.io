@@ -3,6 +3,10 @@ category:	astronaut
 name:	KAVANDI, Janet L.
 type:	civilian
 dob:	1959-07-17
+birthplace:
+  - name:	Springfield, Missouri
+    latitude:	37.208969
+    longitude:	-93.291557
 gender:	Female
 qualifications:
   - BSc in chemistry

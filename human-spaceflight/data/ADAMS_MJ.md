@@ -3,6 +3,10 @@ category:	astronaut
 name:	ADAMS, Mike James
 type:	military
 dob:	1930-05-05
+birthplace:
+  - name:	Sacramento, California
+    latitude:	38.56789
+    longitude:	-121.468849
 country:
   - USA
 gender:	Male

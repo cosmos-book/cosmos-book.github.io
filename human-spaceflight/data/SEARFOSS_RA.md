@@ -3,6 +3,10 @@ category:	astronaut
 name:	SEARFOSS, Richard A.
 type:	military
 dob:	1956-06-05
+birthplace:
+  - name:	Mount Clemens, Michigan
+    latitude:	42.597618
+    longitude:	-82.881912
 qualifications:
   - BSc in aeronautical engineering
   - MSc in aeronautics

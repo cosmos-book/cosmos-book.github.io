@@ -3,6 +3,10 @@ category:	astronaut
 name:	TRULY, Richard H.
 type:	military
 dob:	1937-11-12
+birthplace:
+  - name:	Fayette, Mississippi
+    latitude:	31.71278
+    longitude:	-91.061867
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

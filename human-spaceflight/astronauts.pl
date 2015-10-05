@@ -74,6 +74,7 @@ foreach $file (sort(@files)){
 	$inquals = 0;
 	$ineva = 0;
 	$incountry = 0;
+	$inbirthplace = 0;
 	$age = 0;
 	$reset = 0;
 	$launch = "";
@@ -96,14 +97,15 @@ foreach $file (sort(@files)){
 			}
 		}
 		# Which section of the yaml are we in?
-		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; }
-		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; }
-		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; }
-		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
-		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
-		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
-		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
-		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
+		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
+		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
+		if($line =~ /^birthplace:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 1; }
 	}
 
 	foreach $line (@lines){
@@ -259,6 +261,9 @@ foreach $file (sort(@files)){
 				$quals .= "$1";
 			}
 		}
+		# Get the length of the extra-vehicular activity
+		if($inbirthplace){
+		}
 		#if($incountry){
 		#	if($line =~ / -[\t\s]*(.*)/){
 		#		if($country){ $country .= ";"; }
@@ -269,13 +274,13 @@ foreach $file (sort(@files)){
 		$name =~ s/\"/\'/g;	# Fix nickname quoting
 
 		# Which section of the yaml are we in?
-		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; }
-		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; }
-		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; }
-		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
-		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; }
-		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
-		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; }
+		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
+		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
 	}
 	
 	$json_mission =~ s/\,$//;

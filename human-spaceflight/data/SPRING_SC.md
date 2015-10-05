@@ -3,6 +3,10 @@ category:	astronaut
 name:	SPRING, Sherwood C.
 type:	military
 dob:	1944-09-03
+birthplace:
+  - name:	Hartford, Connecticut
+    latitude:	41.765961
+    longitude:	-72.683403
 qualifications:
   - BSc in general engineering
   - MSc in aerospace engineering

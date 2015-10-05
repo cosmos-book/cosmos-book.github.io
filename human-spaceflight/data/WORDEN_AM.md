@@ -3,6 +3,10 @@ category:	astronaut
 name:	WORDEN, Alfred M.
 type:	military
 dob:	1932-02-07
+birthplace:
+  - name:	Jackson, Michigan
+    latitude:	42.24321
+    longitude:	-84.404182
 qualifications:
   - BSc in military science
 references:

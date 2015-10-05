@@ -3,6 +3,10 @@ category:	astronaut
 name:	HILMERS, David O.
 type:	military
 dob:	1950-01-28
+birthplace:
+  - name:	Clinton, Iowa
+    latitude:	41.838951
+    longitude:	-90.192032
 qualifications:
   - BA in mathematics
   - MSc in electrical engineering

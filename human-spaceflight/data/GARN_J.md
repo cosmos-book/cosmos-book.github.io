@@ -3,6 +3,10 @@ category:	astronaut
 name:	GARN, Jake
 type:	military
 dob:	1932-10-12
+birthplace:
+  - name:	Richfield, Utah
+    latitude:	38.771549
+    longitude:	-112.084778
 qualifications:
   - BSc in business and finance
 references:

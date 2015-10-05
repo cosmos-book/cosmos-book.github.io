@@ -3,6 +3,10 @@ category:	astronaut
 name:	BARRATT, Michael R.
 type:	civilian
 dob:	1959-04-16
+birthplace:
+  - name:	Vancouver, Washington
+    latitude:	45.63398
+    longitude:	-122.593536
 qualifications:
   - BSc in zoology
   - MSc in aerospace medicine

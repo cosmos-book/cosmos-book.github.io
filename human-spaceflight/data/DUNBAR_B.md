@@ -3,6 +3,10 @@ category:	astronaut
 name:	DUNBAR, Bonnie
 type:	civilian
 dob:	1949-03-03
+birthplace:
+  - name:	Sunnyside, Washington
+    latitude:	46.31604
+    longitude:	-120.006554
 gender:	Female
 qualifications:
   - MSc in ceramic engineering

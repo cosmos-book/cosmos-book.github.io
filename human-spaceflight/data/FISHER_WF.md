@@ -3,6 +3,10 @@ category:	astronaut
 name:	FISHER, William F.
 type:	civilian
 dob:	1946-04-01
+birthplace:
+  - name:	Dallas, Texas
+    latitude:	32.78183
+    longitude:	-96.79586
 qualifications:
   - MSc in engineering
   - Doctor of Medicine

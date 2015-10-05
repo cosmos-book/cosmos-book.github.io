@@ -3,6 +3,10 @@ category:	astronaut
 name:	BOWEN, Stephen G.
 type:	military
 dob:	1964-02-13
+birthplace:
+  - name:	Cohasset, Massachusetts
+    latitude:	42.242489
+    longitude:	-70.802544
 qualifications:
   - BSc in electrical engineering
   - MSc in Ocean Engineering

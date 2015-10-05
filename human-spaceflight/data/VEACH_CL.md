@@ -3,6 +3,10 @@ category:	astronaut
 name:	VEACH, Charles Lacy
 type:	civilian
 dob:	1944-09-18
+birthplace:
+  - name:	Chicago, Illinois
+    latitude:	41.884151
+    longitude:	-87.632408
 qualifications:
   - BSc in engineering management
 references:

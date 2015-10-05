@@ -3,6 +3,10 @@ category:	astronaut
 name:	RUNCO, Mario, Jr.
 type:	military
 dob:	1952-01-26
+birthplace:
+  - name:	Bronx, New York
+    latitude:	40.857151
+    longitude:	-73.856781
 qualifications:
   - BSc in earth & planetary science
   - MSc in atmospheric physics

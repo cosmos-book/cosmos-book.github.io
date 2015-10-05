@@ -3,6 +3,10 @@ category:	astronaut
 name:	POGUE, William
 type:	military
 dob:	1930-01-23
+birthplace:
+  - name:	Okemah, Oklahoma
+    latitude:	35.429741
+    longitude:	-96.299896
 qualifications:
   - BSc in education
   - MSc in mathematics

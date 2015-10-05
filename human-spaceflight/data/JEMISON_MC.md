@@ -3,6 +3,10 @@ category:	astronaut
 name:	JEMISON, Mae C.
 type:	civilian
 dob:	1956-10-17
+birthplace:
+  - name:	Decatur, Alabama
+    latitude:	34.60738
+    longitude:	-86.979759
 gender:	Female
 qualifications:
   - BSc in chemical engineering

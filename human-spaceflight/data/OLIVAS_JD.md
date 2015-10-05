@@ -3,6 +3,10 @@ category:	astronaut
 name:	OLIVAS, John D.
 type:	civilian
 dob:	1966-05-25
+birthplace:
+  - name:	North Hollywood, California
+    latitude:	34.1698
+    longitude:	-118.378998
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	PARISE, Ronald A.
 type:	civilian
 dob:	1951-05-24
+birthplace:
+  - name:	Warren, Ohio
+    latitude:	41.239521
+    longitude:	-80.815819
 qualifications:
   - BSc in physics
   - MSc in astronomy

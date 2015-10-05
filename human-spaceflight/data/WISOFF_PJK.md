@@ -3,6 +3,10 @@ category:	astronaut
 name:	WISOFF, Peter J. K.
 type:	civilian
 dob:	1958-08-16
+birthplace:
+  - name:	Norfolk, Virginia
+    latitude:	36.846821
+    longitude:	-76.285057
 qualifications:
   - BSc in physics
   - PhD in applied physics

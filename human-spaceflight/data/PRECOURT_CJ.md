@@ -3,6 +3,10 @@ category:	astronaut
 name:	PRECOURT, Charles J.,
 type:	military
 dob:	1955-06-29
+birthplace:
+  - name:	Waltham, Massachusetts
+    latitude:	42.376438
+    longitude:	-71.235321
 qualifications:
   - BSc in aeronautical engineering
   - MSc in engineering management

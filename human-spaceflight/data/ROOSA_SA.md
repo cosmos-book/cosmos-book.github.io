@@ -3,6 +3,10 @@ category:	astronaut
 name:	ROOSA, Stuart A.
 type:	military
 dob:	1933-08-16
+birthplace:
+  - name:	Durango, Colorado
+    latitude:	37.27367
+    longitude:	-107.879303
 qualifications:
   - BSc in aeronautical engineering
 references:

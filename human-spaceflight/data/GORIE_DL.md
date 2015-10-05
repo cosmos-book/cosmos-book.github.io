@@ -3,6 +3,10 @@ category:	astronaut
 name:	GORIE, Dominic L.
 type:	military
 dob:	1957-05-02
+birthplace:
+  - name:	Lake Charles, Louisiana
+    latitude:	30.20978
+    longitude:	-93.203667
 qualifications:
   - BSc in ocean engineering
   - MSc in aviation systems

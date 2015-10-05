@@ -3,6 +3,10 @@ category:	astronaut
 name:	BOLDEN, Charles F., Jr. 
 type:	military
 dob:	1946-08-19
+birthplace:
+  - name:	Columbia, South Carolina
+    latitude:	33.99855
+    longitude:	-81.04525
 qualifications:
   - BSc in electrical science
   - MSc in systems management

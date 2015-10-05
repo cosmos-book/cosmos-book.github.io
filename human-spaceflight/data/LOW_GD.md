@@ -3,6 +3,10 @@ category:	astronaut
 name:	LOW, G. David
 type:	civilian
 dob:	1956-02-19
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - BSc in mechanical engineering
   - MSc in aeronautics & astronautics

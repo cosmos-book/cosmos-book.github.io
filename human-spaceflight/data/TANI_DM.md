@@ -3,6 +3,10 @@ category:	astronaut
 name:	TANI, Daniel M.
 type:	civilian
 dob:	1961-02-01
+birthplace:
+  - name:	Ridley Park, Pennsylvania
+    latitude:	39.8778
+    longitude:	-75.3237
 qualifications:
   - BSc in mechanical engineering
   - MSc in mechanical engineering

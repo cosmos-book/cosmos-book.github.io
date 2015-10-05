@@ -3,6 +3,10 @@ category:	astronaut
 name:	CARPENTER, M. Scott
 type:	military
 dob:	1925-05-01
+birthplace:
+  - name:	Boulder, Colorado
+    latitude:	40.02779
+    longitude:	-105.252487
 qualifications:
   - BSc in aeronautical engineering
 references:

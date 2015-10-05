@@ -3,6 +3,10 @@ category:	astronaut
 name:	CAMERON, Kenneth D.
 type:	military
 dob:	1949-11-29
+birthplace:
+  - name:	Cleveland, Ohio
+    latitude:	41.504749
+    longitude:	-81.69072
 qualifications:
   - MSc in aeronautics & astronautics from MIT Graduated
 references:

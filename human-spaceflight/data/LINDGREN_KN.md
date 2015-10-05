@@ -3,6 +3,10 @@ category:	astronaut
 name:	LINDGREN, Kjell N.
 type:	civilian
 dob:	1973-01-23
+birthplace:
+  - name:	Taipei, Taiwan
+    latitude:	25.086
+    longitude:	121.560997
 twitter:	@astro_kjell
 qualifications:
   - BSc in biology

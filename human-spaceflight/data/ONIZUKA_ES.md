@@ -3,6 +3,10 @@ category:	astronaut
 name:	ONIZUKA, Ellison S.
 type:	military
 dob:	1946-06-24
+birthplace:
+  - name:	Kealakekua, Kona, Hawaii
+    latitude:	19.66115
+    longitude:	-155.952652
 qualifications:
   - BSc in aerospace engineering
   - MSc in aerospace engineering

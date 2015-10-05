@@ -3,6 +3,10 @@ category:	astronaut
 name:	BAGIAN, James P.
 type:	civilian
 dob:	1952-02-22
+birthplace:
+  - name:	Philadelphia, Pennsylvania
+    latitude:	40.007629
+    longitude:	-75.133957
 qualifications:
   - BSc in mechanical engineering
   - Doctor of Medicine

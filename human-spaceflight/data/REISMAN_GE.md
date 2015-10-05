@@ -3,6 +3,10 @@ category:	astronaut
 name:	REISMAN, Garrett E.
 type:	civilian
 dob:	1968-02-10
+birthplace:
+  - name:	Morristown, New Jersey
+    latitude:	40.796741
+    longitude:	-74.477318
 qualifications:
   - BSc in economics
   - MSc in mechanical engineering

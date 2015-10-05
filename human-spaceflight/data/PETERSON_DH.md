@@ -3,6 +3,10 @@ category:	astronaut
 name:	PETERSON, Donald H.
 type:	military
 dob:	1933-10-22
+birthplace:
+  - name:	Winona, Mississippi
+    latitude:	33.483582
+    longitude:	-89.73584
 qualifications:
   - MSc in nuclear engineering
 references:

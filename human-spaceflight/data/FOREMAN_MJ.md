@@ -3,6 +3,10 @@ category:	astronaut
 name:	FOREMAN, Michael J.
 type:	military
 dob:	1957-03-29
+birthplace:
+  - name:	Columbus, Ohio
+    latitude:	39.98914
+    longitude:	-82.985329
 twitter:	@foreman_mike
 qualifications:
   - BSc in aerospace engineering

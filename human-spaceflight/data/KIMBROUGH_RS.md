@@ -3,6 +3,10 @@ category:	astronaut
 name:	KIMBROUGH, Robert Shane
 type:	military
 dob:	1967-06-04
+birthplace:
+  - name:	Killeen, Texas
+    latitude:	31.07946
+    longitude:	-97.734306
 qualifications:
   - BSc in aerospace engineering
   - MSc in operations research

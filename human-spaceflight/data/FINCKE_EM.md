@@ -3,6 +3,10 @@ category:	astronaut
 name:	FINCKE, Edward Michael 'Mike'
 type:	military
 dob:	1967-03-14
+birthplace:
+  - name:	Pittsburgh, Pennsylvania
+    latitude:	40.431301
+    longitude:	-79.980698
 twitter:	@AstroIronMike
 qualifications:
   - BSc in aeronautics & astronautics

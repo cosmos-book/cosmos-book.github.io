@@ -3,6 +3,10 @@ category:	astronaut
 name:	CENKER, Robert
 type:	civilian
 dob:	1948-11-05
+birthplace:
+  - name:	Uniontown, Pennsylvania
+    latitude:	39.8974
+    longitude:	-79.724098
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

@@ -3,6 +3,10 @@ category:	astronaut
 name:	MELVIN, Leland D.
 type:	civilian
 dob:	1964-02-15
+birthplace:
+  - name:	Lynchburg, Virginia
+    latitude:	37.40041
+    longitude:	-79.190987
 twitter:	@Astro_Flow
 qualifications:
   - BSc in chemistry

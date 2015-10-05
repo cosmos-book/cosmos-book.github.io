@@ -3,6 +3,10 @@ category:	astronaut
 name:	CROUCH, Roger K.
 type:	civilian
 dob:	1940-09-12
+birthplace:
+  - name:	Jamestown, Tennessee
+    latitude:	36.431789
+    longitude:	-84.934158
 qualifications:
   - BSc in physics
   - PhD in physics

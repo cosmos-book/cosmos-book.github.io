@@ -3,6 +3,10 @@ category:	astronaut
 name:	PARAZYNSKI, Scott E.
 type:	civilian
 dob:	1961-07-28
+birthplace:
+  - name:	Little Rock, Arkansas
+    latitude:	34.723499
+    longitude:	-92.354233
 qualifications:
   - BSc in biology
   - Doctor of Medicine

@@ -3,6 +3,10 @@ category:	astronaut
 name:	GREGORY, Frederick D.
 type:	military
 dob:	1941-01-07
+birthplace:
+  - name:	Washington D.C.
+    latitude:	38.904758
+    longitude:	-77.016251
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

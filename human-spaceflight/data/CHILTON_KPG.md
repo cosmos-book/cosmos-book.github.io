@@ -3,6 +3,10 @@ category:	astronaut
 name:	CHILTON, Kevin P., General
 type:	military
 dob:	1954-11-03
+birthplace:
+  - name:	Los Angeles, California
+    latitude:	34.053501
+    longitude:	-118.245003
 qualifications:
   - BSc in engineering sciences
   - MSc in mechanical engineering

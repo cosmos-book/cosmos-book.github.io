@@ -3,6 +3,10 @@ category:	astronaut
 name:	POINDEXTER, Alan G.
 type:	military
 dob:	1961-11-05
+birthplace:
+  - name:	Pasadena, California
+    latitude:	34.159409
+    longitude:	-118.138718
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

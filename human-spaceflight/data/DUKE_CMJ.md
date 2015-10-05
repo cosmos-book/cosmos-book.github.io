@@ -3,6 +3,10 @@ category:	astronaut
 name:	DUKE, Charles M., Jr.
 type:	military
 dob:	1935-10-03
+birthplace:
+  - name:	Charlotte, North Carolina
+    latitude:	35.2225
+    longitude:	-80.83754
 qualifications:
   - BSc in naval sciences
   - MSc in aeronautics

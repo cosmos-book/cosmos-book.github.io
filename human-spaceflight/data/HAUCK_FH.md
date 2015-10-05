@@ -3,6 +3,10 @@ category:	astronaut
 name:	HAUCK, Frederick H.
 type:	military
 dob:	1941-04-11
+birthplace:
+  - name:	Long Beach, California
+    latitude:	33.797821
+    longitude:	-118.166832
 qualifications:
   - BSc in physics
   - MSc in nuclear engineering

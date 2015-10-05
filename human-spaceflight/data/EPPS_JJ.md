@@ -3,6 +3,10 @@ category:	astronaut
 name:	EPPS, Jeanette J.
 type:	civilian
 dob:	1970-11-03
+birthplace:
+  - name:	Syracuse, New York
+    latitude:	43.035198
+    longitude:	-76.139297
 twitter:	@Astro_Jeanette
 qualifications:
   - BSc in physics

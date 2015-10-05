@@ -3,6 +3,10 @@ category:	astronaut
 name:	LU, Edward T.
 type:	civilian
 dob:	1963-07-01
+birthplace:
+  - name:	Springfield, Massachusetts
+    latitude:	42.10125
+    longitude:	-72.589287
 qualifications:
   - BSc in electrical engineering
   - PhD in applied physics

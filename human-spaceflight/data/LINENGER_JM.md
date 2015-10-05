@@ -3,6 +3,10 @@ category:	astronaut
 name:	LINENGER, Jerry M.
 type:	military
 dob:	1955-01-16
+birthplace:
+  - name:	Mount Clemens, Michigan
+    latitude:	42.597618
+    longitude:	-82.881912
 qualifications:
   - BSc in bioscience
   - MSc in systems management

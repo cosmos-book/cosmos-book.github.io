@@ -3,6 +3,10 @@ category:	astronaut
 name:	FORD, Kevin A., (Ph.D.)
 type:	military
 dob:	1960-07-07
+birthplace:
+  - name:	Portland, Indiana
+    latitude:	40.43726
+    longitude:	-84.981277
 qualifications:
   - BSc in aerospace engineering
   - MSc in international relations

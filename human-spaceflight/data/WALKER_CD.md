@@ -3,6 +3,10 @@ category:	astronaut
 name:	WALKER, Charles D
 type:	civilian
 dob:	1948-08-29
+birthplace:
+  - name:	Bedford, Indiana
+    latitude:	38.86042
+    longitude:	-86.49025
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

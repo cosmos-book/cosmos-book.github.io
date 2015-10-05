@@ -3,6 +3,10 @@ category:	astronaut
 name:	MASTRACCHIO, Richard A.
 type:	civilian
 dob:	1960-02-11
+birthplace:
+  - name:	Waterbury, Connecticut
+    latitude:	41.558281
+    longitude:	-73.036072
 twitter:	@AstroRM
 qualifications:
   - BSc in electrical engineering and computer science

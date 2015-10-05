@@ -3,6 +3,10 @@ category:	astronaut
 name:	MORGAN, Barbara R.
 type:	civilian
 dob:	1951-11-28
+birthplace:
+  - name:	Fresno, California
+    latitude:	36.78334
+    longitude:	-119.79435
 gender:	Female
 qualifications:
   - BA in human biology

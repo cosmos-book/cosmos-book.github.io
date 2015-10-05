@@ -3,6 +3,10 @@ category:	astronaut
 name:	SWIGERT, John L., Jr.
 type:	civilian
 dob:	1931-08-30
+birthplace:
+  - name:	Denver, Colorado
+    latitude:	39.740002
+    longitude:	-104.991997
 qualifications:
   - BSc in mechanical engineering
   - MSc in aerospace science

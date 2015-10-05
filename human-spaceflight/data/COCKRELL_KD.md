@@ -3,6 +3,10 @@ category:	astronaut
 name:	COCKRELL, Kenneth D.
 type:	military
 dob:	1950-04-09
+birthplace:
+  - name:	Austin, Texas
+    latitude:	30.30637
+    longitude:	-97.752762
 qualifications:
   - BSc in mechanical engineering
   - MSc in aeronautical systems

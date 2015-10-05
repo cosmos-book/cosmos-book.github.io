@@ -4,6 +4,10 @@ name:	CLEAVE, Mary L.
 type:	civilian
 dob:	1947-02-05
 gender:	Female
+birthplace:
+  - name:	Southampton, New York
+    latitude:	40.8708
+    longitude:	-72.4123
 qualifications:
   - BSc in biological sciences
   - MSc in microbial ecology

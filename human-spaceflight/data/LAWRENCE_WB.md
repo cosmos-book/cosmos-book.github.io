@@ -3,6 +3,10 @@ category:	astronaut
 name:	LAWRENCE, Wendy B.
 type:	military
 dob:	1959-07-02
+birthplace:
+  - name:	Jacksonville, Florida
+    latitude:	30.332251
+    longitude:	-81.674782
 gender:	Female
 qualifications:
   - BSc in ocean engineering

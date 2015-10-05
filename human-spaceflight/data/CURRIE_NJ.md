@@ -3,6 +3,10 @@ category:	astronaut
 name:	CURRIE, Nancy J. (Sherlock), (Ph.D.) 
 type:	military
 dob:	1958-12-29
+birthplace:
+  - name:	Wilmington, Delaware
+    latitude:	39.734951
+    longitude:	-75.528412
 gender:	Female
 qualifications:
   - BA in biological science

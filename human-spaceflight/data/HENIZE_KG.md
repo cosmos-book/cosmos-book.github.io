@@ -3,6 +3,10 @@ category:	astronaut
 name:	HENIZE, Karl G.
 type:	civilian
 dob:	1926-10-17
+birthplace:
+  - name:	Cincinnati, Ohio
+    latitude:	39.14127
+    longitude:	-84.505188
 qualifications:
   - BA in mathematics
   - MA in astronomy

@@ -3,6 +3,10 @@ category:	astronaut
 name:	NYBERG, Karen L.
 type:	civilian
 dob:	1969-10-07
+birthplace:
+  - name:	Parker’s Prairie, Minnesota
+    latitude:	46.093498
+    longitude:	-94.5149
 gender:	Female
 twitter:	@AstroKarenN
 qualifications:

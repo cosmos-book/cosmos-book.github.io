@@ -3,6 +3,10 @@ category:	astronaut
 name:	FABIAN, John M.
 type:	military
 dob:	1939-01-28
+birthplace:
+  - name:	Goose Creek, Texas
+    latitude:	29.73386
+    longitude:	-94.965508
 qualifications:
   - BSc in mechanical engineering
   - MSc in aerospace engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	MATTINGLY, Thomas K., II
 type:	military
 dob:	1936-03-17
+birthplace:
+  - name:	Chicago, Illinois
+    latitude:	41.884151
+    longitude:	-87.632408
 qualifications:
   - BSc in aeronautical engineering
 references:

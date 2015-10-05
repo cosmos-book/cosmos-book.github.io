@@ -3,6 +3,10 @@ category:	astronaut
 name:	GODWIN, Linda M.
 type:	civilian
 dob:	1952-07-02
+birthplace:
+  - name:	Cape Girardeau, Missouri
+    latitude:	37.309479
+    longitude:	-89.55806
 gender:	Female
 qualifications:
   - BSc in mathematics & physics

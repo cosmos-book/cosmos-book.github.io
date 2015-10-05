@@ -3,6 +3,10 @@ category:	astronaut
 name:	CLARK, Laurel B.
 type:	military
 dob:	1961-03-10
+birthplace:
+  - name:	Ames, Iowa
+    latitude:	42.025551
+    longitude:	-93.627487
 gender:	Female
 qualifications:
   - BSc in Zoology

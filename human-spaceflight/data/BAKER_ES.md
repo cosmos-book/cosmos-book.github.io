@@ -4,6 +4,10 @@ name:	BAKER, Ellen S. (M.D.)
 type:	civilian
 dob:	1953-04-27
 gender:	Female
+birthplace:
+  - name:	Fayetteville, North Carolina
+    latitude:	35.061619
+    longitude:	-78.954002
 qualifications:
   - BA in geology
   - Doctor of Medicine

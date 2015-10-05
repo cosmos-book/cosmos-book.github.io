@@ -3,6 +3,10 @@ category:	astronaut
 name:	WALKER, David M.
 type:	military
 dob:	1944-05-20
+birthplace:
+  - name:	Columbus, Georgia
+    latitude:	32.462921
+    longitude:	-84.987633
 qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf

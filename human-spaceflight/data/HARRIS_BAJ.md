@@ -3,6 +3,10 @@ category:	astronaut
 name:	HARRIS, Bernard A., Jr.
 type:	civilian
 dob:	1956-06-26
+birthplace:
+  - name:	Temple, Texas
+    latitude:	31.097469
+    longitude:	-97.343033
 qualifications:
   - BSc in biology
   - Doctor of Medicine

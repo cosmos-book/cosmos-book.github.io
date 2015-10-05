@@ -3,6 +3,10 @@ category:	astronaut
 name:	MELROY, Pamela A.
 type:	military
 dob:	1961-09-17
+birthplace:
+  - name:	Palo Alto, California
+    latitude:	37.391861
+    longitude:	-122.146919
 gender:	Female
 qualifications:
   - BSc in physics & astronomy

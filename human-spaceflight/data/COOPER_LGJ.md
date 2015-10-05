@@ -3,6 +3,10 @@ category:	astronaut
 name:	COOPER, L. Gordon, Jr.
 type:	military
 dob:	1927-03-06
+birthplace:
+  - name:	Shawnee, Oklahoma
+    latitude:	35.332039
+    longitude:	-96.924828
 qualifications:
   - BSc in aeronautical engineering
 references:

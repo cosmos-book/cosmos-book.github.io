@@ -3,6 +3,10 @@ category:	astronaut
 name:	ADAMSON, James C.
 type:	military
 dob:	1946-03-03
+birthplace:
+  - name:	Warsaw, New York
+    latitude:	42.742802
+    longitude:	-78.141403
 country:
   - USA
 gender:	Male

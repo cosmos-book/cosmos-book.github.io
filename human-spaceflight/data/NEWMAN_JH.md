@@ -3,6 +3,10 @@ category:	astronaut
 name:	NEWMAN, James H.
 type:	civilian
 dob:	1956-10-16
+birthplace:
+  - name:	Trust Territory, Pacific Islands
+    latitude:	6.8848
+    longitude:	158.223145
 qualifications:
   - BA in physics
   - MA in physics

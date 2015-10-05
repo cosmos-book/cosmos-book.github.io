@@ -3,6 +3,10 @@ category:	astronaut
 name:	BAKER, Michael A.
 type:	military
 dob:	1953-10-27
+birthplace:
+  - name:	Memphis, Tennessee
+    latitude:	35.149681
+    longitude:	-90.04892
 qualifications:
   - BSc in aerospace engineering
 references:

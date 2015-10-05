@@ -3,6 +3,10 @@ category:	astronaut
 name:	LINNEHAN, Richard M.
 type:	civilian
 dob:	1957-09-19
+birthplace:
+  - name:	Lowell, Massachusetts
+    latitude:	42.645889
+    longitude:	-71.312843
 qualifications:
   - Doctor of Veterinary Medicine
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	GARRIOTT, Owen K.
 type:	civilian
 dob:	1930-11-22
+birthplace:
+  - name:	Enid, Oklahoma
+    latitude:	36.397228
+    longitude:	-97.878342
 qualifications:
   - BSc in electrical engineering
   - PhD in electrical engineering

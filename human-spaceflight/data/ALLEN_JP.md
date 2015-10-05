@@ -3,6 +3,10 @@ category:	astronaut
 name:	ALLEN, Joseph P.
 type:	civilian
 dob:	1937-06-27
+birthplace:
+  - name:	Crawfordsville, Indiana
+    latitude:	40.04388
+    longitude:	-86.896339
 qualifications:
   - BA in mathematics and physics
   - PhD in physics

@@ -3,6 +3,10 @@ category:	astronaut
 name:	SMITH, Steven L.
 type:	civilian
 dob:	1958-12-30
+birthplace:
+  - name:	Phoenix, Arizona
+    latitude:	33.558311
+    longitude:	-112.08075
 qualifications:
   - BSc in electrical engineering
   - MSc in electrical engineering

@@ -3,6 +3,10 @@ category:	astronaut
 name:	SULLIVAN, Kathryn D.
 type:	civilian
 dob:	1951-10-03
+birthplace:
+  - name:	Paterson, New Jersey
+    latitude:	40.914761
+    longitude:	-74.162033
 qualifications:
   - BSc in earth sciences
   - MSc in earth sciences

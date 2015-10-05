@@ -3,6 +3,10 @@ category:	astronaut
 name:	HOFFMAN, Jeffrey A.
 type:	civilian
 dob:	1944-11-02
+birthplace:
+  - name:	Brooklyn, New York
+    latitude:	40.655071
+    longitude:	-73.948883
 qualifications:
   - BA in astronomy
   - PhD in astrophysics

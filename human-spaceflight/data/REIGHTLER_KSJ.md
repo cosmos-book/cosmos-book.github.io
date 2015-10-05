@@ -3,6 +3,10 @@ category:	astronaut
 name:	REIGHTLER, Kenneth S., Jr.
 type:	military
 dob:	1951-03-24
+birthplace:
+  - name:	Patuxent River, Maryland
+    latitude:	38.267319
+    longitude:	-76.449692
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

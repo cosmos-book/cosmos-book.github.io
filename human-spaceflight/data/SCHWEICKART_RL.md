@@ -3,6 +3,10 @@ category:	astronaut
 name:	SCHWEICKART, Russell L.
 type:	civilian
 dob:	1935-10-25
+birthplace:
+  - name:	Neptune, New Jersey
+    latitude:	40.209709
+    longitude:	-74.035858
 qualifications:
   - MSc in aeronautics & astronautics
 references:
