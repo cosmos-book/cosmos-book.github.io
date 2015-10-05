@@ -57,6 +57,7 @@ $(document).ready(function(){
 	function parseIt(data){
 	
 		var now = new Date();
+		var updatedate = new Date('1900-01-01T00:00:00Z');
 		var d,time,longest,launch,land,tmp;
 		for(name in data) {
 			tmp = {};
@@ -79,7 +80,10 @@ $(document).ready(function(){
 					time += d;
 					if(d > longest) longest = d;
 				}
-				if(launch) tmp.launches++;
+				if(launch){
+					tmp.launches++;
+					if(launch > updatedate) updatedate = launch;
+				}
 
 				if(tmp.missions) tmp.missions += ";";
 				tmp.missions += data[name].mission[m].names;
@@ -105,6 +109,9 @@ $(document).ready(function(){
 		for(var i = 0; i < astronauts.length; i++){
 			astronauts[i].id = i;
 		}
+
+		// Update the date
+		$('.update').html(updatedate.toISOString().substr(0,10));
 
 		updateAstronauts();
 
@@ -137,8 +144,13 @@ $(document).ready(function(){
 		// We can hide the loader/spinner as everything seems to be OK
 		$('.loader').hide();
 
+		// Update stats every 10 minutes
+		setInterval(function(){
+			updateAstronauts();
+			updateStats();
+		},600000);
+		
 		return;
-
 	}
 
 	// Update all the astronauts
@@ -169,6 +181,7 @@ $(document).ready(function(){
 			if(!totals[c]) totals[c] = 0;
 			totals[c]++;
 		}
+
 		var mn = 1e9;
 		$('.stats').append('<div class="human"></div>');
 		var w = $('.stats .human').outerWidth();
