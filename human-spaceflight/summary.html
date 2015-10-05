@@ -55,7 +55,10 @@
 	.topbox ul { margin-bottom: 0; }
 	.stats table { width: 100%; }
 	.stats table th { font-family: "Source Code Pro", monospace, sans-serif; font-weight: 500; font-size: 1.2em; }
-	.stats table td { vertical-align: top; }
+	.stats table td { vertical-align: top; color: black; }
+	.stats table td a { color: inherit; }
+	.stats table td a:visited { color: inherit; }
+	.stats table tr.hasdata { cursor: pointer; }
 	.stats table.total_category td:first-child { text-align: right;  padding-right: 0.5em; }
 	.stats table.total_category td:last-child { padding-right: 1em; }
 	.stats table td .bar { height: 1.2em; }
@@ -74,6 +77,7 @@
 	
 	.panel { width: 25%; display: inline-block; vertical-align: top; padding-top: 1.5em; }
 	.panel table { width: 95%; }
+	.panel:nth-child(4n) table { width: 100%; }
 	.panel table tr:hover > td { background-color: #fdcc9c; }
 	.panel table td,.panel table th { padding: 0.25em; }
 	.panel table td:last-child,.panel table th:nth-child(2n+0) { text-align: right; }
@@ -85,8 +89,8 @@
 
 	@media only screen and (max-width: 1024px){
 		.panel { width: 50%; display: inline-block; }
-		.panel table { width: 98%; }
-		.panel:nth-child(2n+1) table { float: right; }
+		.panel:nth-child(4n) table, .panel table { width: 98%; }
+		.panel:nth-child(2n) table { float: right; }
 		.columns { display: block; }
 		.column { display: block; width:100%; }
 		.stats table.total_category td:last-child { padding-right: 0em; }
@@ -95,7 +99,7 @@
 	@media only screen and (max-width: 600px){
 		.panel { width: 100%; display: inline-block; }
 		.panel table { width: 100%; }
-		.panel:nth-child(2n+1) table { float: none; }
+		.panel:nth-child(2n) table { float: none; }
 	}
 	</style>
 	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
@@ -233,137 +237,139 @@
 								</table>
 							</div>
 						</div>
-						<div class="panel">
-							<div class="big number">7</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Most launches</th></tr>
-								<tr><td><a href="#" class="human astronaut"></a> CHANG-DIAZ</td><td>7</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> ROSS</td><td>7</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> BROWN</td><td>6</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> FOALE</td><td>6</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>6</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> WETHERBEE</td><td>6</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> YOUNG</td><td>6</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> BLAHA</td><td>5</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> BOWERSOX</td><td>5</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> COCKRELL</td><td>5</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">878.5 days</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Most time in space</th></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> PADALKA</td><td>878.5 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>803.4 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KALERI</td><td>769.3 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> AVDEYEV</td><td>747.6 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> POLYAKOV</td><td>678.7 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>651.0 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> MALENCHENKO</td><td>640.5 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> AFANASYEV</td><td>555.8 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> VINOGRADOV</td><td>546.9 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> MANAROV</td><td>541.0 days</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">437.7 days</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2"><a href="timeline.html">Longest single trip</a></th></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> POLYAKOV</td><td>437.7 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> AVDEYEV</td><td>379.6 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> MANAROV</td><td>365.9 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> TITOV</td><td>365.9 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> ROMANENKO</td><td>326.5 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>311.8 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> ATKOV</td><td>237.0 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KIZIM</td><td>237.0 days</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>237.0 days</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> LOPEZ-ALEGRIA</td><td>215.3 days</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">68h 44m</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Most EVA</th></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>68h 44m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> LOPEZ-ALEGRIA</td><td>67h 40m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> GRUNSFELD</td><td>58h 30m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> ROSS</td><td>58h 18m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> MASTRACCHIO</td><td>53h 4m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> WILLIAMS</td><td>50h 40m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> FINCKE</td><td>48h 37m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> FOSSUM</td><td>48h 32m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> BOWEN</td><td>47h 18m</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> PARAZYNSKI</td><td>47h 5m</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">25</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Youngest in space</th></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> TITOV</td><td>25</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> TERESHKOVA</td><td>26</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> YEGOROV</td><td>26</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> GAGARIN</td><td>27</td></tr>
-								<tr><td><a href="#" class="human international"></a> SHARMAN</td><td>27</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> WILLIAMS</td><td>27</td></tr>
-								<tr><td><a href="#" class="human international"></a> AL-SAUD</td><td>28</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> BYKOVSKY</td><td>28</td></tr>
-								<tr><td><a href="#" class="human international"></a> PRUNARIU</td><td>28</td></tr>
-								<tr><td><a href="#" class="human commercial tourist"></a> SHUTTLEWORTH</td><td>28</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">77</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Oldest in space</th></tr>
-								<tr><td><a href="#" class="human astronaut"></a> GLENN</td><td>77</td></tr>
-								<tr><td><a href="#" class="human commercial"></a> MELVILL</td><td>63</td></tr>
-								<tr><td><a href="#" class="human commercial tourist"></a> OLSEN</td><td>60</td></tr>
-								<tr><td><a href="#" class="human commercial tourist"></a> SIMONYI</td><td>60</td></tr>
-								<tr><td><a href="#" class="human commercial tourist"></a> TITO</td><td>60</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> VINOGRADOV</td><td>60</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> BRAND</td><td>59</td></tr>
-								<tr><td><a href="#" class="human international"></a> CHRÉTIEN</td><td>59</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> HENIZE</td><td>58</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> RYUMIN</td><td>58</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<div class="big number">1980-01-27</div>
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2">Most recent birth date</th></tr>
-								<tr><td><a href="#" class="human taikonaut"></a> WANG</td><td>1980-01-27</td></tr>
-								<tr><td><a href="#" class="human taikonaut"></a> LIU</td><td>1978-10-06</td></tr>
-								<tr><td><a href="#" class="human international"></a> YI</td><td>1978-06-02</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> MISURKIN</td><td>1977-09-23</td></tr>
-								<tr><td><a href="#" class="human international"></a> CRISTOFORETTI</td><td>1977-04-26</td></tr>
-								<tr><td><a href="#" class="human international"></a> MOGENSEN</td><td>1976-11-02</td></tr>
-								<tr><td><a href="#" class="human international"></a> PARMITANO</td><td>1976-09-27</td></tr>
-								<tr><td><a href="#" class="human international"></a> GERST</td><td>1976-05-03</td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> SEROVA</td><td>1976-04-22</td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> WISEMAN</td><td>1975-11-11</td></tr>
-							</tbody>
-							</table>
-						</div><div class="panel">
-							<table class="longest">
-							<tbody>
-								<tr><th colspan="2"><a href="who.html">Currently in space</a></th></tr>
-								<tr><td><a href="#" class="human astronaut"></a> KELLY, Scott J.</td><td></td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KONONENKO, Oleg Dmitriyevich</td><td></td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> KORNIYENKO, Mikhail Borisovich</td><td></td></tr>
-								<tr><td><a href="#" class="human astronaut"></a> LINDGREN, Kjell N.</td><td></td></tr>
-								<tr><td><a href="#" class="human cosmonaut"></a> VOLKOV, Sergei Aleksandrovich</td><td></td></tr>
-								<tr><td><a href="#" class="human international"></a> YUI, Kimiya</td><td></td></tr>
-							</tbody>
-							</table>
+						<div class="panels">
+							<div class="panel">
+								<div class="big number">7</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Most launches</th></tr>
+									<tr><td><a href="data/CHANG-DIAZ_FR.md" class="human astronaut"></a> CHANG-DIAZ</td><td>7</td></tr>
+									<tr><td><a href="data/ROSS_JL.md" class="human astronaut"></a> ROSS</td><td>7</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> BROWN</td><td>6</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> FOALE</td><td>6</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>6</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> WETHERBEE</td><td>6</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> YOUNG</td><td>6</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> BLAHA</td><td>5</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> BOWERSOX</td><td>5</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> COCKRELL</td><td>5</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">878.5 days</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Most time in space</th></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> PADALKA</td><td>878.5 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>803.4 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KALERI</td><td>769.3 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> AVDEYEV</td><td>747.6 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> POLYAKOV</td><td>678.7 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>651.0 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> MALENCHENKO</td><td>640.5 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> AFANASYEV</td><td>555.8 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> VINOGRADOV</td><td>546.9 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> MANAROV</td><td>541.0 days</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">437.7 days</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2"><a href="timeline.html">Longest single trip</a></th></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> POLYAKOV</td><td>437.7 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> AVDEYEV</td><td>379.6 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> MANAROV</td><td>365.9 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> TITOV</td><td>365.9 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> ROMANENKO</td><td>326.5 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KRIKALYOV</td><td>311.8 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> ATKOV</td><td>237.0 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KIZIM</td><td>237.0 days</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>237.0 days</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> LOPEZ-ALEGRIA</td><td>215.3 days</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">68h 44m</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Most <dfn title="Extra-vehicular activity - space walks">EVA</dfn></th></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> SOLOVIYOV</td><td>68h 44m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> LOPEZ-ALEGRIA</td><td>67h 40m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> GRUNSFELD</td><td>58h 30m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> ROSS</td><td>58h 18m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> MASTRACCHIO</td><td>53h 4m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> WILLIAMS</td><td>50h 40m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> FINCKE</td><td>48h 37m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> FOSSUM</td><td>48h 32m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> BOWEN</td><td>47h 18m</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> PARAZYNSKI</td><td>47h 5m</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">25</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Youngest in space</th></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> TITOV</td><td>25</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> TERESHKOVA</td><td>26</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> YEGOROV</td><td>26</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> GAGARIN</td><td>27</td></tr>
+									<tr><td><a href="#" class="human international"></a> SHARMAN</td><td>27</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> WILLIAMS</td><td>27</td></tr>
+									<tr><td><a href="#" class="human international"></a> AL-SAUD</td><td>28</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> BYKOVSKY</td><td>28</td></tr>
+									<tr><td><a href="#" class="human international"></a> PRUNARIU</td><td>28</td></tr>
+									<tr><td><a href="#" class="human commercial tourist"></a> SHUTTLEWORTH</td><td>28</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">77</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Oldest in space</th></tr>
+									<tr><td><a href="#" class="human astronaut"></a> GLENN</td><td>77</td></tr>
+									<tr><td><a href="#" class="human commercial"></a> MELVILL</td><td>63</td></tr>
+									<tr><td><a href="#" class="human commercial tourist"></a> OLSEN</td><td>60</td></tr>
+									<tr><td><a href="#" class="human commercial tourist"></a> SIMONYI</td><td>60</td></tr>
+									<tr><td><a href="#" class="human commercial tourist"></a> TITO</td><td>60</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> VINOGRADOV</td><td>60</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> BRAND</td><td>59</td></tr>
+									<tr><td><a href="#" class="human international"></a> CHRÉTIEN</td><td>59</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> HENIZE</td><td>58</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> RYUMIN</td><td>58</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<div class="big number">1980-01-27</div>
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2">Most recent birth date</th></tr>
+									<tr><td><a href="#" class="human taikonaut"></a> WANG</td><td>1980-01-27</td></tr>
+									<tr><td><a href="#" class="human taikonaut"></a> LIU</td><td>1978-10-06</td></tr>
+									<tr><td><a href="#" class="human international"></a> YI</td><td>1978-06-02</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> MISURKIN</td><td>1977-09-23</td></tr>
+									<tr><td><a href="#" class="human international"></a> CRISTOFORETTI</td><td>1977-04-26</td></tr>
+									<tr><td><a href="#" class="human international"></a> MOGENSEN</td><td>1976-11-02</td></tr>
+									<tr><td><a href="#" class="human international"></a> PARMITANO</td><td>1976-09-27</td></tr>
+									<tr><td><a href="#" class="human international"></a> GERST</td><td>1976-05-03</td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> SEROVA</td><td>1976-04-22</td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> WISEMAN</td><td>1975-11-11</td></tr>
+								</tbody>
+								</table>
+							</div><div class="panel">
+								<table class="longest">
+								<tbody>
+									<tr><th colspan="2"><a href="who.html">Currently in space</a></th></tr>
+									<tr><td><a href="#" class="human astronaut"></a> KELLY, Scott J.</td><td></td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KONONENKO, Oleg Dmitriyevich</td><td></td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> KORNIYENKO, Mikhail Borisovich</td><td></td></tr>
+									<tr><td><a href="#" class="human astronaut"></a> LINDGREN, Kjell N.</td><td></td></tr>
+									<tr><td><a href="#" class="human cosmonaut"></a> VOLKOV, Sergei Aleksandrovich</td><td></td></tr>
+									<tr><td><a href="#" class="human international"></a> YUI, Kimiya</td><td></td></tr>
+								</tbody>
+								</table>
+							</div>
 						</div>
 <!--
 						<div class="columns js-only">
@@ -385,8 +391,8 @@
 		<footer id="footer">
 			<div class="padder">
 					For the book we collated data about everyone who has been to space<a href="#footnote">*</a> and we will aim to keep up-to-date here. 
-					You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/" id="datadir">data for each individual astronaut on Github</a> or get <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">all the astronauts as tab-separated values</a> or <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="json">JSON</a> if you prefer. 
-					Please <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">let us know if you spot mistakes</a> or, even better, fix it for yourself in the repository and <a href="https://github.com/cosmos-book/cosmos-book.github.io/pulls">submit a pull request</a>. 
+					You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/" id="datadir">data for each individual astronaut on Github</a> or, if you prefer, get <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">all the astronaut data as tab-separated values</a>/<a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="json">JSON</a>. 
+					Please <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">let us know if you spot mistakes</a> or, even better, fix it for yourself in the <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository</a> and <a href="https://github.com/cosmos-book/cosmos-book.github.io/pulls">submit a pull request</a>. 
 					Data were compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
 			</div>
 		</footer>

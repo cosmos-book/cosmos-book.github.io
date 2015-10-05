@@ -112,7 +112,7 @@ $(document).ready(function(){
 		
 		// Set up the tooltip
 		tooltip({
-			'elements':$('.human'),
+			'elements':$('.hasdata'),
 			'html':function(){
 				var id = parseInt($(this).attr('data-id'));
 				for(var i = 0; i < astronauts.length; i++){ if(astronauts[i].id==id) break; }
@@ -124,7 +124,7 @@ $(document).ready(function(){
 				text += '<tr><td>Age at first launch:<\/td><td>'+a.firstlaunch_age+' years<\/td><\/tr>';
 				text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
 				text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days.toFixed(2)+' days<\/td><\/tr>';
-				if(a.time_eva > 0) text += '<tr><td>Total EVA:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+'h '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+'m<\/td><\/tr>';
+				if(a.time_eva > 0) text += '<tr><td>Total <dfn title="Extra-vehicular activity - space walks">EVA</dfn>:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+'h '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+'m<\/td><\/tr>';
 				text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
 				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter.substr(1)+'">'+a.twitter+'</a><\/td><\/tr>';
 				if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
@@ -182,7 +182,7 @@ $(document).ready(function(){
 			if(totals[categories[c]]){
 				output += '<tr><td class="number">'+totals[categories[c]]+'</td><td>';// style="width:'+(100/categories.length)+'%;">'//<div class="humans" style="width:'+s+'px;height:'+s+'px;">';
 				for(var i = 0; i < astronauts.length; i++){
-					if(astronauts[i].category.indexOf(categories[c])==0) output += '<a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>'
+					if(astronauts[i].category.indexOf(categories[c])==0) output += '<a href="'+dir+astronauts[i].file+'" class="human hasdata '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>'
 				}
 				output += '</td></tr>'
 			}
@@ -247,7 +247,7 @@ $(document).ready(function(){
 		$('table.birth_split').html(output);
 
 		function makeRow(i,v){
-			return '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
+			return '<tr class="hasdata" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><td><a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
 		}
 		function makePanel(attr){
 			var title = attr.title;
@@ -266,7 +266,7 @@ $(document).ready(function(){
 			if(title.indexOf("Currently in space")>=0){
 				for(var i = 0; i < astronauts.length; i++){
 					if(astronauts[i].inspaceasof != null){
-						output += '<tr><td><a href="#" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name+'</td><td></td></tr>';
+						output += '<tr class="hasdata" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><td><a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'"><\/a> '+astronauts[i].name+'</td><td></td></tr>';
 					}
 				}
 			}else{
@@ -306,7 +306,7 @@ $(document).ready(function(){
 
 		// Longest EVA
 		output += makePanel({
-			'title':'Most EVA',
+			'title':'Most EVA/space-walk',
 			'value': function(i){ return parseInt(astronauts[i].eva_string.substr(0,astronauts[i].eva_string.lastIndexOf(":")))+'h '+parseInt(astronauts[i].eva_string.substr(astronauts[i].eva_string.lastIndexOf(":")+1))+'m'; },
 			'sort':'time_eva',
 			'reverse':true
@@ -342,10 +342,10 @@ $(document).ready(function(){
 		});
 
 		// Remove the existing panels
-		$('.stats .panel').remove();
+		$('.stats .panels').remove();
 
 		// Add the new panels
-		$('.stats').append(output);
+		$('.stats').append('<div class="panels">'+output+'</div>');
 		
 	}
 })
