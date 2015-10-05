@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	ANSARI, Anousheh
 type:	civilian
 dob:	1966-09-22
+birthplace:
+  - name:	Mashhad, Iran
+    latitude:	36.290058
+    longitude:	59.596851
 country:
   - USA
   - IRN

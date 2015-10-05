@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ARTEMYEV, Oleg Germanovich
 type:	civilian
 dob:	1970-12-28
+birthplace:
+  - name:	Riga, Latvia
+    latitude:	56.945999
+    longitude:	24.114901
 country:
   - RUS
 references:

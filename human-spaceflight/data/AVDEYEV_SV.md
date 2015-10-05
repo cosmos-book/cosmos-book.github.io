@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	AVDEYEV, Sergei Vasiliyevich
 type:	civilian
 dob:	1956-01-01
+birthplace:
+  - name:	Chapayevsk, Russia
+    latitude:	52.983971
+    longitude:	49.703369
 country:
   - URS
 references:

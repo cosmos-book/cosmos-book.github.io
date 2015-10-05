@@ -3,6 +3,10 @@ category:	international
 name:	ALEKSANDROV, Aleksandr Panayatov 'Sasha'
 type:	military
 dob:	1951-12-01
+birthplace:
+  - name:	Omurtag, Bulgaria
+    latitude:	43.11647
+    longitude:	26.421789
 country:
   - BGR
 references:

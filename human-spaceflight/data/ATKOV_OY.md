@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ATKOV, Oleg Yuriyevich
 type:	civilian
 dob:	1949-05-09
+birthplace:
+  - name:	Khvorostyanka, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

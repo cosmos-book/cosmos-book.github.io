@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BATURIN, Yuri Mikhailovich
 type:	military
 dob:	1949-06-12
+birthplace:
+  - name:	Moscow, Soviet Union
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - RUS
 qualifications:

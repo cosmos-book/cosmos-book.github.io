@@ -3,6 +3,10 @@ category:	international
 name:	BAUDRY, Patrick Pierre Roger
 type:	military
 dob:	1946-03-06
+birthplace:
+  - name:	Douala, French Cameroons
+    latitude:	4.04748
+    longitude:	9.70637
 country:
   - FRA
 references:

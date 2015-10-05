@@ -3,6 +3,10 @@ category:	commercial
 name:	BINNIE, Brian
 type:	civilian
 dob:	1953
+birthplace:
+  - name:	West Lafayette, Indiana
+    latitude:	40.45573
+    longitude:	-86.91362
 gender:	Male
 qualifications:
   - BSc aerospace engineering

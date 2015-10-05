@@ -3,6 +3,10 @@ category:	international
 name:	CHRÉTIEN, Jean-Loup Jacques Marie
 type:	military
 dob:	1938-08-20
+birthplace:
+  - name:	La Rochelle, France
+    latitude:	46.16008
+    longitude:	-1.16984
 country:
   - FRA
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BEREGOVOY, Georgi Timofeyevich
 type:	military
 dob:	1921-04-15
+birthplace:
+  - name:	Fedorivka, Poltava Oblast, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

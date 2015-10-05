@@ -3,6 +3,10 @@ category:	international
 name:	AL-SAUD, Sultan bin Salman bin Abdulaziz
 type:	military
 dob:	1956-06-27
+birthplace:
+  - name:	Riyadh, Saudi Arabia
+    latitude:	24.64732
+    longitude:	46.714581
 country:
   - SAU
 references:

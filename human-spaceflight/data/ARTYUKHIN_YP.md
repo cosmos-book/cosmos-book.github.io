@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ARTYUKHIN, Yuri Petrovich
 type:	military
 dob:	1930-06-22
+birthplace:
+  - name:	Pershutino, Moscow Oblast, Russia
+    latitude:	56.328011
+    longitude:	36.663528
 country:
   - URS
 references:

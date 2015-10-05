@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ARTSEBARSKY, Anatoli Pavlovich
 type:	military
 dob:	1956-09-09
+birthplace:
+  - name:	Prosyanaya, Ukrainian SSR
+    latitude:	48.122581
+    longitude:	36.37513
 country:
   - URS
 references:

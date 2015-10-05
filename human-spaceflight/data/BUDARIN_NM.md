@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BUDARIN, Nikolai Mikhailovich
 type:	civilian
 dob:	1953-04-29
+birthplace:
+  - name:	Kirya, Chuvashia
+    latitude:	55.081188
+    longitude:	46.861382
 country:
   - URS
 qualifications:

@@ -3,6 +3,10 @@ category:	international
 name:	BELLA, Ivan
 type:	military
 dob:	1964-05-25
+birthplace:
+  - name:	Brezno, Czechoslovakia 
+    latitude:	48.802212
+    longitude:	19.642151
 country:
   - SVK
 references:

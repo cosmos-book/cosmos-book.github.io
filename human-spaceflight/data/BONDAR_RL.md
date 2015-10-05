@@ -3,6 +3,10 @@ category:	international
 name:	BONDAR, Roberta Lynn
 type:	civilian
 dob:	1945-12-04
+birthplace:
+  - name:	Sault Ste. Marie, Ontario, Canada
+    latitude:	46.536819
+    longitude:	-84.33062
 gender:	Female
 country:
   - CAN

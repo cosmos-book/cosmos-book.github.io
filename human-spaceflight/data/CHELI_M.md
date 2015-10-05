@@ -3,6 +3,10 @@ category:	international
 name:	CHELI, Maurizio
 type:	military
 dob:	1959-05-04
+birthplace:
+  - name:	Modena, Italy
+    latitude:	44.644699
+    longitude:	10.92657
 country:
   - ITA
 references:

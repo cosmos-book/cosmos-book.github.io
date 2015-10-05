@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BELYAYEV, Pavel Ivanovich
 type:	military
 dob:	1925-06-26
+birthplace:
+  - name:	Chelishchevo, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

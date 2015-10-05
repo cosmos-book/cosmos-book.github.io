@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BEREZOVOY, Anatoli Nikolayevich
 type:	military
 dob:	1942-04-11
+birthplace:
+  - name:	Enem, RSFSR, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

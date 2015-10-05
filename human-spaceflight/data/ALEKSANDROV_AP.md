@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ALEKSANDROV, Aleksandr Pavlovich 
 type:	civilian
 dob:	1943-02-20
+birthplace:
+  - name:	Moscow, Soviet Union
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 gender:	Male

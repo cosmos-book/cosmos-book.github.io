@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BYKOVSKY, Valeri Fyodorovich
 type:	military
 dob:	1934-08-02
+birthplace:
+  - name:	Pavlovsky Posad, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 qualifications:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BALANDIN, Aleksandr Nikolayevich
 type:	civilian
 dob:	1953-07-30
+birthplace:
+  - name:	Moscow Oblast, Russian SFSR
+    latitude:	55.608398
+    longitude:	38.9235
 country:
   - URS
 references:

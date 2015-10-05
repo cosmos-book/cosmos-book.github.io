@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	BORISENKO, Andrei Ivanovich
 type:	military
 dob:	1964-04-17
+birthplace:
+  - name:	Leningrad, Russia
+    latitude:	59.922329
+    longitude:	30.22241
 country:
   - RUS
 references:
