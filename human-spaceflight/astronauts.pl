@@ -296,9 +296,17 @@ foreach $file (sort(@files)){
 
 }
 
-foreach $my (keys(%allmissions)){
-#	print "$my = $allmissions{$my}{'launch'}\n";
+$html = "{\n";
+foreach $my (sort{ $allmissions{$a}{'launch'} <=> $allmissions{$b}{'launch'} } keys(%allmissions)){
+	if($my){
+		$html .= "\t\"$my\": { \"launch\":\"$allmissions{$my}{'launch'}\",\"land\":\"$allmissions{$my}{'land'}\" },\n";
+	}
 }
+$html =~ s/\,\n$/\n/g;
+$html .= "}\n";
+open(FILE,">",$procdir."missions.json");
+print FILE "$html";
+close(FILE);
 
 $json =~ s/\,$//;
 $json = "{$json}\n";
