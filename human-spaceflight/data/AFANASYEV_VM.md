@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	AFANASYEV, Viktor Mikhailovich
 type:	military
 dob:	1948-12-31
+birthplace:
+  - name:	Bryansk, Russian SFSR
+    latitude:	53.2733
+    longitude:	34.348351
 country:
   - SOV
 gender:	Male

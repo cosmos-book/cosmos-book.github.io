@@ -3,6 +3,10 @@ category:	international
 name:	AIMBETOV, Aidyn Akanovich
 type:	civilian
 dob:	1972-07-27
+birthplace:
+  - name:	Kolkhoz, Kazakhstan
+    latitude:	47.999249
+    longitude:	66.90229
 country:
   - KAZ
 references:

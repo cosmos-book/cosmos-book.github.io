@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	AKSYONOV, Vladimir Viktorovich
 type:	military
 dob:	1935-02-01
+birthplace:
+  - name:	Giblitsy, Kasimovsky District, Ryazan Oblast, Russian SFSR
+    latitude:	54.335999
+    longitude:	40.677101
 country:
   - URS
 references:

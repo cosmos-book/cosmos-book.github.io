@@ -3,6 +3,10 @@ category:	international
 name:	AKIYAMA, Toyohiro
 type:	civilian
 dob:	1942-07-22
+birthplace:
+  - name:	Tokyo, Japan
+    latitude:	35.670479
+    longitude:	139.740921
 country:
   - JPN
 references:
