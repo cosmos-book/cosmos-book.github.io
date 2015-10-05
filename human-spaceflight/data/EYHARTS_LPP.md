@@ -3,6 +3,10 @@ category:	international
 name:	EYHARTS, L&eacute;opold Paul Pierre
 type:	military
 dob:	1957-04-28
+birthplace:
+  - name:	Biarritz, Pyrénées-Atlantiques, France
+    latitude:	43.471951
+    longitude:	-1.55319
 country:
   - FRA
 references:

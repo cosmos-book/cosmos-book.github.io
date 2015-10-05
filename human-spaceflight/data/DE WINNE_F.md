@@ -3,6 +3,10 @@ category:	international
 name:	DE WINNE, Frank
 type:	military
 dob:	1961-04-25
+birthplace:
+  - name:	Ghent, Belgium
+    latitude:	51.05563
+    longitude:	3.72856
 country:
   - BEL
 references:

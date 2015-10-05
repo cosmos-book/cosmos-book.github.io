@@ -3,6 +3,10 @@ category:	international
 name:	CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;
 type:	civilian
 dob:	1958-11-19
+birthplace:
+  - name:	Longeville-lès-Metz, France
+    latitude:	49.11377
+    longitude:	6.13512
 country:
   - FRA
 references:

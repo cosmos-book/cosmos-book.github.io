@@ -3,6 +3,10 @@ category:	international
 name:	FURUKAWA, Satoshi
 type:	civilian
 dob:	1964-04-04
+birthplace:
+  - name:	Kanagawa, Japan
+    latitude:	35.404469
+    longitude:	139.357513
 twitter:	@Astro_Satoshi
 country:
   - JPN

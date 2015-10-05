@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	FEOKTISTOV, Konstantin Petrovich
 type:	civilian
 dob:	1926-02-07
+birthplace:
+  - name:	Voronezh, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

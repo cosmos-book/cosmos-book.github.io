@@ -3,6 +3,10 @@ category:	taikonaut
 name:	FEI, Junlong
 type:	military
 dob:	1966-05-05
+birthplace:
+  - name:	Suzhou, Jiangsu
+    latitude:	31.3092
+    longitude:	120.613121
 country:
   - CHN
 references:

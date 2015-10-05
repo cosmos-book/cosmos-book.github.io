@@ -3,6 +3,10 @@ category:	international
 name:	FAVIER, Jean-Jacques
 type:	civilian
 dob:	1949-04-13
+birthplace:
+  - name:	Kehl, Germany
+    latitude:	48.574188
+    longitude:	7.81494
 country:
   - FRA
 references:

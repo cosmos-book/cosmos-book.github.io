@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	GAGARIN, Yuri Alekseyevich
 type:	military
 dob:	1934-03-09
+birthplace:
+  - name:	Klushino, Russian SFSR, Soviet Union
+    latitude:	55.669701
+    longitude:	35.043999
 country:
   - URS
 references:

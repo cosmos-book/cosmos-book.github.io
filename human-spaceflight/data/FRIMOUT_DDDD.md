@@ -3,6 +3,10 @@ category:	international
 name:	FRIMOUT, Dirk Dries David Damiaan
 type:	civilian
 dob:	1941-03-21
+birthplace:
+  - name:	Poperinge, Belgium
+    latitude:	50.855598
+    longitude:	2.72639
 country:
   - BEL
 references:

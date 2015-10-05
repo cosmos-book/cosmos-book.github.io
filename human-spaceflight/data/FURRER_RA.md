@@ -3,6 +3,10 @@ category:	international
 name:	FURRER, Reinhard Alfred
 type:	civilian
 dob:	1940-11-25
+birthplace:
+  - name:	Wörgl, Austria
+    latitude:	47.487259
+    longitude:	12.06368
 country:
   - DEU
 references:

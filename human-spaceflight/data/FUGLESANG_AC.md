@@ -3,6 +3,10 @@ category:	international
 name:	FUGLESANG, Arne Christer
 type:	civilian
 dob:	1957-03-18
+birthplace:
+  - name:	Stockholm, Sweden
+    latitude:	59.320381
+    longitude:	17.999559
 country:
   - SWE
 references:

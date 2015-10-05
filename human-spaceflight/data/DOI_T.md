@@ -3,6 +3,10 @@ category:	international
 name:	DOI, Takao
 type:	civilian
 dob:	1954-09-18
+birthplace:
+  - name:	Tokyo, Japan
+    latitude:	35.670479
+    longitude:	139.740921
 country:
   - JPN
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	DZHANIBEKOV, Vladimir Aleksandrovich
 type:	military
 dob:	1942-05-13
+birthplace:
+  - name:	Iskandar, Tashkent, Uzbekistan
+    latitude:	41.305222
+    longitude:	69.268959
 country:
   - URS
 references:

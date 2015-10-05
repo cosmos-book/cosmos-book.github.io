@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	DOBROVOLSKY, Georgi Timofeyevich
 type:	military
 dob:	1928-06-01
+birthplace:
+  - name:	Odessa, Ukrainian SSR, Soviet Union
+    latitude:	46.469479
+    longitude:	30.74003
 country:
   - URS
 diedinspace:	Decompression

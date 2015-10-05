@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	FILIPCHENKO, Anatoli Vasiliyevich
 type:	military
 dob:	1928-02-26
+birthplace:
+  - name:	Davydovka, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

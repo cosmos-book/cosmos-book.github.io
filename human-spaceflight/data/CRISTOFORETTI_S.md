@@ -3,6 +3,10 @@ category:	international
 name:	CRISTOFORETTI, Samantha
 type:	military
 dob:	1977-04-26
+birthplace:
+  - name:	Milan, Italy
+    latitude:	45.4781
+    longitude:	9.17789
 twitter:	@AstroSamantha
 country:
   - ITA

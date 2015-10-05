@@ -3,6 +3,10 @@ category:	international
 name:	EWALD, Reinhold
 type:	civilian
 dob:	1956-12-18
+birthplace:
+  - name:	Mönchengladbach, Germany
+    latitude:	51.195499
+    longitude:	6.44268
 country:
   - DEU
 references:

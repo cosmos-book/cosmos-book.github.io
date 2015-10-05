@@ -3,6 +3,10 @@ category:	international
 name:	FARKAS, Bertalan 'Bertsi'
 type:	military
 dob:	1949-08-02
+birthplace:
+  - name:	Gyulaháza, Hungary
+    latitude:	48.1371
+    longitude:	22.112089
 country:
   - HUN
 references:

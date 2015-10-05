@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	DEZHUROV, Vladimir Nikolayevich
 type:	military
 dob:	1962-07-30
+birthplace:
+  - name:	Yavas, Mordovia
+    latitude:	54.41748
+    longitude:	42.846481
 country:
   - URS
 references:

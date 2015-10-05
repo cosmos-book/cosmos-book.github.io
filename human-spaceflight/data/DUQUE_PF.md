@@ -3,6 +3,10 @@ category:	international
 name:	DUQUE, Pedro Francisco
 type:	civilian
 dob:	1963-03-14
+birthplace:
+  - name:	Madrid, Spain
+    latitude:	40.421429
+    longitude:	-3.67163
 country:
   - ESP
 references:

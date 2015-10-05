@@ -3,6 +3,10 @@ category:	international
 name:	FARIS, Muhammed Achmed
 type:	military
 dob:	1951-05-26
+birthplace:
+  - name:	Aleppo, Syria
+    latitude:	36.2635
+    longitude:	37.641121
 country:
   - SYR
 references:
