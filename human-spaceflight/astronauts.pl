@@ -40,6 +40,7 @@ closedir($dh);
 @output = "";
 @li = "";
 %byyear = "";
+%allmissions = "";
 $reflist = "";
 $json = "";
 
@@ -133,11 +134,12 @@ foreach $file (sort(@files)){
 				$missions .= "$mname";
 				if($json_missionname){ $json_missionname .= ";"; }
 				$json_missionname .= "$mname";
+				if(!$allmissions{$mname}{'name'}){ $allmissions{$mname}{'name'} = $mname; }
 			}elsif($line =~ /time_start:[\t\s]*([^\n\r]*)/){
 				$t1 = $1;
 				$land = "";
 				if($t1){
-					$launch = $1;
+					$launch = $t1;
 					$launches++;
 					if(!$firstlaunch){
 						$firstlaunch = $launch;
@@ -146,6 +148,8 @@ foreach $file (sort(@files)){
 							print "$name seems to be $age years old at first launch\n";
 						}
 					}
+					if($allmissions{$mname}{'launch'} eq ""){ $allmissions{$mname}{'launch'} = $launch; }
+					if($allmissions{$mname}{'launch'} ne "" && $launch ne $allmissions{$mname}{'launch'}){ print "WARNING (LAUNCH): $mname\t$launch != $allmissions{$mname}{'launch'}\n"; }
 				}else{
 					#print "$name has no start time for $mname (may need checking)\n";
 				}
@@ -153,6 +157,8 @@ foreach $file (sort(@files)){
 				$t2 = $1;
 				if($t2){
 					$land = $t2;
+					if($allmissions{$mname}{'land'} eq ""){ $allmissions{$mname}{'land'} = $land; }
+					if($allmissions{$mname}{'land'} ne "" && $land ne $allmissions{$mname}{'land'}){ print "WARNING (LANDING): $mname\t$land != $allmissions{$mname}{'land'}\n"; }
 				}else{
 					#print "$name has no end time for $mname (may need checking)\n";
 				}
@@ -290,6 +296,9 @@ foreach $file (sort(@files)){
 
 }
 
+foreach $my (keys(%allmissions)){
+#	print "$my = $allmissions{$my}{'launch'}\n";
+}
 
 $json =~ s/\,$//;
 $json = "{$json}\n";
