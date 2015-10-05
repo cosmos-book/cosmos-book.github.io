@@ -263,6 +263,7 @@ $(document).ready(function(){
 			return '<tr class="hasdata" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><td><a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
 		}
 		function makePanel(attr){
+			var id = attr.id;
 			var title = attr.title;
 			var value = attr.value;
 			var sort = attr.sort;
@@ -275,7 +276,7 @@ $(document).ready(function(){
 				if(reverse) sortBy(sort,true);
 				else sortBy(sort);
 			}
-			output += '<div class="panel">'+(value ? '<div class="big number">'+value.call(this,0)+'</div>':'')+'<table class="longest"><tr><th colspan="2">'+title+'</th></tr>';
+			output += '<div class="panel">'+(value ? '<div class="big number">'+value.call(this,0)+'</div>':'')+'<table class="longest"'+(id ? ' id="'+id+'"' : '')+'><tr><th colspan="2">'+title+'</th></tr>';
 			if(title.indexOf("Currently in space")>=0){
 				for(var i = 0; i < astronauts.length; i++){
 					if(astronauts[i].inspaceasof != null){
@@ -295,6 +296,7 @@ $(document).ready(function(){
 
 		// Most launches
 		output += makePanel({
+			'id':'launches',
 			'title':'Most launches',
 			'value': function(i){ return astronauts[i].launches; },
 			'sort':'launches',
@@ -303,6 +305,7 @@ $(document).ready(function(){
 
 		// Longest time in space
 		output += makePanel({
+			'id':'time',
 			'title':'Most time in space',
 			'value': function(i){ return astronauts[i].time_space_days.toFixed(1)+' days'; },
 			'sort':'time_space',
@@ -311,6 +314,7 @@ $(document).ready(function(){
 
 		// Longest trip
 		output += makePanel({
+			'id':'trip',
 			'title':'<a href="timeline.html">Longest single trip</a>',
 			'value': function(i){ return astronauts[i].longest_trip.toFixed(1)+' days'; },
 			'sort':'longest_trip',
@@ -319,6 +323,7 @@ $(document).ready(function(){
 
 		// Longest EVA
 		output += makePanel({
+			'id':'eva',
 			'title':'Most EVA/space-walk',
 			'value': function(i){ return parseInt(astronauts[i].eva_string.substr(0,astronauts[i].eva_string.lastIndexOf(":")))+'h '+parseInt(astronauts[i].eva_string.substr(astronauts[i].eva_string.lastIndexOf(":")+1))+'m'; },
 			'sort':'time_eva',
@@ -327,6 +332,7 @@ $(document).ready(function(){
 
 		// Youngest
 		output += makePanel({
+			'id':'youngest',
 			'title':'Youngest in space',
 			'value': function(i){ return astronauts[i].firstlaunch_age; },
 			'sort':'firstlaunch_age'
@@ -335,6 +341,7 @@ $(document).ready(function(){
 
 		// Oldest in space  - based on their date of birth and the last time they were in space
 		output += makePanel({
+			'id':'oldest',
 			'title':'Oldest in space',
 			'value': function(i){ return astronauts[i].oldest; },
 			'sort':'oldest',
@@ -343,14 +350,16 @@ $(document).ready(function(){
 
 		// Most recently born
 		output += makePanel({
+			'id':'birth-date',
 			'title':'Most recent birth date',
 			'value': function(i){ return astronauts[i].dob.toISOString().substr(0,10) },
 			'sort':'dob',
 			'reverse':true
 		});
 
-		// Most recently born
+		// Currently in space
 		output += makePanel({
+			'id':'current',
 			'title':'<a href="who.html">Currently in space</a>'
 		});
 
