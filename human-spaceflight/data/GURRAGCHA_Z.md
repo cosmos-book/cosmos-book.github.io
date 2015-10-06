@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	GURRAGCHA, Zhugderdemidiyn 'Gurr'
+name:	G&Uuml;RRAGCHA, J&uuml;gderdemidiin 'Gurr'
 type:	military
 dob:	1947-12-05
 birthplace:

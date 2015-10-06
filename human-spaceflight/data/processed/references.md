@@ -274,7 +274,7 @@
 * **GUIDONI, Umberto**: http://www.spacefacts.de/bios/international/english/guidoni_umberto.htm
 * **GULYAYEV, Rudolf Alekseyevich**: http://www.spacefacts.de/bios/cosmonauts/english/gulyayev_rudolf.htm
 * **GULYAYEV, Vladislav Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/gulyayev_vladislav.htm
-* **GURRAGCHA, Zhugderdemidiyn 'Gurr'**: http://www.spacefacts.de/bios/international/english/gurragcha_jugderdemidin.htm
+* **G&Uuml;RRAGCHA, J&uuml;gderdemidiin 'Gurr'**: http://www.spacefacts.de/bios/international/english/gurragcha_jugderdemidin.htm
 * **GUTERREZ, Sidney M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HABIB, Munir Habib**: http://www.spacefacts.de/bios/international/english/habib_munir.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
