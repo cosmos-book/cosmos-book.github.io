@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	LOPEZ-ALEGRIA, Michael E.
+name:	L&Oacute;PEZ-ALEGR&Iacute;A, Michael E.
 type:	military
 dob:	1958-05-30
 birthplace:
