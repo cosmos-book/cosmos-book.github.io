@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LEVCHENKO, Anatoli Semyonovich 
 type:	military
 dob:	1941-05-21
+birthplace:
+  - name:	Krasnokutsk, Ukrainian SSR, Soviet Union
+    latitude:	50.058128
+    longitude:	35.157211
 country:
   - URS
 references:

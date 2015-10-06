@@ -3,6 +3,10 @@ category:	international
 name:	MUKAI, Chiaki
 type:	civilian
 dob:	1952-05-06
+birthplace:
+  - name:	Tatebayashi, Gunma Prefecture, Japan
+    latitude:	36.247379
+    longitude:	139.542313
 gender:	Female
 country:
   - JPN

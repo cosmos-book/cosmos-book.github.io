@@ -3,6 +3,10 @@ category:	international
 name:	MUSZAPHAR, Sheikh
 type:	civilian
 dob:	1972-07-26
+birthplace:
+  - name:	Kuala Lumpur, Malaysia
+    latitude:	3.15248
+    longitude:	101.71727
 country:
   - MYS
 references:

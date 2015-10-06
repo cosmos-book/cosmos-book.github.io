@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MORUKOV, Boris Vladimirovich 
 type:	civilian
 dob:	1950-10-01
+birthplace:
+  - name:	Moscow, Soviet Russia, USSR
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MUSABAYEV, Talgat Amangeldyevich 
 type:	military
 dob:	1951-01-07
+birthplace:
+  - name:	Kargaly, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SEREBROV, Aleksandr Aleksandrovich 
 type:	civilian
 dob:	1944-02-15
+birthplace:
+  - name:	Moscow, Russia
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 references:

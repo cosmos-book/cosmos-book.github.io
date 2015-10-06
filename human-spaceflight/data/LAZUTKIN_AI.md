@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LAZUTKIN, Aleksandr Ivanovich 
 type:	civilian
 dob:	1957-10-30
+birthplace:
+  - name:	Moscow, Russia
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - RUS
 references:

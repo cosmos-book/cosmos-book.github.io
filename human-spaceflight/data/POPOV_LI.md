@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	POPOV, Leonid Ivanovich 
 type:	military
 dob:	1945-08-31
+birthplace:
+  - name:	Oleksandriia, Ukrainian SSR, USSR
+    latitude:	48.675999
+    longitude:	33.116199
 country:
   - URS
 references:

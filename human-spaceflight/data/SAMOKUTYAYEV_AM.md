@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SAMOKUTYAYEV, Aleksandr Mikhailovich
 type:	military
 dob:	1970-03-13
+birthplace:
+  - name:	Penza, Oblast Penza, Russian SFSR
+    latitude:	53.203819
+    longitude:	44.99931
 country:
   - RUS
 references:

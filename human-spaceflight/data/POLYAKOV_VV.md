@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	POLYAKOV, Valeri Vladimirovich 
 type:	civilian
 dob:	1942-04-27
+birthplace:
+  - name:	Tula, Tula Oblast, Russian SFSR
+    latitude:	54.1912
+    longitude:	37.6297
 country:
   - URS
 references:

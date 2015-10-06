@@ -3,6 +3,10 @@ category:	international
 name:	REITER, Thomas Arthur
 type:	military
 dob:	1958-05-23
+birthplace:
+  - name:	Frankfurt, West Germany
+    latitude:	50.11208
+    longitude:	8.68341
 country:
   - DEU
 references:

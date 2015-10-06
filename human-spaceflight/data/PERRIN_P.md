@@ -3,6 +3,10 @@ category:	international
 name:	PERRIN, Philippe
 type:	military
 dob:	1963-01-06
+birthplace:
+  - name:	Meknes, Morocco
+    latitude:	33.882462
+    longitude:	-5.535
 country:
   - FRA
 references:

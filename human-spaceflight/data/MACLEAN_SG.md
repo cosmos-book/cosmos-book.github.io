@@ -3,6 +3,10 @@ category:	international
 name:	MACLEAN, Steven Glenwood
 type:	civilian
 dob:	1954-12-14
+birthplace:
+  - name:	Ottawa, Canada
+    latitude:	45.37138
+    longitude:	-75.685341
 country:
   - CAN
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SARAFANOV, Gennadi Vasiliyevich 
 type:	military
 dob:	1942-01-01
+birthplace:
+  - name:	Sinenkiye, Saratov Oblast, Russian SFSR
+    latitude:	51.310902
+    longitude:	46.6675
 country:
   - URS
 references:

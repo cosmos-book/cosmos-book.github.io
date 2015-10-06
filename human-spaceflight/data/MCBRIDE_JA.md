@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCBRIDE, Jon Andrew
 type:	military
 dob:	1943-08-14
+birthplace:
+  - name:	Charleston, West Virginia
+    latitude:	38.351471
+    longitude:	-81.629837
 country:
   - USA
 gender:	Male

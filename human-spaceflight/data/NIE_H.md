@@ -3,6 +3,10 @@ category:	taikonaut
 name:	NIE, Haisheng
 type:	military
 dob:	1964-09-08
+birthplace:
+  - name:	Zaoyang, Hubei
+    latitude:	32.125011
+    longitude:	112.750618
 country:
   - CHN
 references:

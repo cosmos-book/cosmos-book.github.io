@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	POPOVICH, Pavel Romanovich 
 type:	military
 dob:	1930-10-05
+birthplace:
+  - name:	Uzyn, Kiev Oblast, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

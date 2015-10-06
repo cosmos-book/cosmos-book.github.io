@@ -3,6 +3,10 @@ category:	international
 name:	MESSERSCHMID, Ernst Willi
 type:	civilian
 dob:	1945-05-21
+birthplace:
+  - name:	Reutlingen, Germany
+    latitude:	48.491589
+    longitude:	9.21487
 country:
   - DEU
 references:

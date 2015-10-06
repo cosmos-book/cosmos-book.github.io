@@ -3,6 +3,10 @@ category:	international
 name:	MALERBA, Franco Egidio
 type:	civilian
 dob:	1946-10-10
+birthplace:
+  - name:	Busalla, Genoa, Liguria, Italy
+    latitude:	44.571671
+    longitude:	8.94262
 country:
   - ITA
 references:

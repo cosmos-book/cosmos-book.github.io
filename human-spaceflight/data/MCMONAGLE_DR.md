@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCMONAGLE, Donald Ray
 type:	military
 dob:	1952-05-14
+birthplace:
+  - name:	Flint, Michigan
+    latitude:	43.00259
+    longitude:	-83.7826
 country:
   - USA
 gender:	Male

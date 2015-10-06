@@ -3,6 +3,10 @@ category:	taikonaut
 name:	LIU, Boming
 type:	military
 dob:	1966-10-29
+birthplace:
+  - name:	Heilongjiang Province, China
+    latitude:	48.493919
+    longitude:	127.986847
 country:
   - CHN
 references:

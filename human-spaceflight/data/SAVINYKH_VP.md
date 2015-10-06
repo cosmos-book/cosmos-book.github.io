@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SAVINYKH, Viktor Petrovich
 type:	civilian
 dob:	1940-03-07
+birthplace:
+  - name:	Berezkiny, Kirov Oblast, Russian SFSR
+    latitude:	58.34227
+    longitude:	48.754639
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	PRUNARIU, Dumitru Dorin
 type:	military
 dob:	1952-09-27
+birthplace:
+  - name:	Braşov, Romania
+    latitude:	45.642349
+    longitude:	25.588409
 country:
   - ROU
 references:

@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCARTHUR, Katherine Megan
 type:	civilian
 dob:	1971-08-30
+birthplace:
+  - name:	Honolulu, Hawaii, U.S.
+    latitude:	21.45767
+    longitude:	-157.97139
 country:
   - USA
 gender:	Female

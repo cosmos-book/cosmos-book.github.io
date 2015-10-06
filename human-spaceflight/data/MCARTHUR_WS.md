@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCARTHUR, William Surles, Jr
 type:	military
 dob:	1951-07-26
+birthplace:
+  - name:	Laurinburg, North Carolina
+    latitude:	34.774342
+    longitude:	-79.463364
 country:
   - USA
 gender:	Male

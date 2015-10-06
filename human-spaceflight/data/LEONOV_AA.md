@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LEONOV, Aleksei Arkhipovich 
 type:	military
 dob:	1934-05-30
+birthplace:
+  - name:	Listvyanka, West Siberian Krai, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

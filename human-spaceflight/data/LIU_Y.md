@@ -3,6 +3,10 @@ category:	taikonaut
 name:	LIU, Yang
 type:	civilian
 dob:	1978-10-06
+birthplace:
+  - name:	Zhengzhou, Henan, People's Republic of China
+    latitude:	34.762501
+    longitude:	113.653023
 gender:	Female
 country:
   - CHN

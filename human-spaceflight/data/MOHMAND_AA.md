@@ -3,6 +3,10 @@ category:	international
 name:	MOHMAND, Abdul Ahad 'Abdulah'
 type:	military
 dob:	1959-01-01
+birthplace:
+  - name:	Sardah, Afghanistan
+    latitude:	33.93045
+    longitude:	67.67894
 country:
   - AFG
 references:

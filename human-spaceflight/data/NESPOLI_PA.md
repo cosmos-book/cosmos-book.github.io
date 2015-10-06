@@ -3,6 +3,10 @@ category:	international
 name:	NESPOLI, Paolo Angelo
 type:	civilian
 dob:	1957-04-06
+birthplace:
+  - name:	Milan, Italy
+    latitude:	45.4781
+    longitude:	9.17789
 twitter:	@astro_paolo
 country:
   - ITA

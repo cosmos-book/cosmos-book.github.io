@@ -3,6 +3,10 @@ category:	commercial
 name:	MELVILL, Michael Winston "Mike"
 type:	civilian
 dob:	1940-11-11
+birthplace:
+  - name:	Johannesburg, South Africa
+    latitude:	-26.204941
+    longitude:	28.04003
 gender:	Male
 qualifications:
 references:

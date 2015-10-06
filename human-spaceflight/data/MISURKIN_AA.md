@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MISURKIN, Aleksandr Aleksandrovich
 type:	military
 dob:	1977-09-23
+birthplace:
+  - name:	Yershichi, Smolensk Oblast, Russia
+    latitude:	53.67474
+    longitude:	32.753281
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	NOVITSKY, Oleg Viktorovich
 type:	military
 dob:	1971-10-12
+birthplace:
+  - name:	Cherven, Minsk Voblast, Belarus
+    latitude:	53.90255
+    longitude:	27.563101
 country:
   - RUS
 references:

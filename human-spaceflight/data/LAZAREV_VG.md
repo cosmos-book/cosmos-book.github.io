@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LAZAREV, Vasili Grigoriyevich 
 type:	military
 dob:	1928-02-23
+birthplace:
+  - name:	Poroshino, Altai Krai, Russian SFSR, Soviet Union
+    latitude:	53.231361
+    longitude:	85.136429
 country:
   - URS
 references:

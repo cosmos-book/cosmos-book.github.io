@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SAVITSKAYA, Svetlana Yevgeniyena 
 type:	civilian
 dob:	1948-08-08
+birthplace:
+  - name:	Moscow, Russia
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 gender:	Female

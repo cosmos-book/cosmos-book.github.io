@@ -3,6 +3,10 @@ category:	international
 name:	PHAM, Tu&acirc;n
 type:	military
 dob:	1947-02-14
+birthplace:
+  - name:	Thái Bình, Vietnam
+    latitude:	20.5051
+    longitude:	106.372002
 country:
   - VNM
 references:

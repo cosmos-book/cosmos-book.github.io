@@ -3,6 +3,10 @@ category:	international
 name:	REMEK, Vladim&iacute;r 'Volodya'
 type:	military
 dob:	1948-09-26
+birthplace:
+  - name:	České Budějovice, Czechoslovakia
+    latitude:	48.975029
+    longitude:	14.47904
 country:
   - TCH
 references:

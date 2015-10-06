@@ -3,6 +3,10 @@ category:	international
 name:	RAMON, Ilan
 type:	military
 dob:	1954-06-20
+birthplace:
+  - name:	Ramat Gan, Israel
+    latitude:	32.084389
+    longitude:	34.812969
 country:
   - ISR
 diedinspace:	Disintegration during re-entry

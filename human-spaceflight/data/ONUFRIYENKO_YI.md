@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ONUFRIYENKO, Yuri Ivanovich 
 type:	military
 dob:	1961-02-06
+birthplace:
+  - name:	Ryasne, Ukraine, Soviet Union
+    latitude:	48.382881
+    longitude:	31.173441
 country:
   - URS
 references:

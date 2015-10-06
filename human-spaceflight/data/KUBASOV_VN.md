@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KUBASOV, Valeri Nikolayevich 
 type:	civilian
 dob:	1935-01-07
+birthplace:
+  - name:	Vyazniki, Vladimir Oblast, Soviet Union
+    latitude:	56.23613
+    longitude:	42.110081
 country:
   - URS
 references:

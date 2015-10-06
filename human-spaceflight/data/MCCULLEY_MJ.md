@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCCULLEY, Michael J.
 type:	military
 dob:	1943-08-04
+birthplace:
+  - name:	San Diego, California
+    latitude:	32.831699
+    longitude:	-117.122002
 country:
   - USA
 gender:	Male

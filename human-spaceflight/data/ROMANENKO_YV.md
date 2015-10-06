@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ROMANENKO, Yuri Viktorovich 
 type:	military
 dob:	1944-08-01
+birthplace:
+  - name:	Orenburg Oblast, Russian SFSR, Soviet Union
+    latitude:	52.4324
+    longitude:	56.235699
 country:
   - URS
 references:

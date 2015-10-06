@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	RUKAVISHNIKOV, Nikolai Nikolayevich 
 type:	civilian
 dob:	1932-09-18
+birthplace:
+  - name:	Tomsk, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

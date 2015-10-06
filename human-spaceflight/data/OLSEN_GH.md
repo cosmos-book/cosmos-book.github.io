@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	OLSEN, Gregory Hammond 'Greg'
 type:	civilian
 dob:	1945-04-20
+birthplace:
+  - name:	Brooklyn, New York
+    latitude:	40.655071
+    longitude:	-73.948883
 country:
   - USA
 gender:	Male

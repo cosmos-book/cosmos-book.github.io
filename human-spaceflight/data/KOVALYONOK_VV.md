@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KOVALYONOK, Vladimir Vasiliyevich 
 type:	military
 dob:	1942-03-03
+birthplace:
+  - name:	Beloye, Minsk Voblast, Belarus
+    latitude:	53.90255
+    longitude:	27.563101
 country:
   - URS
 references:

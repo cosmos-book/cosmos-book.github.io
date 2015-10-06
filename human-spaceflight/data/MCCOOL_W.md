@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCCOOL, William
 type:	military
 dob:	1961-09-23
+birthplace:
+  - name:	San Diego, California
+    latitude:	32.831699
+    longitude:	-117.122002
 country:
   - USA
 gender:	Male

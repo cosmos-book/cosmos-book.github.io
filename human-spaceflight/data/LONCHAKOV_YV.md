@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LONCHAKOV, Yuri Valentinovich 
 type:	military
 dob:	1965-03-04
+birthplace:
+  - name:	Balqash, Kazakhstan
+    latitude:	46.841782
+    longitude:	74.963547
 country:
   - RUS
 references:

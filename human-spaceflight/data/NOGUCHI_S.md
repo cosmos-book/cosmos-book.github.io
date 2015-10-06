@@ -3,6 +3,10 @@ category:	international
 name:	NOGUCHI, Soichi
 type:	civilian
 dob:	1965-04-15
+birthplace:
+  - name:	Yokohama, Kanagawa, Japan
+    latitude:	35.452702
+    longitude:	139.595123
 twitter:	@Astro_Soichi
 country:
   - JPN

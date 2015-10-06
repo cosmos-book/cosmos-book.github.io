@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCCANDLESS, Bruce, II
 type:	military
 dob:	1937-06-08
+birthplace:
+  - name:	Boston, Massachusetts
+    latitude:	42.358631
+    longitude:	-71.056702
 country:
   - USA
 gender:	Male

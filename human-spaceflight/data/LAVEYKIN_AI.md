@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LAVEYKIN, Aleksandr Ivanovich 
 type:	civilian
 dob:	1951-04-21
+birthplace:
+  - name:	Moscow, USSR
+    latitude:	55.741638
+    longitude:	37.605061
 country:
   - URS
 references:

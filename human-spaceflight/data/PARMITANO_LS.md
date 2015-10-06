@@ -3,6 +3,10 @@ category:	international
 name:	PARMITANO, Luca Salvo
 type:	military
 dob:	1976-09-27
+birthplace:
+  - name:	Paternò, Sicily
+    latitude:	37.56834
+    longitude:	14.90418
 twitter:	@astro_luca
 country:
   - ITA

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MANAKOV, Gennadi Mikhailovich 
 type:	military
 dob:	1950-06-01
+birthplace:
+  - name:	Yefimovka, Russia
+    latitude:	52.930061
+    longitude:	37.406761
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MALENCHENKO, Yuri Ivanovich 
 type:	military
 dob:	1961-12-22
+birthplace:
+  - name:	Khrushchev, Ukrainian SSR, USSR
+    latitude:	49.083328
+    longitude:	33.25
 country:
   - URS
 references:

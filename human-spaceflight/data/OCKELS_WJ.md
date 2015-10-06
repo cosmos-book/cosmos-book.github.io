@@ -3,6 +3,10 @@ category:	international
 name:	OCKELS, Wubbo Johannes
 type:	civilian
 dob:	1946-03-28
+birthplace:
+  - name:	Almelo, Netherlands
+    latitude:	52.35495
+    longitude:	6.66454
 country:
   - NLD
 references:

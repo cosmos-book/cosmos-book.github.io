@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	PATSAYEV, Viktor Ivanovich 
 type:	civilian
 dob:	1933-06-19
+birthplace:
+  - name:	Aktyubinsk, Kazakh SSR, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 diedinspace:	Decompression

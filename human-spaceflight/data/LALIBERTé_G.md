@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	LALIBERTÉ, Guy
 type:	civilian
 dob:	1959-09-02
+birthplace:
+  - name:	Quebec City, Quebec, Canada
+    latitude:	46.837299
+    longitude:	-71.304161
 country:
   - CAN
 references:

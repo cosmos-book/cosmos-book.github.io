@@ -3,6 +3,10 @@ category:	international
 name:	PONTES, Marcos Cesar
 type:	military
 dob:	1963-03-11
+birthplace:
+  - name:	Bauru, São Paulo, Brazil
+    latitude:	-22.321671
+    longitude:	-49.065048
 country:
   - BRA
 references:

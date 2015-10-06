@@ -3,6 +3,10 @@ category:	international
 name:	NERI VELA, Rodolfo
 type:	civilian
 dob:	1952-02-19
+birthplace:
+  - name:	Chilpancingo, Guerrero, Mexico
+    latitude:	17.547979
+    longitude:	-99.498947
 country:
   - MEX
 references:

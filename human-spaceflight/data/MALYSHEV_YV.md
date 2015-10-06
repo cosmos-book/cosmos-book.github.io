@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MALYSHEV, Yuri Vasiliyevich 
 type:	military
 dob:	1941-08-27
+birthplace:
+  - name:	Nikolayevsk, Volgograd Oblast, USSR
+    latitude:	50.025509
+    longitude:	45.460571
 country:
   - URS
 references:

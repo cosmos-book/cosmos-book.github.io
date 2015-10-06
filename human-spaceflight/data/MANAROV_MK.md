@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MANAROV, Musa Khiramanovich 
 type:	military
 dob:	1951-03-22
+birthplace:
+  - name:	Baku, Azerbaijan SSR
+    latitude:	40.37812
+    longitude:	49.802841
 country:
   - URS
 references:

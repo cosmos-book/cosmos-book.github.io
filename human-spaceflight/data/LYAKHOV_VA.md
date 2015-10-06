@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	LYAKHOV, Vladimir Afanasiyevich 
 type:	military
 dob:	1941-07-20
+birthplace:
+  - name:	Antratsyt, Luhansk Oblast, Ukrainian SSR, USSR
+    latitude:	48.116821
+    longitude:	39.088081
 country:
   - URS
 references:

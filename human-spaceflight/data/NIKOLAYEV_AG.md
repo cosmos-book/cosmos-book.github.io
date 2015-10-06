@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	NIKOLAYEV, Andriyan Grigoriyevich 
 type:	military
 dob:	1929-09-05
+birthplace:
+  - name:	Shorshely, Russian SFSR, Soviet Union
+    latitude:	56.007019
+    longitude:	47.590889
 country:
   - URS
 references:

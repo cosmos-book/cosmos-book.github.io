@@ -3,6 +3,10 @@ category:	international
 name:	PAYETTE, Julie
 type:	civilian
 dob:	1963-10-20
+birthplace:
+  - name:	Montreal, Quebec, Canada
+    latitude:	45.536491
+    longitude:	-73.625122
 gender:	Female
 country:
   - CAN

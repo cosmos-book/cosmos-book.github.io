@@ -3,6 +3,10 @@ category:	international
 name:	MERBOLD, Ulf Dietrich
 type:	civilian
 dob:	1941-06-20
+birthplace:
+  - name:	Greiz, Germany
+    latitude:	50.655418
+    longitude:	12.20291
 country:
   - DEU
 references:

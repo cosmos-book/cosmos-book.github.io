@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KOZEYEV, Konstantin Mirovich 
 type:	civilian
 dob:	1967-12-01
+birthplace:
+  - name:	Korolyov, Moscow Oblast, Russian SFSR
+    latitude:	55.912971
+    longitude:	37.863548
 country:
   - RUS
 references:

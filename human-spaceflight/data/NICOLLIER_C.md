@@ -3,6 +3,10 @@ category:	international
 name:	NICOLLIER, Claude
 type:	military
 dob:	1944-09-02
+birthplace:
+  - name:	Vevey, Switzerland
+    latitude:	46.46376
+    longitude:	6.84772
 country:
   - CHE
 references:

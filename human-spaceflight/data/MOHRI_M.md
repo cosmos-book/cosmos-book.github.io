@@ -3,6 +3,10 @@ category:	international
 name:	MOHRI, Mamoru
 type:	civilian
 dob:	1948-01-29
+birthplace:
+  - name:	Yoichi, Hokkaidō, Japan
+    latitude:	43.181622
+    longitude:	140.785126
 country:
   - JPN
 references:

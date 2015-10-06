@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ROZHDESTVENSKY, Valeri Iliyich 
 type:	military
 dob:	1939-02-13
+birthplace:
+  - name:	Leningrad, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

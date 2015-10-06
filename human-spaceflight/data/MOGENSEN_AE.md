@@ -3,6 +3,10 @@ category:	international
 name:	MOGENSEN, Andreas Enevold
 type:	civilian
 dob:	1976-11-02
+birthplace:
+  - name:	Copenhagen, Denmark
+    latitude:	55.674492
+    longitude:	12.55213
 twitter:	@Astro_Andreas
 country:
   - DNK

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	KRIKALYOV, Sergei Konstantinovich 
 type:	civilian
 dob:	1958-08-27
+birthplace:
+  - name:	Leningrad, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

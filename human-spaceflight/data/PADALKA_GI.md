@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	PADALKA, Gennadi Ivanovich 
 type:	military
 dob:	1958-06-21
+birthplace:
+  - name:	Krasnodar, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	KUIPERS, Andr&eacute;
 type:	civilian
 dob:	1958-10-05
+birthplace:
+  - name:	Amsterdam, Netherlands
+    latitude:	52.373119
+    longitude:	4.89319
 twitter:	@astro_andre
 country:
   - NLD

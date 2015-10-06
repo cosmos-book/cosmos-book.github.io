@@ -3,6 +3,10 @@ category:	international
 name:	SCHLEGEL, Hans Wilhelm
 type:	civilian
 dob:	1951-08-03
+birthplace:
+  - name:	Überlingen, Germany
+    latitude:	47.767311
+    longitude:	9.15909
 country:
   - DEU
 references:

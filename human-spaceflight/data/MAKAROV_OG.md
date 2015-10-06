@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	MAKAROV, Oleg Grigoriyevich 
 type:	civilian
 dob:	1933-01-06
+birthplace:
+  - name:	Udomlya, Russia
+    latitude:	57.877972
+    longitude:	35.01149
 country:
   - URS
 references:

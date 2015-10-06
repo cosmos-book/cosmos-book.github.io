@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ROMANENKO, Roman Yuriyevich 
 type:	military
 dob:	1971-08-09
+birthplace:
+  - name:	Shchyolkovo, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - RUS
 references:

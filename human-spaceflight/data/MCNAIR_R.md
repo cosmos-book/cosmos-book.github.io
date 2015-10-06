@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCNAIR, Ronald Ervin
 type:	civilian
 dob:	1950-10-21
+birthplace:
+  - name:	Lake City, South Carolina
+    latitude:	33.867908
+    longitude:	-79.754959
 country:
   - USA
 gender:	Male

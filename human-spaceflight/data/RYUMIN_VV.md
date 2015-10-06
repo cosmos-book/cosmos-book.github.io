@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	RYUMIN, Valeri Viktorovich 
 type:	civilian
 dob:	1939-08-16
+birthplace:
+  - name:	Komsomolsk-na-Amurye, Khabarovsk Kray, Russian
+    latitude:	48.473591
+    longitude:	135.067871
 country:
   - URS
 references:

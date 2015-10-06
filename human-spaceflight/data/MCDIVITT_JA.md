@@ -3,6 +3,10 @@ category:	astronaut
 name:	MCDIVITT, James Alton 'Jim'
 type:	military
 dob:	1929-06-10
+birthplace:
+  - name:	Chicago, Illinois
+    latitude:	41.884151
+    longitude:	-87.632408
 country:
   - USA
 gender:	Male

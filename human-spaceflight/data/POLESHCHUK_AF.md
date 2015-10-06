@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	POLESHCHUK, Aleksandr Fyodorovich 
 type:	military
 dob:	1953-10-30
+birthplace:
+  - name:	Cheremkhovo, Russia
+    latitude:	53.128868
+    longitude:	103.107552
 country:
   - URS
 references:
