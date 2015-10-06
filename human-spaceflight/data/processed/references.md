@@ -12,7 +12,7 @@
 * **AKSYONOV, Vladimir Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/aksyonov_vladimir.htm
 * **AL-BASSAM, Abdulmohsen Hamad**: http://www.spacefacts.de/bios/international/english/albassam_abdulmohsen.htm
 * **AL-SAUD, Sultan bin Salman bin Abdulaziz**: http://www.spacefacts.de/bios/international/english/alsaud_salman.htm
-* **ALDRIN, Buzz**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **ALDRIN, Edwin 'Buzz'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ALEKSANDROV, Aleksandr Panayatov 'Sasha'**: http://www.spacefacts.de/bios/international/english/alexandrov_aleksandr.htm
 * **ALEKSEYEV, Vladimir Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/alekseyev_vladimir.htm
 * **ALLEN, Andrew M.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -91,6 +91,7 @@
 * **BRADY, Charles E., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BRANDENSTEIN, Daniel C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BRAND, Vance D.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **BRAND, Vance D.**: http://www.jsc.nasa.gov/Bios/htmlbios/brand.html
 * **BRESNIK, Randolph J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BRIDGES, Roy D., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BROWN, Curtis L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf

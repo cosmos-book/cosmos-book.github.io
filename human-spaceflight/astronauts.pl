@@ -82,6 +82,8 @@ foreach $file (sort(@files)){
 	$longesttrip = 0;
 	$launches = 0;
 	$land = "";
+	$lat = 0;
+	$lon = 0;
 	$mname = "";
 	$reset = 0;
 	$json_mission = "";
@@ -263,6 +265,8 @@ foreach $file (sort(@files)){
 		}
 		# Get the length of the extra-vehicular activity
 		if($inbirthplace){
+			if($line =~ /latitude\:[\t\s]*(.*)/){ $lat = $1; }
+			if($line =~ /longitude\:[\t\s]*(.*)/){ $lon = $1; }
 		}
 		#if($incountry){
 		#	if($line =~ / -[\t\s]*(.*)/){
@@ -276,6 +280,7 @@ foreach $file (sort(@files)){
 		# Which section of the yaml are we in?
 		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^birthplace:/){ $inmission = 0; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 1; }
 		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
@@ -287,9 +292,11 @@ foreach $file (sort(@files)){
 
 	# If the person has spent time in space we build some JSON for them
 	if($timeinspace){
-		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "")."},\n";
+		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "").",\"birthplace\":{\"lat\":$lat,\"lon\":$lon}},\n";
+		if($lat == 0 && $lon == 0){
+			print "WARNING (BIRTH PLACE): $name has no coordinates\n";
+		}
 	}
-
 	# Print a warning that no gender (Male/Female/Other) is set
 	if($gender ne "Male" && $gender ne "Female" && $gender ne "Other"){ print "$name is without a gender (Male/Female/Other)\n"; }
 
