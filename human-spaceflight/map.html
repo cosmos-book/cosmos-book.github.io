@@ -17,7 +17,6 @@
 	}
 	#map { width: 100%; height: 600px; }
 	.leaflet-container { overflow: hidden; }
-	.leaflet-container .human { width: 6px!important; height: 6px!important; }
 	</style>
 	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="../resources/infographics.js"></script>
@@ -39,27 +38,32 @@
 				</div>
 			</nav>
 			<div id="content">
-				<div class="padder">
-					<h1>Astronaut birthplace map</h1>
-					<ul class="key">
-						<li class="keyitem"><span class="human cosmonaut"></span> Russian<span class="wide"> cosmonauts</span></li>
-						<li class="keyitem"><span class="human astronaut"></span> US<span class="wide"> astronauts</span></li>
-						<li class="keyitem"><span class="human taikonaut"></span> Chinese<span class="wide"> taikonauts</span></li>
-						<li class="keyitem"><span class="human international"></span> International<span class="wide"> astronauts</span></li>
-						<li class="keyitem"><span class="human tourist"></span> Commercial/tourist</li>
-					</ul>
-					<div id="map" class="leaflet-container leaflet-fade-anim" style="position:relative;">
-						
-					</div> <!-- End of stats -->
-				</div> <!-- End of padder -->
+				<div class="table">
+					<div class="table-row-top padded">
+						<h1>Astronaut birthplace map</h1>
+						<ul class="key">
+							<li class="keyitem"><span class="human cosmonaut"></span> Russian<span class="wide"> cosmonauts</span></li>
+							<li class="keyitem"><span class="human astronaut"></span> US<span class="wide"> astronauts</span></li>
+							<li class="keyitem"><span class="human taikonaut"></span> Chinese<span class="wide"> taikonauts</span></li>
+							<li class="keyitem"><span class="human international"></span> International<span class="wide"> astronauts</span></li>
+							<li class="keyitem"><span class="human tourist"></span> Commercial/tourist</li>
+						</ul>
+					</div>
+					<div class="table-row">
+						<div class="full-width padded">
+							<div id="map" class="leaflet-container leaflet-fade-anim" style="position:relative;"></div>
+							<div class="loader js-only"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+						</div>
+					</div>
+				</div>
 			</div> <!-- End of content -->
 		</div>
 		<footer id="footer">
 			<div class="padder">
-					For the book we collated data about everyone who has been to space<a href="#footnote">*</a> and we will aim to keep up-to-date here. 
-					You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/" id="datadir">data for each individual astronaut on Github</a> or, if you prefer, get <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">all the astronaut data as tab-separated values</a>/<a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="json">JSON</a>. 
+					<p>The locations on the map show birthplaces of everyone who has been to space (altitudes above 100 km). The categories (with the exception of "space tourist") give an idea of nationality at time of flight. Category and birthplace may not match in cases where the person's nationality, or their birth country's borders, have changed after birth. You may also be interested in <a href="index.html">exploring the data</a>, <a href="who.html">who is in space</a>, our <a href="timeline.html">human spaceflight timeline</a>, or our <a href="summary.html">summary of human spaceflight</a>.</p>
+					<p>You can browse our <a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/" id="datadir">data for each individual astronaut on Github</a> or, if you prefer, get <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.tsv" id="data">the astronaut data as tab-separated values</a>/<a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/human-spaceflight/data/processed/astronauts.json" id="json">JSON</a>. 
 					Please <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">let us know if you spot mistakes</a> or, even better, fix it for yourself in the <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository</a> and <a href="https://github.com/cosmos-book/cosmos-book.github.io/pulls">submit a pull request</a>. 
-					Data were compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+					Data were compiled from the <a href="http://www.nasa.gov/pdf/740566main_current.pdf">NASA Information Summaries Astronaut Fact Book</a>, the <a href="https://historydms.hq.nasa.gov/">NASA History Office</a>, <a href="http://www.spacefacts.de">spacefacts.de</a> and other sources for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></p>
 			</div>
 		</footer>
 	</div>

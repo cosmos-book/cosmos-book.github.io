@@ -437,7 +437,7 @@
 * **LONCHAKOV, Yuri Valentinovich**: http://www.spacefacts.de/bios/cosmonauts/english/lonchakov_yuri.htm
 * **LONCHAKOV, Yuri Valentinovich**: http://www.spacefacts.de/eva/cosmonauts/english/lonchakov_yuri.htm
 * **LONGHURST, Peter Hervey**: http://www.spacefacts.de/bios/international/english/longhurst_peter.htm
-* **LOPEZ-ALEGRIA, Michael E.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **L&Oacute;PEZ-ALEGR&Iacute;A, Michael E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LORENZONI, Andrea**: http://www.spacefacts.de/bios/international/english/lorenzoni_andrea.htm
 * **LORIA, Christopher J. 'Gus'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LOTHALLER, Clemens**: http://www.spacefacts.de/bios/international/english/lothaller_clemens.htm

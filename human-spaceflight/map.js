@@ -35,6 +35,20 @@ $(document).ready(function(){
 		var m = Math.floor((s - h*3600)/60);
 		return (h < 10 ? "0":"")+h+":"+(m < 10 ? "0":"")+m;
 	}
+	// Generate a pseudo-random number according to a normal distribution with mean=0 and variance=1.
+	// Use the Box-Mulder method
+	function normal() {
+		var u1,u2;
+		u1 = u2 = 0.;
+		while(u1 * u2 == 0){
+			u1 = Math.random();
+			u2 = Math.random();
+		}
+		return Math.sqrt(-2.0 * Math.log(u1)) * Math.cos(2.0 * Math.PI * u2);
+	}
+	
+	// Generator of pseudo-random number according to a normal distribution
+	function random(mean,stdev){ return stdev*normal() + 1.0*mean; }
 
 	function parseIt(data){
 	
@@ -100,6 +114,7 @@ $(document).ready(function(){
 			console.log(categories[i])
 			icons[categories[i]] = L.divIcon({className: 'human '+categories[i],iconSize:8});
 		}
+		
 	
 		// create a map in the "map" div, set the view to a given place and zoom
 		if(typeof astronauts!=="undefined" && astronauts.length > 0 && $('#map').length == 1 && typeof L==="object"){
@@ -108,7 +123,7 @@ $(document).ready(function(){
 	
 			// add an OpenStreetMap tile layer
 			L.tileLayer('http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-				attribution: 'Map tiles by CartoDB, under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>, data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under ODbL ',
+				attribution: 'Cosmos: The infographic book of space | Map tiles by CartoDB (<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>) | Map data by <a href="http://openstreetmap.org">OpenStreetMap</a> (ODbL)',
 					maxZoom: 17
 			}).addTo(map);
 	
@@ -116,7 +131,14 @@ $(document).ready(function(){
 			for(var i = 0 ; i < astronauts.length ; i++){
 				var c = astronauts[i].category;
 				if(c.indexOf(" ") > 0 || c == "tourist") c = "commercial";
-				if(astronauts[i].birthplace) L.marker([astronauts[i].birthplace.lat, astronauts[i].birthplace.lon], {icon: icons[c], title: astronauts[i].id}).addTo(map);//.bindPopup(astronauts[i].name);//.openPopup();
+				if(astronauts[i].birthplace){
+					a = L.marker([astronauts[i].birthplace.lat+random(0,0.002), astronauts[i].birthplace.lon+random(0,0.002)], {icon: icons[c], title: astronauts[i].id}).addTo(map);//.bindPopup(astronauts[i].name);//.openPopup();
+					if(astronauts[i].name.indexOf("HERM")==0){
+						c = "commercial";
+						//astronauts[i].birthplace = {'lat':0,'lon':0}
+						console.log(astronauts[i].birthplace,a)
+					}//
+				}
 			}
 		}
 		
