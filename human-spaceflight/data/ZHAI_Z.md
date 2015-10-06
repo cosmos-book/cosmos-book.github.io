@@ -3,6 +3,10 @@ category:	taikonaut
 name:	ZHAI, Zhigang
 type:	military
 dob:	1966-11-21
+birthplace:
+  - name:	Longjiang County, Qiqihar
+    latitude:	47.284359
+    longitude:	123.273148
 country:
   - CHN
 references:

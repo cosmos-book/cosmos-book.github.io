@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VIKTORENKO, Aleksandr Stepanovich 
 type:	military
 dob:	1947-03-29
+birthplace:
+  - name:	Olginka, Kazakh SSR, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

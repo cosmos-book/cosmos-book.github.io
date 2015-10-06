@@ -3,6 +3,10 @@ category:	international
 name:	VIEHBÖCK, Franz Artur
 type:	civilian
 dob:	1960-08-24
+birthplace:
+  - name:	Vienna, Austria
+    latitude:	48.202541
+    longitude:	16.368799
 country:
   - AUT
 references:

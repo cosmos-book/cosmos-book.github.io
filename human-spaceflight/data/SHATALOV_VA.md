@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SHATALOV, Vladimir Aleksandrovich 
 type:	military
 dob:	1927-12-08
+birthplace:
+  - name:	Petropavl, Kazakhstan
+    latitude:	54.872952
+    longitude:	69.137161
 country:
   - URS
 references:

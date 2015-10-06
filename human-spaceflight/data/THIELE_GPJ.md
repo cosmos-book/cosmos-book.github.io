@@ -3,6 +3,10 @@ category:	international
 name:	THIELE, Gerhard Paul Julius
 type:	civilian
 dob:	1953-09-02
+birthplace:
+  - name:	Heidenheim, Germany
+    latitude:	48.64856
+    longitude:	10.20783
 country:
   - DEU
 references:

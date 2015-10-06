@@ -3,6 +3,10 @@ category:	international
 name:	VITTORI, Roberto
 type:	military
 dob:	1964-10-15
+birthplace:
+  - name:	Viterbo, Lazio, Italy
+    latitude:	42.42548
+    longitude:	12.10568
 country:
   - ITA
 references:

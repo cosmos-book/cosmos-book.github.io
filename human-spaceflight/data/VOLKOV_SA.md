@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VOLKOV, Sergei Aleksandrovich 
 type:	military
 dob:	1973-04-01
+birthplace:
+  - name:	Chuhuiv, Ukrainian SSR, Soviet Union
+    latitude:	49.843571
+    longitude:	36.685539
 twitter:	@Volkov_ISS
 country:
   - RUS

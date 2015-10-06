@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SOLOVIYOV, Anatoli Yakovlevich 
 type:	military
 dob:	1948-01-16
+birthplace:
+  - name:	Riga, Latvia
+    latitude:	56.945999
+    longitude:	24.114901
 country:
   - URS
 references:

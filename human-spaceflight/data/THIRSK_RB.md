@@ -3,6 +3,10 @@ category:	international
 name:	THIRSK, Robert Brent
 type:	civilian
 dob:	1953-08-17
+birthplace:
+  - name:	New Westminster, British Columbia, Canada
+    latitude:	49.189041
+    longitude:	-122.942192
 country:
   - CAN
 references:

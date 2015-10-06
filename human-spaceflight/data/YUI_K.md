@@ -3,6 +3,10 @@ category:	international
 name:	YUI, Kimiya
 type:	civilian
 dob:	1970-01-30
+birthplace:
+  - name:	Kawakami, Nagano, Japan
+    latitude:	35.932468
+    longitude:	138.611282
 twitter:	 @Astro_Kimiya
 country:
   - JPN

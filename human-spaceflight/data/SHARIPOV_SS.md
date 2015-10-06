@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SHARIPOV, Salizhan Shakirovich 
 type:	military
 dob:	1964-08-24
+birthplace:
+  - name:	Uzgen, Osh oblast, Kyrgyz SSR, Soviet Union
+    latitude:	40.776131
+    longitude:	73.2948
 country:
   - URS
 references:

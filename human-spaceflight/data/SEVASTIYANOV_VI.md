@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SEVASTIYANOV, Vitali Ivanovich 
 type:	civilian
 dob:	1935-07-08
+birthplace:
+  - name:	Krasnouralsk, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

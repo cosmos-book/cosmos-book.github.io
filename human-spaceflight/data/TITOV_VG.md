@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TITOV, Vladimir Georgiyevich 
 type:	military
 dob:	1947-01-01
+birthplace:
+  - name:	Sretensk, Russian SFSR, Soviet Union
+    latitude:	52.2374
+    longitude:	117.688072
 country:
   - URS
 gender:	Male

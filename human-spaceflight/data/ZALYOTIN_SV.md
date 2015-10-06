@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ZALYOTIN, Sergei Viktorovich 
 type:	military
 dob:	1962-04-21
+birthplace:
+  - name:	Shchyokino, Russia
+    latitude:	54.006569
+    longitude:	37.509918
 country:
   - URS
 references:

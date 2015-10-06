@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TERESHKOVA, Valentina Vladimirovna 
 type:	military
 dob:	1937-03-06
+birthplace:
+  - name:	Tutayevsky District, Yaroslavl Oblast, Russian SFSR
+    latitude:	57.7435
+    longitude:	39.263599
 country:
   - URS
 gender:	Female

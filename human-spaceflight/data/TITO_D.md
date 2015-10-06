@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	TITO, Dennis
 type:	civilian
 dob:	1940-08-08
+birthplace:
+  - name:	Queens, New York City
+    latitude:	40.7038
+    longitude:	-73.83168
 country:
   - USA
 gender:	Male

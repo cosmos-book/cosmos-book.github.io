@@ -3,6 +3,10 @@ category:	taikonaut
 name:	ZHANG, Xiaoguan
 type:	civilian
 dob:	1966-05-01
+birthplace:
+  - name:	Longjiang, Heilongjiang Province
+    latitude:	47.337509
+    longitude:	123.178322
 country:
   - CHN
 references:

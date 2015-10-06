@@ -3,6 +3,10 @@ category:	international
 name:	WAKATA, Koichi
 type:	civilian
 dob:	1963-08-01
+birthplace:
+  - name:	Ōmiya, Saitama
+    latitude:	35.915611
+    longitude:	139.651657
 twitter:	 @Astro_Wakata
 country:
   - JPN

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	YELISEYEV, Aleksei Stanislavovich 
 type:	civilian
 dob:	1934-07-13
+birthplace:
+  - name:	Zhizdra, Russia
+    latitude:	53.74609
+    longitude:	34.73584
 country:
   - URS
 references:

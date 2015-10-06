@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TOKAREV, Valeri Ivanovich 
 type:	military
 dob:	1952-10-29
+birthplace:
+  - name:	Kapustin Yar, Astrakhan Oblast, Russia
+    latitude:	48.574928
+    longitude:	45.762989
 country:
   - URS
 references:

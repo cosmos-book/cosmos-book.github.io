@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TITOV, German Stepanovich
 type:	military
 dob:	1935-09-11
+birthplace:
+  - name:	Verkhneye Zhilino, Altai Krai, Russian SFSR, Soviet Union
+    latitude:	53.405918
+    longitude:	84.307678
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ZUDOV, Vyacheslav Dmitriyevich 
 type:	military
 dob:	1942-01-08
+birthplace:
+  - name:	Bor, Russia
+    latitude:	56.355358
+    longitude:	44.081638
 country:
   - URS
 references:

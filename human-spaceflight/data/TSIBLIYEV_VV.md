@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TSIBLIYEV, Vasili Vasiliyevich 
 type:	military
 dob:	1954-02-20
+birthplace:
+  - name:	Orekhovka, Crimea, USSR 
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

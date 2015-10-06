@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SKRIPOCHKA, Oleg Ivanovich 
 type:	civilian
 dob:	1969-12-24
+birthplace:
+  - name:	Nevinnomyssk, Stavropol Krai, Russia
+    latitude:	44.638191
+    longitude:	41.938099
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	TOGNINI, Michel Ange-Charles
 type:	military
 dob:	1949-09-30
+birthplace:
+  - name:	Vincennes, France
+    latitude:	48.847519
+    longitude:	2.43762
 country:
   - FRA
 references:

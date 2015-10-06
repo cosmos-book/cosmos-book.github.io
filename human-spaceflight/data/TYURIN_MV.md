@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TYURIN, Mikhail Vladislavovich 
 type:	civilian
 dob:	1960-03-02
+birthplace:
+  - name:	Kolomna, Russia, USSR
+    latitude:	55.083801
+    longitude:	38.802799
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	taikonaut
 name:	WANG, Yaping
 type:	civilian
 dob:	1980-01-27
+birthplace:
+  - name:	Yantai, Shandong
+    latitude:	37.538971
+    longitude:	121.374893
 gender:	Female
 country:
   - CHN

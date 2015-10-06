@@ -3,6 +3,10 @@ category:	international
 name:	WILLIAMS, Dafydd Rhys 'Dave'
 type:	civilian
 dob:	1954-05-16
+birthplace:
+  - name:	Saskatoon, Saskatchewan, Canada
+    latitude:	52.132889
+    longitude:	-106.646347
 country:
   - CAN
 references:

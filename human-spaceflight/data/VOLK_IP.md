@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VOLK, Igor Petrovich 
 type:	military
 dob:	1937-04-12
+birthplace:
+  - name:	Zmiiv, Kharkiv Oblast, Ukrainian SSR, USSR
+    latitude:	49.70195
+    longitude:	36.355179
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VOLKOV, Aleksandr Aleksandrovich 
 type:	military
 dob:	1948-05-27
+birthplace:
+  - name:	Horlivka, Ukrainian SSR
+    latitude:	48.299999
+    longitude:	38.049999
 country:
   - URS
 references:

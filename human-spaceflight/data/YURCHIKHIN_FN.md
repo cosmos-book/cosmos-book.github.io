@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	YURCHIKHIN, Fyodor Nikolayevich 
 type:	civilian
 dob:	1959-01-03
+birthplace:
+  - name:	Batumi, Adjar ASSR, Georgian SSR, Soviet Union
+    latitude:	41.651741
+    longitude:	41.656181
 country:
   - RUS
 references:

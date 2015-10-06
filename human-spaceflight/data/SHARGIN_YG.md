@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SHARGIN, Yuri Georgiyevich 
 type:	military
 dob:	1960-03-20
+birthplace:
+  - name:	Engels, Russia
+    latitude:	51.47216
+    longitude:	46.120861
 country:
   - RUS
 references:

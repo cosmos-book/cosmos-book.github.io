@@ -3,6 +3,10 @@ category:	international
 name:	SHARMAN, Helen Patricia 'Lenochka'
 type:	civilian
 dob:	1963-05-30
+birthplace:
+  - name:	Sheffield, England
+    latitude:	53.375469
+    longitude:	-1.45084
 gender:	Female
 country:
   - GBR

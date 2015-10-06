@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	SHUTTLEWORTH, Mark Richard 'Buranov'
 type:	civilian
 dob:	1973-09-18
+birthplace:
+  - name:	Welkom, Free State, South Africa
+    latitude:	-27.979799
+    longitude:	26.735729
 country:
   - ZAF
 references:

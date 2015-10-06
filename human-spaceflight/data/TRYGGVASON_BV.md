@@ -3,6 +3,10 @@ category:	international
 name:	TRYGGVASON, Bjarni Valdimar
 type:	civilian
 dob:	1945-09-21
+birthplace:
+  - name:	Reykjavík, Iceland
+    latitude:	64.137383
+    longitude:	-21.902479
 country:
   - CAN
 references:

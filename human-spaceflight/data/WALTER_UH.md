@@ -3,6 +3,10 @@ category:	international
 name:	WALTER, Ulrich Hans
 type:	civilian
 dob:	1954-02-09
+birthplace:
+  - name:	Iserlohn, Germany
+    latitude:	51.37608
+    longitude:	7.69902
 country:
   - DEU
 references:

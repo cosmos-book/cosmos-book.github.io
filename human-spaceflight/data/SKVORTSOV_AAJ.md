@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SKVORTSOV, Aleksandr Aleksandrovich Jr.
 type:	military
 dob:	1966-05-06
+birthplace:
+  - name:	Schelkovo, Moscow Oblast, Russian SFSR, Soviet Union
+    latitude:	55.910332
+    longitude:	38.021622
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TRESHCHYOV, Sergei Yevgeniyevich 
 type:	civilian
 dob:	1958-08-18
+birthplace:
+  - name:	Krasnuy Kustar, Lipetsk Oblast, Russia
+    latitude:	52.737499
+    longitude:	39.2444
 country:
   - RUS
 references:

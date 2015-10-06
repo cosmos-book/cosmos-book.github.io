@@ -3,6 +3,10 @@ category:	international
 name:	YAMAZAKI, Naoko
 type:	civilian
 dob:	1970-12-27
+birthplace:
+  - name:	Matsudo, Chiba, Japan
+    latitude:	35.79808
+    longitude:	139.940536
 gender:	Female
 twitter:	@Astro_Naoko
 country:

@@ -3,6 +3,10 @@ category:	taikonaut
 name:	YANG, Liwei
 type:	military
 dob:	1965-06-21
+birthplace:
+  - name:	Suizhong, Liaoning, China
+    latitude:	40.3237
+    longitude:	120.341118
 country:
   - CHN
 gender:	Male

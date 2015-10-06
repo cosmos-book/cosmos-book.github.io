@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SHKAPLEROV, Anton Nikolayevich
 type:	military
 dob:	1972-02-20
+birthplace:
+  - name:	Sevastopol, Crimea
+    latitude:	44.599998
+    longitude:	33.533298
 twitter:	@AntonAstrey
 country:
   - RUS

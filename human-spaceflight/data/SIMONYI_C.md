@@ -3,6 +3,10 @@ category:	commercial tourist
 name:	SIMONYI, Charles
 type:	civilian
 dob:	1948-09-10
+birthplace:
+  - name:	Budapest, Hungary
+    latitude:	47.506222
+    longitude:	19.064819
 country:
   - HUN
 gender:	Male

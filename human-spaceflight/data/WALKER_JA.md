@@ -3,6 +3,10 @@ category:	astronaut
 name:	WALKER, Joseph Albert 'Joe'
 type:	military
 dob:	1921-02-20
+birthplace:
+  - name:	Washington, Pennsylvania
+    latitude:	40.1763
+    longitude:	-80.242401
 country:
   - USA
 gender:	Male

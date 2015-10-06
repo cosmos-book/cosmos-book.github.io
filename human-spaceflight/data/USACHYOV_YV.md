@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	USACHYOV, Yuri Vladimirovich 
 type:	civilian
 dob:	1957-10-09
+birthplace:
+  - name:	Donetsk, Rostov Oblast, Russia
+    latitude:	48.32415
+    longitude:	39.930092
 country:
   - URS
 references:

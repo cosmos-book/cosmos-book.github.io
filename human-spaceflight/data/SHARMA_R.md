@@ -3,6 +3,10 @@ category:	international
 name:	SHARMA, Rakesh 'Rikki'
 type:	military
 dob:	1949-01-13
+birthplace:
+  - name:	Patiala, Punjab, India
+    latitude:	30.342449
+    longitude:	76.393219
 country:
   - IND
 references:

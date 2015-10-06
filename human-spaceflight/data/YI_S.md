@@ -3,6 +3,10 @@ category:	international
 name:	YI, Soyeon
 type:	civilian
 dob:	1978-06-02
+birthplace:
+  - name:	Gwangju, South Korea
+    latitude:	35.15007
+    longitude:	126.833847
 gender:	Female
 country:
   - KOR

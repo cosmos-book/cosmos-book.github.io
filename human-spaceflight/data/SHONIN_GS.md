@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SHONIN, Georgi Stepanovich 
 type:	military
 dob:	1935-08-03
+birthplace:
+  - name:	Rovenky, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:

@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	SURAYEV, Maksim Viktorovich 
 type:	military
 dob:	1972-05-24
+birthplace:
+  - name:	Chelyabinsk, Russian SFSR, Soviet Union
+    latitude:	55.186779
+    longitude:	61.406792
 country:
   - RUS
 references:

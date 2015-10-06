@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VINOGRADOV, Pavel Vladimirovich 
 type:	civilian
 dob:	1953-08-31
+birthplace:
+  - name:	Magadan, USSR
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - RUS
 references:

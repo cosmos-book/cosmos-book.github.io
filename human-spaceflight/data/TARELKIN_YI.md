@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	TARELKIN, Yevgeni Igorevich
 type:	military
 dob:	1974-12-29
+birthplace:
+  - name:	Chita Oblast, Russia
+    latitude:	52.090248
+    longitude:	113.433937
 country:
   - RUS
 references:

@@ -3,6 +3,10 @@ category:	international
 name:	TAMAYO MéNDEZ, Arnaldo 'Guasso'
 type:	military
 dob:	1942-01-29
+birthplace:
+  - name:	Guantanamo, Cuba
+    latitude:	20.14303
+    longitude:	-75.209
 country:
   - CUB
 references:

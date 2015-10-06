@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	ZHOLOBOV, Vitali Mikhailovich 
 type:	military
 dob:	1937-06-18
+birthplace:
+  - name:	Zburjevka, Ukrainian SSR, Soviet Union
+    latitude:	44.957489
+    longitude:	55.794559
 country:
   - URS
 references:
