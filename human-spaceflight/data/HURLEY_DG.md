@@ -7,7 +7,7 @@ birthplace:
   - name:	Endicott, New York
     latitude:	42.0952
     longitude:	-76.071098
-twitter:	@Astro_Doug
+twitter:	Astro_Doug
 qualifications:
   - BSc in civil engineering
 references:

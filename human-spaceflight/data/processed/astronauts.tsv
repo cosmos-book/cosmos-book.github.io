@@ -1,5 +1,5 @@
 Name	Country	Gender	Date of Birth	Time in Space (days)	Time in Space (s)	EVA Time (s)	Number of Launches	Number of EVAs	First Launch	Time dilation (s)	Age at first launch (yr)	Qualifications	Missions	Longest single trip (days)	Total distance covered (km)	EVA (hh:mm)	Type	Filename	In space as of	Twitter
-ACABA, Joseph M.	USA	Male	1967-05-17	137.81	11906617	46620	2	1	2009-03-15T23:43Z	0.004292	41	BSc in geology;MSc in geology	STS-119;Soyuz TMA-04M	124.99	95848266	12:57	astronaut	ACABA_JM.md		@AstroAcaba
+ACABA, Joseph M.	USA	Male	1967-05-17	137.81	11906617	46620	2	1	2009-03-15T23:43Z	0.004292	41	BSc in geology;MSc in geology	STS-119;Soyuz TMA-04M	124.99	95848266	12:57	astronaut	ACABA_JM.md		AstroAcaba
 ACTON, Loren W.	USA	Male	1936-03-07	7.95	686727	0	1	0	1985-07-29T21:00:00Z	0.000248	49	PhD	STS-51-F	7.95	5528152	00:00	astronaut	ACTON_LW.md		
 ADAMSON, James C.	USA	Male	1946-03-03	13.93	1203696	0	2	0	1989-08-08T12:37Z	0.000434	43	BSc in engineering;MSc in aerospace engineering	STS-28;STS-43	8.89	9689752	00:00	astronaut	ADAMSON_JC.md		
 ADAMS, Mike James	USA	Male	1930-05-05	0.00	0	0	0	0		0.000000	0		X-15 Flight 191	0.00	0	00:00	astronaut	ADAMS_MJ.md		
@@ -19,7 +19,7 @@ ALLEN, Andrew M.	USA	Male	1955-08-04	37.68	3255188	0	3	0	1992-07-31T13:56:48Z	0.
 ALLEN, Joseph P.	USA	Male	1937-06-27	13.08	1130364	44040	2	1	1982-11-11T12:19Z	0.000408	45	BA in mathematics and physics;PhD in physics	STS-5;STS-51-A	7.99	9099430	12:14	astronaut	ALLEN_JP.md		
 ALTMAN, Scott D.	USA	Male	1959-08-15	50.54	4366232	0	4	0	1998-04-17T18:19Z	0.001574	38	BSc in aeronautical & astronautical engineering;MSc in aeronautical engineering	STS-90;STS-106;STS-109;STS-125	15.91	35148167	00:00	astronaut	ALTMAN_SD.md		
 AMELKINA, Galina Vasiliyevna	URS	Male	1954-05-22	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	AMELKINA_GV.md		
-ANDERSON, Clayton C.	USA	Male	1959-02-23	166.88	14418628	138480	2	1	2007-06-08T23:38:04Z	0.005198	48	BSc in physics;MSc in aerospace engineering	STS-117;STS-120;STS-131	151.77	116069955	38:28	astronaut	ANDERSON_CC.md		@Astro_Clay
+ANDERSON, Clayton C.	USA	Male	1959-02-23	166.88	14418628	138480	2	1	2007-06-08T23:38:04Z	0.005198	48	BSc in physics;MSc in aerospace engineering	STS-117;STS-120;STS-131	151.77	116069955	38:28	astronaut	ANDERSON_CC.md		Astro_Clay
 ANDERSON, Michael P.	USA	Male	1959-12-25	24.76	2138925	0	2	0	1998-01-23T02:48:15Z	0.000771	38	MSc in physics	STS-89;STS-107	15.93	17218346	00:00	astronaut	ANDERSON_MP.md		
 ANDERS, William A.	USA	Male	1933-10-17	6.13	529243	0	1	0	1968-12-21T12:51Z	0.000362	35	BSc in nuclear engineering;MSc in nuclear engineering	Apollo 8	6.13	760000	00:00	astronaut	ANDERS_WA.md		
 ANDREYEV, Boris Dmitriyevich	URS	Male	1940-10-06	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	ANDREYEV_BD.md		
@@ -39,7 +39,7 @@ ARZAMAZOV, German Semyonovich	URS	Male	1946-03-09	0.00	0	0	0	0		0.000000	0			0.0
 ASHBY, Jeffrey S.	USA	Male	1954-06-16	27.68	2391600	0	3	0	1999-07-23T04:31Z	0.000862	45	BSc in mechanical engineering;MSc in aviation systems	STS-93;STS-100;STS-112	11.90	19252380	00:00	astronaut	ASHBY_JS.md		
 ATKOV, Oleg Yuriyevich	URS	Male	1949-05-09	236.95	20472634	0	1	0	1984-02-08T12:07:26Z	0.007381	34	Doctorate of medicine in cardiology	Soyuz T-10;Soyuz T-11	236.95	164804703	00:00	cosmonaut	ATKOV_OY.md		
 AUBAKIROV, Toktar Ongarbayevich	URS;KAZ	Male	1946-07-27	7.93	684761	0	1	0	1991-10-02T05:59:38Z	0.000247	45		Soyuz TM-13;Soyuz TM-12	7.93	5512326	00:00	cosmonaut	AUBAKIROV_TO.md		
-AU&Ntilde;&Oacute;N, Serena M.	USA	Male	1976-04-09	0.00	0	0	0	0		0.000000	0	BSc in electrical engineering;Doctor of Medicine		0.00	0	00:00	astronaut	AUNON_SM.md		@AstroSerena
+AU&Ntilde;&Oacute;N, Serena M.	USA	Male	1976-04-09	0.00	0	0	0	0		0.000000	0	BSc in electrical engineering;Doctor of Medicine		0.00	0	00:00	astronaut	AUNON_SM.md		AstroSerena
 AVDEYEV, Sergei Vasiliyevich	URS	Male	1956-01-01	747.59	64592052	147600	3	8	1992-07-27T06:08:42Z	0.023286	36		Soyuz TM-15;Soyuz TM-22;Soyuz TM-28;Soyuz TM-29	379.62	519966018	41:00	cosmonaut	AVDEYEV_SV.md		
 AYMAKHANOV, Mukhtar Rabatovich	KAZ	Male	1967-01-01	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	AYMAKHANOV_MR.md		
 BABERDIN, Valeri Vasiliyevich	URS	Male	1948-10-28	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	BABERDIN_VV.md		
@@ -99,7 +99,7 @@ BUDARIN, Nikolai Mikhailovich	URS	Male	1953-04-29	445.06	38453164	159900	3	8	199
 BUGROV, Vladimir Yevgrafovich	URS	Male	1933-01-18	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	BUGROV_VY.md		
 BUI, Thanh Liem	VNM	Male	1949-06-30	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	BUI_TL.md		
 BULL, John S.	USA	Male	1934-09-25	0.00	0	0	0	0		0.000000	0	BSc in mechanical engineering;MSc in aeronautical engineering		0.00	0	00:00	astronaut	BULL_JS.md		
-BURBANK, Daniel C.	USA	Male	1961-07-27	187.91	16235326	25860	3	1	2000-09-08T12:45:47Z	0.005853	39	BSc in electrical engineering;MSc in aeronautical science	STS-106;STS-115;Soyuz TMA-22	165.31	130694374	07:11	astronaut	BURBANK_DC.md		@AstroCoastie
+BURBANK, Daniel C.	USA	Male	1961-07-27	187.91	16235326	25860	3	1	2000-09-08T12:45:47Z	0.005853	39	BSc in electrical engineering;MSc in aeronautical science	STS-106;STS-115;Soyuz TMA-22	165.31	130694374	07:11	astronaut	BURBANK_DC.md		AstroCoastie
 BURDAYEV, Mikhail Nikolayevich	URS	Male	1932-08-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	BURDAYEV_MN.md		
 BURSCH, Daniel W.	USA	Male	1957-07-25	226.93	19606605	42480	4	1	1993-09-12T11:45Z	0.007068	36	BSc in physics;MSc in engineering science	STS-51;STS-68;STS-77;STS-108;STS-111	195.82	157833170	11:48	astronaut	BURSCH_DW.md		
 BUYNOVSKY, Eduard Ivanovich	URS	Male	1936-02-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	BUYNOVSKY_EI.md		
@@ -119,7 +119,7 @@ CASSIDY, Christopher J.	USA	Male	1970-01-04	15.70	1356360	90420	1	3	2009-07-15T2
 CENKER, Robert	USA	Male	1948-11-05	6.09	525832	0	1	0	1986-01-12T11:55Z	0.000190	37		STS-61-C	6.09	4232947	00:00	astronaut	CENKER_R.md		
 CERNAN, Eugene A.	USA	Male	1934-03-14	23.59	2038575	87060	3	1	1966-06-03T13:39:33Z	0.001309	32	BSc in electrical engineering;MSc in aeronautical engineering	Gemini 9;Apollo 10;Apollo 17	12.58	3616630	24:11	astronaut	CERNAN_EA.md		
 CHAFFEE, Roger B.	USA	Male	1935-02-15	0.00	0	0	0	0		0.000000	0	BSc in aeronautical engineering		0.00	0	00:00	astronaut	CHAFFEE_RB.md		
-CHAMITOFF, Gregory E.	USA	Male	1962-08-06	198.75	17172200	49380	2	1	2008-05-31T21:02:12Z	0.006191	45	BSc in electrical engineering;MSc in aeronautical engineering;PhD in aeronautics and astronautics	STS-124;STS-126;STS-134	183.02	138236210	13:43	astronaut	CHAMITOFF_GE.md		@Astro_Taz
+CHAMITOFF, Gregory E.	USA	Male	1962-08-06	198.75	17172200	49380	2	1	2008-05-31T21:02:12Z	0.006191	45	BSc in electrical engineering;MSc in aeronautical engineering;PhD in aeronautics and astronautics	STS-124;STS-126;STS-134	183.02	138236210	13:43	astronaut	CHAMITOFF_GE.md		Astro_Taz
 CHANG-DIAZ, Franklin R.	USA	Male	1950-04-05	66.76	5768333	70260	7	1	1986-01-12T11:55Z	0.002080	35	BSc in mechanical engineering;PhD in applied plasma physics	STS-61-C;STS-34;STS-46;STS-60;STS-75;STS-91;STS-111	15.74	46435080	19:31	astronaut	CHANG-DIAZ_FR.md		
 CHAPMAN, Philip K.	USA	Male	1935-03-05	0.00	0	0	0	0		0.000000	0	BSc in physics and mathematics;MSc in aeronautics and astronautics		0.00	0	00:00	astronaut	CHAPMAN_PK.md		
 CHAWLA, Kalpana	USA	Female	1961-07-01	31.62	2732100	0	2	0	1997-11-19T19:46Z	0.000985	36	BSc in aeronautical engineering;MSc in aerospace engineering;PhD in aerospace engineering	STS-87;STS-107	15.93	21993405	00:00	astronaut	CHAWLA_K.md		
@@ -137,16 +137,16 @@ CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;	FRA	Male	1958-11-19	28.09	2426735	0	3
 CLIFFORD, Michael R.	USA	Male	1952-10-13	27.77	2399172	21720	3	1	1992-12-02T13:24Z	0.000865	40	MSc in aerospace engineering	STS-53;STS-59;STS-76	11.24	19313334	06:02	astronaut	CLIFFORD_MR.md		
 COATS, Michael L.	USA	Male	1946-01-16	19.33	1670241	0	3	0	1984-08-30T12:41:50Z	0.000602	38	MSc in administration of science & technology	STS-41-D;STS-29;STS-39	8.31	13445440	00:00	astronaut	COATS_ML.md		
 COCKRELL, Kenneth D.	USA	Male	1950-04-09	64.52	5574513	0	5	0	1993-04-08T05:29Z	0.002010	42	BSc in mechanical engineering;MSc in aeronautical systems	STS-56;STS-69;STS-80;STS-98;STS-111	17.66	44874829	00:00	astronaut	COCKRELL_KD.md		
-COLEMAN, Catherine G. 'Cady', (Ph.D.)	USA	Female	1960-12-14	180.17	15566422	0	3	0	1995-10-20T13:53Z	0.005612	34	BSc in chemistry;PhD in polymer science & engineering	STS-73;STS-93;Soyuz TMA-20	159.30	125309697	00:00	astronaut	COLEMAN_CG.md		@Astro_Cady
+COLEMAN, Catherine G. 'Cady', (Ph.D.)	USA	Female	1960-12-14	180.17	15566422	0	3	0	1995-10-20T13:53Z	0.005612	34	BSc in chemistry;PhD in polymer science & engineering	STS-73;STS-93;Soyuz TMA-20	159.30	125309697	00:00	astronaut	COLEMAN_CG.md		Astro_Cady
 COLLINS, Eileen M.	USA	Female	1956-11-19	36.30	3136236	0	4	0	1995-02-03T05:22:04Z	0.001131	38	BA in mathematics & economics;MSc in operations research;MA in space systems management	STS-63;STS-84;STS-93;STS-114	13.90	25246699	00:00	astronaut	COLLINS_EM.md		
 COLLINS, Michael	USA	Male	1930-10-31	11.09	957916	5220	2	1	1966-07-18T22:20:26Z	0.000572	35		Gemini 10;Apollo 11	8.14	2811140	01:27	astronaut	COLLINS_M.md		
 CONRAD, Charles, Jr.	USA	Male	1930-06-02	49.15	4246719	44880	4	1	1965-08-21T13:59:59Z	0.001815	35	BSc in aeronautical engineering	Gemini 5;Gemini 11;Apollo 12;Skylab 2	28.03	27857378	12:28	astronaut	CONRAD_CJ.md		
 COOPER, L. Gordon, Jr.	USA	Male	1927-03-06	9.39	810905	0	2	0	1963-05-15T13:04:13Z	0.000292	36	BSc in aeronautical engineering	Mercury-Atlas 9;Gemini 5	7.96	6527785	00:00	astronaut	COOPER_LGJ.md		
 COVEY, Richard O.	USA	Male	1946-08-01	26.88	2322659	0	4	0	1985-08-27T10:58:01Z	0.000837	39	BSc in engineering sciences;MSc in aeronautics and astronautics	STS-51-I;STS-26;STS-38;STS-61	10.83	18697404	00:00	astronaut	COVEY_RO.md		
-CREAMER, Timothy J.	USA	Male	1959-11-15	163.23	14103240	0	1	0	2009-12-20T21:52Z	0.005084	50	BSc in chemistry;MSc in physics	Soyuz TMA-17	163.23	113531082	00:00	astronaut	CREAMER_TJ.md		@Astro_TJ
+CREAMER, Timothy J.	USA	Male	1959-11-15	163.23	14103240	0	1	0	2009-12-20T21:52Z	0.005084	50	BSc in chemistry;MSc in physics	Soyuz TMA-17	163.23	113531082	00:00	astronaut	CREAMER_TJ.md		Astro_TJ
 CREIGHTON, John O.	USA	Male	1943-04-28	16.85	1455894	0	3	0	1985-06-17T11:33:00Z	0.000525	42	MSc in administration of science & technology	STS-51G;STS-36;STS-48	7.07	11719946	00:00	astronaut	CREIGHTON_JO.md		
 CRIPPEN, Robert L.	USA	Male	1937-09-11	23.58	2036917	0	4	0	1981-04-12T12:00:03Z	0.000734	43	BSc in aerospace engineering	STS-1;STS-7;STS-41-C;STS-41-G	8.22	16397181	00:00	astronaut	CRIPPEN_RL.md		
-CRISTOFORETTI, Samantha	ITA	Female	1977-04-26	199.70	17253780	0	1	0	2014-11-23T21:01:00Z	0.006220	37		Soyuz TMA-15M	199.70	138892929	00:00	international	CRISTOFORETTI_S.md		@AstroSamantha
+CRISTOFORETTI, Samantha	ITA	Female	1977-04-26	199.70	17253780	0	1	0	2014-11-23T21:01:00Z	0.006220	37		Soyuz TMA-15M	199.70	138892929	00:00	international	CRISTOFORETTI_S.md		AstroSamantha
 CROUCH, Roger K.	USA	Male	1940-09-12	19.67	1699136	0	2	0	1997-04-04T19:20:32Z	0.000613	56	BSc in physics;PhD in physics	STS-83;STS-94	15.70	13678044	00:00	astronaut	CROUCH_RK.md		
 CULBERTSON, Frank L., Jr.	USA	Male	1949-05-15	143.62	12408750	18240	3	1	1990-11-15T23:48:13Z	0.004474	41	BSc in aerospace engineering	STS-38;STS-51;STS-105;STS-108	128.87	99890437	05:04	astronaut	CULBERTSON_FLJ.md		
 CUNNINGHAM, Walter	USA	Male	1932-03-16	10.84	936544	0	1	0	1968-10-11T15:02:45Z	0.000640	36	MA in physics	Apollo 7	10.84	760000	00:00	astronaut	CUNNINGHAM_W.md		
@@ -180,7 +180,7 @@ EISELE, Donn F.	USA	Male	1930-06-23	10.84	936544	0	1	0	1968-10-11T15:02:45Z	0.00
 ENGLAND, Anthony W.	USA	Male	1942-05-15	7.95	686727	0	1	0	1985-07-29T21:00:00Z	0.000248	43	MSc in geology;PhD in geophysics	STS-51-F	7.95	5528152	00:00	astronaut	ENGLAND_AW.md		
 ENGLE, Joe H.	USA	Male	1932-08-26	9.35	808256	0	2	0	1981-11-12T15:09:59Z	0.000291	49	BSc in aeronautical engineering	STS-2;STS-51-I	7.10	6506460	00:00	astronaut	ENGLE_JH.md		
 ENOMOTO, Daisuke 'Dice-K'	JPN	Male	1971-04-22	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	ENOMOTO_D.md		
-EPPS, Jeanette J.	USA	Male	1970-11-03	0.00	0	0	0	0		0.000000	0	BSc in physics;PhD in aerospace engineering		0.00	0	00:00	astronaut	EPPS_JJ.md		@Astro_Jeanette
+EPPS, Jeanette J.	USA	Male	1970-11-03	0.00	0	0	0	0		0.000000	0	BSc in physics;PhD in aerospace engineering		0.00	0	00:00	astronaut	EPPS_JJ.md		Astro_Jeanette
 EVANS, Ronald E.	USA	Male	1933-11-10	12.58	1086720	3900	1	1	1972-12-07T05:33Z	0.000743	39	BSc in electrical engineering;MSc in aeronautical engineering	Apollo 17	12.58	760000	01:05	astronaut	EVANS_RE.md		
 EWALD, Reinhold	DEU	Male	1956-12-18	19.69	1701287	0	1	0	1997-02-10T14:09:30Z	0.000613	40		Soyuz TM-25;Soyuz TM-24	19.69	13695360	00:00	international	EWALD_R.md		
 EYHARTS, L&eacute;opold Paul Pierre	FRA	Male	1957-04-28	68.90	5952751	0	2	0	1998-01-29T16:33:42Z	0.002146	40		Soyuz TM-27;Soyuz TM-26;STS-122;STS-123	48.21	47919645	00:00	international	EYHARTS_LPP.md		
@@ -195,21 +195,21 @@ FEDYAYEV, Andrei Valereivich	RUS	Male	1981-02-26	0.00	0	0	0	0		0.000000	0			0.00
 FEFELOV, Nikolai Nikolayevich	URS	Male	1945-05-20	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	FEFELOV_NN.md		
 FEI, Junlong	CHN	Male	1966-05-05	4.82	416037	0	1	0	2005-10-12T01:00:03Z	0.000150	39		Shenzhou VI	4.82	3349097	00:00	taikonaut	FEI_J.md		
 FEOKTISTOV, Konstantin Petrovich	URS	Male	1926-02-07	1.01	87424	0	1	0	1964-10-12T07:30:01Z	0.000032	38		Voskhod 1	1.01	703763	00:00	cosmonaut	FEOKTISTOV_KP.md		
-FERGUSON, Christopher J.	USA	Male	1961-09-01	40.42	3492396	0	3	0	2006-09-09T15:14:55Z	0.001259	45	BSc in mechanical engineering;MSc in aeronautical engineering	STS-115;STS-126;STS-135	15.85	28113787	00:00	astronaut	FERGUSON_CJ.md		@Astro_Ferg
+FERGUSON, Christopher J.	USA	Male	1961-09-01	40.42	3492396	0	3	0	2006-09-09T15:14:55Z	0.001259	45	BSc in mechanical engineering;MSc in aeronautical engineering	STS-115;STS-126;STS-135	15.85	28113787	00:00	astronaut	FERGUSON_CJ.md		Astro_Ferg
 FETTMAN, Martin J.	USA	Male	1956-12-31	14.01	1210363	0	1	0	1993-10-18T14:53Z	0.000436	36	BSc in animal nutrition;PhD in physiology	STS-58	14.01	9743422	00:00	astronaut	FETTMAN_MJ.md		
 FEUSTEL, Andrew J.	USA	Male	1965-08-25	28.64	2474202	152280	2	1	2009-05-11T18:01:56Z	0.000892	43	BSc in solid earth sciences;MSc in geophysics;PhD in seismology	STS-125;STS-134	15.74	19917326	42:18	astronaut	FEUSTEL_AJ.md		
 FILATIYEV, Valentin Ignatiyevich	URS	Male	1930-01-21	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	FILATIYEV_VI.md		
 FILIPCHENKO, Anatoli Vasiliyevich	URS	Male	1928-02-26	10.88	939840	0	2	0	1969-10-12T10:44:42Z	0.000339	41		Soyuz 7;Soyuz 16	5.93	7565712	00:00	cosmonaut	FILIPCHENKO_AV.md		
-FINCKE, Edward Michael 'Mike'	USA	Male	1967-03-14	381.63	32973152	175020	3	1	2004-04-19T03:19Z	0.011887	37	BSc in aeronautics & astronautics;MSc in aeronautics & astronautics	Soyuz TMA-4;Soyuz TMA-13;STS-134	187.89	265433873	48:37	astronaut	FINCKE_EM.md		@AstroIronMike
-FISCHER, Jack David '2fish'	USA	Male	1974-01-23	0.00	0	0	0	0		0.000000	0	BSc in astronautical engineering;MSc in aeronautics & astronautics		0.00	0	00:00	astronaut	FISCHER_JD.md		@Astro2fish
+FINCKE, Edward Michael 'Mike'	USA	Male	1967-03-14	381.63	32973152	175020	3	1	2004-04-19T03:19Z	0.011887	37	BSc in aeronautics & astronautics;MSc in aeronautics & astronautics	Soyuz TMA-4;Soyuz TMA-13;STS-134	187.89	265433873	48:37	astronaut	FINCKE_EM.md		AstroIronMike
+FISCHER, Jack David '2fish'	USA	Male	1974-01-23	0.00	0	0	0	0		0.000000	0	BSc in astronautical engineering;MSc in aeronautics & astronautics		0.00	0	00:00	astronaut	FISCHER_JD.md		Astro2fish
 FISHER, Anna L.	USA	Female	1949-08-24	7.99	690297	0	1	0	1984-11-08T12:15Z	0.000249	35	MSc in chemistry;Doctor of Medicine	STS-51-A	7.99	5556890	00:00	astronaut	FISHER_AL.md		
 FISHER, William F.	USA	Male	1946-04-01	7.10	613063	42720	1	1	1985-08-27T10:58:01Z	0.000221	39	MSc in engineering;Doctor of Medicine	STS-51-I	7.10	4935157	11:52	astronaut	FISHER_WF.md		
 FLADE, Klaus-Dietrich	DEU	Male	1952-08-23	7.91	683813	0	1	0	1992-03-17T10:54:30Z	0.000247	39		Soyuz TM-14;Soyuz TM-13	7.91	5504694	00:00	international	FLADE_K.md		
 FOALE, C. Michael	USA	Male	1957-01-06	373.72	32289597	81840	6	1	1992-03-24T13:13:39Z	0.011641	35	BA in physics;PhD in laboratory astrophysics	STS-45;STS-56;STS-63;STS-84;STS-86;STS-103;Soyuz TMA-3	194.77	259931255	22:44	astronaut	FOALE_CM.md		
 FORD, Kevin A., (Ph.D.)	USA	Male	1960-07-07	157.55	13612549	0	2	0	2009-08-29T03:59Z	0.004907	49	BSc in aerospace engineering;MSc in international relations;PhD in astronautical engineering	STS-128;Soyuz TMA-06M	143.68	109581019	00:00	astronaut	FORD_KA.md		
-FOREMAN, Michael J.	USA	Male	1957-03-29	26.56	2294922	116340	2	1	2008-03-11T06:28:14Z	0.000827	50	BSc in aerospace engineering;MSc in aeronautical engineering	STS-123;STS-129	15.76	18474122	32:19	astronaut	FOREMAN_MJ.md		@foreman_mike
+FOREMAN, Michael J.	USA	Male	1957-03-29	26.56	2294922	116340	2	1	2008-03-11T06:28:14Z	0.000827	50	BSc in aerospace engineering;MSc in aeronautical engineering	STS-123;STS-129	15.76	18474122	32:19	astronaut	FOREMAN_MJ.md		foreman_mike
 FORRESTER, Patrick G.	USA	Male	1957-03-31	39.60	3421221	91800	3	1	2001-08-10T21:10:14Z	0.001233	44	BSc in applied sciences and engineering;MSc in mechanical & aerospace engineering	STS-105;STS-117;STS-128	13.87	27540829	25:30	astronaut	FORRESTER_PG.md		
-FOSSUM, Michael E.	USA	Male	1957-12-19	193.80	16743897	174720	3	1	2006-07-04T18:37:55Z	0.006036	48	BSc in mechanical engineering;MSc in systems engineering	STS-121;STS-124;Soyuz TMA-02M	167.26	134788370	48:32	astronaut	FOSSUM_ME.md		@astro_aggie
+FOSSUM, Michael E.	USA	Male	1957-12-19	193.80	16743897	174720	3	1	2006-07-04T18:37:55Z	0.006036	48	BSc in mechanical engineering;MSc in systems engineering	STS-121;STS-124;Soyuz TMA-02M	167.26	134788370	48:32	astronaut	FOSSUM_ME.md		astro_aggie
 FREEMAN, Theodore C.	USA	Male	1930-02-18	0.00	0	0	0	0		0.000000	0	MSc in aeronautical engineering		0.00	0	00:00	astronaut	FREEMAN_TC.md		
 FRICK, Stephen N.	USA	Male	1964-09-30	23.59	2037890	0	2	0	2002-04-08T20:44:19Z	0.000735	37	BSc in aerospace engineering;MSc in aeronautical engineering	STS-110;STS-122	12.77	16405014	00:00	astronaut	FRICK_SN.md		
 FRIMOUT, Dirk Dries David Damiaan	BEL	Male	1941-03-21	8.92	771021	0	1	0	1992-03-24T13:13:39Z	0.000278	51		STS-45	8.92	6206719	00:00	international	FRIMOUT_DDDD.md		
@@ -217,12 +217,12 @@ FUGLESANG, Arne Christer	SWE	Male	1957-03-18	26.74	2310025	114840	2	5	2006-12-10
 FULIER, Michal	SVK	Male	1955-02-20	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	FULIER_M.md		
 FULLERTON, C. Gordon	USA	Male	1936-10-11	15.95	1378214	0	2	0	1982-03-22T16:00Z	0.000497	45	MSc in mechanical engineering	STS-3;STS-51-F	8.00	11094622	00:00	astronaut	FULLERTON_CG.md		
 FURRER, Reinhard Alfred	DEU	Male	1940-11-25	7.03	607492	0	1	0	1985-10-30T17:00Z	0.000219	44		STS-61-A	7.03	4890310	00:00	international	FURRER_RA.md		
-FURUKAWA, Satoshi	JPN	Male	1964-04-04	167.26	14451300	0	1	0	2011-06-07T20:12Z	0.005210	47		Soyuz TMA-02M	167.26	116332965	00:00	international	FURUKAWA_S.md		@Astro_Satoshi
+FURUKAWA, Satoshi	JPN	Male	1964-04-04	167.26	14451300	0	1	0	2011-06-07T20:12Z	0.005210	47		Soyuz TMA-02M	167.26	116332965	00:00	international	FURUKAWA_S.md		Astro_Satoshi
 FYODOROV, Anatoli Pawlovich	URS	Male	1941-04-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	FYODOROV_AP.md		
 GAFFNEY, F. Andrew (Drew)	USA	Male	1946-06-09	9.09	785661	0	1	0	1991-06-05T13:24:51Z	0.000283	44	BA in psychology;Doctor of Medicine	STS-40	9.09	6324571	00:00	astronaut	GAFFNEY_FA.md		
 GAGARIN, Yuri Alekseyevich	URS	Male	1934-03-09	0.08	6540	0	1	0	1961-04-12T06:07Z	0.000002	27		Vostok 1	0.08	52647	00:00	cosmonaut	GAGARIN_YA.md		
 GANZORIG, Maidarzhavyn	MNG	Male	1949-02-05	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	GANZORIG_M.md		
-GARAN, Ronald J., Jr.	USA	Male	1961-10-30	178.00	15378868	97380	2	1	2008-05-31T21:02:12Z	0.005544	46	BSc in business economics;MSc in aerospace engineering	STS-124;Soyuz TMA-21	164.24	123799887	27:03	astronaut	GARAN_RJJ.md		@Astro_Ron
+GARAN, Ronald J., Jr.	USA	Male	1961-10-30	178.00	15378868	97380	2	1	2008-05-31T21:02:12Z	0.005544	46	BSc in business economics;MSc in aerospace engineering	STS-124;Soyuz TMA-21	164.24	123799887	27:03	astronaut	GARAN_RJJ.md		Astro_Ron
 GARDNER, Dale A.	USA	Male	1948-11-08	14.04	1212821	44040	2	1	1983-08-30T06:32Z	0.000437	34	BSc in engineering physics	STS-8;STS-51-A	7.99	9763209	12:14	astronaut	GARDNER_DA.md		
 GARDNER, Guy S.	USA	Male	1948-01-06	13.34	1152647	0	2	0	1988-12-02T14:30:34Z	0.000416	40	BSc in engineering sciences, astronautics and mathematics;MSc in astronautics	STS-27;STS-35	8.96	9278808	00:00	astronaut	GARDNER_GS.md		
 GARNEAU, Joseph Jean-Pierre Marc	CAN	Male	1949-02-23	29.08	2512912	0	3	0	1984-10-05T11:03Z	0.000906	35		STS-41G;STS-77;STS-97	10.83	20228941	00:00	international	GARNEAU_JJM.md		
@@ -233,7 +233,7 @@ GASPARINI, Jean-Marc Michel Daniel	FRA	Male	1963-01-22	0.00	0	0	0	0		0.000000	0	
 GAYDUKOV, Sergei Nikolayevich	URS	Male	1936-10-31	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	GAYDUKOV_SN.md		
 GEMAR, Charles D.	USA	Male	1955-08-04	24.24	2093991	0	3	0	1990-11-15T23:48:13Z	0.000755	35	BSc in engineering	STS-38;STS-48;STS-62	13.97	16856627	00:00	astronaut	GEMAR_CD.md		
 GERNHARDT, Michael L.	USA	Male	1956-05-04	42.29	3654233	83760	4	1	1995-09-07T15:09Z	0.001317	39	BSc in physics;PhD in bioengineering	STS-69;STS-83;STS-94;STS-104	15.70	29416575	23:16	astronaut	GERNHARDT_ML.md		
-GERST, Alexander	DEU	Male	1976-05-03	165.33	14284819	22380	1	1	2014-05-28T19:57:41Z	0.005150	38		Soyuz TMA-13M	165.33	114992792	06:13	international	GERST_A.md		@Astro_Alex
+GERST, Alexander	DEU	Male	1976-05-03	165.33	14284819	22380	1	1	2014-05-28T19:57:41Z	0.005150	38		Soyuz TMA-13M	165.33	114992792	06:13	international	GERST_A.md		Astro_Alex
 GEVORKYAN, Vladimir Mkrtychovich	URS	Male	1952-05-28	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	GEVORKYAN_VM.md		
 GIBSON, Edward G.	USA	Male	1936-11-08	84.05	7262131	55020	1	1	1973-11-16T14:01:23Z	0.002618	37	BSc in engineering;PhD in engineering	Skylab 4	84.05	58460154	15:17	astronaut	GIBSON_EG.md		
 GIBSON, Robert L. 'Hoot'	USA	Male	1946-10-30	36.18	3125941	0	5	0	1984-02-03T13:00Z	0.001127	37	BSc in aeronautical engineering	STS-41-B;STS-61-C;STS-27;STS-47;STS-71	9.81	25163825	00:00	astronaut	GIBSON_RL.md		
@@ -257,7 +257,7 @@ GREKOV, Nikolai Sergeyevich	URS	Male	1950-02-15	0.00	0	0	0	0		0.000000	0			0.00	
 GRIGGS, S. David	USA	Male	1939-09-07	7.00	604524	11160	1	1	1985-04-12T13:59:05Z	0.000218	45	MSc in administration	STS-51-D	7.00	4866418	03:06	astronaut	GRIGGS_SD.md		
 GRISHCHENKO, Vitali Andreyevich	URS	Male	1942-04-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	GRISHCHENKO_VA.md		
 GRISSOM, Virgil I.	USA	Male	1926-04-03	0.21	18490	0	2	0	1961-07-21T12:20:36Z	0.000007	35	BSc in mechanical engineering	Mercury-Redstone 4;Gemini 3	0.20	148844	00:00	astronaut	GRISSOM_VI.md		
-GRUNSFELD, John M.	USA	Male	1958-10-10	58.63	5065512	210600	5	1	1995-03-02T06:38:13Z	0.001826	36	BSc in physics;PhD in physics	STS-67;STS-81;STS-103;STS-109;STS-125	16.63	40777371	58:30	astronaut	GRUNSFELD_JM.md		@SciAstro
+GRUNSFELD, John M.	USA	Male	1958-10-10	58.63	5065512	210600	5	1	1995-03-02T06:38:13Z	0.001826	36	BSc in physics;PhD in physics	STS-67;STS-81;STS-103;STS-109;STS-125	16.63	40777371	58:30	astronaut	GRUNSFELD_JM.md		SciAstro
 GUBAREV, Aleksei Aleksandrovich	URS	Male	1931-03-29	36.48	3152206	0	2	0	1975-01-11T21:43:37Z	0.001136	43		Soyuz 17;Soyuz 28	28.56	25375258	00:00	cosmonaut	GUBAREV_AA.md		
 GUIDONI, Umberto	ITA	Male	1954-08-18	27.63	2387498	0	2	0	1996-02-22T20:18Z	0.000861	41		STS-75;STS-100	15.74	19219358	00:00	international	GUIDONI_U.md		
 GULYAYEV, Rudolf Alekseyevich	URS	Male	1934-11-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	GULYAYEV_RA.md		
@@ -265,7 +265,7 @@ GULYAYEV, Vladislav Ivanovich	URS	Male	1937-05-31	0.00	0	0	0	0		0.000000	0			0.0
 G&Uuml;RRAGCHA, J&uuml;gderdemidiin 'Gurr'	MNG	Male	1947-12-05	7.86	679324	0	1	0	1981-03-22T14:58:55Z	0.000245	33		Soyuz 39	7.86	5468558	00:00	international	GURRAGCHA_Z.md		
 GUTERREZ, Sidney M.	USA	Male	1951-06-27	20.34	1757121	0	2	0	1991-06-05T13:24:51Z	0.000633	39	BSc in aeronautical engineering;MA in management	STS-40;STS-59	11.24	14144824	00:00	astronaut	GUTERREZ_SM.md		
 HABIB, Munir Habib	SYR	Male	1953-09-03	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	HABIB_MH.md		
-HADFIELD, Chris Austin	CAN	Male	1959-08-19	165.68	14314884	53400	3	2	1995-11-12T12:30:43Z	0.005161	36		STS-74;STS-100;Soyuz TMA-07M	145.60	115234816	14:50	international	HADFIELD_CA.md		@Cmdr_Hadfield
+HADFIELD, Chris Austin	CAN	Male	1959-08-19	165.68	14314884	53400	3	2	1995-11-12T12:30:43Z	0.005161	36		STS-74;STS-100;Soyuz TMA-07M	145.60	115234816	14:50	international	HADFIELD_CA.md		Cmdr_Hadfield
 HAIGNERÉ, Claudie	FRA	Female	1957-05-13	25.60	2211843	0	2	0	1996-08-17T13:18:03Z	0.000797	39		Soyuz TM-24;Soyuz TM-23;Soyuz TM-33;Soyuz TM-32	15.77	17805336	00:00	international	HAIGNERÉ_C.md		
 HAIGNERÉ, Jean-Pierre	FRA	Male	1948-05-19	209.52	18102313	22740	2	1	1993-07-01T14:32:58Z	0.006526	45		Soyuz TM-17;Soyuz TM-16;Soyuz TM-29	188.84	145723619	06:19	international	HAIGNERÉ_J.md		
 HAISE, Fred W., Jr.	USA	Male	1933-11-14	5.95	514482	0	1	0	1970-04-11T19:13Z	0.000352	36	BSc in aeronautical engineering	Apollo 13	5.95	760000	00:00	astronaut	HAISE_FWJ.md		
@@ -273,7 +273,7 @@ HALIK, Nikos 'Nik'	AUS	Male	1971-05-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	i
 HALSELL, James D., Jr.	USA	Male	1956-09-29	52.44	4530882	0	5	0	1994-07-08T16:43:01Z	0.001633	37	BSc in engineering;MSc in management	STS-65;STS-74;STS-83;STS-94;STS-101	15.70	36473600	00:00	astronaut	HALSELL_JDJ.md		
 HAMMOND, L. Brain, Jr.	USA	Male	1952-01-16	19.26	1663962	0	2	0	1991-04-28T11:33:14Z	0.000600	39	BSc in engineering science and mechanics;MSc in engineering science and mechanics	STS-39;STS-64	10.95	13394894	00:00	astronaut	HAMMOND_LBJ.md		
 HAM, Kenneth T.	USA	Male	1964-12-12	25.53	2205747	0	2	0	2008-05-31T21:02:12Z	0.000795	43	BSc in aerospace engineering;MSc in aeronautical engineering	STS-124;STS-132	13.76	17756263	00:00	astronaut	HAM_KT.md		
-HANSEN, Jeremy Roger	CAN	Male	1976-01-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	HANSEN_JR.md		@Astro_Jeremy
+HANSEN, Jeremy Roger	CAN	Male	1976-01-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	HANSEN_JR.md		Astro_Jeremy
 HARBAUGH, Gregory J.	USA	Male	1956-04-15	34.08	2944895	66540	4	1	1991-04-28T11:33:14Z	0.001062	35	BSc in aeronautical and astronautical engineering;MSc in physical science	STS-39;STS-54;STS-71;STS-82	9.98	23706404	18:29	astronaut	HARBAUGH_GJ.md		
 HARRIS, Bernard A., Jr.	USA	Male	1956-06-26	18.26	1577356	16740	2	1	1993-04-26T14:50Z	0.000569	36	BSc in biology;Doctor of Medicine	STS-55;STS-63	9.99	12697715	04:39	astronaut	HARRIS_BAJ.md		
 HARTSFIELD, Henry W., Jr.	USA	Male	1933-11-21	20.12	1738229	0	3	0	1982-06-27T15:00Z	0.000627	48	BSc in physics;MSc in engineering science	STS-4;STS-41-D;STS-61-A	7.05	13992743	00:00	astronaut	HARTSFIELD_HWJ.md		
@@ -295,11 +295,11 @@ HOBAUGH, Charles O.	USA	Male	1961-11-06	35.32	3052073	0	3	0	2001-07-12T09:04Z	0.
 HOFFMAN, Jeffrey A.	USA	Male	1944-11-02	50.50	4362873	90480	5	1	1985-04-12T13:59:05Z	0.001573	40	BA in astronomy;PhD in astrophysics	STS-51-D;STS-35;STS-46;STS-61;STS-75	15.74	35121127	25:08	astronaut	HOFFMAN_JA.md		
 HOLMES, Christopher John Nicholas	GBR	Male	1950-07-10	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	HOLMES_CJN.md		
 HOLMQUEST, Donald L.	USA	Male	1939-04-07	0.00	0	0	0	0		0.000000	0	BSc in electrical engineering;PhD in physiology;Doctor of Medicine		0.00	0	00:00	astronaut	HOLMQUEST_DL.md		
-HOPKINS, Michael S.	USA	Male	1968-12-28	166.27	14365570	46680	1	2	2013-09-25T20:58:50Z	0.005179	44	BSc in aerospace engineering;MSc in aerospace engineering	Soyuz TMA-10M	166.27	115642838	12:58	astronaut	HOPKINS_MS.md		@AstroIllini
+HOPKINS, Michael S.	USA	Male	1968-12-28	166.27	14365570	46680	1	2	2013-09-25T20:58:50Z	0.005179	44	BSc in aerospace engineering;MSc in aerospace engineering	Soyuz TMA-10M	166.27	115642838	12:58	astronaut	HOPKINS_MS.md		AstroIllini
 HOROWITZ, Scott J.	USA	Male	1957-03-24	47.45	4099312	0	4	0	1996-02-22T20:18Z	0.001478	38	BSc in engineering;MSc in aerospace engineering;PhD in aerospace engineering	STS-75;STS-82;STS-101;STS-105	15.74	32999461	00:00	astronaut	HOROWITZ_SJ.md		
-HOSHIDE, Akihiko	JPN	Male	1968-12-28	140.73	12158796	76980	2	3	2008-05-31T21:02:12Z	0.004383	39		STS-124;Soyuz TMA-05M	126.97	97878307	21:23	international	HOSHIDE_A.md		@Aki_Hoshide
+HOSHIDE, Akihiko	JPN	Male	1968-12-28	140.73	12158796	76980	2	3	2008-05-31T21:02:12Z	0.004383	39		STS-124;Soyuz TMA-05M	126.97	97878307	21:23	international	HOSHIDE_A.md		Aki_Hoshide
 HUGHES-FULFORD, Millie	USA	Female	1945-12-21	9.09	785661	0	1	0	1991-06-05T13:24:51Z	0.000283	45	BSc in chemistry and biology	STS-40	9.09	6324571	00:00	astronaut	HUGHES-FULFORD_M.md		
-HURLEY, Douglas G.	USA	Male	1966-10-21	28.47	2459700	0	2	0	2009-07-15T22:03Z	0.000887	42	BSc in civil engineering	STS-127;STS-135	15.70	19800585	00:00	astronaut	HURLEY_DG.md		@Astro_Doug
+HURLEY, Douglas G.	USA	Male	1966-10-21	28.47	2459700	0	2	0	2009-07-15T22:03Z	0.000887	42	BSc in civil engineering	STS-127;STS-135	15.70	19800585	00:00	astronaut	HURLEY_DG.md		Astro_Doug
 HUSBAND, Rick D.	USA	Male	1957-07-12	25.73	2223224	0	2	0	1999-05-27T06:49Z	0.000802	41	BSc in mechanical engineering;MSc in mechanical engineering	STS-96;STS-107	15.93	17896953	00:00	astronaut	HUSBAND_RD.md		
 IGNATOV, Ignat Nikolaevich	RUS	Male	1982-03-20	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	IGNATOV_IN.md		
 ILLARIONOV, Valeri Vasiliyevich	URS	Male	1939-06-02	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	ILLARIONOV_VV.md		
@@ -320,7 +320,7 @@ JERNIGAN, Tamara E.	USA	Female	1959-05-07	62.98	5441413	28500	5	1	1991-06-05T13:
 JETT, Brent W.	USA	Male	1958-10-05	41.75	3607367	0	4	0	1996-01-11T09:41Z	0.001301	37	BSc in aerospace engineering;MSc in aeronautical engineering	STS-72;STS-81;STS-97;STS-115	11.80	29039304	00:00	astronaut	JETT_BW.md		
 JING, Haipeng	CHN	Male	1966-10-24	15.16	1309892	0	2	0	2008-09-25T21:10:04Z	0.000472	41		Shenzhou VII;Shenzhou IX	12.64	10544630	00:00	taikonaut	JING_H.md		
 JOHNSON, Gregory C.	USA	Male	1954-07-30	12.90	1114630	0	1	0	2009-05-11T18:01:56Z	0.000402	54	BSc in aerospace engineering	STS-125	12.90	8972771	00:00	astronaut	JOHNSON_GC.md		
-JOHNSON, Gregory H.	USA	Male	1962-05-12	31.49	2721120	0	2	0	2008-03-11T06:28:14Z	0.000981	45	BSc in aeronautical engineering;MSc in flight structures engineering	STS-123;STS-134	15.76	21905016	00:00	astronaut	JOHNSON_GH.md		@Astro_Box
+JOHNSON, Gregory H.	USA	Male	1962-05-12	31.49	2721120	0	2	0	2008-03-11T06:28:14Z	0.000981	45	BSc in aeronautical engineering;MSc in flight structures engineering	STS-123;STS-134	15.76	21905016	00:00	astronaut	JOHNSON_GH.md		Astro_Box
 JONES, Thomas D.	USA	Male	1955-01-22	53.04	4582288	71340	4	1	1994-04-09T11:05Z	0.001652	39	BSc in basic sciences	STS-59;STS-68;STS-80;STS-98	17.66	36887418	19:49	astronaut	JONES_TD.md		
 JäHN, Sigmund Werner Paul 'Sig'	GDR	Male	1937-02-13	7.87	679745	0	1	0	1978-08-26T14:51:30Z	0.000245	41		Soyuz 31;Soyuz 29	7.87	5471947	00:00	international	JäHN_SWP.md		
 KADENYUK, Leonid Konstantinovich	UKR	Male	1951-01-28	15.69	1355700	0	1	0	1997-11-19T19:46Z	0.000489	46		STS-87	15.69	10913385	00:00	cosmonaut	KADENYUK_LK.md		
@@ -332,7 +332,7 @@ KATYS, Georgi Petrovich	URS	Male	1926-08-31	0.00	0	0	0	0		0.000000	0			0.00	0	00
 KAVANDI, Janet L.	USA	Female	1959-07-17	32.84	2837395	0	3	0	1998-06-02T22:06:24Z	0.001023	38	BSc in chemistry;MSc in chemistry;PhD in analytical chemistry	STS-91;STS-99;STS-104	11.77	22841029	00:00	astronaut	KAVANDI_JL.md		
 KELLY, James M.	USA	Male	1964-05-14	26.72	2309010	0	2	0	2001-03-08T11:42Z	0.000832	36	BSc in astronautical engineering;MSc in aerospace engineering	STS-102;STS-114	13.90	18587530	00:00	astronaut	KELLY_JM.md		
 KELLY, Mark E.	USA	Male	1964-02-21	54.09	4673175	0	4	0	2001-12-05T22:19:28Z	0.001685	37	BSc in marine engineering & nautical science;MSc in aeronautical engineering	STS-108;STS-121;STS-124;STS-134	15.74	37619058	00:00	astronaut	KELLY_ME.md		
-KELLY, Scott J.	USA	Male	1964-02-21	373.25	32248582	0	4	0	1999-12-20T00:50Z	0.011626	35	BSc in electrical engineering;MSc in aviation systems	STS-103;STS-118;Soyuz TMA-01M;Soyuz TMA-16M	193.17	259601085	00:00	astronaut	KELLY_SJ.md	2015-10-06T23:47Z	@StationCDRKelly
+KELLY, Scott J.	USA	Male	1964-02-21	373.86	32301562	0	4	0	1999-12-20T00:50Z	0.011645	35	BSc in electrical engineering;MSc in aviation systems	STS-103;STS-118;Soyuz TMA-01M;Soyuz TMA-16M	193.78	260027574	00:00	astronaut	KELLY_SJ.md	2015-10-07T14:30Z	StationCDRKelly
 KERWIN, Joseph P.	USA	Male	1932-02-19	28.03	2422189	12180	1	1	1973-05-25T13:00Z	0.000873	41	BA in philosophy;Doctor of Medicine	Skylab 2	28.03	19498621	03:23	astronaut	KERWIN_JP.md		
 KHATULEV, Vladimir Aleksandrovich	URS	Male	1947-02-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KHATULEV_VA.md		
 KHLUDEYEV, Yevgeni Nikolayevich	URS	Male	1940-09-10	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KHLUDEYEV_YN.md		
@@ -351,10 +351,10 @@ KOLOMIYTSEV, Ordinard Panteleymonovich	URS	Male	1933-01-29	0.00	0	0	0	0		0.00000
 KOMAROV, Vladimir Mikhailovich	URS	Male	1927-03-16	2.13	183897	0	2	0	1964-10-12T07:30:01Z	0.000066	37	Diploma of engineering	Voskhod 1;Soyuz 1	1.12	1480370	00:00	cosmonaut	KOMAROV_VM.md		
 KONDAKOVA, Yelena Vladimirovna	URS	Female	1957-03-30	178.40	15414093	0	2	0	1994-10-03T22:42:30Z	0.005557	37		Soyuz TM-20;STS-84	169.22	124083448	00:00	cosmonaut	KONDAKOVA_YV.md		
 KONDRATIYEV, Dmitri Yuriyevich	RUS	Male	1969-05-25	159.30	13763940	36840	1	2	2010-12-15T19:09Z	0.004962	41		Soyuz TMA-20	159.30	110799717	10:14	cosmonaut	KONDRATIYEV_DY.md		
-KONONENKO, Oleg Dmitriyevich	RUS	Male	1964-06-21	467.59	40399477	66420	3	3	2008-04-08T11:16:39Z	0.014565	43		Soyuz TMA-12;Soyuz TMA-03M;Soyuz TMA-17M	198.68	325215789	18:27	cosmonaut	KONONENKO_OD.md	2015-10-06T23:47Z	
+KONONENKO, Oleg Dmitriyevich	RUS	Male	1964-06-21	468.20	40452457	66420	3	3	2008-04-08T11:16:39Z	0.014584	43		Soyuz TMA-12;Soyuz TMA-03M;Soyuz TMA-17M	198.68	325642278	18:27	cosmonaut	KONONENKO_OD.md	2015-10-07T14:30Z	
 KONONENKO, Oleg Grigoriyevich	URS	Male	1938-08-16	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KONONENKO_OG.md		
-KOPRA, Timothy L.	USA	Male	1963-04-09	58.12	5021460	18120	1	1	2009-07-15T22:03Z	0.001810	46	BSc in computer science;MSc in aerospace engineering	STS-127;STS-128	58.12	40422753	05:02	astronaut	KOPRA_TL.md		@astro_tim
-KORNIYENKO, Mikhail Borisovich	RUS	Male	1960-04-15	369.23	31901043	43980	2	2	2010-04-02T04:04Z	0.011501	49		Soyuz TMA-18;Soyuz TMA-16M	193.17	256803396	12:13	cosmonaut	KORNIYENKO_MB.md	2015-10-06T23:47Z	
+KOPRA, Timothy L.	USA	Male	1963-04-09	58.12	5021460	18120	1	1	2009-07-15T22:03Z	0.001810	46	BSc in computer science;MSc in aerospace engineering	STS-127;STS-128	58.12	40422753	05:02	astronaut	KOPRA_TL.md		astro_tim
+KORNIYENKO, Mikhail Borisovich	RUS	Male	1960-04-15	369.84	31954023	43980	2	2	2010-04-02T04:04Z	0.011520	49		Soyuz TMA-18;Soyuz TMA-16M	193.78	257229885	12:13	cosmonaut	KORNIYENKO_MB.md	2015-10-07T14:30Z	
 KORSAKOV, Sergei Vladimirovich	RUS	Male	1984-09-01	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KORSAKOV_SV.md		
 KORZUN, Valeri Grigoriyevich	URS	Male	1953-03-05	225.37	19471850	80520	3	4	1996-08-17T13:18:03Z	0.007020	43		Soyuz TM-24;STS-111;STS-113	196.73	156748392	22:22	cosmonaut	KORZUN_VG.md		
 KOSTENKO, Sergei Valerievich	RUS	Male	1963-04-20	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KOSTENKO_SV.md		
@@ -372,7 +372,7 @@ KRIKUN, Yuri Yuriyevich	URS	Male	1963-06-03	0.00	0	0	0	0		0.000000	0			0.00	0	00
 KUBASOV, Valeri Nikolayevich	URS	Male	1935-01-07	18.75	1619913	0	3	0	1969-10-11T11:10Z	0.000584	34		Soyuz 6;Soyuz 19;Soyuz 36;Soyuz 35	7.87	13040299	00:00	cosmonaut	KUBASOV_VN.md		
 KUD-SVERCHKOV, Sergei Vladimirovich	RUS	Male	1983-08-23	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KUD-SVERCHKOV_SV.md		
 KUGNO, Eduard Pavlovich	URS	Male	1935-06-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KUGNO_EP.md		
-KUIPERS, Andr&eacute;	NLD	Male	1958-10-05	203.66	17596276	0	2	0	2004-04-19T03:19Z	0.006344	45		Soyuz TMA-4;Soyuz TMA-3;Soyuz TMA-03M	192.79	141650021	00:00	international	KUIPERS_A.md		@astro_andre
+KUIPERS, Andr&eacute;	NLD	Male	1958-10-05	203.66	17596276	0	2	0	2004-04-19T03:19Z	0.006344	45		Soyuz TMA-4;Soyuz TMA-3;Soyuz TMA-03M	192.79	141650021	00:00	international	KUIPERS_A.md		astro_andre
 KUKLIN, Anatoli Petrovich	URS	Male	1932-01-03	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KUKLIN_AP.md		
 KULESHOVA, Natalya Dmitriyevna	URS	Male	1956-03-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KULESHOVA_ND.md		
 KUZHELNAYA, Nadezhda Vasiliyevna	RUS	Male	1962-11-06	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	KUZHELNAYA_NV.md		
@@ -393,7 +393,7 @@ LESLIE, Fred W.	USA	Male	1951-12-19	15.91	1374742	0	1	0	1995-10-20T13:53Z	0.0004
 LETUNOV, Yuri Aleksandrovich	URS	Male	1926-10-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	LETUNOV_YA.md		
 LEVCHENKO, Anatoli Semyonovich	URS	Male	1941-05-21	7.92	683893	0	1	0	1987-12-21T11:18:03Z	0.000247	46		Soyuz TM-4;Soyuz TM-3	7.92	5505338	00:00	cosmonaut	LEVCHENKO_AS.md		
 LICHTENBERG, Byron K.	USA	Male	1948-02-19	19.21	1659466	0	2	0	1983-11-28T16:00Z	0.000598	35	BSc in aerospace engineering	STS-9;STS-45	10.28	13358701	00:00	astronaut	LICHTENBERG_BK.md		
-LINDGREN, Kjell N.	USA	Male	1973-01-23	76.11	6576256	0	1	0	2015-07-22T21:02:44Z	0.002371	42	BSc in biology;MSc in cardiovascular physiology;Doctor of Medicine	Soyuz TMA-17M	76.11	52938860	00:00	astronaut	LINDGREN_KN.md	2015-10-06T23:47Z	@astro_kjell
+LINDGREN, Kjell N.	USA	Male	1973-01-23	76.73	6629236	0	1	0	2015-07-22T21:02:44Z	0.002390	42	BSc in biology;MSc in cardiovascular physiology;Doctor of Medicine	Soyuz TMA-17M	76.73	53365349	00:00	astronaut	LINDGREN_KN.md	2015-10-07T14:30Z	astro_kjell
 LINDSEY, Steven W.	USA	Male	1960-08-24	61.94	5351826	0	5	0	1997-11-19T19:46Z	0.001929	37	BSc in engineering sciences;MSc in aeronautical engineering	STS-87;STS-95;STS-104;STS-121;STS-133	15.69	43082199	00:00	astronaut	LINDSEY_SW.md		
 LIND, Don L.	USA	Male	1930-05-18	7.01	605327	0	1	0	1985-04-29T16:02:18Z	0.000218	54	BSc in physics	STS-51-B	7.01	4872882	00:00	astronaut	LIND_DL.md		
 LINENGER, Jerry M.	USA	Male	1955-01-16	143.12	12365440	17820	2	1	1994-09-09T22:22:35Z	0.004458	39	BSc in bioscience;MSc in systems management;PhD in epidemiology;Doctor of Medicine	STS-64;STS-81;STS-84	132.17	99541792	04:57	astronaut	LINENGER_JM.md		
@@ -425,7 +425,7 @@ LóPEZ FALCóN,	CUB	Male	1950-02-08	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	inte
 MACE, Timothy Kristian Charles	GBR	Male	1955-11-20	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	MACE_TKC.md		
 MACHINSKY, Georgi Vladimirovich	URS	Male	1937-10-11	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	MACHINSKY_GV.md		
 MACLEAN, Steven Glenwood	CAN	Male	1954-12-14	21.59	1865196	25860	2	1	1992-10-22T14:05:53Z	0.000672	37		STS-52;STS-115	11.80	15014827	07:11	international	MACLEAN_SG.md		
-MAGNUS, Sandra H.	USA	Female	1964-10-30	157.37	13596405	0	3	0	2002-10-07T19:45:51Z	0.004902	37	BSc in physics;MSc in electrical engineering;PhD in materials science and engineering	STS-112;STS-126;STS-119;STS-135	133.76	109451060	00:00	astronaut	MAGNUS_SH.md		@Astro_Sandy
+MAGNUS, Sandra H.	USA	Female	1964-10-30	157.37	13596405	0	3	0	2002-10-07T19:45:51Z	0.004902	37	BSc in physics;MSc in electrical engineering;PhD in materials science and engineering	STS-112;STS-126;STS-119;STS-135	133.76	109451060	00:00	astronaut	MAGNUS_SH.md		Astro_Sandy
 MAGYARI, B&eacute;la	HUN	Male	1949-08-08	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	MAGYARI_B.md		
 MAKAROV, Oleg Grigoriyevich	URS	Male	1933-01-06	20.72	1790535	0	3	0	1973-09-27T12:18:16Z	0.000646	40		Soyuz 12;Soyuz 27;Soyuz 26;Soyuz T-3	12.80	14413806	00:00	cosmonaut	MAKAROV_OG.md		
 MAKRUSHIN, Valeri Grigoriyevich	URS	Male	1940-01-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	MAKRUSHIN_VG.md		
@@ -436,9 +436,9 @@ MALHOTRA, Ravish	IND	Male	1943-12-25	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	int
 MALYSHEV, Yuri Vasiliyevich	URS	Male	1941-08-27	11.83	1022479	0	2	0	1980-06-05T14:19:30Z	0.000369	38		Soyuz T-2;Soyuz T-11;Soyuz T-10	7.90	8230955	00:00	cosmonaut	MALYSHEV_YV.md		
 MANAKOV, Gennadi Mikhailovich	URS	Male	1950-06-01	309.89	26774378	49380	2	3	1990-08-01T09:32:21Z	0.009652	40		Soyuz TM-10;Soyuz TM-16	179.03	215533742	13:43	cosmonaut	MANAKOV_GM.md		
 MANAROV, Musa Khiramanovich	URS	Male	1951-03-22	541.02	46744239	122580	2	7	1987-12-21T11:18:03Z	0.016852	36		Soyuz TM-4;Soyuz TM-6;Soyuz TM-11	365.94	376291123	34:03	cosmonaut	MANAROV_MK.md		
-MARSHBURN, Thomas H.	USA	Male	1960-08-29	15.70	1356360	88140	1	2	2009-07-15T22:03Z	0.000489	48	BSc in physics;MSc in engineering physics;Doctor of Medicine	STS-127	15.70	10918698	24:29	astronaut	MARSHBURN_TH.md		@AstroMarshburn
-MASSIMINO, Michael J.	USA	Male	1962-08-19	23.83	2058499	109920	2	1	2002-03-01T11:22:02Z	0.000742	39	BSc in industrial engineering;MSc in technology and policy;PhD in mechanical engineering	STS-109;STS-125	12.90	16570916	30:32	astronaut	MASSIMINO_MJ.md		@Astro_Mike
-MASTRACCHIO, Richard A.	USA	Male	1960-02-11	38.66	3340506	191040	3	4	2000-09-08T12:45:47Z	0.001204	40	BSc in electrical engineering and computer science;MSc in electrical engineering	STS-106;STS-118;STS-131	15.12	26891073	53:04	astronaut	MASTRACCHIO_RA.md		@AstroRM
+MARSHBURN, Thomas H.	USA	Male	1960-08-29	15.70	1356360	88140	1	2	2009-07-15T22:03Z	0.000489	48	BSc in physics;MSc in engineering physics;Doctor of Medicine	STS-127	15.70	10918698	24:29	astronaut	MARSHBURN_TH.md		AstroMarshburn
+MASSIMINO, Michael J.	USA	Male	1962-08-19	23.83	2058499	109920	2	1	2002-03-01T11:22:02Z	0.000742	39	BSc in industrial engineering;MSc in technology and policy;PhD in mechanical engineering	STS-109;STS-125	12.90	16570916	30:32	astronaut	MASSIMINO_MJ.md		Astro_Mike
+MASTRACCHIO, Richard A.	USA	Male	1960-02-11	38.66	3340506	191040	3	4	2000-09-08T12:45:47Z	0.001204	40	BSc in electrical engineering and computer science;MSc in electrical engineering	STS-106;STS-118;STS-131	15.12	26891073	53:04	astronaut	MASTRACCHIO_RA.md		AstroRM
 MATINCHENKO, Aleksandr Nikolayevich	URS	Male	1927-09-04	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	MATINCHENKO_AN.md		
 MATTINGLY, Thomas K., II	USA	Male	1936-03-17	21.19	1830842	4380	3	1	1972-04-16T17:54Z	0.000969	36	BSc in aeronautical engineering	Apollo 16;STS-4;STS-51-C	11.08	7793896	01:13	astronaut	MATTINGLY_TKII.md		
 MATVEYEV, Denis Vladimirovich	RUS	Male	1983-04-25	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	MATVEYEV_DV.md		
@@ -459,15 +459,15 @@ MEADE, Carl J.	USA	Male	1950-11-16	29.68	2564093	22500	3	1	1990-11-15T23:48:13Z	
 MELNICK, Bruce E.	USA	Male	1949-12-05	13.06	1128463	0	2	0	1990-10-06T11:47:15Z	0.000407	40	BSc in engineering;MSc in aeronautical systems	STS-41;STS-49	8.97	9084127	00:00	astronaut	MELNICK_BE.md		
 MELROY, Pamela A.	USA	Female	1961-09-17	38.84	3355473	0	3	0	2000-10-11T23:17Z	0.001210	39	BSc in physics & astronomy	STS-92;STS-112;STS-120	15.10	27011557	00:00	astronaut	MELROY_PA.md		
 MELVILL, Michael Winston 'Mike'	USA;ZAF	Male	1940-11-11	0.03	2940	0	2	0	2004-06-21T14:50:00Z	0.000001	63		SS1 15P;SS1 16P	0.02	23667	00:00	commercial	MELVILL_MW.md		
-MELVIN, Leland D.	USA	Male	1964-02-15	23.57	2036305	0	2	0	2008-02-07T19:45Z	0.000734	43	BSc in chemistry;MSc in materials science engineering	STS-122;STS-129	12.77	16392255	00:00	astronaut	MELVIN_LD.md		@Astro_Flow
+MELVIN, Leland D.	USA	Male	1964-02-15	23.57	2036305	0	2	0	2008-02-07T19:45Z	0.000734	43	BSc in chemistry;MSc in materials science engineering	STS-122;STS-129	12.77	16392255	00:00	astronaut	MELVIN_LD.md		Astro_Flow
 MERBOLD, Ulf Dietrich	DEU	Male	1941-06-20	49.86	4307887	0	3	0	1983-11-28T16:00Z	0.001553	42		STS-9;STS-42;Soyuz TM-20;Soyuz TM-19	31.52	34678490	00:00	international	MERBOLD_UD.md		
 MERCHEZ, Marianne	BEL	Male	1960-10-25	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	MERCHEZ_M.md		
 MESSERSCHMID, Ernst Willi	DEU	Male	1945-05-21	7.03	607492	0	1	0	1985-10-30T17:00Z	0.000219	40		STS-61-A	7.03	4890310	00:00	international	MESSERSCHMID_EW.md		
-METCALF-LINDENBURGER, Dorothy M.	USA	Female	1975-05-02	15.12	1306034	0	1	0	2010-04-05T10:21:22Z	0.000471	34	BA in geology	STS-131	15.12	10513573	00:00	astronaut	METCALF-LINDENBURGER_DM.md		@AstroDot
+METCALF-LINDENBURGER, Dorothy M.	USA	Female	1975-05-02	15.12	1306034	0	1	0	2010-04-05T10:21:22Z	0.000471	34	BA in geology	STS-131	15.12	10513573	00:00	astronaut	METCALF-LINDENBURGER_DM.md		AstroDot
 MICHEL, F. Curtis	USA	Male	1934-06-05	0.00	0	0	0	0		0.000000	0	BSc in physics;PhD in physics		0.00	0	00:00	astronaut	MICHEL_FC.md		
 MISURKIN, Aleksandr Aleksandrovich	RUS	Male	1977-09-23	166.26	14364940	48420	1	2	2013-03-28T20:43:20Z	0.005179	35		Soyuz TMA-08M	166.26	115637767	13:27	cosmonaut	MISURKIN_AA.md		
 MITCHELL, Edgar D.	USA	Male	1930-09-17	9.00	777778	33420	1	1	1971-01-31T21:03:02Z	0.000531	40	BSc in industrial management;ScD in aeronautics and astronautics	Apollo 14	9.00	760000	09:17	astronaut	MITCHELL_ED.md		
-MOGENSEN, Andreas Enevold	DNK	Male	1976-11-02	9.84	850434	0	1	0	2015-09-02T04:37:42Z	0.000307	38		Soyuz TMA-18M;Soyuz TMA-16M	9.84	6845993	00:00	international	MOGENSEN_AE.md		@Astro_Andreas
+MOGENSEN, Andreas Enevold	DNK	Male	1976-11-02	9.84	850434	0	1	0	2015-09-02T04:37:42Z	0.000307	38		Soyuz TMA-18M;Soyuz TMA-16M	9.84	6845993	00:00	international	MOGENSEN_AE.md		Astro_Andreas
 MOHMAND, Abdul Ahad 'Abdulah'	AFG	Male	1959-01-01	8.85	764788	0	1	0	1988-08-29T04:23:11Z	0.000276	29		Soyuz TM-6;Soyuz TM-5	8.85	6156543	00:00	international	MOHMAND_AA.md		
 MOHRI, Mamoru	JPN	Male	1948-01-29	19.17	1656685	0	2	0	1992-09-12T14:23Z	0.000597	44		STS-47;STS-99	11.24	13336314	00:00	international	MOHRI_M.md		
 MONEY, Kenneth Eric	CAN	Male	1935-01-04	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	MONEY_KE.md		
@@ -491,16 +491,16 @@ NELSON, Bill	USA	Male	1942-09-29	6.09	525832	0	1	0	1986-01-12T11:55Z	0.000190	43
 NELSON, George D.	USA	Male	1950-07-13	17.11	1478652	36360	3	1	1984-04-06T13:58Z	0.000533	33	BSc in physics;MSc in astronomy;PhD in astronomy	STS-41-C;STS-61-C;STS-26	6.99	11903148	10:06	astronaut	NELSON_GD.md		
 NELYUBOV, Grigori Grigoriyevich	URS	Male	1934-03-31	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	NELYUBOV_GG.md		
 NERI VELA, Rodolfo	MEX	Male	1952-02-19	6.88	594289	0	1	0	1985-11-27T00:29:00Z	0.000214	33		STS-61-B	6.88	4784026	00:00	international	NERI VELA_R.md		
-NESPOLI, Paolo Angelo	ITA	Male	1957-04-06	174.40	15068520	0	2	0	2007-10-23T15:38:19Z	0.005432	50		STS-120;Soyuz TMA-20	159.30	121301586	00:00	international	NESPOLI_PA.md		@astro_paolo
+NESPOLI, Paolo Angelo	ITA	Male	1957-04-06	174.40	15068520	0	2	0	2007-10-23T15:38:19Z	0.005432	50		STS-120;Soyuz TMA-20	159.30	121301586	00:00	international	NESPOLI_PA.md		astro_paolo
 NEWMAN, James H.	USA	Male	1956-10-16	43.42	3751892	155580	4	1	1993-09-12T11:45Z	0.001353	36	BA in physics;MA in physics;PhD in physics	STS-51;STS-69;STS-88;STS-109	11.80	30202730	43:13	astronaut	NEWMAN_JH.md		
 NICOLLIER, Claude	CHE	Male	1944-09-02	42.50	3672335	58800	4	2	1992-07-31T13:56:48Z	0.001324	47		STS-46;STS-61;STS-75;STS-103	15.74	29562296	16:20	international	NICOLLIER_C.md		
 NIE, Haisheng	CHN	Male	1964-09-08	19.42	1677835	0	2	0	2005-10-12T01:00:03Z	0.000605	41		Shenzhou VI;Shenzhou X	14.60	13506571	00:00	taikonaut	NIE_H.md		
 NIKOLAYEV, Andriyan Grigoriyevich	URS	Male	1929-09-05	21.64	1870076	0	2	0	1962-08-11T08:24Z	0.000674	32		Vostok 3;Soyuz 9	17.71	15054111	00:00	cosmonaut	NIKOLAYEV_AG.md		
-NOGUCHI, Soichi	JPN	Male	1965-04-15	177.13	15303983	72300	2	3	2005-07-26T14:39Z	0.005517	40		STS-114;Soyuz TMA-17	163.23	123197063	20:05	international	NOGUCHI_S.md		@Astro_Soichi
+NOGUCHI, Soichi	JPN	Male	1965-04-15	177.13	15303983	72300	2	3	2005-07-26T14:39Z	0.005517	40		STS-114;Soyuz TMA-17	163.23	123197063	20:05	international	NOGUCHI_S.md		Astro_Soichi
 NOREIGA, Carlos I.	USA	Male	1959-10-08	20.01	1729137	69600	2	1	1997-05-15T09:07:48Z	0.000623	37	BSc in computer science;MSc in computer science	STS-84;STS-97	10.83	13919552	19:20	astronaut	NOREIGA_CI.md		
 NOVITSKY, Oleg Viktorovich	RUS	Male	1971-10-12	143.68	12414049	0	1	0	2012-10-23T10:51:11Z	0.004475	41		Soyuz TMA-06M	143.68	99933094	00:00	cosmonaut	NOVITSKY_OV.md		
 NOWAK, Lisa M.	USA	Female	1963-05-10	12.78	1103809	0	1	0	2006-07-04T18:37:55Z	0.000398	43	BSc in aerospace engineering;MSc in aeronautical engineering	STS-121	12.78	8885662	00:00	astronaut	NOWAK_LM.md		
-NYBERG, Karen L.	USA	Female	1969-10-07	13.76	1188788	0	1	0	2008-05-31T21:02:12Z	0.000429	38	BSc in mechanical engineering;PhD in mechanical engineering	STS-124	13.76	9569743	00:00	astronaut	NYBERG_KL.md		@AstroKarenN
+NYBERG, Karen L.	USA	Female	1969-10-07	13.76	1188788	0	1	0	2008-05-31T21:02:12Z	0.000429	38	BSc in mechanical engineering;PhD in mechanical engineering	STS-124	13.76	9569743	00:00	astronaut	NYBERG_KL.md		AstroKarenN
 OCHOA, Ellen	USA	Female	1958-05-10	40.82	3526726	0	4	0	1993-04-08T05:29Z	0.001271	34	BSc in physics;PhD in electrical engineering	STS-56;STS-66;STS-96;STS-110	10.94	28390144	00:00	astronaut	OCHOA_E.md		
 OCKELS, Wubbo Johannes	NLD	Male	1946-03-28	7.03	607492	0	1	0	1985-10-30T17:00Z	0.000219	39		STS-61-A	7.03	4890310	00:00	international	OCKELS_WJ.md		
 O'CONNOR, Bryan D.	USA	Male	1946-09-06	15.97	1379951	0	2	0	1985-11-27T00:29:00Z	0.000497	39	BSc in engineering	STS-61-B;STS-40	9.09	11108605	00:00	astronaut	OCONNOR_BD.md		
@@ -520,22 +520,22 @@ PAN, Zhanchun	CHN	Male		0.00	0	0	0	0		0.000000	0			0.00	0	00:00	taikonaut	PAN_Z.
 PARAZYNSKI, Scott E.	USA	Male	1961-07-28	57.65	4980925	169500	5	1	1994-11-03T16:59:43Z	0.001796	33	BSc in biology;Doctor of Medicine	STS-66;STS-86;STS-95;STS-100;STS-120	15.10	40096446	47:05	astronaut	PARAZYNSKI_SE.md		
 PARISE, Ronald A.	USA	Male	1951-05-24	25.59	2211238	0	2	0	1990-12-02T06:49Z	0.000797	39	BSc in physics;MSc in astronomy;PhD in astronomy	STS-35;STS-67	16.63	17800465	00:00	astronaut	PARISE_RA.md		
 PARKER, Robert A. R.	USA	Male	1936-12-14	19.24	1662754	0	2	0	1983-11-28T16:00Z	0.000599	46	BA in astronomy and physics;PhD in astronomy	STS-9;STS-35	10.28	13385169	00:00	astronaut	PARKER_RAR.md		
-PARMITANO, Luca Salvo	ITA	Male	1976-09-27	166.26	14365116	27540	1	2	2013-05-28T20:31:24Z	0.005179	36		Soyuz TMA-09M	166.26	115639183	07:39	international	PARMITANO_LS.md		@astro_luca
+PARMITANO, Luca Salvo	ITA	Male	1976-09-27	166.26	14365116	27540	1	2	2013-05-28T20:31:24Z	0.005179	36		Soyuz TMA-09M	166.26	115639183	07:39	international	PARMITANO_LS.md		astro_luca
 PATAT, Frederic	FRA	Male	1958-06-24	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PATAT_F.md		
-PATRICK, Nicholas J.M.	USA	Male	1964-03-22	26.62	2300016	65640	2	1	2006-12-10T01:47:35Z	0.000829	42	BA in engineering;MSc in mechanical engineering;MA in engineering;PhD in mechanical engineering	STS-116;STS-130	13.76	18515128	18:14	astronaut	PATRICK_NJM.md		@Astro_Nicholas
+PATRICK, Nicholas J.M.	USA	Male	1964-03-22	26.62	2300016	65640	2	1	2006-12-10T01:47:35Z	0.000829	42	BA in engineering;MSc in mechanical engineering;MA in engineering;PhD in mechanical engineering	STS-116;STS-130	13.76	18515128	18:14	astronaut	PATRICK_NJM.md		Astro_Nicholas
 PATSAYEV, Viktor Ivanovich	URS	Male	1933-06-19	23.77	2053304	0	1	0	1971-06-06T07:55:09Z	0.000740	37		Soyuz 11	23.77	16529097	00:00	cosmonaut	PATSAYEV_VI.md		
 PAWELCZYK, James A.	USA	Male	1960-09-20	15.91	1374660	0	1	0	1998-04-17T18:19Z	0.000496	37	BA in biology and psychology;MSc in physiology;PhD in biology	STS-90	15.91	11066013	00:00	astronaut	PAWELCZYK_JA.md		
 PAYETTE, Julie	CAN	Female	1963-10-20	25.50	2203184	0	2	0	1999-05-27T06:49Z	0.000794	35		STS-96;STS-127	15.70	17735631	00:00	international	PAYETTE_J.md		
 PAYTON, Gary E.	USA	Male	1948-06-20	3.06	264803	0	1	0	1985-01-24T19:50:00Z	0.000095	36	MSc in astronautical and aeronautical engineering	STS-51C	3.06	2131664	00:00	astronaut	PAYTON_GE.md		
-PEAKE, Timothy Nagel	GBR	Male	1972-04-07	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PEAKE_TN.md		@astro_timpeake
+PEAKE, Timothy Nagel	GBR	Male	1972-04-07	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PEAKE_TN.md		astro_timpeake
 PELCZAK, Oldrich 'Olda'	TCH	Male	1943-11-02	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PELCZAK_O.md		
 PERALTA Y FABI, Ricardo	MEX	Male	1950-08-15	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PERALTA Y FABI_R.md		
 PERRIN, Philippe	FRA	Male	1963-01-06	13.86	1197357	70260	1	3	2002-06-05T21:22:49Z	0.000432	39		STS-111	13.86	9638723	19:31	international	PERRIN_P.md		
-PESQUET, Thomas Gautier	FRA	Male	1978-02-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PESQUET_TG.md		 @Thom_astro
+PESQUET, Thomas Gautier	FRA	Male	1978-02-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	PESQUET_TG.md		 Thom_astro
 PETELIN, Dmitri Aleksandrovich	RUS	Male	1983-07-10	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	PETELIN_DA.md		
 PETERSON, Donald H.	USA	Male	1933-10-22	5.02	433423	15300	1	1	1983-04-04T18:30Z	0.000156	49	MSc in nuclear engineering	STS-6	5.02	3489055	04:15	astronaut	PETERSON_DH.md		
 PETRUSHENKO, Aleksandr Jakovlevich	URS	Male	1942-01-01	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	PETRUSHENKO_AJ.md		
-PETTIT, Donald R.	USA	Male	1955-04-20	370.70	32028218	47820	3	1	2002-11-23T00:49:47Z	0.011547	47	BSc in chemical engineering	STS-113;Soyuz TMA-1;STS-126;Soyuz TMA-03M	192.79	257827154	13:17	astronaut	PETTIT_DR.md		@astro_Pettit
+PETTIT, Donald R.	USA	Male	1955-04-20	370.70	32028218	47820	3	1	2002-11-23T00:49:47Z	0.011547	47	BSc in chemical engineering	STS-113;Soyuz TMA-1;STS-126;Soyuz TMA-03M	192.79	257827154	13:17	astronaut	PETTIT_DR.md		astro_Pettit
 PHAM, Tu&acirc;n	VNM	Male	1947-02-14	7.86	679320	0	1	0	1980-07-23T18:33:03Z	0.000245	33		Soyuz 37;Soyuz 36	7.86	5468526	00:00	international	PHAM_T.md		
 PHILLIPS, John L.	USA	Male	1951-04-15	203.73	17601890	17880	3	1	2001-04-19T18:40:42Z	0.006346	50	BSc in mathematics;MSc in aeronautical systems	STS-100;Soyuz TMA-6;STS-119	179.02	141695214	04:58	astronaut	PHILLIPS_JL.md		
 PISAREV, Viktor Mikhailovich	URS	Male	1941-08-15	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	PISAREV_VM.md		
@@ -596,11 +596,11 @@ RYAZANSKY, Sergei Nikolayevich	RUS	Male	1974-11-13	166.27	14365570	72300	1	3	201
 RYUMIN, Valeri Viktorovich	URS	Male	1939-08-16	304.89	26342095	4980	4	1	1977-10-09T02:40:35Z	0.009497	38		Soyuz 25;Soyuz 32;Soyuz 35;Soyuz 37;STS-91	184.84	212053864	01:23	cosmonaut	RYUMIN_VV.md		
 RYZHIKOV, Sergei Nikolaevich	RUS	Male	1974-08-19	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	RYZHIKOV_SN.md		
 SACCO, Albert, Jr.	USA	Male	1949-05-03	15.91	1374742	0	1	0	1995-10-20T13:53Z	0.000496	46	PhD in chemical engineering	STS-73	15.91	11066673	00:00	astronaut	SACCO_AJ.md		
-SAINT-JACQUES, David	CAN	Male	1970-01-06	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	SAINT-JACQUES_D.md		@Astro_DavidS
+SAINT-JACQUES, David	CAN	Male	1970-01-06	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	SAINT-JACQUES_D.md		Astro_DavidS
 SALEY, Yevgeni Vladimirovich	URS	Male	1950-01-01	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	SALEY_YV.md		
 SAMOKUTYAYEV, Aleksandr Mikhailovich	RUS	Male	1970-03-13	331.47	28639400	36060	2	2	2011-04-04T22:18:20Z	0.010325	41		Soyuz TMA-21;Soyuz TMA-14M	167.24	230547170	10:01	cosmonaut	SAMOKUTYAYEV_AM.md		
 SARAFANOV, Gennadi Vasiliyevich	URS	Male	1942-01-01	2.01	173532	0	1	0	1974-08-26T19:58:05Z	0.000063	32		Soyuz 15	2.01	1396932	00:00	cosmonaut	SARAFANOV_GV.md		
-SATCHER, Robert L., Jr.	USA	Male	1965-09-22	10.80	933374	44340	1	1	2009-11-16T19:28:09Z	0.000336	44	BSc in chemical engineering	STS-129	10.80	7513660	12:19	astronaut	SATCHER_RLJ.md		@ZeroG_MD
+SATCHER, Robert L., Jr.	USA	Male	1965-09-22	10.80	933374	44340	1	1	2009-11-16T19:28:09Z	0.000336	44	BSc in chemical engineering	STS-129	10.80	7513660	12:19	astronaut	SATCHER_RLJ.md		ZeroG_MD
 SATTAROV, Nail Sharipovich	URS	Male	1941-12-23	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	SATTAROV_NS.md		
 SAVINYKH, Viktor Petrovich	URS	Male	1940-03-07	252.74	21836332	18000	3	1	1981-03-12T19:00:11Z	0.007872	41		Soyuz T-4;Soyuz T-13;Soyuz T-14;Soyuz TM-5;Soyuz TM-4	168.16	175782472	05:00	cosmonaut	SAVINYKH_VP.md		
 SAVITSKAYA, Svetlana Yevgeniyena	URS	Female	1948-08-08	19.71	1703222	12900	2	1	1982-08-19T17:11:52Z	0.000614	34		Soyuz T-7;Soyuz T-5;Soyuz T-12	11.80	13710937	03:35	cosmonaut	SAVITSKAYA_SY.md		
@@ -636,7 +636,7 @@ SHCHUKIN, Aleksandr Vladimirovich	URS	Male	1946-01-19	0.00	0	0	0	0		0.000000	0		
 SHEFFER, Yuri Petrovich	URS	Male	1947-06-30	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	SHEFFER_YP.md		
 SHEPARD, Alan B. Jr.	USA	Male	1923-11-18	9.01	778701	33420	2	1	1961-05-05T14:34:13Z	0.000532	37		Mercury-Redstone 3;Apollo 14	9.00	767430	09:17	astronaut	SHEPARD_ABJ.md		
 SHEPHERD, William M.	USA	Male	1949-07-26	159.25	13758962	0	4	0	1988-12-02T14:30:34Z	0.004960	39	BSc in aerospace engineering;MSc in mechanical engineering	STS-27;STS-41;STS-52;Soyuz TM-31;STS-102	140.99	110759644	00:00	astronaut	SHEPHERD_WM.md		
-SHKAPLEROV, Anton Nikolayevich	RUS	Male	1972-02-20	365.01	31536897	22500	2	1	2011-11-14T04:14:03Z	0.011369	39		Soyuz TMA-22;Soyuz TMA-15M	199.70	253872020	06:15	cosmonaut	SHKAPLEROV_AN.md		@AntonAstrey
+SHKAPLEROV, Anton Nikolayevich	RUS	Male	1972-02-20	365.01	31536897	22500	2	1	2011-11-14T04:14:03Z	0.011369	39		Soyuz TMA-22;Soyuz TMA-15M	199.70	253872020	06:15	cosmonaut	SHKAPLEROV_AN.md		AntonAstrey
 SHONIN, Georgi Stepanovich	URS	Male	1935-08-03	4.95	427368	0	1	0	1969-10-11T11:10Z	0.000154	34		Soyuz 6	4.95	3440312	00:00	cosmonaut	SHONIN_GS.md		
 SHRIVER, Loren J.	USA	Male	1944-09-23	16.09	1389874	0	3	0	1985-01-24T19:50Z	0.000501	40	BSc in aeronautical engineering;MSc in astronautical engineering	STS-51-C;STS-31;STS-46	7.97	11188485	00:00	astronaut	SHRIVER_LJ.md		
 SHUTTLEWORTH, Mark Richard 'Buranov'	ZAF	Male	1973-09-18	9.89	854719	0	1	0	2002-04-25T06:26:35Z	0.000308	28		Soyuz TM-34;Soyuz TM-33	9.89	6880487	00:00	commercial tourist	SHUTTLEWORTH_MR.md		
@@ -664,7 +664,7 @@ STEKLOV, Vladimir Aleksandrovich	RUS	Male	1949-01-03	0.00	0	0	0	0		0.000000	0			
 STEPANOV, Eduard Nikolayevich	URS	Male	1937-04-14	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	STEPANOV_EN.md		
 STEPANOV, Yuri Nikolayevich	URS	Male	1936-09-27	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	STEPANOV_YN.md		
 STEWART, Robert L.	USA	Male	1942-08-13	12.04	1040435	43920	2	1	1984-02-03T13:00Z	0.000375	41	BSc in mathematics;MSc in aerospace engineering	STS-41-B;STS-51-J	7.97	8375501	12:12	astronaut	STEWART_RL.md		
-STOTT, Nicole P.	USA	Female	1962-11-19	103.24	8920214	23940	2	1	2009-08-29T03:59Z	0.003216	46	BSc in aeronautical engineering;MSc in engineering management	STS-128;STS-129;STS-133	90.45	71807722	06:39	astronaut	STOTT_NP.md		@Astro_Nicole
+STOTT, Nicole P.	USA	Female	1962-11-19	103.24	8920214	23940	2	1	2009-08-29T03:59Z	0.003216	46	BSc in aeronautical engineering;MSc in engineering management	STS-128;STS-129;STS-133	90.45	71807722	06:39	astronaut	STOTT_NP.md		Astro_Nicole
 STOYANOV, Krasimir Mihailov	BGR	Male	1961-01-24	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	STOYANOV_KM.md		
 STREKALOV, Gennadi Mikhailovich	URS	Male	1940-10-28	268.93	23235968	79620	5	4	1980-11-27T14:18:28Z	0.008377	40		Soyuz T-3;Soyuz T-8;Soyuz T-11;Soyuz T-10;Soyuz TM-10;Soyuz TM-21;STS-71	130.86	187049542	22:07	cosmonaut	STREKALOV_GM.md		
 STURCKOW, Frederick W.	USA	Male	1961-08-11	51.40	4441127	0	4	0	1998-12-04T08:35:34Z	0.001601	37	BSc in mechanical engineering	STS-88;STS-105;STS-117;STS-128	13.87	35751072	00:00	astronaut	STURCKOW_FW.md		
@@ -690,7 +690,7 @@ THORNTON, Kathryn C.	USA	Female	1952-08-17	40.72	3518122	76260	4	1	1989-11-23T00
 THORNTON, William E.	USA	Male	1929-04-14	13.05	1127851	0	2	0	1983-08-30T06:32Z	0.000407	54	BSc in physics;Doctor of Medicine	STS-8;STS-51-B	7.01	9079200	00:00	astronaut	THORNTON_WE.md		
 THUOT, Pierre J.	USA	Male	1955-05-19	27.37	2364824	63480	3	1	1990-02-28T07:50:22Z	0.000853	34	BSc in physics;MSc in system management	STS-36;STS-49;STS-62	13.97	19036833	17:38	astronaut	THUOT_PJ.md		
 TIKHONOV, Nikolai Vladimirovich	RUS	Male	1982-05-23	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	TIKHONOV_NV.md		
-TINGLE, Scott D.	USA	Male	1965-07-19	0.00	0	0	0	0		0.000000	0	BSc in mechanical engineering		0.00	0	00:00	astronaut	TINGLE_SD.md		@Astro_Maker
+TINGLE, Scott D.	USA	Male	1965-07-19	0.00	0	0	0	0		0.000000	0	BSc in mechanical engineering		0.00	0	00:00	astronaut	TINGLE_SD.md		Astro_Maker
 TITOV, German Stepanovich	URS	Male	1935-09-11	1.05	91140	0	1	0	1961-08-06T06:00Z	0.000033	25		Vostok 2	1.05	733677	00:00	cosmonaut	TITOV_GS.md		
 TITOV, Vladimir Georgiyevich	URS	Male	1947-01-01	387.03	33439663	67680	4	4	1983-04-20T13:10:54Z	0.012055	36		Soyuz T-8;Soyuz TM-4;Soyuz TM-6;STS-63;STS-86	365.94	269189287	18:48	cosmonaut	TITOV_VG.md		
 TITO, Dennis	USA	Male	1940-08-08	7.92	684249	0	1	0	2001-04-28T07:37:20Z	0.000247	60	BSc in Astronautics and Aeronautics;MSc in Engineering Science	Soyuz TM-32;Soyuz TM-31	7.92	5508204	00:00	commercial tourist	TITO_D.md		
@@ -708,7 +708,7 @@ URBANI, Luca	ITA	Male	1957-05-11	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	interna
 USACHYOV, Yuri Vladimirovich	URS	Male	1957-10-09	410.37	35455771	109860	5	6	1994-01-08T10:05:34Z	0.012782	36		Soyuz TM-18;Soyuz TM-23;STS-101;STS-102;STS-105	193.80	285418956	30:31	cosmonaut	USACHYOV_YV.md		
 VAGNER, Ivan Viktorovich	RUS	Male	1985-07-10	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	VAGNER_IV.md		
 VALKOV, Konstantin Anatoliyevich	RUS	Male	1971-11-11	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	VALKOV_KA.md		
-VANDE HEI, Mark T.	USA	Male	1966-11-10	0.00	0	0	0	0		0.000000	0	BSc in physics;MSc in applied physics		0.00	0	00:00	astronaut	VANDE_HEI_MT.md		@Astro_Sabot
+VANDE HEI, Mark T.	USA	Male	1966-11-10	0.00	0	0	0	0		0.000000	0	BSc in physics;MSc in applied physics		0.00	0	00:00	astronaut	VANDE_HEI_MT.md		Astro_Sabot
 VAN DEN BERG, Lodewijk	USA	Male	1932-03-24	7.01	605327	0	1	0	1985-04-29T16:02:18Z	0.000218	53	MSc in applied science	STS-51-B	7.01	4872882	00:00	astronaut	VAN_DEN_BERG_L.md		
 VAN HOFTEN, James D.	USA	Male	1944-06-11	14.08	1216671	78660	2	1	1984-04-06T13:58Z	0.000439	39	BSc in civil engineering;MSc in hydraulic engineering;PhD in fluid mechanics	STS-41-C;STS-51-I	7.10	9794201	21:51	astronaut	VAN_HOFTEN_JD.md		
 VARLAMOV, Valentin Stepanovich	URS	Male	1934-08-15	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	VARLAMOV_VS.md		
@@ -717,11 +717,11 @@ VEACH, Charles Lacy	USA	Male	1944-09-18	18.10	1563744	0	2	0	1991-04-28T11:33:14Z
 VIEHBÖCK, Franz Artur	AUT	Male	1960-08-24	7.93	684761	0	1	0	1991-10-02T05:59:38Z	0.000247	31		Soyuz TM-13;Soyuz TM-12	7.93	5512326	00:00	international	VIEHBÖCK_FA.md		
 VIKTORENKO, Aleksandr Stepanovich	URS	Male	1947-03-29	489.07	42255321	70740	4	6	1987-07-22T01:59:17Z	0.015234	40		Soyuz TM-3;Soyuz TM-2;Soyuz TM-8;Soyuz TM-14;Soyuz TM-20	169.22	340155334	19:39	cosmonaut	VIKTORENKO_AS.md		
 VINOGRADOV, Pavel Vladimirovich	RUS	Male	1953-08-31	546.94	47255657	102960	3	5	1997-08-05T15:35:54Z	0.017036	43		Soyuz TM-26;Soyuz TMA-8;Soyuz TMA-08M	197.73	380408038	28:36	cosmonaut	VINOGRADOV_PV.md		
-VIRTS, Terry	USA	Male	1967-12-01	213.45	18442271	68520	2	3	2010-02-08T09:14Z	0.006649	42	BSc in mathematics & minor in French	STS-130;Soyuz TMA-15M	199.70	148460281	19:02	astronaut	VIRTS_T.md		@AstroTerry
+VIRTS, Terry	USA	Male	1967-12-01	213.45	18442271	68520	2	3	2010-02-08T09:14Z	0.006649	42	BSc in mathematics & minor in French	STS-130;Soyuz TMA-15M	199.70	148460281	19:02	astronaut	VIRTS_T.md		AstroTerry
 VISO, Michel Yves	FRA	Male	1951-06-16	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	international	VISO_MY.md		
 VITTORI, Roberto	ITA	Male	1964-10-15	35.52	3068846	0	3	0	2002-04-25T06:26:35Z	0.001106	37		Soyuz TM-34;Soyuz TM-33;Soyuz TMA-6;Soyuz TMA-5;STS-134	15.74	24704210	00:00	international	VITTORI_R.md		
 VOLKOV, Aleksandr Aleksandrovich	URS	Male	1948-05-27	391.50	33825198	37320	3	2	1985-09-17T12:38:52Z	0.012194	37		Soyuz T-14;Soyuz TM-7;Soyuz TM-13	175.12	272292843	10:22	cosmonaut	VOLKOV_AA.md		
-VOLKOV, Sergei Aleksandrovich	RUS	Male	1973-04-01	400.74	34623939	66900	3	3	2008-04-08T11:16:39Z	0.012482	35		Soyuz TMA-12;Soyuz TMA-02M;Soyuz TMA-18M	198.68	278722708	18:35	cosmonaut	VOLKOV_SA.md	2015-10-06T23:47Z	@Volkov_ISS
+VOLKOV, Sergei Aleksandrovich	RUS	Male	1973-04-01	401.35	34676919	66900	3	3	2008-04-08T11:16:39Z	0.012501	35		Soyuz TMA-12;Soyuz TMA-02M;Soyuz TMA-18M	198.68	279149197	18:35	cosmonaut	VOLKOV_SA.md	2015-10-07T14:30Z	Volkov_ISS
 VOLKOV, Vladislav Nikolayevich	URS	Male	1935-11-23	28.71	2480528	0	2	0	1969-10-12T10:44:42Z	0.000894	33		Soyuz 7;Soyuz 11	23.77	19968250	00:00	cosmonaut	VOLKOV_VN.md		
 VOLK, Igor Petrovich	URS	Male	1937-04-12	11.80	1019677	0	1	0	1984-07-17T17:40:54Z	0.000368	47		Soyuz T-12	11.80	8208399	00:00	cosmonaut	VOLK_IP.md		
 VOLOSHIN, Valeri Abramovich	URS	Male	1942-04-24	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	VOLOSHIN_VA.md		
@@ -731,8 +731,8 @@ VORONOV, Anatoli Fyodorovich	URS	Male	1930-06-11	0.00	0	0	0	0		0.000000	0			0.00
 VOSS, Janice E.	USA	Female	1956-10-08	49.16	4247652	0	5	0	1993-06-21T13:07Z	0.001531	36	BSc in engineering science;MSc in electrical engineering	STS-57;STS-63;STS-83;STS-94;STS-99	15.70	34193598	00:00	astronaut	VOSS_JE.md		
 VOSS, James S.	USA	Male	1949-03-03	202.23	17472688	81300	5	1	1991-11-24T23:44Z	0.006299	42	BSc in aerospace engineering;MSc in aerospace engineering sciences	STS-44;STS-53;STS-69;STS-101;STS-102;STS-105	167.28	140655138	22:35	astronaut	VOSS_JS.md		
 VOZOVIKOV, Sergei Yuriyevich	URS	Male	1958-04-17	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	VOZOVIKOV_SY.md		
-WAKATA, Koichi	JPN	Male	1963-08-01	238.24	20583855	0	5	0	1996-01-11T09:41Z	0.007421	32		STS-72;STS-92;STS-119;STS-127;Soyuz TMA-11M	187.91	165700032	00:00	international	WAKATA_K.md		 @Astro_Wakata
-WALHEIM, Rex J.	USA	Male	1962-10-10	36.36	3141230	130980	3	1	2002-04-08T20:44:19Z	0.001132	39	BSc in mechanical engineering;MSc in industrial engineering	STS-110;STS-122;STS-135	12.77	25286901	36:23	astronaut	WALHEIM_RJ.md		@Astro_Rex
+WAKATA, Koichi	JPN	Male	1963-08-01	238.24	20583855	0	5	0	1996-01-11T09:41Z	0.007421	32		STS-72;STS-92;STS-119;STS-127;Soyuz TMA-11M	187.91	165700032	00:00	international	WAKATA_K.md		 Astro_Wakata
+WALHEIM, Rex J.	USA	Male	1962-10-10	36.36	3141230	130980	3	1	2002-04-08T20:44:19Z	0.001132	39	BSc in mechanical engineering;MSc in industrial engineering	STS-110;STS-122;STS-135	12.77	25286901	36:23	astronaut	WALHEIM_RJ.md		Astro_Rex
 WALKER, Charles D	USA	Male	1948-08-29	19.91	1720579	0	3	0	1984-08-30T12:41:50Z	0.000620	36		STS-41-D;STS-51-D;STS-61-B	7.00	13850660	00:00	astronaut	WALKER_CD.md		
 WALKER, David M.	USA	Male	1944-05-20	30.19	2608121	0	4	0	1984-11-08T12:15Z	0.000940	40		STS-51-A;STS-30;STS-53;STS-69	10.85	20995374	00:00	astronaut	WALKER_DM.md		
 WALKER, Joseph Albert 'Joe'	USA	Male	1921-02-20	0.02	1352	0	2	0	1963-07-19T18:20:05Z	0.000000	42	BA in physics	X-15 Flight 90;X-15 Flight 91	0.01	10883	00:00	astronaut	WALKER_JA.md		
@@ -745,18 +745,18 @@ WANG, Yaping	CHN	Female	1980-01-27	14.60	1261798	0	1	0	2013-06-11T09:38:02Z	0.00
 WEBER, Mary E.	USA	Female	1962-08-24	18.77	1621865	0	2	0	1995-07-13T13:41:55Z	0.000585	32	BSc in chemical engineering	STS-70;STS-101	9.84	13056013	00:00	astronaut	WEBER_ME.md		
 WEITZ, Paul J.	USA	Male	1932-07-25	33.05	2855612	7860	2	1	1973-05-25T13:00Z	0.001029	40	BSc in aeronautical engineering;MSc in aeronautical engineering	Skylab 2;STS-6	28.03	22987676	02:11	astronaut	WEITZ_PJ.md		
 WETHERBEE, James D.	USA	Male	1952-11-27	67.35	5819421	0	6	0	1990-01-09T12:35Z	0.002098	37	BSc in aerospace engineering	STS-32;STS-52;STS-63;STS-86;STS-102;STS-113	14.78	46846339	00:00	astronaut	WETHERBEE_JD.md		
-WHEELOCK, Douglas H.	USA	Male	1960-05-05	178.40	15413700	156600	2	1	2007-10-23T15:38:19Z	0.005557	47	MSc in aerospace engineering	STS-120;Soyuz TMA-19	163.30	124080285	43:30	astronaut	WHEELOCK_DH.md		@Astro_Wheels
+WHEELOCK, Douglas H.	USA	Male	1960-05-05	178.40	15413700	156600	2	1	2007-10-23T15:38:19Z	0.005557	47	MSc in aerospace engineering	STS-120;Soyuz TMA-19	163.30	124080285	43:30	astronaut	WHEELOCK_DH.md		Astro_Wheels
 WHITE, Edward H. II	USA	Male	1930-11-14	4.08	352573	2160	1	1	1965-06-03T15:15:59Z	0.000127	34	MSc in aeronautical engineering	Gemini 4	4.08	2838212	00:36	astronaut	WHITE_EHII.md		
-WHITSON, Peggy A.	USA	Female	1960-02-09	376.72	32549038	143160	2	6	2002-06-05T21:22:49Z	0.011734	42	PhD in biochemistry	STS-111;STS-113;Soyuz TMA-11	191.80	262019755	39:46	astronaut	WHITSON_PA.md		@AstroPeggy
+WHITSON, Peggy A.	USA	Female	1960-02-09	376.72	32549038	143160	2	6	2002-06-05T21:22:49Z	0.011734	42	PhD in biochemistry	STS-111;STS-113;Soyuz TMA-11	191.80	262019755	39:46	astronaut	WHITSON_PA.md		AstroPeggy
 WILCUTT, Terrence W.	USA	Male	1949-10-31	41.00	3542679	0	4	0	1994-09-30T11:16:01Z	0.001277	44	BA in mathematics	STS-68;STS-79;STS-89;STS-106	11.24	28518565	00:00	astronaut	WILCUTT_TW.md		
 WILLIAMS, Clifford C. Jr.	USA	Male	1932-09-26	0.00	0	0	0	0		0.000000	0	BSc in mechanical engineering		0.00	0	00:00	astronaut	WILLIAMS_CCJ.md		
 WILLIAMS, Donald E.	USA	Male	1958-02-13	11.98	1035344	0	2	0	1985-04-12T13:59:05Z	0.000373	27	BSc in mechanical engineering	STS-51-D;STS-34	7.00	8334519	00:00	astronaut	WILLIAMS_DE.md		
 WILLIAMS, Dafydd Rhys 'Dave'	CAN	Male	1954-05-16	28.66	2476059	64020	2	3	1998-04-17T18:19Z	0.000893	43		STS-90;STS-118	15.91	19932274	17:47	international	WILLIAMS_DR.md		
-WILLIAMS, Jeffrey N.	USA	Male	1958-01-18	361.96	31273455	68940	3	1	2000-05-19T10:11Z	0.011274	42	MSc in aeronautical engineering;MA in national security and strategic studies	STS-101;Soyuz TMA-8;Soyuz TMA-16	182.95	251751312	19:09	astronaut	WILLIAMS_JN.md		@Astro_Jeff
-WILLIAMS, Sunita L.	USA	Female	1965-09-19	321.72	27796532	182400	2	1	2006-12-10T01:47:35Z	0.010021	41	BSc in physical science;MSc in engineering management	STS-116;STS-117;Soyuz TMA-05M	194.75	223762082	50:40	astronaut	WILLIAMS_SL.md		@Astro_Maker
+WILLIAMS, Jeffrey N.	USA	Male	1958-01-18	361.96	31273455	68940	3	1	2000-05-19T10:11Z	0.011274	42	MSc in aeronautical engineering;MA in national security and strategic studies	STS-101;Soyuz TMA-8;Soyuz TMA-16	182.95	251751312	19:09	astronaut	WILLIAMS_JN.md		Astro_Jeff
+WILLIAMS, Sunita L.	USA	Female	1965-09-19	321.72	27796532	182400	2	1	2006-12-10T01:47:35Z	0.010021	41	BSc in physical science;MSc in engineering management	STS-116;STS-117;Soyuz TMA-05M	194.75	223762082	50:40	astronaut	WILLIAMS_SL.md		Astro_Maker
 WILMORE, Barry E. 'Butch'	USA	Male	1962-12-29	178.04	15382694	92160	2	4	2009-11-16T19:28:09Z	0.005546	46	MSc in electrical engineering	STS-129;Soyuz TMA-14M	167.24	123830686	25:36	astronaut	WILMORE_BE.md		
 WILSON, Stephanie D.	USA	Female	1966-09-27	42.99	3714423	0	3	0	2006-07-04T18:37:55Z	0.001339	39	BSc in engineering science;MSc in aerospace engineering	STS-121;STS-120;STS-131	15.12	29901105	00:00	astronaut	WILSON_SD.md		
-WISEMAN, G. Reid	USA	Male	1975-11-11	165.33	14284819	46020	1	2	2014-05-28T19:57:41Z	0.005150	38	BSc in computer & systems engineering;MSc in systems engineering	Soyuz TMA-13M	165.33	114992792	12:47	astronaut	WISEMAN_GR.md		@astro_reid
+WISEMAN, G. Reid	USA	Male	1975-11-11	165.33	14284819	46020	1	2	2014-05-28T19:57:41Z	0.005150	38	BSc in computer & systems engineering;MSc in systems engineering	Soyuz TMA-13M	165.33	114992792	12:47	astronaut	WISEMAN_GR.md		astro_reid
 WISOFF, Peter J. K.	USA	Male	1958-08-16	44.34	3831086	71580	4	1	1993-06-21T13:07Z	0.001381	34	BSc in physics;PhD in applied physics	STS-57;STS-68;STS-81;STS-92	12.90	30840242	19:53	astronaut	WISOFF_PJK.md		
 WOLF, David A.	USA	Male	1956-08-23	157.54	13611684	147900	3	1	1993-10-18T14:53Z	0.004907	37	BSc in electrical engineering;Doctor of Medicine	STS-58;STS-86;STS-89;STS-127	127.84	109574056	41:05	astronaut	WOLF_DA.md		
 WOODWARD, Neil W., III	USA	Male	1962-07-26	0.00	0	0	0	0		0.000000	0	BSc in physics from MIT Master of Arts in physics;MA in physics		0.00	0	00:00	astronaut	WOODWARD_NWIII.md		
@@ -765,7 +765,7 @@ WORDEN, Alfred M.	USA	Male	1932-02-07	12.30	1062714	2280	1	1	1971-07-26T13:34Z	0
 WU, Jie	CHN	Male	1963-10-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	taikonaut	WU_J.md		
 YABLONTSEV, Aleksandr Nikolayevich	URS	Male	1955-04-03	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	YABLONTSEV_AN.md		
 YAKOVLEV, Oleg Anatoliyevich	URS	Male	1940-12-31	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	YAKOVLEV_OA.md		
-YAMAZAKI, Naoko	JPN	Female	1970-12-27	15.12	1306034	0	1	0	2010-04-05T10:21:22Z	0.000471	39		STS-131	15.12	10513573	00:00	international	YAMAZAKI_N.md		@Astro_Naoko
+YAMAZAKI, Naoko	JPN	Female	1970-12-27	15.12	1306034	0	1	0	2010-04-05T10:21:22Z	0.000471	39		STS-131	15.12	10513573	00:00	international	YAMAZAKI_N.md		Astro_Naoko
 YANG, Liwei	CHN	Male	1965-06-21	0.89	76966	0	1	0	2003-10-15T01:00:03Z	0.000028	38		Shenzhou V	0.89	619576	00:00	taikonaut	YANG_L.md		
 YAZDOVSKY, Valeri Aleksandrovich	URS	Male	1930-06-08	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	YAZDOVSKY_VA.md		
 YEGOROV, Boris Borisovich	URS	Male	1937-11-26	1.01	87424	0	1	0	1964-10-12T07:30:01Z	0.000032	26		Voskhod 1	1.01	703763	00:00	cosmonaut	YEGOROV_BB.md		
@@ -776,7 +776,7 @@ YE, Guangfu	CHN	Male		0.00	0	0	0	0		0.000000	0			0.00	0	00:00	taikonaut	YE_G.md
 YI, Soyeon	KOR	Female	1978-06-02	10.88	940461	0	1	0	2008-04-08T11:16:39Z	0.000339	29		Soyuz TMA-12;Soyuz TMA-11	10.88	7570711	00:00	international	YI_S.md		
 YORKINA, Zhanna Dmitriyevna	URS	Male	1939-05-06	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	YORKINA_ZD.md		
 YOUNG, John W.	USA	Male	1930-09-24	34.78	3004922	72900	6	1	1965-03-23T14:24Z	0.001615	34	BSc in aeronautical engineering	Gemini 3;Gemini 10;Apollo 10;Apollo 16;STS-1;STS-9	11.08	12439438	20:15	astronaut	YOUNG_JW.md		
-YUI, Kimiya	JPN	Male	1970-01-30	76.11	6576256	0	1	0	2015-07-22T21:02:44Z	0.002371	45		Soyuz TMA-17M	76.11	52938860	00:00	international	YUI_K.md	2015-10-06T23:47Z	 @Astro_Kimiya
+YUI, Kimiya	JPN	Male	1970-01-30	76.73	6629236	0	1	0	2015-07-22T21:02:44Z	0.002390	45		Soyuz TMA-17M	76.73	53365349	00:00	international	YUI_K.md	2015-10-07T14:30Z	 Astro_Kimiya
 YURCHIKHIN, Fyodor Nikolayevich	RUS	Male	1959-01-03	537.11	46406112	163140	4	7	2002-10-07T19:45:51Z	0.016730	43		STS-112;Soyuz TMA-10;Soyuz TMA-19;Soyuz TMA-09M	196.71	373569201	45:19	cosmonaut	YURCHIKHIN_FN.md		
 YUYUKOV, Dmitri Andreyevich	URS	Male	1941-02-26	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	YUYUKOV_DA.md		
 ZABOLOTSKY, Viktor Vasiliyevich	URS	Male	1946-04-19	0.00	0	0	0	0		0.000000	0			0.00	0	00:00	cosmonaut	ZABOLOTSKY_VV.md		

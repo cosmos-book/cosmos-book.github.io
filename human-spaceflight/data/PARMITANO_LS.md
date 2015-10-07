@@ -7,7 +7,7 @@ birthplace:
   - name:	Paternò, Sicily
     latitude:	37.56834
     longitude:	14.90418
-twitter:	@astro_luca
+twitter:	astro_luca
 country:
   - ITA
 references:

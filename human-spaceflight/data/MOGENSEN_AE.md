@@ -7,7 +7,7 @@ birthplace:
   - name:	Copenhagen, Denmark
     latitude:	55.674492
     longitude:	12.55213
-twitter:	@Astro_Andreas
+twitter:	Astro_Andreas
 country:
   - DNK
 references:

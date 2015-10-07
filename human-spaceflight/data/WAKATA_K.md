@@ -7,7 +7,7 @@ birthplace:
   - name:	Ōmiya, Saitama
     latitude:	35.915611
     longitude:	139.651657
-twitter:	 @Astro_Wakata
+twitter:	 Astro_Wakata
 country:
   - JPN
 references:

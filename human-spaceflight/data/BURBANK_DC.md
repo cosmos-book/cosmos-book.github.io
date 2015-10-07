@@ -7,7 +7,7 @@ birthplace:
   - name:	Manchester, Connecticut
     latitude:	41.775249
     longitude:	-72.524178
-twitter:	@AstroCoastie
+twitter:	AstroCoastie
 qualifications:
   - BSc in electrical engineering
   - MSc in aeronautical science

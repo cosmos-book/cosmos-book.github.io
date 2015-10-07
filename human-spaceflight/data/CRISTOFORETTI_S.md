@@ -7,7 +7,7 @@ birthplace:
   - name:	Milan, Italy
     latitude:	45.4781
     longitude:	9.17789
-twitter:	@AstroSamantha
+twitter:	AstroSamantha
 country:
   - ITA
 gender:	Female

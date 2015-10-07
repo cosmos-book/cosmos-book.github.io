@@ -7,7 +7,7 @@ birthplace:
   - name:	Lebanon, Missouri
     latitude:	37.671612
     longitude:	-92.659889
-twitter:	@AstroIllini
+twitter:	AstroIllini
 qualifications:
   - BSc in aerospace engineering
   - MSc in aerospace engineering

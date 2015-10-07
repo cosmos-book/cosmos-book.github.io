@@ -8,7 +8,7 @@ birthplace:
     latitude:	38.867352
     longitude:	-104.760803
 gender:	Female
-twitter:	@AstroDot
+twitter:	AstroDot
 qualifications:
   - BA in geology
 references:

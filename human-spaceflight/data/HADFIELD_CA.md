@@ -7,7 +7,7 @@ birthplace:
   - name:	Sarnia, Ontario, Canada
     latitude:	42.9627
     longitude:	-82.387398
-twitter:	@Cmdr_Hadfield
+twitter:	Cmdr_Hadfield
 country:
   - CAN
 references:

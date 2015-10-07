@@ -8,7 +8,7 @@ birthplace:
     latitude:	32.781151
     longitude:	-79.931602
 gender:	Female
-twitter:	@Astro_Cady
+twitter:	Astro_Cady
 qualifications:
   - BSc in chemistry
   - PhD in polymer science & engineering

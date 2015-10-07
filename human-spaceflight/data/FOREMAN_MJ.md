@@ -7,7 +7,7 @@ birthplace:
   - name:	Columbus, Ohio
     latitude:	39.98914
     longitude:	-82.985329
-twitter:	@foreman_mike
+twitter:	foreman_mike
 qualifications:
   - BSc in aerospace engineering
   - MSc in aeronautical engineering

@@ -7,7 +7,7 @@ birthplace:
   - name:	Redwood, California
     latitude:	34.172352
     longitude:	-119.18998
-twitter:	@Astro_Rex
+twitter:	Astro_Rex
 qualifications:
   - BSc in mechanical engineering
   - MSc in industrial engineering

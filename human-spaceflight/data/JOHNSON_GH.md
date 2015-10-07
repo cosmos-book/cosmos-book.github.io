@@ -7,7 +7,7 @@ birthplace:
   - name:	South Ruislip, Middlesex, United Kingdom
     latitude:	51.55761
     longitude:	-0.40783
-twitter:	@Astro_Box
+twitter:	Astro_Box
 qualifications:
   - BSc in aeronautical engineering
   - MSc in flight structures engineering

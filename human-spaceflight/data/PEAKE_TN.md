@@ -8,7 +8,7 @@ birthplace:
   - name:	Chichester, West Sussex, England
     latitude:	50.83652
     longitude:	-0.77918
-twitter:	@astro_timpeake
+twitter:	astro_timpeake
 country:
   - GBR
 references:

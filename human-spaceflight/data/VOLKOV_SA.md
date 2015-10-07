@@ -7,7 +7,7 @@ birthplace:
   - name:	Chuhuiv, Ukrainian SSR, Soviet Union
     latitude:	49.843571
     longitude:	36.685539
-twitter:	@Volkov_ISS
+twitter:	Volkov_ISS
 country:
   - RUS
 references:

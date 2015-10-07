@@ -7,7 +7,7 @@ birthplace:
   - name:	Baltimore, Maryland
     latitude:	39.300968
     longitude:	-76.610611
-twitter:	@astro_reid
+twitter:	astro_reid
 qualifications:
   - BSc in computer & systems engineering
   - MSc in systems engineering

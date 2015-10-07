@@ -8,7 +8,7 @@ birthplace:
     latitude:	46.093498
     longitude:	-94.5149
 gender:	Female
-twitter:	@AstroKarenN
+twitter:	AstroKarenN
 qualifications:
   - BSc in mechanical engineering
   - PhD in mechanical engineering

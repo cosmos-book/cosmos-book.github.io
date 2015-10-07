@@ -7,7 +7,7 @@ birthplace:
   - name:	Taipei, Taiwan
     latitude:	25.086
     longitude:	121.560997
-twitter:	@astro_kjell
+twitter:	astro_kjell
 qualifications:
   - BSc in biology
   - MSc in cardiovascular physiology

@@ -7,7 +7,7 @@ birthplace:
   - name:	Baltimore, Maryland
     latitude:	39.300968
     longitude:	-76.610611
-twitter:	@AstroTerry
+twitter:	AstroTerry
 qualifications:
   - BSc in mathematics & minor in French
 references:

@@ -8,7 +8,7 @@ birthplace:
     latitude:	35.79808
     longitude:	139.940536
 gender:	Female
-twitter:	@Astro_Naoko
+twitter:	Astro_Naoko
 country:
   - JPN
 references:

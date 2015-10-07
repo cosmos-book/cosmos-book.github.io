@@ -7,7 +7,7 @@ birthplace:
   - name:	Pittsburgh, Pennsylvania
     latitude:	40.431301
     longitude:	-79.980698
-twitter:	@AstroIronMike
+twitter:	AstroIronMike
 qualifications:
   - BSc in aeronautics & astronautics
   - MSc in aeronautics & astronautics

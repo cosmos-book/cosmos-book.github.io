@@ -7,7 +7,7 @@ birthplace:
   - name:	Yonkers, New York
     latitude:	40.944401
     longitude:	-73.864197
-twitter:	@Astro_Ron
+twitter:	Astro_Ron
 qualifications:
   - BSc in business economics
   - MSc in aerospace engineering

@@ -7,7 +7,7 @@ birthplace:
   - name:	Setagaya, Tokyo, Japan
     latitude:	35.63649
     longitude:	139.634491
-twitter:	@Aki_Hoshide
+twitter:	Aki_Hoshide
 country:
   - JPN
 references:

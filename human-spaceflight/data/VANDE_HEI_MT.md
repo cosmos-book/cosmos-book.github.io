@@ -7,7 +7,7 @@ birthplace:
   - name:	Falls Church, Virginia
     latitude:	38.88435
     longitude:	-77.174583
-twitter:	@Astro_Sabot
+twitter:	Astro_Sabot
 qualifications:
   - BSc in physics
   - MSc in applied physics

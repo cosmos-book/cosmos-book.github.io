@@ -7,7 +7,7 @@ birthplace:
   - name:	Louisville, Colorado
     latitude:	39.97023
     longitude:	-105.138153
-twitter:	@Astro2fish
+twitter:	Astro2fish
 qualifications:
   - BSc in astronautical engineering
   - MSc in aeronautics & astronautics

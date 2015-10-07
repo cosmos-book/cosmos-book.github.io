@@ -7,7 +7,7 @@ birthplace:
   - name:	Ft. Huachuca, Arizona
     latitude:	31.55479
     longitude:	-110.346153
-twitter:	@Astro_TJ
+twitter:	Astro_TJ
 qualifications:
   - BSc in chemistry
   - MSc in physics

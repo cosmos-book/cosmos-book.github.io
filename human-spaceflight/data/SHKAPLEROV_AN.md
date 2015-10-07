@@ -7,7 +7,7 @@ birthplace:
   - name:	Sevastopol, Crimea
     latitude:	44.599998
     longitude:	33.533298
-twitter:	@AntonAstrey
+twitter:	AntonAstrey
 country:
   - RUS
 references:

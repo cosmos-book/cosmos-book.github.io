@@ -7,7 +7,7 @@ birthplace:
   - name:	Kanagawa, Japan
     latitude:	35.404469
     longitude:	139.357513
-twitter:	@Astro_Satoshi
+twitter:	Astro_Satoshi
 country:
   - JPN
 references:

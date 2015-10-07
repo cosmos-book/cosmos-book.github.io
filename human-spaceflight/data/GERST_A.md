@@ -7,7 +7,7 @@ birthplace:
   - name:	Künzelsau, Baden-Württemberg, Germany
     latitude:	49.279079
     longitude:	9.68769
-twitter:	@Astro_Alex
+twitter:	Astro_Alex
 country:
   - DEU
 references:

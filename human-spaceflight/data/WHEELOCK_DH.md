@@ -7,7 +7,7 @@ birthplace:
   - name:	Binghamton, New York
     latitude:	42.101799
     longitude:	-75.903603
-twitter:	@Astro_Wheels
+twitter:	Astro_Wheels
 qualifications:
   - MSc in aerospace engineering
 references:

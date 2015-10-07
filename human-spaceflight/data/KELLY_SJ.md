@@ -7,7 +7,7 @@ birthplace:
   - name:	Orange, New Jersey
     latitude:	40.768101
     longitude:	-74.234894
-twitter:	@StationCDRKelly
+twitter:	StationCDRKelly
 qualifications:
   - BSc in electrical engineering
   - MSc in aviation systems

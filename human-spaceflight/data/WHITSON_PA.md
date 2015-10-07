@@ -8,7 +8,7 @@ birthplace:
     latitude:	40.714211
     longitude:	-94.237572
 gender:	Female
-twitter:	@AstroPeggy
+twitter:	AstroPeggy
 qualifications:
   - PhD in biochemistry
 references:

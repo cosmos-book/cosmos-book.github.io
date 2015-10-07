@@ -7,7 +7,7 @@ birthplace:
   - name:	Statesville, North Carolina
     latitude:	35.78577
     longitude:	-80.888924
-twitter:	@AstroMarshburn
+twitter:	AstroMarshburn
 qualifications:
   - BSc in physics
   - MSc in engineering physics

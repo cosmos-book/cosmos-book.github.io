@@ -7,7 +7,7 @@ birthplace:
   - name:	Oceanside, New York
     latitude:	40.633499
     longitude:	-73.637802
-twitter:	@Astro_Mike
+twitter:	Astro_Mike
 qualifications:
   - BSc in industrial engineering
   - MSc in technology and policy

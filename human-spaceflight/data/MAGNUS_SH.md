@@ -8,7 +8,7 @@ birthplace:
     latitude:	38.512131
     longitude:	-89.98423
 gender:	Female
-twitter:	@Astro_Sandy
+twitter:	Astro_Sandy
 qualifications:
   - BSc in physics
   - MSc in electrical engineering

@@ -7,7 +7,7 @@ birthplace:
   - name:	Yokohama, Kanagawa, Japan
     latitude:	35.452702
     longitude:	139.595123
-twitter:	@Astro_Soichi
+twitter:	Astro_Soichi
 country:
   - JPN
 references:

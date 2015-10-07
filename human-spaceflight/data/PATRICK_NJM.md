@@ -7,7 +7,7 @@ birthplace:
   - name:	Saltburn, North Yorkshire, United Kingdom
     latitude:	54.579868
     longitude:	-0.98148
-twitter:	@Astro_Nicholas
+twitter:	Astro_Nicholas
 qualifications:
   - BA in engineering
   - MSc in mechanical engineering

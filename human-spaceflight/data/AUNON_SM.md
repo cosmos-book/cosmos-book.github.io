@@ -7,7 +7,7 @@ birthplace:
   - name:	Indianapolis, Indiana
     latitude:	39.766911
     longitude:	-86.149963
-twitter:	@AstroSerena
+twitter:	AstroSerena
 qualifications:
   - BSc in electrical engineering
   - Doctor of Medicine

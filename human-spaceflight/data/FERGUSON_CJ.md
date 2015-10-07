@@ -7,7 +7,7 @@ birthplace:
   - name:	Philadelphia, Pennsylvania
     latitude:	40.007629
     longitude:	-75.133957
-twitter:	@Astro_Ferg
+twitter:	Astro_Ferg
 qualifications:
   - BSc in mechanical engineering
   - MSc in aeronautical engineering

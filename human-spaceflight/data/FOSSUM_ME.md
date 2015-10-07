@@ -7,7 +7,7 @@ birthplace:
   - name:	Sioux Falls, South Dakota
     latitude:	43.545349
     longitude:	-96.731277
-twitter:	@astro_aggie
+twitter:	astro_aggie
 qualifications:
   - BSc in mechanical engineering
   - MSc in systems engineering

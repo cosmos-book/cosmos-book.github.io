@@ -3,7 +3,7 @@ category:	astronaut
 name:	ANDERSON, Clayton C.
 type:	civilian
 dob:	1959-02-23
-twitter:	@Astro_Clay
+twitter:	Astro_Clay
 birthplace:
   - name:	Omaha, Nebraska
     latitude:	41.263561

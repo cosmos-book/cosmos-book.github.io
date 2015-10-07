@@ -8,7 +8,7 @@ birthplace:
   - name:	Albany, New York
     latitude:	42.668098
     longitude:	-73.810699
-twitter:	@Astro_Nicole
+twitter:	Astro_Nicole
 qualifications:
   - BSc in aeronautical engineering
   - MSc in engineering management

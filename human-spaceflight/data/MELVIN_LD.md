@@ -7,7 +7,7 @@ birthplace:
   - name:	Lynchburg, Virginia
     latitude:	37.40041
     longitude:	-79.190987
-twitter:	@Astro_Flow
+twitter:	Astro_Flow
 qualifications:
   - BSc in chemistry
   - MSc in materials science engineering

@@ -7,7 +7,7 @@ birthplace:
   - name:	Hampton, Virginia
     latitude:	37.02779
     longitude:	-76.345123
-twitter:	@ZeroG_MD
+twitter:	ZeroG_MD
 qualifications:
   - BSc in chemical engineering
 references:

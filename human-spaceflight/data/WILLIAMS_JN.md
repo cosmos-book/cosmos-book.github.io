@@ -7,7 +7,7 @@ birthplace:
   - name:	Superior, Wisconsin
     latitude:	46.72131
     longitude:	-92.103951
-twitter:	@Astro_Jeff
+twitter:	Astro_Jeff
 qualifications:
   - MSc in aeronautical engineering
   - MA in national security and strategic studies

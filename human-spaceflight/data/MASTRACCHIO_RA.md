@@ -7,7 +7,7 @@ birthplace:
   - name:	Waterbury, Connecticut
     latitude:	41.558281
     longitude:	-73.036072
-twitter:	@AstroRM
+twitter:	AstroRM
 qualifications:
   - BSc in electrical engineering and computer science
   - MSc in electrical engineering

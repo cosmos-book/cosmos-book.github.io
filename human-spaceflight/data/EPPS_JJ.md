@@ -7,7 +7,7 @@ birthplace:
   - name:	Syracuse, New York
     latitude:	43.035198
     longitude:	-76.139297
-twitter:	@Astro_Jeanette
+twitter:	Astro_Jeanette
 qualifications:
   - BSc in physics
   - PhD in aerospace engineering

@@ -7,7 +7,7 @@ birthplace:
   - name: Inglewood, California
     latitude:	33.956379
     longitude:	-118.34433
-twitter:	@AstroAcaba
+twitter:	AstroAcaba
 country:
   - USA
 gender:	Male

@@ -7,7 +7,7 @@ birthplace:
   - name:	Chicago, Illinois
     latitude:	41.884151
     longitude:	-87.632408
-twitter:	@SciAstro
+twitter:	SciAstro
 qualifications:
   - BSc in physics
   - PhD in physics
