@@ -17,6 +17,7 @@
 	display: table-row;
 	margin: 1.25em;
 }
+
 .middlebox ul { margin-top: 0.5em; margin-bottom: 0.5em; }
 ul { list-style: none; margin-left: 0px; padding-left: 0; }
 ul li { display: inline-block; margin-right: 1em; }
