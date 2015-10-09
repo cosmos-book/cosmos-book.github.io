@@ -10,6 +10,7 @@ $pathdir = $0;
 $pathdir =~ s/(\/?)[^\/]*$/$1/;
 $datadir = $pathdir."data/";
 $procdir = $datadir."processed/";
+$url = "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/";
 
 # Require the time and date sub-routines
 require($pathdir.'timeanddate.pl');
@@ -43,6 +44,7 @@ closedir($dh);
 %allmissions = "";
 $reflist = "";
 $json = "";
+$geojson = "";
 
 # Loop over the files
 foreach $file (sort(@files)){
@@ -198,7 +200,7 @@ foreach $file (sort(@files)){
 				}
 				#push(@li,'<li><span class="d"><time datetime="'.$launch.'">'.$launchstr.'</time>-<time datetime="'.$land.'">'.$landstr.'</time></span>/<span class="name">'.$name.'</span>/'.$countrystr.'/<time datetime="'.$dob.'" class="dob">'.$dob.'</time><span class="human '.$category.'"></span></li>');
 				# We temporarily put the category at the end for the purposes of sorting
-				push(@li,'<li><a href="https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/'.$file.'" class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></a></li>');
+				push(@li,'<li><a href="'.$url.$file.'" class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></a></li>');
 
 				$durn = duration($launch,$land);
 				if($durn > $longesttrip){ $longesttrip = $durn; }
@@ -292,6 +294,20 @@ foreach $file (sort(@files)){
 
 	# If the person has spent time in space we build some JSON for them
 	if($timeinspace){
+
+		# Add geojson marker
+		$colour = "#000000";
+		if($category =~ /astronaut/){ $colour = "#00a2d3"; }
+		if($category =~ /cosmonaut/){ $colour = "#f04031"; }
+		if($category =~ /taikonaut/){ $colour = "#ffcb06"; }
+		if($category =~ /international/){ $colour = "#67c18d"; }
+		if($category =~ /tourist/ || $category =~ /commercial/){ $colour = "#7c52a1"; }
+		if($geojson){ $geojson .= ","; }
+		$tname = $name;
+		$tname =~ s/\"/\\\"/g;
+		$geojson .= "{\n\t\"type\": \"Feature\",\n\t\"geometry\": {\n\t\t\"type\": \"Point\",\n\t\t\"coordinates\": [$lon, $lat]\n\t},\n\t\"properties\": {\n\t\t\"title\": \"$tname\",\n\t\t\"date\": \"$dob\",\n\t\t\"data\": \"$url$file\",\n\t\t\"marker-size\": \"medium\",\n\t\t\"marker-color\": \"$colour\",\n\t\t\"marker-symbol\": \"circle\"\n\t}\n}";
+
+		# Add astronaut to JSON
 		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "").",\"birthplace\":{\"lat\":$lat,\"lon\":$lon}},\n";
 		if($lat == 0 && $lon == 0){
 			print "WARNING (BIRTH PLACE): $name has no coordinates\n";
@@ -306,6 +322,15 @@ foreach $file (sort(@files)){
 	# Store some tsv data for them
 	push(@output,"$name\t$country\t$gender\t$dob\t".sprintf("%.2f",$timeinspace/86400)."\t$timeinspace\t$eva\t$launches\t$evas\t$firstlaunch\t".sprintf("%.6f",$timedilation)."\t$age\t$quals\t$missions\t".sprintf("%.2f",$longesttrip/86400)."\t".sprintf("%d",$distance/1000)."\t".formatTime($eva)."\t".$category."\t".$file."\t".($inspace ? $now : "")."\t".$twitter);
 
+}
+
+if($geojson){
+	# Change indentation
+	$geojson =~ s/\n/\n\t\t/g;
+	$geojson = "{\n\t\"type\": \"FeatureCollection\",\n\t\"features\": [\n\t\t$geojson\n\t]\n}\n";
+	open(FILE,">",$procdir."birthplaces.geojson");
+	print FILE "$geojson";
+	close(FILE);
 }
 
 $html = "{\n";

@@ -111,7 +111,6 @@ $(document).ready(function(){
 
 		var icons = new Array();
 		for(var i = 0; i < categories.length; i++){
-			console.log(categories[i])
 			icons[categories[i]] = L.divIcon({className: 'human '+categories[i],iconSize:8});
 		}
 		
@@ -133,11 +132,6 @@ $(document).ready(function(){
 				if(c.indexOf(" ") > 0 || c == "tourist") c = "commercial";
 				if(astronauts[i].birthplace){
 					a = L.marker([astronauts[i].birthplace.lat+random(0,0.002), astronauts[i].birthplace.lon+random(0,0.002)], {icon: icons[c], title: astronauts[i].id}).addTo(map);//.bindPopup(astronauts[i].name);//.openPopup();
-					if(astronauts[i].name.indexOf("HERM")==0){
-						c = "commercial";
-						//astronauts[i].birthplace = {'lat':0,'lon':0}
-						console.log(astronauts[i].birthplace,a)
-					}//
 				}
 			}
 		}
