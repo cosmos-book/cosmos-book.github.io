@@ -267,6 +267,7 @@ foreach $file (sort(@files)){
 		}
 		# Get the length of the extra-vehicular activity
 		if($inbirthplace){
+			if($line =~ /name\:[\t\s]*(.*)/){ $bpname = $1; }
 			if($line =~ /latitude\:[\t\s]*(.*)/){ $lat = $1; }
 			if($line =~ /longitude\:[\t\s]*(.*)/){ $lon = $1; }
 		}
@@ -305,7 +306,7 @@ foreach $file (sort(@files)){
 		if($geojson){ $geojson .= ","; }
 		$tname = $name;
 		$tname =~ s/\"/\\\"/g;
-		$geojson .= "{\n\t\"type\": \"Feature\",\n\t\"geometry\": {\n\t\t\"type\": \"Point\",\n\t\t\"coordinates\": [$lon, $lat]\n\t},\n\t\"properties\": {\n\t\t\"title\": \"$tname\",\n\t\t\"date\": \"$dob\",\n\t\t\"data\": \"$url$file\",\n\t\t\"marker-size\": \"medium\",\n\t\t\"marker-color\": \"$colour\",\n\t\t\"marker-symbol\": \"circle\"\n\t}\n}";
+		$geojson .= "{\n\t\"type\": \"Feature\",\n\t\"geometry\": {\n\t\t\"type\": \"Point\",\n\t\t\"coordinates\": [$lon, $lat]\n\t},\n\t\"properties\": {\n\t\t\"title\": \"$tname\",\n\t\t\"date\": \"$dob\",\n\t\t\"birthplace\": \"$bpname\",\n\t\t\"data\": \"$url$file\",\n\t\t\"marker-size\": \"medium\",\n\t\t\"marker-color\": \"$colour\",\n\t\t\"marker-symbol\": \"circle\"\n\t}\n}";
 
 		# Add astronaut to JSON
 		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "").",\"birthplace\":{\"lat\":$lat,\"lon\":$lon}},\n";
