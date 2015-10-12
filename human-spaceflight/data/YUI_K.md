@@ -7,7 +7,7 @@ birthplace:
   - name:	Kawakami, Nagano, Japan
     latitude:	35.932468
     longitude:	138.611282
-twitter:	 Astro_Kimiya
+twitter:	Astro_Kimiya
 country:
   - JPN
 references:
