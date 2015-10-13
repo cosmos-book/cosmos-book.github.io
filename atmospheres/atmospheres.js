@@ -1,7 +1,7 @@
 r(function(){
 
 	// Configure
-	var range = {'y':[-320,320], 'px':800 };
+	var range = {'y':[-320,320], 'px':650 };
 	var padd = {'left':0,'right':0,'top':20,'bottom':0};
 	var el = $('#holder');
 	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
