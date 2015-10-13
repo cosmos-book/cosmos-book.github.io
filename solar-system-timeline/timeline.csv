@@ -1,0 +1,83 @@
+Age,Duration (Myr),Start (-Myr),End (-Myr),Type,Description,Reference,Include?
+-10,10,4578,4568,Formation process,Lifetime of previous massive star ,,true
+-2,0,4570,4570,Formation event,Nearby supernova of massive star,,true
+0,0,4568,4568,Formation event,Oldest minerals in meteorites,,true
+0,0,4568,4568,Formation event,Formation of asteroids and comets,,true
+0,4,4568,4564,Formation process,Formation of the giant planets,,true
+0,10,4568,4558,Formation process,Terrestrial planets formed,http://www.sciencedirect.com/science/article/pii/S0019103501968113# ; 2002Icar..157...43K,true
+0,568,4568,4000,Geological eon,Hadean eon,,true
+0,68,4568,4500,Geological era,Cryptic Era,http://www.sciencedirect.com/science/article/pii/S0019103507006094 ; 2008Icar..196..258L,true
+5,10,4563,4553,Formation process,Gas and dust disk depleted,http://www.sciencedirect.com/science/article/pii/S0019103501968113 ; 2002Icar..157...43K,true
+60,30,4508,4478,Formation process,Formation of the Moon,,true
+68,200,4500,4300,Geological era,Basin Groups Era,,true
+100,400,4468,4068,Formation process,Jupiter and Saturn fall into resonance,http://www.sciencedirect.com/science/article/pii/S0019103507006094 ; 2008Icar..196..258L,true
+168,0,4400,4400,Geological event,Oldest minerals on Earth,,true
+168,0,4400,4400,Formation event,Formation of Saturn's rings,,true
+200,100,4368,4268,Formation process,Cluster of stars disperses,http://arxiv.org/abs/0903.0237,true
+268,200,4300,4100,Formation process,Formation of the large lunar basins,,true
+268,200,4300,4100,Geological era,Nectarian Era,,true
+468,100,4100,4000,Geological era,Early Imbrian Era,,true
+468,0,4100,4100,Life event,Possible primordial life,,true
+500,200,4068,3868,Formation process,Late Heavy Bombardment,,true
+568,1500,4000,2500,Geological eon,Archaen eon,,true
+568,0,4000,4000,Geological event,Oldest rocks on Earth,,true
+568,400,4000,3600,Geological era,Eoarchean Era,,true
+800,100,3768,3668,Formation process,Uranus and Neptune switch places,,true
+968,400,3600,3200,Geological era,Paleoarchean Era,,true
+968,0,3600,3600,Life event,First simple single-celled life and first microfossils,,true
+1368,400,3200,2800,Geological era,Mesoarchean Era,,true
+1768,300,2800,2500,Geological era,Neoarchean Era,,true
+1768,300,2800,2500,Geological event,Stabilisation of the Earth's tectonic plates,,true
+2068,1960,2500,540,Geological eon,Protozoic eon,,true
+2068,900,2500,1600,Geological era,Paleoproterozoic,,true
+2068,400,2500,2100,Geological process,Ice age,,true
+2268,0,2300,2300,Geological event,Appearance of oxygen in Earth's atmosphere,,true
+2468,0,2100,2100,Geological event,First photosynthesis,,true
+2968,600,1600,1000,Geological era,Mesoprotoerozoic,,true
+3568,460,1000,540,Geological era,Neoprotoerozoic,,true
+3568,0,1000,1000,Life event,First simple multi-celled fossils,,true
+3728,210,840,630,Geological process,Ice age,,true
+4028,540,540,0,Geological eon,Phanerozoic eon,,true
+4028,290,540,250,Geological era,Paleozoic Era,,true
+4028,55,540,485,Life process,Cambrian explosion,,true
+4103,0,465,465,Life event,First green plants and fungi,,true
+4108,40,460,420,Geological process,Ice age,,true
+4123,0,445,445,Extinction event,Extinction event (60-70% of species),,true
+4123,25,445,420,Life process,First jawed fish,,true
+4148,50,420,370,Life process,First ferns trees and seed-bearing plants,,true
+4188,0,380,380,Life event,First evidence of live birth,,true
+4198,0,370,370,Extinction event,Extinction event (70% of species),,true
+4198,45,370,325,Life event,First land vertebrates,,true
+4208,100,360,260,Geological process,Ice age,,true
+4243,25,325,300,Life process,First reptiles; Coal forests; Highest ever atmospheric oxygen levels,,true
+4268,0,300,300,Geological event,Pangea supercontinent forms,,true
+4318,184,250,66,Geological era,Mezozoic Era,,true
+4318,0,250,250,Extinction event,Extinction event (90-96% of species),,true
+4318,0,250,250,Life process,First dinosaurs and crocodiles; first mammals,,true
+4368,0,200,200,Geological event,Pangea breaks into Gondwana and Laurasia,,true
+4368,0,200,200,Extinction event,Extinction event (70-75% of species),,true
+4368,133.9,200,66,Life process,Dinosaurs rule the world,,true
+4502,66,66,0,Geological era,Cenozoic Era,,true
+4502,0,66,66,Extinction event,Extinction event (75% of species),,true
+4502,8.9,66,57,Life process,First large mammals and primates,,true
+4512,21.9,56,35,Life process,Seafloor algae lower atmospheric CO2,,true
+4518,0,50,50,Geological event,Beginning of formation of Himalayas,,true
+4534,9.9,34,23,Life process,Rapid evolution of mammals,,true
+4545,16,23,7,Life process,Widespread forests lower atmospheric CO2 levels,,true
+4560,0,8,8,Life event,Evolutionary split from gorillas,,true
+4564,0,4,4,Life event,Evolutionary split from chimpanzees,,true
+4565.4,2.6,2.6,0,Geological process,Current ice age,,true
+4565.7,0,2.3,2.3,Life event,First hominids,,true
+4566.6,0,1.4,1.4,Life event,First appearance of Homo erectus,,true
+4567.8,0,0.2,0.2,Life event,First appearance of Homo sapiens,,true
+4568,0,0,0,Now,Now,,true
+4568,7720,0,-7720,Geological era,The Anthropocene,,false
+4618,10,-50,-60,Geological process,Canadian Rockies erode away,,true
+4618,0,-50,-50,Formation event,Phobos either crashes into Mars or breaks up into a ring,http://solarsystem.nasa.gov/planets/profile.cfm?Object=Mar_Phobos,true
+4648,0,-80,-80,Geological event,Big Island of Hawaii will wink beneath the ocean,,true
+4818,0,-250,-250,Geological event,Earth's continents will form another supercontinent,,true
+5168,0,-600,-600,Formation event,Moon recedes too far away for total solar eclipses to occur,,true
+5568,1000,-1000,-2000,Formation process,Increased energy output of Sun causes oceans to boil away,,true
+8068,0,-3500,-3500,Formation event,Earth's atmosphere more like Venus' current atmosphere,http://labs.adsabs.harvard.edu/adsabs/abs/1993ApJ...418..457S/,true
+8568,1000,-4000,-5000,Formation event,Andromeda Galaxy and Milky Way merge; 12% chance Sun will be ejected from “Milkomeda”,http://adsabs.harvard.edu/abs/2008MNRAS.tmp..333C,true
+10000,2300,-5420,-7720,Formation event,Sun grows into red giant and may engulf the Earth,,true
