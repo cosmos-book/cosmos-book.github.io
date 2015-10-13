@@ -121,15 +121,15 @@ function CSV2JSON(data,format,start,end){
 	var delim = ",";
 
 	if(typeof data==="string"){
-		data = data.split(/[\n\r]/);
+		data = data.replace(/\r/,'');
+		data = data.split(/[\n]/);
 	}
 	if(typeof end!=="number") end = data.length;
 
 	if(data[0].indexOf("\t") > 0) delim = /\t/;
-	
+
 	var line,datum;
 	var newdata = new Array();
-
 	for(var i = start; i < end; i++){
 		line = data[i].split(delim);
 		datum = {};
@@ -243,7 +243,7 @@ function addHistory(qs,fn,a){
 function tooltip(data){
 
 	var existinghtml = "";
-	
+
 	function show(el,text){
 
 
@@ -258,7 +258,7 @@ function tooltip(data){
 			$('body').append('<div class="tooltip"><div class="tooltip_padd"><div class="tooltip_inner">'+text+'<\/div><a href="" class="tooltip_close button">close</a><\/div><\/div>');
 			$('.tooltip_close').on('click',function(e){ e.preventDefault(); e.stopPropagation(); closeTooltip(); });
 		}else $('.tooltip_inner').html(text);
-		
+
 		var fs = parseInt($('.tooltip').css('font-size'));
 		var x = l+dx;
 		var y = t+dy/2;
@@ -275,7 +275,7 @@ function tooltip(data){
 			c += " bottom";
 		}
 		$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
-		
+
 	}
 	function closeTooltip(){
 		existinghtml = "";

@@ -12,7 +12,7 @@ r(function(){
 	var offs = ypx*(range.y[1]%100)/100;
 	$('<style type="text/css">.planet .planet_inner { min-height: '+range.px+'px; } .planet_inner { background-image: linear-gradient(white .14em, transparent .14em); background-position: 0 '+offs+'px; background-size: 100% '+ypx+'px; box-sizing: border-box; }</style>').appendTo("head");
 
-	$('#holder').before('<div class="form"><label>Set all altitudes:</label><button class="button" data-type="altitude" data-value="0">0 km</button><label>Set all pressures:</label><button class="button" data-value="0.001" data-type="pressure">1 &micro;bar</button><button class="button" data-value="1" data-type="pressure">1 mbar</button><button class="button" data-value="10" data-type="pressure">10 mbar</button><button class="button" data-value="100" data-type="pressure">100 mbar</button><button class="button" data-value="1000" data-type="pressure">1 bar</button><button class="button" data-value="10000" data-type="pressure">10 bar</button><button class="button" data-value="100000" data-type="pressure">100 bar</button></div>');
+	$('#holder').before('<div class="form"><label>Set all altitudes:</label><button class="button" data-type="altitude" data-value="0">0 km</button><button class="button" data-type="altitude" data-value="50">50 km</button><button class="button" data-type="altitude" data-value="100">100 km</button><button class="button" data-type="altitude" data-value="200">200 km</button><label>Set all pressures:</label><button class="button" data-value="0.001" data-type="pressure">1 &micro;bar</button><button class="button" data-value="1" data-type="pressure">1 mbar</button><button class="button" data-value="10" data-type="pressure">10 mbar</button><button class="button" data-value="100" data-type="pressure">100 mbar</button><button class="button" data-value="1000" data-type="pressure">1 bar</button><button class="button" data-value="10000" data-type="pressure">10 bar</button><button class="button" data-value="100000" data-type="pressure">100 bar</button></div>');
 
 	// Add events for control buttons - set the height or pressure for all planets
 	$(document).on('click','button.button',function(){
@@ -86,14 +86,14 @@ r(function(){
 	// Return a colour determined by the atmospheric layer's label
 	function getColour(n){
 		if(n===undefined) return 'black';
-		if(n.toLowerCase().indexOf('haze') >= 0) return '#b6c727';
+		if(n.toLowerCase().indexOf('methane') >= 0) return '#02a24b';
 		if(n.toLowerCase().indexOf('water') >= 0) return '#48c7e9';
 		if(n.toLowerCase().indexOf('co2') >= 0) return '#57b7aa';
-		if(n.toLowerCase().indexOf('methane') >= 0) return '#02a24b';
 		if(n.toLowerCase().indexOf('ammonia') >= 0) return '#f6881f';
 		if(n.toLowerCase().indexOf('ammonium') >= 0) return '#7d71b4';
 		if(n.toLowerCase().indexOf('clouds') >= 0) return '#662d8f';
 		if(n.toLowerCase().indexOf('ozone') >= 0) return '#a8dbd5';
+		if(n.toLowerCase().indexOf('haze') >= 0) return '#b6c727';
 		return 'black';
 	}
 
@@ -288,7 +288,6 @@ r(function(){
 					else y2 = y2+'%';
 
 					c = getColour(atmos[p].data[d].name);
-
 					if(atmos[p].data[d].feature.toLowerCase().indexOf('cloud layer') >= 0 && atmos[p].data[d].lower < range.y[1] && atmos[p].data[d].upper > range.y[0]){
 						layers += '<div class="layer" style="background-color:'+c+';top:'+y+'%;height:'+y2+';" title="'+atmos[p].data[d].name+'"></div>';
 						keyitems[atmos[p].data[d].name] = c;
