@@ -6,7 +6,7 @@ r(function(){
 	var el = $('#holder');
 	var planets = ['Venus','Earth','Mars','Titan','Pluto','Jupiter','Saturn','Uranus','Neptune'];
 	var pstops = [0.001,1,1000,10000,100000];
-	
+
 	// Add style
 	var ypx = Math.round(100*range.px/(range.y[1]-range.y[0]));
 	var offs = ypx*(range.y[1]%100)/100;
@@ -26,7 +26,7 @@ r(function(){
 			else if(t=="pressure") setPressure(planets[i],v);
 		}
 	});
-	
+
 	var dragging = false;
 	$(document).on('click','.clickable,.handle',function(e){
 		dragging = true;
@@ -47,7 +47,7 @@ r(function(){
 	var dy = 12;
 	var h = 600;
 	var mid = {'x': w/2,'y':h/2};
-	
+
 	var loaded = 0;
 	var atmos = {};
 
@@ -85,6 +85,7 @@ r(function(){
 
 	// Return a colour determined by the atmospheric layer's label
 	function getColour(n){
+		if(n===undefined) return 'black';
 		if(n.toLowerCase().indexOf('haze') >= 0) return '#b6c727';
 		if(n.toLowerCase().indexOf('water') >= 0) return '#48c7e9';
 		if(n.toLowerCase().indexOf('co2') >= 0) return '#57b7aa';
@@ -95,8 +96,8 @@ r(function(){
 		if(n.toLowerCase().indexOf('ozone') >= 0) return '#a8dbd5';
 		return 'black';
 	}
-	
-	
+
+
 	// Build the cross-browser CSS for a linear gradient
 	// Inputs:
 	//   stops - array of [color,percent]
@@ -119,9 +120,9 @@ r(function(){
 		css += 'background: -ms-linear-gradient(top, '+s+');';	 // IE10+
 		css += 'background: linear-gradient(to bottom, '+s+');';	 // W3C
 		css += 'filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=\''+stops[0][0]+'\', endColorstr=\''+stops[stops.length-1][0]+'\',GradientType=0 );'; // IE6-9
-		return css;		
+		return css;
 	}
-	
+
 	function getTemperatureColour(t){
 		t -= 273.15;
 		var v;
@@ -135,16 +136,16 @@ r(function(){
 			return 'rgba('+Math.round(255-(255-cold[0])*v)+','+Math.round(255-(255-cold[1])*v)+','+Math.round(255-(255-cold[2])*v)+',1)';
 		}else if (t==0) return 'rgba(255,255,255,1)';
 	}
-	
+
 	function getPressureColour(p){
 		var op = (p < 1000 ? (Math.log10(p)+6)/9 : 1);
 
 		// We can't have negative opacity
 		if(op < 0) op = 0;
-		
+
 		return 'rgba(255,255,255,'+op.toFixed(2)+')'
 	}
-	
+
 	function formatPressure(v){
 		var unit = 'mbar';
 		if(v >= 990){
@@ -175,13 +176,13 @@ r(function(){
 	}
 	// Draw the result
 	function drawIt(){
-	
+
 		// Get reduced vertical height once padding is taken into account
 		dh = (h - padd.top - padd.bottom);
-		
+
 		// Work out the width of a column
 		dx = w/(planets.length*2);
-		
+
 		// Work out the scaling for the vertical direction px/km
 		dy = dh/(range.y[1]-range.y[0]);
 
@@ -235,7 +236,7 @@ r(function(){
 					}
 
 					/*for(var pr = 0; pr < pstops.length; pr++){
-					
+
 						var near = new Array(atmos[p].profile.length);
 						for(var k=0; k < atmos[p].profile.length; k++) near[k] = Math.abs(atmos[p].profile[k].P - pstops[pr]);
 						function indexMin(a,tol){
@@ -319,7 +320,7 @@ r(function(){
 
 		$('.loader').remove();
 		$('.noscript').remove();
-		
+
 	}
 
 	// For the specified planet, p, and an altitude we return formatted
@@ -346,7 +347,7 @@ r(function(){
 		}
 		return {'h':formatAltitude(altitude),'P':formatPressure(atmos[p].profile[k].P + dP),'T':formatTemperature(atmos[p].profile[k].T + dT)};
 	}
-	
+
 	// Set the label position for planet, p, by the pressure (mbar)
 	function setPressure(p,pressure){
 		var altitude = 0;
