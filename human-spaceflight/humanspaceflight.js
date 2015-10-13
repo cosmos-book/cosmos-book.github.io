@@ -40,11 +40,12 @@ $(document).ready(function(){
 		for(var i = 0; i < astronauts.length; i++) output += '<a href="#" id="'+astronauts[i].id+'" class="human '+astronauts[i].category+''+(astronauts[i].inspaceasof != null ? ' inorbit' : '')+'" title="'+astronauts[i].name+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>';
 		$('.innerbox').append(output);
 		updateAstronauts();
-		
+
 		var labl = $('<label>').attr({'for':'filter_text'}).html('Filter');
 		var inpt = $('<input>').attr({'class':'filterinp','id':'filter_text','type':'text','placeholder':'Filter by name e.g. \'Armstrong\''});
-		$('form.axes').append(labl).append(inpt);
-		
+		$('form.axes').append('<div class="right"></div>')
+		$('form.axes .right').append(labl).append(inpt);
+
 		$(inpt).on('change',function(){
 			var search = $(this).val().toLowerCase();
 			$('a.human.unmatched').removeClass('unmatched');
@@ -53,9 +54,9 @@ $(document).ready(function(){
 		}).on('keyup',function(){
 			$(this).change();
 		});
-		
+
 		updateAstronautCount();
-		
+
 	}
 
 	function updateAstronautCount(){
@@ -109,13 +110,13 @@ $(document).ready(function(){
 		var output = "";
 		var dy = 1/good;	// The vertical spacing of astronauts
 		for(var i = 0, j = 0; i < astronauts.length; i++){
-			
+
 			x = getX(astronauts[i][xaxis],xaxis,mn_x,mx_x);
-			
+
 			if(yaxis=="dob" || yaxis=="time_eva" || yaxis=="firstlaunch_age" || yaxis=="launches") y = (astronauts[i][yaxis]-mn_y)/(mx_y-mn_y);
 			else if(yaxis=="longest_trip") y = (astronauts[i][yaxis] >= 0 ? (Math.log10(astronauts[i][yaxis])-Math.log10(mn_y))/(Math.log10(mx_y)-Math.log10(mn_y)) : 1);
 			else y = j*dy;
-			
+
 			if(astronauts[i].time_space_days == 0){
 				x = -100;
 				$('#'+astronauts[i].id).remove();
@@ -126,12 +127,12 @@ $(document).ready(function(){
 		}
 		if($('.yaxis').length==0) $('.innerbox').append('<div class="yaxis"><\/div>');
 		if($('.xaxis').length==0) $('.innerbox').append('<div class="xaxis"><\/div>');
-		
+
 		$('.xaxis').html(makeGridLines("x",xaxis,mx_x,mn_x));
 		$('.yaxis').html(makeGridLines("y",yaxis,mx_y,mn_y));
 
 	}
-	
+
 	function getX(v,axis,mn,mx){
 		var x = 0;
 		if(axis=="time_space_days" || axis=="longest_trip") x = (v >= 0 ? (Math.log10(v)-Math.log10(mn))/(Math.log10(mx)-Math.log10(mn)) : 1);
@@ -211,14 +212,14 @@ $(document).ready(function(){
 		}
 		return html;
 	}
-	
+
 	// Calculate reasonable grid line spacings
 	function getGridSpacing(mn,mx,isDate){
-	
+
 		var spacing = 0;
 		var steps,t_div,t_inc,n,s,sp,t_max,t_min,i;
 		var rg = mx-mn;
-		
+
 		// The base system
 		var base = 10;
 
@@ -256,7 +257,7 @@ $(document).ready(function(){
 
 		// Test for really tiny values that might mess up the calculation
 		if(Math.abs(t_min) < 1E-15) t_min = 0.0;
-	
+
 		// Add more tick marks if we only have a few
 		while(i < (isDate ? 3 : 5)) {
 			t_inc /= 2.0;
@@ -266,7 +267,7 @@ $(document).ready(function(){
 		}
 		return t_inc;
 	}
-	
+
 	function parseAstronauts(data,attrs){
 
 		// Parse the data from the CSV file
@@ -281,7 +282,7 @@ $(document).ready(function(){
 
 		// Draw the astronauts to the page
 		drawAstronauts();
-		
+
 		// Set up the tooltip
 		tooltip({
 			'elements':$('.human'),
