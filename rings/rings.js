@@ -5,8 +5,8 @@ r(function(){
 	var range = 230000;	// Maximum extent in km
 	var scale = 100/range;
 	var planets;
+	var current = new Array();
 	var currentP;
-	var currentD;
 	
 	function drawIt(data){
 
@@ -19,6 +19,7 @@ r(function(){
 		
 		// Build each planet		
 		for(var p = 0; p < planets.length; p++){
+			current[p] = {'planet':planets[p].name,'distance': planets[p].rings[0].distance[0] };
 			var html = '<div class="system" data-id="'+p+'" data-name="'+planets[p].name+'"><div class="clickable">';
 			
 			html += '<div class="planet solid" style="width:'+(planets[p].diameter*scale)+'%;"></div>';
@@ -61,7 +62,11 @@ r(function(){
 	function setDistance(planet,d){
 
 		currentP = planet;
-		currentD = d;
+		// Which planet is this?
+		for(var p = 0; p < planets.length; p++){
+			if(planets[p].name == planet) break;
+		}
+		current[p].distance = d;
 
 		var rgap,dRgap;
 		var el = $('#'+planet);
@@ -70,10 +75,6 @@ r(function(){
 		var dpx = d*(w/range);
 		i.css({'left':(scale*d)+'%'});
 
-		// Which planet is this?
-		for(var p = 0; p < planets.length; p++){
-			if(planets[p].name == planet) break;
-		}
 
 		var name = '';
 		
@@ -104,6 +105,7 @@ r(function(){
 
 
 	var dragging = false;
+	var active = false;
 	$(document).on('click','.clickable,.indicator',function(e){
 		dragging = true;
 		setFromX($(this).closest('.system'),e.pageX);
@@ -117,10 +119,16 @@ r(function(){
 		if(dragging){
 			setFromX($(this).closest('.system'),e.pageX);
 		}
-	})
+	}).on('mouseover','.clickable,.indicator',function(e){
+		active = true;
+	}).on('mouseout','.clickable,.indicator',function(e){
+		active = false;
+	});
 	
 
-	$(document).on('keypress',{mb:this},function(e){
+	$(document).on('keypress',function(e){
+		e.preventDefault();
+		if(!active) return true;
 		if(!e) e = window.event;
 		var code = e.keyCode || e.charCode || e.which || 0;
 		var c = 0;
@@ -140,13 +148,13 @@ r(function(){
 
 			if(c=="right"){
 				for(r = 0; r < planets[p].rings.length; r++){
-					if(planets[p].rings[r].distance[0] > currentD) break;
+					if(planets[p].rings[r].distance[0] > current[p].distance) break;
 				}
 				if(r == planets[p].rings.length) r = 0;
 				setDistance(name,planets[p].rings[r].distance[0])
 			}else if(c=="left"){
 				for(r = planets[p].rings.length-1; r >= 0; r--){
-					if(planets[p].rings[r].distance[0] < currentD) break;
+					if(planets[p].rings[r].distance[0] < current[p].distance) break;
 				}
 				if(r < 0) r = planets[p].rings.length-1;
 				setDistance(name,planets[p].rings[r].distance[0])			
