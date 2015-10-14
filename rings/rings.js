@@ -73,7 +73,8 @@ r(function(){
 		
 		if(planets[p].diameter > d) name += ' (planet)'
 		for(var r = 0; r < planets[p].rings.length; r++){
-			if(planets[p].rings[r].distance[0] <= d && planets[p].rings[r].distance[1] >= d) name += ' / '+planets[p].rings[r].name
+			rname = planets[p].rings[r].name.replace(/_([^\s]+)/,function(i,a){ return '<sub>'+a+'</sub>'; });
+			if(planets[p].rings[r].distance[0] <= d && planets[p].rings[r].distance[1] >= d) name += ' / '+rname
 			if(planets[p].rings[r].gaps){
 				for(var g = 0; g < planets[p].rings[r].gaps.length; g++){
 					rgap = ((w/range)*((planets[p].rings[r].gaps[g].distance.length==2) ? planets[p].rings[r].gaps[g].distance[0] : planets[p].rings[r].gaps[g].distance));

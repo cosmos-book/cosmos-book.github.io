@@ -12,6 +12,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 a { color: black; }
 sup { font-size: 0.8em; position: relative; top: -0.5em;}
+sub { font-size: 0.8em; position: relative; bottom: -0.25em; }
 
 /* Cosmos-specific styles */
 html,body {

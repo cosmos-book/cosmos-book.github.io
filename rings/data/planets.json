@@ -165,97 +165,97 @@
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Uranus&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Uranus"],
 		"diameter": 25559,
 		"rings": [{
-			"name": "ζcc",
+			"name": "ζ_cc Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-2,
 			"distance": [26840,34890],
 			"width": 8000
 		},{
-			"name": "ζc",
+			"name": "ζ_c Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-2,
 			"distance": [34890,37850],
 			"width": 3000
 		},{
-			"name": "ζ",
+			"name": "ζ Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-2,
 			"distance": [37850,41350],
 			"width": 3500
 		},{
-			"name": "6",
+			"name": "Ring 6",
 			"opacity": 0.3,
 			"opticaldepth": 0.18,
 			"distance": [41837,41839],
 			"width": 2.2
 		},{
-			"name": "5",
+			"name": "Ring 5",
 			"opacity": 0.4,
 			"opticaldepth": 0.18,
 			"distance": [42234,42239],
 			"width": 4.9
 		},{
-			"name": "4",
+			"name": "Ring 4",
 			"opacity": 0.3,
 			"opticaldepth": 0.16,
 			"distance": [42570,42574],
 			"width": 4.4
 		},{
-			"name": "α",
+			"name": "α Ring",
 			"opacity": 0.4,
 			"opticaldepth": 0.3,
 			"distance": [44718,44728],
 			"width": 10
 		},{
-			"name": "β",
+			"name": "β Ring",
 			"opacity": 0.3,
 			"opticaldepth": 0.2,
 			"distance": [45661,45672],
 			"width": 11.4
 		},{
-			"name": "η",
+			"name": "η Ring",
 			"opacity": 0.2,
 			"opticaldepth": 0.16,
 			"distance": [47175,47178],
 			"width": 2.7
 		},{
-			"name": "ηc",
+			"name": "η_c Ring",
 			"opacity": 0.2,
 			"opticaldepth": 0.2,
 			"distance": [47178,47218],
 			"width": 40
 		},{
-			"name": "γ",
+			"name": "γ Ring",
 			"opacity": 0.8,
 			"opticaldepth": 0.7,
 			"distance": [47627,47632],
 			"width": 4.7
 		},{
-			"name": "δc",
+			"name": "δ_c Ring",
 			"opacity": 0.4,
 			"opticaldepth": 0.3,
 			"distance": [48300,48312],
 			"width": 12
 		},{
-			"name": "λ",
+			"name": "λ Ring",
 			"opacity": 0.2,
 			"opticaldepth": 0.1,
 			"distance": [50023,50025],
 			"width": 2
 		},{
-			"name": "ε",
+			"name": "ε Ring",
 			"opacity": 0.5,
 			"opticaldepth": 0.5,
 			"distance": [51149,51245],
 			"width": 96.4
 		},{
-			"name": "v",
+			"name": "v Ring",
 			"opacity": 0.1,
 			"opticaldepth": 0.000054,
 			"distance": [66100,69900],
 			"width": 3800
 		},{
-			"name": "μ",
+			"name": "μ Ring",
 			"opacity": 0.1,
 			"opticaldepth": 0.000085,
 			"distance": [86000,103000],
@@ -267,31 +267,31 @@
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Neptune&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Neptune"],
 		"diameter": 24764,
 		"rings": [{
-			"name": "Galle (N42)",
+			"name": "Galle (N42) Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-4,
 			"distance": [40900,42900],
 			"width": 2000
 		},{
-			"name": "Le Verrier (N53)",
+			"name": "Le Verrier (N53) Ring",
 			"opacity": 0.1,
 			"opticaldepth": 6.2e-3,
 			"distance": [53200,53313],
 			"width": 113
 		},{
-			"name": "Lassell",
+			"name": "Lassell Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-4,
 			"distance": [53313,57200],
 			"width": 3883
 		},{
-			"name": "Arago",
+			"name": "Arago Ring",
 			"opacity": 0.1,
 			"opticaldepth": 1e-4,
 			"distance": [57200,57300],
 			"width": 100
 		},{
-			"name": "Adams (N63)",
+			"name": "Adams (N63) Ring",
 			"opacity": 0.1,
 			"opticaldepth": 0.03,
 			"distance": [62932,62982],
