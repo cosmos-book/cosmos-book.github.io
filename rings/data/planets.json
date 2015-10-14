@@ -1,0 +1,302 @@
+{
+	"planets": [{
+		"name": "Jupiter",
+		"colour": "#57b7aa",
+		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Jupiter&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Jupiter"],
+		"diameter": 69911,
+		"rings": [{
+			"name": "Halo Ring (1979 J1R)",
+			"opacity": 0.2,
+			"opticaldepth": 1e-6,
+			"distance": [100000,122800],
+			"width": 30500
+		},{
+			"name": "Main Ring (1979 J2R)",
+			"opacity": 0.2,
+			"opticaldepth": 5.9e-6,
+			"distance": [122800,129200],
+			"width": 6400
+		},{
+			"name": "Gossamer Ring (1979 J3R) Amalthea",
+			"opacity": 0.12,
+			"opticaldepth": 1e-7,
+			"distance": [129200,182000],
+			"width": 53000
+		},{
+			"name": "Gossamer Ring (1979 J3R) Thebe",
+			"opacity": 0.06,
+			"opticaldepth": 3e-8,
+			"distance": [182000,226000],
+			"width": 44000
+		}]
+	},{
+		"name": "Saturn",
+		"colour": "#4f4c9a",
+		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Saturn&Display=Rings","http://photojournal.jpl.nasa.gov/figures/PIA11142_fig1.jpg"],
+		"diameter": 58232,
+		"rings": [{
+			"name": "D Ring",
+			"opacity": 0.1,
+			"distance": [66970,74490],
+			"width": 7500
+		},{
+			"name": "C Ring",
+			"distance": [74490,91980],
+			"opacity": 0.3,
+			"width": 17500,
+			"gaps": [{
+				"name": "Columbo Gap",
+				"distance": 77800,
+				"width": 100
+			},{
+				"name": "Maxwell Gap",
+				"distance": 87500,
+				"width": 270
+			},{
+				"name": "Bond Gap",
+				"distance": [88690,88720],
+				"width": 30
+			},{
+				"name": "Dawes Gap",
+				"distance": [90200,90220],
+				"width": 20
+			}]
+		},{
+			"name": "B Ring",
+			"opacity": 0.7,
+			"distance": [91980,117580],
+			"width": 25500
+		},{
+			"name": "Cassini Division",
+			"distance": [117500,122050],
+			"width": 4700,
+			"opacity": 0.1,
+			"gaps": [{
+				"name": "Huygens Gap",
+				"distance": 117680,
+				"width": 285,
+				"widthupper": 440
+			},{
+				"name": "Herschel Gap",
+				"distance": [118183,118285],
+				"width": 102
+			},{
+				"name": "Russell Gap",
+				"distance": [118597,118630],
+				"width": 33
+			},{
+				"name": "Jeffreys Gap",
+				"distance": [118931,118969],
+				"width": 38
+			},{
+				"name": "Kuiper Gap",
+				"distance": [119403,119406],
+				"width": 3
+			},{
+				"name": "Leplace Gap",
+				"distance": [119848,120086],
+				"width": 238
+			},{
+				"name": "Bessel Gap",
+				"distance": [120305,120318],
+				"width": 10
+			},{
+				"name": "Barnard Gap",
+				"distance": [120305,120318],
+				"width": 13
+			}]
+		},{
+			"name": "A Ring",
+			"opacity": 0.5,
+			"distance": [122050,136770],
+			"width": 14600,
+			"gaps":[{
+				"name": "Encke Gap",
+				"distance": 133570,
+				"width": 325
+			},{
+				"name": "Keeler Gap",
+				"distance": 136530,
+				"width": 35
+			},{
+				"name": "Roche Division",
+				"distance": [136770,139380],
+				"width": 2600
+			}]
+		},{
+			"name": "F Ring",
+			"opacity": 0.7,
+			"distance": [140224,140724],
+			"width": 30,
+			"widthupper": 500
+		},{
+			"name": "Janus/Epimetheus Ring",
+			"opacity": 0.1,
+			"distance": [149000,154000],
+			"width": 5000
+		},{
+			"name": "G Ring",
+			"distance": [166000,174000],
+			"opacity": 0.1,
+			"width": 8000
+		},{
+			"name": "E Ring",
+			"distance": [180000,480000],
+			"opacity": 0.1,
+			"width": 300000,
+			"rings":[{
+				"name": "Methone Ring Arc",
+				"distance": 194230,
+				"width": 100
+			},{
+				"name": "Anthe Ring Arc",
+				"distance": 197665,
+				"width": 100
+			},{
+				"name": "Pallene Ring",
+				"distance": [211000,213500],
+				"width": 2500
+			}
+			]
+		}]
+	},{
+		"name": "Uranus",
+		"colour": "#00a2d3",
+		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Uranus&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Uranus"],
+		"diameter": 25559,
+		"rings": [{
+			"name": "ζcc",
+			"opacity": 0.1,
+			"opticaldepth": 1e-2,
+			"distance": [26840,34890],
+			"width": 8000
+		},{
+			"name": "ζc",
+			"opacity": 0.1,
+			"opticaldepth": 1e-2,
+			"distance": [34890,37850],
+			"width": 3000
+		},{
+			"name": "ζ",
+			"opacity": 0.1,
+			"opticaldepth": 1e-2,
+			"distance": [37850,41350],
+			"width": 3500
+		},{
+			"name": "6",
+			"opacity": 0.3,
+			"opticaldepth": 0.18,
+			"distance": [41837,41839],
+			"width": 2.2
+		},{
+			"name": "5",
+			"opacity": 0.4,
+			"opticaldepth": 0.18,
+			"distance": [42234,42239],
+			"width": 4.9
+		},{
+			"name": "4",
+			"opacity": 0.3,
+			"opticaldepth": 0.16,
+			"distance": [42570,42574],
+			"width": 4.4
+		},{
+			"name": "α",
+			"opacity": 0.4,
+			"opticaldepth": 0.3,
+			"distance": [44718,44728],
+			"width": 10
+		},{
+			"name": "β",
+			"opacity": 0.3,
+			"opticaldepth": 0.2,
+			"distance": [45661,45672],
+			"width": 11.4
+		},{
+			"name": "η",
+			"opacity": 0.2,
+			"opticaldepth": 0.16,
+			"distance": [47175,47178],
+			"width": 2.7
+		},{
+			"name": "ηc",
+			"opacity": 0.2,
+			"opticaldepth": 0.2,
+			"distance": [47178,47218],
+			"width": 40
+		},{
+			"name": "γ",
+			"opacity": 0.8,
+			"opticaldepth": 0.7,
+			"distance": [47627,47632],
+			"width": 4.7
+		},{
+			"name": "δc",
+			"opacity": 0.4,
+			"opticaldepth": 0.3,
+			"distance": [48300,48312],
+			"width": 12
+		},{
+			"name": "λ",
+			"opacity": 0.2,
+			"opticaldepth": 0.1,
+			"distance": [50023,50025],
+			"width": 2
+		},{
+			"name": "ε",
+			"opacity": 0.5,
+			"opticaldepth": 0.5,
+			"distance": [51149,51245],
+			"width": 96.4
+		},{
+			"name": "v",
+			"opacity": 0.1,
+			"opticaldepth": 0.000054,
+			"distance": [66100,69900],
+			"width": 3800
+		},{
+			"name": "μ",
+			"opacity": 0.1,
+			"opticaldepth": 0.000085,
+			"distance": [86000,103000],
+			"width": 17000
+		}]
+	},{
+		"name": "Neptune",
+		"colour": "#662d8f",
+		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Neptune&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Neptune"],
+		"diameter": 24764,
+		"rings": [{
+			"name": "Galle (N42)",
+			"opacity": 0.1,
+			"opticaldepth": 1e-4,
+			"distance": [40900,42900],
+			"width": 2000
+		},{
+			"name": "Le Verrier (N53)",
+			"opacity": 0.1,
+			"opticaldepth": 6.2e-3,
+			"distance": [53200,53313],
+			"width": 113
+		},{
+			"name": "Lassell",
+			"opacity": 0.1,
+			"opticaldepth": 1e-4,
+			"distance": [53313,57200],
+			"width": 3883
+		},{
+			"name": "Arago",
+			"opacity": 0.1,
+			"opticaldepth": 1e-4,
+			"distance": [57200,57300],
+			"width": 100
+		},{
+			"name": "Adams (N63)",
+			"opacity": 0.1,
+			"opticaldepth": 0.03,
+			"distance": [62932,62982],
+			"width": 50
+		}]
+	}]
+}
+	
