@@ -39,7 +39,7 @@ $(document).ready(function(){
 				"on": { "label":"on" }
 			});
 		}
-		$('.key').append('<li class="keyitem"><div class="keysymbol life"></div><div class="keylabel">Essential to life</div><form><div class="toggleinput toggler"></div></form></li>');
+		$('.key').append('<li class="keyitem"><div class="keysymbol life"><img src="eg.png" style="width:100%;height:100%;" alt="e.g." title="Example element that is essential to life" /></div><div class="keylabel">Essential to life</div><form><div class="toggleinput toggler"></div></form></li>');
 	//	$('.key').append('<li class="keyitem"><div class="keysymbol formed"></div><div class="keylabel">Formed</div><form><div class="toggleinput toggler"></div></form></li>');
 		$(document).on('click','.keylabel',function(){ toggles.toggle($(this).parent().attr('id')) });
 
