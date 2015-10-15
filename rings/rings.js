@@ -20,9 +20,9 @@ r(function(){
 		// Build each planet		
 		for(var p = 0; p < planets.length; p++){
 			current[p] = {'planet':planets[p].name,'distance': planets[p].rings[0].distance[0] };
-			var html = '<div class="system" data-id="'+p+'" data-name="'+planets[p].name+'"><div class="clickable">';
+			var html = '<div class="system" data-id="'+p+'" data-name="'+planets[p].name+'"><div class="clickable"><h2 class="name">'+planets[p].name+'</h2>';
 			
-			html += '<div class="planet solid" style="width:'+(planets[p].diameter*scale)+'%;"></div>';
+			html += '<div class="planet solid" style="width:'+(planets[p].radius*scale)+'%;"></div>';
 			for(var r = 0; r < planets[p].rings.length; r++){
 				radius = planets[p].rings[r].distance[0]*scale;
 				dR = (planets[p].rings[r].distance[1]-planets[p].rings[r].distance[0])*scale;
@@ -78,7 +78,7 @@ r(function(){
 
 		var name = '';
 		
-		if(planets[p].diameter > d) name += ' (planet)'
+		if(planets[p].radius > d) name += ' (planet)'
 		for(var r = 0; r < planets[p].rings.length; r++){
 			rname = planets[p].rings[r].name.replace(/_([^\s]+)/,function(i,a){ return '<sub>'+a+'</sub>'; });
 			r1 = Math.floor((w/range)*planets[p].rings[r].distance[0]);
@@ -98,7 +98,9 @@ r(function(){
 
 
 		name = planets[p].name + (name ? name : '');
-		name += '<br />'+Math.round(d)+' km'
+		d = Math.round(d);
+		if(d < 0) d = 0;
+		name += '<br />'+d+' km'+(d==0 ? ' - core':'')
 
 		el.find('.values').html(name);
 	}

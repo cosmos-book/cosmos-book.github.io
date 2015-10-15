@@ -9,7 +9,7 @@
 	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
 	<style>
 	.system { height: 90%; width: 100%;position: relative; overflow: hidden; }
-	.system .name { position: absolute; left: 1.5em; z-index:100; }
+	.system .name { position: absolute; left: 1.5em; font-size: 1em; z-index:100; margin-top: 0.25em; }
 	.system .planet { height: 100%; left: 0px; position: absolute;}
 	.system .ring { height: 100%; position: absolute; min-width: 1px; }
 	.system .gap { height: 100%; position: absolute; background-color: #e1f4fe; min-width:1px;}
@@ -72,6 +72,9 @@
 	.system .indicator.limited .values,.system .indicator.limited .handle { background-color: #808080; }
 	.system .indicator.limited .handle:before { border-left-color: #808080; }
 
+	@media only screen and (max-width: 700px){
+		.system .name { left: 0.5em; }
+	}
 	</style>
 </head>
 <body class="SOL">
