@@ -1,7 +1,7 @@
 {
 	"planets": [{
 		"name": "Jupiter",
-		"colour": "#57b7aa",
+		"colour": "#b6c727",
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Jupiter&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Jupiter"],
 		"radius": 69911,
 		"rings": [{
@@ -31,7 +31,7 @@
 		}]
 	},{
 		"name": "Saturn",
-		"colour": "#4f4c9a",
+		"colour": "#b72268",
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Saturn&Display=Rings","http://photojournal.jpl.nasa.gov/figures/PIA11142_fig1.jpg"],
 		"radius": 58232,
 		"rings": [{
@@ -161,7 +161,7 @@
 		}]
 	},{
 		"name": "Uranus",
-		"colour": "#00a2d3",
+		"colour": "#662d8f",
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Uranus&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Uranus"],
 		"radius": 25559,
 		"rings": [{
@@ -263,7 +263,7 @@
 		}]
 	},{
 		"name": "Neptune",
-		"colour": "#662d8f",
+		"colour": "#57b7aa",
 		"reference": ["https://solarsystem.nasa.gov/planets/profile.cfm?Object=Neptune&Display=Rings","https://en.wikipedia.org/wiki/Rings_of_Neptune"],
 		"radius": 24764,
 		"rings": [{
