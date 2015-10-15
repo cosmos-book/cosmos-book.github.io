@@ -130,7 +130,6 @@ r(function(){
 	
 
 	$(document).on('keypress',function(e){
-		e.preventDefault();
 		if(!active) return true;
 		if(!e) e = window.event;
 		var code = e.keyCode || e.charCode || e.which || 0;
@@ -162,6 +161,7 @@ r(function(){
 				if(r < 0) r = planets[p].rings.length-1;
 				setDistance(name,planets[p].rings[r].distance[0])			
 			}else if(c=="down"){
+				e.preventDefault();
 				var np = '';
 				var p = 0;
 				for(p = 0; p < planets.length; p++){
@@ -171,6 +171,7 @@ r(function(){
 				if(p >= planets.length) p = 0;
 				currentP = planets[p].name;
 			}else if(c=="up"){
+				e.preventDefault();
 				var np = '';
 				var p = 0;
 				for(p = 0; p < planets.length; p++){
