@@ -14,7 +14,8 @@ r(function(){
 		var radius,dR,op;
 
 		for(var p = 0; p < planets.length; p++){
-			$('#holder').append('<div class="table-row" id="'+planets[p].name+'">'+planets[p].name+'</div>');
+			// If we don't already have a holder for this planet
+			if($('#'+planets[p].name).length==0) $('#holder').append('<div class="table-row" id="'+planets[p].name+'">'+planets[p].name+'</div>');
 		}
 		
 		// Build each planet		
