@@ -1,6 +1,6 @@
 r(function(){
 
-	loadJSON('data/planets.json',drawIt);
+	loadJSON(getDataPath('#data'),drawIt);
 
 	var range = 230000;	// Maximum extent in km
 	var scale = 100/range;
