@@ -333,7 +333,7 @@ r(function(){
 			}else if(a=="jupiter"){
 				if(b=="saturn") return getCurve(a,b,90,0,120);
 				if(b=="heliopause") return getCurve(a,b,315,290.5,150,600);
-				if(b=="midway") return getCurve(a,b,315,225,100);
+				if(b=="pluto") return getCurve(a,b,315,225,100);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="saturn"){
 				if(b=="uranus") return getCurve(a,b,315,180,150,100);
