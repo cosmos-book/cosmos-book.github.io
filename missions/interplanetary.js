@@ -459,7 +459,7 @@ r(function(){
 		// Draw each object
 		for(var o in obj){
 			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0) solarsystem.circle(obj[o].pos.x,obj[o].pos.y,spacing*2).attr({'fill':obj[o].colour,'fill-opacity':1,'stroke':0,'cursor':'pointer','title':capitaliseFirstLetter(parseHTML(o))}).data('name',o).data('id',o);
-			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0 && obj[o].colour == colours.orange[1]) var t = solarsystem.text(obj[o].pos.x,obj[o].pos.y,capitaliseFirstLetter(parseHTML(o))).attr({'stroke':0,'fill':'black','text-anchor':'middle','font-size':'10'});
+			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0) var t = solarsystem.text(obj[o].pos.x,obj[o].pos.y,capitaliseFirstLetter(parseHTML(o))).attr({'stroke':0,'fill':'black','text-anchor':'middle','font-size':(obj[o].colour == colours.orange[1] ? '10px':'7px')});
 		}
 
 		// Set up the tooltip
