@@ -394,8 +394,8 @@ r(function(){
 		var arriveat = {};
 		var paths = new Array();
 		
-		colours['fail'] = colours.orange[3];
-		colours['success'] = colours.orange[0];
+		colours['fail'] = $('.failure').css('background-color');
+		colours['success'] = $('.success').css('background-color');
 
 		for(var i = 0; i < missions.length; i++){
 	
