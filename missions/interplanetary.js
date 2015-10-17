@@ -548,7 +548,6 @@ r(function(){
 			existinghtml = "";
 			$('.tooltip').remove();
 			$('body').removeClass('hastooltip');
-			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
 		}
 
 		function f_in(d){
