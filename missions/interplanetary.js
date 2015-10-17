@@ -2,8 +2,6 @@ r(function(){
 
 	loadJSON(getDataPath('#json'),drawIt);
 
-	var h = 0;
-	var w = 0;
 	var mid = {};
 	var missions = {};
 	var obj = {};
@@ -16,9 +14,8 @@ r(function(){
 		missions = data.missions;
 		var el = document.getElementById('solarsystem');
 
-		w = $('#solarsystem').outerWidth();
-		h = Math.round(w*aspect)
-		mid = {'x': w/2,'y':h/2};
+		var w = $('#solarsystem').outerWidth();
+		var h = Math.round(w*aspect)
 		el.innerHTML = '';
 		el.style = 'width:100%;';
 
