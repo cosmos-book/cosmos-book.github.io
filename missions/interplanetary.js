@@ -7,6 +7,8 @@ r(function(){
 	var mid = {};
 	var missions = {};
 	var obj = {};
+	var svg;
+	var missionlines = {};
 
 	function drawIt(data){
 		missions = data.missions;
@@ -20,6 +22,7 @@ r(function(){
 
 		var solarsystem = Raphael("solarsystem", w, h);
 		$('#solarsystem svg').attr('id','canvas');
+		svg = solarsystem.set();
 		var path;
 	
 		var offx = 0;
@@ -300,7 +303,7 @@ r(function(){
 			var two = {'x':0,'y':0};
 			
 			if(a == "earth"){
-				if(b=="mars") return getCurve(a,b,90,135,50,280);
+				if(b=="mars") return getCurve(a,b,90,135,50,250);
 				if(b=="venus") return getCurve(a,b,90,45);
 				if(b=="jupiter") return getCurve(a,b,-90,270,20,200);
 				if(b=="1P/Halley") return getCurve(a,b,270,315,100,180);
@@ -386,9 +389,7 @@ r(function(){
 		var orbit = {};
 		var txt = [];
 		var arriveat = {};
-		var svg = solarsystem.set();
 		var paths = new Array();
-		
 		
 		colours['fail'] = colours.orange[3];
 		colours['success'] = colours.orange[0];
@@ -397,6 +398,7 @@ r(function(){
 	
 			col = colours['success'];
 			if(missions[i].failed) col = colours['fail'];
+			missionlines[i] = solarsystem.set();
 			
 			var from = 'earth';
 			var strokestyle = "";
@@ -419,12 +421,12 @@ r(function(){
 						// Store the path
 						paths.push({'path':path.slice(0),'stroke':col,'strokestyle': strokestyle,'id':i});
 						// Store the path for this a->b route
-						arriveat[a2b].paths.push({'path':path.slice(0)})
+						arriveat[a2b].paths.push({'path':path.slice(0)});
 					}
 	
 					// Draw orbit
 					if(!orbit[to][i] && (to.indexOf('helio') < 0 && to.indexOf('midway') < 0 && to.indexOf('earth') < 0)){
-						solarsystem.ellipse(obj[to].pos.x,obj[to].pos.y,getOrbitalRadius(to),getOrbitalRadius(to)*eccentricity).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i);
+						missionlines[i].push( solarsystem.ellipse(obj[to].pos.x,obj[to].pos.y,getOrbitalRadius(to),getOrbitalRadius(to)*eccentricity).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i) );
 						svg.push( solarsystem.ellipse(obj[to].pos.x,obj[to].pos.y,getOrbitalRadius(to),getOrbitalRadius(to)*eccentricity).attr({'stroke':'black','stroke-width':3,'cursor':'pointer','title':missions[i].name,'opacity':0.01}).data('id',i) );
 					}
 					orbit[to][i] = true;
@@ -452,7 +454,7 @@ r(function(){
 
 		// Draw the a-b paths
 		for(var p = 0; p < paths.length; p++){
-			solarsystem.path(paths[p].path).attr({'stroke':paths[p].stroke,'cursor':'pointer','title':missions[paths[p].id].name,'stroke-width':1,'opacity':1,'stroke-dasharray': paths[p].strokestyle}).data('id',paths[p].id);
+			missionlines[paths[p].id].push( solarsystem.path(paths[p].path).attr({'stroke':paths[p].stroke,'cursor':'pointer','title':missions[paths[p].id].name,'stroke-width':1,'opacity':1,'stroke-dasharray': paths[p].strokestyle}).data('id',paths[p].id) );
 			svg.push( solarsystem.path(paths[p].path).attr({'stroke':'black','cursor':'pointer','title':missions[paths[p].id].name,'stroke-width':3,'opacity':0.01}).data('id',paths[p].id) );
 		}
 
@@ -509,6 +511,7 @@ r(function(){
 	function tooltipsvg(data){
 	
 		var existinghtml = "";
+		var id = 0;
 	
 		function show(el,text,l,t){
 
@@ -523,7 +526,7 @@ r(function(){
 			}else $('.tooltip_inner').html(text);
 	
 			var fs = parseInt($('.tooltip').css('font-size'));
-			var x = l+dx;
+			var x = l+dx+5;
 			var y = t+dy/2;
 			var c = "right";
 	
@@ -540,17 +543,32 @@ r(function(){
 			$('.tooltip').css({'left':x,'top':y}).removeClass('right').removeClass('left').removeClass('bottom').addClass(c);
 	
 		}
+
 		function closeTooltip(){
 			existinghtml = "";
 			$('.tooltip').remove();
 			$('body').removeClass('hastooltip');
+			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
 		}
 
 		function f_in(d){
-			// Open the popup
+		
+			// Set highlighted mission lines to the old colour
+			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
+
+			// Get the id for this line group
+			id = this.data('id');
+
+			// Store the old stroke colour
+			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].data({'old':missionlines[id][i].attr('stroke')});
+
+			// Set the stroke colour to black
+			missionlines[id].attr({'stroke':'black'});
+
 			var newhtml = data.html.call(this);
-			//console.log('in',this.data('id'),d.pageX,d.pageY,newhtml)
+
 			if(newhtml!=existinghtml){
+				// Open the popup
 				show(this,newhtml,d.pageX,d.pageY);
 				$('body').addClass('hastooltip');
 				existinghtml = newhtml;
@@ -561,32 +579,6 @@ r(function(){
 				}
 			}
 		}
-		function f_out(d){
-			// Close the popup
-			console.log('out',this,d)
-			//$('.tooltip_close').trigger('click');
-			//existinghtml = "";
-		}
-
-		data.elements.hover(f_in,f_out);
-/*
-		data.elements.on('click',{data:data},function(e){
-			e.preventDefault();
-			e.stopPropagation();
-	
-			var newhtml = e.data.data.html.call(this);
-			if(newhtml!=existinghtml){
-				show(this,newhtml);
-				$('body').addClass('hastooltip');
-				existinghtml = newhtml;
-			}else{
-				if($('.tooltip').is(':visible')){
-					$('.tooltip_close').trigger('click');
-					existinghtml = "";
-				}
-			}
-		})*/
+		data.elements.click(f_in);
 	}
-
 });
-
