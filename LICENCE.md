@@ -1,7 +1,7 @@
 Copyright (c) 2015 Stuart Lowe and Chris North.
 
 # Data
-[CC-BY-SA](https://i.creativecommons.org/l/by-sa/3.0/88x31.png "CC-BY-SA") The data in this work (i.e. this repository) are licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/). The data for separate infographics are stored within the directory structure (`data/`). Any contributions or corrections you make to the data will also be shared under this license.
+[CC-BY-SA](https://i.creativecommons.org/l/by-sa/3.0/88x31.png "CC-BY-SA") The data collations in this work (i.e. this repository) are licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/). The data for separate infographics are stored within the directory structure (`data/`). Any contributions or corrections you make to the data will also be shared under this license. For original sources of the data themselves please see the [credits page](http://cosmos-book.github.io/credits/) of the website.
 
 Exceptions to this are:
  * [Local sheet of galaxies](local-sheet), for which the data are copyright [McCall (2014)](https://ui.adsabs.harvard.edu/#abs/2014MNRAS.440..405M) _MNRAS_ **440** 405
