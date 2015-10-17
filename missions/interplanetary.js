@@ -7,6 +7,8 @@ r(function(){
 	var mid = {};
 	var missions = {};
 	var obj = {};
+	var across = 1265;
+	var aspect = 1250/1909;
 	var svg;
 	var missionlines = {};
 
@@ -15,16 +17,20 @@ r(function(){
 		var el = document.getElementById('solarsystem');
 
 		w = $('#solarsystem').outerWidth();
-		h = Math.round(w*1250/1909)
+		h = Math.round(w*aspect)
 		mid = {'x': w/2,'y':h/2};
 		el.innerHTML = '';
-		el.style = 'width:'+w+'px;height:'+h+'px;';
+		el.style = 'width:100%;';
 
 		var solarsystem = Raphael("solarsystem", w, h);
+		solarsystem.setViewBox(0,0,across,across*aspect,true);
 		$('#solarsystem svg').attr('id','canvas');
 		svg = solarsystem.set();
 		var path;
 	
+		//$('#canvas').attr({'width':'100%','height':(aspect*100).toFixed(4)+'%'})
+		$('#canvas').attr({'width':'100%','height':'100%'})
+
 		var offx = 0;
 		var offy = 40;
 		
@@ -286,7 +292,7 @@ r(function(){
 		}
 		function getCurve(a,b,a1,a2,r,r2){
 			if(r && !r2) r2 = r;
-			var scale = w/1909;
+			var scale = across/1909;
 			var diff = {'x':(obj[b].pos.x-obj[a].pos.x)*scale,'y':(obj[b].pos.y-obj[a].pos.y)*scale};
 			return getOut(a,-1,diff,a1,r*scale).concat(getIn(b,0,diff,a2,r2*scale));
 		}
@@ -384,7 +390,7 @@ r(function(){
 		}
 	
 		var eccentricity = 1;
-		var spacing = 5.5*(w/1909);
+		var spacing = 5.5*(across/1909);
 
 		var orbit = {};
 		var txt = [];
@@ -487,13 +493,13 @@ r(function(){
 	// Angle, radius
 	function getPos(a,r){
 		var x,y,r2;
-		var scale = w/1909;
+		var scale = across/1909;
 		r2 = 265*scale
 		r3 = 160*scale;
 		r = (r > 1) ? r3*(r-1) + r2: r2*r;
 		a = (a/16)*2*Math.PI;
-		x = r*Math.cos(a) + mid.x;
-		y = r*Math.sin(a) + mid.y;
+		x = r*Math.cos(a) + across/2;
+		y = r*Math.sin(a) + across*aspect/2;
 		return {'x':x,'y':y };
 	}
 	
@@ -548,6 +554,7 @@ r(function(){
 			existinghtml = "";
 			$('.tooltip').remove();
 			$('body').removeClass('hastooltip');
+//			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
 		}
 
 		function f_in(d){
