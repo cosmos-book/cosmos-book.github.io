@@ -24,7 +24,7 @@
 				ss = Math.floor(24*3600*diff/msperday);
 				countdown.innerHTML = '<div class="label">Launch countdown:<\/div><ul>'+formatPeriod(dd,'days')+formatPeriod(hh,'hours')+formatPeriod(mm,'minutes')+formatPeriod(ss,'seconds')+'<\/ul>';
 			}else if(diff < 1000 && diff > -86400000){
-				countdown.innerHTML = 'Launched!';
+				countdown.innerHTML = '<p>Launched!<\/p><p>This <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository<\/a> accompanies the book. It contains <a href="contents.html">interactive versions of selected infographics<\/a>, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/<a href="credits/index.html">sources</a> behind the graphics.</p>';
 			}else{
 				countdown.innerHTML = '<p>This <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository<\/a> accompanies the book. It contains <a href="contents.html">interactive versions of selected infographics<\/a>, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/<a href="credits/index.html">sources</a> behind the graphics.</p>';
 			}
