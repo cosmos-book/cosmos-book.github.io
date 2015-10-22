@@ -7,6 +7,7 @@ $(document).ready(function(){
 	var labels = [{'text':'First person on the Moon','date':'1969-07-20T20:18:04Z'},{'text':'Soyuz 11 disaster','date':'1971-06-30T02:16:52Z','pos':2},{'text':'Space Shuttle Challenger disaster','date':'1986-01-28T16:39:13Z'},{'text':'Space Shuttle Colombia disaster','date':'2003-02-01T13:59:00Z'},{'text':'Salyut 1 begins','date':'1971-04-19'},{'text':'Salyut 7 re-entry','date':'1991-02-07'},{'text':'Apollo-Soyuz Test Project','date':'1975-07-15T19:50Z'},{'text':'Skylab begins','date':'1973-05-14T17:30Z','pos':2},{'text':'Skylab re-entry','date':'1979-07-11T16:37Z','pos':2},{'text':'Last person on the Moon','date':'1972-12-14T22:54:37Z'},{'text':'Mir begins','date':'1986-02-20','pos':2},{'text':'Mir re-entry','date':'2001-03-21'},{'text':'ISS begins','date':'1998-11-20'},{'text':'Tiangong-1 begins','date':'2011-09-29T21:16:04+07:00','pos':2},{'text':'Space Shuttle (first flight)','date':'1981-04-12T12:00:03Z'},{'text':'Space Shuttle (final flight)','date':'2011-07-21T09:57Z'}];
 	if($('#timeline').length == 0) $('.full-width').append('<div id="timeline"><\/div>');
 	var app = $('#timeline');
+	app.html('')
 
 	function parseIt(data){
 
@@ -85,8 +86,8 @@ $(document).ready(function(){
 			}
 		}
 		nmax++;
-		for(var a = 0 ; a < astronauts.length; a++) html += '<a href="#" class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96)+'%;width:'+astronauts[a].width+'px;margin-left:'+astronauts[a].left+'%;height:'+(80/nmax)+'%;" title="'+astronauts[a].name+'"><\/a>';
-
+		for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96).toFixed(2)+'%;width:'+(astronauts[a].width).toFixed(0)+'px;margin-left:'+(astronauts[a].left).toFixed(3)+'%;height:'+(80/nmax).toFixed(2)+'%;" title="'+astronauts[a].name+'"><\/div>';
+console.log(html)
 		app.append('<div class="data">'+html+'<\/div>');
 		app.append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 		app.append('<div class="labels">'+makeLabels(end,start,labels)+'<\/div>');
