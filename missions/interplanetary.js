@@ -492,8 +492,8 @@ r(function(){
 
 				// Draw orbit
 				if(!orbit[a.to][i] && (a.to.indexOf('helio') < 0 && a.to.indexOf('midway') < 0 && a.to.indexOf('earth') < 0)){
-					missionlines[i].push( solarsystem.ellipse(obj[a.to].pos.x,obj[a.to].pos.y,getOrbitalRadius(a.to),getOrbitalRadius(a.to)*eccentricity).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i) );
-					svg.push( solarsystem.ellipse(obj[a.to].pos.x,obj[a.to].pos.y,getOrbitalRadius(a.to),getOrbitalRadius(a.to)*eccentricity).attr({'stroke':'black','stroke-width':3,'cursor':'pointer','title':missions[i].name,'opacity':0.01}).data('id',i) );
+					missionlines[i].push( solarsystem.ellipse(obj[a.to].pos.x.toFixed(2),obj[a.to].pos.y.toFixed(2),(getOrbitalRadius(a.to)).toFixed(2),(getOrbitalRadius(a.to)*eccentricity).toFixed(2)).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i) );
+					svg.push( solarsystem.ellipse(obj[a.to].pos.x.toFixed(2),obj[a.to].pos.y.toFixed(2),(getOrbitalRadius(a.to)).toFixed(2),(getOrbitalRadius(a.to)*eccentricity).toFixed(2)).attr({'stroke':'black','stroke-width':3,'cursor':'pointer','title':missions[i].name,'opacity':0.01}).data('id',i) );
 				}
 				orbit[a.to][i] = true;
 
