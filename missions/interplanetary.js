@@ -299,6 +299,11 @@ r(function(){
 		
 		function fly(a,b,ins){
 			if(!a || !b) return "";
+			if(!obj[b] || !obj[a]){
+				console.log(obj,a,b)
+				return "";
+			}
+			if(a==b) return "";
 			var s = {'x':obj[a].pos.x,'y':obj[a].pos.y};
 			var e = {'x':obj[b].pos.x,'y':obj[b].pos.y};
 			var diff = {'x':obj[b].pos.x-obj[a].pos.x,'y':obj[b].pos.y-obj[a].pos.y};
@@ -308,7 +313,7 @@ r(function(){
 			if(a == "earth"){
 				if(b=="mars") return getCurve(a,b,90,135,50,250);
 				if(b=="venus") return getCurve(a,b,90,45);
-				if(b=="jupiter") return getCurve(a,b,-90,270,20,200);
+				if(b=="jupiter") return getCurve(a,b,-90,270,20,230);
 				if(b=="1P/Halley") return getCurve(a,b,270,315,100,180);
 				if(b=="2P/Encke") return getCurve(a,b,270,270,200,50);
 				if(b=="9P/Tempel") return getCurve(a,b,270,180,90,150);
@@ -329,8 +334,12 @@ r(function(){
 			}else if(a=="(25143) Itokawa"){
 				return getCurve(a,b,0,90,50,100);	
 			}else if(a=="(162173) 1999 JU3"){
-				return getCurve(a,b,0,90,50,100);	
+				return getCurve(a,b,0,90,50,100);
+			}else if(a=="mercury"){
+				if(b=="mercury") return getCurve(a,b,0,180,0,100);
 			}else if(a=="venus"){
+				if(b=="earth") return getCurve(a,b,315,180,200,100);
+				if(b=="venus") return getCurve(a,b,0,180,0,180);
 				if(b=="mercury") return getCurve(a,b,180,180,100,100);
 				if(b=="saturn") return getCurve(a,b,0,0,190,120);
 				if(b=="(951) Gaspra") return getCurve(a,b,0,225,100,100);
@@ -386,58 +395,111 @@ r(function(){
 			}
 		}
 	
+		function isValidDate(d) {
+			if(Object.prototype.toString.call(d) !== "[object Date]") return false;
+			return !isNaN(d.getTime());
+		}
+
 		var eccentricity = 1;
 		var spacing = 5.5*(across/1909);
 
 		var orbit = {};
 		var txt = [];
 		var arriveat = {};
+		var arrivalorder = new Array();
 		var paths = new Array();
 		
 		colours['fail'] = $('.failure').css('background-color');
 		colours['success'] = $('.success').css('background-color');
 
+		// For each object we need to work out the order of arrival
+		// First get the objects
 		for(var i = 0; i < missions.length; i++){
-	
-			col = colours['success'];
-			if(missions[i].failed) col = colours['fail'];
-			missionlines[i] = solarsystem.set();
-			
-			var from = 'earth';
-			var strokestyle = "";
-
+			// Loop over the parts of the mission
 			for(var p = 0; p < missions[i].parts.length; p++){
 
-				a2b = from+'-'+missions[i].parts[p].to;
-				if(!arriveat[a2b]) arriveat[a2b] = {'paths':[],'first':[],'last':[]};
-				if(obj[missions[i].parts[p].to]){
+				// Make a data structure;
+				props = missions[i].parts[p];
+				props.mission = i;
+				props.name = missions[i].name;
+				props.from = (p > 0 ? missions[i].parts[p-1].to : 'earth');
+				props.missions = {'from':0,'to':0};
+
+				// Don't draw lander sections of missions
+				if(p > 0 && missions[i].parts[p].to==missions[i].parts[p-1].to && missions[i].parts[p].type=="lander") continue;
+
+				
+				// Add it to the list of arrivals
+				arrivalorder.push(props);
+
+				// Print an error to the console
+				if((!missions[i].parts[p].date || !isValidDate(new Date(missions[i].parts[p].date))) && !missions[i].failed && missions[i].parts[p].to.indexOf('helio')!=0) console.log('Error with date for '+missions[i].name,missions[i])
+			}
+		}
+
+		// Sort by date		
+		arrivalorder = arrivalorder.sort(function(a, b){ return a['date'] > b['date'] ? 1 : -1; });
+
+		// Make collection for each mission
+		for(var i = 0; i < missions.length; i++) missionlines[i] = solarsystem.set();
+
+		var bodies = {};
+		// Work out the arrival and departure orbits
+		for(var arr = 0; arr < arrivalorder.length; arr++){
+			a = arrivalorder[arr];
+			if(a.from != a.to){
+				if(!bodies[a.from]) bodies[a.from] = {'count':0, 'missions':{} };
+				if(!bodies[a.to]) bodies[a.to] = {'count':0, 'missions':{} };
+
+				arrivalorder[arr].missions.from = (bodies[a.from].missions[a.name]) ? bodies[a.from].missions[a.name] : 0;
+				arrivalorder[arr].missions.to = (bodies[a.to]) ? bodies[a.to].count : 0;
+				bodies[a.to].missions[a.name] = bodies[a.to].count;
+				// Increment the number of missions to the object
+				if(a.from != a.to) bodies[a.to].count++;
+			}
+		}
+
+
+		for(var arr = 0; arr < arrivalorder.length; arr++){
 	
-					to = missions[i].parts[p].to;
-					if(!orbit[to]) orbit[to] = [];
-	
-					if(typeof missions[i].parts[p].success==="boolean" && !missions[i].parts[p].success) col = colours['fail'];
-					if(from != to){
-	
-						strokestyle = (missions[i].parts[p]['type']=="ongoing" ? "- " : "");
-						// Make path to object
-						var path = fly(from,to)
-						// Store the path
-						paths.push({'path':path.slice(0),'stroke':col,'strokestyle': strokestyle,'id':i});
-						// Store the path for this a->b route
-						arriveat[a2b].paths.push({'path':path.slice(0)});
-					}
-	
-					// Draw orbit
-					if(!orbit[to][i] && (to.indexOf('helio') < 0 && to.indexOf('midway') < 0 && to.indexOf('earth') < 0)){
-						missionlines[i].push( solarsystem.ellipse(obj[to].pos.x,obj[to].pos.y,getOrbitalRadius(to),getOrbitalRadius(to)*eccentricity).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i) );
-						svg.push( solarsystem.ellipse(obj[to].pos.x,obj[to].pos.y,getOrbitalRadius(to),getOrbitalRadius(to)*eccentricity).attr({'stroke':'black','stroke-width':3,'cursor':'pointer','title':missions[i].name,'opacity':0.01}).data('id',i) );
-					}
-					orbit[to][i] = true;
-	
-					if(from != to) obj[to].missions++;
-	
-					from = to;
+			a = arrivalorder[arr];
+			var i = a.mission;
+
+			col = colours['success'];
+			if(missions[i].failed) col = colours['fail'];
+			
+			var strokestyle = "";
+
+			a2b = a.from+'-'+a.to;
+			if(!orbit[a.to]) orbit[a.to] = new Array();
+			if(!arriveat[a2b]) arriveat[a2b] = {'paths':[],'first':[],'last':[]};
+			if(obj[a.to]){
+
+				if(typeof a.success==="boolean" && !a.success) col = colours['fail'];
+				if(a.from != a.to){
+
+					strokestyle = (a['type']=="ongoing" ? "- " : "");
+
+					obj[a.from].missions = a.missions.from+1;
+					obj[a.to].missions = a.missions.to;
+
+					// Make path to object
+					var path = fly(a.from,a.to);
+
+					// Store the path
+					paths.push({'path':path.slice(0),'stroke':col,'strokestyle': strokestyle,'id':i});
+
+					// Store the path for this a->b route
+					arriveat[a2b].paths.push({'path':path.slice(0)});
 				}
+
+				// Draw orbit
+				if(!orbit[a.to][i] && (a.to.indexOf('helio') < 0 && a.to.indexOf('midway') < 0 && a.to.indexOf('earth') < 0)){
+					missionlines[i].push( solarsystem.ellipse(obj[a.to].pos.x,obj[a.to].pos.y,getOrbitalRadius(a.to),getOrbitalRadius(a.to)*eccentricity).attr({'stroke':col,'stroke-width':1,'cursor':'pointer','title':missions[i].name,'opacity':1,'stroke-dasharray': strokestyle}).data('id',i) );
+					svg.push( solarsystem.ellipse(obj[a.to].pos.x,obj[a.to].pos.y,getOrbitalRadius(a.to),getOrbitalRadius(a.to)*eccentricity).attr({'stroke':'black','stroke-width':3,'cursor':'pointer','title':missions[i].name,'opacity':0.01}).data('id',i) );
+				}
+				orbit[a.to][i] = true;
+
 			}
 		}
 
@@ -475,9 +537,13 @@ r(function(){
 				var a = missions[id];
 				a.launch = new Date(a.launch);
 				var text = '<div class="stripe '+(a.failed ? 'failure':'success')+'"><\/div><h3>'+a.name+'<\/h3><table>';
-				text += '<tr><td colspan="2" style="text-align:center;"><img src="images/logo_'+a.agency+'.png" style="width:64px;" /><\/td><\/tr>';
+				text += '<tr><td colspan="2" style="text-align:center;"><img src="images/logo_'+a.agency+'.png" style="width:64px;" />';
+				for(var p = 0; p < a.parts.length; p++){
+					if(a.parts[p].agency) text += '<img src="images/logo_'+a.parts[p].agency+'.png" style="width:64px;" />';
+				}
+				text += '<\/td><\/tr>';
 				text += '<tr><td>Launch date:<\/td><td>'+(a.launch).toISOString().substr(0,10)+'<\/td><\/tr>';
-				for(var p = 0; p < a.parts.length; p++) text += '<tr><td>'+(a.parts[p].to.indexOf('helio')>=0 ? 'Outer Solar System' : capitaliseFirstLetter(a.parts[p].to)+' ('+a.parts[p].type+'):')+'<\/td><td>'+(typeof a.parts[p].success==="boolean" ? (!a.parts[p].success ? '&cross; ':'&check; ') : '')+(a.parts[p].date ? a.parts[p].date.substr(0,10) : '')+'<\/td><\/tr>';
+				for(var p = 0; p < a.parts.length; p++) text += '<tr><td>'+(a.parts[p].to.indexOf('helio')>=0 ? 'Outer Solar System' : capitaliseFirstLetter(a.parts[p].to)+' '+a.parts[p].type+':')+'<\/td><td>'+(typeof a.parts[p].success==="boolean" ? (!a.parts[p].success ? '&cross; ':'&check; ') : '')+(a.parts[p].date ? a.parts[p].date.substr(0,10) : '')+'<\/td><\/tr>';
 
 				if(a.finish) text += '<tr><td>Mission end:<\/td><td>'+a.finish.substr(0,10)+'<\/td><\/tr>';
 				text += '<\/table>';
@@ -551,17 +617,17 @@ r(function(){
 			existinghtml = "";
 			$('.tooltip').remove();
 			$('body').removeClass('hastooltip');
-//			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
 		}
 
 		function f_in(d){
 		
-			// Set highlighted mission lines to the old colour
+			// Set currently highlighted mission lines to the old colour
 			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
 
 			// Get the id for this line group
 			id = this.data('id');
 
+			console.log(id,missionlines[id])
 			// Store the old stroke colour
 			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].data({'old':missionlines[id][i].attr('stroke')});
 
