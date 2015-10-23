@@ -299,10 +299,7 @@ r(function(){
 		
 		function fly(a,b,ins){
 			if(!a || !b) return "";
-			if(!obj[b] || !obj[a]){
-				console.log(obj,a,b)
-				return "";
-			}
+			if(!obj[b] || !obj[a]) return "";
 			if(a==b) return "";
 			var s = {'x':obj[a].pos.x,'y':obj[a].pos.y};
 			var e = {'x':obj[b].pos.x,'y':obj[b].pos.y};
@@ -314,7 +311,7 @@ r(function(){
 				if(b=="mars") return getCurve(a,b,90,135,50,250);
 				if(b=="venus") return getCurve(a,b,90,45);
 				if(b=="jupiter") return getCurve(a,b,-90,270,20,230);
-				if(b=="1P/Halley") return getCurve(a,b,270,315,100,180);
+				if(b=="1P/Halley") return getCurve(a,b,270,315,100,220);
 				if(b=="2P/Encke") return getCurve(a,b,270,270,200,50);
 				if(b=="9P/Tempel") return getCurve(a,b,270,180,90,150);
 				if(b=="21P/Giacobini-Zinner") return getCurve(a,b,270,180,100,150);
@@ -343,7 +340,7 @@ r(function(){
 				if(b=="mercury") return getCurve(a,b,180,180,100,100);
 				if(b=="saturn") return getCurve(a,b,0,0,190,120);
 				if(b=="(951) Gaspra") return getCurve(a,b,0,225,100,100);
-				if(b=="1P/Halley") return getCurve(a,b,0,180,600,350);
+				if(b=="1P/Halley") return getCurve(a,b,330,315,800,400);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="jupiter"){
 				if(b=="saturn") return getCurve(a,b,90,0,120);
@@ -380,7 +377,7 @@ r(function(){
 			}else if(a=="9P/Tempel"){
 				return getCurve(a,b,225,270,80);
 			}else if(a=="(951) Gaspra"){
-				return getCurve(a,b,225,180,80,50);
+				return getCurve(a,b,225,180,50,50);
 			}else if(a=="(243) Ida"){
 				return getCurve(a,b,315,270);
 			}else if(a=="1P/Halley"){
@@ -580,7 +577,7 @@ r(function(){
 	function tooltipsvg(data){
 	
 		var existinghtml = "";
-		var id = 0;
+		var id = -1;
 	
 		function show(el,text,l,t){
 
@@ -620,14 +617,15 @@ r(function(){
 		}
 
 		function f_in(d){
-		
-			// Set currently highlighted mission lines to the old colour
-			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
+
+			if(id >= 0){
+				// Set currently highlighted mission lines to the old colour
+				for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].attr({'stroke':missionlines[id][i].data('old')});
+			}
 
 			// Get the id for this line group
 			id = this.data('id');
 
-			console.log(id,missionlines[id])
 			// Store the old stroke colour
 			for(var i = 0; i < missionlines[id].length; i++) missionlines[id][i].data({'old':missionlines[id][i].attr('stroke')});
 
