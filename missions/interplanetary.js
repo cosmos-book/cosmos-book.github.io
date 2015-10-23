@@ -338,6 +338,7 @@ r(function(){
 				if(b=="earth") return getCurve(a,b,315,180,200,100);
 				if(b=="venus") return getCurve(a,b,0,180,0,180);
 				if(b=="mercury") return getCurve(a,b,180,180,100,100);
+				if(b=="jupiter") return getCurve(a,b,330,270,250,200);
 				if(b=="saturn") return getCurve(a,b,0,0,190,120);
 				if(b=="(951) Gaspra") return getCurve(a,b,0,225,100,100);
 				if(b=="1P/Halley") return getCurve(a,b,330,315,800,400);
