@@ -203,6 +203,12 @@ r(function(){
 				"missions": 0,
 				"insertion": "left"
 			},
+			"2014 MU69": {
+				"pos": getPos(1,4),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "left"
+			},
 			"1P/Halley": {
 				"pos": getPos(0,4),
 				"colour": colours.orange[3],
@@ -361,7 +367,9 @@ r(function(){
 			}else if(a=="midway"){
 				return getCurve(a,b,225,270,50,50);
 			}else if(a=="pluto"){
-				if(b=="heliopause3") return getCurve(a,b,315,290.5,100,70);
+				return getCurve(a,b,315,270,30,60)
+			}else if(a=="2014 MU69"){
+				if(b=="heliopause3") return getCurve(a,b,315,290,100,70);
 				return getCurve(a,b,270,270)
 			}else if(a=="(132524) APL"){
 				return getCurve(a,b,45,270);
