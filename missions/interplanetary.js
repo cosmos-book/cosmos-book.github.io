@@ -317,10 +317,10 @@ r(function(){
 				if(b=="mars") return getCurve(a,b,90,135,50,250);
 				if(b=="venus") return getCurve(a,b,90,45);
 				if(b=="jupiter") return getCurve(a,b,-90,270,20,230);
-				if(b=="1P/Halley") return getCurve(a,b,270,315,100,220);
-				if(b=="2P/Encke") return getCurve(a,b,270,270,200,50);
+				if(b=="1P/Halley") return getCurve(a,b,270,315,150,210);
+				if(b=="2P/Encke") return getCurve(a,b,270,225,100,50);
 				if(b=="9P/Tempel") return getCurve(a,b,270,180,90,150);
-				if(b=="21P/Giacobini-Zinner") return getCurve(a,b,270,180,100,150);
+				if(b=="21P/Giacobini-Zinner") return getCurve(a,b,270,225,100,240);
 				if(b=="(433) Eros") return getCurve(a,b,270,180,50);
 				if(b=="(4179) Toutatis") return getCurve(a,b,270,270,80,100);
 				if(b=="(5535) Annefrank") return getCurve(a,b,270,180,70,90);
@@ -347,7 +347,7 @@ r(function(){
 				if(b=="jupiter") return getCurve(a,b,330,270,250,200);
 				if(b=="saturn") return getCurve(a,b,0,0,190,120);
 				if(b=="(951) Gaspra") return getCurve(a,b,0,225,100,100);
-				if(b=="1P/Halley") return getCurve(a,b,330,315,800,400);
+				if(b=="1P/Halley") return getCurve(a,b,330,315,820,390);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="jupiter"){
 				if(b=="saturn") return getCurve(a,b,90,0,120);
@@ -384,16 +384,16 @@ r(function(){
 			}else if(a=="81P/Wild"){
 				return getCurve(a,b,45,90,50,140);
 			}else if(a=="9P/Tempel"){
-				return getCurve(a,b,225,270,80);
+				return getCurve(a,b,180,270,60,50);
 			}else if(a=="(951) Gaspra"){
 				return getCurve(a,b,225,180,50,50);
 			}else if(a=="(243) Ida"){
 				return getCurve(a,b,315,270);
 			}else if(a=="1P/Halley"){
 				if(b=="26P/Grigg-Skjellerup") return getCurve(a,b,45,45,150,150);
-				if(b=="21P\/Giacobini-Zinner") return getCurve(a,b,45,135,150,80);
+				if(b=="21P\/Giacobini-Zinner") return getCurve(a,b,45,135,100,80);
 			}else if(a=="21P/Giacobini-Zinner"){
-				if(b=="1P/Halley") return getCurve(a,b,225,315,120,50)
+				if(b=="1P/Halley") return getCurve(a,b,225,315,120,75)
 			}else if(a=="2P/Encke"){
 				return getCurve(a,b,270,270)
 			}else{
