@@ -421,6 +421,7 @@ r(function(){
 		// For each object we need to work out the order of arrival
 		// First get the objects
 		for(var i = 0; i < missions.length; i++){
+			var d = new Date(missions[i].launch);
 			// Loop over the parts of the mission
 			for(var p = 0; p < missions[i].parts.length; p++){
 
@@ -430,7 +431,8 @@ r(function(){
 				props.name = missions[i].name;
 				props.from = (p > 0 ? missions[i].parts[p-1].to : 'earth');
 				props.missions = {'from':0,'to':0};
-				props.time = new Date(props.date ? props.date : (missions[i].finish) ? missions[i].finish : missions[i].launch);
+				d = (props.date) ? new Date(props.date) : d;
+				props.time = d;
 
 				// Don't draw lander sections of missions
 				if(p > 0 && missions[i].parts[p].to==missions[i].parts[p-1].to && missions[i].parts[p].type=="lander") continue;
@@ -452,17 +454,21 @@ r(function(){
 
 		var bodies = {};
 		// Work out the arrival and departure orbits
+		//   count - an overall counter for the object that is incremented for each arrival
+		//   missions - the position of the mission at this body
 		for(var arr = 0; arr < arrivalorder.length; arr++){
 			a = arrivalorder[arr];
-			if(a.from != a.to){
-				if(!bodies[a.from]) bodies[a.from] = {'count':0, 'missions':{} };
-				if(!bodies[a.to]) bodies[a.to] = {'count':0, 'missions':{} };
+			if(!bodies[a.from]) bodies[a.from] = {'count':0, 'missions':{} };
+			if(!bodies[a.to]) bodies[a.to] = {'count':0, 'missions':{} };
+			if(!bodies[a.from].missions[a.name]) bodies[a.from].missions[a.name] = 0;
+			if(!bodies[a.to].missions[a.name]) bodies[a.to].missions[a.name] = 0;
 
-				arrivalorder[arr].missions.from = (bodies[a.from].missions[a.name]) ? bodies[a.from].missions[a.name] : 0;
+			if(a.from != a.to){
+				arrivalorder[arr].missions.from = bodies[a.from].missions[a.name];
 				arrivalorder[arr].missions.to = (bodies[a.to]) ? bodies[a.to].count : 0;
 				bodies[a.to].missions[a.name] = bodies[a.to].count;
 				// Increment the number of missions to the object
-				if(a.from != a.to) bodies[a.to].count++;
+				bodies[a.to].count++;
 			}
 		}
 
