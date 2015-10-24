@@ -355,14 +355,14 @@ r(function(){
 				if(b=="pluto") return getCurve(a,b,315,225,100);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="saturn"){
-				if(b=="uranus") return getCurve(a,b,315,180,150,100);
+				if(b=="uranus") return getCurve(a,b,0,180,150,150);
 				if(b=="heliopauseb") return getCurve(a,b,90,45,150);
 				if(b=="heliopause1") return getCurve(a,b,90,45,150);
 				return getCurve(a,b,90,0,150)
 			}else if(a=="uranus"){
 				return getCurve(a,b,0,270)
 			}else if(a=="neptune"){
-				if(b=="heliopause2") return getCurve(a,b,270,290.5,150,100);
+				if(b=="heliopause2") return getCurve(a,b,270,315,200,100);
 				return getCurve(a,b,270,270)
 			}else if(a=="midway"){
 				return getCurve(a,b,225,270,50,50);
