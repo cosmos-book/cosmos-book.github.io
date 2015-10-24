@@ -430,8 +430,7 @@ r(function(){
 				props.name = missions[i].name;
 				props.from = (p > 0 ? missions[i].parts[p-1].to : 'earth');
 				props.missions = {'from':0,'to':0};
-				if(!props.date) props.date = (missions[i].finish) ? missions[i].finish : missions[i].launch;
-				props.time = new Date(props.date);
+				props.time = new Date(props.date ? props.date : (missions[i].finish) ? missions[i].finish : missions[i].launch);
 
 				// Don't draw lander sections of missions
 				if(p > 0 && missions[i].parts[p].to==missions[i].parts[p-1].to && missions[i].parts[p].type=="lander") continue;
