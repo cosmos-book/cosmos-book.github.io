@@ -45,6 +45,7 @@ closedir($dh);
 $reflist = "";
 $json = "";
 $geojson = "";
+$longesteva = 0;
 
 # Loop over the files
 foreach $file (sort(@files)){
@@ -248,7 +249,9 @@ foreach $file (sort(@files)){
 		# Get the length of the extra-vehicular activity
 		if($ineva){
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
-				$eva += extractTime($1);
+    			$e = extractTime($1);
+				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
+				$eva += $e;
 				$evas++;
     		}
 		}
@@ -397,6 +400,7 @@ print FILE $reflist;
 close(FILE);
 
 
+print "Longest EVA: ".formatTime($longesteva)."\n";
 
 sub fixDate {
 	my $d = $_[0];
