@@ -24,9 +24,9 @@ missions:
     time_end:     2000-05-29T06:21Z
   - name: STS-102
     time_start:   2001-03-08T11:42Z
-    time_end:     2001-03-21T07:33:07Z
+    time_end:     
   - name: STS-105
-    time_start:   2001-08-10T21:10:14Z
+    time_start:   
     time_end:     2001-08-22T18:24Z
 evas:
   - time_start: 1996-03-15
