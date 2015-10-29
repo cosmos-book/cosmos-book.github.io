@@ -46,6 +46,7 @@ $reflist = "";
 $json = "";
 $geojson = "";
 $longesteva = 0;
+$totaleva = 0;
 
 # Loop over the files
 foreach $file (sort(@files)){
@@ -252,6 +253,7 @@ foreach $file (sort(@files)){
     			$e = extractTime($1);
 				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
 				$eva += $e;
+				$totaleva += $e;
 				$evas++;
     		}
 		}
@@ -401,6 +403,7 @@ close(FILE);
 
 
 print "Longest EVA: ".formatTime($longesteva)."\n";
+print "Total EVA: ".formatTime($totaleva)."\n";
 
 sub fixDate {
 	my $d = $_[0];

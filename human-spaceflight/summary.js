@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$('.js-only').removeClass('js-only');
 
 	var astronauts = new Array();
+	var trips = new Array();
 	var dir = $('#datadir').attr('href');
 	var xaxis;
 	var yaxis;
@@ -79,6 +80,7 @@ $(document).ready(function(){
 					d = ((land-launch)/1000);
 					time += d;
 					if(d > longest) longest = d;
+					trips.push({'name':name,'time':d});
 				}
 				if(launch){
 					tmp.launches++;
@@ -104,7 +106,9 @@ $(document).ready(function(){
 			astronauts.push(tmp);
 		}
 		
-		
+		// Sort trips - longest first
+		trips = trips.sort(function (a, b) { return a['time'] > b['time'] ? -1 : 1; });
+
 		// Assign each one an ID
 		for(var i = 0; i < astronauts.length; i++){
 			astronauts[i].id = i;
@@ -262,10 +266,17 @@ $(document).ready(function(){
 		function makeRow(i,v){
 			return '<tr class="hasdata" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><td><a href="'+dir+astronauts[i].file+'" class="human '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a> '+astronauts[i].name.substr(0,astronauts[i].name.indexOf(','))+'</td><td>'+v+'</td></tr>';
 		}
+		function getAstronautID(name){
+			for(var a = 0; a < astronauts.length; a++){
+				if(astronauts[a].name == name) return a;
+			}
+			return -1;
+		}
 		function makePanel(attr){
 			var id = attr.id;
 			var title = attr.title;
 			var value = attr.value;
+			var key = attr.key;
 			var sort = attr.sort;
 			var reverse = attr.reverse;
 			var output = '';
@@ -285,7 +296,15 @@ $(document).ready(function(){
 				}
 			}else{
 				if(typeof value==="function"){
-					for(var i = 0; i < n; i++) output += makeRow(i,value.call(this,i));
+					if(typeof key==="function"){
+						for(var i = 0; i < n; i++){
+							// Get the astronaut name and use this to find the astronaut's
+							// current array index. Then make the table row
+							output += makeRow(getAstronautID(key.call(this,i)),value.call(this,i));
+						}
+					}else{
+						for(var i = 0; i < n; i++) output += makeRow(i,value.call(this,i));
+					}
 				}
 			}
 			output += '</table></div>'
@@ -316,8 +335,8 @@ $(document).ready(function(){
 		output += makePanel({
 			'id':'trip',
 			'title':'<a href="timeline.html">Longest single trip</a>',
-			'value': function(i){ return astronauts[i].longest_trip.toFixed(1)+' days'; },
-			'sort':'longest_trip',
+			'key': function(i){ return trips[i].name; },
+			'value': function(i){ return (trips[i].time/86400).toFixed(1)+' days'; },
 			'reverse':true
 		});
 
