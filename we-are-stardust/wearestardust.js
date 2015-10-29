@@ -33,13 +33,13 @@ $(document).ready(function(){
 		// Add toggles for each category
 		$('table.periodic').before('<ul class="key"><li class="keyitem"><span class="keylabel">Formed in:</span></li></ul>');
 		for(c in categories){
-			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel">'+categories[c].name+'</div></li>');
+			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel control">'+categories[c].name+'</div></li>');
 			toggles.create($('#'+c),c,{
 				"off": {"label":"off","checked": true }, 
 				"on": { "label":"on" }
 			});
 		}
-		$('.key').append('<li class="keyitem"><div class="keysymbol life"><img src="eg.png" style="width:100%;height:100%;" alt="e.g." title="Example element that is essential to life" /></div><div class="keylabel">Essential to life</div><form><div class="toggleinput toggler"></div></form></li>');
+		$('.key').prepend('<ul class="key"><li class="keyitem"><span class="keylabel">Key:</span></li><li class="keyitem"><div class="keysymbol life"><img src="eg.png" style="width:100%;height:100%;" alt="e.g." title="Example element that is essential to life" /></div><div class="keylabel">Essential to life</div></li></ul><br />');
 	//	$('.key').append('<li class="keyitem"><div class="keysymbol formed"></div><div class="keylabel">Formed</div><form><div class="toggleinput toggler"></div></form></li>');
 		$(document).on('click','.keylabel',function(){ toggles.toggle($(this).parent().attr('id')) });
 

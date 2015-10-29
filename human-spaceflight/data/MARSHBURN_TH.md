@@ -18,6 +18,9 @@ missions:
   - name: STS-127
     time_start:   2009-07-15T22:03Z
     time_end:     2009-07-31T14:49Z
+  - name: Soyuz TMA-07M
+    time_start:   2012-12-19T12:12:36Z
+    time_end:     2013-05-14T02:32Z
 evas:
   - time_start: 
     duration:   18h59m

@@ -24,9 +24,9 @@
 				ss = Math.floor(24*3600*diff/msperday);
 				countdown.innerHTML = '<div class="label">Launch countdown:<\/div><ul>'+formatPeriod(dd,'days')+formatPeriod(hh,'hours')+formatPeriod(mm,'minutes')+formatPeriod(ss,'seconds')+'<\/ul>';
 			}else if(diff < 1000 && diff > -86400000){
-				countdown.innerHTML = 'Launched!';
+				countdown.innerHTML = '<p>Launched!<\/p>';
 			}else{
-				countdown.innerHTML = '<p>This <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository<\/a> accompanies the book. It contains <a href="contents.html">interactive versions of selected infographics<\/a>, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/<a href="credits/index.html">sources</a> behind the graphics.</p>';
+				countdown.innerHTML = '';
 			}
 		}
 		function formatPeriod(v,p){ return '<li class="part"><span class="value">'+((v < 10) ? "0"+v : v)+'<\/span> <span class="period">'+p+'<\/span><\/li>'; }
@@ -73,7 +73,8 @@
 							<p>Aurum Press Ltd</p>
 							<p>Life. The Universe. Everything. The human race has always revealed an insatiable hunger to search &quot;to infinity and beyond&quot;. Astronomers Stuart Lowe and Chris North use cutting-edge infographics to illuminate the most amazing places and objects that modern science has laid bare. Featuring innovative, inspirational and original designs, the book delves into a truly international subject and will appeal to stargazers and space enthusiasts of all ages.</p>
 							<!--<p>This repository accompanies the book. It will contain interactive versions of selected infographics, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/sources behind the graphics.</p>-->
-							<p>You can preorder on <a href="http://www.amazon.co.uk/Infographic-Book-Space-Stuart-Lowe/dp/1781314500/ref=sr_1_1">Amazon.co.uk</a>, <a href="http://www.amazon.com/exec/obidos/ASIN/1781314500/creativepubco-20">Amazon.com</a>, <a href="https://www.waterstones.com/book/cosmos-the-infographic-book-of-space/stuart-lowe/chris-north/9781781314500">Waterstones</a>, and <a href="http://www.bookdepository.com/book/9781781314500/?a_aid=Quayside">Book Depository</a>. Or support your local bookshop.</p>
+							<p>You can order on <a href="http://www.amazon.co.uk/Infographic-Book-Space-Stuart-Lowe/dp/1781314500/ref=sr_1_1">Amazon.co.uk</a>, <a href="http://www.amazon.com/exec/obidos/ASIN/1781314500/creativepubco-20">Amazon.com</a>, <a href="https://www.waterstones.com/book/cosmos-the-infographic-book-of-space/stuart-lowe/chris-north/9781781314500">Waterstones</a>, and <a href="http://www.bookdepository.com/book/9781781314500/?a_aid=Quayside">Book Depository</a>. Or support your local bookshop.</p>
+							<p>This <a href="https://github.com/cosmos-book/cosmos-book.github.io/">repository</a> accompanies the book. It contains <a href="contents.html">interactive versions of selected infographics</a>, updates, <a href="https://github.com/cosmos-book/cosmos-book.github.io/issues">corrections</a>, and the data/<a href="credits/index.html">sources</a> behind the graphics.</p>
 							<p id="countdown"></p>
 						</div>
 					</div>

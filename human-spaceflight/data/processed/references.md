@@ -298,7 +298,7 @@
 * **HENDRICKS, Terence T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HENIZE, Karl G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HENNEN, Thomas J. Chief Warrant Officer**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **HERMASZEWSKI, Miroslaw 'Mirek'**: http://www.spacefacts.de/bios/international/english/hermaszewski_miroslaw.htm
+* **HERMASZEWSKI, Mirosław 'Mirek'**: http://www.spacefacts.de/bios/international/english/hermaszewski_miroslaw.htm
 * **HERNANDEZ, Jose M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HERRINGTON, John B.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HIEB, Richard J.**: http://www.nasa.gov/pdf/740566main_current.pdf

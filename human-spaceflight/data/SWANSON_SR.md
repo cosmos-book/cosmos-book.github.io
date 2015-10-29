@@ -19,6 +19,9 @@ missions:
   - name: STS-119
     time_start:   2009-03-15T23:43Z
     time_end:     2009-03-28T19:14Z
+  - name: Soyuz TMA-12M
+    time_start:   2014-03-25T21:17:23Z
+    time_end:     2014-09-11T02:23Z
 evas:
   - time_start: 
     duration:   26h22m
