@@ -5,5 +5,5 @@ Lower limit (km),Upper limit (km),Feature type,Name,Temperature (K),Pressure (ba
 0,0,Boundary,Surface,,,
 20,20,Boundary,Tropopause,,,
 110,110,Boundary,Stratopause,,,
-80,90,Cloud layer,Methane haze,,,Brown
-40,50,Cloud layer,Hydrocarbon haze,,,Brown
+80,90,Cloud layer,Haze,,,Brown
+40,50,Cloud layer,Haze,,,Brown
