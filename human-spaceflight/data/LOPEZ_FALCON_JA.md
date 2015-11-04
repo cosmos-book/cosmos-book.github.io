@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	LóPEZ FALCóN, 
+name:	LóPEZ FALCóN, José Armando
 type:	military
 dob:	1950-02-08
 country:

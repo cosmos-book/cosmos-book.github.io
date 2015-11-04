@@ -3440,6 +3440,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [12.50666, 50.447578]
+			},
+			"properties": {
+				"title": "JäHN, Sigmund Werner Paul 'Sig'",
+				"date": "1937-02-13",
+				"birthplace": "Morgenröthe-Rautenkranz, Saxony, Germany",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JAHN_SWP.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-86.979759, 34.60738]
 			},
 			"properties": {
@@ -3539,21 +3554,6 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JONES_TD.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
-				"marker-symbol": "circle"
-			}
-		},{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [12.50666, 50.447578]
-			},
-			"properties": {
-				"title": "JäHN, Sigmund Werner Paul 'Sig'",
-				"date": "1937-02-13",
-				"birthplace": "Morgenröthe-Rautenkranz, Saxony, Germany",
-				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JäHN_SWP.md",
-				"marker-size": "medium",
-				"marker-color": "#67c18d",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -3956,7 +3956,7 @@
 				"title": "LALIBERTÉ, Guy",
 				"date": "1959-09-02",
 				"birthplace": "Quebec City, Quebec, Canada",
-				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/LALIBERTÉ_G.md",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/LALIBERTE_G.md",
 				"marker-size": "medium",
 				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"

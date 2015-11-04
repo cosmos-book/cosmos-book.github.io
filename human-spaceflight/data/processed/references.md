@@ -329,6 +329,7 @@
 * **IVANOV, Georgi**: http://www.spacefacts.de/bios/international/english/ivanov_georgi.htm
 * **IVANOV, Leonid Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/ivanov_leonid.htm
 * **IVINS, Marsha S.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **JäHN, Sigmund Werner Paul 'Sig'**: http://www.spacefacts.de/bios/international/english/jaehn_sigmund.htm
 * **JANKOWSKI, Zenon 'Zden'**: http://www.spacefacts.de/bios/international/english/jankowski_zenon.htm
 * **JARVIS, Gregory**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JEMISON, Mae C.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -338,7 +339,6 @@
 * **JOHNSON, Gregory C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JOHNSON, Gregory H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JONES, Thomas D.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **JäHN, Sigmund Werner Paul 'Sig'**: http://www.spacefacts.de/bios/international/english/jaehn_sigmund.htm
 * **KADENYUK, Leonid Konstantinovich**: http://www.spacefacts.de/bios/cosmonauts/english/kadenyuk_leonid.htm
 * **KALERI, Aleksandr Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kaleri_aleksandr.htm
 * **KALERI, Aleksandr Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kaleri_aleksandr.htm
@@ -438,6 +438,7 @@
 * **LONCHAKOV, Yuri Valentinovich**: http://www.spacefacts.de/eva/cosmonauts/english/lonchakov_yuri.htm
 * **LONGHURST, Peter Hervey**: http://www.spacefacts.de/bios/international/english/longhurst_peter.htm
 * **L&Oacute;PEZ-ALEGR&Iacute;A, Michael E.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **LóPEZ FALCóN, José Armando**: http://www.spacefacts.de/bios/international/english/lopez-falcon_jose.htm
 * **LORENZONI, Andrea**: http://www.spacefacts.de/bios/international/english/lorenzoni_andrea.htm
 * **LORIA, Christopher J. 'Gus'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LOTHALLER, Clemens**: http://www.spacefacts.de/bios/international/english/lothaller_clemens.htm
@@ -451,7 +452,6 @@
 * **LU, Edward T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LYAKHOV, Vladimir Afanasiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/lyakhov_vladimir.htm
 * **LYAKHOV, Vladimir Afanasiyevich**: http://www.spacefacts.de/eva/cosmonauts/english/lyakhov_vladimir.htm
-* **LóPEZ FALCóN,**: http://www.spacefacts.de/bios/international/english/lopez-falcon_jose.htm
 * **MACE, Timothy Kristian Charles**: http://www.spacefacts.de/bios/international/english/mace_timothy.htm
 * **MACHINSKY, Georgi Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/machinski_georgi.htm
 * **MACLEAN, Steven Glenwood**: http://www.spacefacts.de/bios/international/english/maclean_steven.htm
