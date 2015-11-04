@@ -365,6 +365,7 @@
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
 * **KLIMUK, Pyotr Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
 * **KOLESNIKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolesnikov_gennadi.htm
+* **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 * **KOLODIN, Pyotr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm
 * **KOLOMIYTSEV, Ordinard Panteleymonovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolomiytsev_ordinard.htm
 * **KOMAROV, Vladimir Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/komarov_vladimir.htm
@@ -402,7 +403,6 @@
 * **KULESHOVA, Natalya Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuleshova_natalya.htm
 * **KUZHELNAYA, Nadezhda Vasiliyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuzhelnaya_nadezhda.htm
 * **KUZNETSOVA, Tatiyana Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
-* **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 * **LALIBERTÉ, Guy**: http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
 * **LATYSHEVA, Irina Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/latysheva_irina.htm
 * **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
