@@ -76,9 +76,9 @@ $(document).ready(function(){
 			for(var m = 0; m < data[name].mission.length; m++){
 				launch = (data[name].mission[m].a) ? new Date(fixDateString(data[name].mission[m].a)) : "";
 				land = (data[name].mission[m].b) ? new Date(fixDateString(data[name].mission[m].b)) : "";
+				d = 0;
 				if(land && launch){
 					d = ((land-launch)/1000);
-					time += d;
 					if(d > longest) longest = d;
 					trips.push({'name':name,'time':d});
 				}
@@ -90,12 +90,19 @@ $(document).ready(function(){
 				if(tmp.missions) tmp.missions += ";";
 				tmp.missions += data[name].mission[m].names;
 				
-				// They haven't landed and the launch was more than three years ago - they are in space
+				// They haven't landed and the launch was more than three years ago - they are most likely in space
 				if(m == data[name].mission.length-1){
-					if(!land && now-launch < (86400000*365.25*3)) tmp.inspaceasof = launch;
-					tmp.oldest = (!land) ? inYears(now-tmp.dob) : inYears(land-tmp.dob); 
+					if(!land && now-launch < (86400000*365.25*3)){
+						tmp.inspaceasof = launch;
+						d = ((now-launch)/1000);
+						if(d > longest) longest = d;
+						trips.push({'name':name,'time':d});
+					}
+					tmp.oldest = (!land) ? inYears(now-tmp.dob) : inYears(land-tmp.dob);
 				}
+				time += d;
 			}
+
 			tmp.time_eva = tmp.eva;
 			tmp.time_space = time;
 			tmp.time_space_days = (tmp.time_space/86400);
@@ -105,14 +112,12 @@ $(document).ready(function(){
 			tmp.time_space_days_original = tmp.time_space_days;
 			astronauts.push(tmp);
 		}
-		
+
 		// Sort trips - longest first
 		trips = trips.sort(function (a, b) { return a['time'] > b['time'] ? -1 : 1; });
 
 		// Assign each one an ID
-		for(var i = 0; i < astronauts.length; i++){
-			astronauts[i].id = i;
-		}
+		for(var i = 0; i < astronauts.length; i++) astronauts[i].id = i;
 
 		// Update the date
 		$('.update').html(updatedate.toISOString().substr(0,10));
