@@ -332,7 +332,7 @@ $(document).ready(function(){
 			'id':'time',
 			'title':'Most time in space',
 			'value': function(i){ return astronauts[i].time_space_days.toFixed(1)+' days'; },
-			'sort':'time_space',
+			'sort':'time_space_days',
 			'reverse':true
 		});
 
