@@ -345,8 +345,8 @@ ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-durat
 	min-height: 100%;
 }
 #content {
-	-webkit-flex: 1 100%;
-	flex: 1 100%;
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
 }
 #content {
 	position: relative;
