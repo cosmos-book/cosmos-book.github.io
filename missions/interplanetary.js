@@ -472,7 +472,6 @@ r(function(){
 			}
 		}
 
-
 		for(var arr = 0; arr < arrivalorder.length; arr++){
 	
 			a = arrivalorder[arr];
@@ -488,7 +487,8 @@ r(function(){
 			if(!arriveat[a2b]) arriveat[a2b] = {'paths':[],'first':[],'last':[]};
 			if(obj[a.to]){
 
-				if(typeof a.success==="boolean" && !a.success) col = colours['fail'];
+				if(typeof a.success==="boolean") col = (!a.success) ? colours['fail'] : colours['success'];
+
 				if(a.from != a.to){
 
 					strokestyle = (a['type']=="ongoing" ? "- " : "");
@@ -504,6 +504,7 @@ r(function(){
 
 					// Store the path for this a->b route
 					arriveat[a2b].paths.push({'path':path.slice(0)});
+					
 				}
 
 				// Draw orbit
