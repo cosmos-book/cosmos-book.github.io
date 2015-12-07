@@ -489,6 +489,7 @@ r(function(){
 
 				if(typeof a.success==="boolean") col = (!a.success) ? colours['fail'] : colours['success'];
 
+				//if(missions[i].name.indexOf("Akatsuki")==0) console.log('yes',a,a.from,a.to,missions[i])
 				if(a.from != a.to){
 
 					strokestyle = (a['type']=="ongoing" ? "- " : "");
@@ -504,6 +505,14 @@ r(function(){
 
 					// Store the path for this a->b route
 					arriveat[a2b].paths.push({'path':path.slice(0)});
+					
+				}else{
+					// Deal with missions like Akatsuki that had a failed orbit insertion but tried again
+					if(missionlines[i].length > 0){
+						strokestyle = (a['type']=="ongoing" ? "- " : "");
+						missionlines[i][missionlines[i].length-1].attr('stroke',col);
+						missionlines[i][missionlines[i].length-1].attr('stroke-dasharray',strokestyle);
+					}
 					
 				}
 
