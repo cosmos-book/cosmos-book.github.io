@@ -17,7 +17,7 @@ references:
 missions:
   - name: Soyuz TMA-17M
     time_start:   2015-07-22T21:02:44Z
-    time_end:     
+    time_end:     2015-12-11T13:12:09Z
 evas:
   - time_start: 2015-10-28T12:03Z
     duration:   7h16m
