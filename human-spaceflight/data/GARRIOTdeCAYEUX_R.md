@@ -3,6 +3,7 @@ category:	commercial tourist
 name:	GARRIOTTdeCAYEUX, Richard
 type:	civilian
 dob:	1961-07-04
+twitter:	RichardGarriott
 birthplace:
   - name:	Cambridge, England, UK
     latitude:	52.19944
