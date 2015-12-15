@@ -87,7 +87,6 @@ $(document).ready(function(){
 		}
 		nmax++;
 		for(var a = 0 ; a < astronauts.length; a++) html += '<div class="human '+astronauts[a].category+'" id="'+a+'" style="top:'+((astronauts[a].n/nmax)*96).toFixed(2)+'%;width:'+(astronauts[a].width).toFixed(0)+'px;margin-left:'+(astronauts[a].left).toFixed(3)+'%;height:'+(80/nmax).toFixed(2)+'%;" title="'+astronauts[a].name+'"><\/div>';
-console.log(html)
 		app.append('<div class="data">'+html+'<\/div>');
 		app.append('<div class="xaxis">'+makeGridLines(end.getUTCFullYear()+yfrac,start.getUTCFullYear())+'<\/div>');
 		app.append('<div class="labels">'+makeLabels(end,start,labels)+'<\/div>');
