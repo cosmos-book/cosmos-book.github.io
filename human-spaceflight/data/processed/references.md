@@ -558,7 +558,7 @@
 * **PAWELCZYK, James A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PAYETTE, Julie**: http://www.spacefacts.de/bios/international/english/payette_julie.htm
 * **PAYTON, Gary E.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **PEAKE, Timothy Nagel**: http://www.spacefacts.de/bios/international/english/peake_timothy.htm
+* **PEAKE, Timothy Nigel**: http://www.spacefacts.de/bios/international/english/peake_timothy.htm
 * **PELCZAK, Oldrich 'Olda'**: http://www.spacefacts.de/bios/international/english/pelczak_oldrich.htm
 * **PERALTA Y FABI, Ricardo**: http://www.spacefacts.de/bios/international/english/peralta_ricardo.htm
 * **PERRIN, Philippe**: http://www.spacefacts.de/bios/international/english/perrin_philippe.htm

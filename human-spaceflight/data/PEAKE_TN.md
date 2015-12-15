@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	PEAKE, Timothy Nagel
+name:	PEAKE, Timothy Nigel
 type:	civilian
 gender:	Male
 dob:	1972-04-07
