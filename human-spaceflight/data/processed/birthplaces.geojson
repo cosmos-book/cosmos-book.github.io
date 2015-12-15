@@ -5600,6 +5600,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-0.77918, 50.83652]
+			},
+			"properties": {
+				"title": "PEAKE, Timothy Nagel",
+				"date": "1972-04-07",
+				"birthplace": "Chichester, West Sussex, England",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PEAKE_TN.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-5.535, 33.882462]
 			},
 			"properties": {

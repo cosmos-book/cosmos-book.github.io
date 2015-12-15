@@ -9,6 +9,10 @@ birthplace:
     latitude:	50.83652
     longitude:	-0.77918
 twitter:	astro_timpeake
+missions:
+  - name: Soyuz TMA-19M
+    time_start:   2015-12-15T11:03:10Z
+    time_end:
 country:
   - GBR
 references:

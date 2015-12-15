@@ -28,6 +28,9 @@ missions:
   - name: Soyuz TMA-05M
     time_start:   2012-07-15T02:40:03Z
     time_end:     2012-11-19T01:53:31Z
+  - name: Soyuz TMA-19M
+    time_start:   2015-12-15T11:03:10Z
+    time_end:
 evas:
   - time_start: 1994-09-09
     duration:   5h04m

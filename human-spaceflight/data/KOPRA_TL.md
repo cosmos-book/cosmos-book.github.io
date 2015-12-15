@@ -20,6 +20,9 @@ missions:
   - name:	STS-128
     time_start:   
     time_end:     2009-09-12T00:54Z
+  - name: Soyuz TMA-19M
+    time_start:   2015-12-15T11:03:10Z
+    time_end:
 evas:
   - time_start:	  2009-07-18T16:19Z
     time_end:     2009-07-18T21:51Z
