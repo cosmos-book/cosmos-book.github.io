@@ -5,8 +5,8 @@ type:	military
 dob:	1941-09-15
 birthplace:
   - name:	Lipniki, Ukraine
-    latitude:	48.382881
-    longitude:	31.173441
+    latitude:	50.928462
+    longitude:	26.705014
 country:
   - POL
 references:
