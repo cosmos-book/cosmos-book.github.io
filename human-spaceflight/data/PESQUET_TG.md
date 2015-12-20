@@ -12,6 +12,7 @@ country:
   - FRA
 references:
   - http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
+  - http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Thomas_Pesquet
 missions:
 evas:
 gender:	Male
