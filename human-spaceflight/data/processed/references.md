@@ -559,11 +559,13 @@
 * **PAYETTE, Julie**: http://www.spacefacts.de/bios/international/english/payette_julie.htm
 * **PAYTON, Gary E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PEAKE, Timothy Nigel**: http://www.spacefacts.de/bios/international/english/peake_timothy.htm
+* **PEAKE, Timothy Nigel**: http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Timothy_Peake
 * **PELCZAK, Oldrich 'Olda'**: http://www.spacefacts.de/bios/international/english/pelczak_oldrich.htm
 * **PERALTA Y FABI, Ricardo**: http://www.spacefacts.de/bios/international/english/peralta_ricardo.htm
 * **PERRIN, Philippe**: http://www.spacefacts.de/bios/international/english/perrin_philippe.htm
 * **PERRIN, Philippe**: http://www.spacefacts.de/eva/international/english/perrin_philippe.htm
 * **PESQUET, Thomas Gautier**: http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
+* **PESQUET, Thomas Gautier**: http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Thomas_Pesquet
 * **PETELIN, Dmitri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
 * **PETERSON, Donald H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PETRUSHENKO, Aleksandr Jakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm
