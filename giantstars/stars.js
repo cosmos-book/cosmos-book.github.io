@@ -24,7 +24,7 @@ r(function(){
 	for(var i = stars.length-1; i >= 0; i--){
 		html += '<li class="star" title="'+stars[i].name+' / '+stars[i].size+' &times; the Sun" style="width:'+(stars[i].size*scale)+'px;height:'+(stars[i].size*scale)+'px;right:'+(w*0.25 - stars[i].size*scale/2)+'px;bottom:'+(scale*offset)+'px;background-color:rgb('+Math.round(c1.rgb[0] + (c2.rgb[0]-c1.rgb[0])*i/stars.length)+','+Math.round(c1.rgb[1] + (c2.rgb[1]-c1.rgb[1])*i/stars.length)+','+Math.round(c1.rgb[2] + (c2.rgb[2]-c1.rgb[2])*i/stars.length)+');">'+(stars[i].cite.indexOf('http')==0 ? '<a href="'+stars[i].cite+'"></a>':stars[i].cite)+'</li>';
 	}
-	html += '<li class="sun" title="Sun" style="width:'+scale+'px;height:'+scale+'px;background-color:'+colours.yellow[0]+';right:'+(w*0.25 - scale/2)+'px;bottom:'+(scale*(offset-1.25))+'px;"></li></ul>';
+	html += '<li class="sun" title="Sun" style="width:'+scale+'px;height:'+scale+'px;background-color:'+colours.yellow[0]+';right:'+(w*0.25 - scale/2)+'px;bottom:'+(scale*(offset-1.25))+'px;"><span class="label">Sun</span></li></ul>';
 	$('#holder').append(html);
 
 
