@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Giant stars</title>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="stars.js"></script>
+	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
+	<style>
+	#stars td, #stars th {
+		border: 1px solid black;
+		padding: 0.2em;	
+	}
+	#stars th {
+		background-color: black;
+		color: white;
+	}
+	ul.stars {
+		margin: 0px;
+		padding: 0px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 99;
+	}
+	ul.stars li {
+		display: block;
+		margin: 0px;
+		position: absolute;
+		opacity: 1;
+		border-radius: 100%;
+		background-color: red;
+	}
+	ul.stars li.star a {
+		display: block;
+		border-radius: 100%;
+		width: 100%;
+		height: 100%;
+	}
+	ul.stars li.star:hover {
+		background-color: white!important;
+		opacity: 0.6;
+	}
+	#holder .padded {
+		position: relative;
+		z-index: 100;
+	}
+	.number {
+		font-family: "Source Code Pro",monospace,sans-serif;
+	}
+	</style>
+</head>
+<body class="STA">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">contents</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="table" id="holder">
+					<div class="padded">
+						<h1>Giant stars</h1>
+						<p>Stars range in size. One of the contenders for largest known star is <em>UY Scuti</em>. If it was placed at the centre of the Solar System it would stretch beyond the orbit of Jupiter.</p>
+						<table id="stars">
+							<tr><th>Star name</th><th>Radius (Solar)</th><th>Reference</th></tr>
+							<tr><td class="name">Delta Bo&ouml;tis</td><td class="size">10.5</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/1999AJ....118.3032N">1999AJ....118.3032N</a></td></tr>
+							<tr><td class="name">Arcturus</td><td class="size">25.4</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2011ApJ...743..135R">2011ApJ...743..135R</a></td></tr>
+							<tr><td class="name">Aldebaran</td><td class="size">44.2</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2005A&A...433..305R">2005A&A...433..305R</a></td></tr>
+							<tr><td class="name">Canopus</td><td class="size">65</td><td class="cite">David Darling Encyclopedia of Science</td></tr>
+							<tr><td class="name">Rigel A</td><td class="size">78</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2012ApJ...747..108M">2012ApJ...747..108M</a></td></tr>
+							<tr><td class="name">Peony Nebula Star</td><td class="size">100</td><td class="cite">spacemath.gsfc.nasa.gov</td></tr>
+							<tr><td class="name">Epsilon Geminorum</td><td class="size">140</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/1999AJ....118.3032N">1999AJ....118.3032N</a></td></tr>
+							<tr><td class="name">Deneb</td><td class="size">203</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2008A&A...479..849S">2008A&A...479..849S</a></td></tr>
+							<tr><td class="name">The Pistol Star</td><td class="size">306</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2009ApJ...691.1816N">2009ApJ...691.1816N</a></td></tr>
+							<tr><td class="name">Alpha Herculis</td><td class="size">460</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2004A&A...418..675P">2004A&A...418..675P</a></td></tr>
+							<tr><td class="name">Betelgeuse</td><td class="size">1200</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2009AJ....137.3558S">2009AJ....137.3558S</a></td></tr>
+							<tr><td class="name">UY Scuti</td><td class="size">1708</td><td class="cite"><a href="http://labs.adsabs.harvard.edu/adsabs/abs/2013A&A...554A..76A">2013A&A...554A..76A</a></td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/giantstars/data/stars.csv">star sizes</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>
