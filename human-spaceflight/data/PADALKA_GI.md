@@ -34,13 +34,13 @@ evas:
   - time_start: 1998-11-10
     duration:   5h54m
   - time_start: 2004-06-24T21:56Z
-    duration:   0h14m
+    time_end:   2004-06-24T22:10Z
   - time_start: 2004-06-30T21:19Z
-    duration:   5h40m
-  - time_start: 2004-08-03T06:58Z
-    duration:   4h30m
-  - time_start: 2004-09-03T16:43Z
-    duration:   5h20m
+    time_end:   2004-07-1T02:59Z
+  - time_start: 2004-08-3T06:58Z
+    time_end:   2004-08-3T11:28Z
+  - time_start: 2004-09-3T16:43Z
+    time_end:   2004-09-3T22:04Z
   - time_start: 2009-06-05T07:52Z
     duration:   4h54m
   - time_start: 2009-06-10T06:55Z

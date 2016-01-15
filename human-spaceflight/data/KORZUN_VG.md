@@ -27,9 +27,9 @@ evas:
     duration:   5h58m
   - time_start: 1996-12-09
     duration:   6h38m
-  - time_start: 2002-08-16T09:23
-    duration:   4h25m
-  - time_start: 2002-08-26T05:27
-    duration:   5h21m
+  - time_start: 2002-08-16T09:23Z
+    time_end:   2002-08-16T13:48Z
+  - time_start: 2002-08-26T05:27Z
+    time_end:   2002-08-26T10:48Z
 gender:	Male
 ---
