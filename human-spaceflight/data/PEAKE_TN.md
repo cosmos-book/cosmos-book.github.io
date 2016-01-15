@@ -17,7 +17,7 @@ country:
   - GBR
 evas:
   - time_start:   2016-01-15T12:48Z
-    duration:     1h41m
+    duration:     1h44m
 references:
   - http://www.spacefacts.de/bios/international/english/peake_timothy.htm
   - http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Timothy_Peake
