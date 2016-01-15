@@ -36,8 +36,8 @@ evas:
     duration:   5h04m
   - time_start: 1994-09-13
     duration:   6h01m
-  - time_start: 2000-09-11
-    duration:   6h14m
+  - time_start: 2000-09-11T04:47Z
+    time_end:   2000-09-11T11:01Z
   - time_start: 2007-11-09
     duration:   6h55m
   - time_start: 2012-08-20

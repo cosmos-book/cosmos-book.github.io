@@ -26,4 +26,8 @@ missions:
     time_start:   2005-10-01T03:55Z
     time_end:     2006-04-08T23:49Z
 evas:
+  - time_start: 2000-10-15T14:27Z
+    time_end:   2000-10-15T20:55Z
+  - time_start: 2000-10-17T14:30Z
+    time_end:   2000-10-17T21:18Z
 ---

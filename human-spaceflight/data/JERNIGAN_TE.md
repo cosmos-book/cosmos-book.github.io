@@ -31,8 +31,8 @@ missions:
     time_start:   1999-05-27T06:49Z
     time_end:     1999-06-06T02:02:44Z
 evas:
-  - time_start: 
-    duration:   7h55m
+  - time_start: 1999-05-30T02:56Z
+    time_end:   1999-05-30T10:51Z
 country:
   - USA
 ---

@@ -32,8 +32,10 @@ missions:
     time_start:   
     time_end:     2001-08-22T18:24Z
 evas:
+  - time_start: 2000-05-22T01:48Z
+    time_end:   2000-05-22T08:32Z
   - time_start: 
-    duration:   22h35m
+    duration:   15h51m
 gender:	Male
 country:
   - USA

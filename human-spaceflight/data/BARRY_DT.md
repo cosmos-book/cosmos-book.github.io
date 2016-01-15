@@ -25,8 +25,8 @@ missions:
 evas:
   - time_start: 1996-01-15
     duration:   6h09m
-  - time_start: 1999-05-30
-    duration:   7h55m
+  - time_start: 1999-05-30T02:56Z
+    time_end:   1999-05-30T10:51Z
   - time_start: 2001-08-16
     duration:   6h15m
   - time_start: 2001-08-18
