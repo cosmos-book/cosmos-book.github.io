@@ -31,6 +31,10 @@ evas:
     duration:   6h15m
   - time_start: 2001-08-18
     duration:   5h29m
+  - time_start: 2001-08-16T13:58Z
+    time_end:   2001-08-16T20:14Z
+  - time_start: 2001-08-18T13:42Z
+    time_end:   2001-08-18T19:11Z
 gender:	Male
 country:
   - USA
