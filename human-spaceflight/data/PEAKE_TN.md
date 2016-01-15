@@ -15,9 +15,11 @@ missions:
     time_end:
 country:
   - GBR
+evas:
+  - time_start:   2016-01-15T12:48Z
+    duration:     
 references:
   - http://www.spacefacts.de/bios/international/english/peake_timothy.htm
   - http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Timothy_Peake
 missions:	
-evas:	
 ---

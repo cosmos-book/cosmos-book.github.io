@@ -28,6 +28,8 @@ evas:
     time_end:     2009-07-18T21:51Z
   - time_start:   2015-12-21T12:45Z
     duration:     3h16m
+  - time_start:   2016-01-15T12:48Z
+    duration:     
 gender:	Male
 country:
   - USA
