@@ -1,6 +1,7 @@
 // Creates an x-y data plot. The data points are created as <a> elements 
 // within a holding element. The data file can be provided in the HTML
 // document as a 'data' attribute of an element with the ID 'data'
+var series;
 
 (function(){
 
@@ -113,7 +114,6 @@
 	
 	
 	// Some variables that will be used later
-	var series;
 	var xaxis;
 	var yaxis;
 
