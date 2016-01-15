@@ -249,12 +249,30 @@ foreach $file (sort(@files)){
 		}
 		# Get the length of the extra-vehicular activity
 		if($ineva){
+			if($name =~ /PEAKE/){
+				print "IN EVA\n";
+				print "$line\n";
+    		}
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
     			$e = extractTime($1);
 				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
 				$eva += $e;
 				$totaleva += $e;
 				$evas++;
+    		}elsif($line =~ /time_start:[\s\t]*([0-9\-\:TZ]*)/){
+    			$eva_start = $1;
+    			$eva_end = "";
+    		}elsif($line =~ /time_end:[\s\t]*([0-9\-\:TZ]*)/){
+    			$eva_end = $1;
+    			if($eva_start){
+					$e = duration($eva_start,$eva_end);
+					if($e > $longesteva){ print "EVA DURATION = $e ($eva_start $name ; $evas)\n"; $longesteva = $e; }
+					$eva += $e;
+					$totaleva += $e;
+					$evas++;
+					$eva_start = "";
+					$eva_end = "";
+				}
     		}
 		}
 		# Build a reference list
@@ -290,7 +308,7 @@ foreach $file (sort(@files)){
 		if($line =~ /^references:/){ $inmission = 0; $inrefs = 1; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^birthplace:/){ $inmission = 0; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 1; }
 		if($line =~ /^missions:/){ $inmission = 1; $inrefs = 0; $inquals = 0; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
-		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+		if($line =~ /^evas:/){ $ineva = 1; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; $eva_start = ""; $eva_end = ""; }
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
 		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
