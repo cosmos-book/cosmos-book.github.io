@@ -33,8 +33,8 @@ missions:
     time_start:   
     time_end:     2001-08-22T18:24Z
 evas:
-  - time_start: 
-    duration:   8h56m
+  - time_start: 2001-03-11T05:12Z
+    time_end:   2001-03-11T14:08Z
 country:
   - USA
 ---
