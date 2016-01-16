@@ -90,13 +90,13 @@ $(document).ready(function(){
 				if(tmp.missions) tmp.missions += ";";
 				tmp.missions += data[name].mission[m].names;
 				
-				// They haven't landed and the launch was more than three years ago - they are most likely in space
+				// They haven't landed and the launch was under three years ago - they are most likely in space
 				if(m == data[name].mission.length-1){
 					if(!land && now-launch < (86400000*365.25*3)){
 						tmp.inspaceasof = launch;
-						d = ((now-launch)/1000);
-						if(d > longest) longest = d;
-						trips.push({'name':name,'time':d});
+						d2 = ((now-launch)/1000);
+						if(d2 > longest) longest = d2;
+						trips.push({'name':name,'time':d2});
 					}
 					tmp.oldest = (!land) ? inYears(now-tmp.dob) : inYears(land-tmp.dob);
 				}
