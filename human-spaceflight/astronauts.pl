@@ -249,10 +249,6 @@ foreach $file (sort(@files)){
 		}
 		# Get the length of the extra-vehicular activity
 		if($ineva){
-			if($name =~ /PEAKE/){
-				print "IN EVA\n";
-				print "$line\n";
-    		}
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
     			$e = extractTime($1);
 				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
