@@ -13,6 +13,7 @@ qualifications:
   - PhD in mechanical engineering & materials science
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - http://www.jsc.nasa.gov/Bios/htmlbios/olivas.html
 missions:
   - name: STS-117
     time_start:   2007-06-08T23:38:04Z

@@ -535,6 +535,7 @@
 * **O'CONNOR, Bryan D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OEFELEIN, William A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OLIVAS, John D.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **OLIVAS, John D.**: http://www.jsc.nasa.gov/Bios/htmlbios/olivas.html
 * **OMELCHENKO, Svetlana Oktyabrevna**: http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
 * **ONISHI, Takuya**: http://www.spacefacts.de/bios/international/english/onishi_takuya.htm
 * **ONIZUKA, Ellison S.**: http://www.nasa.gov/pdf/740566main_current.pdf
