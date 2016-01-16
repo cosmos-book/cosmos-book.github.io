@@ -32,9 +32,9 @@ evas:
     time_end:   2001-10-15T15:08Z
   - time_start: 2001-12-03T13:20Z
     time_end:   2001-12-03T16:06Z
-  - time_start: 2006-11-23
-    duration:   5h38m
-  - time_start: 2007-02-22
-    duration:   6h18m
+  - time_start: 2006-11-22T23:17Z
+    time_end:   2006-11-23T04:55Z
+  - time_start: 2007-02-22T10:27Z
+    time_end:   2007-02-22T16:45Z
 gender:	Male
 ---

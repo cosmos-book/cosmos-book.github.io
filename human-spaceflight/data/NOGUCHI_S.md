@@ -21,11 +21,11 @@ missions:
     time_start:   2009-12-20T21:52Z
     time_end:     2010-06-02T03:26Z
 evas:
-  - time_start: 2005-07-30
-    duration:   6h50m
-  - time_start: 2005-08-01
-    duration:   7h14m
-  - time_start: 2005-08-03
-    duration:   6h01m
+  - time_start: 2005-07-30T09:48Z
+    time_end:   2005-07-30T17:36Z
+  - time_start: 2005-08-01T08:42Z
+    time_end:   2005-08-01T15:56Z
+  - time_start: 2005-08-3T08:48Z
+    time_end:   2005-08-3T14:49Z
 gender:	Male
 ---

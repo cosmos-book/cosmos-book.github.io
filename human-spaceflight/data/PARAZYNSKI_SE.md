@@ -33,8 +33,16 @@ evas:
     time_end:   2001-04-22T18:55Z
   - time_start: 2001-04-24T12:34Z
     time_end:   2001-04-24T20:14Z
+  - time_start: 2007-10-26T10:02Z
+    time_end:   2007-10-26T16:16Z
+  - time_start: 2007-10-28T09:32Z
+    time_end:   2007-10-28T16:05Z
+  - time_start: 2007-10-30T08:45Z
+    time_end:   2007-10-30T15:53Z
+  - time_start: 2007-11-3T10:03Z
+    time_end:   2007-11-3T17:22Z
   - time_start: 
-    duration:   32h15m
+    duration:   5h1m
 gender:	Male
 country:
   - USA

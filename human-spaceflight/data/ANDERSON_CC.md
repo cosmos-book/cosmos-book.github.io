@@ -24,12 +24,12 @@ missions:
     time_start:   2010-04-05T10:21:22Z
     time_end:     2010-04-20T13:08:36Z
 evas:
-  - time_start: 2007-07-23
-    duration:   7h41m
-  - time_start: 2007-08-15
-    duration:   5h28m
-  - time_start: 2007-08-18
-    duration:   5h02m
+  - time_start: 2007-07-23T10:25Z
+    time_end:   2007-07-23T18:06Z
+  - time_start: 2007-08-15T14:38Z
+    time_end:   2007-08-15T20:05Z
+  - time_start: 2007-08-18T14:17Z
+    time_end:   2007-08-18T19:02Z
   - time_start: 2010-04-09
     duration:   6h27m
   - time_start: 2010-04-11

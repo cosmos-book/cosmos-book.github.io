@@ -29,8 +29,12 @@ evas:
     time_end:   2000-10-15T20:55Z
   - time_start: 2000-10-17T14:30Z
     time_end:   2000-10-17T21:18Z
+  - time_start: 2005-01-26T07:43Z
+    time_end:   2005-01-26T13:11Z
+  - time_start: 2005-03-28T06:25Z
+    time_end:   2005-03-28T10:55Z
   - time_start: 
-    duration:   22h51m
+    duration:   12h49m
 gender:	Male
 country:
   - USA

@@ -30,8 +30,12 @@ evas:
     time_end:   2001-07-18T09:33Z
   - time_start: 2001-07-21T04:35Z
     time_end:   2001-07-21T08:37Z
+  - time_start: 2007-06-11T20:02Z
+    time_end:   2007-06-12T02:17Z
+  - time_start: 2007-06-15T17:24Z
+    time_end:   2007-06-16T01:22Z
   - time_start: 
-    duration:   14h40m
+    duration:   27m
 gender:	Male
 country:
   - USA

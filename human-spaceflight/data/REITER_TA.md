@@ -27,7 +27,7 @@ evas:
     duration:   5h16m
   - time_start: 1996-02-08
     duration:   3h05m
-  - time_start: 2006-08-03
-    duration:   5h54m
+  - time_start: 2006-08-03T14:04Z
+    time_end:   2006-08-03T19:58Z
 gender:	Male
 ---

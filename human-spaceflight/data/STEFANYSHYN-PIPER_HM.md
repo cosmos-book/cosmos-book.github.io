@@ -20,8 +20,12 @@ missions:
     time_start:   2008-11-15T00:55Z
     time_end:     2008-11-30T21:26Z
 evas:
+  - time_start: 2006-09-12T10:17Z
+    time_end:   2006-09-12T15:43Z
+  - time_start: 2006-09-15T10:00Z
+    time_end:   2006-09-15T16:42Z
   - time_start: 
-    duration:   33h42m
+    duration:   20h34m
 country:
   - USA
 ---
