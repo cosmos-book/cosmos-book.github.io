@@ -20,6 +20,16 @@ missions:
     time_start:   1997-02-11T08:55:17Z
     time_end:     1997-02-21T08:33Z
 evas:
+  - time_start: 1997-02-14T04:34Z
+    time_end:   1997-02-14T11:16Z
+  - time_start: 1997-02-16T02:53Z
+    time_end:   1997-02-16T10:04Z
+  - time_start: 1997-02-18T13:15Z
+    time_end:   1997-02-18T18:32Z
+  - time_start: 1999-12-22T18:54Z
+    time_end:   1999-12-23T03:09Z
+  - time_start: 1999-12-24T19:17Z
+    time_end:   1999-12-25T03:25Z
   - time_start: 2002-04-11T14:36Z
     time_end:   2002-04-11T22:24Z
   - time_start: 2002-04-14T13:48Z

@@ -24,11 +24,11 @@ missions:
     time_start:   2015-09-02T04:37:42Z
     time_end:     
 evas:
-  - time_start: 2008-07-10
-    duration:   6h18m
-  - time_start: 2008-07-15
-    duration:   5h54m
-  - time_start: 2011-08-03
-    duration:   6h23m
+  - time_start: 2008-07-10T18:48Z
+    time_end:   2008-07-11T01:06Z
+  - time_start: 2008-07-15T17:08Z
+    time_end:   2008-07-15T23:02Z
+  - time_start: 2011-08-03T14:50Z
+    time_end:   2011-08-03T21:13Z
 gender:	Male
 ---

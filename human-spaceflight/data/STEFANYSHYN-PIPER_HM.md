@@ -24,8 +24,12 @@ evas:
     time_end:   2006-09-12T15:43Z
   - time_start: 2006-09-15T10:00Z
     time_end:   2006-09-15T16:42Z
-  - time_start: 
-    duration:   20h34m
+  - time_start: 2008-11-18T18:09Z
+    time_end:   2008-11-19T01:01Z
+  - time_start: 2008-11-20T17:58Z
+    time_end:   2008-11-21T00:43Z
+  - time_start: 2008-11-22T18:01Z
+    time_end:   2008-11-23T00:58Z
 country:
   - USA
 ---

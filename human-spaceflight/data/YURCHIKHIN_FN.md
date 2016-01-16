@@ -32,13 +32,15 @@ evas:
     time_end:   2007-06-06T20:00Z
   - time_start: 2007-07-23T10:25Z
     time_end:   2007-07-23T18:06Z
-  - time_start: 2010-07-27
-    duration:   6h42m
-  - time_start: 2010-11-15
-    duration:   6h27m
-  - time_start: 2013-08-16
-    duration:   7h29m
-  - time_start: 2013-08-22
-    duration:   5h58m
+  - time_start: 2010-07-27T04:11Z
+    time_end:   2010-07-27T10:53Z
+  - time_start: 2010-11-15T14:55Z
+    time_end:   2010-11-15T21:22Z
+  - time_start: 2013-06-24T13:32Z
+    time_end:   2013-06-24T20:06Z
+  - time_start: 2013-08-16T14:36Z
+    time_end:   2013-08-16T22:05Z
+  - time_start: 2013-08-22T11:34Z
+    time_end:   2013-08-22T17:32Z
 gender:	Male
 ---

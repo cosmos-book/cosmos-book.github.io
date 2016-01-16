@@ -32,8 +32,16 @@ evas:
     time_end:   2004-08-3T11:28Z
   - time_start: 2004-09-3T16:43Z
     time_end:   2004-09-3T22:04Z
-  - time_start: 
-    duration:   32h53m
+  - time_start: 2008-12-23T00:51Z
+    time_end:   2008-12-23T06:29Z
+  - time_start: 2009-03-10T16:22Z
+    time_end:   2009-03-10T21:11Z
+  - time_start: 2011-05-22T06:05Z
+    time_end:   2011-05-22T14:12Z
+  - time_start: 2011-05-25T05:43Z
+    time_end:   2011-05-25T12:37Z
+  - time_start: 2011-05-27T04:15Z
+    time_end:   2011-05-27T11:39Z
 gender:	Male
 country:
   - USA

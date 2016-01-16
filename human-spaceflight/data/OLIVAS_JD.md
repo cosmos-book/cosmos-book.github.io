@@ -25,8 +25,12 @@ evas:
     time_end:   2007-06-12T02:17Z
   - time_start: 2007-06-15T17:24Z
     time_end:   2007-06-16T01:22Z
-  - time_start: 
-    duration:   20h15m
+  - time_start: 2009-09-01T21:49Z
+    time_end:   2009-09-02T04:24Z
+  - time_start: 2009-09-03T22:13Z
+    time_end:   2009-09-04T04:51Z
+  - time_start: 2009-09-05T20:39Z
+    time_end:   2009-09-06T03:40Z
 gender:	Male
 country:
   - USA

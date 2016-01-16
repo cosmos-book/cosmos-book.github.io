@@ -21,11 +21,11 @@ missions:
     time_end:     2015-06-11T13:44Z
 evas:
   - time_start: 2015-02-21T12:45Z
-    duration:   6h41m
+    time_end:   2015-02-21T19:26Z
   - time_start: 2015-02-25T11:51Z
-    duration:   6h43m
+    time_end:   2015-02-25T18:34Z
   - time_start: 2015-03-01T11:52Z
-    duration:   5h38m
+    time_end:   2015-03-01T17:30Z
 gender:	Male
 country:
   - USA

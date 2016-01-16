@@ -26,9 +26,9 @@ evas:
     time_end:   2006-12-15T00:41Z
   - time_start: 2006-12-18T19:00Z
     time_end:   2006-12-19T01:38Z
-  - time_start: 2009-09-03
-    duration:   6h39m
-  - time_start: 2009-09-05
-    duration:   7h01m
+  - time_start: 2009-09-03T22:13Z
+    time_end:   2009-09-04T04:51Z
+  - time_start: 2009-09-05T20:39Z
+    time_end:   2009-09-06T03:40Z
 gender:	Male
 ---

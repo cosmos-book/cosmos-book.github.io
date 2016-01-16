@@ -42,12 +42,12 @@ evas:
   - time_start: 2004-09-3T16:43Z
     time_end:   2004-09-3T22:04Z
   - time_start: 2009-06-05T07:52Z
-    duration:   4h54m
+    time_end:   2009-06-05T12:46Z
   - time_start: 2009-06-10T06:55Z
-    duration:   0h12m
+    time_end:   2009-06-10T07:07Z
   - time_start: 2012-08-20T15:37Z
-    duration:   5h51m
+    time_end:   2012-08-20T21:28Z
   - time_start: 2015-08-10T14:20Z
-    duration:   5h31m
+    time_end:   2015-08-10T19:51Z
 gender:	Male
 ---

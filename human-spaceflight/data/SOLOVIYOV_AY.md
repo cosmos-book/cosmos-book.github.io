@@ -53,8 +53,8 @@ evas:
     duration:   3h08m
   - time_start: 1995-07-21
     duration:   5h35m
-  - time_start: 1997-09-06
-    duration:   6h00m
+  - time_start: 1997-09-06T01:07Z
+    time_end:   1997-09-06T07:07Z
   - time_start: 1997-11-03
     duration:   6h04m
   - time_start: 1997-11-06

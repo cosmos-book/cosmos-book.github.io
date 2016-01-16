@@ -24,12 +24,12 @@ missions:
     time_start:   2015-12-15T11:03:10Z
     time_end:
 evas:
-  - time_start:	  2009-07-18T16:19Z
-    time_end:     2009-07-18T21:51Z
-  - time_start:   2015-12-21T12:45Z
-    duration:     3h16m
-  - time_start:   2016-01-15T12:48Z
-    time_end:     2016-01-15T17:31Z
+  - time_start:	2009-07-18T16:19Z
+    time_end:   2009-07-18T21:51Z
+  - time_start: 2015-12-21T13:45Z
+    time_end:   2015-12-21T16:01Z
+  - time_start: 2016-01-15T12:48Z
+    time_end:   2016-01-15T17:31Z
 gender:	Male
 country:
   - USA

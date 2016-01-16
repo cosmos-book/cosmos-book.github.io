@@ -20,9 +20,9 @@ missions:
     time_start:   2014-09-25T20:25Z
     time_end:     2015-03-12T02:07Z
 evas:
-  - time_start: 2011-08-03
-    duration:   6h23m
-  - time_start: 2014-10-22
-    duration:   3h38m
+  - time_start: 2011-08-03T14:50Z
+    time_end:   2011-08-03T21:13Z
+  - time_start: 2014-10-22T13:28Z
+    time_end:   2014-10-22T17:06Z
 gender:	Male
 ---

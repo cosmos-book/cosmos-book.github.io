@@ -28,8 +28,12 @@ evas:
     time_end:   2002-04-11T22:24Z
   - time_start: 2002-04-14T13:48Z
     time_end:   2002-04-14T20:15Z
-  - time_start: 
-    duration:   22h08m
+  - time_start: 2008-02-11T14:13Z
+    time_end:   2008-02-11T22:11Z
+  - time_start: 2008-02-13T14:27Z
+    time_end:   2008-02-13T21:12Z
+  - time_start: 2008-02-15T14:27Z
+    time_end:   2008-02-15T20:32Z
 gender:	Male
 country:
   - USA

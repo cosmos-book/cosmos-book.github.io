@@ -32,8 +32,14 @@ evas:
     time_end:   2002-10-12T20:35Z
   - time_start: 2002-10-14T14:08Z
     time_end:   2002-10-14T20:44Z
+  - time_start: 2009-07-18T16:19Z
+    time_end:   2009-07-18T21:51Z
+  - time_start: 2009-07-20T15:27Z
+    time_end:   2009-07-20T22:20Z
+  - time_start: 2009-07-22T14:32Z
+    time_end:   2009-07-22T20:31Z
   - time_start: 
-    duration:   21h24m
+    duration:   3h
 gender:	Male
 country:
   - USA

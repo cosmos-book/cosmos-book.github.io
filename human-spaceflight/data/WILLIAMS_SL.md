@@ -33,8 +33,12 @@ evas:
     time_end:   2007-02-4T20:49Z
   - time_start: 2007-02-8T13:26Z
     time_end:   2007-02-8T20:06Z
-  - time_start: 
-    duration:   21h23m
+  - time_start: 2012-08-30T12:16Z
+    time_end:   2012-08-30T20:33Z
+  - time_start: 2012-09-05T11:06Z
+    time_end:   2012-09-05T17:34Z
+  - time_start: 2012-11-01T12:29Z
+    time_end:   2012-11-01T19:07Z
 country:
   - USA
 ---

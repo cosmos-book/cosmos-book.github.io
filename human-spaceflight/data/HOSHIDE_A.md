@@ -21,11 +21,11 @@ missions:
     time_start:   2012-07-15T02:40:03Z
     time_end:     2012-11-19T01:53:31Z
 evas:
-  - time_start: 2012-08-30
-    duration:   8h17m
-  - time_start: 2012-09-05
-    duration:   6h28m
-  - time_start: 2012-11-01
-    duration:   6h38m
+  - time_start: 2012-08-30T12:16Z
+    time_end:   2012-08-30T20:33Z
+  - time_start: 2012-09-05T11:06Z
+    time_end:   2012-09-05T17:34Z
+  - time_start: 2012-11-01T12:29Z
+    time_end:   2012-11-01T19:07Z
 gender:	Male
 ---

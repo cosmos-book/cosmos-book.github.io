@@ -40,7 +40,7 @@ evas:
     time_end:   2000-09-11T11:01Z
   - time_start: 2007-11-09T09:54Z
     time_end:   2007-11-09T16:49Z
-  - time_start: 2012-08-20
-    duration:   5h51m
+  - time_start: 2012-08-20T15:37Z
+    time_end:   2012-08-20T21:28Z
 gender:	Male
 ---

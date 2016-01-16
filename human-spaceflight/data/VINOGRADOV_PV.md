@@ -31,7 +31,7 @@ evas:
     duration:   3h06m
   - time_start: 2006-06-01T23:48Z
     time_end:   2006-06-02T06:19Z
-  - time_start: 2013-04-19
-    duration:   6h38m
+  - time_start: 2013-04-19T14:03Z
+    time_end:   2013-04-19T20:41Z
 gender:	Male
 ---

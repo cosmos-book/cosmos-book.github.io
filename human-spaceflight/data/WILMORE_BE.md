@@ -19,14 +19,14 @@ missions:
     time_start:   2014-09-25T20:25Z
     time_end:     2015-03-12T02:07Z
 evas:
-  - time_start: 2014-10-15
-    duration:   6h34m
+  - time_start: 2014-10-15T12:16Z
+    time_end:   2014-10-15T18:50Z
   - time_start: 2015-02-21T12:45Z
-    duration:   6h41m
+    time_end:   2015-02-21T19:26Z
   - time_start: 2015-02-25T11:51Z
-    duration:   6h43m
+    time_end:   2015-02-25T18:34Z
   - time_start: 2015-03-01T11:52Z
-    duration:   5h38m
+    time_end:   2015-03-01T17:30Z
 gender:	Male
 country:
   - USA
