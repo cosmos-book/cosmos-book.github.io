@@ -26,12 +26,16 @@ missions:
     time_start:   
     time_end:     2001-12-17T17:56:14Z
 evas:
-  - time_start: 1995-05-12
-    duration:   6h15m
-  - time_start: 1995-05-17
-    duration:   6h52m
-  - time_start: 1995-05-22
-    duration:   5h15m
+  - time_start: 1995-05-12T04:20:44Z
+    time_end:   1995-05-12T10:35:16Z
+  - time_start: 1995-05-17T02:38Z
+    time_end:   1995-05-17T09:20Z
+  - time_start: 1995-05-22T00:10:20Z
+    time_end:   1995-05-22T05:25:11Z
+  - time_start: 1995-05-28T22:22Z
+    time_end:   1995-05-28T22:43Z
+  - time_start: 1995-06-01T22:05:30Z
+    time_end:   1995-06-01T22:28:20Z
   - time_start: 2001-10-08T14:24Z
     time_end:   2001-10-08T19:22Z
   - time_start: 2001-10-15T09:17Z

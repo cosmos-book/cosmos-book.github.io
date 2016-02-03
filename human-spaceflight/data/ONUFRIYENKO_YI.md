@@ -23,18 +23,18 @@ missions:
     time_start:   2002-06-05T21:22:49Z
     time_end:     2002-06-19T17:58:46Z
 evas:
-  - time_start: 1996-03-15
-    duration:   5h52m
-  - time_start: 1996-05-20
-    duration:   5h20m
-  - time_start: 1996-05-24
-    duration:   5h43m
-  - time_start: 1996-05-30
-    duration:   4h20m
-  - time_start: 1996-06-06
-    duration:   3h34m
-  - time_start: 1996-06-13
-    duration:   5h42m
+  - time_start: 1996-03-15T01:04Z
+    time_end:   1996-03-15T06:55Z
+  - time_start: 1996-05-20T22:50Z
+    time_end:   1996-05-21T04:10Z
+  - time_start: 1996-05-24T20:47Z
+    time_end:   1996-05-25T02:30Z
+  - time_start: 1996-05-30T18:20Z
+    time_end:   1996-05-30T22:40Z
+  - time_start: 1996-06-06T16:56Z
+    time_end:   1996-06-06T20:30Z
+  - time_start: 1996-06-13T12:45Z
+    time_end:   1996-06-13T18:27Z
   - time_start: 2002-01-14T20:59Z
     time_end:   2002-01-15T03:02Z
   - time_start: 2002-01-25T15:19Z

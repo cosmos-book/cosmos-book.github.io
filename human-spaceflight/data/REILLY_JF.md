@@ -34,8 +34,6 @@ evas:
     time_end:   2007-06-12T02:17Z
   - time_start: 2007-06-15T17:24Z
     time_end:   2007-06-16T01:22Z
-  - time_start: 
-    duration:   27m
 gender:	Male
 country:
   - USA

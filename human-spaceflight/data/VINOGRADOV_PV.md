@@ -23,12 +23,16 @@ missions:
     time_start:   2013-03-28T20:43:20Z
     time_end:     2013-09-11T02:59Z
 evas:
-  - time_start: 1997-11-03
-    duration:   6h04m
-  - time_start: 1997-11-06
-    duration:   6h17m
-  - time_start: 1998-01-09
-    duration:   3h06m
+  - time_start: 1997-08-22T11:14Z
+    time_end:   1997-08-22T14:30Z
+  - time_start: 1997-10-20T09:40Z
+    time_end:   1997-10-20T16:18Z
+  - time_start: 1997-11-03T03:32Z
+    time_end:   1997-11-03T09:36Z
+  - time_start: 1997-11-06T00:12Z
+    time_end:   1997-11-06T06:24Z
+  - time_start: 1998-01-08T23:08Z
+    time_end:   1998-01-09T02:14Z
   - time_start: 2006-06-01T23:48Z
     time_end:   2006-06-02T06:19Z
   - time_start: 2013-04-19T14:03Z

@@ -35,33 +35,37 @@ missions:
     time_start:   1997-08-05T15:35:54Z
     time_end:     1998-02-19T09:10:31Z
 evas:
-  - time_start: 1990-07-17
-    duration:   7h16m
-  - time_start: 1990-07-26
-    duration:   3h31m
-  - time_start: 1992-09-03
-    duration:   3h56m
-  - time_start: 1992-09-07
-    duration:   5h08m
-  - time_start: 1992-09-11
-    duration:   5h44m
-  - time_start: 1992-09-15
-    duration:   3h33m
-  - time_start: 1995-07-14
-    duration:   5h34m
-  - time_start: 1995-07-19
-    duration:   3h08m
-  - time_start: 1995-07-21
-    duration:   5h35m
+  - time_start: 1990-07-17T13:06Z
+    time_end:   1990-07-17T20:22Z
+  - time_start: 1990-07-26T11:15Z
+    time_end:   1990-07-26T14:46Z
+  - time_start: 1992-09-03T13:32Z
+    time_end:   1992-09-03T17:28Z
+  - time_start: 1992-09-07T11:47Z
+    time_end:   1992-09-07T16:55Z
+  - time_start: 1992-09-11T10:06Z
+    time_end:   1992-09-11T15:50Z
+  - time_start: 1992-09-15T07:49Z
+    time_end:   1992-09-15T11:22Z
+  - time_start: 1995-07-14T03:56Z
+    time_end:   1995-07-14T09:30Z
+  - time_start: 1995-07-19T00:39Z
+    time_end:   1995-07-19T03:47Z
+  - time_start: 1995-07-21T00:28Z
+    time_end:   1995-07-21T06:18Z
+  - time_start: 1997-08-22T11:14Z
+    time_end:   1997-08-22T14:30Z
   - time_start: 1997-09-06T01:07Z
     time_end:   1997-09-06T07:07Z
-  - time_start: 1997-11-03
-    duration:   6h04m
-  - time_start: 1997-11-06
-    duration:   6h17m
-  - time_start: 1998-01-09
-    duration:   3h06m
-  - time_start: 1998-01-14
-    duration:   3h52m
+  - time_start: 1997-10-20T09:40Z
+    time_end:   1997-10-20T16:18Z
+  - time_start: 1997-11-03T03:32Z
+    time_end:   1997-11-03T09:36Z
+  - time_start: 1997-11-06T00:12Z
+    time_end:   1997-11-06T06:24Z
+  - time_start: 1998-01-08T23:08Z
+    time_end:   1998-01-09T02:14Z
+  - time_start: 1998-01-14T21:12Z
+    time_end:   1998-01-15T01:04Z
 gender:	Male
 ---

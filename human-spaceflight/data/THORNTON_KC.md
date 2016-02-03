@@ -28,12 +28,12 @@ missions:
     time_start:   1995-10-20T13:53Z
     time_end:     1995-11-05T11:45:22Z
 evas:
+  - time_start: 1992-05-14T21:00Z
+    time_end:   1992-05-15T04:45Z 
   - time_start: 1993-12-06T03:29Z
     time_end:   1993-12-06T10:05Z
   - time_start: 1993-12-08T03:13Z
     time_end:   1993-12-08T10:03Z
-  - time_start: 1992-05-14T21:00Z
-    time_end:   1992-05-15T04:45Z
 country:
   - USA
 ---

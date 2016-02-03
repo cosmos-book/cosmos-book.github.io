@@ -31,18 +31,18 @@ missions:
     time_start:	
     time_end:	2001-10-31T05:00:00Z
 evas:
-  - time_start: 1991-01-07
-    duration:   5h18m
-  - time_start:	1991-01-22
-    duration:	5h04m
-  - time_start:	1991-01-26
-    duration:	6h20m
-  - time_start:	1991-04-25
-    duration:	3h34m
-  - time_start:	1999-04-16
-    duration:	6h19m
-  - time_start:	1999-07-23
-    duration:	6h07m
-  - time_start:	1999-07-28
-    duration:	5h22m
+  - time_start: 1991-01-07T17:03Z
+    time_end:   1991-01-07T22:21Z
+  - time_start: 1991-01-23T10:59Z
+    time_end:   1991-01-23T16:32Z
+  - time_start: 1991-01-26T09:00Z
+    time_end:   1991-01-26T15:20Z
+  - time_start: 1991-04-25T20:29Z
+    time_end:   1991-04-26T00:03Z
+  - time_start: 1999-04-16T04:37Z
+    time_end:   1999-04-16T10:56Z
+  - time_start: 1999-07-23T11:06Z
+    time_end:   1999-07-23T17:13Z
+  - time_start: 1999-07-28T09:37Z
+    time_end:   1999-07-28T14:59Z
 ---

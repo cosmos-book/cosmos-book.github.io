@@ -17,8 +17,8 @@ missions:
     time_start:   1972-12-07T05:33Z
     time_end:     1972-12-19T19:25:00Z
 evas:
-  - time_start: 1972-12-17T20:27Z
-    time_end:   1972-12-17T21:34Z
+  - time_start: 1972-12-17T20:27:40Z
+    time_end:   1972-12-17T21:33:24Z
 gender:	Male
 country:
   - USA

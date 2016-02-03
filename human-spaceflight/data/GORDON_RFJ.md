@@ -19,8 +19,10 @@ missions:
     time_start:   1969-11-14T16:22Z
     time_end:     1969-11-24T20:58:25Z
 evas:
-  - time_start: 
-    duration:   38m
+  - time_start: 1966-09-13T14:44:00Z
+    time_end:   1966-09-13T15:17:00Z
+  - time_start: 1966-09-14T12:49:00Z
+    time_end:   1966-09-14T14:57:00Z
 gender:	Male
 country:
   - USA

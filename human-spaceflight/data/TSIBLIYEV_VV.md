@@ -20,17 +20,17 @@ missions:
     time_start:   1997-02-10T14:09:30Z
     time_end:     1997-08-14T12:17:11Z
 evas:
-  - time_start: 1993-09-16
-    duration:   4h18m
-  - time_start: 1993-09-20
-    duration:   3h13m
-  - time_start: 1993-09-28
-    duration:   1h52m
-  - time_start: 1993-10-22
-    duration:   0h38m
-  - time_start: 1993-10-29
-    duration:   4h12m
-  - time_start: 1997-04-29
-    duration:   4h57m
+  - time_start: 1993-09-16T05:57Z
+    time_end:   1993-09-16T10:16Z
+  - time_start: 1993-09-20T03:51:50Z
+    time_end:   1993-09-20T07:05:40Z
+  - time_start: 1993-09-28T00:57Z
+    time_end:   1993-09-28T02:48Z
+  - time_start: 1993-10-22T15:47Z
+    time_end:   1993-10-22T16:25Z
+  - time_start: 1993-10-29T13:38Z
+    time_end:   1993-10-29T17:50Z
+  - time_start: 1997-04-29T05:10Z
+    time_end:   1997-04-29T10:09Z
 gender:	Male
 ---

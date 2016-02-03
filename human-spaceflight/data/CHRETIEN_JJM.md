@@ -26,7 +26,7 @@ missions:
     time_start:   1997-09-26T02:34:19Z
     time_end:     1997-10-06T21:56Z
 evas:
-  - time_start: 1988-12-09
-    duration:   6h10m
+  - time_start: 1988-12-09T09:57Z
+    time_end:   1988-12-09T15:57Z
 gender:	Male
 ---

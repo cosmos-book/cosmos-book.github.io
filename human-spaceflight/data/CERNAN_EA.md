@@ -23,14 +23,14 @@ missions:
     time_start:   1972-12-07T05:33Z
     time_end:     1972-12-19T19:25:00Z
 evas:
-  - time_start: 1966-06-05T15:02Z
-    time_end:   1966-06-05T17:10Z
-  - time_start: 1972-12-11T23:55Z
-    time_end:   1972-12-12T07:07Z
-  - time_start: 1972-12-12T23:28Z
-    time_end:   1972-12-13T07:05Z
-  - time_start: 1972-12-13T22:26Z
-    time_end:   1972-12-14T05:41Z
+  - time_start: 1966-06-05T15:02:00Z
+    time_end:   1966-06-05T17:09:00Z
+  - time_start: 1972-12-11T23:54:49Z
+    time_end:   1972-12-12T07:06:42Z
+  - time_start: 1972-12-12T23:28:06Z
+    time_end:   1972-12-13T07:05:02Z
+  - time_start: 1972-12-13T22:25:48Z
+    time_end:   1972-12-14T05:40:56Z
 gender:	Male
 country:
   - USA

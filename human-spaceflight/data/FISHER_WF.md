@@ -17,8 +17,10 @@ missions:
     time_start:   1985-08-27T10:58:01Z
     time_end:     1985-09-03T13:15:44Z
 evas:
-  - time_start: 
-    duration:   11h52m
+  - time_start: 1985-08-31 
+    duration:   7h20m
+  - time_start: 1985-09-01 
+    duration:   4h26m
 gender:	Male
 country:
   - USA

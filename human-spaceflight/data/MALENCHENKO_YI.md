@@ -32,15 +32,17 @@ missions:
     time_start:   2015-12-15T11:03:10Z
     time_end:
 evas:
-  - time_start: 1994-09-09
-    duration:   5h04m
-  - time_start: 1994-09-13
-    duration:   6h01m
+  - time_start: 1994-09-09T07:00Z
+    time_end:   1994-09-09T12:06Z
+  - time_start: 1994-09-13T06:30Z
+    time_end:   1994-09-13T12:32Z
   - time_start: 2000-09-11T04:47Z
     time_end:   2000-09-11T11:01Z
   - time_start: 2007-11-09T09:54Z
     time_end:   2007-11-09T16:49Z
   - time_start: 2012-08-20T15:37Z
     time_end:   2012-08-20T21:28Z
+  - time_start: 2016-02-03T12:55Z
+    time_end:   2016-02-03T17:40Z
 gender:	Male
 ---

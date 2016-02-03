@@ -147,7 +147,7 @@
 * **COLEMAN, Catherine G. 'Cady', (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COLLINS, Eileen M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COLLINS, Michael**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **CONRAD, Charles, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CONRAD, Charles 'Pete', Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COOPER, L. Gordon, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COVEY, Richard O.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CREAMER, Timothy J.**: http://www.nasa.gov/pdf/740566main_current.pdf

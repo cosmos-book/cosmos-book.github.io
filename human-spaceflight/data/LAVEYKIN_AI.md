@@ -17,11 +17,11 @@ missions:
     time_start:   1987-02-05T21:38:16Z
     time_end:     1987-07-30T01:04:13Z
 evas:
-  - time_start: 1987-04-11
-    duration:   3h40m
-  - time_start: 1987-06-12
-    duration:   1h53m
-  - time_start: 1987-06-16
-    duration:   3h15m
+  - time_start: 1987-04-11T19:41Z
+    time_end:   1987-04-11T23:21Z
+  - time_start: 1987-06-12T16:55Z
+    time_end:   1987-06-12T18:48Z
+  - time_start: 1987-06-16T15:30Z
+    time_end:   1987-06-16T18:45Z
 gender:	Male
 ---

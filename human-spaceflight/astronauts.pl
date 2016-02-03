@@ -172,7 +172,7 @@ foreach $file (sort(@files)){
 				}
 			}else{
 				if(!$land && $launch){
-					if(duration($launch,$now) < 300*86400){
+					if(duration($launch,$now) < 400*86400){
 						print "$name is in space (launched $launch)\n";
 						$inspace = 1;
 						$land = $now;
@@ -251,6 +251,7 @@ foreach $file (sort(@files)){
 		if($ineva){
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
     			$e = extractTime($1);
+    			print "Warning: $name has duration $e ($eva_start)\n";
 				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
 				$eva += $e;
 				$totaleva += $e;
@@ -262,6 +263,7 @@ foreach $file (sort(@files)){
     			$eva_end = $1;
     			if($eva_start){
 					$e = duration($eva_start,$eva_end);
+					if($e < 0){ print "ERROR: $name duration is $e ($eva_start)\n"; }
 					if($e > $longesteva){ print "EVA DURATION = $e ($eva_start $name ; $evas)\n"; $longesteva = $e; }
 					$eva += $e;
 					$totaleva += $e;

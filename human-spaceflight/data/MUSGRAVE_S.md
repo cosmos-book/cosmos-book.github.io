@@ -26,6 +26,8 @@ missions:
     time_start:   1989-11-23T00:23:30Z
     time_end:     1989-11-28T00:30:17Z
 evas:
+  - time_start: 1983-04-07T21:05Z
+    time_end:   1983-04-08T01:15Z
   - time_start: 1993-12-05T03:44Z
     time_end:   1993-12-05T11:38Z
   - time_start: 1993-12-07T03:35Z

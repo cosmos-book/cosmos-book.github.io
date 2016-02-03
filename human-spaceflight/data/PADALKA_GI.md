@@ -30,9 +30,9 @@ missions:
     time_end:     2015-09-12T00:51:36Z
 evas:
   - time_start: 1998-09-15T20:00Z
-    duration:   0h30m
-  - time_start: 1998-11-10
-    duration:   5h54m
+    time_end:   1998-09-15T20:30Z
+  - time_start: 1998-11-10T19:23Z
+    time_end:   1998-11-11T01:18Z
   - time_start: 2004-06-24T21:56Z
     time_end:   2004-06-24T22:10Z
   - time_start: 2004-06-30T21:19Z

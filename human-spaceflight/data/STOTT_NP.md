@@ -27,8 +27,6 @@ missions:
 evas:
   - time_start: 2009-09-01T21:49Z
     time_end:   2009-09-02T04:24Z
-  - time_start: 
-    duration:   4m
 country:
   - USA
 ---

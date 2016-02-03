@@ -29,25 +29,25 @@ missions:
     time_start:   1993-07-01T14:32:58Z
     time_end:     1994-01-14T08:18:21Z
 evas:
-  - time_start: 1990-01-08
-    duration:   2h56m
-  - time_start: 1990-01-11
-    duration:   2h54m
-  - time_start: 1990-01-26
-    duration:   3h02m
-  - time_start: 1990-02-01
-    duration:   4h59m
-  - time_start: 1990-02-05
-    duration:   3h45m
-  - time_start: 1993-09-16
-    duration:   4h18m
-  - time_start: 1993-09-20
-    duration:   3h13m
-  - time_start: 1993-09-28
-    duration:   1h52m
-  - time_start: 1993-10-22
-    duration:   0h38m
-  - time_start: 1993-10-29
-    duration:   4h12m
+  - time_start: 1990-01-08T20:23Z
+    time_end:   1990-01-08T23:19Z
+  - time_start: 1990-01-11T18:01Z
+    time_end:   1990-01-11T20:55Z
+  - time_start: 1990-01-26T12:09Z
+    time_end:   1990-01-26T15:11Z
+  - time_start: 1990-02-01T08:15Z
+    time_end:   1990-02-01T13:14Z
+  - time_start: 1990-02-05T06:08Z
+    time_end:   1990-02-05T09:53Z
+  - time_start: 1993-09-16T05:57Z
+    time_end:   1993-09-16T10:16Z
+  - time_start: 1993-09-20T03:51:50Z
+    time_end:   1993-09-20T07:05:40Z
+  - time_start: 1993-09-28T00:57Z
+    time_end:   1993-09-28T02:48Z
+  - time_start: 1993-10-22T15:47Z
+    time_end:   1993-10-22T16:25Z
+  - time_start: 1993-10-29T13:38Z
+    time_end:   1993-10-29T17:50Z
 gender:	Male
 ---

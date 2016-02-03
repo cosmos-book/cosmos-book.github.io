@@ -35,13 +35,17 @@ missions:
     time_start:   
     time_end:     1995-07-07T14:55:29Z
 evas:
-  - time_start: 1990-10-29
-    duration:   3h45m
-  - time_start: 1995-05-12
-    duration:   6h15m
-  - time_start: 1995-05-17
-    duration:   6h52m
-  - time_start: 1995-05-22
-    duration:   5h15m
+  - time_start: 1990-10-29T21:45Z
+    time_end:   1990-10-30T00:30Z
+  - time_start: 1995-05-12T04:20:44Z
+    time_end:   1995-05-12T10:35:16Z
+  - time_start: 1995-05-17T02:38Z
+    time_end:   1995-05-17T09:20Z
+  - time_start: 1995-05-22T00:10:20Z
+    time_end:   1995-05-22T05:25:11Z
+  - time_start: 1995-05-28T22:22Z
+    time_end:   1995-05-28T22:43Z
+  - time_start: 1995-06-01T22:05:30Z
+    time_end:   1995-06-01T22:28:20Z
 gender:	Male
 ---

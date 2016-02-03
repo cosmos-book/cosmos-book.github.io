@@ -23,10 +23,10 @@ missions:
     time_start:   
     time_end:     2002-12-07T19:38:26Z
 evas:
-  - time_start: 1996-12-02
-    duration:   5h58m
-  - time_start: 1996-12-09
-    duration:   6h38m
+  - time_start: 1996-12-02T15:54Z
+    time_end:   1996-12-02T21:52Z
+  - time_start: 1996-12-09T13:50Z
+    time_end:   1996-12-09T20:28Z
   - time_start: 2002-08-16T09:23Z
     time_end:   2002-08-16T13:48Z
   - time_start: 2002-08-26T05:27Z

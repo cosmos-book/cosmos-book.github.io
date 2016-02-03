@@ -24,6 +24,6 @@ missions:
     time_start:   1984-07-17T17:40:54Z
     time_end:     1984-07-29T12:55:31Z
 evas:
-  - time_start: 1984-07-25
-    duration:   3h35m
+  - time_start: 1984-07-25T14:55Z
+    time_end:   1984-07-25T18:29Z
 ---

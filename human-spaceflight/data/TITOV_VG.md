@@ -30,12 +30,12 @@ missions:
     time_start:   1997-09-26T02:34:19Z
     time_end:     1997-10-06T21:56Z
 evas:
-  - time_start: 1988-02-26
-    duration:   4h25m
-  - time_start: 1988-06-30
-    duration:   5h10m
-  - time_start: 1988-10-20
-    duration:   4h12m
+  - time_start: 1988-02-26T09:00Z
+    time_end:   1988-02-26T13:55Z
+  - time_start: 1988-06-30T05:33Z
+    time_end:   1988-06-30T10:43Z
+  - time_start: 1988-10-20T05:59Z
+    time_end:   1988-10-20T10:11Z
   - time_start: 1997-10-01T17:29Z
     time_end:   1997-10-01T22:30Z
 ---

@@ -31,21 +31,21 @@ missions:
     time_start:   
     time_end:     2003-05-04T02:04:26Z
 evas:
-  - time_start: 1995-07-14
-    duration:   5h34m
-  - time_start: 1995-07-19
-    duration:   3h08m
-  - time_start: 1995-07-21
-    duration:   5h35m
-  - time_start: 1998-04-01
-    duration:   6h26m
-  - time_start: 1998-04-06
-    duration:   4h23m
-  - time_start: 1998-04-11
-    duration:   6h25m
-  - time_start: 1998-04-17
-    duration:   6h33m
-  - time_start: 1998-04-22
-    duration:   6h21m
+  - time_start: 1995-07-14T03:56Z
+    time_end:   1995-07-14T09:30Z
+  - time_start: 1995-07-19T00:39Z
+    time_end:   1995-07-19T03:47Z
+  - time_start: 1995-07-21T00:28Z
+    time_end:   1995-07-21T06:18Z
+  - time_start: 1998-04-01T13:35Z
+    time_end:   1998-04-01T20:15Z
+  - time_start: 1998-04-06T13:35Z
+    time_end:   1998-04-06T17:50Z
+  - time_start: 1998-04-11T09:55Z
+    time_end:   1998-04-11T16:20Z
+  - time_start: 1998-04-17T07:40Z
+    time_end:   1998-04-17T14:13Z
+  - time_start: 1998-04-22T05:34Z
+    time_end:   1998-04-22T11:55Z
 gender:	Male
 ---

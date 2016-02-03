@@ -26,21 +26,21 @@ missions:
     time_start:   1986-03-13T12:33:09Z
     time_end:     1986-07-16T12:34:06Z
 evas:
-  - time_start: 1984-04-23
-    duration:   4h15m
-  - time_start: 1984-04-26
-    duration:   4h56m
-  - time_start: 1984-04-29
-    duration:   2h45m
-  - time_start: 1984-05-03
-    duration:   2h45m
-  - time_start: 1984-05-18
-    duration:   3h05m
-  - time_start: 1984-08-08
-    duration:   5h00m
-  - time_start: 1986-05-28
-    duration:   3h50m
-  - time_start: 1986-05-31
-    duration:   5h02m
+  - time_start: 1984-04-23T04:31Z
+    time_end:   1984-04-23T08:46Z
+  - time_start: 1984-04-26T02:40Z
+    time_end:   1984-04-26T07:40Z
+  - time_start: 1984-04-29T01:35Z
+    time_end:   1984-04-29T04:20Z
+  - time_start: 1984-05-03T23:15Z
+    time_end:   1984-05-04T02:00Z
+  - time_start: 1984-05-18T17:52Z
+    time_end:   1984-05-18T20:57Z
+  - time_start: 1984-08-08T08:46Z
+    time_end:   1984-08-08T13:46Z
+  - time_start: 1986-05-28T05:43Z
+    time_end:   1986-05-28T09:33Z
+  - time_start: 1986-05-31T04:57Z
+    time_end:   1986-05-31T09:57Z
 gender:	Male
 ---
