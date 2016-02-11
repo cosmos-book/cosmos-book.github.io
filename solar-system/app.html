@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Cosmos: The infographic book of space</title>
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript">
+	// stuQuery
+	var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.substr(1);for(var l=0;l<n.classList.length;l++){if(n.classList[l]==m){return true}}}else{if(m[0]=="#"){if(n.id==m.substr(1)){return true}}else{if(n.tagName==m.toUpperCase()){return true}}}return false}function c(p,o){var n=-1;var l=new Array();if(o.indexOf(":eq")>0){var j=o.replace(/(.*)\:eq\(([0-9]+)\)/,"$1 $2").split(" ");o=j[0];n=parseInt(j[1])}if(o[0]=="."){els=p.getElementsByClassName(o.substr(1))}else{if(o[0]=="#"){els=p.getElementById(o.substr(1))}else{els=p.getElementsByTagName(o)}}if(!els){els=[]}if(els.nodeName&&els.nodeName=="SELECT"){l.push(els)}else{if(typeof els.length!=="number"){els=[els]}for(k=0;k<els.length;k++){l.push(els[k])}if(n>=0&&l.length>0){if(n<l.length){l=[l[n]]}else{l=[]}}}return l}function d(p){if(typeof p==="string"){var e,p,q,o,m,l,n;e=p.split(" ");for(o=0;o<e.length;o++){if(o==0){p=c(document,e[o])}else{q=new Array();for(m=0;m<p.length;m++){q=q.concat(c(p[m],e[o]))}p=q.splice(0)}}}this.e=[];if(!p){return this}if(typeof p.length!=="number"){p=[p]}this.e=p;return this}d.prototype.ready=function(e){/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):e()};d.prototype.html=function(j){if(typeof j==="number"){j=""+j}if(typeof j!=="string"&&this.e.length==1){return this.e[0].innerHTML}if(typeof j==="string"){for(var e=0;e<this.e.length;e++){this.e[e].innerHTML=j}}return this};d.prototype.append=function(j){if(!j&&this.e.length==1){return this.e[0].innerHTML}if(j){for(var e=0;e<this.e.length;e++){this.e[e].innerHTML+=j}}return this};function h(e,l){if(e&&e.length>0){for(var j=0;j<e.length;j++){if(e[j].node==l){return{success:true,match:j}}}}return{success:false}}function f(n,l,j,i,m){if(!eventcache[l]){eventcache[l]=new Array()}eventcache[l].push({node:n,fn:j,fn2:i,data:m})}function b(j){if(eventcache[j.type]){var i=h(eventcache[j.type],j.currentTarget);if(i.success){if(i.match.data){j.data=eventcache[j.type][i.match].data}return{fn:eventcache[j.type][i.match].fn,data:j}}}return function(){return{fn:""}}}d.prototype.off=function(l){if(typeof Element.prototype.removeEventListener!=="function"){Element.prototype.removeEventListener=function(r,o){if(!oListeners.hasOwnProperty(r)){return}var n=oListeners[r];for(var i=-1,m=0;m<n.aEls.length;m++){if(n.aEls[m]===this){i=m;break}}if(i===-1){return}for(var q=0,p=n.aEvts[i];q<p.length;q++){if(p[q]===o){p.splice(q,1)}}}}for(var j=0;j<this.e.length;j++){var e=h(eventcache[l],this.e[j]);if(e.success){this.e[j].removeEventListener(l,eventcache[l][e.match].fn2,false);eventcache[l].splice(e.match,1)}}return this};d.prototype.on=function(m,n,l){m=m||window.event;this.cache=[4,5,6];if(typeof n==="function"&&!l){l=n;n=""}if(typeof l!=="function"){return this}if(this.e.length>0){var o=this;var e=function(i){var p=b({currentTarget:this,type:m,data:n,originalEvent:i});if(typeof p.fn==="function"){return p.fn.call(o,p.data)}};for(var j=0;j<this.e.length;j++){f(this.e[j],m,l,e,n);if(this.e[j].addEventListener){this.e[j].addEventListener(m,e,false)}else{if(this.e[j].attachEvent){this.e[j].attachEvent(m,e)}}}}return this};d.prototype.trigger=function(m){var l;if(document.createEvent){l=document.createEvent("HTMLEvents");l.initEvent(m,true,true)}else{l=document.createEventObject();l.eventType=m}l.eventName=m;for(var j=0;j<this.e.length;j++){if(document.createEvent){this.e[j].dispatchEvent(l)}else{this.e[j].fireEvent("on"+l.eventType,l)}}return this};d.prototype.focus=function(){if(this.e.length==1){this.e[0].focus()}return this};d.prototype.blur=function(){if(this.e.length==1){this.e[0].blur()}return this};d.prototype.remove=function(){if(!this.e){return this}for(var e=this.e.length-1;e>=0;e--){if(!this.e[e]){return}if(typeof this.e[e].remove==="function"){this.e[e].remove()}else{if(typeof this.e[e].parentElement.removeChild==="function"){this.e[e].parentElement.removeChild(this.e[e])}}}return S(this.e)};d.prototype.hasClass=function(j){var e=true;for(var l=0;l<this.e.length;l++){if(!this.e[l].className.match(new RegExp("(\\s|^)"+j+"(\\s|$)"))){e=false}}return e};d.prototype.toggleClass=function(e){for(var j=0;j<this.e.length;j++){if(this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=this.e[j].className.replace(new RegExp("(\\s|^)"+e+"(\\s|$)","g")," ").replace(/ $/,"")}else{this.e[j].className=(this.e[j].className+" "+e).replace(/^ /,"")}}return S(this.e)};d.prototype.addClass=function(e){for(var j=0;j<this.e.length;j++){if(!this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=(this.e[j].className+" "+e).replace(/^ /,"")}}return S(this.e)};d.prototype.removeClass=function(e){for(var j=0;j<this.e.length;j++){while(this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=this.e[j].className.replace(new RegExp("(\\s|^)"+e+"(\\s|$)","g")," ").replace(/ $/,"").replace(/^ /,"")}}return S(this.e)};d.prototype.css=function(m){var o;for(var l=0;l<this.e.length;l++){o={};var n=this.e[l].getAttribute("style");if(n){var q=this.e[l].getAttribute("style").split(";");for(var j=0;j<q.length;j++){var p=q[j].split(":");if(p.length==2){o[p[0]]=p[1]}}}if(typeof m==="object"){for(key in m){o[key]=m[key]}var e="";for(key in o){if(e){e+=";"}if(o[key]){e+=key+":"+o[key]}}this.e[l].setAttribute("style",e)}}if(this.e.length==1&&typeof m==="string"){return o[m]}return S(this.e)};d.prototype.parent=function(){var j=[];for(var e=0;e<this.e.length;e++){j.push(this.e[e].parentElement)}return S(j)};d.prototype.children=function(m){if(typeof m==="string"){var e=[];for(var j=0;j<this.e.length;j++){for(var l=0;l<this.e[j].children.length;l++){if(a(this.e[j].children[l],m)){e.push(this.e[j].children[l])}}}return S(e)}else{for(var j=0;j<this.e.length;j++){this.e[j]=(this.e[j].children.length>m?this.e[j].children[m]:this.e[j])}return S(this.e)}};d.prototype.find=function(j){var m=[];var e=[];for(var l=0;l<this.e.length;l++){m=c(this.e[l],j);for(k=0;k<m.length;k++){e.push(m[k])}}return S(e)};d.prototype.attr=function(e,m){var l=[];for(var j=0;j<this.e.length;j++){l.push(this.e[j].getAttribute(e));if(typeof m==="string"||typeof m==="number"){this.e[j].setAttribute(e,m)}}if(l.length==1){l=l[0]}if(typeof m==="undefined"){return l}else{return S(this.e)}};d.prototype.prop=function(e,m){var l=[];for(var j=0;j<this.e.length;j++){l.push(this.e[j].getAttribute(e));if(typeof m==="boolean"){if(m){this.e[j].setAttribute(e,e)}else{this.e[j].removeAttribute(e)}}}if(l.length==1){l=l[0]}return l};d.prototype.clone=function(){var e=document.createElement("div");e.appendChild(this.e[0].cloneNode(true));return e.innerHTML};d.prototype.replaceWith=function(j){var l=document.createElement("span");l.innerHTML=j;var m=S(this.e);for(var e=0;e<this.e.length;e++){m.e[0].parentNode.replaceChild(l,m.e[0])}return m};d.prototype.ajax=function(l,j){if(typeof l!=="string"){return false}if(!j){j={}}j.url=l;var n=(window.XMLHttpRequest)?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP");n.addEventListener("load",e);n.addEventListener("error",i);function e(o){if(n.status===200){if(typeof j.complete==="function"){j.complete.call((j["this"]?j["this"]:this),(j.dataType=="json")?JSON.parse(n.responseText):n.responseText,j)}}else{i(o)}}function i(o){if(typeof j.error==="function"){j.error.call((j["this"]?j["this"]:this),o,j)}}try{n.open("GET",l)}catch(m){i(m)}try{n.send()}catch(m){i(m)}return this};d.prototype.loadJSON=function(i,j,e){if(!e){e={}}e.dataType="json";e.complete=j;this.ajax(i,e);return this};return new d(g)};
+	function cssrules(){
+		var rules={}; var ds=document.styleSheets,dsl=ds.length;
+		for (var i=0;i<dsl;++i){
+			var dsi=ds[i].cssRules,dsil=dsi.length;
+			for (var j=0;j<dsil;++j) rules[dsi[j].selectorText]=dsi[j];
+		}
+		return rules;
+	};
+	function css_getclass(name,createifnotfound){
+		var rules=cssrules();
+		if (!rules.hasOwnProperty(name)){
+			console.log('todo:deal_with_notfound_case');
+			return;
+		} else return rules[name];
+	};
+
+	r(function(){
+		var scale = 0.5/149600000;
+		var year = 2;
+		var planets = {
+			"mercury": { "orbit": 57895200, "year": 1, "d": 0.6, "period": 0.2, "offset": 0 },
+			"venus": { "orbit": 108160800, "year": 1, "d": 0.6, "period": 0.615, "offset": 0 },
+			"earth": { "orbit": 149600000, "year": 1, "d": 0.6, "period": 1, "offset": 0 },
+			"mars": { "orbit": 227990400, "year": 1, "d": 0.6, "period": 1.881, "offset": 280 },
+			"ceres": { "orbit": 413688880, "year": 1, "d": 0.6, "period": 4.6, "offset": 0 },
+			"jupiter": { "orbit": 753236000, "year": 1, "d": 3, "period": 11.9, "offset": 110 },
+			"saturn": { "orbit": 1426735200, "year": 1, "d": 2.5, "period": 29.4, "offset": 200 },
+			"uranus": { "orbit": 2870699084, "year": 1, "d": 1.4, "period": 84, "offset": 5 },
+			"neptune": { "orbit": 4498472000, "year": 1, "d": 1.4, "period": 164.8, "offset": 150 },
+			"pluto": { "orbit": 5906524703, "year": 1, "d": 0.6, "period": 247.7, "offset": 260 },
+			"haumea": { "orbit": 6432102864, "year": 1, "d": 0.6, "period": 281.9, "offset": 240 },
+			"makemake": { "orbit": 6783442054, "year": 1, "d": 0.6, "period": 305.3, "offset": 310 },
+			"eris": { "orbit": 10180267733, "year": 1, "d": 0.6, "period": 561.4, "offset": 290 },
+			"moon": { "orbit": 380000, "year": 1/12, "d": 0.2, "period": 1/12, "offset": 0 }
+		}
+
+	
+		for(p in planets){
+			var d = planets[p].orbit*scale*2;
+			var r = d/2;
+			S('ul .'+p).css({'width':toEM(d),'height':toEM(d),'margin-top':toEM(-r),'left':toEM(-r)});
+			var sz = planets[p].d*0.5;
+			if(sz < 0.5) sz = 0.5;
+			S('ul .'+p+' .planet').css({'width':toEM(sz),'height':toEM(sz),'top':toEM(-sz/2),'left':toEM(r-sz/2)});
+			
+			var s = css_getclass('ul.solarsystem li.'+p);
+			if(s){
+				css = s.style;
+				var t = (year*planets[p].period).toFixed(2);
+				css['-webkit-animation-duration'] = t+"s";
+				css[' -moz-animation-duration'] = t+"s";
+				css["animation-duration"] = t+"s";
+				if(planets[p].offset) css['animation-delay'] = (-year*planets[p].period*planets[p].offset/360).toFixed(2)+'s';
+			}
+		}
+	});
+	function toEM(d){
+		return d.toFixed(3)+'em';
+	}
+
+
+	</script>
+</head>
+<body class="SOL">
+	<div id="container">
+		<div id="bg">
+			<ul class="solarsystem">
+				<li class="mercury"><a href="#mercury"><span class="planet"><span class="name">Mercury</span></span></a></li>
+				<li class="venus"><a href="#venus"><span class="planet"><span class="name">Venus</span></span></a></li>
+				<li class="earth"><a href="#earth"><span class="planet"><span class="name">Earth<span class="moon"></span></span></span></a></li>
+				<li class="mars"><a href="#mars"><span class="planet"><span class="name">Mars</span></span></a></li>
+				<li class="ceres"><a href="#mars"><span class="planet"><span class="name">Ceres</span></span></a></li>
+				<li class="jupiter"><a href="#jupiter"><span class="planet"><span class="name">Jupiter</span></span></a></li>
+				<li class="saturn"><a href="#saturn"><span class="planet"><span class="name">Saturn</span></span></a></li>
+				<li class="uranus"><a href="#uranus"><span class="planet"><span class="name">Uranus</span></span></a></li>
+				<li class="neptune"><a href="#neptune"><span class="planet"><span class="name">Neptune</span></span></a></li>
+				<li class="pluto"><a href="#pluto"><span class="planet"><span class="name">Pluto</span></span></a></li>
+				<li class="haumea"><a href="#haumea"><span class="planet"><span class="name">Haumea</span></span></a></li>
+				<li class="makemake"><a href="#makemake"><span class="planet"><span class="name">Makemake</span></span></a></li>
+				<li class="eris"><a href="#eris"><span class="planet"><span class="name">Eris</span></span></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
