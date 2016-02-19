@@ -11,7 +11,7 @@
 	var jumpers = {
 		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png', 'data-jump': 'Jump!' },
 		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png', 'data-jump': 'Jump!' },
-		'philae': {'title':'Philae', 'jump': 0.00735983, 'velocity': 0.38, 'img':'philae.png', 'data-jump': 'Bounce!' }
+		'philae': {'title':'Philae', 'jump': 0.0002617737, 'velocity': 0.07166589146867568, 'img':'philae.png', 'data-jump': 'Bounce!' }	// 7.1 cm/s vertical based on 31.7 cm/s lateral and 32.5 cm/s total velocity after TD1
 	}
 	var bodies = {
 		'Mercury': { 'type': 'planet', 'a': -3.7, 'vesc': 15300 },
@@ -37,7 +37,7 @@
 		'Charon (largest moon of Pluto)': { 'type': 'moon', 'a': -0.2830, 'vesc': 6670.6674012822 },
 		'Vesta (largest asteroid)': { 'type': 'moon', 'a': -0.2514516103, 'vesc': 1308.5030690412 },
 		'21 Lutetia': { 'type': 'moon', 'a': -0.0094132231, 'vesc': 163.8260718512 },
-		'Comet 67P': { 'type': 'moon', 'a': -0.0000722, 'vesc': 1 }
+		'Comet 67P': { 'type': 'moon', 'a': -0.0000321, 'vesc': 1 }	// 'surface gravity' calculated based on Philae having a vertical velocity of 0.071 m/s after TD1 and bouncing to an altitude of ~80m See http://www.esa.int/Our_Activities/Space_Science/Rosetta/Rosetta_and_Philae_find_comet_not_magnetised
 	}
 
 	var u = 3.1320919527;	// initial velocity in m/s (allows a jump of 0.5m on Earth)
@@ -180,7 +180,7 @@
 	.SOL { background-color: #e1f4fe; }
 
 	#container {
-		height: 60000px;
+		height: 48000px;
 		position: absolute;
 		left: 0px;
 		right: 0px;
