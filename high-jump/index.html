@@ -9,9 +9,9 @@
 
 	// Height that can be jumped on Earth (metres)
 	var jumpers = {
-		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png'},
-		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png'},
-		'philae': {'title':'Philae', 'jump': 0.00735983, 'velocity': 0.38, 'img':'philae.png'}
+		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png', 'data-jump': 'Jump!' },
+		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png', 'data-jump': 'Jump!' },
+		'philae': {'title':'Philae', 'jump': 0.00735983, 'velocity': 0.38, 'img':'philae.png', 'data-jump': 'Bounce!' }
 	}
 	var bodies = {
 		'Mercury': { 'type': 'planet', 'a': -3.7, 'vesc': 15300 },
@@ -145,6 +145,7 @@
 	function setJumper(j){
 		setJumpHeightOnEarth(jumpers[j].jump);
 		S('#person img').attr('src',jumpers[j].img);
+		S('#jump').attr('data-jump',jumpers[j]['data-jump']).html(jumpers[j]['data-jump']);
 		updateBodies();
 	}
 	function setJumpHeightOnEarth(s){
