@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg4136" version="1.1" inkscape:version="0.91 r13725" width="80" height="50" viewBox="0 0 80 50" sodipodi:docname="person.svg" inkscape:export-filename="/Users/stuartlowe/Projects/cosmos-book.github.io/high-jump/person.png" inkscape:export-xdpi="180" inkscape:export-ydpi="180">
+  <metadata id="metadata4142">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs4140" />
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1275" inkscape:window-height="675" id="namedview4138" showgrid="false" inkscape:zoom="5.4732" inkscape:cx="13.05" inkscape:cy="34.226" inkscape:window-x="32" inkscape:window-y="119" inkscape:window-maximized="0" inkscape:current-layer="svg4136" />
+  <g id="g4152" transform="translate(20,0)">
+    <path sodipodi:nodetypes="cccccccccccccccccccccccc" inkscape:connector-curvature="0" id="path4148" d="m 2.2838,0.02942 3.4715,5.93798 7.8567,3.8369 6.76,0.9137 10.049,-0.09 8.953,-2.9229 0.548,3.2889 -7.948,3.289 -9.41,0.822 -1.096,7.582 8.039,6.669 5.025,11.785 -2.101,2.009 -6.852,-10.231 -4.476,-2.375 2.466,5.024 -3.014,14.343 -4.02,-0.09 1.553,-13.246 -7.217,-12.059 0.731,-11.054 -8.3133,-4.2932 -3.01464,-9.13538 z" style="fill:#4f458d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <ellipse ry="4.4307" rx="4.522" cy="4.3687" cx="18.316" id="path4150" style="opacity:1;fill:#4f458d;fill-opacity:1;stroke:none;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
