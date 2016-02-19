@@ -10,7 +10,8 @@
 	// Height that can be jumped on Earth (metres)
 	var jumpers = {
 		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png'},
-		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png'}
+		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png'},
+		'philae': {'title':'Philae', 'jump': 0.00735983, 'velocity': 0.38, 'img':'philae.png'}
 	}
 	var bodies = {
 		'Mercury': { 'type': 'planet', 'a': -3.7, 'vesc': 15300 },
@@ -36,7 +37,7 @@
 		'Charon (largest moon of Pluto)': { 'type': 'moon', 'a': -0.2830, 'vesc': 6670.6674012822 },
 		'Vesta (largest asteroid)': { 'type': 'moon', 'a': -0.2514516103, 'vesc': 1308.5030690412 },
 		'21 Lutetia': { 'type': 'moon', 'a': -0.0094132231, 'vesc': 163.8260718512 },
-		'Comet 67P': { 'type': 'moon', 'a': -0.0001072, 'vesc': 2.6356327514 }
+		'Comet 67P': { 'type': 'moon', 'a': -0.0000722, 'vesc': 1 }
 	}
 
 	var u = 3.1320919527;	// initial velocity in m/s (allows a jump of 0.5m on Earth)
@@ -178,7 +179,7 @@
 	.SOL { background-color: #e1f4fe; }
 
 	#container {
-		height: 48000px;
+		height: 60000px;
 		position: absolute;
 		left: 0px;
 		right: 0px;
