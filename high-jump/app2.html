@@ -9,8 +9,8 @@
 
 	// Height that can be jumped on Earth (metres)
 	var jumpers = {
-		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png', 'data-jump': 'Jump!' },
-		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png', 'data-jump': 'Jump!' }
+		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png'},
+		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png'}
 	}
 	var bodies = {
 		'Mercury': { 'type': 'planet', 'a': -3.7, 'vesc': 15300 },
@@ -36,7 +36,7 @@
 		'Charon (largest moon of Pluto)': { 'type': 'moon', 'a': -0.2830, 'vesc': 6670.6674012822 },
 		'Vesta (largest asteroid)': { 'type': 'moon', 'a': -0.2514516103, 'vesc': 1308.5030690412 },
 		'21 Lutetia': { 'type': 'moon', 'a': -0.0094132231, 'vesc': 163.8260718512 },
-		'Comet 67P': { 'type': 'moon', 'a': -0.0000321, 'vesc': 1 }	// 'surface gravity' calculated based on Philae having a vertical velocity of 0.071 m/s after TD1 and bouncing to an altitude of ~80m See http://www.esa.int/Our_Activities/Space_Science/Rosetta/Rosetta_and_Philae_find_comet_not_magnetised
+		'Comet 67P': { 'type': 'moon', 'a': -0.0001072, 'vesc': 2.6356327514 }
 	}
 
 	var u = 3.1320919527;	// initial velocity in m/s (allows a jump of 0.5m on Earth)
@@ -144,7 +144,6 @@
 	function setJumper(j){
 		setJumpHeightOnEarth(jumpers[j].jump);
 		S('#person img').attr('src',jumpers[j].img);
-		S('#jump').attr('data-jump',jumpers[j]['data-jump']).html(jumpers[j]['data-jump']);
 		updateBodies();
 	}
 	function setJumpHeightOnEarth(s){
@@ -253,9 +252,6 @@
 		margin: auto;
 		display: block;
 	}
-	button {
-		cursor: pointer;
-	}
 	form select:first-child {
 		margin-top: 3em;	
 	}
@@ -282,74 +278,10 @@
 		background-color: #8a84bf;
 	}
 	#bottom { background-color: transparent; }
-	nav {
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		z-index: 1000;
-		background-color: white;
-		box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
-		line-height: 1em;
-	}
-	.padder {
-		padding: 1em 1.5em;
-	}
-	#header a, #footer a {
-		color: inherit;
-	}
-	h1, h2, h3, .title, .title:visited {
-		color: inherit;
-		font-family: "Source Code Pro",monospace,sans-serif;
-		font-weight: 600;
-		letter-spacing: -1px;
-		margin-top: 0;
-		text-decoration: none;
-	}
-	ul#menu {
-		float: right;
-		margin: 0;
-	}
-	ul#menu {
-		display: inline-block;
-		float: right;
-		font-family: "Source Code Pro",monospace,sans-serif;
-		font-weight: 500;
-		list-style: outside none none;
-		margin: 0 0 0;
-		padding: 0;
-	}
-	ul#menu li {
-		display: inline-block;
-	}
-	@media only screen and (max-width: 700px){
-		h1 { font-size: 1.3em; }
-		.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px!important; bottom: 0px; right: 0px; width: auto; position: fixed; overflow-y: auto; }
-		body.hastooltip { overflow: hidden; }
-		.tooltip .tooltip_inner:before { border: 0px; }
-		.tooltip.left,.tooltip.right { margin-left: 0px; margin-right:0px; left: 0px; right: 0px; }
-		.wide { display: none; }
-		.inner { padding: 0em;}
-		.padder { padding: 0.5em; }
-		.padded { margin: 0.5em; }
-		ul#menu { font-family: "Helvetica Neue", sans-serif; font-weight: normal; }
-		p.columns { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
-	}
-
 	</style>
 </head>
 <body class="SOL">
 	<div id="container">
-		<nav id="header">
-			<div class="padder">
-				<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
-				<ul id="menu">
-					<li><a href="../contents.html">contents</a> / </li>
-					<li><a href="../credits/index.html">credits</a> / </li>
-					<li><a href="../errata/index.html">errata</a></li>
-				</ul>
-			</div>
-		</nav>
 		<div id="bg">
 			<div id="scale"></div>
 			<div id="person"><img src="person.png" /></div>
