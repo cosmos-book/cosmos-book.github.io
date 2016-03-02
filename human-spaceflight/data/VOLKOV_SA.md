@@ -22,7 +22,7 @@ missions:
     time_end:     2011-11-22T02:27Z
   - name: Soyuz TMA-18M
     time_start:   2015-09-02T04:37:42Z
-    time_end:     
+    time_end:     2016-03-01T04:26Z
 evas:
   - time_start: 2008-07-10T18:48Z
     time_end:   2008-07-11T01:06Z

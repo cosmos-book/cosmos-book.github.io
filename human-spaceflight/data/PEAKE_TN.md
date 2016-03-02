@@ -10,7 +10,7 @@ birthplace:
     longitude:	-0.77918
 twitter:	astro_timpeake
 missions:
-  - name: Soyuz TMA-19M
+  - name:         Soyuz TMA-19M
     time_start:   2015-12-15T11:03:10Z
     time_end:
 country:
@@ -21,5 +21,4 @@ evas:
 references:
   - http://www.spacefacts.de/bios/international/english/peake_timothy.htm
   - http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Timothy_Peake
-missions:	
 ---

@@ -25,7 +25,7 @@ missions:
     time_end:     2011-03-16T07:55Z
   - name: Soyuz TMA-16M
     time_start:   2015-03-27T19:42:57Z
-    time_end:     
+    time_end:     2016-03-01T04:26Z
 evas:
   - time_start: 2015-10-28T12:03Z
     time_end:   2015-10-28T19:19Z
