@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Cosmos: The infographic book of space</title>
+	<script type="text/javascript">
+	// stuQuery
+	var eventcache={};function S(g){function a(n,m){var j=false;if(m[0]=="."){m=m.substr(1);for(var l=0;l<n.classList.length;l++){if(n.classList[l]==m){return true}}}else{if(m[0]=="#"){if(n.id==m.substr(1)){return true}}else{if(n.tagName==m.toUpperCase()){return true}}}return false}function c(p,o){var n=-1;var l=new Array();if(o.indexOf(":eq")>0){var j=o.replace(/(.*)\:eq\(([0-9]+)\)/,"$1 $2").split(" ");o=j[0];n=parseInt(j[1])}if(o[0]=="."){els=p.getElementsByClassName(o.substr(1))}else{if(o[0]=="#"){els=p.getElementById(o.substr(1))}else{els=p.getElementsByTagName(o)}}if(!els){els=[]}if(els.nodeName&&els.nodeName=="SELECT"){l.push(els)}else{if(typeof els.length!=="number"){els=[els]}for(k=0;k<els.length;k++){l.push(els[k])}if(n>=0&&l.length>0){if(n<l.length){l=[l[n]]}else{l=[]}}}return l}function d(p){if(typeof p==="string"){var e,p,q,o,m,l,n;e=p.split(" ");for(o=0;o<e.length;o++){if(o==0){p=c(document,e[o])}else{q=new Array();for(m=0;m<p.length;m++){q=q.concat(c(p[m],e[o]))}p=q.splice(0)}}}this.e=[];if(!p){return this}if(typeof p.length!=="number"){p=[p]}this.e=p;return this}d.prototype.ready=function(e){/in/.test(document.readyState)?setTimeout("S(document).ready("+e+")",9):e()};d.prototype.html=function(j){if(typeof j==="number"){j=""+j}if(typeof j!=="string"&&this.e.length==1){return this.e[0].innerHTML}if(typeof j==="string"){for(var e=0;e<this.e.length;e++){this.e[e].innerHTML=j}}return this};d.prototype.append=function(j){if(!j&&this.e.length==1){return this.e[0].innerHTML}if(j){for(var e=0;e<this.e.length;e++){this.e[e].innerHTML+=j}}return this};function h(e,l){if(e&&e.length>0){for(var j=0;j<e.length;j++){if(e[j].node==l){return{success:true,match:j}}}}return{success:false}}function f(n,l,j,i,m){if(!eventcache[l]){eventcache[l]=new Array()}eventcache[l].push({node:n,fn:j,fn2:i,data:m})}function b(j){if(eventcache[j.type]){var i=h(eventcache[j.type],j.currentTarget);if(i.success){if(i.match.data){j.data=eventcache[j.type][i.match].data}return{fn:eventcache[j.type][i.match].fn,data:j}}}return function(){return{fn:""}}}d.prototype.off=function(l){if(typeof Element.prototype.removeEventListener!=="function"){Element.prototype.removeEventListener=function(r,o){if(!oListeners.hasOwnProperty(r)){return}var n=oListeners[r];for(var i=-1,m=0;m<n.aEls.length;m++){if(n.aEls[m]===this){i=m;break}}if(i===-1){return}for(var q=0,p=n.aEvts[i];q<p.length;q++){if(p[q]===o){p.splice(q,1)}}}}for(var j=0;j<this.e.length;j++){var e=h(eventcache[l],this.e[j]);if(e.success){this.e[j].removeEventListener(l,eventcache[l][e.match].fn2,false);eventcache[l].splice(e.match,1)}}return this};d.prototype.on=function(m,n,l){m=m||window.event;this.cache=[4,5,6];if(typeof n==="function"&&!l){l=n;n=""}if(typeof l!=="function"){return this}if(this.e.length>0){var o=this;var e=function(i){var p=b({currentTarget:this,type:m,data:n,originalEvent:i});if(typeof p.fn==="function"){return p.fn.call(o,p.data)}};for(var j=0;j<this.e.length;j++){f(this.e[j],m,l,e,n);if(this.e[j].addEventListener){this.e[j].addEventListener(m,e,false)}else{if(this.e[j].attachEvent){this.e[j].attachEvent(m,e)}}}}return this};d.prototype.trigger=function(m){var l;if(document.createEvent){l=document.createEvent("HTMLEvents");l.initEvent(m,true,true)}else{l=document.createEventObject();l.eventType=m}l.eventName=m;for(var j=0;j<this.e.length;j++){if(document.createEvent){this.e[j].dispatchEvent(l)}else{this.e[j].fireEvent("on"+l.eventType,l)}}return this};d.prototype.focus=function(){if(this.e.length==1){this.e[0].focus()}return this};d.prototype.blur=function(){if(this.e.length==1){this.e[0].blur()}return this};d.prototype.remove=function(){if(!this.e){return this}for(var e=this.e.length-1;e>=0;e--){if(!this.e[e]){return}if(typeof this.e[e].remove==="function"){this.e[e].remove()}else{if(typeof this.e[e].parentElement.removeChild==="function"){this.e[e].parentElement.removeChild(this.e[e])}}}return S(this.e)};d.prototype.hasClass=function(j){var e=true;for(var l=0;l<this.e.length;l++){if(!this.e[l].className.match(new RegExp("(\\s|^)"+j+"(\\s|$)"))){e=false}}return e};d.prototype.toggleClass=function(e){for(var j=0;j<this.e.length;j++){if(this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=this.e[j].className.replace(new RegExp("(\\s|^)"+e+"(\\s|$)","g")," ").replace(/ $/,"")}else{this.e[j].className=(this.e[j].className+" "+e).replace(/^ /,"")}}return S(this.e)};d.prototype.addClass=function(e){for(var j=0;j<this.e.length;j++){if(!this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=(this.e[j].className+" "+e).replace(/^ /,"")}}return S(this.e)};d.prototype.removeClass=function(e){for(var j=0;j<this.e.length;j++){while(this.e[j].className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))){this.e[j].className=this.e[j].className.replace(new RegExp("(\\s|^)"+e+"(\\s|$)","g")," ").replace(/ $/,"").replace(/^ /,"")}}return S(this.e)};d.prototype.css=function(m){var o;for(var l=0;l<this.e.length;l++){o={};var n=this.e[l].getAttribute("style");if(n){var q=this.e[l].getAttribute("style").split(";");for(var j=0;j<q.length;j++){var p=q[j].split(":");if(p.length==2){o[p[0]]=p[1]}}}if(typeof m==="object"){for(key in m){o[key]=m[key]}var e="";for(key in o){if(e){e+=";"}if(o[key]){e+=key+":"+o[key]}}this.e[l].setAttribute("style",e)}}if(this.e.length==1&&typeof m==="string"){return o[m]}return S(this.e)};d.prototype.parent=function(){var j=[];for(var e=0;e<this.e.length;e++){j.push(this.e[e].parentElement)}return S(j)};d.prototype.children=function(m){if(typeof m==="string"){var e=[];for(var j=0;j<this.e.length;j++){for(var l=0;l<this.e[j].children.length;l++){if(a(this.e[j].children[l],m)){e.push(this.e[j].children[l])}}}return S(e)}else{for(var j=0;j<this.e.length;j++){this.e[j]=(this.e[j].children.length>m?this.e[j].children[m]:this.e[j])}return S(this.e)}};d.prototype.find=function(j){var m=[];var e=[];for(var l=0;l<this.e.length;l++){m=c(this.e[l],j);for(k=0;k<m.length;k++){e.push(m[k])}}return S(e)};d.prototype.attr=function(e,m){var l=[];for(var j=0;j<this.e.length;j++){l.push(this.e[j].getAttribute(e));if(typeof m==="string"||typeof m==="number"){this.e[j].setAttribute(e,m)}}if(l.length==1){l=l[0]}if(typeof m==="undefined"){return l}else{return S(this.e)}};d.prototype.prop=function(e,m){var l=[];for(var j=0;j<this.e.length;j++){l.push(this.e[j].getAttribute(e));if(typeof m==="boolean"){if(m){this.e[j].setAttribute(e,e)}else{this.e[j].removeAttribute(e)}}}if(l.length==1){l=l[0]}return l};d.prototype.clone=function(){var e=document.createElement("div");e.appendChild(this.e[0].cloneNode(true));return e.innerHTML};d.prototype.replaceWith=function(j){var l=document.createElement("span");l.innerHTML=j;var m=S(this.e);for(var e=0;e<this.e.length;e++){m.e[0].parentNode.replaceChild(l,m.e[0])}return m};d.prototype.ajax=function(l,j){if(typeof l!=="string"){return false}if(!j){j={}}j.url=l;var n=(window.XMLHttpRequest)?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP");n.addEventListener("load",e);n.addEventListener("error",i);function e(o){if(n.status===200){if(typeof j.complete==="function"){j.complete.call((j["this"]?j["this"]:this),(j.dataType=="json")?JSON.parse(n.responseText):n.responseText,j)}}else{i(o)}}function i(o){if(typeof j.error==="function"){j.error.call((j["this"]?j["this"]:this),o,j)}}try{n.open("GET",l)}catch(m){i(m)}try{n.send()}catch(m){i(m)}return this};d.prototype.loadJSON=function(i,j,e){if(!e){e={}}e.dataType="json";e.complete=j;this.ajax(i,e);return this};return new d(g)};
+
+	function cssrules(){
+		var rules={}; var ds=document.styleSheets,dsl=ds.length;
+		for (var i=0;i<dsl;++i){
+			var dsi=ds[i].cssRules,dsil=dsi.length;
+			for (var j=0;j<dsil;++j) rules[dsi[j].selectorText]=dsi[j];
+		}
+		return rules;
+	};
+	function css_getclass(name,createifnotfound){
+		var rules=cssrules();
+		if (!rules.hasOwnProperty(name)){
+			console.log('todo:deal_with_notfound_case');
+			return;
+		} else return rules[name];
+	};
+
+	S(document).ready(function(){
+		var scale = 0.35/149600000;
+		var year = 2;
+		var planets = {
+			"mercury": { "orbit": 57895200, "year": 1, "d": 0.6, "period": 0.2, "offset": 0 },
+			"venus": { "orbit": 108160800, "year": 1, "d": 0.6, "period": 0.615, "offset": 0 },
+			"earth": { "orbit": 149600000, "year": 1, "d": 0.6, "period": 1, "offset": 0 },
+			"mars": { "orbit": 227990400, "year": 1, "d": 0.6, "period": 1.881, "offset": 280 },
+			"ceres": { "orbit": 413688880, "year": 1, "d": 0.6, "period": 4.6, "offset": 0 },
+			"jupiter": { "orbit": 753236000, "year": 1, "d": 3, "period": 11.9, "offset": 110 },
+			"saturn": { "orbit": 1426735200, "year": 1, "d": 2.5, "period": 29.4, "offset": 200 },
+			"uranus": { "orbit": 2870699084, "year": 1, "d": 1.4, "period": 84, "offset": 5 },
+			"neptune": { "orbit": 4498472000, "year": 1, "d": 1.4, "period": 164.8, "offset": 150 },
+			"pluto": { "orbit": 5906524703, "year": 1, "d": 0.6, "period": 247.7, "offset": 260 },
+			"haumea": { "orbit": 6432102864, "year": 1, "d": 0.6, "period": 281.9, "offset": 240 },
+			"makemake": { "orbit": 6783442054, "year": 1, "d": 0.6, "period": 305.3, "offset": 310 },
+			"eris": { "orbit": 10180267733, "year": 1, "d": 0.6, "period": 561.4, "offset": 290 },
+			"moon": { "orbit": 380000, "year": 1/12, "d": 0.2, "period": 1/12, "offset": 0 }
+		}
+
+		var str = "";
+		for(p in planets){
+			var d = planets[p].orbit*scale*2;
+			var r = d/2;
+			var styles = {'width':toEM(d),'height':toEM(d),'margin-top':toEM(-r),'left':toEM(-r)};
+			str += 'ul .'+p+' { width: '+toEM(d)+'; height: '+toEM(d)+'; margin-top: '+toEM(-r)+'; left: '+toEM(-r)+' }\n';
+			S('ul .'+p).css(styles);
+			var sz = planets[p].d*0.5;
+			if(sz < 0.5) sz = 0.5;
+			S('ul .'+p+' .planet').css({'width':toEM(sz),'height':toEM(sz),'top':toEM(-sz/2),'left':toEM(r-sz/2)});
+			str += 'ul .'+p+' .planet, { width: '+toEM(sz)+'; height: '+toEM(sz)+'; top: '+toEM(-sz/2)+'; left: '+toEM(r-sz/2)+' }\n';
+			
+			var s = css_getclass('ul.solarsystem li.'+p);
+			if(s){
+				css = s.style;
+				var t = (year*planets[p].period).toFixed(2);
+				css['-webkit-animation-duration'] = t+"s";
+				css[' -moz-animation-duration'] = t+"s";
+				css["animation-duration"] = t+"s";
+				if(planets[p].offset) css['animation-delay'] = (-year*planets[p].period*planets[p].offset/360).toFixed(2)+'s';
+			}
+		}
+		if(console && console.log) console.log(str)
+	});
+	function toEM(d){
+		return d.toFixed(3)+'em';
+	}
+
+
+	</script>
+	<style>
+	body {
+		font-family: sans-serif;
+	}
+	.SOL { background-color: #e1f4fe; }
+
+	#container {
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+		overflow: hidden;
+	}
+
+	#bg {
+		left: 50%;
+		position: absolute;
+		width: 50%;
+		height: 100%;
+	}
+
+	/* Solar System Styles */
+	ul.solarsystem {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		margin: 0px;
+		list-style: none;
+		-webkit-transition: all 0.09s ease-in;
+		-moz-transition: all 0.09s ease-in;
+		-o-transition: all 0.09s ease-in;
+		transition: all 0.09s ease-in;
+		z-index: 0;
+	}
+	ul.solarsystem li {
+		text-indent: -9999px;
+		display: block;
+		position: absolute;
+		border: 1px solid #e1f4fe;
+	}
+	ul.solarsystem li .planet {
+		display: block;
+		position: absolute;
+		width: 0.6em;
+		height: 0.6em;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	ul.solarsystem li .planet .name {
+		width: auto;
+	}
+	ul.solarsystem li {
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		top: 50%;
+	}
+	ul.solarsystem li.mercury {
+		z-index: 99;
+		border-color: rgba(241,133,0,0.5);
+	}
+	ul.solarsystem li.mercury .planet {
+		background: #f18500;
+	}
+	ul.solarsystem li.venus {
+		z-index: 98;
+		border-color: rgba(34,161,211,0.5);
+	}
+	ul.solarsystem li.venus .planet {
+		background: #22a1d3;
+	}
+	ul.solarsystem li.earth {
+		z-index: 97;
+		border-color: rgba(34,152,56,0.5);
+	}
+	ul.solarsystem li.earth .planet {
+		background: #229838;
+	}
+	ul.solarsystem li.earth .planet.moon {
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		background: #999999;
+	}
+	ul.solarsystem li.mars {
+		z-index: 96;
+		border-color: rgba(230,51,34,0.5);
+	}
+	ul.solarsystem li.mars .planet {
+		background: #e63322;
+	}
+	ul.solarsystem li.ceres {
+		z-index: 95;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.ceres .planet {
+		background: #7465ab;
+	}
+	ul.solarsystem li.jupiter {
+		z-index: 94;
+		border-color: rgba(194,199,0,0.5);
+	}
+	ul.solarsystem li.jupiter .planet {
+		background: #c2c700;
+	}
+	ul.solarsystem li.saturn {
+		z-index: 93;
+		border-color: rgba(185,27,95,0.5);
+	}
+	ul.solarsystem li.saturn .planet {
+		background: #b91b5f;
+	}
+	ul.solarsystem li.uranus {
+		z-index: 92;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.uranus .planet {
+		background: #7465ab;
+	}
+	ul.solarsystem li.neptune {
+		z-index: 91;
+		border-color: rgba(98,182,172,0.5);
+	}
+	ul.solarsystem li.neptune .planet {
+		background: #62b6ac;
+	}
+	ul.solarsystem li.pluto {
+		z-index: 90;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.pluto .planet {
+		background: #7465ab;
+	}
+	ul.solarsystem li.haumea {
+		z-index: 89;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.haumea .planet {
+		background: #7465ab;
+	}
+	ul.solarsystem li.makemake {
+		z-index: 88;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.makemake .planet {
+		z-index: 87;
+		background: #7465ab;
+	}
+	ul.solarsystem li.eris {
+		z-index: 86;
+		border-color: rgba(116,101,171,0.5);
+	}
+	ul.solarsystem li.eris .planet {
+		background: #7465ab;
+	}
+	ul .mercury { width: 0.271em; height: 0.271em; margin-top: -0.135em; left: -0.135em }
+	ul .mercury .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: -0.115em }
+	ul .venus { width: 0.506em; height: 0.506em; margin-top: -0.253em; left: -0.253em }
+	ul .venus .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 0.003em }
+	ul .earth { width: 0.700em; height: 0.700em; margin-top: -0.350em; left: -0.350em }
+	ul .earth .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 0.100em }
+	ul .mars { width: 1.067em; height: 1.067em; margin-top: -0.533em; left: -0.533em }
+	ul .mars .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 0.283em }
+	ul .ceres { width: 1.936em; height: 1.936em; margin-top: -0.968em; left: -0.968em }
+	ul .ceres .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 0.718em }
+	ul .jupiter { width: 3.524em; height: 3.524em; margin-top: -1.762em; left: -1.762em }
+	ul .jupiter .planet, { width: 1.500em; height: 1.500em; top: -0.750em; left: 1.012em }
+	ul .saturn { width: 6.676em; height: 6.676em; margin-top: -3.338em; left: -3.338em }
+	ul .saturn .planet, { width: 1.250em; height: 1.250em; top: -0.625em; left: 2.713em }
+	ul .uranus { width: 13.432em; height: 13.432em; margin-top: -6.716em; left: -6.716em }
+	ul .uranus .planet, { width: 0.700em; height: 0.700em; top: -0.350em; left: 6.366em }
+	ul .neptune { width: 21.049em; height: 21.049em; margin-top: -10.524em; left: -10.524em }
+	ul .neptune .planet, { width: 0.700em; height: 0.700em; top: -0.350em; left: 10.175em }
+	ul .pluto { width: 27.637em; height: 27.637em; margin-top: -13.819em; left: -13.819em }
+	ul .pluto .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 13.569em }
+	ul .haumea { width: 30.097em; height: 30.097em; margin-top: -15.048em; left: -15.048em }
+	ul .haumea .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 14.798em }
+	ul .makemake { width: 31.741em; height: 31.741em; margin-top: -15.870em; left: -15.870em }
+	ul .makemake .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 15.620em }
+	ul .eris { width: 47.635em; height: 47.635em; margin-top: -23.817em; left: -23.817em }
+	ul .eris .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: 23.567em }
+	ul .moon { width: 0.002em; height: 0.002em; margin-top: -0.001em; left: -0.001em }
+	ul .moon .planet, { width: 0.500em; height: 0.500em; top: -0.250em; left: -0.249em }
+
+	/* CSS3 Animations */
+	ul.solarsystem li {
+		animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite; -moz-animation-iteration-count:infinite;
+		animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
+		animation-name:orbit; -moz-animation-name:orbit; -webkit-animation-name:orbit;
+	}
+	ul.solarsystem li.earth .planet {
+		animation-iteration-count:infinite; -moz-animation-iteration-count:infinite; -webkit-animation-iteration-count:infinite;
+		animation-timing-function:linear; -moz-animation-timing-function:linear; -webkit-animation-timing-function:linear;
+		animation-name:moon; -moz-animation-name:moon; -webkit-animation-name:moon;
+	}
+	ul.solarsystem li.mercury {-webkit-animation-duration:6s; -moz-animation-duration:6s; animation-duration: 6s; animation-delay: -2.5s;}
+	ul.solarsystem li.venus {-webkit-animation-duration:9.2s; -moz-animation-duration:9.2s;animation-duration:9.2s; animation-delay: -3s;}
+	ul.solarsystem li.earth {-webkit-animation-duration:15s; -moz-animation-duration:15s;animation-duration:15s;animation-delay: -2.5s;}
+	ul.solarsystem li.earth .planet {-webkit-animation-duration:1.15s; -moz-animation-duration:1.15s;animation-duration:1.15s;}
+	ul.solarsystem li.mars {-webkit-animation-duration:22.86s; -moz-animation-duration:22.86s;animation-duration:22.86s;animation-delay:-8.6s;}
+	ul.solarsystem li.ceres {-webkit-animation-duration:69s; -moz-animation-duration:69s;animation-duration:69s;animation-delay:-8.6s;}
+	ul.solarsystem li.jupiter {-webkit-animation-duration:75.375s; -moz-animation-duration:75.375s;animation-duration:75.375s;animation-delay:-21s;}
+	ul.solarsystem li.saturn {-webkit-animation-duration:143s; -moz-animation-duration:143s;animation-duration:143s;animation-delay:-35.75s;}
+	ul.solarsystem li.uranus {-webkit-animation-duration:288s; -moz-animation-duration:288s;animation-duration:288s;animation-delay:-60s;}
+	ul.solarsystem li.neptune {-webkit-animation-duration:451s; -moz-animation-duration:451s;animation-duration:451s;animation-delay:-137.8s;}
+	ul.solarsystem li.pluto {-webkit-animation-duration:3715.5s; -moz-animation-duration:3715.5s;animation-duration:3715.5s;animation-delay:-137.8s;}
+	ul.solarsystem li.haumea {-webkit-animation-duration:4228.5s; -moz-animation-duration:4228.5s;animation-duration:4228.5s;animation-delay:-137.8s;}
+	ul.solarsystem li.makemake {-webkit-animation-duration:4579.5s; -moz-animation-duration:4579.5s;animation-duration:4579.5s;animation-delay:-137.8s;}
+	ul.solarsystem li.eris {-webkit-animation-duration:8421s; -moz-animation-duration:8421s;animation-duration:8421s;animation-delay:-137.8s;}
+	@-webkit-keyframes orbit { 100% { -webkit-transform:rotate(360deg); } }
+	@-moz-keyframes orbit { 100% { -moz-transform:rotate(360deg); } }
+	@keyframes orbit { 100% { transform:rotate(360deg); } }
+	@-webkit-keyframes moon { 100% { -webkit-transform:rotate(360deg); } }
+	@-moz-keyframes moon { 100% { -moz-transform:rotate(360deg); } }
+	@keyframes moon { 100% { transform:rotate(360deg); } }
+	@media only screen and (max-width: 900px){
+		ul.solarsystem { font-size: 14px; }
+	}
+	@media only screen and (max-width: 700px){
+		ul.solarsystem { font-size: 12px; }
+	}
+	@media only screen and (max-width: 500px){
+		ul.solarsystem { font-size: 10px; }
+	}
+	.middle {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.inner {
+		margin-left: auto;
+		margin-right: auto; 
+		text-align: left;
+		max-width: 640px;
+		padding: 2.5em;
+		background: rgba(255,255,255,0.85);
+	}
+	#header a, #footer a {
+		color: inherit;
+	}
+	nav {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: 1000;
+		background-color: white;
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+		line-height: 1em;
+	}
+	h1, h2, h3, .title, .title:visited {
+		color: inherit;
+		font-family: "Source Code Pro",monospace,sans-serif;
+		font-weight: 600;
+		letter-spacing: -1px;
+		margin-top: 0;
+		text-decoration: none;
+	}
+	.padder {
+		padding: 1em 1.5em;
+	}
+	ul#menu {
+		float: right;
+		margin: 0;
+	}
+	ul#menu {
+		display: inline-block;
+		float: right;
+		font-family: "Source Code Pro",monospace,sans-serif;
+		font-weight: 500;
+		list-style: outside none none;
+		margin: 0 0 0;
+		padding: 0;
+	}
+	ul#menu a {
+		text-decoration: none;
+	}
+	ul#menu a:hover {
+		text-decoration: underline;
+	}
+	ul#menu li {
+		display: inline-block;
+	}
+	#intro { 
+		position: fixed;
+		margin: 4em 1.5em 1em 1.5em;
+		max-width: 100%;
+		z-index: 50;
+		-moz-transition: opacity 1.5s ease-in-out;
+		-o-transition: opacity 1.5s ease-in-out;
+		-webkit-transition: opacity 1.5s ease-in-out;
+		transition: opacity 1.5s ease-in-out;
+		opacity: 1;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	#intro p {
+		width: 500px;
+		max-width: 90%;
+	}
+	</style>
+</head>
+<body class="SOL">
+	<div id="container">
+		<nav id="header">
+			<div class="padder">
+				<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+				<ul id="menu">
+					<li><a href="../contents.html">contents</a> / </li>
+					<li><a href="../credits/index.html">credits</a> / </li>
+					<li><a href="../errata/index.html">errata</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="intro">
+			<h1>Scale model Solar System</h1>
+			<p>The orbits and orbital periods of planets and dwarf planets to scale. (The diameters are not to scale because they would be too small to see on this scale).</p>
+		</div>
+		<div id="bg">
+			<ul class="solarsystem">
+				<li class="mercury" style="width:0.271em;height:0.271em;margin-top:-0.135em;left:-0.135em"><a href="#mercury" title="Mercury"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:-0.115em"><span class="name">Mercury</span></span></a></li>
+				<li class="venus" style="width:0.506em;height:0.506em;margin-top:-0.253em;left:-0.253em"><a href="#venus" title="Venus"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:0.003em"><span class="name">Venus</span></span></a></li>
+				<li class="earth" style="width:0.700em;height:0.700em;margin-top:-0.350em;left:-0.350em"><a href="#earth" title="Earth"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:0.100em"><span class="name">Earth<span class="moon" style="width:0.002em;height:0.002em;margin-top:-0.001em;left:-0.001em"></span></span></span></a></li>
+				<li class="mars" style="width:1.067em;height:1.067em;margin-top:-0.533em;left:-0.533em"><a href="#mars" title="Mars"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:0.283em"><span class="name">Mars</span></span></a></li>
+				<li class="ceres" style="width:1.936em;height:1.936em;margin-top:-0.968em;left:-0.968em"><a href="#ceres" title="Ceres"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:0.718em"><span class="name">Ceres</span></span></a></li>
+				<li class="jupiter" style="width:3.524em;height:3.524em;margin-top:-1.762em;left:-1.762em"><a href="#jupiter" title="Jupiter"><span class="planet" style="width:1.500em;height:1.500em;top:-0.750em;left:1.012em"><span class="name">Jupiter</span></span></a></li>
+				<li class="saturn" style="width:6.676em;height:6.676em;margin-top:-3.338em;left:-3.338em"><a href="#saturn" title="Saturn"><span class="planet" style="width:1.250em;height:1.250em;top:-0.625em;left:2.713em"><span class="name">Saturn</span></span></a></li>
+				<li class="uranus" style="width:13.432em;height:13.432em;margin-top:-6.716em;left:-6.716em"><a href="#uranus" title="Uranus"><span class="planet" style="width:0.700em;height:0.700em;top:-0.350em;left:6.366em"><span class="name">Uranus</span></span></a></li>
+				<li class="neptune" style="width:21.049em;height:21.049em;margin-top:-10.524em;left:-10.524em"><a href="#neptune" title="Neptune"><span class="planet" style="width:0.700em;height:0.700em;top:-0.350em;left:10.175em"><span class="name">Neptune</span></span></a></li>
+				<li class="pluto" style="width:27.637em;height:27.637em;margin-top:-13.819em;left:-13.819em"><a href="#pluto" title="Pluto"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:13.569em"><span class="name">Pluto</span></span></a></li>
+				<li class="haumea" style="width:30.097em;height:30.097em;margin-top:-15.048em;left:-15.048em"><a href="#haumea" title="Haumea"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:14.798em"><span class="name">Haumea</span></span></a></li>
+				<li class="makemake" style="width:31.741em;height:31.741em;margin-top:-15.870em;left:-15.870em"><a href="#makemake" title="Makemake"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:15.620em"><span class="name">Makemake</span></span></a></li>
+				<li class="eris" style="width:47.635em;height:47.635em;margin-top:-23.817em;left:-23.817em"><a href="#eris" title="Eris"><span class="planet" style="width:0.500em;height:0.500em;top:-0.250em;left:23.567em"><span class="name">Eris</span></span></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
