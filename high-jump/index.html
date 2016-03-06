@@ -10,8 +10,8 @@
 	// Height that can be jumped on Earth (metres)
 	var jumpers = {
 		'human': {'title':'Human', 'jump': 0.5, 'img':'person.png', 'data-jump': 'Jump!' },
-		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png', 'data-jump': 'Jump!' },
-		'philae': {'title':'Philae', 'jump': 0.0002617737, 'velocity': 0.07166589146867568, 'img':'philae.png', 'data-jump': 'Bounce!' }	// 7.1 cm/s vertical based on 31.7 cm/s lateral and 32.5 cm/s total velocity after TD1
+		'kangaroo': {'title':'Kangaroo', 'jump': 1.8, 'img':'kangaroo.png', 'data-jump': 'Jump!' }
+		//'philae': {'title':'Philae', 'jump': 0.0002617737, 'velocity': 0.07166589146867568, 'img':'philae.png', 'data-jump': 'Bounce!' }	// 7.1 cm/s vertical based on 31.7 cm/s lateral and 32.5 cm/s total velocity after TD1
 	}
 	var bodies = {
 		'Mercury': { 'type': 'planet', 'a': -3.7, 'vesc': 15300 },
@@ -43,6 +43,13 @@
 	var u = 3.1320919527;	// initial velocity in m/s (allows a jump of 0.5m on Earth)
 
 	S(document).ready(function(){
+
+		// We have Javascript so show the jump button
+		S('#bottom').css({'display':'block'});
+		S('form').css({'display':'block'});
+		S('#container').css({'height': '48000px'});
+		S('#speech').css({'display':'none'});
+
 		var body = 'Earth';
 		var el = S('#person').e[0];	// The DOM element for the person
 		var person_px = el.offsetWidth*0.625;	// The height of the person in pixels
@@ -91,7 +98,7 @@
 		});
 		S('#container').addClass(bodies[body]['type'])
 		S('#jump').on('click',function(e){
-			if(!jumping) jump(body)
+			if(!jumping) jump(body);
 			else endJump();
 		});
 		
@@ -108,6 +115,7 @@
 			el.style[prop] = '0px';
 			jumping = true;
 			S('#jump').html(S('#jump').prop('data-reset'))
+			S('body').addClass('moving');
 
 			// s = ut +0.5 a t^2
 			var tickup = function() {
@@ -138,7 +146,8 @@
 			// Move to bottom of the page
 			window.scrollTo(0, h);
 			jumping = false;
-			S('#jump').html(S('#jump').prop('data-jump'))
+			S('#jump').html(S('#jump').prop('data-jump'));
+			S('body').removeClass('moving');
 		}
 	});
 
@@ -180,7 +189,6 @@
 	.SOL { background-color: #e1f4fe; }
 
 	#container {
-		height: 48000px;
 		position: absolute;
 		left: 0px;
 		right: 0px;
@@ -234,7 +242,28 @@
 		position: absolute;
 		bottom: 5em;
 	}
-
+	#speech {
+		display: block;
+		position: absolute;
+		bottom: 180px;
+		left: 85px;
+		width: 150px;
+		background: white;
+		padding: 1em;
+		border-radius: 4px;
+		box-shadow: 0 0 10px rgba(0, 162, 211, 0.1);
+	}
+	#speech:after {
+		content: '';
+		position: absolute;
+		bottom: auto;
+		width: 0;
+		height: 0;
+		border: 1em solid transparent; 
+		left: 0;
+		border-left-color: white;
+		bottom: -1em;
+	}
 	#bottom {
 		position: fixed;
 		height: 4.5em;
@@ -307,6 +336,9 @@
 		margin-top: 0;
 		text-decoration: none;
 	}
+	h1 {
+		font-size: 1.5em;
+	}
 	ul#menu {
 		float: right;
 		margin: 0;
@@ -320,8 +352,35 @@
 		margin: 0 0 0;
 		padding: 0;
 	}
+	ul#menu a {
+		text-decoration: none;
+	}
+	ul#menu a:hover {
+		text-decoration: underline;
+	}
 	ul#menu li {
 		display: inline-block;
+	}
+	#bottom, form {
+		display: none;
+	}
+	#intro { 
+		position: fixed;
+		margin: 4em 1.5em 1em 1.5em;
+		max-width: 100%;
+		z-index: 50;
+		-moz-transition: opacity 1.5s ease-in-out;
+		-o-transition: opacity 1.5s ease-in-out;
+		-webkit-transition: opacity 1.5s ease-in-out;
+		transition: opacity 1.5s ease-in-out;
+		opacity: 1;
+	}
+	.moving #intro {
+		opacity: 0;
+	}
+	#intro p {
+		width: 500px;
+		max-width: 90%;
 	}
 	@media only screen and (max-width: 700px){
 		h1 { font-size: 1.3em; }
@@ -351,9 +410,13 @@
 				</ul>
 			</div>
 		</nav>
+		<div id="intro">
+			<h1>High jump</h1>
+			<p>If you can jump half a metre high on the Earth, how high could you jump on other objects in the Solar System? Caution: take care when jumping on small bodies - you may never come back down.</p>
+		</div>
 		<div id="bg">
 			<div id="scale"></div>
-			<div id="person"><img src="person.png" /></div>
+			<div id="person"><div id="speech">I can't jump without Javascript enabled!</div><img src="person.png" /></div>
 			<form>
 				<select name="jumper" id="jumper">
 				</select><select name="object" id="object">
