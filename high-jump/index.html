@@ -111,26 +111,28 @@
 
 
 		function jump(b){
-			var prop = 'bottom';
 			var begin = new Date();
 			var t,s;
-			el.style[prop] = '0px';
 			jumping = true;
 			S('#jump').html(S('#jump').prop('data-reset'))
 			var hiddentext = false;
+			var threshold = Math.round(h - window.pageYOffset - (wh+person_px)/2);
+			var overthreshold = false;
+			var jumpee = S(el);
+			jumpee.css({'bottom':'0px'});
 
 			// s = ut +0.5 a t^2
 			var tickup = function() {
 				t = (new Date() - begin)/1000;
 				s = (u*t + 0.5* bodies[b].a * Math.pow(t,2))*yscale + bottom;
-				el.style[prop] = (s)+'px';
 				if(s > h - window.pageYOffset - (wh+person_px)/2) window.scrollTo(0,h-s-(wh+person_px)/2)
-				if(s > window.innerHeight*0.25){
-					if(!hiddentext){
+				if(s >= threshold){
+					if(!overthreshold){
+						jumpee.css({'bottom':threshold+'px','position':'fixed','left':Math.round(S('body').e[0].offsetWidth/2 - 80)+'px'});
+						overthreshold = true;
 						S('body').addClass('moving');
-						hiddentext = true;
 					}
-				}
+				}else jumpee.css({'bottom':Math.round(s)+'px'});
 				if(t < bodies[b].time_up) jumper = (window.requestAnimationFrame && requestAnimationFrame(tickup)) || setTimeout(tickup, 16);
 				else{
 					begin = new Date();
@@ -140,13 +142,14 @@
 			var tickdown = function() {
 				t = (new Date() - begin)/1000;
 				s = (bodies[b].height - (0*t - 0.5 * bodies[b].a * Math.pow(t,2)))*yscale + bottom;
-				el.style[prop] = (s)+'px';
 				if(s < h - window.pageYOffset - (wh+person_px)/2) window.scrollTo(0,h-s-(wh+person_px)/2)
-				if(s < window.innerHeight*0.25){
-					if(hiddentext){
+				if(s <= threshold){
+					if(overthreshold){
 						S('body').removeClass('moving');
-						hiddentext = false;
+						jumpee.css({'position':'','left':''});
+						overthreshold = false;
 					}
+					jumpee.css({'bottom':Math.round(s)+'px'});
 				}
 				if(t < bodies[b].time_up) jumper = (window.requestAnimationFrame && requestAnimationFrame(tickdown)) || setTimeout(tickdown, 16);
 				else endJump();
