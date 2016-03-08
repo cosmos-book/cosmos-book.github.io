@@ -49,6 +49,8 @@
 		S('form').css({'display':'block'});
 		S('#container').css({'height': '48000px'});
 		S('#speech').css({'display':'none'});
+		S('table').css({'display':'none'});
+		S('.nojs').removeClass('nojs');
 
 		var body = 'Earth';
 		var el = S('#person').e[0];	// The DOM element for the person
@@ -115,7 +117,7 @@
 			el.style[prop] = '0px';
 			jumping = true;
 			S('#jump').html(S('#jump').prop('data-reset'))
-			S('body').addClass('moving');
+			var hiddentext = false;
 
 			// s = ut +0.5 a t^2
 			var tickup = function() {
@@ -123,6 +125,12 @@
 				s = (u*t + 0.5* bodies[b].a * Math.pow(t,2))*yscale + bottom;
 				el.style[prop] = (s)+'px';
 				if(s > h - window.pageYOffset - (wh+person_px)/2) window.scrollTo(0,h-s-(wh+person_px)/2)
+				if(s > window.innerHeight*0.25){
+					if(!hiddentext){
+						S('body').addClass('moving');
+						hiddentext = true;
+					}
+				}
 				if(t < bodies[b].time_up) jumper = (window.requestAnimationFrame && requestAnimationFrame(tickup)) || setTimeout(tickup, 16);
 				else{
 					begin = new Date();
@@ -134,6 +142,12 @@
 				s = (bodies[b].height - (0*t - 0.5 * bodies[b].a * Math.pow(t,2)))*yscale + bottom;
 				el.style[prop] = (s)+'px';
 				if(s < h - window.pageYOffset - (wh+person_px)/2) window.scrollTo(0,h-s-(wh+person_px)/2)
+				if(s < window.innerHeight*0.25){
+					if(hiddentext){
+						S('body').removeClass('moving');
+						hiddentext = false;
+					}
+				}
 				if(t < bodies[b].time_up) jumper = (window.requestAnimationFrame && requestAnimationFrame(tickdown)) || setTimeout(tickdown, 16);
 				else endJump();
 			};
@@ -185,6 +199,7 @@
 	<style>
 	body {
 		font-family: sans-serif;
+		margin: 0px;
 	}
 	.SOL { background-color: #e1f4fe; }
 
@@ -366,8 +381,10 @@
 	}
 	#intro { 
 		position: fixed;
-		margin: 4em 1.5em 1em 1.5em;
+		margin-top: 3em;
 		max-width: 100%;
+		left: 0px;
+		right: 0px;
 		z-index: 50;
 		-moz-transition: opacity 1.5s ease-in-out;
 		-o-transition: opacity 1.5s ease-in-out;
@@ -382,6 +399,24 @@
 		width: 500px;
 		max-width: 90%;
 	}
+	.nojs #bg, .nojs #ground {
+		position: relative;
+	}
+	.nojs #person {
+	    bottom: 0;
+	    position: absolute;
+    }
+	table { height: 40vh; overflow-y: scroll; display: block; border-collapse: collapse; width: 40%; background: #e1f4fe; }
+	td,th { text-align: center; border: 1px solid black; padding: 0.25em;}
+	th:first-child,td:first-child { text-align: left; }
+	@media only screen and (max-width: 1000px){
+		table { width: 100%; }
+		.nojs #container { overflow-y: auto; }
+		.nojs nav { position: absolute; }
+		.nojs #intro { position: relative; }
+		.nojs table { overflow-y: auto; height: auto; }
+		.nojs #bg { height: 250px; }
+	}
 	@media only screen and (max-width: 700px){
 		h1 { font-size: 1.3em; }
 		.tooltip { max-width: 100%; font-size: 1em; left: 0px; top: 0px!important; bottom: 0px; right: 0px; width: auto; position: fixed; overflow-y: auto; }
@@ -394,11 +429,11 @@
 		.padded { margin: 0.5em; }
 		ul#menu { font-family: "Helvetica Neue", sans-serif; font-weight: normal; }
 		p.columns { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+		#intro { margin-top: 2em; }
 	}
-
 	</style>
 </head>
-<body class="SOL">
+<body class="SOL nojs">
 	<div id="container">
 		<nav id="header">
 			<div class="padder">
@@ -411,8 +446,37 @@
 			</div>
 		</nav>
 		<div id="intro">
-			<h1>High jump</h1>
-			<p>If you can jump half a metre high on the Earth, how high could you jump on other objects in the Solar System? Caution: take care when jumping on small bodies - you may never come back down.</p>
+			<div class="padder">
+				<h1>High jump</h1>
+				<p>If you can jump half a metre high on the Earth, how high could you jump on other objects in the Solar System? Caution: take care when jumping on small bodies - you may never come back down.</p>
+				<table>
+					<tr><th class="name">Name</th><th class="grav">Gravity<br />m/s&sup2;</th><th class="vesc">Escape velocity<br />km/hr</th><th class="duration">Jump duration<br />seconds</th><th class="height">Jump height<br />metres</th></tr>
+					<tr><td class="name">Mercury</td><td class="grav">3.7</td><td class="vesc">15300</td><td class="duration">1.69</td><td class="height">1.32</td></tr>
+					<tr><td class="name">Venus</td><td class="grav">8.87</td><td class="vesc">37296</td><td class="duration">0.70</td><td class="height">0.55</td></tr>
+					<tr><td class="name">Earth</td><td class="grav">9.81</td><td class="vesc">40284</td><td class="duration">0.63</td><td class="height">0.50</td></tr>
+					<tr><td class="name">Mars</td><td class="grav">3.71</td><td class="vesc">18108</td><td class="duration">1.68</td><td class="height">1.32</td></tr>
+					<tr><td class="name">Ceres</td><td class="grav">0.28</td><td class="vesc">1855</td><td class="duration">22.35</td><td class="height">17.49</td></tr>
+					<tr><td class="name">Jupiter</td><td class="grav">24.79</td><td class="vesc">216720</td><td class="duration">0.25</td><td class="height">0.19</td></tr>
+					<tr><td class="name">Saturn</td><td class="grav">10.4</td><td class="vesc">129924</td><td class="duration">0.60</td><td class="height">0.47</td></tr>
+					<tr><td class="name">Uranus</td><td class="grav">8.87</td><td class="vesc">76968</td><td class="duration">0.70</td><td class="height">0.55</td></tr>
+					<tr><td class="name">Neptune</td><td class="grav">11.15</td><td class="vesc">84816</td><td class="duration">0.56</td><td class="height">0.43</td></tr>
+					<tr><td class="name">Pluto</td><td class="grav">0.66</td><td class="vesc">4428</td><td class="duration">9.48</td><td class="height">7.42</td></tr>
+					<tr><td class="name">Haumea</td><td class="grav">0.63</td><td class="vesc">3276</td><td class="duration">9.93</td><td class="height">7.77</td></tr>
+					<tr><td class="name">Eris</td><td class="grav">0.827</td><td class="vesc">4982</td><td class="duration">7.56</td><td class="height">5.92</td></tr>
+					<tr><td class="name">Moon</td><td class="grav">1.63</td><td class="vesc">8569.75</td><td class="duration">3.83</td><td class="height">3.00</td></tr>
+					<tr><td class="name">Phobos</td><td class="grav">0.00</td><td class="vesc">40.83</td><td class="duration">1080.01</td><td class="height">845.11</td></tr>
+					<tr><td class="name">Io</td><td class="grav">1.80</td><td class="vesc">9227.86</td><td class="duration">3.47</td><td class="height">2.71</td></tr>
+					<tr><td class="name">Ganymede</td><td class="grav">1.43</td><td class="vesc">9889.66</td><td class="duration">4.36</td><td class="height">3.41</td></tr>
+					<tr><td class="name">Mimas</td><td class="grav">0.06</td><td class="vesc">573.26</td><td class="duration">97.86</td><td class="height">76.57</td></tr>
+					<tr><td class="name">Enceladus</td><td class="grav">0.11</td><td class="vesc">862.32</td><td class="duration">55.01</td><td class="height">43.04</td></tr>
+					<tr><td class="name">Titan</td><td class="grav">1.35</td><td class="vesc">9526.60</td><td class="duration">4.60</td><td class="height">3.60</td></tr>
+					<tr><td class="name">Triton</td><td class="grav">0.78</td><td class="vesc">5242.73</td><td class="duration">7.98</td><td class="height">6.24</td></tr>
+					<tr><td class="name">Charon</td><td class="grav">2.84</td><td class="vesc">6670.66</td><td class="duration">2.20</td><td class="height">1.72</td></tr>
+					<tr><td class="name">Vesta</td><td class="grav">0.25</td><td class="vesc">1308.50</td><td class="duration">24.89</td><td class="height">19.48</td></tr>
+					<tr><td class="name">21 Lutetia</td><td class="grav">0.009</td><td class="vesc">163.82</td><td class="duration">665.02</td><td class="height">520.37</td></tr>
+					<tr><td class="name">Comet 67P</td><td class="grav">0.0001</td><td class="vesc">2.63</td><td class="duration">Escape</td><td class="height">Escape</td></tr>
+				</table>
+			</div>
 		</div>
 		<div id="bg">
 			<div id="scale"></div>
