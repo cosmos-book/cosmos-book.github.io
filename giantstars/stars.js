@@ -2,6 +2,7 @@ r(function(){
 
 	// Define array to hold stars
 	var stars = new Array();
+	var spectral = {"O5": "#9bb0ff","O6": "#a2b8ff","O7": "#9db1ff","O8": "#9db1ff","O9": "#9ab2ff","O9.5": "#a4baff","B0": "#9cb2ff","B0.5": "#a7bcff","B1": "#a0b6ff","B2": "#a0b4ff","B3": "#a5b9ff","B4": "#a4b8ff","B5": "#aabfff","B6": "#acbdff","B7": "#adbfff","B8": "#b1c3ff","B9": "#b5c6ff","A0": "#b9c9ff","A1": "#b5c7ff","A2": "#bbcbff","A3": "#bfcfff","A5": "#cad7ff","A6": "#c7d4ff","A7": "#c8d5ff","A8": "#d5deff","A9": "#dbe0ff","F0": "#e0e5ff","F2": "#ecefff","F4": "#e0e2ff","F5": "#f8f7ff","F6": "#f4f1ff","F7": "#f6f3ff","F8": "#fff7fc","F9": "#fff7fc","G0": "#fff8fc","G1": "#fff7f8","G2": "#fff5f2","G4": "#fff1e5","G5": "#fff4ea","G6": "#fff4eb","G7": "#fff4eb","G8": "#ffedde","G9": "#ffefdd","K0": "#ffeedd","K1": "#ffe0bc","K2": "#ffe3c4","K3": "#ffdec3","K4": "#ffd8b5","K5": "#ffd2a1","K7": "#ffc78e","K8": "#ffd1ae","M0": "#ffc38b","M1": "#ffcc8e","M2": "#ffc483","M3": "#ffce81","M4": "#ffc97f","M5": "#ffcc6f","M6": "#ffc370","M8": "#ffc66d","B1": "#9db4ff","B2": "#9fb3ff","B3": "#a6bcff","B6": "#afc2ff","B7": "#aabdff","B9": "#b4c5ff","A0": "#b3c5ff","A3": "#becdff","A4": "#c3d2ff","A5": "#d4dcff","A7": "#c0cfff","A9": "#e0e3ff","F0": "#dae0ff","F2": "#e3e6ff","F3": "#e3e6ff","F5": "#f1efff","F7": "#f0efff","F8": "#fffcfd","G0": "#fff8f5","G2": "#fff4f2","G3": "#ffeee2","G4": "#fff5ee","G5": "#ffebd5","G6": "#fff2ea","G7": "#ffe7cd","G8": "#ffe9d3","K0": "#ffe1bd","K1": "#ffd8ab","K2": "#ffe5ca","K3": "#ffdba7","O7": "#9eb1ff","O8": "#9db2ff","O9": "#9eb1ff","B0": "#9eb1ff","B1": "#9eb1ff","B2": "#9fb4ff","B3": "#a3bbff","B5": "#a8bdff","B7": "#abbfff","B9": "#b2c3ff","A0": "#bccdff","A3": "#bdcbff","A5": "#cad7ff","A6": "#d1dbff","A7": "#d2dbff","A8": "#d1dbff","A9": "#d1dbff","F0": "#d5deff","F2": "#f1f1ff","F4": "#f1f0ff","F5": "#f2f0ff","F6": "#f1f0ff","F7": "#f1f0ff","G0": "#fff2e9","G1": "#fff3e9","G2": "#fff3e9","G3": "#fff3e9","G4": "#fff3e9","G5": "#ffecd3","G6": "#ffecd7","G8": "#ffe7c7","G9": "#ffe7c4","K0": "#ffe3be","K1": "#ffdfb5","K2": "#ffddaf","K3": "#ffd8a7","K4": "#ffd392","K5": "#ffcc8a","K7": "#ffd08e","M0": "#ffcb84","M1": "#ffc879","M2": "#ffc676","M3": "#ffc877","M4": "#ffce7f","M5": "#ffc57c","M6": "#ffb279","M7": "#ffa561","M8": "#ffa761","M9": "#ffe99a","B2": "#a5c0ff","B5": "#afc3ff","F0": "#cbd9ff","F2": "#e5e9ff","G5": "#ffebcb","M3": "#ffc977","O9": "#a4b9ff","B0": "#a1bdff","B1": "#a8c1ff","B2": "#b1c4ff","B3": "#afc2ff","B4": "#bbcbff","B5": "#b3caff","B6": "#bfcfff","B7": "#c3d1ff","B8": "#b6ceff","B9": "#ccd8ff","A0": "#bbceff","A1": "#d6dfff","A2": "#c7d6ff","A5": "#dfe5ff","F0": "#cad7ff","F2": "#f4f3ff","F5": "#dbe1ff","F8": "#fffcf7","G0": "#ffefdb","G2": "#ffeccd","G3": "#ffe7cb","G5": "#ffe6b7","G8": "#ffdca7","K0": "#ffddb5","K1": "#ffdcb1","K2": "#ffd387","K3": "#ffcc80","K4": "#ffc976","K5": "#ffd19a","M0": "#ffcc8f","M1": "#ffca8a","M2": "#ffc168","M3": "#ffc076","M4": "#ffb968","N": "#ff9d00"};
 
 	// Read stars from table in the page
 	$('#stars tr').each(function(i){
@@ -9,7 +10,11 @@ r(function(){
 		var a = row.find('.cite a');
 		var cite = '';
 		if(a.length==1) cite = a.attr('href');
-		if(row.find('.name').text()) stars.push({'name':row.find('.name').text(),'size':parseFloat(row.find('.size').text()),'cite':cite});
+		if(row.find('.name').text()){
+			var c = row.find('.spectral').text().match(/^[A-Z][0-9]?/);
+			var colour = (spectral[c[0]]) ? spectral[c[0]] : '#ffffff';
+			stars.push({'name':row.find('.name').text(),'size':parseFloat(row.find('.size').text()),'cite':cite,'spectal':row.find('.spectral').text(),'spec':colour});
+		}
 	})
 	// Hide table
 	$('#stars').hide();
@@ -26,7 +31,20 @@ r(function(){
 	}
 	html += '<li class="sun" title="Sun" style="width:'+scale+'px;height:'+scale+'px;background-color:'+colours.yellow[0]+';right:'+(w*0.25 - scale/2)+'px;bottom:'+(scale*(offset-1.25))+'px;"><span class="label">Sun</span></li></ul>';
 	$('#holder').append(html);
-
+	var msg = ['Switch back to the colours used in the book.','Switch to more realistic colours for the stars.'];
+	$('#holder p').append('<a href="#" class="togglecolour" style="margin-left: 0.25em;">'+msg[1]+'</a>');
+	$('.togglecolour').on('click',function(){
+		var real = ($(this).html()==msg[0]);
+		$(this).html(real ? msg[1] : msg[0]);
+		toggleStarColours(!real);
+	});
+	function toggleStarColours(real){
+		for(var i = stars.length-1; i >= 0; i--){
+			var colour = (real ? stars[i].spec : 'rgb('+Math.round(c1.rgb[0] + (c2.rgb[0]-c1.rgb[0])*i/stars.length)+','+Math.round(c1.rgb[1] + (c2.rgb[1]-c1.rgb[1])*i/stars.length)+','+Math.round(c1.rgb[2] + (c2.rgb[2]-c1.rgb[2])*i/stars.length)+')' );
+			console.log($('.stars li.star:eq('+(stars.length-i-1)+')').css('background-color'),stars[i].spec,colour)
+			$('.stars li.star:eq('+(stars.length-i-1)+')').css({'background-color':colour});
+		}
+	}
 
 	function Colour(c,n){
 		this.hex = c;
