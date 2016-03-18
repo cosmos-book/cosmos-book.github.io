@@ -543,6 +543,7 @@
 * **ONUFRIYENKO, Yuri Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/onufriyenko_yuri.htm
 * **OSWALD, Stephen S.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OVCHININ, Aleksei Nikolaevich**: http://www.spacefacts.de/bios/cosmonauts/english/ovchinin_aleksei.htm
+* **OVCHININ, Aleksei Nikolaevich**: http://www.energia.ru/en/iss/iss47/ovchinin.html
 * **OVERMYER, Robert F.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PADALKA, Gennadi Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/padalka_gennadi.htm
 * **PADALKA, Gennadi Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/padalka_gennadi.htm

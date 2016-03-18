@@ -5420,6 +5420,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [38.833, 58.050]
+			},
+			"properties": {
+				"title": "OVCHININ, Aleksei Nikolaevich",
+				"date": "1971-09-28",
+				"birthplace": "Rybinsk, Yaroslavl Oblast, Russian SFSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/OVCHININ_AN.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-82.178146, 41.468201]
 			},
 			"properties": {
