@@ -19,7 +19,8 @@ html,body {
 	height: 100%;
 	margin: 0px;
 }
-body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; background-image: url("paper.png");}
+/*body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; background-image: url("paper.png");}*/
+body { font-family: "Helvetica Neue", sans-serif; text-align: left; margin: 0px; background-color: #f9f9fa; }
 body.flat { background-image: none; }
 body.cover { background-color: #ffffff; }
 .COS { background-color: #f3e5e9; }
