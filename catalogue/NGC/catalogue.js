@@ -312,7 +312,7 @@
 					thumb.src = (d.img.thumb ? d.img.thumb : 'thumbnails/'+i+'.png');
 				}
 				loadJSON('data/NGC'+id+'.json',loadedJSON,{'this':this});
-				return "<h3>NGC"+id+"</h3><table><tr><td></td></tr><tr><td><div class=\"thumb\"><a href=\"#\"><img src=\"\" /></a><div class=\"credit\"></div></div></td></tr></table>";
+				return "<h3>NGC"+id+"</h3><table><tr><td></td></tr><tr><td><div class=\"thumb\"><a href=\"#\"><img src=\"thumbnails/NGC"+id+".jpg\" /></a><div class=\"credit\"></div></div></td></tr></table>";
 			}
 		});
 
