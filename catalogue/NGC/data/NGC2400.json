@@ -4,5 +4,5 @@
 	"dec": -0.3529000,
 	"avm": { "desc": "Three stars", "codes":["3.6"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC2400.png", "source": "http://server1.wikisky.org/v2?ra=112.4947000&de=-0.3529000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2400.jpg", "source": "http://server1.wikisky.org/v2?ra=112.4947000&de=-0.3529000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

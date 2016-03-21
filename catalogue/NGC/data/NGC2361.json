@@ -4,5 +4,5 @@
 	"dec": -13.2130000,
 	"avm": { "desc": "Emission nebula", "codes":["4.2.1"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC2361.png", "source": "http://server1.wikisky.org/v2?ra=109.5897000&de=-13.2130000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2361.jpg", "source": "http://server1.wikisky.org/v2?ra=109.5897000&de=-13.2130000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

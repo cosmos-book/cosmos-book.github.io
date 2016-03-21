@@ -4,5 +4,5 @@
 	"dec": -71.5361111,
 	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC121.png", "source": "http://server1.wikisky.org/v2?ra=6.7041667&de=-71.5361111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC121.jpg", "source": "http://server1.wikisky.org/v2?ra=6.7041667&de=-71.5361111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

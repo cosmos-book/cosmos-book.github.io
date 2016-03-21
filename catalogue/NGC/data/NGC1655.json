@@ -4,5 +4,5 @@
 	"dec": 20.9272000,
 	"avm": { "desc": "A pair of stars", "codes":["3.6"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC1655.png", "source": "http://server1.wikisky.org/v2?ra=71.7959000&de=20.9272000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC1655.jpg", "source": "http://server1.wikisky.org/v2?ra=71.7959000&de=20.9272000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

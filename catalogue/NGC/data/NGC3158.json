@@ -4,5 +4,5 @@
 	"dec": 38.7649111,
 	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC3158.png", "source": "http://server1.wikisky.org/v2?ra=153.4603875&de=38.7649111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3158.jpg", "source": "http://server1.wikisky.org/v2?ra=153.4603875&de=38.7649111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": -7.5644000,
 	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC2364.png", "source": "http://server1.wikisky.org/v2?ra=110.2031000&de=-7.5644000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2364.jpg", "source": "http://server1.wikisky.org/v2?ra=110.2031000&de=-7.5644000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

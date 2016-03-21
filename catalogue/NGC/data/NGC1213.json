@@ -4,5 +4,5 @@
 	"dec": 38.6493750,
 	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC1213.png", "source": "http://server1.wikisky.org/v2?ra=47.3221208&de=38.6493750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC1213.jpg", "source": "http://server1.wikisky.org/v2?ra=47.3221208&de=38.6493750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

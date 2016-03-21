@@ -4,5 +4,5 @@
 	"dec": -11.7932972,
 	"avm": { "desc": "", "codes":["3.6.3"] },
 	"ref": "NED*",
-	"img": {"thumb": "thumbnails/NGC7136.png", "source": "http://server1.wikisky.org/v2?ra=327.4296917&de=-11.7932972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7136.jpg", "source": "http://server1.wikisky.org/v2?ra=327.4296917&de=-11.7932972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": 33.4892472,
 	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC498.png", "source": "http://server1.wikisky.org/v2?ra=20.7970750&de=33.4892472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC498.jpg", "source": "http://server1.wikisky.org/v2?ra=20.7970750&de=33.4892472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": -9.2216389,
 	"avm": { "desc": "Three stars in a line", "codes":["3.6"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC7526.png", "source": "http://server1.wikisky.org/v2?ra=348.5096917&de=-9.2216389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7526.jpg", "source": "http://server1.wikisky.org/v2?ra=348.5096917&de=-9.2216389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

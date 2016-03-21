@@ -4,5 +4,5 @@
 	"dec": 3.9335889,
 	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5566.png", "source": "http://server1.wikisky.org/v2?ra=215.0831167&de=3.9335889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5566.jpg", "source": "http://server1.wikisky.org/v2?ra=215.0831167&de=3.9335889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

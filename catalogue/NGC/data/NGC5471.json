@@ -4,5 +4,5 @@
 	"dec": 54.3980111,
 	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5471.png", "source": "http://server1.wikisky.org/v2?ra=211.1192792&de=54.3980111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5471.jpg", "source": "http://server1.wikisky.org/v2?ra=211.1192792&de=54.3980111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

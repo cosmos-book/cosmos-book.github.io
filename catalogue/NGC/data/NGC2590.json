@@ -4,5 +4,5 @@
 	"dec": -0.5914500,
 	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC2590.png", "source": "http://server1.wikisky.org/v2?ra=126.2584250&de=-0.5914500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2590.jpg", "source": "http://server1.wikisky.org/v2?ra=126.2584250&de=-0.5914500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": 6.7500000,
 	"avm": { "desc": "Galaxy", "codes":["5"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC7459.png", "source": "http://server1.wikisky.org/v2?ra=345.2495833&de=6.7500000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7459.jpg", "source": "http://server1.wikisky.org/v2?ra=345.2495833&de=6.7500000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

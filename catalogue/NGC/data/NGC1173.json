@@ -4,5 +4,5 @@
 	"dec": 41.3636000,
 	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC1173.png", "source": "http://server1.wikisky.org/v2?ra=46.0582000&de=41.3636000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC1173.jpg", "source": "http://server1.wikisky.org/v2?ra=46.0582000&de=41.3636000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

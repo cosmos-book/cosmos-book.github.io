@@ -4,5 +4,5 @@
 	"dec": -0.1304389,
 	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC800.png", "source": "http://server1.wikisky.org/v2?ra=30.5493042&de=-0.1304389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC800.jpg", "source": "http://server1.wikisky.org/v2?ra=30.5493042&de=-0.1304389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

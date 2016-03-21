@@ -4,5 +4,5 @@
 	"dec": 13.4563139,
 	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5759.png", "source": "http://server1.wikisky.org/v2?ra=221.8119958&de=13.4563139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5759.jpg", "source": "http://server1.wikisky.org/v2?ra=221.8119958&de=13.4563139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

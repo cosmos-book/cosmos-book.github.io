@@ -4,5 +4,5 @@
 	"dec": 54.3641694,
 	"avm": { "desc": "Part of a Galaxy", "codes":["5.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5451.png", "source": "http://server1.wikisky.org/v2?ra=210.6504208&de=54.3641694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5451.jpg", "source": "http://server1.wikisky.org/v2?ra=210.6504208&de=54.3641694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

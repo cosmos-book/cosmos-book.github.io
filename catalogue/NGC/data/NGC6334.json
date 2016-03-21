@@ -4,5 +4,5 @@
 	"dec": -35.9630611,
 	"avm": { "desc": "SuperNova Remnant", "codes":["4.1.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6334.png", "source": "http://server1.wikisky.org/v2?ra=259.9916708&de=-35.9630611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6334.jpg", "source": "http://server1.wikisky.org/v2?ra=259.9916708&de=-35.9630611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

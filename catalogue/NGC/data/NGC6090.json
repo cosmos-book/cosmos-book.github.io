@@ -4,5 +4,5 @@
 	"dec": 52.4559722,
 	"avm": { "desc": "Pair of Galaxies", "codes":["5.5.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6090.png", "source": "http://server1.wikisky.org/v2?ra=242.9182917&de=52.4559722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6090.jpg", "source": "http://server1.wikisky.org/v2?ra=242.9182917&de=52.4559722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

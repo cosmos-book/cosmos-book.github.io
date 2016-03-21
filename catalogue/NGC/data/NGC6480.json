@@ -4,5 +4,5 @@
 	"dec": -30.4520472,
 	"avm": { "desc": "Cluster with nebulosity", "codes":["3.6"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC6480.png", "source": "http://server1.wikisky.org/v2?ra=268.6085042&de=-30.4520472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6480.jpg", "source": "http://server1.wikisky.org/v2?ra=268.6085042&de=-30.4520472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

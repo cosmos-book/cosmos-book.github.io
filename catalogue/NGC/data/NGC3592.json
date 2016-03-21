@@ -4,5 +4,5 @@
 	"dec": 17.2602028,
 	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC3592.png", "source": "http://server1.wikisky.org/v2?ra=168.6135083&de=17.2602028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3592.jpg", "source": "http://server1.wikisky.org/v2?ra=168.6135083&de=17.2602028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": 50.8170000,
 	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC7058.png", "source": "http://server1.wikisky.org/v2?ra=320.4750000&de=50.8170000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7058.jpg", "source": "http://server1.wikisky.org/v2?ra=320.4750000&de=50.8170000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

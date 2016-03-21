@@ -4,5 +4,5 @@
 	"dec": 47.4167000,
 	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6991.png", "source": "http://server1.wikisky.org/v2?ra=313.7250000&de=47.4167000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6991.jpg", "source": "http://server1.wikisky.org/v2?ra=313.7250000&de=47.4167000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

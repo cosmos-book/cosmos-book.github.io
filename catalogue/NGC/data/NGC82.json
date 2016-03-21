@@ -4,5 +4,5 @@
 	"dec": 22.4603639,
 	"avm": { "desc": "Star", "codes":["3"] },
 	"ref": "NED",
-	"img": {"thumb": "thumbnails/NGC82.png", "source": "http://server1.wikisky.org/v2?ra=5.3231292&de=22.4603639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC82.jpg", "source": "http://server1.wikisky.org/v2?ra=5.3231292&de=22.4603639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

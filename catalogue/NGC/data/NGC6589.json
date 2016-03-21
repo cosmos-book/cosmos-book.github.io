@@ -4,5 +4,5 @@
 	"dec": -19.8899611,
 	"avm": { "desc": "Bright nebula", "codes":["4"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC6589.png", "source": "http://server1.wikisky.org/v2?ra=274.2100708&de=-19.8899611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6589.jpg", "source": "http://server1.wikisky.org/v2?ra=274.2100708&de=-19.8899611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

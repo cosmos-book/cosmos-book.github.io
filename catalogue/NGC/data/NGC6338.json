@@ -4,5 +4,5 @@
 	"dec": 57.4112472,
 	"avm": { "desc": "Blazar", "codes":["5.3.2.3"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6338.png", "source": "http://server1.wikisky.org/v2?ra=258.8454583&de=57.4112472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6338.jpg", "source": "http://server1.wikisky.org/v2?ra=258.8454583&de=57.4112472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

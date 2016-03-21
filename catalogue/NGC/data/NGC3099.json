@@ -4,5 +4,5 @@
 	"dec": 32.7068167,
 	"avm": { "desc": "Brightest galaxy in a Cluster (BCG)", "codes":["5","5.5.3"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC3099.png", "source": "http://server1.wikisky.org/v2?ra=150.6523000&de=32.7068167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3099.jpg", "source": "http://server1.wikisky.org/v2?ra=150.6523000&de=32.7068167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

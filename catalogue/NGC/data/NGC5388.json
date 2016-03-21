@@ -4,5 +4,5 @@
 	"dec": -14.1508861,
 	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC5388.png", "source": "http://server1.wikisky.org/v2?ra=209.7415375&de=-14.1508861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5388.jpg", "source": "http://server1.wikisky.org/v2?ra=209.7415375&de=-14.1508861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

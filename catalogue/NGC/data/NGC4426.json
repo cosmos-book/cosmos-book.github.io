@@ -4,5 +4,5 @@
 	"dec": 27.8383306,
 	"avm": { "desc": "Double or multiple star", "codes":["3.6.3"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC4426.png", "source": "http://server1.wikisky.org/v2?ra=186.7937500&de=27.8383306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC4426.jpg", "source": "http://server1.wikisky.org/v2?ra=186.7937500&de=27.8383306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

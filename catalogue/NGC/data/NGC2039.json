@@ -4,5 +4,5 @@
 	"dec": 8.6268000,
 	"avm": { "desc": "Group of stars", "codes":["3.6"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC2039.png", "source": "http://server1.wikisky.org/v2?ra=86.0165000&de=8.6268000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2039.jpg", "source": "http://server1.wikisky.org/v2?ra=86.0165000&de=8.6268000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

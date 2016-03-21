@@ -4,5 +4,5 @@
 	"dec": 15.8155278,
 	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC14.png", "source": "http://server1.wikisky.org/v2?ra=2.1934167&de=15.8155278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC14.jpg", "source": "http://server1.wikisky.org/v2?ra=2.1934167&de=15.8155278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

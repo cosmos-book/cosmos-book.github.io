@@ -4,5 +4,5 @@
 	"dec": 68.1633306,
 	"avm": { "desc": "Bright Nebula", "codes":["4.2.1"] },
 	"ref": "Simbad",
-	"img": {"thumb":"thumbnails/NGC7023.jpg", "source":"https://en.wikipedia.org/wiki/Iris_Nebula#/media/File:Iris1HunterWilson.jpg", "credit":"Hewholooks / Wikipedia" }
+	"img": {"thumb": "thumbnails/NGC7023.jpg", "source":"https://en.wikipedia.org/wiki/Iris_Nebula#/media/File:Iris1HunterWilson.jpg", "credit":"Hewholooks / Wikipedia" }
 }

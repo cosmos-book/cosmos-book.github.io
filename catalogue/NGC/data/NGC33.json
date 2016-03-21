@@ -4,5 +4,5 @@
 	"dec": 3.6759250,
 	"avm": { "desc": "Binary Stars", "codes":["3.6.1"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC33.png", "source": "http://server1.wikisky.org/v2?ra=2.7359917&de=3.6759250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC33.jpg", "source": "http://server1.wikisky.org/v2?ra=2.7359917&de=3.6759250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

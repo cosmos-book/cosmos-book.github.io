@@ -4,5 +4,5 @@
 	"dec": -19.0478167,
 	"avm": { "desc": "Pair of stars", "codes":["3.6"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC2757.png", "source": "http://server1.wikisky.org/v2?ra=136.3573292&de=-19.0478167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2757.jpg", "source": "http://server1.wikisky.org/v2?ra=136.3573292&de=-19.0478167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

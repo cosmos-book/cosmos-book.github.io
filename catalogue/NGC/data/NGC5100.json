@@ -4,5 +4,5 @@
 	"dec": 8.9783778,
 	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5100.png", "source": "http://server1.wikisky.org/v2?ra=200.2483833&de=8.9783778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5100.jpg", "source": "http://server1.wikisky.org/v2?ra=200.2483833&de=8.9783778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

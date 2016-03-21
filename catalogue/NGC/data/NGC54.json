@@ -4,5 +4,5 @@
 	"dec": -7.1067750,
 	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC54.png", "source": "http://server1.wikisky.org/v2?ra=3.7819750&de=-7.1067750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC54.jpg", "source": "http://server1.wikisky.org/v2?ra=3.7819750&de=-7.1067750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

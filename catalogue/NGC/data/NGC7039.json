@@ -4,5 +4,5 @@
 	"dec": 45.6167000,
 	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC7039.png", "source": "http://server1.wikisky.org/v2?ra=317.7000000&de=45.6167000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7039.jpg", "source": "http://server1.wikisky.org/v2?ra=317.7000000&de=45.6167000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

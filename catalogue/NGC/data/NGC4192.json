@@ -4,5 +4,5 @@
 	"dec": 14.9004694,
 	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC4192.png", "source": "http://server1.wikisky.org/v2?ra=183.4512167&de=14.9004694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC4192.jpg", "source": "http://server1.wikisky.org/v2?ra=183.4512167&de=14.9004694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

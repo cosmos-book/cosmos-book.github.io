@@ -4,5 +4,5 @@
 	"dec": 37.4245806,
 	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5395.png", "source": "http://server1.wikisky.org/v2?ra=209.6580792&de=37.4245806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5395.jpg", "source": "http://server1.wikisky.org/v2?ra=209.6580792&de=37.4245806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

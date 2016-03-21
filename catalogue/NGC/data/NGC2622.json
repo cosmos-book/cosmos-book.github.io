@@ -4,5 +4,5 @@
 	"dec": 24.8952694,
 	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2.2","5.1.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC2622.png", "source": "http://server1.wikisky.org/v2?ra=129.5456042&de=24.8952694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2622.jpg", "source": "http://server1.wikisky.org/v2?ra=129.5456042&de=24.8952694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

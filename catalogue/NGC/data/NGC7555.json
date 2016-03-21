@@ -4,5 +4,5 @@
 	"dec": 12.5728583,
 	"avm": { "desc": "Lost object", "codes":["0"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC7555.png", "source": "http://server1.wikisky.org/v2?ra=348.8785208&de=12.5728583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7555.jpg", "source": "http://server1.wikisky.org/v2?ra=348.8785208&de=12.5728583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

@@ -4,5 +4,5 @@
 	"dec": -46.9245056,
 	"avm": { "desc": "Group of stars", "codes":["3.6"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC2932.png", "source": "http://server1.wikisky.org/v2?ra=143.9651000&de=-46.9245056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2932.jpg", "source": "http://server1.wikisky.org/v2?ra=143.9651000&de=-46.9245056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

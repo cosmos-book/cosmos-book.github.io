@@ -4,5 +4,5 @@
 	"dec": 36.3268889,
 	"avm": { "desc": "Irregular Galaxy", "codes":["5.3.3","5.1.6"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC4214.png", "source": "http://server1.wikisky.org/v2?ra=183.9132250&de=36.3268889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC4214.jpg", "source": "http://server1.wikisky.org/v2?ra=183.9132250&de=36.3268889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

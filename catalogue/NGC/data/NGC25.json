@@ -4,5 +4,5 @@
 	"dec": -57.0208056,
 	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC25.png", "source": "http://server1.wikisky.org/v2?ra=2.4970417&de=-57.0208056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC25.jpg", "source": "http://server1.wikisky.org/v2?ra=2.4970417&de=-57.0208056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

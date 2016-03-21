@@ -4,5 +4,5 @@
 	"dec": -48.2381389,
 	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC3909.png", "source": "http://server1.wikisky.org/v2?ra=177.5339125&de=-48.2381389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3909.jpg", "source": "http://server1.wikisky.org/v2?ra=177.5339125&de=-48.2381389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

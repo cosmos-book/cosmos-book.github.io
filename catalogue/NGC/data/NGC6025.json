@@ -4,5 +4,5 @@
 	"dec": -60.4317000,
 	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6025.png", "source": "http://server1.wikisky.org/v2?ra=240.8208000&de=-60.4317000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6025.jpg", "source": "http://server1.wikisky.org/v2?ra=240.8208000&de=-60.4317000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

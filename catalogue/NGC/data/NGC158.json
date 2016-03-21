@@ -4,5 +4,5 @@
 	"dec": -8.3457111,
 	"avm": { "desc": "Double or multiple star", "codes":["3.6.3"] },
 	"ref": "NED",
-	"img": {"thumb": "thumbnails/NGC158.png", "source": "http://server1.wikisky.org/v2?ra=8.7733292&de=-8.3457111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC158.jpg", "source": "http://server1.wikisky.org/v2?ra=8.7733292&de=-8.3457111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

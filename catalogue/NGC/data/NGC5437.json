@@ -4,5 +4,5 @@
 	"dec": 9.5236194,
 	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5437.png", "source": "http://server1.wikisky.org/v2?ra=210.9473583&de=9.5236194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5437.jpg", "source": "http://server1.wikisky.org/v2?ra=210.9473583&de=9.5236194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

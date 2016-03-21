@@ -4,5 +4,5 @@
 	"dec": 23.7096194,
 	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6623.png", "source": "http://server1.wikisky.org/v2?ra=274.9285583&de=23.7096194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6623.jpg", "source": "http://server1.wikisky.org/v2?ra=274.9285583&de=23.7096194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

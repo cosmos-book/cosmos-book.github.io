@@ -4,5 +4,5 @@
 	"dec": 25.7401028,
 	"avm": { "desc": "Galaxy", "codes":["5"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC2576.png", "source": "http://server1.wikisky.org/v2?ra=125.7409042&de=25.7401028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC2576.jpg", "source": "http://server1.wikisky.org/v2?ra=125.7409042&de=25.7401028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

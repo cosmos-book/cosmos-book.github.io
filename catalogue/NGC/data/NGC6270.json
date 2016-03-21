@@ -4,5 +4,5 @@
 	"dec": 27.5864250,
 	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6270.png", "source": "http://server1.wikisky.org/v2?ra=254.6317000&de=27.5864250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6270.jpg", "source": "http://server1.wikisky.org/v2?ra=254.6317000&de=27.5864250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

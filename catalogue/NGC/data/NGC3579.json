@@ -4,5 +4,5 @@
 	"dec": -61.2433306,
 	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC3579.png", "source": "http://server1.wikisky.org/v2?ra=167.9983292&de=-61.2433306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3579.jpg", "source": "http://server1.wikisky.org/v2?ra=167.9983292&de=-61.2433306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

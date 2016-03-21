@@ -4,5 +4,5 @@
 	"dec": -39.1966278,
 	"avm": { "desc": "Irregular Galaxy", "codes":["5.5.2","5.1.6"] },
 	"ref": "",
-	"img": {"thumb": "thumbnails/NGC55.png", "source": "http://server1.wikisky.org/v2?ra=3.7233417&de=-39.1966278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC55.jpg", "source": "http://server1.wikisky.org/v2?ra=3.7233417&de=-39.1966278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

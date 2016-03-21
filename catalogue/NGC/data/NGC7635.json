@@ -4,5 +4,5 @@
 	"dec": 61.2016694,
 	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC7635.png", "source": "http://server1.wikisky.org/v2?ra=350.2012500&de=61.2016694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7635.jpg", "source": "http://server1.wikisky.org/v2?ra=350.2012500&de=61.2016694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

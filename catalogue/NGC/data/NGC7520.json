@@ -4,5 +4,5 @@
 	"dec": -23.7942056,
 	"avm": { "desc": "Spiral galaxy", "codes":["5.1.1"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC7520.png", "source": "http://server1.wikisky.org/v2?ra=348.4369958&de=-23.7942056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC7520.jpg", "source": "http://server1.wikisky.org/v2?ra=348.4369958&de=-23.7942056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

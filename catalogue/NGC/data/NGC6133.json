@@ -4,5 +4,5 @@
 	"dec": 56.6524194,
 	"avm": { "desc": "Three stars", "codes":["3.6"] },
 	"ref": "DSObrowser",
-	"img": {"thumb": "thumbnails/NGC6133.png", "source": "http://server1.wikisky.org/v2?ra=245.0717208&de=56.6524194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6133.jpg", "source": "http://server1.wikisky.org/v2?ra=245.0717208&de=56.6524194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

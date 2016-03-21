@@ -4,5 +4,5 @@
 	"dec": -59.8441694,
 	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC3503.png", "source": "http://server1.wikisky.org/v2?ra=165.3162500&de=-59.8441694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC3503.jpg", "source": "http://server1.wikisky.org/v2?ra=165.3162500&de=-59.8441694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

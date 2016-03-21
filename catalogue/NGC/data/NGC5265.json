@@ -4,5 +4,5 @@
 	"dec": 36.8610222,
 	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5265.png", "source": "http://server1.wikisky.org/v2?ra=205.0378583&de=36.8610222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5265.jpg", "source": "http://server1.wikisky.org/v2?ra=205.0378583&de=36.8610222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

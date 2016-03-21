@@ -4,5 +4,5 @@
 	"dec": 0.8400167,
 	"avm": { "desc": "HII Galaxy", "codes":["5"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC5257.png", "source": "http://server1.wikisky.org/v2?ra=204.9705083&de=0.8400167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC5257.jpg", "source": "http://server1.wikisky.org/v2?ra=204.9705083&de=0.8400167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

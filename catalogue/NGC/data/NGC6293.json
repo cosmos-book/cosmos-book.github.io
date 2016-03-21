@@ -4,5 +4,5 @@
 	"dec": -26.5817222,
 	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6293.png", "source": "http://server1.wikisky.org/v2?ra=257.5434167&de=-26.5817222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6293.jpg", "source": "http://server1.wikisky.org/v2?ra=257.5434167&de=-26.5817222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

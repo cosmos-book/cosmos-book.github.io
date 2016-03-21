@@ -4,5 +4,5 @@
 	"dec": -36.9450000,
 	"avm": { "desc": "High-Mass X-ray binary Candidate", "codes":["3.2.6.1"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC6400.png", "source": "http://server1.wikisky.org/v2?ra=265.0500000&de=-36.9450000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC6400.jpg", "source": "http://server1.wikisky.org/v2?ra=265.0500000&de=-36.9450000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

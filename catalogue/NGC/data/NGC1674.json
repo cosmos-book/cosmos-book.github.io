@@ -4,5 +4,5 @@
 	"dec": 23.9076000,
 	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
 	"ref": "Simbad",
-	"img": {"thumb": "thumbnails/NGC1674.png", "source": "http://server1.wikisky.org/v2?ra=73.1044000&de=23.9076000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC1674.jpg", "source": "http://server1.wikisky.org/v2?ra=73.1044000&de=23.9076000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }

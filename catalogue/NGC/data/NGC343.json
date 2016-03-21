@@ -4,5 +4,5 @@
 	"dec": -23.2252306,
 	"avm": { "desc": "Spiral galaxy", "codes":["5.1.1"] },
 	"ref": "cseligman",
-	"img": {"thumb": "thumbnails/NGC343.png", "source": "http://server1.wikisky.org/v2?ra=14.5997167&de=-23.2252306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+	"img": {"thumb": "thumbnails/NGC343.jpg", "source": "http://server1.wikisky.org/v2?ra=14.5997167&de=-23.2252306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
 }
