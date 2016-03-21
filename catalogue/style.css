@@ -8,10 +8,10 @@ td { padding: 1px; margin: 0px; }
 .tableholder td:hover { background-color: white; }
 .tableholder img { width: 100%; height: auto; }
 .tooltip { width: 256px; }
-.tooltip img { width: 256px; height: 256px; }
 .tooltip tr:hover { background-color: transparent; }
 .tooltip p { margin: 0.25em 0; }
 .tooltip .thumb { position: relative; }
+.tooltip .thumb img { width: 225px; height: 225px; }
 .tooltip .thumb .thumblink { line-height: 0px; width: 225px; height: 225px; }
 .tooltip .thumb .credit { font-size: 0.8em; padding-bottom: 1em; display: block; }/*overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }*/
 
