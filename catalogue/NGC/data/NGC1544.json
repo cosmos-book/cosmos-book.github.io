@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1544",
+	"ra": 75.6523458,
+	"dec": 86.2223139,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1544.png", "source": "http://server1.wikisky.org/v2?ra=75.6523458&de=86.2223139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

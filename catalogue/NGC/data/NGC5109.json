@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5109",
+	"ra": 200.2180958,
+	"dec": 57.6447361,
+	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5109.png", "source": "http://server1.wikisky.org/v2?ra=200.2180958&de=57.6447361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

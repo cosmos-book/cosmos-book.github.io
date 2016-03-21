@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7246",
+	"ra": 334.4277667,
+	"dec": -15.5712861,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7246.png", "source": "http://server1.wikisky.org/v2?ra=334.4277667&de=-15.5712861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

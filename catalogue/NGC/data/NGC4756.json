@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4756",
+	"ra": 193.2192542,
+	"dec": -15.4132917,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4756.png", "source": "http://server1.wikisky.org/v2?ra=193.2192542&de=-15.4132917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5430",
+	"ra": 210.1909167,
+	"dec": 59.3286500,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5430.png", "source": "http://server1.wikisky.org/v2?ra=210.1909167&de=59.3286500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

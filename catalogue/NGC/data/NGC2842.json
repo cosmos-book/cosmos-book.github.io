@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2842",
+	"ra": 138.9019458,
+	"dec": -63.0696222,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2842.png", "source": "http://server1.wikisky.org/v2?ra=138.9019458&de=-63.0696222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

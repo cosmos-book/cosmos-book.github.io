@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2789",
+	"ra": 138.7484125,
+	"dec": 29.7303361,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2789.png", "source": "http://server1.wikisky.org/v2?ra=138.7484125&de=29.7303361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

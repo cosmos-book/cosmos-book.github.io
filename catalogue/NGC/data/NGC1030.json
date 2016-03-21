@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1030",
+	"ra": 39.9608333,
+	"dec": 18.0242778,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1030.png", "source": "http://server1.wikisky.org/v2?ra=39.9608333&de=18.0242778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4068",
+	"ra": 181.0093750,
+	"dec": 52.5886111,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4068.png", "source": "http://server1.wikisky.org/v2?ra=181.0093750&de=52.5886111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

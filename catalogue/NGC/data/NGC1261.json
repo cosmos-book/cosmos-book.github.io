@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1261",
+	"ra": 48.0675417,
+	"dec": -55.2162222,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1261.png", "source": "http://server1.wikisky.org/v2?ra=48.0675417&de=-55.2162222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3298",
+	"ra": 159.3009500,
+	"dec": 50.1206444,
+	"avm": { "desc": "Brightest galaxy in a Cluster (BCG)", "codes":["5","5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3298.png", "source": "http://server1.wikisky.org/v2?ra=159.3009500&de=50.1206444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

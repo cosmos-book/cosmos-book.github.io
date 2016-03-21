@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3859",
+	"ra": 176.2177125,
+	"dec": 19.4541639,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3859.png", "source": "http://server1.wikisky.org/v2?ra=176.2177125&de=19.4541639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

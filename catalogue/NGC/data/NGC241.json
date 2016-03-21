@@ -1,0 +1,8 @@
+{
+	"name": "NGC 241",
+	"ra": 10.8864167,
+	"dec": -73.4403889,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC241.png", "source": "http://server1.wikisky.org/v2?ra=10.8864167&de=-73.4403889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

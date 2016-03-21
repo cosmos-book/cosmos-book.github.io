@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2792",
+	"ra": 138.1106708,
+	"dec": -42.4274778,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["4.1.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2792.png", "source": "http://server1.wikisky.org/v2?ra=138.1106708&de=-42.4274778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

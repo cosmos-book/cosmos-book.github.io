@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4463",
+	"ra": 187.4833000,
+	"dec": -64.7900000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4463.png", "source": "http://server1.wikisky.org/v2?ra=187.4833000&de=-64.7900000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

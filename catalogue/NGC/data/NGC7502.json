@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7502",
+	"ra": 347.5824500,
+	"dec": -21.7375972,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7502.png", "source": "http://server1.wikisky.org/v2?ra=347.5824500&de=-21.7375972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

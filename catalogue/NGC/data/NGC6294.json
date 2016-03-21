@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6294",
+	"ra": 257.5676083,
+	"dec": -26.5745694,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC6294.png", "source": "http://server1.wikisky.org/v2?ra=257.5676083&de=-26.5745694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

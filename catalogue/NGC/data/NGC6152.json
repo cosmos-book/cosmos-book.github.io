@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6152",
+	"ra": 248.1750000,
+	"dec": -52.6330000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6152.png", "source": "http://server1.wikisky.org/v2?ra=248.1750000&de=-52.6330000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

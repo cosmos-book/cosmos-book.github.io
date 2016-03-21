@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5938",
+	"ra": 234.1094500,
+	"dec": -66.8597500,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5938.png", "source": "http://server1.wikisky.org/v2?ra=234.1094500&de=-66.8597500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

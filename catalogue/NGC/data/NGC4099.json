@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4099",
+	"ra": 181.5162500,
+	"dec": 20.6061111,
+	"avm": { "desc": "Spiral galaxy", "codes":["5.1.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC4099.png", "source": "http://server1.wikisky.org/v2?ra=181.5162500&de=20.6061111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

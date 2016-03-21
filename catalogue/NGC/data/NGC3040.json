@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3040",
+	"ra": 148.2712417,
+	"dec": 19.4322556,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3040.png", "source": "http://server1.wikisky.org/v2?ra=148.2712417&de=19.4322556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 21",
+	"ra": 2.6703083,
+	"dec": 32.9831111,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC21.png", "source": "http://server1.wikisky.org/v2?ra=2.6703083&de=32.9831111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

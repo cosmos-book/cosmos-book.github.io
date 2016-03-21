@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4910",
+	"ra": 194.5051750,
+	"dec": 1.5755806,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4910.png", "source": "http://server1.wikisky.org/v2?ra=194.5051750&de=1.5755806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

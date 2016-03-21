@@ -1,0 +1,8 @@
+{
+	"name": "NGC 993",
+	"ra": 39.1918500,
+	"dec": 2.0504250,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC993.png", "source": "http://server1.wikisky.org/v2?ra=39.1918500&de=2.0504250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

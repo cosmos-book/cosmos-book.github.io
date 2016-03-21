@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2485",
+	"ra": 119.2027375,
+	"dec": 7.4779444,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2485.png", "source": "http://server1.wikisky.org/v2?ra=119.2027375&de=7.4779444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

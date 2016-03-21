@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2744",
+	"ra": 136.1625833,
+	"dec": 18.4644833,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2744.png", "source": "http://server1.wikisky.org/v2?ra=136.1625833&de=18.4644833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4796",
+	"ra": 193.7695208,
+	"dec": 8.0662111,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.1","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4796.png", "source": "http://server1.wikisky.org/v2?ra=193.7695208&de=8.0662111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

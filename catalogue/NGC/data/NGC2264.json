@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2264",
+	"ra": 100.2417000,
+	"dec": 9.8950000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2264.jpg", "source": "http://hubblesite.org/gallery/album/pr2002011b/", "credit": "NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M.Clampin(STScI), G. Hartig (STScI), the ACS Science Team, and ESA The ACS Science Team:  H. Ford, G. Illingworth, M. Clampin, G. Hartig, T. Allen, K. Anderson, F. Bartko, N. Benitez, J. Blakeslee, R. Bouwens, T. Broadhurst, R. Brown, C. Burrows, D. Campbell, E. Cheng, N. Cross, P. Feldman, M. Franx, D. Golimowski, C. Gronwall, R. Kimble, J. Krist, M. Lesser, D. Magee, A. Martel, W. J. McCann, G. Meurer, G. Miley, M. Postman, P. Rosati, M. Sirianni, W. Sparks, P. Sullivan, H. Tran, Z. Tsvetanov, R. White, and R. Woodruff. " }
+}

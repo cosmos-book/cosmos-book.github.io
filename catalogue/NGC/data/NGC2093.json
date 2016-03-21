@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2093",
+	"ra": 85.4542000,
+	"dec": -68.9217000,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2093.png", "source": "http://server1.wikisky.org/v2?ra=85.4542000&de=-68.9217000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

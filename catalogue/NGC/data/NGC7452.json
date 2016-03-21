@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7452",
+	"ra": 345.2485333,
+	"dec": 6.7494500,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7452.png", "source": "http://server1.wikisky.org/v2?ra=345.2485333&de=6.7494500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

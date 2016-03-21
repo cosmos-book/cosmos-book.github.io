@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5496",
+	"ra": 212.9077292,
+	"dec": -1.1587194,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5496.png", "source": "http://server1.wikisky.org/v2?ra=212.9077292&de=-1.1587194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

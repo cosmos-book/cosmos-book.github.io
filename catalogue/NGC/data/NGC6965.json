@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6965",
+	"ra": 311.8348083,
+	"dec": 0.4838889,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6965.png", "source": "http://server1.wikisky.org/v2?ra=311.8348083&de=0.4838889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

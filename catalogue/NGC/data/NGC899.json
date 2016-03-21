@@ -1,0 +1,8 @@
+{
+	"name": "NGC 899",
+	"ra": 35.4713958,
+	"dec": -20.8232278,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC899.png", "source": "http://server1.wikisky.org/v2?ra=35.4713958&de=-20.8232278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

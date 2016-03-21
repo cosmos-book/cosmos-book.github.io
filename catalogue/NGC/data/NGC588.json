@@ -1,0 +1,8 @@
+{
+	"name": "NGC 588",
+	"ra": 23.1883292,
+	"dec": 30.6483306,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC588.png", "source": "http://server1.wikisky.org/v2?ra=23.1883292&de=30.6483306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

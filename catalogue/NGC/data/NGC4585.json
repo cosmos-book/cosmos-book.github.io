@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4585",
+	"ra": 189.5554792,
+	"dec": 28.9369028,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.3","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4585.png", "source": "http://server1.wikisky.org/v2?ra=189.5554792&de=28.9369028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1974",
+	"ra": 81.9958333,
+	"dec": -67.4241389,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1974.png", "source": "http://server1.wikisky.org/v2?ra=81.9958333&de=-67.4241389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

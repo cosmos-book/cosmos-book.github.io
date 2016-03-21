@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1701",
+	"ra": 73.9630042,
+	"dec": -29.8834000,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1701.png", "source": "http://server1.wikisky.org/v2?ra=73.9630042&de=-29.8834000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

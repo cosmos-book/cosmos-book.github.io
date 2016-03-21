@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5884",
+	"ra": 228.2880458,
+	"dec": 31.8610583,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5884.png", "source": "http://server1.wikisky.org/v2?ra=228.2880458&de=31.8610583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

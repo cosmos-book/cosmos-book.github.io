@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5834",
+	"ra": 225.9943167,
+	"dec": -33.0681306,
+	"avm": { "desc": "Globular cluster", "codes":["3.6.4.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC5834.png", "source": "http://server1.wikisky.org/v2?ra=225.9943167&de=-33.0681306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

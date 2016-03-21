@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6581",
+	"ra": 273.1984875,
+	"dec": 25.4123361,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6581.png", "source": "http://server1.wikisky.org/v2?ra=273.1984875&de=25.4123361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

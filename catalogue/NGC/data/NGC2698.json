@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2698",
+	"ra": 133.9022208,
+	"dec": -3.1838806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2698.png", "source": "http://server1.wikisky.org/v2?ra=133.9022208&de=-3.1838806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2928",
+	"ra": 144.2921000,
+	"dec": 16.9772389,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2928.png", "source": "http://server1.wikisky.org/v2?ra=144.2921000&de=16.9772389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

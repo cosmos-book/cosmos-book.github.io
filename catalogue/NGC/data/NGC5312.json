@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5312",
+	"ra": 207.4608167,
+	"dec": 33.6216583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5312.png", "source": "http://server1.wikisky.org/v2?ra=207.4608167&de=33.6216583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

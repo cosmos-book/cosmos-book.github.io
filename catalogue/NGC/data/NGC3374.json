@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3374",
+	"ra": 162.0044708,
+	"dec": 43.1865472,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3374.png", "source": "http://server1.wikisky.org/v2?ra=162.0044708&de=43.1865472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

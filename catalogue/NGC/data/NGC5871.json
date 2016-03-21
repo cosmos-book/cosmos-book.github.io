@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5871",
+	"ra": 227.5199583,
+	"dec": 0.4980083,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5871.png", "source": "http://server1.wikisky.org/v2?ra=227.5199583&de=0.4980083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

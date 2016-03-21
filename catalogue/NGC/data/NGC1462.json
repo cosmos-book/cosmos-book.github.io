@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1462",
+	"ra": 57.5975708,
+	"dec": 6.9731028,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1462.png", "source": "http://server1.wikisky.org/v2?ra=57.5975708&de=6.9731028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

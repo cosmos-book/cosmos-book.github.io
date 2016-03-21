@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1265",
+	"ra": 49.5653083,
+	"dec": 41.8577611,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1265.png", "source": "http://server1.wikisky.org/v2?ra=49.5653083&de=41.8577611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

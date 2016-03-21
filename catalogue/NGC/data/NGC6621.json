@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6621",
+	"ra": 273.2303167,
+	"dec": 68.3634722,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6621.png", "source": "http://server1.wikisky.org/v2?ra=273.2303167&de=68.3634722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

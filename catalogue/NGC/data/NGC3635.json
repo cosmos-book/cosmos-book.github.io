@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3635",
+	"ra": 170.1305542,
+	"dec": -9.0137556,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3635.png", "source": "http://server1.wikisky.org/v2?ra=170.1305542&de=-9.0137556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

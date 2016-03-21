@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3356",
+	"ra": 161.0509958,
+	"dec": 6.7587278,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3356.png", "source": "http://server1.wikisky.org/v2?ra=161.0509958&de=6.7587278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

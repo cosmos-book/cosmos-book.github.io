@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6054",
+	"ra": 241.3777000,
+	"dec": 17.7685722,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6054.png", "source": "http://server1.wikisky.org/v2?ra=241.3777000&de=17.7685722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

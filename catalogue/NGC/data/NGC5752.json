@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5752",
+	"ra": 221.3087917,
+	"dec": 38.7287833,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5752.png", "source": "http://server1.wikisky.org/v2?ra=221.3087917&de=38.7287833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2532",
+	"ra": 122.5633250,
+	"dec": 33.9564917,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2532.png", "source": "http://server1.wikisky.org/v2?ra=122.5633250&de=33.9564917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

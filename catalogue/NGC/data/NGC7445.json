@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7445",
+	"ra": 344.8437500,
+	"dec": 39.1075139,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7445.png", "source": "http://server1.wikisky.org/v2?ra=344.8437500&de=39.1075139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

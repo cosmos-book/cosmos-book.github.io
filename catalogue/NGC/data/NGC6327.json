@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6327",
+	"ra": 258.5094917,
+	"dec": 43.6494472,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6327.png", "source": "http://server1.wikisky.org/v2?ra=258.5094917&de=43.6494472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

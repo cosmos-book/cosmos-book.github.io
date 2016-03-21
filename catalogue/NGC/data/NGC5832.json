@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5832",
+	"ra": 224.4412500,
+	"dec": 71.6815278,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5832.png", "source": "http://server1.wikisky.org/v2?ra=224.4412500&de=71.6815278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

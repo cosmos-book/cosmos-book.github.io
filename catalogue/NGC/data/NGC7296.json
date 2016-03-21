@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7296",
+	"ra": 337.0042000,
+	"dec": 52.3227806,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7296.png", "source": "http://server1.wikisky.org/v2?ra=337.0042000&de=52.3227806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

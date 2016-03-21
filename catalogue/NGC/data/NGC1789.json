@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1789",
+	"ra": 74.4627917,
+	"dec": -71.9027556,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1789.png", "source": "http://server1.wikisky.org/v2?ra=74.4627917&de=-71.9027556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 455",
+	"ra": 18.9901708,
+	"dec": 5.1787528,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC455.png", "source": "http://server1.wikisky.org/v2?ra=18.9901708&de=5.1787528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

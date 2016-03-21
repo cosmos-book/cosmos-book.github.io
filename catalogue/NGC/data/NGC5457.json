@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5457",
+	"ra": 210.8024292,
+	"dec": 54.3487500,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5457.jpg", "source": "http://hubblesite.org/gallery/album/pr2006010a/", "credit": "NASA, ESA, K. Kuntz (JHU), F. Bresolin (University of   Hawaii), J. Trauger (Jet Propulsion Lab), J. Mould (NOAO), Y.-H. Chu   (University of Illinois, Urbana), and STScICredit for CFHT Image: Canada-France-Hawaii Telescope/ J.-C. Cuillandre/CoelumCredit for NOAO Image: G. Jacoby, B. Bohannan, M. Hanna/ NOAO/AURA/NSF" }
+}

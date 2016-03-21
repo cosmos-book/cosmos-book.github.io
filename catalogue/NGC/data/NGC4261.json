@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4261",
+	"ra": 184.8467333,
+	"dec": 5.8249139,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.4","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4261.jpg", "source": "http://hubblesite.org/gallery/album/pr1995047a/", "credit": "L. Ferrarese (Johns Hopkins University) and NASA" }
+}

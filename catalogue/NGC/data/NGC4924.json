@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4924",
+	"ra": 195.5535583,
+	"dec": -14.9698806,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4924.png", "source": "http://server1.wikisky.org/v2?ra=195.5535583&de=-14.9698806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2167",
+	"ra": 91.7303000,
+	"dec": -6.2038000,
+	"avm": { "desc": "Mag 6.6 star", "codes":["3"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2167.png", "source": "http://server1.wikisky.org/v2?ra=91.7303000&de=-6.2038000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3295",
+	"ra": 158.1886250,
+	"dec": -12.6362500,
+	"avm": { "desc": "Elliptical galaxy", "codes":["5.1.4"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3295.png", "source": "http://server1.wikisky.org/v2?ra=158.1886250&de=-12.6362500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

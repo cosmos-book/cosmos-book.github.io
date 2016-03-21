@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4438",
+	"ra": 186.9402167,
+	"dec": 13.0085889,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4438.png", "source": "http://server1.wikisky.org/v2?ra=186.9402167&de=13.0085889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

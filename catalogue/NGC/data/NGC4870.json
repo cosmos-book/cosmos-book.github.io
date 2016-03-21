@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4870",
+	"ra": 194.8241583,
+	"dec": 37.0483556,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4870.png", "source": "http://server1.wikisky.org/v2?ra=194.8241583&de=37.0483556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

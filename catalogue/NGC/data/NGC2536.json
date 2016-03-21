@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2536",
+	"ra": 122.8170833,
+	"dec": 25.1792667,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2536.png", "source": "http://server1.wikisky.org/v2?ra=122.8170833&de=25.1792667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7003",
+	"ra": 315.1767250,
+	"dec": 17.8048417,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7003.png", "source": "http://server1.wikisky.org/v2?ra=315.1767250&de=17.8048417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

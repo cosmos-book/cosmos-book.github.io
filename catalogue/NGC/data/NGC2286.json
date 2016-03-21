@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2286",
+	"ra": 101.9130000,
+	"dec": -3.1550000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2286.png", "source": "http://server1.wikisky.org/v2?ra=101.9130000&de=-3.1550000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

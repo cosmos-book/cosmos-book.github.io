@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7791",
+	"ra": 359.4887583,
+	"dec": 10.7657167,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7791.png", "source": "http://server1.wikisky.org/v2?ra=359.4887583&de=10.7657167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

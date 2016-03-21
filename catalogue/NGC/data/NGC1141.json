@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1141",
+	"ra": 43.7907917,
+	"dec": -0.1779722,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1141.png", "source": "http://server1.wikisky.org/v2?ra=43.7907917&de=-0.1779722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7360",
+	"ra": 340.8913875,
+	"dec": 4.1510917,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7360.png", "source": "http://server1.wikisky.org/v2?ra=340.8913875&de=4.1510917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

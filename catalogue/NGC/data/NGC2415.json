@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2415",
+	"ra": 114.2363750,
+	"dec": 35.2419556,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2415.png", "source": "http://server1.wikisky.org/v2?ra=114.2363750&de=35.2419556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

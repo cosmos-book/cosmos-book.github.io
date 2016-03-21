@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5909",
+	"ra": 227.8682250,
+	"dec": 75.3838361,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5909.png", "source": "http://server1.wikisky.org/v2?ra=227.8682250&de=75.3838361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

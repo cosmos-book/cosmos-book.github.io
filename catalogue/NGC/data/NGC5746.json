@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5746",
+	"ra": 221.2333542,
+	"dec": 1.9547389,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5746.png", "source": "http://server1.wikisky.org/v2?ra=221.2333542&de=1.9547389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

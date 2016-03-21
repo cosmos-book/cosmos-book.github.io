@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5634",
+	"ra": 217.4053333,
+	"dec": -5.9764167,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5634.png", "source": "http://server1.wikisky.org/v2?ra=217.4053333&de=-5.9764167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

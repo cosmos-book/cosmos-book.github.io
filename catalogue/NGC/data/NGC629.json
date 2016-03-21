@@ -1,0 +1,8 @@
+{
+	"name": "NGC 629",
+	"ra": 25.0844000,
+	"dec": 72.8762000,
+	"avm": { "desc": "Group of stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC629.png", "source": "http://server1.wikisky.org/v2?ra=25.0844000&de=72.8762000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

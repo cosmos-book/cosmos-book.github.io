@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7752",
+	"ra": 356.7439875,
+	"dec": 29.4589361,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.5.1","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7752.png", "source": "http://server1.wikisky.org/v2?ra=356.7439875&de=29.4589361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

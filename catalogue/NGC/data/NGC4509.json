@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4509",
+	"ra": 188.2770833,
+	"dec": 32.0909306,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4509.png", "source": "http://server1.wikisky.org/v2?ra=188.2770833&de=32.0909306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

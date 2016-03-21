@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6184",
+	"ra": 247.8939208,
+	"dec": 40.5655806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6184.png", "source": "http://server1.wikisky.org/v2?ra=247.8939208&de=40.5655806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

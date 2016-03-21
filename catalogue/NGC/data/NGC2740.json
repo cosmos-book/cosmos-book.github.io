@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2740",
+	"ra": 136.5207833,
+	"dec": 51.7353333,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.1","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2740.png", "source": "http://server1.wikisky.org/v2?ra=136.5207833&de=51.7353333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

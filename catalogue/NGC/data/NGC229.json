@@ -1,0 +1,8 @@
+{
+	"name": "NGC 229",
+	"ra": 10.7692917,
+	"dec": 23.5091250,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC229.png", "source": "http://server1.wikisky.org/v2?ra=10.7692917&de=23.5091250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4617",
+	"ra": 190.2745375,
+	"dec": 50.3934583,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4617.png", "source": "http://server1.wikisky.org/v2?ra=190.2745375&de=50.3934583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

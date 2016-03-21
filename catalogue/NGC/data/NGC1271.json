@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1271",
+	"ra": 49.7969625,
+	"dec": 41.3533583,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1271.png", "source": "http://server1.wikisky.org/v2?ra=49.7969625&de=41.3533583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

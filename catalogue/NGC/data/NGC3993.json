@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3993",
+	"ra": 179.4076542,
+	"dec": 25.2406028,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3993.png", "source": "http://server1.wikisky.org/v2?ra=179.4076542&de=25.2406028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3955",
+	"ra": 178.4880833,
+	"dec": -23.1642694,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3955.png", "source": "http://server1.wikisky.org/v2?ra=178.4880833&de=-23.1642694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5046",
+	"ra": 198.9380208,
+	"dec": -16.3266778,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5046.png", "source": "http://server1.wikisky.org/v2?ra=198.9380208&de=-16.3266778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

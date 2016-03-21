@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4135",
+	"ra": 182.2867750,
+	"dec": 44.0031361,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4135.png", "source": "http://server1.wikisky.org/v2?ra=182.2867750&de=44.0031361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3756",
+	"ra": 174.1998917,
+	"dec": 54.2936806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3756.png", "source": "http://server1.wikisky.org/v2?ra=174.1998917&de=54.2936806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

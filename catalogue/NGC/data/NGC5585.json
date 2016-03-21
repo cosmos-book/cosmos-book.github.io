@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5585",
+	"ra": 214.9508500,
+	"dec": 56.7290500,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5585.png", "source": "http://server1.wikisky.org/v2?ra=214.9508500&de=56.7290500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

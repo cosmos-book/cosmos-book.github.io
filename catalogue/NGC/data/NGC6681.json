@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6681",
+	"ra": 280.8031667,
+	"dec": -32.2921111,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6681.png", "source": "http://server1.wikisky.org/v2?ra=280.8031667&de=-32.2921111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

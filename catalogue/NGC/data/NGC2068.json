@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2068",
+	"ra": 86.6947708,
+	"dec": 0.0140000,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2068.png", "source": "http://server1.wikisky.org/v2?ra=86.6947708&de=0.0140000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

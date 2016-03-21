@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3712",
+	"ra": 172.7887500,
+	"dec": 28.5666694,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3712.png", "source": "http://server1.wikisky.org/v2?ra=172.7887500&de=28.5666694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

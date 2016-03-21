@@ -287,7 +287,7 @@ function tooltip(data){
 		e.preventDefault();
 		e.stopPropagation();
 
-		var newhtml = e.data.data.html.call(this);
+		var newhtml = e.data.data.html.call(this,{data:data});
 		if(newhtml!=existinghtml){
 			show(this,newhtml);
 			$('body').addClass('hastooltip');
@@ -298,6 +298,7 @@ function tooltip(data){
 				existinghtml = "";
 			}
 		}
+		if(typeof e.data.data.added==="function") e.data.data.added.call(this,{data:data});
 	})
 }
 

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5580",
+	"ra": 215.1000000,
+	"dec": 35.1883000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5580.png", "source": "http://server1.wikisky.org/v2?ra=215.1000000&de=35.1883000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

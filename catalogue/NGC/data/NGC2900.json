@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2900",
+	"ra": 142.5635542,
+	"dec": 4.1445194,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2900.png", "source": "http://server1.wikisky.org/v2?ra=142.5635542&de=4.1445194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

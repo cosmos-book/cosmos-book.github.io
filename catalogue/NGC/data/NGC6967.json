@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6967",
+	"ra": 311.8920292,
+	"dec": 0.4116694,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6967.png", "source": "http://server1.wikisky.org/v2?ra=311.8920292&de=0.4116694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

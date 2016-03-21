@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7105",
+	"ra": 325.4222917,
+	"dec": -10.6355111,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7105.png", "source": "http://server1.wikisky.org/v2?ra=325.4222917&de=-10.6355111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1482",
+	"ra": 58.6622000,
+	"dec": -20.5024500,
+	"avm": { "desc": "Ring Galaxy", "codes":["5.3.3","5.1.5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1482.png", "source": "http://server1.wikisky.org/v2?ra=58.6622000&de=-20.5024500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2330",
+	"ra": 107.3681250,
+	"dec": 50.1524917,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5.5.3","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2330.png", "source": "http://server1.wikisky.org/v2?ra=107.3681250&de=50.1524917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

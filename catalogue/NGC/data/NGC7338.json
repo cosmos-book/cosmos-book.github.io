@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7338",
+	"ra": 339.3805042,
+	"dec": 34.4144778,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7338.png", "source": "http://server1.wikisky.org/v2?ra=339.3805042&de=34.4144778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

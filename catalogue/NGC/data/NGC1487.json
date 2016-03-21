@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1487",
+	"ra": 58.9437500,
+	"dec": -42.3669389,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1487.png", "source": "http://server1.wikisky.org/v2?ra=58.9437500&de=-42.3669389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

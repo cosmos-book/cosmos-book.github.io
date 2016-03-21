@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4142",
+	"ra": 182.3763333,
+	"dec": 53.1042222,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4142.png", "source": "http://server1.wikisky.org/v2?ra=182.3763333&de=53.1042222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5461",
+	"ra": 210.9206667,
+	"dec": 54.3173333,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5461.png", "source": "http://server1.wikisky.org/v2?ra=210.9206667&de=54.3173333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

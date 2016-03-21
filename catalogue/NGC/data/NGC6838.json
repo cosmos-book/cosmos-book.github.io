@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6838",
+	"ra": 298.4437083,
+	"dec": 18.7791944,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6838.png", "source": "http://server1.wikisky.org/v2?ra=298.4437083&de=18.7791944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

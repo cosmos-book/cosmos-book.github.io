@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3379",
+	"ra": 161.9566667,
+	"dec": 12.5816306,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.4","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3379.png", "source": "http://server1.wikisky.org/v2?ra=161.9566667&de=12.5816306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

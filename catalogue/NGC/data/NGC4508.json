@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4508",
+	"ra": 188.0725750,
+	"dec": 5.8199861,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4508.png", "source": "http://server1.wikisky.org/v2?ra=188.0725750&de=5.8199861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

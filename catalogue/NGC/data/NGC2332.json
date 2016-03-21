@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2332",
+	"ra": 107.3924042,
+	"dec": 50.1822167,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2332.png", "source": "http://server1.wikisky.org/v2?ra=107.3924042&de=50.1822167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

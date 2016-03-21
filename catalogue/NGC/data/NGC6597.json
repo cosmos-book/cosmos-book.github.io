@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6597",
+	"ra": 272.8062458,
+	"dec": 61.1806250,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6597.png", "source": "http://server1.wikisky.org/v2?ra=272.8062458&de=61.1806250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

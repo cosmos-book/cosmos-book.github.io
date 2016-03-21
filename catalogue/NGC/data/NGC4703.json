@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4703",
+	"ra": 192.3290250,
+	"dec": -9.1083639,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4703.png", "source": "http://server1.wikisky.org/v2?ra=192.3290250&de=-9.1083639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

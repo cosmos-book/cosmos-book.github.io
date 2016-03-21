@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6453",
+	"ra": 267.7157083,
+	"dec": -34.5986389,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6453.png", "source": "http://server1.wikisky.org/v2?ra=267.7157083&de=-34.5986389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

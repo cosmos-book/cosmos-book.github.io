@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1973",
+	"ra": 83.7700000,
+	"dec": -4.7318611,
+	"avm": { "desc": "Bright Nebula", "codes":["4.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1973.png", "source": "http://server1.wikisky.org/v2?ra=83.7700000&de=-4.7318611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

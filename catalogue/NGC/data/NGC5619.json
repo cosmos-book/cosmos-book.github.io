@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5619",
+	"ra": 216.8261250,
+	"dec": 4.8028889,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5619.png", "source": "http://server1.wikisky.org/v2?ra=216.8261250&de=4.8028889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

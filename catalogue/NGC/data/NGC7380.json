@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7380",
+	"ra": 341.8375000,
+	"dec": 58.1317000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7380.png", "source": "http://server1.wikisky.org/v2?ra=341.8375000&de=58.1317000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

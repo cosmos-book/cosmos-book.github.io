@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2433",
+	"ra": 115.6817500,
+	"dec": 9.2592222,
+	"avm": { "desc": "Double or multiple star", "codes":["3.6.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2433.png", "source": "http://server1.wikisky.org/v2?ra=115.6817500&de=9.2592222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6217",
+	"ra": 248.1634042,
+	"dec": 78.1982111,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6217.png", "source": "http://server1.wikisky.org/v2?ra=248.1634042&de=78.1982111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

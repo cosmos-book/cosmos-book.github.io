@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1953",
+	"ra": 81.3625000,
+	"dec": -68.8383000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1953.png", "source": "http://server1.wikisky.org/v2?ra=81.3625000&de=-68.8383000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

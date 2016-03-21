@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2133",
+	"ra": 87.8726250,
+	"dec": -71.1738583,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2133.png", "source": "http://server1.wikisky.org/v2?ra=87.8726250&de=-71.1738583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4941",
+	"ra": 196.0547625,
+	"dec": -5.5516194,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4941.png", "source": "http://server1.wikisky.org/v2?ra=196.0547625&de=-5.5516194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

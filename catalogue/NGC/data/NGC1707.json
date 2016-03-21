@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1707",
+	"ra": 74.7148000,
+	"dec": 8.2371000,
+	"avm": { "desc": "A group of stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1707.png", "source": "http://server1.wikisky.org/v2?ra=74.7148000&de=8.2371000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

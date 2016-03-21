@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5047",
+	"ra": 198.9521958,
+	"dec": -16.5189028,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5047.png", "source": "http://server1.wikisky.org/v2?ra=198.9521958&de=-16.5189028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

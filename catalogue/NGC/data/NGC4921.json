@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4921",
+	"ra": 195.3588875,
+	"dec": 27.8859806,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4921.png", "source": "http://server1.wikisky.org/v2?ra=195.3588875&de=27.8859806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

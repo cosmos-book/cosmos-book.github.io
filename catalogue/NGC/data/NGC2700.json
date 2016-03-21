@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2700",
+	"ra": 133.9607583,
+	"dec": -3.1164000,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2700.png", "source": "http://server1.wikisky.org/v2?ra=133.9607583&de=-3.1164000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

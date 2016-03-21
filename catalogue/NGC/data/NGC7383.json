@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7383",
+	"ra": 342.3986208,
+	"dec": 11.5563611,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7383.png", "source": "http://server1.wikisky.org/v2?ra=342.3986208&de=11.5563611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

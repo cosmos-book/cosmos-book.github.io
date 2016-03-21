@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2464",
+	"ra": 119.3861958,
+	"dec": 56.6905667,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2464.png", "source": "http://server1.wikisky.org/v2?ra=119.3861958&de=56.6905667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

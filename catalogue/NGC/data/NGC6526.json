@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6526",
+	"ra": 270.6500000,
+	"dec": -23.5830000,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6526.png", "source": "http://server1.wikisky.org/v2?ra=270.6500000&de=-23.5830000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

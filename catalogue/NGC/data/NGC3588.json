@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3588",
+	"ra": 168.5102250,
+	"dec": 20.3872472,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3588.png", "source": "http://server1.wikisky.org/v2?ra=168.5102250&de=20.3872472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

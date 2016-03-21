@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4734",
+	"ra": 192.8036042,
+	"dec": 4.8589028,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4734.png", "source": "http://server1.wikisky.org/v2?ra=192.8036042&de=4.8589028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

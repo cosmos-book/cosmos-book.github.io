@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5157",
+	"ra": 201.8201583,
+	"dec": 32.0307083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5157.png", "source": "http://server1.wikisky.org/v2?ra=201.8201583&de=32.0307083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

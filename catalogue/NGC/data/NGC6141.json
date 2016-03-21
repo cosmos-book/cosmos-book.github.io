@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6141",
+	"ra": 246.2742917,
+	"dec": 40.9285806,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6141.png", "source": "http://server1.wikisky.org/v2?ra=246.2742917&de=40.9285806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

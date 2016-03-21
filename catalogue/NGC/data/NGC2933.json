@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2933",
+	"ra": 144.4792167,
+	"dec": 17.0149444,
+	"avm": { "desc": "Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2933.png", "source": "http://server1.wikisky.org/v2?ra=144.4792167&de=17.0149444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

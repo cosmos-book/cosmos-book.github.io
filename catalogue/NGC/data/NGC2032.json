@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2032",
+	"ra": 83.8483292,
+	"dec": -67.5836111,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2032.png", "source": "http://server1.wikisky.org/v2?ra=83.8483292&de=-67.5836111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

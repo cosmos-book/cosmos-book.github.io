@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2771",
+	"ra": 137.6650833,
+	"dec": 50.3797500,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2771.png", "source": "http://server1.wikisky.org/v2?ra=137.6650833&de=50.3797500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

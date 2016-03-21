@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1410",
+	"ra": 55.2945792,
+	"dec": -1.2986111,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1410.png", "source": "http://server1.wikisky.org/v2?ra=55.2945792&de=-1.2986111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5213",
+	"ra": 203.6635583,
+	"dec": 4.1299250,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5213.png", "source": "http://server1.wikisky.org/v2?ra=203.6635583&de=4.1299250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

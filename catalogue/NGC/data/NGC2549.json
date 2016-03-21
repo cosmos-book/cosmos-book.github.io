@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2549",
+	"ra": 124.7431125,
+	"dec": 57.8031083,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2549.png", "source": "http://server1.wikisky.org/v2?ra=124.7431125&de=57.8031083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

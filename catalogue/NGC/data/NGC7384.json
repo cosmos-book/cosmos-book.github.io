@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7384",
+	"ra": 342.4414375,
+	"dec": 11.5524778,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7384.png", "source": "http://server1.wikisky.org/v2?ra=342.4414375&de=11.5524778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

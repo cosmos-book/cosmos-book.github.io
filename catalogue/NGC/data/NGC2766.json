@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2766",
+	"ra": 137.1980292,
+	"dec": 29.8647639,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2766.png", "source": "http://server1.wikisky.org/v2?ra=137.1980292&de=29.8647639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

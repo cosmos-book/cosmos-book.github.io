@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4631",
+	"ra": 190.5333708,
+	"dec": 32.5415111,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4631.png", "source": "http://server1.wikisky.org/v2?ra=190.5333708&de=32.5415111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

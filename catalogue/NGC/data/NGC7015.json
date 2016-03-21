@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7015",
+	"ra": 316.4057917,
+	"dec": 11.4142083,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7015.png", "source": "http://server1.wikisky.org/v2?ra=316.4057917&de=11.4142083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

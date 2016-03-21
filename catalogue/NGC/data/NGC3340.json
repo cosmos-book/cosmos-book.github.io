@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3340",
+	"ra": 160.5749042,
+	"dec": -0.3768111,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3340.png", "source": "http://server1.wikisky.org/v2?ra=160.5749042&de=-0.3768111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

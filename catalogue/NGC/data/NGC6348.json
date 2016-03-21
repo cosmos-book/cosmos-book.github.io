@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6348",
+	"ra": 259.5885000,
+	"dec": 41.6475722,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6348.png", "source": "http://server1.wikisky.org/v2?ra=259.5885000&de=41.6475722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

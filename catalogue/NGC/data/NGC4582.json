@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4582",
+	"ra": 189.5425000,
+	"dec": 0.1827500,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4582.png", "source": "http://server1.wikisky.org/v2?ra=189.5425000&de=0.1827500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

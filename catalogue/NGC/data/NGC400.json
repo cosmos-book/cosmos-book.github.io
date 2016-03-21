@@ -1,0 +1,8 @@
+{
+	"name": "NGC 400",
+	"ra": 17.2603750,
+	"dec": 32.7324250,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC400.png", "source": "http://server1.wikisky.org/v2?ra=17.2603750&de=32.7324250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

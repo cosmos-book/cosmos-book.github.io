@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7244",
+	"ra": 334.1117542,
+	"dec": 16.4714722,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7244.png", "source": "http://server1.wikisky.org/v2?ra=334.1117542&de=16.4714722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

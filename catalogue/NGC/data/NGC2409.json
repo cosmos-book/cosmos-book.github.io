@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2409",
+	"ra": 112.9042000,
+	"dec": -17.1933000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2409.png", "source": "http://server1.wikisky.org/v2?ra=112.9042000&de=-17.1933000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5139",
+	"ra": 201.6970000,
+	"dec": -47.4794722,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5139.png", "source": "http://server1.wikisky.org/v2?ra=201.6970000&de=-47.4794722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

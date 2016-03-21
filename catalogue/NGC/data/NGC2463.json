@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2463",
+	"ra": 119.3019958,
+	"dec": 56.6764722,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2463.png", "source": "http://server1.wikisky.org/v2?ra=119.3019958&de=56.6764722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

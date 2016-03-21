@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5015",
+	"ra": 198.0954458,
+	"dec": -4.3364333,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5015.png", "source": "http://server1.wikisky.org/v2?ra=198.0954458&de=-4.3364333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

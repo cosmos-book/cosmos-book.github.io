@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5366",
+	"ra": 209.1035167,
+	"dec": -0.2476222,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5366.png", "source": "http://server1.wikisky.org/v2?ra=209.1035167&de=-0.2476222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

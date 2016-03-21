@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4868",
+	"ra": 194.7871250,
+	"dec": 37.3102917,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4868.png", "source": "http://server1.wikisky.org/v2?ra=194.7871250&de=37.3102917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

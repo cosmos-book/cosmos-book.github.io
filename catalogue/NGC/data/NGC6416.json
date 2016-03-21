@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6416",
+	"ra": 266.0792000,
+	"dec": -32.3617000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6416.png", "source": "http://server1.wikisky.org/v2?ra=266.0792000&de=-32.3617000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

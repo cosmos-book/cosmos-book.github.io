@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5950",
+	"ra": 232.8784333,
+	"dec": 40.4301444,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5950.png", "source": "http://server1.wikisky.org/v2?ra=232.8784333&de=40.4301444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

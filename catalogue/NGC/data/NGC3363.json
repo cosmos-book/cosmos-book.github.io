@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3363",
+	"ra": 161.2892917,
+	"dec": 22.0784750,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3363.png", "source": "http://server1.wikisky.org/v2?ra=161.2892917&de=22.0784750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

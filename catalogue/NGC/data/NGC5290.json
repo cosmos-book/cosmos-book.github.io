@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5290",
+	"ra": 206.3297125,
+	"dec": 41.7123361,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5290.png", "source": "http://server1.wikisky.org/v2?ra=206.3297125&de=41.7123361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

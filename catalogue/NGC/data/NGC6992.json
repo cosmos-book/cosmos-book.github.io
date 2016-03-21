@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6992",
+	"ra": 314.0792000,
+	"dec": 31.7433000,
+	"avm": { "desc": "HI shell", "codes":["4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6992.png", "source": "http://server1.wikisky.org/v2?ra=314.0792000&de=31.7433000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

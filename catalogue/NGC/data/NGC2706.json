@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2706",
+	"ra": 134.0513000,
+	"dec": -2.5634250,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2706.png", "source": "http://server1.wikisky.org/v2?ra=134.0513000&de=-2.5634250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

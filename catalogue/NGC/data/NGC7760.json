@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7760",
+	"ra": 357.2996500,
+	"dec": 30.9830750,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7760.png", "source": "http://server1.wikisky.org/v2?ra=357.2996500&de=30.9830750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

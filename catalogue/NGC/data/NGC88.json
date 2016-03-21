@@ -1,0 +1,8 @@
+{
+	"name": "NGC 88",
+	"ra": 5.3422167,
+	"dec": -48.6400778,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC88.png", "source": "http://server1.wikisky.org/v2?ra=5.3422167&de=-48.6400778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

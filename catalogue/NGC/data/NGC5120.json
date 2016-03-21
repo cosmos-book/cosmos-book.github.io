@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5120",
+	"ra": 201.4250000,
+	"dec": -63.4533000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5120.png", "source": "http://server1.wikisky.org/v2?ra=201.4250000&de=-63.4533000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

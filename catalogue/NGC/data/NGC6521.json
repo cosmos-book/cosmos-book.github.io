@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6521",
+	"ra": 268.9518208,
+	"dec": 62.6122583,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6521.png", "source": "http://server1.wikisky.org/v2?ra=268.9518208&de=62.6122583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

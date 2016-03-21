@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2918",
+	"ra": 143.9334708,
+	"dec": 31.7054083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2918.png", "source": "http://server1.wikisky.org/v2?ra=143.9334708&de=31.7054083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

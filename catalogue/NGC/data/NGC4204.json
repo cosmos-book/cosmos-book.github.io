@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4204",
+	"ra": 183.8098292,
+	"dec": 20.6590778,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4204.png", "source": "http://server1.wikisky.org/v2?ra=183.8098292&de=20.6590778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

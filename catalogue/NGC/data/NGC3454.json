@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3454",
+	"ra": 163.6227417,
+	"dec": 17.3440500,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3454.png", "source": "http://server1.wikisky.org/v2?ra=163.6227417&de=17.3440500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

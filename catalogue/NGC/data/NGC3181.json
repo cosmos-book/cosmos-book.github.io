@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3181",
+	"ra": 154.5479542,
+	"dec": 41.4126833,
+	"avm": { "desc": "", "codes":["4.2.1.1"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3181.png", "source": "http://server1.wikisky.org/v2?ra=154.5479542&de=41.4126833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

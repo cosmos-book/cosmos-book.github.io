@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2035",
+	"ra": 83.8833000,
+	"dec": -67.5850000,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2035.png", "source": "http://server1.wikisky.org/v2?ra=83.8833000&de=-67.5850000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

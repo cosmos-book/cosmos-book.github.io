@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1960",
+	"ra": 84.0750000,
+	"dec": 34.1400000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1960.png", "source": "http://server1.wikisky.org/v2?ra=84.0750000&de=34.1400000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

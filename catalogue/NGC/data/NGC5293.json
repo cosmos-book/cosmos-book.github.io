@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5293",
+	"ra": 206.7194042,
+	"dec": 16.2727861,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5293.png", "source": "http://server1.wikisky.org/v2?ra=206.7194042&de=16.2727861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

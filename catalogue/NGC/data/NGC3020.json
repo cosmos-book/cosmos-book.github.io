@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3020",
+	"ra": 147.5274958,
+	"dec": 12.8136000,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3020.png", "source": "http://server1.wikisky.org/v2?ra=147.5274958&de=12.8136000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3055",
+	"ra": 148.8251958,
+	"dec": 4.2700806,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3055.png", "source": "http://server1.wikisky.org/v2?ra=148.8251958&de=4.2700806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

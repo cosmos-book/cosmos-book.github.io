@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3353",
+	"ra": 161.3432917,
+	"dec": 55.9603778,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3353.png", "source": "http://server1.wikisky.org/v2?ra=161.3432917&de=55.9603778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

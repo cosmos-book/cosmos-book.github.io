@@ -1,0 +1,8 @@
+{
+	"name": "NGC 364",
+	"ra": 16.1703125,
+	"dec": -0.8026611,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC364.png", "source": "http://server1.wikisky.org/v2?ra=16.1703125&de=-0.8026611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

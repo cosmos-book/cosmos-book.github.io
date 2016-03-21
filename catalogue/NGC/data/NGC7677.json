@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7677",
+	"ra": 352.0260000,
+	"dec": 23.5314417,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7677.png", "source": "http://server1.wikisky.org/v2?ra=352.0260000&de=23.5314417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

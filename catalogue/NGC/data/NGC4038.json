@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4038",
+	"ra": 180.4708417,
+	"dec": -18.8675889,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4038.jpg", "source": "http://hubblesite.org/gallery/album/pr2006046a/", "credit": "NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble CollaborationAcknowledgment: B. Whitmore (Space Telescope Science Institute)" }
+}

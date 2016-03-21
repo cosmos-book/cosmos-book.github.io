@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2984",
+	"ra": 145.9182750,
+	"dec": 11.0607750,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2984.png", "source": "http://server1.wikisky.org/v2?ra=145.9182750&de=11.0607750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

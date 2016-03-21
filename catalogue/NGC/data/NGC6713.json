@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6713",
+	"ra": 282.6857000,
+	"dec": 33.9598194,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6713.png", "source": "http://server1.wikisky.org/v2?ra=282.6857000&de=33.9598194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

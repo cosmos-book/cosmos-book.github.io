@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2581",
+	"ra": 126.1291708,
+	"dec": 18.5969389,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2581.png", "source": "http://server1.wikisky.org/v2?ra=126.1291708&de=18.5969389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

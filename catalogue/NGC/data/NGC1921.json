@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1921",
+	"ra": 79.8333000,
+	"dec": -69.7883000,
+	"avm": { "desc": "Emission nebula", "codes":["4.2.1"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1921.png", "source": "http://server1.wikisky.org/v2?ra=79.8333000&de=-69.7883000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

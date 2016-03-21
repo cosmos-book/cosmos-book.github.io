@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4270",
+	"ra": 184.9559792,
+	"dec": 5.4633722,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4270.png", "source": "http://server1.wikisky.org/v2?ra=184.9559792&de=5.4633722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

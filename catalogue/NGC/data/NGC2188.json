@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2188",
+	"ra": 92.5404292,
+	"dec": -34.1138722,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2188.png", "source": "http://server1.wikisky.org/v2?ra=92.5404292&de=-34.1138722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

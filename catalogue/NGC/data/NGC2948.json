@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2948",
+	"ra": 144.7467208,
+	"dec": 6.9555333,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2948.png", "source": "http://server1.wikisky.org/v2?ra=144.7467208&de=6.9555333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

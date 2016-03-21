@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5193",
+	"ra": 202.9728542,
+	"dec": -33.2344472,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5193.png", "source": "http://server1.wikisky.org/v2?ra=202.9728542&de=-33.2344472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

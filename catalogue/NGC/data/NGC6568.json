@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6568",
+	"ra": 273.1750000,
+	"dec": -21.6000000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6568.png", "source": "http://server1.wikisky.org/v2?ra=273.1750000&de=-21.6000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

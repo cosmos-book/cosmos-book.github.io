@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3299",
+	"ra": 159.1002500,
+	"dec": 12.7070000,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3299.png", "source": "http://server1.wikisky.org/v2?ra=159.1002500&de=12.7070000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

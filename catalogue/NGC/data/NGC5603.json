@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5603",
+	"ra": 215.7563000,
+	"dec": 40.3772917,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5603.png", "source": "http://server1.wikisky.org/v2?ra=215.7563000&de=40.3772917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

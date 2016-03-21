@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5791",
+	"ra": 224.6925958,
+	"dec": -19.2668444,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5791.png", "source": "http://server1.wikisky.org/v2?ra=224.6925958&de=-19.2668444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

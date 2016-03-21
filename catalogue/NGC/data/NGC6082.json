@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6082",
+	"ra": 243.8648333,
+	"dec": -34.2327528,
+	"avm": { "desc": "Two stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6082.png", "source": "http://server1.wikisky.org/v2?ra=243.8648333&de=-34.2327528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

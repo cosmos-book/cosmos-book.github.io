@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5287",
+	"ra": 206.2188417,
+	"dec": 29.7710361,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5287.png", "source": "http://server1.wikisky.org/v2?ra=206.2188417&de=29.7710361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

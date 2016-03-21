@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7626",
+	"ra": 350.1771833,
+	"dec": 8.2170639,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7626.png", "source": "http://server1.wikisky.org/v2?ra=350.1771833&de=8.2170639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

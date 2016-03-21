@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2621",
+	"ra": 129.4039750,
+	"dec": 24.9996583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2621.png", "source": "http://server1.wikisky.org/v2?ra=129.4039750&de=24.9996583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

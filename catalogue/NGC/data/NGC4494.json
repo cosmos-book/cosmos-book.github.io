@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4494",
+	"ra": 187.8501417,
+	"dec": 25.7749806,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.4","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4494.png", "source": "http://server1.wikisky.org/v2?ra=187.8501417&de=25.7749806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

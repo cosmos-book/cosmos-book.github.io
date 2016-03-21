@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5548",
+	"ra": 214.4979708,
+	"dec": 25.1367917,
+	"avm": { "desc": "Seyfert 1 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5548.png", "source": "http://server1.wikisky.org/v2?ra=214.4979708&de=25.1367917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

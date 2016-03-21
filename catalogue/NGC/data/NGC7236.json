@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7236",
+	"ra": 333.6875292,
+	"dec": 13.8465722,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7236.png", "source": "http://server1.wikisky.org/v2?ra=333.6875292&de=13.8465722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

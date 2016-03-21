@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3431",
+	"ra": 162.8126542,
+	"dec": -17.0079583,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3431.png", "source": "http://server1.wikisky.org/v2?ra=162.8126542&de=-17.0079583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

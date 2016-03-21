@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4526",
+	"ra": 188.5126208,
+	"dec": 7.6991389,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4526.jpg", "source": "http://hubblesite.org/gallery/album/pr1999019i/", "credit": "NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team" }
+}

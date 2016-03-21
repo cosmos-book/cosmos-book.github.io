@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3004",
+	"ra": 147.2602042,
+	"dec": 44.1110306,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3004.png", "source": "http://server1.wikisky.org/v2?ra=147.2602042&de=44.1110306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

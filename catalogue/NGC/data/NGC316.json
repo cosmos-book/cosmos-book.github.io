@@ -1,0 +1,8 @@
+{
+	"name": "NGC 316",
+	"ra": 14.4685333,
+	"dec": 30.3542972,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC316.png", "source": "http://server1.wikisky.org/v2?ra=14.4685333&de=30.3542972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

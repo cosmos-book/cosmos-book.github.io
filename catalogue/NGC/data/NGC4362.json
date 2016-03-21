@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4362",
+	"ra": 186.0474833,
+	"dec": 58.3606639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4362.png", "source": "http://server1.wikisky.org/v2?ra=186.0474833&de=58.3606639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

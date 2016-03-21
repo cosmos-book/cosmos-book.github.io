@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2755",
+	"ra": 136.9929667,
+	"dec": 41.7090222,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2755.png", "source": "http://server1.wikisky.org/v2?ra=136.9929667&de=41.7090222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

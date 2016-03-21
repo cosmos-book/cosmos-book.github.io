@@ -4,8 +4,16 @@ tr:nth-child(10n) td { border-bottom: 1px solid white; }
 td:nth-child(10n) { border-right: 1px solid white; }
 td:last-child { border-right: 0px; }
 td { padding: 1px; margin: 0px; }
+.tableholder td { line-height: 0; }
+.tableholder td:hover { background-color: white; }
+.tableholder img { width: 100%; height: auto; }
 .tooltip { width: 256px; }
-.tooltip img { width: 256px; height: 256px; cursor: pointer; }
+.tooltip img { width: 256px; height: 256px; }
+.tooltip tr:hover { background-color: transparent; }
+.tooltip p { margin: 0.25em 0; }
+.tooltip .thumb { position: relative; }
+.tooltip .thumb .thumblink { line-height: 0px; width: 225px; height: 225px; }
+.tooltip .thumb .credit { font-size: 0.8em; padding-bottom: 1em; display: block; }/*overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }*/
 
 
 @media only screen and (max-width: 800px){

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1964",
+	"ra": 83.3406500,
+	"dec": -21.9457694,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1964.png", "source": "http://server1.wikisky.org/v2?ra=83.3406500&de=-21.9457694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

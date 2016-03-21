@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7617",
+	"ra": 350.0372292,
+	"dec": 8.1657278,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5.5.2","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7617.png", "source": "http://server1.wikisky.org/v2?ra=350.0372292&de=8.1657278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

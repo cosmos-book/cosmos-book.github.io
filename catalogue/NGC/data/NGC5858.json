@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5858",
+	"ra": 227.2047750,
+	"dec": -11.2077806,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5858.png", "source": "http://server1.wikisky.org/v2?ra=227.2047750&de=-11.2077806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

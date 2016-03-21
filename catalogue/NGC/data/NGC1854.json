@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1854",
+	"ra": 77.3337500,
+	"dec": -68.8480000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1854.png", "source": "http://server1.wikisky.org/v2?ra=77.3337500&de=-68.8480000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

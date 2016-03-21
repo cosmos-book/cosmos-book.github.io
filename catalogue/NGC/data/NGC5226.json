@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5226",
+	"ra": 203.7652125,
+	"dec": 13.9222417,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5226.png", "source": "http://server1.wikisky.org/v2?ra=203.7652125&de=13.9222417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

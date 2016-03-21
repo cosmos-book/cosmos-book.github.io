@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2139",
+	"ra": 90.2831792,
+	"dec": -23.6723194,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2139.png", "source": "http://server1.wikisky.org/v2?ra=90.2831792&de=-23.6723194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

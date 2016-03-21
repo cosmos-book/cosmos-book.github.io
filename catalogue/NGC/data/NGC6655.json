@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6655",
+	"ra": 278.6287333,
+	"dec": -5.9208639,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC6655.png", "source": "http://server1.wikisky.org/v2?ra=278.6287333&de=-5.9208639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

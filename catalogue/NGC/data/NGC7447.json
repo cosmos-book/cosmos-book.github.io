@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7447",
+	"ra": 345.0958333,
+	"dec": -10.5333,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7447.png", "source": "http://server1.wikisky.org/v2?ra=345.0958333&de=-10.5333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

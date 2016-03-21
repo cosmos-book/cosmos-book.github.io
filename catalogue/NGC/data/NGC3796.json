@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3796",
+	"ra": 175.1297750,
+	"dec": 60.2989583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3796.png", "source": "http://server1.wikisky.org/v2?ra=175.1297750&de=60.2989583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1802",
+	"ra": 77.5750000,
+	"dec": 24.1330000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1802.png", "source": "http://server1.wikisky.org/v2?ra=77.5750000&de=24.1330000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

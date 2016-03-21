@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6974",
+	"ra": 312.7679208,
+	"dec": 31.8280611,
+	"avm": { "desc": "", "codes":["4.1.4"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC6974.png", "source": "http://server1.wikisky.org/v2?ra=312.7679208&de=31.8280611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

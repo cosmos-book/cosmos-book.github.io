@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4765",
+	"ra": 193.3107000,
+	"dec": 4.4633306,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4765.png", "source": "http://server1.wikisky.org/v2?ra=193.3107000&de=4.4633306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

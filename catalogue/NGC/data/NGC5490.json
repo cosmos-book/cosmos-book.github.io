@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5490",
+	"ra": 212.4888750,
+	"dec": 17.5454250,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5490.png", "source": "http://server1.wikisky.org/v2?ra=212.4888750&de=17.5454250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

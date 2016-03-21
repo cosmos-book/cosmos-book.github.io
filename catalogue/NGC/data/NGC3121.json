@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3121",
+	"ra": 151.7162792,
+	"dec": 14.3735472,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3121.png", "source": "http://server1.wikisky.org/v2?ra=151.7162792&de=14.3735472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

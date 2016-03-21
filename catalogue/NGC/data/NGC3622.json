@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3622",
+	"ra": 170.0517875,
+	"dec": 67.2417972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3622.png", "source": "http://server1.wikisky.org/v2?ra=170.0517875&de=67.2417972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

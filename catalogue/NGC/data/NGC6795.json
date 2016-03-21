@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6795",
+	"ra": 291.5917292,
+	"dec": 3.5143667,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6795.png", "source": "http://server1.wikisky.org/v2?ra=291.5917292&de=3.5143667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

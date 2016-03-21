@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1659",
+	"ra": 71.6248000,
+	"dec": -4.7887056,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1659.png", "source": "http://server1.wikisky.org/v2?ra=71.6248000&de=-4.7887056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

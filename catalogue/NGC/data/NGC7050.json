@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7050",
+	"ra": 318.7856458,
+	"dec": 36.1752528,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7050.png", "source": "http://server1.wikisky.org/v2?ra=318.7856458&de=36.1752528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

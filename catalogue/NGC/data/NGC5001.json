@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5001",
+	"ra": 197.3885792,
+	"dec": 53.4942083,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5001.png", "source": "http://server1.wikisky.org/v2?ra=197.3885792&de=53.4942083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

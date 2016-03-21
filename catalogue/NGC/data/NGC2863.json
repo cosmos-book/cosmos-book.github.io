@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2863",
+	"ra": 140.9022833,
+	"dec": -10.4337389,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2863.png", "source": "http://server1.wikisky.org/v2?ra=140.9022833&de=-10.4337389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

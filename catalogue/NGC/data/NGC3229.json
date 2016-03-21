@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3229",
+	"ra": 155.4716625,
+	"dec": 0.2953333,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3229.png", "source": "http://server1.wikisky.org/v2?ra=155.4716625&de=0.2953333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

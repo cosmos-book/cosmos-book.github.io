@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3243",
+	"ra": 156.5894167,
+	"dec": -2.6221611,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3243.png", "source": "http://server1.wikisky.org/v2?ra=156.5894167&de=-2.6221611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

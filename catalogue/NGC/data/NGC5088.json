@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5088",
+	"ra": 200.0843208,
+	"dec": -12.5718139,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5088.png", "source": "http://server1.wikisky.org/v2?ra=200.0843208&de=-12.5718139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

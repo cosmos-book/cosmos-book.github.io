@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6083",
+	"ra": 243.3029167,
+	"dec": 14.1853722,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6083.png", "source": "http://server1.wikisky.org/v2?ra=243.3029167&de=14.1853722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

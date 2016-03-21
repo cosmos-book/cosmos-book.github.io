@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6060",
+	"ra": 241.4665833,
+	"dec": 21.4849833,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6060.png", "source": "http://server1.wikisky.org/v2?ra=241.4665833&de=21.4849833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

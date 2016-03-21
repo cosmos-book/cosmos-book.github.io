@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3464",
+	"ra": 163.6669750,
+	"dec": -21.0665750,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3464.png", "source": "http://server1.wikisky.org/v2?ra=163.6669750&de=-21.0665750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

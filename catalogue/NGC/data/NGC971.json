@@ -1,0 +1,8 @@
+{
+	"name": "NGC 971",
+	"ra": 38.5483292,
+	"dec": 32.9766694,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC971.png", "source": "http://server1.wikisky.org/v2?ra=38.5483292&de=32.9766694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

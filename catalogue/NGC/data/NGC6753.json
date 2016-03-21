@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6753",
+	"ra": 287.8484792,
+	"dec": -57.0495667,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6753.png", "source": "http://server1.wikisky.org/v2?ra=287.8484792&de=-57.0495667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

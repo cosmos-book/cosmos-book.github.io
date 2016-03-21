@@ -1,0 +1,8 @@
+{
+	"name": "NGC 193",
+	"ra": 9.8274083,
+	"dec": 3.3313528,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC193.png", "source": "http://server1.wikisky.org/v2?ra=9.8274083&de=3.3313528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

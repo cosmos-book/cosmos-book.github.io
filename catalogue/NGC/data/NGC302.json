@@ -1,0 +1,8 @@
+{
+	"name": "NGC 302",
+	"ra": 14.1054458,
+	"dec": -10.6632222,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC302.png", "source": "http://server1.wikisky.org/v2?ra=14.1054458&de=-10.6632222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

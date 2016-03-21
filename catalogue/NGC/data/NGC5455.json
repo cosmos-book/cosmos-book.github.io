@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5455",
+	"ra": 210.7548750,
+	"dec": 54.2415000,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5455.png", "source": "http://server1.wikisky.org/v2?ra=210.7548750&de=54.2415000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

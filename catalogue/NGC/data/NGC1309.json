@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1309",
+	"ra": 50.5273208,
+	"dec": -15.4000722,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1309.jpg", "source": "http://hubblesite.org/gallery/album/pr2006007c/", "credit": "NASA, ESA, The Hubble Heritage Team, (STScI/AURA) and A. Riess (STScI)" }
+}

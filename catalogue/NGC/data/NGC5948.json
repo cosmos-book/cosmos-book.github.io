@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5948",
+	"ra": 233.2443167,
+	"dec": 3.9828306,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5948.png", "source": "http://server1.wikisky.org/v2?ra=233.2443167&de=3.9828306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

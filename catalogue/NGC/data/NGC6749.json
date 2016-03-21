@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6749",
+	"ra": 286.3140000,
+	"dec": 1.9000000,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6749.png", "source": "http://server1.wikisky.org/v2?ra=286.3140000&de=1.9000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

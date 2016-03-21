@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6246",
+	"ra": 252.4695417,
+	"dec": 55.5418889,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6246.png", "source": "http://server1.wikisky.org/v2?ra=252.4695417&de=55.5418889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

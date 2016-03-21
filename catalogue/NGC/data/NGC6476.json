@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6476",
+	"ra": 268.5083000,
+	"dec": -29.1450000,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6476.png", "source": "http://server1.wikisky.org/v2?ra=268.5083000&de=-29.1450000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

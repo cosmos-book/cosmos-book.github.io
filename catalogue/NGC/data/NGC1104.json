@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1104",
+	"ra": 42.1613583,
+	"dec": -0.2713833,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1104.png", "source": "http://server1.wikisky.org/v2?ra=42.1613583&de=-0.2713833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

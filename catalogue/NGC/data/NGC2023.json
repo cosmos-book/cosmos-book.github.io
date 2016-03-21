@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2023",
+	"ra": 85.4078792,
+	"dec": -2.2645111,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2023.png", "source": "http://server1.wikisky.org/v2?ra=85.4078792&de=-2.2645111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

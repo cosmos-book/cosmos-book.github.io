@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7830",
+	"ra": 1.5077583,
+	"dec": 8.3427722,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7830.png", "source": "http://server1.wikisky.org/v2?ra=1.5077583&de=8.3427722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

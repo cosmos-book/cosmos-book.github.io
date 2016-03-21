@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3178",
+	"ra": 154.0382083,
+	"dec": -15.7913111,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3178.png", "source": "http://server1.wikisky.org/v2?ra=154.0382083&de=-15.7913111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 828",
+	"ra": 32.5399042,
+	"dec": 39.1903889,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC828.png", "source": "http://server1.wikisky.org/v2?ra=32.5399042&de=39.1903889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

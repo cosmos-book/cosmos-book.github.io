@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6390",
+	"ra": 262.1168500,
+	"dec": 60.0943917,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6390.png", "source": "http://server1.wikisky.org/v2?ra=262.1168500&de=60.0943917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

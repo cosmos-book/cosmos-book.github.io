@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2419",
+	"ra": 114.5354583,
+	"dec": 38.8819167,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2419.png", "source": "http://server1.wikisky.org/v2?ra=114.5354583&de=38.8819167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

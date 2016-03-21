@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2062",
+	"ra": 85.0083000,
+	"dec": -66.8767000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2062.png", "source": "http://server1.wikisky.org/v2?ra=85.0083000&de=-66.8767000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

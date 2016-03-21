@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2241",
+	"ra": 95.7208000,
+	"dec": -68.9250000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2241.png", "source": "http://server1.wikisky.org/v2?ra=95.7208000&de=-68.9250000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

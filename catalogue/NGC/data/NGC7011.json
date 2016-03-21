@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7011",
+	"ra": 315.4557500,
+	"dec": 47.3543167,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7011.png", "source": "http://server1.wikisky.org/v2?ra=315.4557500&de=47.3543167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

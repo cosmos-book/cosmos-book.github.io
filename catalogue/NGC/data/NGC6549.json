@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6549",
+	"ra": 271.4563000,
+	"dec": 18.5379778,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6549.png", "source": "http://server1.wikisky.org/v2?ra=271.4563000&de=18.5379778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7430",
+	"ra": 344.3739000,
+	"dec": 8.7938139,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7430.png", "source": "http://server1.wikisky.org/v2?ra=344.3739000&de=8.7938139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

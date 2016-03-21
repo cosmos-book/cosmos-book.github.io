@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5376",
+	"ra": 208.8169417,
+	"dec": 59.5067028,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5376.png", "source": "http://server1.wikisky.org/v2?ra=208.8169417&de=59.5067028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

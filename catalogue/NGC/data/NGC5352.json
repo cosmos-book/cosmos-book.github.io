@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5352",
+	"ra": 208.4103083,
+	"dec": 36.1342167,
+	"avm": { "desc": "Possible Quasar", "codes":["5.3.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5352.png", "source": "http://server1.wikisky.org/v2?ra=208.4103083&de=36.1342167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

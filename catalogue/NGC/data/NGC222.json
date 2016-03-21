@@ -1,0 +1,8 @@
+{
+	"name": "NGC 222",
+	"ra": 10.1754583,
+	"dec": -73.3835556,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC222.png", "source": "http://server1.wikisky.org/v2?ra=10.1754583&de=-73.3835556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

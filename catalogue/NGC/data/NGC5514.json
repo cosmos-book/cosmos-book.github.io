@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5514",
+	"ra": 213.4112083,
+	"dec": 7.6603750,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5514.png", "source": "http://server1.wikisky.org/v2?ra=213.4112083&de=7.6603750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

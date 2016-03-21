@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2687",
+	"ra": 133.7708292,
+	"dec": 49.1563889,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2687.png", "source": "http://server1.wikisky.org/v2?ra=133.7708292&de=49.1563889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

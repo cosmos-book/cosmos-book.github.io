@@ -1,0 +1,8 @@
+{
+	"name": "NGC 84",
+	"ra": 5.3895333,
+	"dec": 22.5919500,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC84.png", "source": "http://server1.wikisky.org/v2?ra=5.3895333&de=22.5919500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

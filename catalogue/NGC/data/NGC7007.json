@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7007",
+	"ra": 316.3663625,
+	"dec": -52.5519278,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7007.png", "source": "http://server1.wikisky.org/v2?ra=316.3663625&de=-52.5519278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

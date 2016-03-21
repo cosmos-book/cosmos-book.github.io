@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1860",
+	"ra": 77.6714167,
+	"dec": -68.7535028,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1860.png", "source": "http://server1.wikisky.org/v2?ra=77.6714167&de=-68.7535028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

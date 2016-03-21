@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4945",
+	"ra": 196.3636625,
+	"dec": -49.4679000,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4945.png", "source": "http://server1.wikisky.org/v2?ra=196.3636625&de=-49.4679000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

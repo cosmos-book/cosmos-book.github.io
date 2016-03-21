@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5263",
+	"ra": 204.9818125,
+	"dec": 28.4005778,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5263.png", "source": "http://server1.wikisky.org/v2?ra=204.9818125&de=28.4005778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

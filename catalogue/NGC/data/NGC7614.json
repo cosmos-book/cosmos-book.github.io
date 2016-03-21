@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7614",
+	"ra": 349.9656458,
+	"dec": 0.1988667,
+	"avm": { "desc": "Four stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC7614.png", "source": "http://server1.wikisky.org/v2?ra=349.9656458&de=0.1988667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 649",
+	"ra": 25.0310500,
+	"dec": -9.2721278,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC649.png", "source": "http://server1.wikisky.org/v2?ra=25.0310500&de=-9.2721278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

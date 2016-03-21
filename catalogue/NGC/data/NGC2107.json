@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2107",
+	"ra": 85.8011250,
+	"dec": -70.6407861,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2107.png", "source": "http://server1.wikisky.org/v2?ra=85.8011250&de=-70.6407861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

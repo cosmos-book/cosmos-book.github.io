@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4314",
+	"ra": 185.6332417,
+	"dec": 29.8953028,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2.4","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4314.png", "source": "http://server1.wikisky.org/v2?ra=185.6332417&de=29.8953028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

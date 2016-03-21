@@ -1,0 +1,8 @@
+{
+	"name": "NGC 716",
+	"ra": 28.2487000,
+	"dec": 12.7084778,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC716.png", "source": "http://server1.wikisky.org/v2?ra=28.2487000&de=12.7084778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

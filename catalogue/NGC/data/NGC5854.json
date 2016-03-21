@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5854",
+	"ra": 226.9488542,
+	"dec": 2.5685611,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5854.png", "source": "http://server1.wikisky.org/v2?ra=226.9488542&de=2.5685611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

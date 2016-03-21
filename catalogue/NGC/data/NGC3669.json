@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3669",
+	"ra": 171.3617250,
+	"dec": 57.7211639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3669.png", "source": "http://server1.wikisky.org/v2?ra=171.3617250&de=57.7211639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

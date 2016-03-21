@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6802",
+	"ra": 292.6500000,
+	"dec": 20.2594389,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6802.png", "source": "http://server1.wikisky.org/v2?ra=292.6500000&de=20.2594389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

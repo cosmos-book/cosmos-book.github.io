@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1825",
+	"ra": 76.0784167,
+	"dec": -68.9284972,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1825.png", "source": "http://server1.wikisky.org/v2?ra=76.0784167&de=-68.9284972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

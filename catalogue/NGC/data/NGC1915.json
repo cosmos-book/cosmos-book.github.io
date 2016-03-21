@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1915",
+	"ra": 79.8636250,
+	"dec": -66.7399667,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1915.png", "source": "http://server1.wikisky.org/v2?ra=79.8636250&de=-66.7399667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

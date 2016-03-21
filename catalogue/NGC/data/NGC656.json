@@ -1,0 +1,8 @@
+{
+	"name": "NGC 656",
+	"ra": 25.6134542,
+	"dec": 26.1430722,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC656.png", "source": "http://server1.wikisky.org/v2?ra=25.6134542&de=26.1430722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

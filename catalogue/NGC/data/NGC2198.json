@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2198",
+	"ra": 93.4728000,
+	"dec": 0.9920000,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2198.png", "source": "http://server1.wikisky.org/v2?ra=93.4728000&de=0.9920000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

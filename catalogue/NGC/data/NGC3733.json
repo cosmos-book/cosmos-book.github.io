@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3733",
+	"ra": 173.7565917,
+	"dec": 54.8505222,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3733.png", "source": "http://server1.wikisky.org/v2?ra=173.7565917&de=54.8505222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

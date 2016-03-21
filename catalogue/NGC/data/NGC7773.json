@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7773",
+	"ra": 358.0411375,
+	"dec": 31.2765778,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7773.png", "source": "http://server1.wikisky.org/v2?ra=358.0411375&de=31.2765778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

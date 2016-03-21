@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5925",
+	"ra": 231.8610000,
+	"dec": -54.5343500,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5925.png", "source": "http://server1.wikisky.org/v2?ra=231.8610000&de=-54.5343500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

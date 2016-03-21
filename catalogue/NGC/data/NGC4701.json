@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4701",
+	"ra": 192.2981708,
+	"dec": 3.3887278,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4701.png", "source": "http://server1.wikisky.org/v2?ra=192.2981708&de=3.3887278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

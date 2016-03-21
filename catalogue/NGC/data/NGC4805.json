@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4805",
+	"ra": 193.8509542,
+	"dec": 27.9813056,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4805.png", "source": "http://server1.wikisky.org/v2?ra=193.8509542&de=27.9813056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

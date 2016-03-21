@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2020",
+	"ra": 83.2941708,
+	"dec": -67.7125000,
+	"avm": { "desc": "Emission Object", "codes":["4.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2020.png", "source": "http://server1.wikisky.org/v2?ra=83.2941708&de=-67.7125000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

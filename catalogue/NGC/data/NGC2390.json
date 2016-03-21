@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2390",
+	"ra": 112.2570000,
+	"dec": 33.8311000,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2390.png", "source": "http://server1.wikisky.org/v2?ra=112.2570000&de=33.8311000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3624",
+	"ra": 169.7122958,
+	"dec": 7.5214667,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3624.png", "source": "http://server1.wikisky.org/v2?ra=169.7122958&de=7.5214667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

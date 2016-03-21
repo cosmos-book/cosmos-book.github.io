@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1988",
+	"ra": 84.3742000,
+	"dec": 21.2308000,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC1988.png", "source": "http://server1.wikisky.org/v2?ra=84.3742000&de=21.2308000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

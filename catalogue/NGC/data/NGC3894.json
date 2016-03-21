@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3894",
+	"ra": 177.2098250,
+	"dec": 59.4156611,
+	"avm": { "desc": "Blazar", "codes":["5.3.2.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3894.png", "source": "http://server1.wikisky.org/v2?ra=177.2098250&de=59.4156611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

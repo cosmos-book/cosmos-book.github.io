@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4092",
+	"ra": 181.4588333,
+	"dec": 20.4769806,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4092.png", "source": "http://server1.wikisky.org/v2?ra=181.4588333&de=20.4769806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

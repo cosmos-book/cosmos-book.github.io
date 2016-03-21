@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2434",
+	"ra": 113.7131792,
+	"dec": -69.2841500,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2434.png", "source": "http://server1.wikisky.org/v2?ra=113.7131792&de=-69.2841500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

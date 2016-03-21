@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7114",
+	"ra": 325.4330208,
+	"dec": 42.8414083,
+	"avm": { "desc": "Nova", "codes":["3.2.1.5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7114.png", "source": "http://server1.wikisky.org/v2?ra=325.4330208&de=42.8414083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

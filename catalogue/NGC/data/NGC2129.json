@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2129",
+	"ra": 90.2792000,
+	"dec": 23.3217000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2129.png", "source": "http://server1.wikisky.org/v2?ra=90.2792000&de=23.3217000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

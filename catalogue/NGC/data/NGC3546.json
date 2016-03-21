@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3546",
+	"ra": 167.4448708,
+	"dec": -13.3805806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3546.png", "source": "http://server1.wikisky.org/v2?ra=167.4448708&de=-13.3805806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

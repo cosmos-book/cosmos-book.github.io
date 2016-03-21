@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5428",
+	"ra": 210.8667792,
+	"dec": -5.9844833,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5428.png", "source": "http://server1.wikisky.org/v2?ra=210.8667792&de=-5.9844833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

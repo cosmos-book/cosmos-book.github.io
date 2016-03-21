@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1569",
+	"ra": 67.7049417,
+	"dec": 64.8479222,
+	"avm": { "desc": "Dwarf Galaxy", "codes":["5.1.7","5.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1569.png", "source": "http://server1.wikisky.org/v2?ra=67.7049417&de=64.8479222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

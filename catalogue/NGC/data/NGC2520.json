@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2520",
+	"ra": 121.2424167,
+	"dec": -28.1466639,
+	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2520.png", "source": "http://server1.wikisky.org/v2?ra=121.2424167&de=-28.1466639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

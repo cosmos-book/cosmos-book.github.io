@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1886",
+	"ra": 80.4506083,
+	"dec": -23.8101972,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1886.png", "source": "http://server1.wikisky.org/v2?ra=80.4506083&de=-23.8101972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

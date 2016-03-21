@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6120",
+	"ra": 244.9503958,
+	"dec": 37.7745083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6120.png", "source": "http://server1.wikisky.org/v2?ra=244.9503958&de=37.7745083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

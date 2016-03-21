@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1188",
+	"ra": 45.9307333,
+	"dec": -15.4846250,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1188.png", "source": "http://server1.wikisky.org/v2?ra=45.9307333&de=-15.4846250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

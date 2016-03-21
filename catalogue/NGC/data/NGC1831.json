@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1831",
+	"ra": 76.5725000,
+	"dec": -64.9197194,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1831.png", "source": "http://server1.wikisky.org/v2?ra=76.5725000&de=-64.9197194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

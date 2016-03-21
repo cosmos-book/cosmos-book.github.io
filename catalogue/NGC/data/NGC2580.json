@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2580",
+	"ra": 125.3770000,
+	"dec": -30.2950000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2580.png", "source": "http://server1.wikisky.org/v2?ra=125.3770000&de=-30.2950000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

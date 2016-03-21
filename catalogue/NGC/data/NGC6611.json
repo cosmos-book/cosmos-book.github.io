@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6611",
+	"ra": 274.7000000,
+	"dec": -13.8067000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6611.jpg", "source": "http://hubblesite.org/gallery/album/pr1995044a/", "credit": "NASA, ESA, STScI, J. Hester and P. Scowen (Arizona State University)" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4817",
+	"ra": 194.1242333,
+	"dec": 27.9400056,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4817.png", "source": "http://server1.wikisky.org/v2?ra=194.1242333&de=27.9400056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4493",
+	"ra": 187.7848208,
+	"dec": 0.6137889,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4493.png", "source": "http://server1.wikisky.org/v2?ra=187.7848208&de=0.6137889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

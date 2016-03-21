@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7099",
+	"ra": 325.0921667,
+	"dec": -23.1798611,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7099.png", "source": "http://server1.wikisky.org/v2?ra=325.0921667&de=-23.1798611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1650",
+	"ra": 71.2981333,
+	"dec": -15.8700361,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1650.png", "source": "http://server1.wikisky.org/v2?ra=71.2981333&de=-15.8700361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

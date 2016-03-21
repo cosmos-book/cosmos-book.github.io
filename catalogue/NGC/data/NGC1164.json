@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1164",
+	"ra": 45.4993000,
+	"dec": 42.5849500,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1164.png", "source": "http://server1.wikisky.org/v2?ra=45.4993000&de=42.5849500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

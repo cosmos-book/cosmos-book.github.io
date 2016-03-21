@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4874",
+	"ra": 194.8987875,
+	"dec": 27.9593889,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4874.png", "source": "http://server1.wikisky.org/v2?ra=194.8987875&de=27.9593889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

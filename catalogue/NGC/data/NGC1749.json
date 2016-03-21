@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1749",
+	"ra": 73.7333750,
+	"dec": -68.1892611,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1749.png", "source": "http://server1.wikisky.org/v2?ra=73.7333750&de=-68.1892611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

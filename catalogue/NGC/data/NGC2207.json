@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2207",
+	"ra": 94.0920542,
+	"dec": -21.3727222,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2207.jpg", "source": "http://hubblesite.org/gallery/album/pr2004045a/", "credit": "Image Credit: NASA, ESA, and The Hubble Heritage Team (STScI)" }
+}

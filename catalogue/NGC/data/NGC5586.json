@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5586",
+	"ra": 215.5319125,
+	"dec": 13.1842806,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC5586.png", "source": "http://server1.wikisky.org/v2?ra=215.5319125&de=13.1842806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

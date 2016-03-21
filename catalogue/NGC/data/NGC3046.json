@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3046",
+	"ra": 148.4943333,
+	"dec": -27.2863333,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3046.png", "source": "http://server1.wikisky.org/v2?ra=148.4943333&de=-27.2863333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

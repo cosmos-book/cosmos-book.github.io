@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1445",
+	"ra": 56.2342208,
+	"dec": -9.8558111,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1445.png", "source": "http://server1.wikisky.org/v2?ra=56.2342208&de=-9.8558111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

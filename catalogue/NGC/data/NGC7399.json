@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7399",
+	"ra": 343.1636042,
+	"dec": -9.2677889,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7399.png", "source": "http://server1.wikisky.org/v2?ra=343.1636042&de=-9.2677889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

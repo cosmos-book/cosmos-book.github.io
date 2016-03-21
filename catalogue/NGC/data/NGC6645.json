@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6645",
+	"ra": 278.1300000,
+	"dec": -16.9100000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6645.png", "source": "http://server1.wikisky.org/v2?ra=278.1300000&de=-16.9100000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

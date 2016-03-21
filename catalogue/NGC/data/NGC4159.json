@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4159",
+	"ra": 182.7234792,
+	"dec": 76.1258306,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4159.png", "source": "http://server1.wikisky.org/v2?ra=182.7234792&de=76.1258306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

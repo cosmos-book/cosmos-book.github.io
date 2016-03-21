@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2910",
+	"ra": 142.6250000,
+	"dec": -52.9170000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2910.png", "source": "http://server1.wikisky.org/v2?ra=142.6250000&de=-52.9170000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

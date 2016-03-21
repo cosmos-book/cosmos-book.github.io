@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4844",
+	"ra": 194.5344375,
+	"dec": -13.0799306,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4844.png", "source": "http://server1.wikisky.org/v2?ra=194.5344375&de=-13.0799306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

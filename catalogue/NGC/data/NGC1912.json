@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1912",
+	"ra": 82.1792000,
+	"dec": 35.8550000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1912.png", "source": "http://server1.wikisky.org/v2?ra=82.1792000&de=35.8550000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

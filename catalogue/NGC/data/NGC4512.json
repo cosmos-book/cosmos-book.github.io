@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4512",
+	"ra": 188.1367667,
+	"dec": 63.8773889,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4512.png", "source": "http://server1.wikisky.org/v2?ra=188.1367667&de=63.8773889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

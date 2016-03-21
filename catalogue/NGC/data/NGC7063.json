@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7063",
+	"ra": 321.1000000,
+	"dec": 36.4830000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7063.png", "source": "http://server1.wikisky.org/v2?ra=321.1000000&de=36.4830000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

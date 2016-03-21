@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1066",
+	"ra": 40.9578875,
+	"dec": 32.4748694,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1066.png", "source": "http://server1.wikisky.org/v2?ra=40.9578875&de=32.4748694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

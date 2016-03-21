@@ -1,0 +1,8 @@
+{
+	"name": "NGC 470",
+	"ra": 19.9368542,
+	"dec": 3.4099722,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.1","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC470.png", "source": "http://server1.wikisky.org/v2?ra=19.9368542&de=3.4099722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

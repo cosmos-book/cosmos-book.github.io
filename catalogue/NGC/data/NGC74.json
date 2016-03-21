@@ -1,0 +1,8 @@
+{
+	"name": "NGC 74",
+	"ra": 4.7054042,
+	"dec": 30.0621222,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC74.png", "source": "http://server1.wikisky.org/v2?ra=4.7054042&de=30.0621222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

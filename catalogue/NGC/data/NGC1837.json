@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1837",
+	"ra": 76.2374667,
+	"dec": -70.7158444,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1837.png", "source": "http://server1.wikisky.org/v2?ra=76.2374667&de=-70.7158444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

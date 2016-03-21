@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5565",
+	"ra": 214.8270792,
+	"dec": 6.9949333,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5565.png", "source": "http://server1.wikisky.org/v2?ra=214.8270792&de=6.9949333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

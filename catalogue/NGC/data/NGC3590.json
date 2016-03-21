@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3590",
+	"ra": 168.2458000,
+	"dec": -60.7883000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3590.png", "source": "http://server1.wikisky.org/v2?ra=168.2458000&de=-60.7883000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

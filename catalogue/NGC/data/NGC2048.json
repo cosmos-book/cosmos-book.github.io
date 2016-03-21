@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2048",
+	"ra": 83.9792000,
+	"dec": -69.6500000,
+	"avm": { "desc": "Emission Object", "codes":["4.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2048.png", "source": "http://server1.wikisky.org/v2?ra=83.9792000&de=-69.6500000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

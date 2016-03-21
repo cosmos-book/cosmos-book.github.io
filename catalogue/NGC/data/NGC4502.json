@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4502",
+	"ra": 188.0139750,
+	"dec": 16.6877083,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4502.png", "source": "http://server1.wikisky.org/v2?ra=188.0139750&de=16.6877083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

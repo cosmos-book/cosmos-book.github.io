@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3898",
+	"ra": 177.3140417,
+	"dec": 56.0843500,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3898.png", "source": "http://server1.wikisky.org/v2?ra=177.3140417&de=56.0843500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

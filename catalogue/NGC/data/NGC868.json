@@ -1,0 +1,8 @@
+{
+	"name": "NGC 868",
+	"ra": 33.9937542,
+	"dec": -0.7135111,
+	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC868.png", "source": "http://server1.wikisky.org/v2?ra=33.9937542&de=-0.7135111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

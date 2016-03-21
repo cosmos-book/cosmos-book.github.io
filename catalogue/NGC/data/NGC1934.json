@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1934",
+	"ra": 80.4583000,
+	"dec": -67.9033000,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1934.png", "source": "http://server1.wikisky.org/v2?ra=80.4583000&de=-67.9033000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

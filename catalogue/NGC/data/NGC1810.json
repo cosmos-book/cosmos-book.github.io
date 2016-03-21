@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1810",
+	"ra": 75.8486667,
+	"dec": -66.3822111,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1810.png", "source": "http://server1.wikisky.org/v2?ra=75.8486667&de=-66.3822111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

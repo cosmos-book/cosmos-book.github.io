@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5116",
+	"ra": 200.7318250,
+	"dec": 26.9807000,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.3","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5116.png", "source": "http://server1.wikisky.org/v2?ra=200.7318250&de=26.9807000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

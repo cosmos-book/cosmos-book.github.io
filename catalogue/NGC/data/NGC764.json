@@ -1,0 +1,8 @@
+{
+	"name": "NGC 764",
+	"ra": 29.3009000,
+	"dec": -16.0284000,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC764.png", "source": "http://server1.wikisky.org/v2?ra=29.3009000&de=-16.0284000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

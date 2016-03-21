@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3771",
+	"ra": 174.7749958,
+	"dec": -9.3481972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3771.png", "source": "http://server1.wikisky.org/v2?ra=174.7749958&de=-9.3481972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

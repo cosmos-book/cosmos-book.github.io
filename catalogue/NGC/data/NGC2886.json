@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2886",
+	"ra": 141.6612625,
+	"dec": -21.7377972,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC2886.png", "source": "http://server1.wikisky.org/v2?ra=141.6612625&de=-21.7377972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

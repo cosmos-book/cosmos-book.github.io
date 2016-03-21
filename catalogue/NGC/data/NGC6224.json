@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6224",
+	"ra": 252.0773000,
+	"dec": 6.3122056,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6224.png", "source": "http://server1.wikisky.org/v2?ra=252.0773000&de=6.3122056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

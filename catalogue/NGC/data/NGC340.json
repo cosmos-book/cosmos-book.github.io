@@ -1,0 +1,8 @@
+{
+	"name": "NGC 340",
+	"ra": 15.1453583,
+	"dec": -6.8666000,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC340.png", "source": "http://server1.wikisky.org/v2?ra=15.1453583&de=-6.8666000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

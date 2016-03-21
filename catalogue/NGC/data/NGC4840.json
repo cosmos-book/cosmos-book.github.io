@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4840",
+	"ra": 194.3868708,
+	"dec": 27.6102389,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4840.png", "source": "http://server1.wikisky.org/v2?ra=194.3868708&de=27.6102389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 103",
+	"ra": 6.2700000,
+	"dec": 61.3400000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC103.png", "source": "http://server1.wikisky.org/v2?ra=6.2700000&de=61.3400000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

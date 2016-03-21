@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3417",
+	"ra": 162.7570792,
+	"dec": 8.4734056,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3417.png", "source": "http://server1.wikisky.org/v2?ra=162.7570792&de=8.4734056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

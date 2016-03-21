@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1910",
+	"ra": 79.6770833,
+	"dec": -69.2366944,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1910.png", "source": "http://server1.wikisky.org/v2?ra=79.6770833&de=-69.2366944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5404",
+	"ra": 210.2811583,
+	"dec": 0.0858833,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5404.png", "source": "http://server1.wikisky.org/v2?ra=210.2811583&de=0.0858833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6502",
+	"ra": 271.0570083,
+	"dec": -65.4099194,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6502.png", "source": "http://server1.wikisky.org/v2?ra=271.0570083&de=-65.4099194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

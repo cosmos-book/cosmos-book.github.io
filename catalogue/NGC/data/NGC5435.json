@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5435",
+	"ra": 211.0002042,
+	"dec": -5.9316528,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5435.png", "source": "http://server1.wikisky.org/v2?ra=211.0002042&de=-5.9316528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

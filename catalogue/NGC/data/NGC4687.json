@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4687",
+	"ra": 191.8489250,
+	"dec": 35.3521194,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4687.png", "source": "http://server1.wikisky.org/v2?ra=191.8489250&de=35.3521194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

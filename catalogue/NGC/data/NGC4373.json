@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4373",
+	"ra": 186.3242500,
+	"dec": -39.7596583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4373.png", "source": "http://server1.wikisky.org/v2?ra=186.3242500&de=-39.7596583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

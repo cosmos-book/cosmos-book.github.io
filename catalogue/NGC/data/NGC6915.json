@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6915",
+	"ra": 306.9418958,
+	"dec": -3.0771111,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6915.png", "source": "http://server1.wikisky.org/v2?ra=306.9418958&de=-3.0771111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

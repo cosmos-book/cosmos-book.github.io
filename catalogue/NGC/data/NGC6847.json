@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6847",
+	"ra": 299.0370792,
+	"dec": 30.2138889,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6847.png", "source": "http://server1.wikisky.org/v2?ra=299.0370792&de=30.2138889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

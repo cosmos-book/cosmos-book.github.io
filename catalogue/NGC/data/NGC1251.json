@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1251",
+	"ra": 48.5230000,
+	"dec": 1.4592000,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC1251.png", "source": "http://server1.wikisky.org/v2?ra=48.5230000&de=1.4592000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

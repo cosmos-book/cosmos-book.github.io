@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6100",
+	"ra": 244.2181542,
+	"dec": 0.8412306,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6100.png", "source": "http://server1.wikisky.org/v2?ra=244.2181542&de=0.8412306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5645",
+	"ra": 217.6641708,
+	"dec": 7.2750028,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5645.png", "source": "http://server1.wikisky.org/v2?ra=217.6641708&de=7.2750028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

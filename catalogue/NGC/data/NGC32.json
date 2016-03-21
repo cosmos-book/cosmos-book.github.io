@@ -1,0 +1,8 @@
+{
+	"name": "NGC 32",
+	"ra": 2.7232792,
+	"dec": 18.7959972,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC32.png", "source": "http://server1.wikisky.org/v2?ra=2.7232792&de=18.7959972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

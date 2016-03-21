@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6124",
+	"ra": 246.3333000,
+	"dec": -40.6533000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6124.png", "source": "http://server1.wikisky.org/v2?ra=246.3333000&de=-40.6533000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

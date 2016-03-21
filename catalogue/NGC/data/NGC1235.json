@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1235",
+	"ra": 48.2039000,
+	"dec": 38.9264000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC1235.png", "source": "http://server1.wikisky.org/v2?ra=48.2039000&de=38.9264000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4751",
+	"ra": 193.2116708,
+	"dec": -42.6599611,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4751.png", "source": "http://server1.wikisky.org/v2?ra=193.2116708&de=-42.6599611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

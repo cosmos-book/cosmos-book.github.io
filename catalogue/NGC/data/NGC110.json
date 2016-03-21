@@ -1,0 +1,8 @@
+{
+	"name": "NGC 110",
+	"ra": 6.8550000,
+	"dec": 71.4220000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC110.png", "source": "http://server1.wikisky.org/v2?ra=6.8550000&de=71.4220000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

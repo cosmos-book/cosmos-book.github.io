@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6255",
+	"ra": 253.6998458,
+	"dec": 36.5008778,
+	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6255.png", "source": "http://server1.wikisky.org/v2?ra=253.6998458&de=36.5008778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

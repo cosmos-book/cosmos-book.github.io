@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5164",
+	"ra": 201.7995625,
+	"dec": 55.4871056,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5164.png", "source": "http://server1.wikisky.org/v2?ra=201.7995625&de=55.4871056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

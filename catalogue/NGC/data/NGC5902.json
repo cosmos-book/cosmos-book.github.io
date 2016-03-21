@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5902",
+	"ra": 228.5932625,
+	"dec": 50.3296083,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5902.png", "source": "http://server1.wikisky.org/v2?ra=228.5932625&de=50.3296083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

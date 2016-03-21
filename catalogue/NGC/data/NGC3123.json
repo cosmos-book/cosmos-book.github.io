@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3123",
+	"ra": 151.7577208,
+	"dec": 0.0671472,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3123.png", "source": "http://server1.wikisky.org/v2?ra=151.7577208&de=0.0671472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

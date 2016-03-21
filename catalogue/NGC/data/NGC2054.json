@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2054",
+	"ra": 86.1957000,
+	"dec": -10.0737000,
+	"avm": { "desc": "Four stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2054.png", "source": "http://server1.wikisky.org/v2?ra=86.1957000&de=-10.0737000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6313",
+	"ra": 257.5866083,
+	"dec": 48.3317417,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6313.png", "source": "http://server1.wikisky.org/v2?ra=257.5866083&de=48.3317417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

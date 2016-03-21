@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4895",
+	"ra": 195.0748000,
+	"dec": 28.2022833,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4895.png", "source": "http://server1.wikisky.org/v2?ra=195.0748000&de=28.2022833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2523",
+	"ra": 123.7503000,
+	"dec": 73.5789556,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.1.7","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2523.png", "source": "http://server1.wikisky.org/v2?ra=123.7503000&de=73.5789556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

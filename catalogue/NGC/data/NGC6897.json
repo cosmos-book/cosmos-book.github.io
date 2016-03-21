@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6897",
+	"ra": 305.2552792,
+	"dec": -12.2547528,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6897.png", "source": "http://server1.wikisky.org/v2?ra=305.2552792&de=-12.2547528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

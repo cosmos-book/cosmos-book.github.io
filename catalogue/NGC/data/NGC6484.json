@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6484",
+	"ra": 267.9457083,
+	"dec": 24.4833750,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6484.png", "source": "http://server1.wikisky.org/v2?ra=267.9457083&de=24.4833750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

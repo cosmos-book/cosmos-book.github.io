@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1908",
+	"ra": 81.4893000,
+	"dec": -2.5290000,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1908.png", "source": "http://server1.wikisky.org/v2?ra=81.4893000&de=-2.5290000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

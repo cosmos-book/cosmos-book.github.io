@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1931",
+	"ra": 82.8450000,
+	"dec": 34.2330000,
+	"avm": { "desc": "Bright Nebula", "codes":["4.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1931.png", "source": "http://server1.wikisky.org/v2?ra=82.8450000&de=34.2330000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

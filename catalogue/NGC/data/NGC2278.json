@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2278",
+	"ra": 102.0853000,
+	"dec": 33.4047000,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2278.png", "source": "http://server1.wikisky.org/v2?ra=102.0853000&de=33.4047000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

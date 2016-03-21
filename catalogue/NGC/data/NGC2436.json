@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2436",
+	"ra": 116.5307000,
+	"dec": 52.0717000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2436.png", "source": "http://server1.wikisky.org/v2?ra=116.5307000&de=52.0717000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

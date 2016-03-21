@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3433",
+	"ra": 163.0159458,
+	"dec": 10.1482389,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3433.png", "source": "http://server1.wikisky.org/v2?ra=163.0159458&de=10.1482389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

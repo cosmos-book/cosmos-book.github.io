@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4590",
+	"ra": 189.8665833,
+	"dec": -26.7440556,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4590.png", "source": "http://server1.wikisky.org/v2?ra=189.8665833&de=-26.7440556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3318",
+	"ra": 159.3146958,
+	"dec": -41.6276444,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3318.png", "source": "http://server1.wikisky.org/v2?ra=159.3146958&de=-41.6276444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

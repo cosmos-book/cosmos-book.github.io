@@ -1,0 +1,8 @@
+{
+	"name": "NGC 443",
+	"ra": 18.7817375,
+	"dec": 33.3773639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC443.png", "source": "http://server1.wikisky.org/v2?ra=18.7817375&de=33.3773639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

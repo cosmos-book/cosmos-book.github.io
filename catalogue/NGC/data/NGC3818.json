@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3818",
+	"ra": 175.4889833,
+	"dec": -6.1556611,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3818.png", "source": "http://server1.wikisky.org/v2?ra=175.4889833&de=-6.1556611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

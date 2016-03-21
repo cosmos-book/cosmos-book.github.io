@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2339",
+	"ra": 107.0855958,
+	"dec": 18.7802972,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2339.png", "source": "http://server1.wikisky.org/v2?ra=107.0855958&de=18.7802972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

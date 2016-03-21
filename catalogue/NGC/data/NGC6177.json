@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6177",
+	"ra": 247.6620792,
+	"dec": 35.0565111,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6177.png", "source": "http://server1.wikisky.org/v2?ra=247.6620792&de=35.0565111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

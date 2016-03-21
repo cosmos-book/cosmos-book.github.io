@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3654",
+	"ra": 171.0446917,
+	"dec": 69.4130944,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3654.png", "source": "http://server1.wikisky.org/v2?ra=171.0446917&de=69.4130944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

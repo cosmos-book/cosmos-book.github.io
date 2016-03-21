@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4771",
+	"ra": 193.3386375,
+	"dec": 1.2691722,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4771.png", "source": "http://server1.wikisky.org/v2?ra=193.3386375&de=1.2691722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

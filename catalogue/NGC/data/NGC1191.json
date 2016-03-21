@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1191",
+	"ra": 45.8784917,
+	"dec": -15.6852639,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1191.png", "source": "http://server1.wikisky.org/v2?ra=45.8784917&de=-15.6852639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

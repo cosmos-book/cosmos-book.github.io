@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7234",
+	"ra": 0.0000000,
+	"dec": 0.0000000,
+	"avm": { "desc": "Open Cluster", "codes":["3.6.4.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7234.png", "source": "http://server1.wikisky.org/v2?ra=0.0000000&de=0.0000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

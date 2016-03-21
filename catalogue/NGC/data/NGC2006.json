@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2006",
+	"ra": 82.8292000,
+	"dec": -66.9733000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2006.png", "source": "http://server1.wikisky.org/v2?ra=82.8292000&de=-66.9733000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

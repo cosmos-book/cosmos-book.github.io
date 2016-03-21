@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1290",
+	"ra": 50.0137958,
+	"dec": -13.9982667,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1290.png", "source": "http://server1.wikisky.org/v2?ra=50.0137958&de=-13.9982667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

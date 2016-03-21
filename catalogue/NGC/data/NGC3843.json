@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3843",
+	"ra": 175.9776000,
+	"dec": 7.9256056,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3843.png", "source": "http://server1.wikisky.org/v2?ra=175.9776000&de=7.9256056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

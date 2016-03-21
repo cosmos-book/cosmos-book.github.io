@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7078",
+	"ra": 322.4930417,
+	"dec": 12.1670000,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7078.png", "source": "http://server1.wikisky.org/v2?ra=322.4930417&de=12.1670000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

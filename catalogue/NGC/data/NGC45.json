@@ -1,0 +1,8 @@
+{
+	"name": "NGC 45",
+	"ra": 3.5166208,
+	"dec": -23.1820917,
+	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC45.png", "source": "http://server1.wikisky.org/v2?ra=3.5166208&de=-23.1820917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

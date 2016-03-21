@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5679",
+	"ra": 218.7865125,
+	"dec": 5.3590028,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5679.jpg", "source": "http://hubblesite.org/gallery/album/pr2009014a/", "credit": "NASA, ESA, M. Livio and the Hubble Heritage Team (STScI/AURA)" }
+}

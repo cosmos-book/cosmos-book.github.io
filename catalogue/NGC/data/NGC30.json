@@ -1,0 +1,8 @@
+{
+	"name": "NGC 30",
+	"ra": 2.7116167,
+	"dec": 21.9769611,
+	"avm": { "desc": "Binary Stars", "codes":["3.6.1"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC30.png", "source": "http://server1.wikisky.org/v2?ra=2.7116167&de=21.9769611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

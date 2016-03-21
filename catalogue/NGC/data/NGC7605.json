@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7605",
+	"ra": 349.4698750,
+	"dec": 7.3794444,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7605.png", "source": "http://server1.wikisky.org/v2?ra=349.4698750&de=7.3794444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

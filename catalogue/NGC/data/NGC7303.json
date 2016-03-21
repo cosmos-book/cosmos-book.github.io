@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7303",
+	"ra": 337.8867500,
+	"dec": 30.9559583,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7303.png", "source": "http://server1.wikisky.org/v2?ra=337.8867500&de=30.9559583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

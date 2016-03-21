@@ -1,0 +1,8 @@
+{
+	"name": "NGC 429",
+	"ra": 18.2393917,
+	"dec": -0.3449139,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC429.png", "source": "http://server1.wikisky.org/v2?ra=18.2393917&de=-0.3449139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

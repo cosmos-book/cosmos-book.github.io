@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3611",
+	"ra": 169.3756542,
+	"dec": 4.5554278,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3611.png", "source": "http://server1.wikisky.org/v2?ra=169.3756542&de=4.5554278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

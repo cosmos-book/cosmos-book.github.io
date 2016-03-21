@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5085",
+	"ra": 200.0737500,
+	"dec": -24.4402778,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5085.png", "source": "http://server1.wikisky.org/v2?ra=200.0737500&de=-24.4402778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5163",
+	"ra": 201.7260458,
+	"dec": 52.7535472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5163.png", "source": "http://server1.wikisky.org/v2?ra=201.7260458&de=52.7535472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

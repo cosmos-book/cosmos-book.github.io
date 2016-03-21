@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1808",
+	"ra": 76.9264292,
+	"dec": -37.5130500,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1808.png", "source": "http://server1.wikisky.org/v2?ra=76.9264292&de=-37.5130500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4563",
+	"ra": 189.0536667,
+	"dec": 26.9414167,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4563.png", "source": "http://server1.wikisky.org/v2?ra=189.0536667&de=26.9414167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

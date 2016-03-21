@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1175",
+	"ra": 46.1348708,
+	"dec": 42.3392639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1175.png", "source": "http://server1.wikisky.org/v2?ra=46.1348708&de=42.3392639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

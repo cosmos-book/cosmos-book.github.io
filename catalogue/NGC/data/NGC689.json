@@ -1,0 +1,8 @@
+{
+	"name": "NGC 689",
+	"ra": 27.4657000,
+	"dec": -27.4666833,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC689.png", "source": "http://server1.wikisky.org/v2?ra=27.4657000&de=-27.4666833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

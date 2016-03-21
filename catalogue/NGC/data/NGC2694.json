@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2694",
+	"ra": 134.2468417,
+	"dec": 51.3318028,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2694.png", "source": "http://server1.wikisky.org/v2?ra=134.2468417&de=51.3318028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

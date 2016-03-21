@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4088",
+	"ra": 181.3924542,
+	"dec": 50.5390278,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4088.png", "source": "http://server1.wikisky.org/v2?ra=181.3924542&de=50.5390278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

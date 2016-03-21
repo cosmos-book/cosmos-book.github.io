@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7046",
+	"ra": 318.7334583,
+	"dec": 2.8348306,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7046.png", "source": "http://server1.wikisky.org/v2?ra=318.7334583&de=2.8348306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

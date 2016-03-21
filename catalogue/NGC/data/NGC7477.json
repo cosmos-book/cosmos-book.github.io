@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7477",
+	"ra": 346.1694167,
+	"dec": 3.1180000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7477.png", "source": "http://server1.wikisky.org/v2?ra=346.1694167&de=3.1180000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5651",
+	"ra": 217.8029292,
+	"dec": -0.3229611,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5651.png", "source": "http://server1.wikisky.org/v2?ra=217.8029292&de=-0.3229611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4769",
+	"ra": 193.3253458,
+	"dec": -9.5359972,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4769.png", "source": "http://server1.wikisky.org/v2?ra=193.3253458&de=-9.5359972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

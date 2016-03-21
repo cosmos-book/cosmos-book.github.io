@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5827",
+	"ra": 225.4740000,
+	"dec": 25.9646389,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5827.png", "source": "http://server1.wikisky.org/v2?ra=225.4740000&de=25.9646389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

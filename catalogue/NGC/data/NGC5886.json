@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5886",
+	"ra": 228.1892250,
+	"dec": 41.2335611,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5886.png", "source": "http://server1.wikisky.org/v2?ra=228.1892250&de=41.2335611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

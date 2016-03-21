@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6782",
+	"ra": 290.9913958,
+	"dec": -59.9225111,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6782.png", "source": "http://server1.wikisky.org/v2?ra=290.9913958&de=-59.9225111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

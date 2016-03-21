@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6041",
+	"ra": 241.1489875,
+	"dec": 17.7214444,
+	"avm": { "desc": "Brightest galaxy in a Cluster (BCG)", "codes":["5","5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6041.png", "source": "http://server1.wikisky.org/v2?ra=241.1489875&de=17.7214444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

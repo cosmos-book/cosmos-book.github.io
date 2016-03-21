@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2134",
+	"ra": 87.9831250,
+	"dec": -71.0982139,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2134.png", "source": "http://server1.wikisky.org/v2?ra=87.9831250&de=-71.0982139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

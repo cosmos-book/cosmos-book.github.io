@@ -1,0 +1,8 @@
+{
+	"name": "NGC 261",
+	"ra": 11.6312500,
+	"dec": -73.1044444,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC261.png", "source": "http://server1.wikisky.org/v2?ra=11.6312500&de=-73.1044444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

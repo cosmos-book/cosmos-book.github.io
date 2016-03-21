@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4326",
+	"ra": 185.7984625,
+	"dec": 6.0722361,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4326.png", "source": "http://server1.wikisky.org/v2?ra=185.7984625&de=6.0722361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

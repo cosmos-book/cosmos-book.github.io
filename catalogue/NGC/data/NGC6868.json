@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6868",
+	"ra": 302.4753417,
+	"dec": -48.3795139,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6868.png", "source": "http://server1.wikisky.org/v2?ra=302.4753417&de=-48.3795139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

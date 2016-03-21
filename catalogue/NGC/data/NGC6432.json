@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6432",
+	"ra": 266.8433292,
+	"dec": -24.8875000,
+	"avm": { "desc": "Four stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6432.png", "source": "http://server1.wikisky.org/v2?ra=266.8433292&de=-24.8875000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

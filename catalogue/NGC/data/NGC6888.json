@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6888",
+	"ra": 303.0292000,
+	"dec": 38.3550000,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6888.png", "source": "http://server1.wikisky.org/v2?ra=303.0292000&de=38.3550000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

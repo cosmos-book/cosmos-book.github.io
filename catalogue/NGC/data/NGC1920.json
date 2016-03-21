@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1920",
+	"ra": 80.1375000,
+	"dec": -66.7783000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1920.png", "source": "http://server1.wikisky.org/v2?ra=80.1375000&de=-66.7783000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

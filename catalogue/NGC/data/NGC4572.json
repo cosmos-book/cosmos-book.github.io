@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4572",
+	"ra": 188.9417083,
+	"dec": 74.2460278,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4572.png", "source": "http://server1.wikisky.org/v2?ra=188.9417083&de=74.2460278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

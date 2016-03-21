@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4327",
+	"ra": 185.7812917,
+	"dec": 15.7365083,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4327.png", "source": "http://server1.wikisky.org/v2?ra=185.7812917&de=15.7365083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

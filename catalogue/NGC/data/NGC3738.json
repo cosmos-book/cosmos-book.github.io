@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3738",
+	"ra": 173.9462500,
+	"dec": 54.5255611,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3738.png", "source": "http://server1.wikisky.org/v2?ra=173.9462500&de=54.5255611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

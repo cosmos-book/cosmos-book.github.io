@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7781",
+	"ra": 358.4415000,
+	"dec": 7.8604944,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7781.png", "source": "http://server1.wikisky.org/v2?ra=358.4415000&de=7.8604944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6017",
+	"ra": 239.3145292,
+	"dec": 5.9983639,
+	"avm": { "desc": "Dwarf Galaxy", "codes":["5","5.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6017.png", "source": "http://server1.wikisky.org/v2?ra=239.3145292&de=5.9983639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

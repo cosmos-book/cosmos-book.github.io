@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5224",
+	"ra": 203.7868208,
+	"dec": 6.4810889,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5224.png", "source": "http://server1.wikisky.org/v2?ra=203.7868208&de=6.4810889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

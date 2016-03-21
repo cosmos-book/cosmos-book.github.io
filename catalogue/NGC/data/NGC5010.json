@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5010",
+	"ra": 198.1097125,
+	"dec": -15.7979556,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5010.png", "source": "http://server1.wikisky.org/v2?ra=198.1097125&de=-15.7979556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

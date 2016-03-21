@@ -1,0 +1,8 @@
+{
+	"name": "NGC 567",
+	"ra": 21.7600125,
+	"dec": -10.2652861,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC567.png", "source": "http://server1.wikisky.org/v2?ra=21.7600125&de=-10.2652861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

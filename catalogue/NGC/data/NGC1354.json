@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1354",
+	"ra": 53.1223667,
+	"dec": -15.2211056,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1354.png", "source": "http://server1.wikisky.org/v2?ra=53.1223667&de=-15.2211056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3198",
+	"ra": 154.9791250,
+	"dec": 45.5496889,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3198.png", "source": "http://server1.wikisky.org/v2?ra=154.9791250&de=45.5496889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

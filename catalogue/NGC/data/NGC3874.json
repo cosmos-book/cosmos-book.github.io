@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3874",
+	"ra": 176.4073000,
+	"dec": 8.5739278,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3874.png", "source": "http://server1.wikisky.org/v2?ra=176.4073000&de=8.5739278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

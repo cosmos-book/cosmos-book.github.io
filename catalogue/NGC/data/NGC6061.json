@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6061",
+	"ra": 241.5667833,
+	"dec": 18.2499500,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6061.png", "source": "http://server1.wikisky.org/v2?ra=241.5667833&de=18.2499500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

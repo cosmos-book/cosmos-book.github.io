@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2835",
+	"ra": 139.4704458,
+	"dec": -22.3546778,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2835.png", "source": "http://server1.wikisky.org/v2?ra=139.4704458&de=-22.3546778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

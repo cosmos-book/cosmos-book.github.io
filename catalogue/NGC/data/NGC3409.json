@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3409",
+	"ra": 162.5847458,
+	"dec": -17.0436750,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3409.png", "source": "http://server1.wikisky.org/v2?ra=162.5847458&de=-17.0436750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

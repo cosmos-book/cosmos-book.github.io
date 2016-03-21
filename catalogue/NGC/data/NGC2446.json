@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2446",
+	"ra": 117.1635958,
+	"dec": 54.6119694,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2446.png", "source": "http://server1.wikisky.org/v2?ra=117.1635958&de=54.6119694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

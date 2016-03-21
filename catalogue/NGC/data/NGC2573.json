@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2573",
+	"ra": 25.3962125,
+	"dec": -89.3344722,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2573.png", "source": "http://server1.wikisky.org/v2?ra=25.3962125&de=-89.3344722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7732",
+	"ra": 355.3910500,
+	"dec": 3.7249528,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.1","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7732.png", "source": "http://server1.wikisky.org/v2?ra=355.3910500&de=3.7249528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

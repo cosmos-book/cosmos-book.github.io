@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5897",
+	"ra": 229.3516667,
+	"dec": -21.0101111,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5897.png", "source": "http://server1.wikisky.org/v2?ra=229.3516667&de=-21.0101111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

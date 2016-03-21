@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3967",
+	"ra": 178.7932292,
+	"dec": -7.8437167,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3967.png", "source": "http://server1.wikisky.org/v2?ra=178.7932292&de=-7.8437167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

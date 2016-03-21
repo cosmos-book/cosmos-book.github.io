@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7121",
+	"ra": 326.2190875,
+	"dec": -3.6197167,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7121.png", "source": "http://server1.wikisky.org/v2?ra=326.2190875&de=-3.6197167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6426",
+	"ra": 266.2279583,
+	"dec": 3.1701389,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6426.png", "source": "http://server1.wikisky.org/v2?ra=266.2279583&de=3.1701389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

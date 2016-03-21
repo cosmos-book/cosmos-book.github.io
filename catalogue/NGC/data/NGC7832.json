@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7832",
+	"ra": 1.6185375,
+	"dec": -3.7161417,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7832.png", "source": "http://server1.wikisky.org/v2?ra=1.6185375&de=-3.7161417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

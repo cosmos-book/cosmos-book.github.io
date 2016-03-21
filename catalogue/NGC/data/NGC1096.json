@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1096",
+	"ra": 40.9554625,
+	"dec": -59.9134556,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1096.png", "source": "http://server1.wikisky.org/v2?ra=40.9554625&de=-59.9134556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

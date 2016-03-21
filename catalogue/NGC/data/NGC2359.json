@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2359",
+	"ra": 109.6250000,
+	"dec": -13.2300000,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2359.png", "source": "http://server1.wikisky.org/v2?ra=109.6250000&de=-13.2300000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

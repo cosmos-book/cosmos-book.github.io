@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2423",
+	"ra": 114.2750000,
+	"dec": -13.8717000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2423.png", "source": "http://server1.wikisky.org/v2?ra=114.2750000&de=-13.8717000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

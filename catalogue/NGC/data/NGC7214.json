@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7214",
+	"ra": 332.2820417,
+	"dec": -27.8094528,
+	"avm": { "desc": "Seyfert 1 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7214.png", "source": "http://server1.wikisky.org/v2?ra=332.2820417&de=-27.8094528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

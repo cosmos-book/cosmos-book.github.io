@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5866",
+	"ra": 226.6231708,
+	"dec": 55.7633083,
+	"avm": { "desc": "Seyfert Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5866.jpg", "source": "http://hubblesite.org/gallery/album/pr2006024a/", "credit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)Acknowledgment: W. Keel (University of Alabama, Tuscaloosa)" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6544",
+	"ra": 271.8357500,
+	"dec": -24.9973333,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6544.png", "source": "http://server1.wikisky.org/v2?ra=271.8357500&de=-24.9973333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

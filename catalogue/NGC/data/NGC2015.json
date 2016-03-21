@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2015",
+	"ra": 83.0345833,
+	"dec": -69.2425694,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2015.png", "source": "http://server1.wikisky.org/v2?ra=83.0345833&de=-69.2425694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

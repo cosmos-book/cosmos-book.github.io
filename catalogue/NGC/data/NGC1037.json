@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1037",
+	"ra": 39.4946292,
+	"dec": -1.8441806,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1037.png", "source": "http://server1.wikisky.org/v2?ra=39.4946292&de=-1.8441806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

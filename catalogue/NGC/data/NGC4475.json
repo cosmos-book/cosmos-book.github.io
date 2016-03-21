@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4475",
+	"ra": 187.4482875,
+	"dec": 27.2434028,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.3","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4475.png", "source": "http://server1.wikisky.org/v2?ra=187.4482875&de=27.2434028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4774",
+	"ra": 193.2771458,
+	"dec": 36.8197028,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4774.png", "source": "http://server1.wikisky.org/v2?ra=193.2771458&de=36.8197028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

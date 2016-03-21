@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7770",
+	"ra": 357.8442083,
+	"dec": 20.0968222,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7770.png", "source": "http://server1.wikisky.org/v2?ra=357.8442083&de=20.0968222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

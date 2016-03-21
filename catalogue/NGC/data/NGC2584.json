@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2584",
+	"ra": 125.8143708,
+	"dec": -4.9705222,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2584.png", "source": "http://server1.wikisky.org/v2?ra=125.8143708&de=-4.9705222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

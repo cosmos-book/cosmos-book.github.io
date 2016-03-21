@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1976",
+	"ra": 83.8220792,
+	"dec": -5.3911111,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1976.jpg", "source": "http://hubblesite.org/gallery/album/pr2006001a/", "credit": "NASA,ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team" }
+}

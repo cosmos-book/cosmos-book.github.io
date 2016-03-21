@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6503",
+	"ra": 267.3604750,
+	"dec": 70.1443417,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6503.png", "source": "http://server1.wikisky.org/v2?ra=267.3604750&de=70.1443417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

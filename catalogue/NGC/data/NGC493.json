@@ -1,0 +1,8 @@
+{
+	"name": "NGC 493",
+	"ra": 20.5374375,
+	"dec": 0.9453361,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC493.png", "source": "http://server1.wikisky.org/v2?ra=20.5374375&de=0.9453361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

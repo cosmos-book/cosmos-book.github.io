@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3922",
+	"ra": 177.8061083,
+	"dec": 50.1567472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3922.png", "source": "http://server1.wikisky.org/v2?ra=177.8061083&de=50.1567472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

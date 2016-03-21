@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6895",
+	"ra": 304.0350000,
+	"dec": 50.2450000,
+	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6895.png", "source": "http://server1.wikisky.org/v2?ra=304.0350000&de=50.2450000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 618",
+	"ra": 24.0576000,
+	"dec": 33.3939000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC618.png", "source": "http://server1.wikisky.org/v2?ra=24.0576000&de=33.3939000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

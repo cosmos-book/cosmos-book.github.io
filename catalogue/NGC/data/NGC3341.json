@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3341",
+	"ra": 160.6311667,
+	"dec": 5.0439472,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3341.png", "source": "http://server1.wikisky.org/v2?ra=160.6311667&de=5.0439472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

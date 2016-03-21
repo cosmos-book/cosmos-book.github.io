@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5836",
+	"ra": 224.8791667,
+	"dec": 73.8932889,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5836.png", "source": "http://server1.wikisky.org/v2?ra=224.8791667&de=73.8932889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3279",
+	"ra": 158.6783000,
+	"dec": 11.1972444,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3279.png", "source": "http://server1.wikisky.org/v2?ra=158.6783000&de=11.1972444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

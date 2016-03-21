@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3690",
+	"ra": 172.1305250,
+	"dec": 58.5616111,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3690.png", "source": "http://server1.wikisky.org/v2?ra=172.1305250&de=58.5616111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

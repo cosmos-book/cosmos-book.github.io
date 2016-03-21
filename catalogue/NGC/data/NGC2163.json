@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2163",
+	"ra": 91.9562500,
+	"dec": 18.6575000,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2163.png", "source": "http://server1.wikisky.org/v2?ra=91.9562500&de=18.6575000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

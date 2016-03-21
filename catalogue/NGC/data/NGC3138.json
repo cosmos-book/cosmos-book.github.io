@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3138",
+	"ra": 152.3195042,
+	"dec": -11.9568250,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3138.png", "source": "http://server1.wikisky.org/v2?ra=152.3195042&de=-11.9568250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

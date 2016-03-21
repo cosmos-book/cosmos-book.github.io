@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4089",
+	"ra": 181.4059125,
+	"dec": 20.5557750,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4089.png", "source": "http://server1.wikisky.org/v2?ra=181.4059125&de=20.5557750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

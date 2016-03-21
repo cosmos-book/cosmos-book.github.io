@@ -1,0 +1,8 @@
+{
+	"name": "NGC 864",
+	"ra": 33.8651708,
+	"dec": 6.0026194,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC864.png", "source": "http://server1.wikisky.org/v2?ra=33.8651708&de=6.0026194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

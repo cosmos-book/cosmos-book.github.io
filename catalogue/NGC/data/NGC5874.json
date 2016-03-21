@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5874",
+	"ra": 226.9658375,
+	"dec": 54.7527111,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5874.png", "source": "http://server1.wikisky.org/v2?ra=226.9658375&de=54.7527111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

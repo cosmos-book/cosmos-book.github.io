@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2374",
+	"ra": 110.9833000,
+	"dec": -13.2633000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2374.png", "source": "http://server1.wikisky.org/v2?ra=110.9833000&de=-13.2633000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6947",
+	"ra": 310.3130792,
+	"dec": -32.4864083,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6947.png", "source": "http://server1.wikisky.org/v2?ra=310.3130792&de=-32.4864083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

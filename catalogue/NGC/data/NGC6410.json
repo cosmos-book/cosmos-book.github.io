@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6410",
+	"ra": 263.8353458,
+	"dec": 60.7930528,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC6410.png", "source": "http://server1.wikisky.org/v2?ra=263.8353458&de=60.7930528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

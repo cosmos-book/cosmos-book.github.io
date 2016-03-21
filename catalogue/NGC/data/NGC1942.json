@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1942",
+	"ra": 81.1792000,
+	"dec": -63.9400000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1942.png", "source": "http://server1.wikisky.org/v2?ra=81.1792000&de=-63.9400000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

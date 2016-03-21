@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2317",
+	"ra": 104.7021000,
+	"dec": -7.7683000,
+	"avm": { "desc": "Emission and reflection nebula", "codes":["4.2.1","4.2.2"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2317.png", "source": "http://server1.wikisky.org/v2?ra=104.7021000&de=-7.7683000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

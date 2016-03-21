@@ -1,0 +1,8 @@
+{
+	"name": "NGC 107",
+	"ra": 6.4257708,
+	"dec": -8.2827972,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC107.png", "source": "http://server1.wikisky.org/v2?ra=6.4257708&de=-8.2827972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

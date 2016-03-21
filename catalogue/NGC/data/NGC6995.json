@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6995",
+	"ra": 314.2500000,
+	"dec": 31.2170000,
+	"avm": { "desc": "", "codes":["4.1.4"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC6995.png", "source": "http://server1.wikisky.org/v2?ra=314.2500000&de=31.2170000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

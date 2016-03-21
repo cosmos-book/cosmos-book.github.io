@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5769",
+	"ra": 223.1731125,
+	"dec": 7.9318278,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5769.png", "source": "http://server1.wikisky.org/v2?ra=223.1731125&de=7.9318278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

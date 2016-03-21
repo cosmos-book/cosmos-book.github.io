@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1524",
+	"ra": 62.5763000,
+	"dec": -8.8022000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC1524.png", "source": "http://server1.wikisky.org/v2?ra=62.5763000&de=-8.8022000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

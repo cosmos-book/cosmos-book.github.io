@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1914",
+	"ra": 79.4042000,
+	"dec": -71.2500000,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1914.png", "source": "http://server1.wikisky.org/v2?ra=79.4042000&de=-71.2500000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

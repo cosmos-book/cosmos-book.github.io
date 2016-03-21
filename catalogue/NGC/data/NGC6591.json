@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6591",
+	"ra": 273.4891708,
+	"dec": 21.0444389,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6591.png", "source": "http://server1.wikisky.org/v2?ra=273.4891708&de=21.0444389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

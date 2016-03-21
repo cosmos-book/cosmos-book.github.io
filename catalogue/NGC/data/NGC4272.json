@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4272",
+	"ra": 184.9484708,
+	"dec": 30.3392056,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4272.png", "source": "http://server1.wikisky.org/v2?ra=184.9484708&de=30.3392056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

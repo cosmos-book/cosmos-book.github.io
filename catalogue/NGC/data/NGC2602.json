@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2602",
+	"ra": 128.7679583,
+	"dec": 52.8316111,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2602.png", "source": "http://server1.wikisky.org/v2?ra=128.7679583&de=52.8316111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

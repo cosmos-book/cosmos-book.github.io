@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5439",
+	"ra": 210.4902667,
+	"dec": 46.3118222,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5439.png", "source": "http://server1.wikisky.org/v2?ra=210.4902667&de=46.3118222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

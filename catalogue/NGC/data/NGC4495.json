@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4495",
+	"ra": 187.8454458,
+	"dec": 29.1363694,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.4","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4495.png", "source": "http://server1.wikisky.org/v2?ra=187.8454458&de=29.1363694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

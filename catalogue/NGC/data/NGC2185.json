@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2185",
+	"ra": 92.5000000,
+	"dec": -6.2000000,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2185.png", "source": "http://server1.wikisky.org/v2?ra=92.5000000&de=-6.2000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

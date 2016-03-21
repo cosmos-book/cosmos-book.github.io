@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1480",
+	"ra": 183.2715000,
+	"dec": -7.5890000,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1480.png", "source": "http://server1.wikisky.org/v2?ra=183.2715000&de=-7.5890000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

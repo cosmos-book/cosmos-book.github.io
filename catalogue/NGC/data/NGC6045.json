@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6045",
+	"ra": 241.2828667,
+	"dec": 17.7577472,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6045.png", "source": "http://server1.wikisky.org/v2?ra=241.2828667&de=17.7577472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

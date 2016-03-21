@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5420",
+	"ra": 210.9995875,
+	"dec": -14.6168861,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5420.png", "source": "http://server1.wikisky.org/v2?ra=210.9995875&de=-14.6168861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

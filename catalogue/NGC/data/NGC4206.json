@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4206",
+	"ra": 183.8203125,
+	"dec": 13.0238389,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4206.png", "source": "http://server1.wikisky.org/v2?ra=183.8203125&de=13.0238389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

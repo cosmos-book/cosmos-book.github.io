@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1316",
+	"ra": 50.6741208,
+	"dec": -37.2082000,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.1.7","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1316.png", "source": "http://server1.wikisky.org/v2?ra=50.6741208&de=-37.2082000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3471",
+	"ra": 164.7875667,
+	"dec": 61.5304528,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3471.png", "source": "http://server1.wikisky.org/v2?ra=164.7875667&de=61.5304528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

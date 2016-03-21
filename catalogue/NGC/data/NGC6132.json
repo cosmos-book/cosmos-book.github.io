@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6132",
+	"ra": 245.9116667,
+	"dec": 11.7863639,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6132.png", "source": "http://server1.wikisky.org/v2?ra=245.9116667&de=11.7863639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

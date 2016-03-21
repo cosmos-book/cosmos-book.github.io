@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1044",
+	"ra": 40.2757625,
+	"dec": 8.7379778,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1044.png", "source": "http://server1.wikisky.org/v2?ra=40.2757625&de=8.7379778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

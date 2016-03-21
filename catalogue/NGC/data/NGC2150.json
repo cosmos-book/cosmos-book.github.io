@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2150",
+	"ra": 88.9430917,
+	"dec": -69.5608361,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2150.png", "source": "http://server1.wikisky.org/v2?ra=88.9430917&de=-69.5608361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

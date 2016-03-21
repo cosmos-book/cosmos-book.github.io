@@ -1,0 +1,8 @@
+{
+	"name": "NGC 921",
+	"ra": 36.6392958,
+	"dec": -15.8475444,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC921.png", "source": "http://server1.wikisky.org/v2?ra=36.6392958&de=-15.8475444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2303",
+	"ra": 104.0730917,
+	"dec": 45.4928583,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2303.png", "source": "http://server1.wikisky.org/v2?ra=104.0730917&de=45.4928583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

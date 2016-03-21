@@ -1,0 +1,8 @@
+{
+	"name": "NGC 378",
+	"ra": 16.5509292,
+	"dec": -30.1781028,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC378.png", "source": "http://server1.wikisky.org/v2?ra=16.5509292&de=-30.1781028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7322",
+	"ra": 339.4644458,
+	"dec": -37.2312611,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7322.png", "source": "http://server1.wikisky.org/v2?ra=339.4644458&de=-37.2312611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

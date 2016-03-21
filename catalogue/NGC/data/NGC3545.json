@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3545",
+	"ra": 167.5509167,
+	"dec": 36.9646667,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.1","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3545.png", "source": "http://server1.wikisky.org/v2?ra=167.5509167&de=36.9646667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6892",
+	"ra": 304.2384792,
+	"dec": 18.0196667,
+	"avm": { "desc": "Four stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6892.png", "source": "http://server1.wikisky.org/v2?ra=304.2384792&de=18.0196667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3291",
+	"ra": 159.0270083,
+	"dec": 37.2744111,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3291.png", "source": "http://server1.wikisky.org/v2?ra=159.0270083&de=37.2744111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

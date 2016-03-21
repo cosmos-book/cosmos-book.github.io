@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5784",
+	"ra": 223.5685750,
+	"dec": 42.5577694,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5784.png", "source": "http://server1.wikisky.org/v2?ra=223.5685750&de=42.5577694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

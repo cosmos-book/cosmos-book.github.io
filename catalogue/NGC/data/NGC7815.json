@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7815",
+	"ra": 0.8534417,
+	"dec": 20.7041667,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC7815.png", "source": "http://server1.wikisky.org/v2?ra=0.8534417&de=20.7041667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

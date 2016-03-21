@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2304",
+	"ra": 103.7537500,
+	"dec": 18.0205611,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2304.png", "source": "http://server1.wikisky.org/v2?ra=103.7537500&de=18.0205611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

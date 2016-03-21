@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6427",
+	"ra": 265.9108292,
+	"dec": 25.4938917,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.1","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6427.png", "source": "http://server1.wikisky.org/v2?ra=265.9108292&de=25.4938917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

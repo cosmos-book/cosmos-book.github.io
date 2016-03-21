@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5330",
+	"ra": 208.2465667,
+	"dec": -28.4705972,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5330.png", "source": "http://server1.wikisky.org/v2?ra=208.2465667&de=-28.4705972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

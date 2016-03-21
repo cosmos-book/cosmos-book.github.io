@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3205",
+	"ra": 155.2079917,
+	"dec": 42.9722028,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3205.png", "source": "http://server1.wikisky.org/v2?ra=155.2079917&de=42.9722028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

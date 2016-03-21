@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7434",
+	"ra": 344.5893250,
+	"dec": -1.1840639,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7434.png", "source": "http://server1.wikisky.org/v2?ra=344.5893250&de=-1.1840639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

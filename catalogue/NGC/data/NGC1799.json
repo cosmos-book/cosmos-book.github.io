@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1799",
+	"ra": 76.9359042,
+	"dec": -7.9693250,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1799.png", "source": "http://server1.wikisky.org/v2?ra=76.9359042&de=-7.9693250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

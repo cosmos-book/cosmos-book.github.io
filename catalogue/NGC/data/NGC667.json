@@ -1,0 +1,8 @@
+{
+	"name": "NGC 667",
+	"ra": 26.2362542,
+	"dec": -22.9189667,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC667.png", "source": "http://server1.wikisky.org/v2?ra=26.2362542&de=-22.9189667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

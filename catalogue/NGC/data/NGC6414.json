@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6414",
+	"ra": 262.6534125,
+	"dec": 74.3761139,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6414.png", "source": "http://server1.wikisky.org/v2?ra=262.6534125&de=74.3761139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

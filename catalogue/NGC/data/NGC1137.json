@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1137",
+	"ra": 43.5114417,
+	"dec": 2.9621139,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1137.png", "source": "http://server1.wikisky.org/v2?ra=43.5114417&de=2.9621139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

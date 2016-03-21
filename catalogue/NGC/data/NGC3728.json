@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3728",
+	"ra": 173.3158583,
+	"dec": 24.4470528,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3728.png", "source": "http://server1.wikisky.org/v2?ra=173.3158583&de=24.4470528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

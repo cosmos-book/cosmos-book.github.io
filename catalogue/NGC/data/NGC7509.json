@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7509",
+	"ra": 348.0892958,
+	"dec": 14.6092778,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7509.png", "source": "http://server1.wikisky.org/v2?ra=348.0892958&de=14.6092778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

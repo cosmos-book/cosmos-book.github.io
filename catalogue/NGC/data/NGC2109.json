@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2109",
+	"ra": 86.0965833,
+	"dec": -68.5470361,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2109.png", "source": "http://server1.wikisky.org/v2?ra=86.0965833&de=-68.5470361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

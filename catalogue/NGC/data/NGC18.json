@@ -1,0 +1,8 @@
+{
+	"name": "NGC 18",
+	"ra": 2.3462333,
+	"dec": 27.7320722,
+	"avm": { "desc": "Binary Stars", "codes":["3.6.1"] },
+	"ref": "NED",
+	"img": {"thumb": "thumbnails/NGC18.png", "source": "http://server1.wikisky.org/v2?ra=2.3462333&de=27.7320722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

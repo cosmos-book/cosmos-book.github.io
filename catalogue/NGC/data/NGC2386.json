@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2386",
+	"ra": 112.1568000,
+	"dec": 33.7646000,
+	"avm": { "desc": "A pair of stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2386.png", "source": "http://server1.wikisky.org/v2?ra=112.1568000&de=33.7646000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

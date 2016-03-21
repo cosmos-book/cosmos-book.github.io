@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5083",
+	"ra": 199.7627708,
+	"dec": 39.5905139,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5083.png", "source": "http://server1.wikisky.org/v2?ra=199.7627708&de=39.5905139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

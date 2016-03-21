@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1580",
+	"ra": 67.0770125,
+	"dec": -5.1787889,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1580.png", "source": "http://server1.wikisky.org/v2?ra=67.0770125&de=-5.1787889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

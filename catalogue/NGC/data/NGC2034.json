@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2034",
+	"ra": 83.9542000,
+	"dec": -66.8900000,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2034.png", "source": "http://server1.wikisky.org/v2?ra=83.9542000&de=-66.8900000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

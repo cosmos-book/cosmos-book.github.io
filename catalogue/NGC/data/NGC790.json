@@ -1,0 +1,8 @@
+{
+	"name": "NGC 790",
+	"ra": 30.3399000,
+	"dec": -5.3710472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC790.png", "source": "http://server1.wikisky.org/v2?ra=30.3399000&de=-5.3710472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

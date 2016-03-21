@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1884",
+	"ra": 78.9857000,
+	"dec": -66.1734000,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1884.png", "source": "http://server1.wikisky.org/v2?ra=78.9857000&de=-66.1734000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

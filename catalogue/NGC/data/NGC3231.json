@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3231",
+	"ra": 156.7408292,
+	"dec": 66.8152806,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3231.png", "source": "http://server1.wikisky.org/v2?ra=156.7408292&de=66.8152806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

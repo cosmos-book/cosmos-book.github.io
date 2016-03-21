@@ -1,0 +1,8 @@
+{
+	"name": "NGC 571",
+	"ra": 22.4831500,
+	"dec": 32.5014111,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC571.png", "source": "http://server1.wikisky.org/v2?ra=22.4831500&de=32.5014111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

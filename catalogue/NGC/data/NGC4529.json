@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4529",
+	"ra": 187.9266708,
+	"dec": 20.4813889,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.5.3","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4529.png", "source": "http://server1.wikisky.org/v2?ra=187.9266708&de=20.4813889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

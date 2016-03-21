@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2575",
+	"ra": 125.6872625,
+	"dec": 24.2970583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2575.png", "source": "http://server1.wikisky.org/v2?ra=125.6872625&de=24.2970583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

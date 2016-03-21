@@ -1,0 +1,8 @@
+{
+	"name": "NGC 456",
+	"ra": 18.4350000,
+	"dec": -73.2905611,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC456.png", "source": "http://server1.wikisky.org/v2?ra=18.4350000&de=-73.2905611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

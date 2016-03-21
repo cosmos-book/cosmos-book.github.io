@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5863",
+	"ra": 227.7014625,
+	"dec": -18.4309778,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.1","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5863.png", "source": "http://server1.wikisky.org/v2?ra=227.7014625&de=-18.4309778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

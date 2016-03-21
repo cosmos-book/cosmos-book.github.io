@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4935",
+	"ra": 195.8383167,
+	"dec": 14.3775500,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4935.png", "source": "http://server1.wikisky.org/v2?ra=195.8383167&de=14.3775500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

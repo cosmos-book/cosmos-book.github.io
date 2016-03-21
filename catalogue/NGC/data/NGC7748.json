@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7748",
+	"ra": 356.2361250,
+	"dec": 69.7548611,
+	"avm": { "desc": "7th mag star", "codes":["3"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC7748.png", "source": "http://server1.wikisky.org/v2?ra=356.2361250&de=69.7548611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1043",
+	"ra": 40.1939250,
+	"dec": 1.3431389,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1043.png", "source": "http://server1.wikisky.org/v2?ra=40.1939250&de=1.3431389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

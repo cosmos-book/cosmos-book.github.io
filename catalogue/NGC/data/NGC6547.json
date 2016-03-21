@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6547",
+	"ra": 271.2917500,
+	"dec": 25.2326444,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6547.png", "source": "http://server1.wikisky.org/v2?ra=271.2917500&de=25.2326444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

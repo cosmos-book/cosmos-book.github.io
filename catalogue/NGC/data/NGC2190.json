@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2190",
+	"ra": 90.2583000,
+	"dec": -74.7267000,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2190.png", "source": "http://server1.wikisky.org/v2?ra=90.2583000&de=-74.7267000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3439",
+	"ra": 163.1071917,
+	"dec": 8.5576444,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3439.png", "source": "http://server1.wikisky.org/v2?ra=163.1071917&de=8.5576444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

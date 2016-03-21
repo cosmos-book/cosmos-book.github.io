@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6058",
+	"ra": 241.1108208,
+	"dec": 40.6822361,
+	"avm": { "desc": "Planetary Nebula", "codes":["4.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6058.png", "source": "http://server1.wikisky.org/v2?ra=241.1108208&de=40.6822361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

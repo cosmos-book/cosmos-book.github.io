@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5008",
+	"ra": 212.7385875,
+	"dec": 25.4972806,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5008.png", "source": "http://server1.wikisky.org/v2?ra=212.7385875&de=25.4972806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

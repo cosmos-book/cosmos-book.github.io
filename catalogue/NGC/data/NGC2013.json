@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2013",
+	"ra": 86.0995000,
+	"dec": 55.7934000,
+	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2013.png", "source": "http://server1.wikisky.org/v2?ra=86.0995000&de=55.7934000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

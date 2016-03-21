@@ -1,0 +1,8 @@
+{
+	"name": "NGC 94",
+	"ra": 5.5563167,
+	"dec": 22.4831167,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC94.png", "source": "http://server1.wikisky.org/v2?ra=5.5563167&de=22.4831167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

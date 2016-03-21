@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3650",
+	"ra": 170.6474167,
+	"dec": 20.7040278,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3650.png", "source": "http://server1.wikisky.org/v2?ra=170.6474167&de=20.7040278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

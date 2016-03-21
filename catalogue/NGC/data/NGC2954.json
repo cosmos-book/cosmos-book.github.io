@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2954",
+	"ra": 145.1002333,
+	"dec": 14.9226500,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2954.png", "source": "http://server1.wikisky.org/v2?ra=145.1002333&de=14.9226500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

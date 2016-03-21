@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1024",
+	"ra": 39.7998542,
+	"dec": 10.8468111,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.1.7","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1024.png", "source": "http://server1.wikisky.org/v2?ra=39.7998542&de=10.8468111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

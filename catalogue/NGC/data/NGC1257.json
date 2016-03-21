@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1257",
+	"ra": 49.2482917,
+	"dec": 41.5292778,
+	"avm": { "desc": "Double or multiple star", "codes":["3.6.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1257.png", "source": "http://server1.wikisky.org/v2?ra=49.2482917&de=41.5292778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

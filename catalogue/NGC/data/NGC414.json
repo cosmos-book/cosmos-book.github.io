@@ -1,0 +1,8 @@
+{
+	"name": "NGC 414",
+	"ra": 17.8236667,
+	"dec": 33.1133056,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC414.png", "source": "http://server1.wikisky.org/v2?ra=17.8236667&de=33.1133056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

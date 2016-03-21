@@ -1,0 +1,8 @@
+{
+	"name": "NGC 918",
+	"ra": 36.4592750,
+	"dec": 18.4989333,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC918.png", "source": "http://server1.wikisky.org/v2?ra=36.4592750&de=18.4989333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

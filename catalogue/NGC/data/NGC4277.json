@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4277",
+	"ra": 185.0153958,
+	"dec": 5.3414194,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4277.png", "source": "http://server1.wikisky.org/v2?ra=185.0153958&de=5.3414194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

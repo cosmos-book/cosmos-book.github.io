@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5947",
+	"ra": 232.6523458,
+	"dec": 42.7171889,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5947.png", "source": "http://server1.wikisky.org/v2?ra=232.6523458&de=42.7171889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

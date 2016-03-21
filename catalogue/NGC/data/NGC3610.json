@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3610",
+	"ra": 169.6053167,
+	"dec": 58.7862472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3610.png", "source": "http://server1.wikisky.org/v2?ra=169.6053167&de=58.7862472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

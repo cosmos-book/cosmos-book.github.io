@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4600",
+	"ra": 190.0958250,
+	"dec": 3.1176861,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4600.png", "source": "http://server1.wikisky.org/v2?ra=190.0958250&de=3.1176861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

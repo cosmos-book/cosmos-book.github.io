@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3968",
+	"ra": 178.8695375,
+	"dec": 11.9683306,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3968.png", "source": "http://server1.wikisky.org/v2?ra=178.8695375&de=11.9683306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

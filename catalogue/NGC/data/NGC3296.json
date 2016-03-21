@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3296",
+	"ra": 158.1891958,
+	"dec": -12.7171806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3296.png", "source": "http://server1.wikisky.org/v2?ra=158.1891958&de=-12.7171806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

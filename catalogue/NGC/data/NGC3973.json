@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3973",
+	"ra": 178.9041583,
+	"dec": 11.9973333,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3973.png", "source": "http://server1.wikisky.org/v2?ra=178.9041583&de=11.9973333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

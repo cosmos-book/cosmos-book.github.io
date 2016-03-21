@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6335",
+	"ra": 259.9125000,
+	"dec": -30.1800000,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6335.png", "source": "http://server1.wikisky.org/v2?ra=259.9125000&de=-30.1800000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

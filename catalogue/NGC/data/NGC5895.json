@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5895",
+	"ra": 228.4582500,
+	"dec": 42.0073889,
+	"avm": { "desc": "Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5895.png", "source": "http://server1.wikisky.org/v2?ra=228.4582500&de=42.0073889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

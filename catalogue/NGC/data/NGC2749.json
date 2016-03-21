@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2749",
+	"ra": 136.3388042,
+	"dec": 18.3131250,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2749.png", "source": "http://server1.wikisky.org/v2?ra=136.3388042&de=18.3131250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

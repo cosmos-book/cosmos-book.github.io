@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3603",
+	"ra": 168.8480000,
+	"dec": -61.2500000,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3603.jpg", "source": "http://hubblesite.org/gallery/album/pr2010022a/", "credit": "NASA, ESA, R. O'Connell (University of Virginia), F.   Paresce (National Institute for Astrophysics, Bologna, Italy), E.   Young (Universities Space Research Association/Ames   Research Center), the WFC3 Science Oversight Committee, and   the Hubble Heritage Team (STScI/AURA)" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6448",
+	"ra": 266.0856708,
+	"dec": 53.5403778,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6448.png", "source": "http://server1.wikisky.org/v2?ra=266.0856708&de=53.5403778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

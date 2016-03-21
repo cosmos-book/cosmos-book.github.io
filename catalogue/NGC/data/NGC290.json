@@ -1,0 +1,8 @@
+{
+	"name": "NGC 290",
+	"ra": 12.8013750,
+	"dec": -73.1616944,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC290.jpg", "source": "http://hubblesite.org/gallery/album/pr2006017c/", "credit": "Image Credit: European Space Agency & NASAAcknowledgment: E. Olszewski (University of Arizona)" }
+}

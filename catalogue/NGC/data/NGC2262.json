@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2262",
+	"ra": 99.9150000,
+	"dec": 1.1400000,
+	"avm": { "desc": "Irregular Galaxy", "codes":["3.6.4.1","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2262.png", "source": "http://server1.wikisky.org/v2?ra=99.9150000&de=1.1400000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

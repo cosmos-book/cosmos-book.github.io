@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1731",
+	"ra": 73.3125000,
+	"dec": -66.9267000,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1731.png", "source": "http://server1.wikisky.org/v2?ra=73.3125000&de=-66.9267000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

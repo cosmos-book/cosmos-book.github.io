@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1008",
+	"ra": 39.4802875,
+	"dec": 2.0797417,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1008.png", "source": "http://server1.wikisky.org/v2?ra=39.4802875&de=2.0797417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

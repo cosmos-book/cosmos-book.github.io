@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2661",
+	"ra": 131.4981250,
+	"dec": 12.6199167,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2661.png", "source": "http://server1.wikisky.org/v2?ra=131.4981250&de=12.6199167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

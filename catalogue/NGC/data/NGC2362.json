@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2362",
+	"ra": 109.6708000,
+	"dec": -24.9550000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2362.png", "source": "http://server1.wikisky.org/v2?ra=109.6708000&de=-24.9550000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

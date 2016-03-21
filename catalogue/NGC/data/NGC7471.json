@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7471",
+	"ra": 345.9742375,
+	"dec": -22.9069306,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7471.png", "source": "http://server1.wikisky.org/v2?ra=345.9742375&de=-22.9069306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6963",
+	"ra": 311.8303333,
+	"dec": 0.5093333,
+	"avm": { "desc": "Two stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6963.png", "source": "http://server1.wikisky.org/v2?ra=311.8303333&de=0.5093333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

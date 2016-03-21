@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2149",
+	"ra": 90.8679208,
+	"dec": -9.7277806,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2149.png", "source": "http://server1.wikisky.org/v2?ra=90.8679208&de=-9.7277806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6817",
+	"ra": 294.3472583,
+	"dec": 62.3836167,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6817.png", "source": "http://server1.wikisky.org/v2?ra=294.3472583&de=62.3836167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

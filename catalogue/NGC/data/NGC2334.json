@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2334",
+	"ra": 107.4800000,
+	"dec": 50.1921000,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2334.png", "source": "http://server1.wikisky.org/v2?ra=107.4800000&de=50.1921000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

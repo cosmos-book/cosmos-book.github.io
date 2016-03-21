@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4218",
+	"ra": 183.9427042,
+	"dec": 48.1314278,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4218.png", "source": "http://server1.wikisky.org/v2?ra=183.9427042&de=48.1314278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

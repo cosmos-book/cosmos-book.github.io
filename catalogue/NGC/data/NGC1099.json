@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1099",
+	"ra": 41.3251042,
+	"dec": -17.7083778,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1099.png", "source": "http://server1.wikisky.org/v2?ra=41.3251042&de=-17.7083778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

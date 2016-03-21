@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1814",
+	"ra": 75.9422500,
+	"dec": -67.3041667,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1814.png", "source": "http://server1.wikisky.org/v2?ra=75.9422500&de=-67.3041667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

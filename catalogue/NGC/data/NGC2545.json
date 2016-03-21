@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2545",
+	"ra": 123.5588750,
+	"dec": 21.3555222,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2545.png", "source": "http://server1.wikisky.org/v2?ra=123.5588750&de=21.3555222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

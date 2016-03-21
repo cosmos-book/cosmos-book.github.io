@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2008",
+	"ra": 83.7658833,
+	"dec": -50.9667361,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2008.png", "source": "http://server1.wikisky.org/v2?ra=83.7658833&de=-50.9667361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

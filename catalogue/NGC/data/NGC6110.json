@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6110",
+	"ra": 244.4334125,
+	"dec": 35.0870750,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6110.png", "source": "http://server1.wikisky.org/v2?ra=244.4334125&de=35.0870750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

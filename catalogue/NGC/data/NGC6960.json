@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6960",
+	"ra": 311.4083292,
+	"dec": 30.7083306,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6960.png", "source": "http://server1.wikisky.org/v2?ra=311.4083292&de=30.7083306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

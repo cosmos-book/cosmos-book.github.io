@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6375",
+	"ra": 262.3411542,
+	"dec": 16.2067972,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.1","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6375.png", "source": "http://server1.wikisky.org/v2?ra=262.3411542&de=16.2067972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

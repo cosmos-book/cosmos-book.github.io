@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1881",
+	"ra": 78.4055417,
+	"dec": -69.3009167,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1881.png", "source": "http://server1.wikisky.org/v2?ra=78.4055417&de=-69.3009167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

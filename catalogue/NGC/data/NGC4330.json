@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4330",
+	"ra": 185.8218708,
+	"dec": 11.3679806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4330.png", "source": "http://server1.wikisky.org/v2?ra=185.8218708&de=11.3679806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

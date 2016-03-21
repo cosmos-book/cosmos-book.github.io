@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2605",
+	"ra": 128.7221333,
+	"dec": 52.8043083,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2605.png", "source": "http://server1.wikisky.org/v2?ra=128.7221333&de=52.8043083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

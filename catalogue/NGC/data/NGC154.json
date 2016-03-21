@@ -1,0 +1,8 @@
+{
+	"name": "NGC 154",
+	"ra": 8.5811208,
+	"dec": -12.6562500,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC154.png", "source": "http://server1.wikisky.org/v2?ra=8.5811208&de=-12.6562500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

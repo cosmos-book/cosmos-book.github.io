@@ -1,0 +1,8 @@
+{
+	"name": "NGC 405",
+	"ra": 17.1421333,
+	"dec": -46.6684917,
+	"avm": { "desc": "7th mag star", "codes":["3"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC405.png", "source": "http://server1.wikisky.org/v2?ra=17.1421333&de=-46.6684917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

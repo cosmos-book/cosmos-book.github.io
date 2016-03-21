@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5144",
+	"ra": 200.7238750,
+	"dec": 70.5132778,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5144.png", "source": "http://server1.wikisky.org/v2?ra=200.7238750&de=70.5132778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

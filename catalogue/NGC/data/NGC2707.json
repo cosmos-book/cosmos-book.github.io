@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2707",
+	"ra": 134.0236542,
+	"dec": -3.0664250,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2707.png", "source": "http://server1.wikisky.org/v2?ra=134.0236542&de=-3.0664250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

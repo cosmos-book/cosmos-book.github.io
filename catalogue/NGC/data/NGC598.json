@@ -1,0 +1,8 @@
+{
+	"name": "NGC 598",
+	"ra": 23.4621000,
+	"dec": 30.6599417,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC598.png", "source": "http://server1.wikisky.org/v2?ra=23.4621000&de=30.6599417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

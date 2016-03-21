@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3877",
+	"ra": 176.5324250,
+	"dec": 47.4945000,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3877.png", "source": "http://server1.wikisky.org/v2?ra=176.5324250&de=47.4945000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

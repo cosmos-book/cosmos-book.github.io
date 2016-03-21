@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2721",
+	"ra": 134.7354125,
+	"dec": -4.9020000,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2721.png", "source": "http://server1.wikisky.org/v2?ra=134.7354125&de=-4.9020000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5682",
+	"ra": 218.6873458,
+	"dec": 48.6702583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5682.png", "source": "http://server1.wikisky.org/v2?ra=218.6873458&de=48.6702583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

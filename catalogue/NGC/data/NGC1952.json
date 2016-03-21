@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1952",
+	"ra": 83.6330833,
+	"dec": 22.0145000,
+	"avm": { "desc": "SuperNova Remnant", "codes":["4.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1952.jpg", "source": "http://hubblesite.org/gallery/album/pr2005037a/", "credit": "NASA, ESA, J. Hester and A. Loll (Arizona State University)" }
+}

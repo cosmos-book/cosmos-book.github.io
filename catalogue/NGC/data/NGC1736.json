@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1736",
+	"ra": 73.2653583,
+	"dec": -68.0513750,
+	"avm": { "desc": "Emission Object", "codes":["4.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1736.png", "source": "http://server1.wikisky.org/v2?ra=73.2653583&de=-68.0513750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

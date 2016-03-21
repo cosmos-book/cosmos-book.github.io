@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3314",
+	"ra": 159.3035583,
+	"dec": -27.6839389,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3314.jpg", "source": "http://hubblesite.org/gallery/album/pr2012029a/", "credit": "NASA, ESA, the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration, and W. Keel (University of Alabama)" }
+}

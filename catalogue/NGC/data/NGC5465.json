@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5465",
+	"ra": 211.6136792,
+	"dec": -5.5062833,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5465.png", "source": "http://server1.wikisky.org/v2?ra=211.6136792&de=-5.5062833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6729",
+	"ra": 285.4433292,
+	"dec": -36.9611111,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6729.png", "source": "http://server1.wikisky.org/v2?ra=285.4433292&de=-36.9611111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7212",
+	"ra": 331.7583000,
+	"dec": 10.2334694,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7212.png", "source": "http://server1.wikisky.org/v2?ra=331.7583000&de=10.2334694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

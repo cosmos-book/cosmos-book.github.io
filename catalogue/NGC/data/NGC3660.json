@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3660",
+	"ra": 170.8845500,
+	"dec": -8.6585667,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3660.png", "source": "http://server1.wikisky.org/v2?ra=170.8845500&de=-8.6585667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

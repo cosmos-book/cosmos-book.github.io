@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4402",
+	"ra": 186.5315250,
+	"dec": 13.1127944,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4402.png", "source": "http://server1.wikisky.org/v2?ra=186.5315250&de=13.1127944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

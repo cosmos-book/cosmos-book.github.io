@@ -1,0 +1,8 @@
+{
+	"name": "NGC 56",
+	"ra": 3.8500000,
+	"dec": 12.4500000,
+	"avm": { "desc": "Nothing", "codes":["0"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC56.png", "source": "http://server1.wikisky.org/v2?ra=3.8500000&de=12.4500000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

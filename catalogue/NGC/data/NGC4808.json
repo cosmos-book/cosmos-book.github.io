@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4808",
+	"ra": 193.9539167,
+	"dec": 4.3040944,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4808.png", "source": "http://server1.wikisky.org/v2?ra=193.9539167&de=4.3040944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

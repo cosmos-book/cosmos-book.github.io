@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3965",
+	"ra": 178.7809125,
+	"dec": -10.8783111,
+	"avm": { "desc": "Spiral galaxy", "codes":["5.1.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3965.png", "source": "http://server1.wikisky.org/v2?ra=178.7809125&de=-10.8783111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

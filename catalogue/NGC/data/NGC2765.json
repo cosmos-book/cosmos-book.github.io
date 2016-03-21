@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2765",
+	"ra": 136.9027542,
+	"dec": 3.3929972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2765.png", "source": "http://server1.wikisky.org/v2?ra=136.9027542&de=3.3929972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

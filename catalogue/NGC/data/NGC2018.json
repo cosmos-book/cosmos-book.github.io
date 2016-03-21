@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2018",
+	"ra": 82.8500000,
+	"dec": -71.0733333,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2018.png", "source": "http://server1.wikisky.org/v2?ra=82.8500000&de=-71.0733333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

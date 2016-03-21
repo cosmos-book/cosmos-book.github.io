@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3073",
+	"ra": 150.2168417,
+	"dec": 55.6189361,
+	"avm": { "desc": "Dwarf Galaxy", "codes":["5.5.2","5.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3073.png", "source": "http://server1.wikisky.org/v2?ra=150.2168417&de=55.6189361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

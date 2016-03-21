@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3851",
+	"ra": 176.0850500,
+	"dec": 19.9808000,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3851.png", "source": "http://server1.wikisky.org/v2?ra=176.0850500&de=19.9808000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

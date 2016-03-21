@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4819",
+	"ra": 194.1160292,
+	"dec": 26.9875194,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4819.png", "source": "http://server1.wikisky.org/v2?ra=194.1160292&de=26.9875194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

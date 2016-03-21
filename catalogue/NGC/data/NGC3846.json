@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3846",
+	"ra": 176.1212917,
+	"dec": 55.6520306,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3846.png", "source": "http://server1.wikisky.org/v2?ra=176.1212917&de=55.6520306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

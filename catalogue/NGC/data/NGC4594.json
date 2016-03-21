@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4594",
+	"ra": 189.9976333,
+	"dec": -11.6230556,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.4","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4594.jpg", "source": "http://hubblesite.org/gallery/album/pr2003028a/", "credit": "NASA and The Hubble Heritage Team (STScI/AURA)" }
+}

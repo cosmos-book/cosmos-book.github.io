@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5009",
+	"ra": 197.6957875,
+	"dec": 50.0917056,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5009.png", "source": "http://server1.wikisky.org/v2?ra=197.6957875&de=50.0917056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

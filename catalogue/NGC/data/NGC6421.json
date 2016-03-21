@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6421",
+	"ra": 266.4250000,
+	"dec": -33.6867000,
+	"avm": { "desc": "Open Cluster", "codes":["3.6.4.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6421.png", "source": "http://server1.wikisky.org/v2?ra=266.4250000&de=-33.6867000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

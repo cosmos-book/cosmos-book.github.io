@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3826",
+	"ra": 175.6368875,
+	"dec": 26.4888611,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3826.png", "source": "http://server1.wikisky.org/v2?ra=175.6368875&de=26.4888611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

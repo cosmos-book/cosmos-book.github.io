@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3582",
+	"ra": 168.0500000,
+	"dec": -61.2736111,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3582.png", "source": "http://server1.wikisky.org/v2?ra=168.0500000&de=-61.2736111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

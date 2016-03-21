@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6777",
+	"ra": 287.7157458,
+	"dec": -59.9818500,
+	"avm": { "desc": "Two stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6777.png", "source": "http://server1.wikisky.org/v2?ra=287.7157458&de=-59.9818500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

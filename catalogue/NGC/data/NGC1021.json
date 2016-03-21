@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1021",
+	"ra": 39.7001208,
+	"dec": 2.2174139,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1021.png", "source": "http://server1.wikisky.org/v2?ra=39.7001208&de=2.2174139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

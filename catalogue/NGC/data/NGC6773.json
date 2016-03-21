@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6773",
+	"ra": 288.7852000,
+	"dec": 4.8565583,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6773.png", "source": "http://server1.wikisky.org/v2?ra=288.7852000&de=4.8565583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

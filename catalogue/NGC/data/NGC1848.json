@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1848",
+	"ra": 77.0452083,
+	"dec": -71.1735000,
+	"avm": { "desc": "Association of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1848.png", "source": "http://server1.wikisky.org/v2?ra=77.0452083&de=-71.1735000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6445",
+	"ra": 267.3133750,
+	"dec": -20.0095833,
+	"avm": { "desc": "Planetary Nebula", "codes":["4.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6445.png", "source": "http://server1.wikisky.org/v2?ra=267.3133750&de=-20.0095833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

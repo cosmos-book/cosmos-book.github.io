@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2794",
+	"ra": 139.0074458,
+	"dec": 17.5898556,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2794.png", "source": "http://server1.wikisky.org/v2?ra=139.0074458&de=17.5898556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

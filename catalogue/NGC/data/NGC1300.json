@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1300",
+	"ra": 49.9211625,
+	"dec": -19.4113611,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1300.jpg", "source": "http://hubblesite.org/gallery/album/pr2005001a/", "credit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)Acknowledgment: P. Knezek (WIYN)" }
+}

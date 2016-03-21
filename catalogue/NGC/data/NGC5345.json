@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5345",
+	"ra": 208.5592792,
+	"dec": -1.4364278,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5345.png", "source": "http://server1.wikisky.org/v2?ra=208.5592792&de=-1.4364278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

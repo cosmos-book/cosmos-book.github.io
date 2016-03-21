@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5432",
+	"ra": 210.9193625,
+	"dec": -5.9754361,
+	"avm": { "desc": "Two stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC5432.png", "source": "http://server1.wikisky.org/v2?ra=210.9193625&de=-5.9754361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

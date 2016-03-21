@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4754",
+	"ra": 193.0731792,
+	"dec": 11.3136611,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4754.png", "source": "http://server1.wikisky.org/v2?ra=193.0731792&de=11.3136611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

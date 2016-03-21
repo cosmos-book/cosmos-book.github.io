@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4635",
+	"ra": 190.6635583,
+	"dec": 19.9452306,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4635.png", "source": "http://server1.wikisky.org/v2?ra=190.6635583&de=19.9452306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

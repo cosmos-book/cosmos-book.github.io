@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5546",
+	"ra": 214.5383917,
+	"dec": 7.5645750,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5546.png", "source": "http://server1.wikisky.org/v2?ra=214.5383917&de=7.5645750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

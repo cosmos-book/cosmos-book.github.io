@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1439",
+	"ra": 56.2081542,
+	"dec": -21.9204972,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1439.png", "source": "http://server1.wikisky.org/v2?ra=56.2081542&de=-21.9204972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

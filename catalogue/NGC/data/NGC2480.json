@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2480",
+	"ra": 119.2935167,
+	"dec": 23.7796333,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2480.png", "source": "http://server1.wikisky.org/v2?ra=119.2935167&de=23.7796333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

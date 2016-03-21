@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5614",
+	"ra": 216.0316292,
+	"dec": 34.8588944,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5614.png", "source": "http://server1.wikisky.org/v2?ra=216.0316292&de=34.8588944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3727",
+	"ra": 173.4205333,
+	"dec": -13.8787750,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3727.png", "source": "http://server1.wikisky.org/v2?ra=173.4205333&de=-13.8787750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

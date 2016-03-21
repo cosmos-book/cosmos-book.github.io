@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1753",
+	"ra": 75.6348125,
+	"dec": -3.3442944,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1753.png", "source": "http://server1.wikisky.org/v2?ra=75.6348125&de=-3.3442944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

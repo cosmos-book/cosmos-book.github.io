@@ -1,0 +1,8 @@
+{
+	"name": "NGC 702",
+	"ra": 27.8283292,
+	"dec": -4.0525000,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC702.png", "source": "http://server1.wikisky.org/v2?ra=27.8283292&de=-4.0525000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

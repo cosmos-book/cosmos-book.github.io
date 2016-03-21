@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7646",
+	"ra": 351.0289625,
+	"dec": -11.8607472,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7646.png", "source": "http://server1.wikisky.org/v2?ra=351.0289625&de=-11.8607472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

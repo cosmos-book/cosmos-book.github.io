@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7151",
+	"ra": 328.7654208,
+	"dec": -50.6561111,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7151.png", "source": "http://server1.wikisky.org/v2?ra=328.7654208&de=-50.6561111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

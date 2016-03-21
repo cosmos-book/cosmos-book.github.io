@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5544",
+	"ra": 214.2609583,
+	"dec": 36.5710833,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5544.png", "source": "http://server1.wikisky.org/v2?ra=214.2609583&de=36.5710833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

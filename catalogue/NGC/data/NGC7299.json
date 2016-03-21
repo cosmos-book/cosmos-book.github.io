@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7299",
+	"ra": 337.8879375,
+	"dec": -37.8095222,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7299.png", "source": "http://server1.wikisky.org/v2?ra=337.8879375&de=-37.8095222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 93",
+	"ra": 5.5133792,
+	"dec": 22.4080972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC93.png", "source": "http://server1.wikisky.org/v2?ra=5.5133792&de=22.4080972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

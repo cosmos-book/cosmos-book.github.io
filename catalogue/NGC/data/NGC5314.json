@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5314",
+	"ra": 206.5473625,
+	"dec": 70.3396056,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5314.png", "source": "http://server1.wikisky.org/v2?ra=206.5473625&de=70.3396056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

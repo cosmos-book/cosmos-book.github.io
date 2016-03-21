@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6186",
+	"ra": 248.6061875,
+	"dec": 21.5408361,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6186.png", "source": "http://server1.wikisky.org/v2?ra=248.6061875&de=21.5408361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

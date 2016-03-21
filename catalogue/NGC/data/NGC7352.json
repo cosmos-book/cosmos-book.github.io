@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7352",
+	"ra": 339.9320875,
+	"dec": 57.3943528,
+	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC7352.png", "source": "http://server1.wikisky.org/v2?ra=339.9320875&de=57.3943528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

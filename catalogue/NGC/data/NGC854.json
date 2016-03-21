@@ -1,0 +1,8 @@
+{
+	"name": "NGC 854",
+	"ra": 32.8781375,
+	"dec": -35.8351278,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC854.png", "source": "http://server1.wikisky.org/v2?ra=32.8781375&de=-35.8351278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

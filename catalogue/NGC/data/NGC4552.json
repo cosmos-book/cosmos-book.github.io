@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4552",
+	"ra": 188.9161833,
+	"dec": 12.5560389,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.3.2.4","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4552.png", "source": "http://server1.wikisky.org/v2?ra=188.9161833&de=12.5560389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

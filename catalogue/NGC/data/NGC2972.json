@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2972",
+	"ra": 145.0580000,
+	"dec": -50.3250000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2972.png", "source": "http://server1.wikisky.org/v2?ra=145.0580000&de=-50.3250000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

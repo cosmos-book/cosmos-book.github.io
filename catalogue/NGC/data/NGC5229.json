@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5229",
+	"ra": 203.5117958,
+	"dec": 47.9154667,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5229.png", "source": "http://server1.wikisky.org/v2?ra=203.5117958&de=47.9154667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

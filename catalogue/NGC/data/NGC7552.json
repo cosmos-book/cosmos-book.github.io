@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7552",
+	"ra": 349.0448625,
+	"dec": -42.5848306,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.3.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7552.png", "source": "http://server1.wikisky.org/v2?ra=349.0448625&de=-42.5848306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

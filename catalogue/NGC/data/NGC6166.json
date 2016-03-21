@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6166",
+	"ra": 247.1594833,
+	"dec": 39.5513806,
+	"avm": { "desc": "Quasar", "codes":["5.3.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6166.png", "source": "http://server1.wikisky.org/v2?ra=247.1594833&de=39.5513806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

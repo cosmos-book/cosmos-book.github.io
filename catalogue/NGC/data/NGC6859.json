@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6859",
+	"ra": 300.9562833,
+	"dec": 0.4446472,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6859.png", "source": "http://server1.wikisky.org/v2?ra=300.9562833&de=0.4446472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

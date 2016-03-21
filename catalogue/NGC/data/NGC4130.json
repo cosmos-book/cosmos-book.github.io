@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4130",
+	"ra": 182.2217500,
+	"dec": -9.0365000,
+	"avm": { "desc": "Barred Galaxy", "codes":["","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4130.png", "source": "http://server1.wikisky.org/v2?ra=182.2217500&de=-9.0365000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

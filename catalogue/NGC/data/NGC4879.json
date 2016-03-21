@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4879",
+	"ra": 195.1066708,
+	"dec": -6.1111111,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4879.png", "source": "http://server1.wikisky.org/v2?ra=195.1066708&de=-6.1111111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6618",
+	"ra": 275.1958000,
+	"dec": -16.1717000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6618.jpg", "source": "http://hubblesite.org/gallery/album/pr2003013a/", "credit": "NASA, ESA and J. Hester (ASU)" }
+}

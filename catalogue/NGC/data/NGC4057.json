@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4057",
+	"ra": 181.3136750,
+	"dec": 20.3107917,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4057.png", "source": "http://server1.wikisky.org/v2?ra=181.3136750&de=20.3107917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

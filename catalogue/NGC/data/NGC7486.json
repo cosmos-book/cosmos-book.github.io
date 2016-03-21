@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7486",
+	"ra": 346.5383917,
+	"dec": 34.0774500,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7486.png", "source": "http://server1.wikisky.org/v2?ra=346.5383917&de=34.0774500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

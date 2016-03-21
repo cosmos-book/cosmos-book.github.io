@@ -1,0 +1,8 @@
+{
+	"name": "NGC 116",
+	"ra": 6.7717542,
+	"dec": -7.6683083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC116.png", "source": "http://server1.wikisky.org/v2?ra=6.7717542&de=-7.6683083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

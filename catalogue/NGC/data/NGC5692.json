@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5692",
+	"ra": 219.5756250,
+	"dec": 3.4102333,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5692.png", "source": "http://server1.wikisky.org/v2?ra=219.5756250&de=3.4102333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

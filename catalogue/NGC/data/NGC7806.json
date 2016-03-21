@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7806",
+	"ra": 0.3752375,
+	"dec": 31.4418500,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7806.png", "source": "http://server1.wikisky.org/v2?ra=0.3752375&de=31.4418500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

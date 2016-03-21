@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3127",
+	"ra": 151.6035750,
+	"dec": -16.1260500,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3127.png", "source": "http://server1.wikisky.org/v2?ra=151.6035750&de=-16.1260500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

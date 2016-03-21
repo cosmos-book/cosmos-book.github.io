@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2314",
+	"ra": 107.6356958,
+	"dec": 75.3266139,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2314.png", "source": "http://server1.wikisky.org/v2?ra=107.6356958&de=75.3266139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

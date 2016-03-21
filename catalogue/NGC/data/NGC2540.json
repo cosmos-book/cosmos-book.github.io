@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2540",
+	"ra": 123.1934375,
+	"dec": 26.3608694,
+	"avm": { "desc": "Possible Quasar", "codes":["5.3.2.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2540.png", "source": "http://server1.wikisky.org/v2?ra=123.1934375&de=26.3608694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

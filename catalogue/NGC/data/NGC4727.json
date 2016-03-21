@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4727",
+	"ra": 192.7384625,
+	"dec": -14.3330028,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4727.png", "source": "http://server1.wikisky.org/v2?ra=192.7384625&de=-14.3330028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2099",
+	"ra": 88.0750000,
+	"dec": 32.5533000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2099.png", "source": "http://server1.wikisky.org/v2?ra=88.0750000&de=32.5533000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

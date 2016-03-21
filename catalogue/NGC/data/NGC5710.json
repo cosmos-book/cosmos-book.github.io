@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5710",
+	"ra": 219.8175792,
+	"dec": 20.0438028,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5710.png", "source": "http://server1.wikisky.org/v2?ra=219.8175792&de=20.0438028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1518",
+	"ra": 61.7071167,
+	"dec": -21.1726167,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1518.png", "source": "http://server1.wikisky.org/v2?ra=61.7071167&de=-21.1726167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2306",
+	"ra": 103.6050000,
+	"dec": -7.2050000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2306.png", "source": "http://server1.wikisky.org/v2?ra=103.6050000&de=-7.2050000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

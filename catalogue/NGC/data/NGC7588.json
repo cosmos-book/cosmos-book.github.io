@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7588",
+	"ra": 349.4909958,
+	"dec": 18.7520861,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7588.png", "source": "http://server1.wikisky.org/v2?ra=349.4909958&de=18.7520861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

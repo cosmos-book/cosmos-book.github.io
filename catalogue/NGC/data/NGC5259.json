@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5259",
+	"ra": 204.8529208,
+	"dec": 30.9909778,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5259.png", "source": "http://server1.wikisky.org/v2?ra=204.8529208&de=30.9909778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

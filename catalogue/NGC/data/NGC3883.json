@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3883",
+	"ra": 176.6966417,
+	"dec": 20.6753611,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3883.png", "source": "http://server1.wikisky.org/v2?ra=176.6966417&de=20.6753611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

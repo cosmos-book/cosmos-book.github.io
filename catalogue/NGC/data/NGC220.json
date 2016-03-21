@@ -1,0 +1,8 @@
+{
+	"name": "NGC 220",
+	"ra": 10.2331667,
+	"dec": -73.4028056,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC220.png", "source": "http://server1.wikisky.org/v2?ra=10.2331667&de=-73.4028056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

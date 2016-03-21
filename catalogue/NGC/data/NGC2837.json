@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2837",
+	"ra": 139.5973875,
+	"dec": -16.4817222,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2837.png", "source": "http://server1.wikisky.org/v2?ra=139.5973875&de=-16.4817222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

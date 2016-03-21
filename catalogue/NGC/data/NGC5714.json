@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5714",
+	"ra": 219.5480958,
+	"dec": 46.6383583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5714.png", "source": "http://server1.wikisky.org/v2?ra=219.5480958&de=46.6383583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

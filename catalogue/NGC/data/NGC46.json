@@ -1,0 +1,8 @@
+{
+	"name": "NGC 46",
+	"ra": 3.5411667,
+	"dec": 5.9877361,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC46.png", "source": "http://server1.wikisky.org/v2?ra=3.5411667&de=5.9877361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1456",
+	"ra": 57.0250000,
+	"dec": 22.5670000,
+	"avm": { "desc": "Insterstellar matter", "codes":["4.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1456.png", "source": "http://server1.wikisky.org/v2?ra=57.0250000&de=22.5670000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

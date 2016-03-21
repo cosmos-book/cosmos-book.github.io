@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1420",
+	"ra": 55.6836000,
+	"dec": -5.8545000,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1420.png", "source": "http://server1.wikisky.org/v2?ra=55.6836000&de=-5.8545000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1192",
+	"ra": 45.8943542,
+	"dec": -15.6788722,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1192.png", "source": "http://server1.wikisky.org/v2?ra=45.8943542&de=-15.6788722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

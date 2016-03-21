@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3034",
+	"ra": 148.9684583,
+	"dec": 69.6797028,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.1.7","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3034.jpg", "source": "http://hubblesite.org/gallery/album/pr2006014a/", "credit": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI), and P. Puxley (National Science Foundation)" }
+}

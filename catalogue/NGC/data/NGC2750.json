@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2750",
+	"ra": 136.4495542,
+	"dec": 25.4373639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2750.png", "source": "http://server1.wikisky.org/v2?ra=136.4495542&de=25.4373639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

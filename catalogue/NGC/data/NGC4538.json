@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4538",
+	"ra": 188.6705625,
+	"dec": 3.3237194,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4538.png", "source": "http://server1.wikisky.org/v2?ra=188.6705625&de=3.3237194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

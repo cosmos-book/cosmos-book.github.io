@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4303",
+	"ra": 185.4789583,
+	"dec": 4.4735889,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4303.png", "source": "http://server1.wikisky.org/v2?ra=185.4789583&de=4.4735889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

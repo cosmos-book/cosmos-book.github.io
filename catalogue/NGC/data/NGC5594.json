@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5594",
+	"ra": 215.7929833,
+	"dec": 26.2657750,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5594.png", "source": "http://server1.wikisky.org/v2?ra=215.7929833&de=26.2657750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

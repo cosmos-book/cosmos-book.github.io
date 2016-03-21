@@ -1,0 +1,8 @@
+{
+	"name": "NGC 256",
+	"ra": 11.4754583,
+	"dec": -73.5066389,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC256.png", "source": "http://server1.wikisky.org/v2?ra=11.4754583&de=-73.5066389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

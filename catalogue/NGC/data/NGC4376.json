@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4376",
+	"ra": 186.3252542,
+	"dec": 5.7411361,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.5.2","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4376.png", "source": "http://server1.wikisky.org/v2?ra=186.3252542&de=5.7411361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

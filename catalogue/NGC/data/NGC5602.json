@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5602",
+	"ra": 215.5784750,
+	"dec": 50.5014222,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5602.png", "source": "http://server1.wikisky.org/v2?ra=215.5784750&de=50.5014222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3745",
+	"ra": 174.4351500,
+	"dec": 22.0213917,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.3","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3745.png", "source": "http://server1.wikisky.org/v2?ra=174.4351500&de=22.0213917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

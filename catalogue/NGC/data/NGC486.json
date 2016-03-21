@@ -1,0 +1,8 @@
+{
+	"name": "NGC 486",
+	"ra": 20.5439750,
+	"dec": 5.4114472,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC486.png", "source": "http://server1.wikisky.org/v2?ra=20.5439750&de=5.4114472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

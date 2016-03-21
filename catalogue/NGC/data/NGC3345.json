@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3345",
+	"ra": 160.8834292,
+	"dec": 11.9852778,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3345.png", "source": "http://server1.wikisky.org/v2?ra=160.8834292&de=11.9852778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

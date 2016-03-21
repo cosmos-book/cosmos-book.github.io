@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5665",
+	"ra": 218.1074833,
+	"dec": 8.0784528,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5665.png", "source": "http://server1.wikisky.org/v2?ra=218.1074833&de=8.0784528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

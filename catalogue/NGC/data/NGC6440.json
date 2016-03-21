@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6440",
+	"ra": 267.2194583,
+	"dec": -20.3595833,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6440.png", "source": "http://server1.wikisky.org/v2?ra=267.2194583&de=-20.3595833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4900",
+	"ra": 195.1631167,
+	"dec": 2.5014639,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4900.png", "source": "http://server1.wikisky.org/v2?ra=195.1631167&de=2.5014639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

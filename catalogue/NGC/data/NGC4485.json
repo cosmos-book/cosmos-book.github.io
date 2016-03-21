@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4485",
+	"ra": 187.6296375,
+	"dec": 41.7011722,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4485.png", "source": "http://server1.wikisky.org/v2?ra=187.6296375&de=41.7011722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6037",
+	"ra": 241.1244667,
+	"dec": 3.8152667,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.1","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6037.png", "source": "http://server1.wikisky.org/v2?ra=241.1244667&de=3.8152667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2148",
+	"ra": 89.6910250,
+	"dec": -59.1260333,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2148.png", "source": "http://server1.wikisky.org/v2?ra=89.6910250&de=-59.1260333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

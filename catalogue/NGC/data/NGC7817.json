@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7817",
+	"ra": 0.9954125,
+	"dec": 20.7523389,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7817.png", "source": "http://server1.wikisky.org/v2?ra=0.9954125&de=20.7523389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

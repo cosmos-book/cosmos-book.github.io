@@ -1,0 +1,8 @@
+{
+	"name": "NGC 85",
+	"ra": 5.3565667,
+	"dec": 22.5116972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC85.png", "source": "http://server1.wikisky.org/v2?ra=5.3565667&de=22.5116972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

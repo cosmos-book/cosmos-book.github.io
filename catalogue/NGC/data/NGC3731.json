@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3731",
+	"ra": 173.5485833,
+	"dec": 12.5121306,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3731.png", "source": "http://server1.wikisky.org/v2?ra=173.5485833&de=12.5121306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

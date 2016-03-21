@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2279",
+	"ra": 102.1103000,
+	"dec": 33.4046000,
+	"avm": { "desc": "3 stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2279.png", "source": "http://server1.wikisky.org/v2?ra=102.1103000&de=33.4046000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

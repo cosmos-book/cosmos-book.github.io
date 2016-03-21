@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3793",
+	"ra": 175,
+	"dec": 31.8830,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3793.png", "source": "http://server1.wikisky.org/v2?ra=175&de=31.8830&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

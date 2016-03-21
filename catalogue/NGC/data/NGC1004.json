@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1004",
+	"ra": 39.4242167,
+	"dec": 1.9752667,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1004.png", "source": "http://server1.wikisky.org/v2?ra=39.4242167&de=1.9752667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

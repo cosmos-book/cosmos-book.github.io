@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2638",
+	"ra": 130.6073167,
+	"dec": 37.2211417,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2638.png", "source": "http://server1.wikisky.org/v2?ra=130.6073167&de=37.2211417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

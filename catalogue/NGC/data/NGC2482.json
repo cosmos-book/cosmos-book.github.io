@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2482",
+	"ra": 118.8000000,
+	"dec": -24.2583000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2482.png", "source": "http://server1.wikisky.org/v2?ra=118.8000000&de=-24.2583000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

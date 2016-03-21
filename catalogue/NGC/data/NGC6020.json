@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6020",
+	"ra": 239.2838292,
+	"dec": 22.4045472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6020.png", "source": "http://server1.wikisky.org/v2?ra=239.2838292&de=22.4045472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

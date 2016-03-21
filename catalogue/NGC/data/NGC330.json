@@ -1,0 +1,8 @@
+{
+	"name": "NGC 330",
+	"ra": 14.0857917,
+	"dec": -72.4534722,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC330.png", "source": "http://server1.wikisky.org/v2?ra=14.0857917&de=-72.4534722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

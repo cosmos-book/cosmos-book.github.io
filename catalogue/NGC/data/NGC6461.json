@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6461",
+	"ra": 264.6763917,
+	"dec": 73.5155639,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6461.png", "source": "http://server1.wikisky.org/v2?ra=264.6763917&de=73.5155639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7030",
+	"ra": 317.8054792,
+	"dec": -20.4856833,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7030.png", "source": "http://server1.wikisky.org/v2?ra=317.8054792&de=-20.4856833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

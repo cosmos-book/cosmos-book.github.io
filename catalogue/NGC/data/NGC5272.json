@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5272",
+	"ra": 205.5484167,
+	"dec": 28.3772778,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5272.png", "source": "http://server1.wikisky.org/v2?ra=205.5484167&de=28.3772778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

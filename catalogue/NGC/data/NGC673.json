@@ -1,0 +1,8 @@
+{
+	"name": "NGC 673",
+	"ra": 27.0935875,
+	"dec": 11.5215667,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC673.png", "source": "http://server1.wikisky.org/v2?ra=27.0935875&de=11.5215667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

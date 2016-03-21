@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5808",
+	"ra": 223.5117083,
+	"dec": 73.1316944,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5808.png", "source": "http://server1.wikisky.org/v2?ra=223.5117083&de=73.1316944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

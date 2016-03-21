@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6558",
+	"ra": 272.5765833,
+	"dec": -31.7635000,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6558.png", "source": "http://server1.wikisky.org/v2?ra=272.5765833&de=-31.7635000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

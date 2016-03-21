@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5962",
+	"ra": 234.1318500,
+	"dec": 16.6078944,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5962.png", "source": "http://server1.wikisky.org/v2?ra=234.1318500&de=16.6078944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

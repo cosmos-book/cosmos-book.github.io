@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6988",
+	"ra": 313.9538583,
+	"dec": 10.5078528,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6988.png", "source": "http://server1.wikisky.org/v2?ra=313.9538583&de=10.5078528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

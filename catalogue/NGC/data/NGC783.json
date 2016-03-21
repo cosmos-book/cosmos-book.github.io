@@ -1,0 +1,8 @@
+{
+	"name": "NGC 783",
+	"ra": 30.2775500,
+	"dec": 31.8824833,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC783.png", "source": "http://server1.wikisky.org/v2?ra=30.2775500&de=31.8824833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

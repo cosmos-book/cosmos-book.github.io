@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3428",
+	"ra": 162.8729875,
+	"dec": 9.2795667,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3428.png", "source": "http://server1.wikisky.org/v2?ra=162.8729875&de=9.2795667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

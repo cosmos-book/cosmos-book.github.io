@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4686",
+	"ra": 191.6659542,
+	"dec": 54.5341917,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4686.png", "source": "http://server1.wikisky.org/v2?ra=191.6659542&de=54.5341917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

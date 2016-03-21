@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4173",
+	"ra": 183.0847917,
+	"dec": 29.2115833,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4173.png", "source": "http://server1.wikisky.org/v2?ra=183.0847917&de=29.2115833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5131",
+	"ra": 200.9873958,
+	"dec": 30.9880167,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5131.png", "source": "http://server1.wikisky.org/v2?ra=200.9873958&de=30.9880167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

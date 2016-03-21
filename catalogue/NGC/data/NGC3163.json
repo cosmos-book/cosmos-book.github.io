@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3163",
+	"ra": 153.5297542,
+	"dec": 38.6526750,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3163.png", "source": "http://server1.wikisky.org/v2?ra=153.5297542&de=38.6526750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

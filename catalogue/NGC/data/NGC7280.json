@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7280",
+	"ra": 336.6149000,
+	"dec": 16.1482667,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7280.png", "source": "http://server1.wikisky.org/v2?ra=336.6149000&de=16.1482667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

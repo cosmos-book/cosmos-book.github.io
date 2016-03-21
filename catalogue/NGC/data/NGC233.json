@@ -1,0 +1,8 @@
+{
+	"name": "NGC 233",
+	"ra": 10.9022625,
+	"dec": 30.5870083,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC233.png", "source": "http://server1.wikisky.org/v2?ra=10.9022625&de=30.5870083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

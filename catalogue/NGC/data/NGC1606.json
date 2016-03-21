@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1606",
+	"ra": 68.0139542,
+	"dec": -5.0324306,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1606.png", "source": "http://server1.wikisky.org/v2?ra=68.0139542&de=-5.0324306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

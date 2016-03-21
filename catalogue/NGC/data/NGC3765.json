@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3765",
+	"ra": 174.2674083,
+	"dec": 24.0963111,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3765.png", "source": "http://server1.wikisky.org/v2?ra=174.2674083&de=24.0963111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

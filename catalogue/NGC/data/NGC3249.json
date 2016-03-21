@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3249",
+	"ra": 156.5926042,
+	"dec": -34.9637194,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3249.png", "source": "http://server1.wikisky.org/v2?ra=156.5926042&de=-34.9637194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

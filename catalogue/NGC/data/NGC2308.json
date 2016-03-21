@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2308",
+	"ra": 104.6568000,
+	"dec": 45.2106083,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2308.png", "source": "http://server1.wikisky.org/v2?ra=104.6568000&de=45.2106083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

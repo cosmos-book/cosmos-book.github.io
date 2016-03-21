@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5636",
+	"ra": 217.4127333,
+	"dec": 3.2662222,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5636.png", "source": "http://server1.wikisky.org/v2?ra=217.4127333&de=3.2662222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4699",
+	"ra": 192.2591083,
+	"dec": -8.6643028,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4699.png", "source": "http://server1.wikisky.org/v2?ra=192.2591083&de=-8.6643028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

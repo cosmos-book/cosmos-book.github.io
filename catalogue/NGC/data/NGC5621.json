@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5621",
+	"ra": 216.9575583,
+	"dec": 8.2402583,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC5621.png", "source": "http://server1.wikisky.org/v2?ra=216.9575583&de=8.2402583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2183",
+	"ra": 92.7091708,
+	"dec": -6.2002806,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2183.png", "source": "http://server1.wikisky.org/v2?ra=92.7091708&de=-6.2002806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

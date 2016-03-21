@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5344",
+	"ra": 207.5502458,
+	"dec": 73.9530194,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5344.png", "source": "http://server1.wikisky.org/v2?ra=207.5502458&de=73.9530194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

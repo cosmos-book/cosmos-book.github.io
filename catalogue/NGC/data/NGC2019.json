@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2019",
+	"ra": 82.9853333,
+	"dec": -70.1590278,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2019.png", "source": "http://server1.wikisky.org/v2?ra=82.9853333&de=-70.1590278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

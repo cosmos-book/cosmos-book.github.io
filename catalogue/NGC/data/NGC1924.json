@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1924",
+	"ra": 82.0082083,
+	"dec": -5.3106472,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1924.png", "source": "http://server1.wikisky.org/v2?ra=82.0082083&de=-5.3106472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

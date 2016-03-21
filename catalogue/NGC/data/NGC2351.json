@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2351",
+	"ra": 108.3686000,
+	"dec": -11.4769000,
+	"avm": { "desc": "Group of stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2351.png", "source": "http://server1.wikisky.org/v2?ra=108.3686000&de=-11.4769000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 91",
+	"ra": 5.4651375,
+	"dec": 22.3682000,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC91.png", "source": "http://server1.wikisky.org/v2?ra=5.4651375&de=22.3682000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

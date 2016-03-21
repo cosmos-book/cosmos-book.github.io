@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1796",
+	"ra": 75.6773083,
+	"dec": -61.1400750,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1796.png", "source": "http://server1.wikisky.org/v2?ra=75.6773083&de=-61.1400750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

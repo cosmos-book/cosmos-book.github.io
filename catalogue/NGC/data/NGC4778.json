@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4778",
+	"ra": 193.2736500,
+	"dec": -9.2039389,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.5.3","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4778.png", "source": "http://server1.wikisky.org/v2?ra=193.2736500&de=-9.2039389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

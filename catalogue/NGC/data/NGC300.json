@@ -1,0 +1,8 @@
+{
+	"name": "NGC 300",
+	"ra": 13.7228292,
+	"dec": -37.6843806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC300.png", "source": "http://server1.wikisky.org/v2?ra=13.7228292&de=-37.6843806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

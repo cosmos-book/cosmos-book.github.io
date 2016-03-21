@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3782",
+	"ra": 174.8361667,
+	"dec": 46.5133889,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3782.png", "source": "http://server1.wikisky.org/v2?ra=174.8361667&de=46.5133889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

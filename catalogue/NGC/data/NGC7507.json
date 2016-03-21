@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7507",
+	"ra": 348.0316458,
+	"dec": -28.5396389,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7507.png", "source": "http://server1.wikisky.org/v2?ra=348.0316458&de=-28.5396389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

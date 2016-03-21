@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1572",
+	"ra": 65.6783917,
+	"dec": -40.6009722,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1572.png", "source": "http://server1.wikisky.org/v2?ra=65.6783917&de=-40.6009722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

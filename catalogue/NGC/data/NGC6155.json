@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6155",
+	"ra": 246.5346083,
+	"dec": 48.3669194,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6155.png", "source": "http://server1.wikisky.org/v2?ra=246.5346083&de=48.3669194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

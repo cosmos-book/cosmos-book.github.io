@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4209",
+	"ra": 183.8575917,
+	"dec": 28.4684250,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4209.png", "source": "http://server1.wikisky.org/v2?ra=183.8575917&de=28.4684250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

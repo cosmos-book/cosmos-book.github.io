@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6415",
+	"ra": 266.0833000,
+	"dec": -35.0050000,
+	"avm": { "desc": "Open cluster", "codes":["3.6.4.1"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6415.png", "source": "http://server1.wikisky.org/v2?ra=266.0833000&de=-35.0050000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

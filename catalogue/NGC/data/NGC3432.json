@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3432",
+	"ra": 163.1297167,
+	"dec": 36.6187778,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3432.png", "source": "http://server1.wikisky.org/v2?ra=163.1297167&de=36.6187778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

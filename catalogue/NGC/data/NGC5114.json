@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5114",
+	"ra": 201.0072500,
+	"dec": -32.3439778,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5114.png", "source": "http://server1.wikisky.org/v2?ra=201.0072500&de=-32.3439778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

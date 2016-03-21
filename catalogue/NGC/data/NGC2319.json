@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2319",
+	"ra": 105.1824708,
+	"dec": 3.0316500,
+	"avm": { "desc": "Star", "codes":["3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2319.png", "source": "http://server1.wikisky.org/v2?ra=105.1824708&de=3.0316500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

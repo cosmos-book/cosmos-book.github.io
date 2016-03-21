@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2142",
+	"ra": 90.4694000,
+	"dec": -10.6008000,
+	"avm": { "desc": "5th mag star", "codes":["3"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2142.png", "source": "http://server1.wikisky.org/v2?ra=90.4694000&de=-10.6008000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

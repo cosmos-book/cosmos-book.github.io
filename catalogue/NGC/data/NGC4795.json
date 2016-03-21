@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4795",
+	"ra": 193.7620708,
+	"dec": 8.0654194,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4795.png", "source": "http://server1.wikisky.org/v2?ra=193.7620708&de=8.0654194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

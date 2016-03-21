@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6832",
+	"ra": 297.0635875,
+	"dec": 59.4211667,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC6832.png", "source": "http://server1.wikisky.org/v2?ra=297.0635875&de=59.4211667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

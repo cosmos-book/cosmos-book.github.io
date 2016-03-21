@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4505",
+	"ra": 187.9133750,
+	"dec": 3.9394722,
+	"avm": { "desc": "Barred Galaxy", "codes":["","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4505.png", "source": "http://server1.wikisky.org/v2?ra=187.9133750&de=3.9394722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

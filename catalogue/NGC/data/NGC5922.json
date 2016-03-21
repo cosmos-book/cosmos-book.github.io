@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5922",
+	"ra": 230.2879167,
+	"dec": 41.6705556,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5922.png", "source": "http://server1.wikisky.org/v2?ra=230.2879167&de=41.6705556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

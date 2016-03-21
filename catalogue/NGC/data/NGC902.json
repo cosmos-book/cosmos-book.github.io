@@ -1,0 +1,8 @@
+{
+	"name": "NGC 902",
+	"ra": 35.5906208,
+	"dec": -16.6790917,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC902.png", "source": "http://server1.wikisky.org/v2?ra=35.5906208&de=-16.6790917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

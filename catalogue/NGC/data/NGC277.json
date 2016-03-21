@@ -1,0 +1,8 @@
+{
+	"name": "NGC 277",
+	"ra": 12.8218958,
+	"dec": -8.5968056,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC277.png", "source": "http://server1.wikisky.org/v2?ra=12.8218958&de=-8.5968056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

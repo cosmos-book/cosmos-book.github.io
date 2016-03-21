@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2336",
+	"ra": 111.7668750,
+	"dec": 80.1780694,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.1","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2336.png", "source": "http://server1.wikisky.org/v2?ra=111.7668750&de=80.1780694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

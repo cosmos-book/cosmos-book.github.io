@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5551",
+	"ra": 214.7285000,
+	"dec": 5.4515917,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5551.png", "source": "http://server1.wikisky.org/v2?ra=214.7285000&de=5.4515917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3226",
+	"ra": 155.8625500,
+	"dec": 19.8984389,
+	"avm": { "desc": "Dwarf Galaxy", "codes":["5.3.2.4","5.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3226.png", "source": "http://server1.wikisky.org/v2?ra=155.8625500&de=19.8984389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

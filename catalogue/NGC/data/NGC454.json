@@ -1,0 +1,8 @@
+{
+	"name": "NGC 454",
+	"ra": 18.5955417,
+	"dec": -55.3987222,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.5.1","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC454.png", "source": "http://server1.wikisky.org/v2?ra=18.5955417&de=-55.3987222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

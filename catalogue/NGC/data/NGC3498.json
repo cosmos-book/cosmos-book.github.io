@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3498",
+	"ra": 165.4257875,
+	"dec": 14.3507139,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3498.png", "source": "http://server1.wikisky.org/v2?ra=165.4257875&de=14.3507139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

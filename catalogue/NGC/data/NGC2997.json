@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2997",
+	"ra": 146.4116375,
+	"dec": -31.1910889,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2997.png", "source": "http://server1.wikisky.org/v2?ra=146.4116375&de=-31.1910889&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

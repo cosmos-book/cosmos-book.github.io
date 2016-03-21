@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2333",
+	"ra": 107.0889042,
+	"dec": 35.1701000,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2333.png", "source": "http://server1.wikisky.org/v2?ra=107.0889042&de=35.1701000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

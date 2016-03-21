@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2542",
+	"ra": 122.8182917,
+	"dec": -12.9270972,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC2542.png", "source": "http://server1.wikisky.org/v2?ra=122.8182917&de=-12.9270972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

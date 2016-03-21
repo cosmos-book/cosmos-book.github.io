@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3523",
+	"ra": 165.7763500,
+	"dec": 75.1157667,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3523.png", "source": "http://server1.wikisky.org/v2?ra=165.7763500&de=75.1157667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

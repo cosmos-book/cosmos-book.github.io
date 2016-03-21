@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6192",
+	"ra": 250.0958000,
+	"dec": -43.3667000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6192.png", "source": "http://server1.wikisky.org/v2?ra=250.0958000&de=-43.3667000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

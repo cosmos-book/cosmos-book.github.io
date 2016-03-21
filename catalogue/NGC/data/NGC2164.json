@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2164",
+	"ra": 89.7250000,
+	"dec": -68.5183000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2164.png", "source": "http://server1.wikisky.org/v2?ra=89.7250000&de=-68.5183000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

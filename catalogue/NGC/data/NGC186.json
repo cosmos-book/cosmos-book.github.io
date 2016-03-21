@@ -1,0 +1,8 @@
+{
+	"name": "NGC 186",
+	"ra": 9.6054500,
+	"dec": 3.1664694,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC186.png", "source": "http://server1.wikisky.org/v2?ra=9.6054500&de=3.1664694&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

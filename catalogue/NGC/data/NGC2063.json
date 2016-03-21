@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2063",
+	"ra": 86.67083,
+	"dec": 8.7833,
+	"avm": { "desc": "Asterism", "codes":["7.1.2"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC2063.png", "source": "http://server1.wikisky.org/v2?ra=86.67083&de=8.7833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

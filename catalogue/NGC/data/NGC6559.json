@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6559",
+	"ra": 272.5000000,
+	"dec": -24.0000000,
+	"avm": { "desc": "Galactic Nebula", "codes":["4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6559.png", "source": "http://server1.wikisky.org/v2?ra=272.5000000&de=-24.0000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2098",
+	"ra": 85.6234583,
+	"dec": -68.2739861,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2098.png", "source": "http://server1.wikisky.org/v2?ra=85.6234583&de=-68.2739861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

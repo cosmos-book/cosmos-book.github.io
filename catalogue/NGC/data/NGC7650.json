@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7650",
+	"ra": 351.3394167,
+	"dec": -57.7913278,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7650.png", "source": "http://server1.wikisky.org/v2?ra=351.3394167&de=-57.7913278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

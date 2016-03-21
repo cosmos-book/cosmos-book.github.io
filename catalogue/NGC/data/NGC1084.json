@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1084",
+	"ra": 41.4996917,
+	"dec": -7.5786389,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1084.png", "source": "http://server1.wikisky.org/v2?ra=41.4996917&de=-7.5786389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

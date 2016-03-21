@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4436",
+	"ra": 186.9217542,
+	"dec": 12.3159667,
+	"avm": { "desc": "Dwarf Galaxy", "codes":["5.5.2","5.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4436.png", "source": "http://server1.wikisky.org/v2?ra=186.9217542&de=12.3159667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3419",
+	"ra": 162.8239000,
+	"dec": 13.9460333,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3419.png", "source": "http://server1.wikisky.org/v2?ra=162.8239000&de=13.9460333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

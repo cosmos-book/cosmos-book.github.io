@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3401",
+	"ra": 162.5827875,
+	"dec": 5.8115139,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "DSObrowser",
+	"img": {"thumb": "thumbnails/NGC3401.png", "source": "http://server1.wikisky.org/v2?ra=162.5827875&de=5.8115139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

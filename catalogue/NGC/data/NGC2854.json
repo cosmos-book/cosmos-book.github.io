@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2854",
+	"ra": 141.0131542,
+	"dec": 49.2043528,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2854.png", "source": "http://server1.wikisky.org/v2?ra=141.0131542&de=49.2043528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

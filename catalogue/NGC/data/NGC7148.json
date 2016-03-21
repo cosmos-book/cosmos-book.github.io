@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7148",
+	"ra": 328.0975958,
+	"dec": 3.4271111,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7148.png", "source": "http://server1.wikisky.org/v2?ra=328.0975958&de=3.4271111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

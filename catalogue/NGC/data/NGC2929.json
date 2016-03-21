@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2929",
+	"ra": 144.3741458,
+	"dec": 23.1617083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2929.png", "source": "http://server1.wikisky.org/v2?ra=144.3741458&de=23.1617083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

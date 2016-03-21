@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2579",
+	"ra": 125.2304208,
+	"dec": -36.2230611,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2579.png", "source": "http://server1.wikisky.org/v2?ra=125.2304208&de=-36.2230611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1705",
+	"ra": 73.5562500,
+	"dec": -53.3610611,
+	"avm": { "desc": "Lenticular Galaxy", "codes":["5.3.3","5.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1705.png", "source": "http://server1.wikisky.org/v2?ra=73.5562500&de=-53.3610611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

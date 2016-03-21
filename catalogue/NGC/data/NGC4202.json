@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4202",
+	"ra": 184.5356750,
+	"dec": -1.0640667,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4202.png", "source": "http://server1.wikisky.org/v2?ra=184.5356750&de=-1.0640667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

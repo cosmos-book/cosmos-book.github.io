@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7686",
+	"ra": 352.4220000,
+	"dec": 49.1700000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7686.png", "source": "http://server1.wikisky.org/v2?ra=352.4220000&de=49.1700000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

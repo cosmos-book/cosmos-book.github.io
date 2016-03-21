@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6365",
+	"ra": 260.6812917,
+	"dec": 62.1736667,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.1.7","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6365.png", "source": "http://server1.wikisky.org/v2?ra=260.6812917&de=62.1736667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

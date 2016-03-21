@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1561",
+	"ra": 65.7544625,
+	"dec": -15.8457139,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1561.png", "source": "http://server1.wikisky.org/v2?ra=65.7544625&de=-15.8457139&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

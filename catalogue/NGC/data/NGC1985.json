@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1985",
+	"ra": 84.4492583,
+	"dec": 31.9900000,
+	"avm": { "desc": "Reflection Nebula", "codes":["4.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1985.png", "source": "http://server1.wikisky.org/v2?ra=84.4492583&de=31.9900000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

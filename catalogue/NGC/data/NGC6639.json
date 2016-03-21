@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6639",
+	"ra": 277.7458000,
+	"dec": -13.1550000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6639.png", "source": "http://server1.wikisky.org/v2?ra=277.7458000&de=-13.1550000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6820",
+	"ra": 295.6163750,
+	"dec": 23.0874306,
+	"avm": { "desc": "Galactic Nebula", "codes":["4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6820.png", "source": "http://server1.wikisky.org/v2?ra=295.6163750&de=23.0874306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

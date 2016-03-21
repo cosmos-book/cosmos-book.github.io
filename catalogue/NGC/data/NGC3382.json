@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3382",
+	"ra": 162.1043125,
+	"dec": 36.7254389,
+	"avm": { "desc": "", "codes":["3.6.3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC3382.png", "source": "http://server1.wikisky.org/v2?ra=162.1043125&de=36.7254389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

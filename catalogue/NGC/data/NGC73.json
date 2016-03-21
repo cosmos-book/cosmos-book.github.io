@@ -1,0 +1,8 @@
+{
+	"name": "NGC 73",
+	"ra": 4.6624042,
+	"dec": -15.3222472,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC73.png", "source": "http://server1.wikisky.org/v2?ra=4.6624042&de=-15.3222472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3520",
+	"ra": 166.5666042,
+	"dec": -18.2591083,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3520.png", "source": "http://server1.wikisky.org/v2?ra=166.5666042&de=-18.2591083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

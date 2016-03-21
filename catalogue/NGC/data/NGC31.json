@@ -1,0 +1,8 @@
+{
+	"name": "NGC 31",
+	"ra": 2.6599333,
+	"dec": -56.9865028,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC31.png", "source": "http://server1.wikisky.org/v2?ra=2.6599333&de=-56.9865028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

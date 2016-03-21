@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3284",
+	"ra": 159.0884917,
+	"dec": 58.6201778,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3284.png", "source": "http://server1.wikisky.org/v2?ra=159.0884917&de=58.6201778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

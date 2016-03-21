@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5405",
+	"ra": 210.2893500,
+	"dec": 7.7024083,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5405.png", "source": "http://server1.wikisky.org/v2?ra=210.2893500&de=7.7024083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

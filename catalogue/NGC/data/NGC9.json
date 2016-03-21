@@ -1,0 +1,8 @@
+{
+	"name": "NGC 9",
+	"ra": 2.2279708,
+	"dec": 23.8169222,
+	"avm": { "desc": "Emission-line galaxy", "codes":["5"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC9.jpg", "source": "http://server1.wikisky.org/v2?ra=2.2279708&de=23.8169222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

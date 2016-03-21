@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5706",
+	"ra": 219.6765750,
+	"dec": 30.4660528,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5706.png", "source": "http://server1.wikisky.org/v2?ra=219.6765750&de=30.4660528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5296",
+	"ra": 206.5778333,
+	"dec": 43.8512917,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5296.png", "source": "http://server1.wikisky.org/v2?ra=206.5778333&de=43.8512917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6968",
+	"ra": 312.1351917,
+	"dec": -8.3601750,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6968.png", "source": "http://server1.wikisky.org/v2?ra=312.1351917&de=-8.3601750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

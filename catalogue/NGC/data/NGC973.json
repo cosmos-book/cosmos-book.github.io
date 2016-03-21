@@ -1,0 +1,8 @@
+{
+	"name": "NGC 973",
+	"ra": 38.5837542,
+	"dec": 32.5055583,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC973.png", "source": "http://server1.wikisky.org/v2?ra=38.5837542&de=32.5055583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

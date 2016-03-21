@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5107",
+	"ra": 200.3552875,
+	"dec": 38.5363778,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5107.png", "source": "http://server1.wikisky.org/v2?ra=200.3552875&de=38.5363778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

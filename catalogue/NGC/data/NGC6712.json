@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6712",
+	"ra": 283.2680000,
+	"dec": -8.7059722,
+	"avm": { "desc": "Globular Cluster", "codes":["3.6.4.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6712.png", "source": "http://server1.wikisky.org/v2?ra=283.2680000&de=-8.7059722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

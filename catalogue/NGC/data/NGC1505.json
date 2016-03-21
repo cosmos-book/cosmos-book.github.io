@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1505",
+	"ra": 60.6517542,
+	"dec": -9.3224667,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1505.png", "source": "http://server1.wikisky.org/v2?ra=60.6517542&de=-9.3224667&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

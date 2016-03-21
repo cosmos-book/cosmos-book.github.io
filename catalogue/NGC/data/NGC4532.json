@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4532",
+	"ra": 188.5805375,
+	"dec": 6.4677028,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4532.png", "source": "http://server1.wikisky.org/v2?ra=188.5805375&de=6.4677028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5579",
+	"ra": 215.1103500,
+	"dec": 35.1887944,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5579.png", "source": "http://server1.wikisky.org/v2?ra=215.1103500&de=35.1887944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

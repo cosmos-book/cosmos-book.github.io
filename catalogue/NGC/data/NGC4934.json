@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4934",
+	"ra": 195.8176250,
+	"dec": 28.0304000,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4934.png", "source": "http://server1.wikisky.org/v2?ra=195.8176250&de=28.0304000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

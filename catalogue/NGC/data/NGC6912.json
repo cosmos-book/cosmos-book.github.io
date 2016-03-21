@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6912",
+	"ra": 306.7169792,
+	"dec": -18.6173000,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6912.png", "source": "http://server1.wikisky.org/v2?ra=306.7169792&de=-18.6173000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

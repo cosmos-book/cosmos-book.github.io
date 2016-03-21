@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4195",
+	"ra": 183.5752250,
+	"dec": 59.6152944,
+	"avm": { "desc": "Low Surface Brightness Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4195.png", "source": "http://server1.wikisky.org/v2?ra=183.5752250&de=59.6152944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

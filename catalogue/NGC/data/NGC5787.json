@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5787",
+	"ra": 223.8150625,
+	"dec": 42.5068556,
+	"avm": { "desc": "G", "codes":["5"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC5787.png", "source": "http://server1.wikisky.org/v2?ra=223.8150625&de=42.5068556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7762",
+	"ra": 357.4650000,
+	"dec": 68.0250000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7762.png", "source": "http://server1.wikisky.org/v2?ra=357.4650000&de=68.0250000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

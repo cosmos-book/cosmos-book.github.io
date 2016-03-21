@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5538",
+	"ra": 214.4269417,
+	"dec": 7.4766278,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5538.png", "source": "http://server1.wikisky.org/v2?ra=214.4269417&de=7.4766278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

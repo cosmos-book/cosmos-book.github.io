@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1610",
+	"ra": 68.5578083,
+	"dec": -4.6997472,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1610.png", "source": "http://server1.wikisky.org/v2?ra=68.5578083&de=-4.6997472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

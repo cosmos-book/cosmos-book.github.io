@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4506",
+	"ra": 188.0436875,
+	"dec": 13.4196583,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4506.png", "source": "http://server1.wikisky.org/v2?ra=188.0436875&de=13.4196583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

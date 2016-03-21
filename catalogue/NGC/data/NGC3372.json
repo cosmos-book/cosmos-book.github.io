@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3372",
+	"ra": 161.0791708,
+	"dec": -59.8891694,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3372.jpg", "source": "http://hubblesite.org/gallery/album/pr2007016a/", "credit": "NASA, ESA, N. Smith (University of California, Berkeley), and The Hubble Heritage Team (STScI/AURA)Credit for CTIO Image: N. Smith (University of California, Berkeley) and NOAO/AURA/NSF" }
+}

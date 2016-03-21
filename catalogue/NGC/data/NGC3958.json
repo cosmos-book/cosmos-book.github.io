@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3958",
+	"ra": 178.6404125,
+	"dec": 58.3670167,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3958.png", "source": "http://server1.wikisky.org/v2?ra=178.6404125&de=58.3670167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

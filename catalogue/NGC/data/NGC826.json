@@ -1,0 +1,8 @@
+{
+	"name": "NGC 826",
+	"ra": 32.3543500,
+	"dec": 30.7397000,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC826.png", "source": "http://server1.wikisky.org/v2?ra=32.3543500&de=30.7397000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

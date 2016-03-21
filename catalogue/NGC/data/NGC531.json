@@ -1,0 +1,8 @@
+{
+	"name": "NGC 531",
+	"ra": 21.5785167,
+	"dec": 34.7541000,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC531.png", "source": "http://server1.wikisky.org/v2?ra=21.5785167&de=34.7541000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

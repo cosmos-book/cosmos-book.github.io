@@ -1,0 +1,8 @@
+{
+	"name": "NGC 628",
+	"ra": 24.1740500,
+	"dec": 15.7834611,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC628.jpg", "source": "http://hubblesite.org/gallery/album/pr2007041a/", "credit": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble CollaborationAcknowledgment: R. Chandar (University of Toledo) and J. Miller (University of Michigan)" }
+}

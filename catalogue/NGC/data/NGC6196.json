@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6196",
+	"ra": 249.4747917,
+	"dec": 36.0731417,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6196.png", "source": "http://server1.wikisky.org/v2?ra=249.4747917&de=36.0731417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

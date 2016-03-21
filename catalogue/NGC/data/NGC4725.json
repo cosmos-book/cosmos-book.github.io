@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4725",
+	"ra": 192.6108875,
+	"dec": 25.5007583,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4725.png", "source": "http://server1.wikisky.org/v2?ra=192.6108875&de=25.5007583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

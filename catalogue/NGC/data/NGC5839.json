@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5839",
+	"ra": 226.3644708,
+	"dec": 1.6346333,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5839.png", "source": "http://server1.wikisky.org/v2?ra=226.3644708&de=1.6346333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2970",
+	"ra": 145.8795917,
+	"dec": 31.9767917,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2970.png", "source": "http://server1.wikisky.org/v2?ra=145.8795917&de=31.9767917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

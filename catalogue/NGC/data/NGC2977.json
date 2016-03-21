@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2977",
+	"ra": 145.9446417,
+	"dec": 74.8595806,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2977.png", "source": "http://server1.wikisky.org/v2?ra=145.9446417&de=74.8595806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

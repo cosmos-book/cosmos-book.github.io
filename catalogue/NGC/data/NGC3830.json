@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3830",
+	"ra": 175.7993750,
+	"dec": 26.5588972,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3830.png", "source": "http://server1.wikisky.org/v2?ra=175.7993750&de=26.5588972&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

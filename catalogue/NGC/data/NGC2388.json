@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2388",
+	"ra": 112.2225583,
+	"dec": 33.8190222,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2388.png", "source": "http://server1.wikisky.org/v2?ra=112.2225583&de=33.8190222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

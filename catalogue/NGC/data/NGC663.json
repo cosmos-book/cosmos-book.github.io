@@ -1,0 +1,8 @@
+{
+	"name": "NGC 663",
+	"ra": 26.5375000,
+	"dec": 61.2350000,
+	"avm": { "desc": "Open (galactic) Cluster", "codes":["3.6.4.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC663.png", "source": "http://server1.wikisky.org/v2?ra=26.5375000&de=61.2350000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

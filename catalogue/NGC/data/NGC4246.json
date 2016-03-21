@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4246",
+	"ra": 184.4921583,
+	"dec": 7.1858639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4246.png", "source": "http://server1.wikisky.org/v2?ra=184.4921583&de=7.1858639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

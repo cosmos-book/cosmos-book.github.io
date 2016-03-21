@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2337",
+	"ra": 107.5565792,
+	"dec": 44.4573361,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2337.png", "source": "http://server1.wikisky.org/v2?ra=107.5565792&de=44.4573361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

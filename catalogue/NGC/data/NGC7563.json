@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7563",
+	"ra": 348.9831250,
+	"dec": 13.1962861,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7563.png", "source": "http://server1.wikisky.org/v2?ra=348.9831250&de=13.1962861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3555",
+	"ra": 167.4595625,
+	"dec": 21.8101833,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3555.png", "source": "http://server1.wikisky.org/v2?ra=167.4595625&de=21.8101833&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

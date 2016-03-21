@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2284",
+	"ra": 102.2846000,
+	"dec": 33.2209000,
+	"avm": { "desc": "Four stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2284.png", "source": "http://server1.wikisky.org/v2?ra=102.2846000&de=33.2209000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

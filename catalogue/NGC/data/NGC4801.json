@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4801",
+	"ra": 193.6571500,
+	"dec": 53.0900472,
+	"avm": { "desc": "Brightest galaxy in a Cluster (BCG)", "codes":["5","5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4801.png", "source": "http://server1.wikisky.org/v2?ra=193.6571500&de=53.0900472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4507",
+	"ra": 188.9025750,
+	"dec": -39.9092111,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4507.png", "source": "http://server1.wikisky.org/v2?ra=188.9025750&de=-39.9092111&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

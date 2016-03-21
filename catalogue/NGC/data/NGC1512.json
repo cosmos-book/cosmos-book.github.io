@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1512",
+	"ra": 60.9761708,
+	"dec": -43.3488500,
+	"avm": { "desc": "Barred Galaxy", "codes":["5.5.2","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1512.jpg", "source": "http://hubblesite.org/gallery/album/pr2001016a/", "credit": "NASA, ESA, and D. Maoz (Tel-Aviv University and Columbia University)Members of the group of scientists involved in these observations are: Dan Maoz (Tel-Aviv University, Israel and Columbia University, USA), Aaron J. Barth (Harvard-Smithsonian Center for Astrophysics, USA), Luis C. Ho (The Observatories of the Carnegie Institution of Washington, USA), Amiel Sternberg (Tel-Aviv University, Israel) and Alexei V. Filippenko (University of California, Berkeley, USA)." }
+}

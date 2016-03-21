@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4258",
+	"ra": 184.7400833,
+	"dec": 47.3037194,
+	"avm": { "desc": "Seyfert 2 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4258.jpg", "source": "http://hubblesite.org/gallery/album/pr2013006a/", "credit": "NASA, ESA, the Hubble Heritage Team (STScI/AURA), and R. Gendler (for the  Hubble Heritage Team)Acknowledgment: J. GaBany" }
+}

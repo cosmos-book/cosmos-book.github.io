@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3845",
+	"ra": 176.0226458,
+	"dec": 19.9962083,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3845.png", "source": "http://server1.wikisky.org/v2?ra=176.0226458&de=19.9962083&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

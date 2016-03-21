@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7368",
+	"ra": 341.3820500,
+	"dec": -39.3418611,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7368.png", "source": "http://server1.wikisky.org/v2?ra=341.3820500&de=-39.3418611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

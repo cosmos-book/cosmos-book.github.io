@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4959",
+	"ra": 196.4209583,
+	"dec": 33.1789056,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4959.png", "source": "http://server1.wikisky.org/v2?ra=196.4209583&de=33.1789056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

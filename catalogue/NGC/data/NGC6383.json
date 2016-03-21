@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6383",
+	"ra": 263.7000000,
+	"dec": -32.5667000,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6383.png", "source": "http://server1.wikisky.org/v2?ra=263.7000000&de=-32.5667000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

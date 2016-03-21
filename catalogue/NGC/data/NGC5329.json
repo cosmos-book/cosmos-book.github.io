@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5329",
+	"ra": 208.0420083,
+	"dec": 2.3251444,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5329.png", "source": "http://server1.wikisky.org/v2?ra=208.0420083&de=2.3251444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

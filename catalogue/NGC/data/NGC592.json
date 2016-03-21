@@ -1,0 +1,8 @@
+{
+	"name": "NGC 592",
+	"ra": 23.2504208,
+	"dec": 30.5769389,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC592.png", "source": "http://server1.wikisky.org/v2?ra=23.2504208&de=30.5769389&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

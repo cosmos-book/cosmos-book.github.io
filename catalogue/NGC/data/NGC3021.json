@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3021",
+	"ra": 147.7379750,
+	"dec": 33.5534667,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3021.jpg", "source": "http://hubblesite.org/gallery/album/pr2009008b/", "credit": "NASA, ESA, and A. Riess (STScI/JHU)" }
+}

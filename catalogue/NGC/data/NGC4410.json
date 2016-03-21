@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4410",
+	"ra": 186.6166708,
+	"dec": 9.0208306,
+	"avm": { "desc": "LINER-type Active Galaxy Nucleus", "codes":["5.3.2.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4410.png", "source": "http://server1.wikisky.org/v2?ra=186.6166708&de=9.0208306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

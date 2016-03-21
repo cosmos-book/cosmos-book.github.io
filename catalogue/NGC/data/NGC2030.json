@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2030",
+	"ra": 83.8900000,
+	"dec": -66.0405611,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2030.png", "source": "http://server1.wikisky.org/v2?ra=83.8900000&de=-66.0405611&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

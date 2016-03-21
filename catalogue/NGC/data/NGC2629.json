@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2629",
+	"ra": 131.8160708,
+	"dec": 72.9856250,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5.5.2","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2629.png", "source": "http://server1.wikisky.org/v2?ra=131.8160708&de=72.9856250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

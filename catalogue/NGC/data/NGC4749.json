@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4749",
+	"ra": 192.8000042,
+	"dec": 71.6367861,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4749.png", "source": "http://server1.wikisky.org/v2?ra=192.8000042&de=71.6367861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

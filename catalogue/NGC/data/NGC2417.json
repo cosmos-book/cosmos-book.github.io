@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2417",
+	"ra": 112.5504083,
+	"dec": -62.2526583,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2417.png", "source": "http://server1.wikisky.org/v2?ra=112.5504083&de=-62.2526583&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

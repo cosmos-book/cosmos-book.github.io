@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2589",
+	"ra": 126.1227750,
+	"dec": -8.7679250,
+	"avm": { "desc": "Lost object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC2589.png", "source": "http://server1.wikisky.org/v2?ra=126.1227750&de=-8.7679250&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

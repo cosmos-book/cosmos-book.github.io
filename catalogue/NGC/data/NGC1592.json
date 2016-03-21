@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1592",
+	"ra": 67.4202417,
+	"dec": -27.4086944,
+	"avm": { "desc": "Irregular Galaxy", "codes":["5.1.7","5.1.6"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1592.png", "source": "http://server1.wikisky.org/v2?ra=67.4202417&de=-27.4086944&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

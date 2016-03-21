@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3403",
+	"ra": 163.4785458,
+	"dec": 73.6903750,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.5.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3403.png", "source": "http://server1.wikisky.org/v2?ra=163.4785458&de=73.6903750&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

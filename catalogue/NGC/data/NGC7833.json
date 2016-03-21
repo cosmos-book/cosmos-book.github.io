@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7833",
+	"ra": 1.6310750,
+	"dec": 27.6396722,
+	"avm": { "desc": "Group of 4 stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC7833.png", "source": "http://server1.wikisky.org/v2?ra=1.6310750&de=27.6396722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

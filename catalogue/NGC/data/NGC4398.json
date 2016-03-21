@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4398",
+	"ra": 186.5309792,
+	"dec": 10.6860722,
+	"avm": { "desc": "*", "codes":["3"] },
+	"ref": "NED*",
+	"img": {"thumb": "thumbnails/NGC4398.png", "source": "http://server1.wikisky.org/v2?ra=186.5309792&de=10.6860722&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

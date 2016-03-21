@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7000",
+	"ra": 314.6958000,
+	"dec": 44.3300000,
+	"avm": { "desc": "HII (ionized) region", "codes":["4.2.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7000.png", "source": "http://server1.wikisky.org/v2?ra=314.6958000&de=44.3300000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 840",
+	"ra": 32.5676625,
+	"dec": 7.8453361,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC840.png", "source": "http://server1.wikisky.org/v2?ra=32.5676625&de=7.8453361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

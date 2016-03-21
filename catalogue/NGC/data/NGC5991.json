@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5991",
+	"ra": 236.3200375,
+	"dec": 24.6304028,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5991.png", "source": "http://server1.wikisky.org/v2?ra=236.3200375&de=24.6304028&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

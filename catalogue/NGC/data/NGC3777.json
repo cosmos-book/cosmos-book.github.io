@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3777",
+	"ra": 174.0285208,
+	"dec": -12.5690917,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3777.png", "source": "http://server1.wikisky.org/v2?ra=174.0285208&de=-12.5690917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

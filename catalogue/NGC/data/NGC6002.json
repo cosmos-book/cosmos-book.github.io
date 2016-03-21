@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6002",
+	"ra": 236.9250000,
+	"dec": 28.6309444,
+	"avm": { "desc": "Galaxy in Pair of Galaxies", "codes":["5.5.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6002.png", "source": "http://server1.wikisky.org/v2?ra=236.9250000&de=28.6309444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

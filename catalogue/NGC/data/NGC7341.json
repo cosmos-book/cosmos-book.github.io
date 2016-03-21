@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7341",
+	"ra": 339.7730417,
+	"dec": -22.6667222,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7341.png", "source": "http://server1.wikisky.org/v2?ra=339.7730417&de=-22.6667222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

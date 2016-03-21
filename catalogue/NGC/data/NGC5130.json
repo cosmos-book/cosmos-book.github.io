@@ -1,0 +1,8 @@
+{
+	"name": "NGC 5130",
+	"ra": 201.1132042,
+	"dec": -10.2102472,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC5130.png", "source": "http://server1.wikisky.org/v2?ra=201.1132042&de=-10.2102472&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

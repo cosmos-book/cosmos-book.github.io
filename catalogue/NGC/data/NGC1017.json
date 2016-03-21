@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1017",
+	"ra": 39.4750000,
+	"dec": -11.0000000,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1017.png", "source": "http://server1.wikisky.org/v2?ra=39.4750000&de=-11.0000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

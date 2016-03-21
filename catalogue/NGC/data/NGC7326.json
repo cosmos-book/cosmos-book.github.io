@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7326",
+	"ra": 339.0948500,
+	"dec": 34.5435917,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7326.png", "source": "http://server1.wikisky.org/v2?ra=339.0948500&de=34.5435917&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

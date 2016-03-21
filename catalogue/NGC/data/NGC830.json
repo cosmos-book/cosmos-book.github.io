@@ -1,0 +1,8 @@
+{
+	"name": "NGC 830",
+	"ra": 32.2444833,
+	"dec": -7.7669639,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC830.png", "source": "http://server1.wikisky.org/v2?ra=32.2444833&de=-7.7669639&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

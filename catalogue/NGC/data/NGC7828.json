@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7828",
+	"ra": 1.6128417,
+	"dec": -13.4161306,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7828.png", "source": "http://server1.wikisky.org/v2?ra=1.6128417&de=-13.4161306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

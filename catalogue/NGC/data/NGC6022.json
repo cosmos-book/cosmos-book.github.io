@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6022",
+	"ra": 239.4489458,
+	"dec": 16.2823278,
+	"avm": { "desc": "Active Galaxy Nucleus", "codes":["5.3.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6022.png", "source": "http://server1.wikisky.org/v2?ra=239.4489458&de=16.2823278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

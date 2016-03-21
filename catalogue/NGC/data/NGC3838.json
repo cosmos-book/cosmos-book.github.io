@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3838",
+	"ra": 176.0572042,
+	"dec": 57.9481000,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3838.png", "source": "http://server1.wikisky.org/v2?ra=176.0572042&de=57.9481000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 44",
+	"ra": 3.2750000,
+	"dec": 31.3000000,
+	"avm": { "desc": "Binary Stars", "codes":["3.6.1"] },
+	"ref": "",
+	"img": {"thumb": "thumbnails/NGC44.png", "source": "http://server1.wikisky.org/v2?ra=3.2750000&de=31.3000000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

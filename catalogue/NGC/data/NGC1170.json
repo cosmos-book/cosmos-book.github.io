@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1170",
+	"ra": 45.6210000,
+	"dec": 27.0643000,
+	"avm": { "desc": "Lost Object of unknown nature", "codes":["0"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC1170.png", "source": "http://server1.wikisky.org/v2?ra=45.6210000&de=27.0643000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

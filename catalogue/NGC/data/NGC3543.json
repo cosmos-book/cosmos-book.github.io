@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3543",
+	"ra": 167.7353500,
+	"dec": 61.3473000,
+	"avm": { "desc": "Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3543.png", "source": "http://server1.wikisky.org/v2?ra=167.7353500&de=61.3473000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4737",
+	"ra": 192.7204458,
+	"dec": 34.1568417,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4737.png", "source": "http://server1.wikisky.org/v2?ra=192.7204458&de=34.1568417&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

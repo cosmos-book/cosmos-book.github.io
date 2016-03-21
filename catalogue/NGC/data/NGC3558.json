@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3558",
+	"ra": 167.7326792,
+	"dec": 28.5437333,
+	"avm": { "desc": "Radio Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3558.png", "source": "http://server1.wikisky.org/v2?ra=167.7326792&de=28.5437333&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2444",
+	"ra": 116.7210292,
+	"dec": 39.0319361,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2444.png", "source": "http://server1.wikisky.org/v2?ra=116.7210292&de=39.0319361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

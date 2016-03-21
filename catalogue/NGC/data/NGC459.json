@@ -1,0 +1,8 @@
+{
+	"name": "NGC 459",
+	"ra": 19.5340958,
+	"dec": 17.5624444,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC459.png", "source": "http://server1.wikisky.org/v2?ra=19.5340958&de=17.5624444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

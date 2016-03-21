@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7783",
+	"ra": 358.5419625,
+	"dec": 0.3829778,
+	"avm": { "desc": "Seyfert 1 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7783.png", "source": "http://server1.wikisky.org/v2?ra=358.5419625&de=0.3829778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2903",
+	"ra": 143.0421292,
+	"dec": 21.5008306,
+	"avm": { "desc": "HII Galaxy", "codes":["5"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2903.png", "source": "http://server1.wikisky.org/v2?ra=143.0421292&de=21.5008306&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

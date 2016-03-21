@@ -1,0 +1,8 @@
+{
+	"name": "NGC 2858",
+	"ra": 140.7291875,
+	"dec": 3.1569278,
+	"avm": { "desc": "Galaxy in Cluster of Galaxies", "codes":["5.5.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC2858.png", "source": "http://server1.wikisky.org/v2?ra=140.7291875&de=3.1569278&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

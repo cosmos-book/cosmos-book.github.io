@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7661",
+	"ra": 351.8108292,
+	"dec": -65.2722194,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7661.png", "source": "http://server1.wikisky.org/v2?ra=351.8108292&de=-65.2722194&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

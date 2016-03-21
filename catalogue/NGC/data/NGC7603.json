@@ -1,0 +1,8 @@
+{
+	"name": "NGC 7603",
+	"ra": 349.7359917,
+	"dec": 0.2437861,
+	"avm": { "desc": "Seyfert 1 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC7603.png", "source": "http://server1.wikisky.org/v2?ra=349.7359917&de=0.2437861&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

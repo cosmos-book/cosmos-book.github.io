@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3513",
+	"ra": 165.9420000,
+	"dec": -23.2454806,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3513.png", "source": "http://server1.wikisky.org/v2?ra=165.9420000&de=-23.2454806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

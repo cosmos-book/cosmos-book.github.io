@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6382",
+	"ra": 261.9800125,
+	"dec": 56.8688361,
+	"avm": { "desc": "Galaxy in Group of Galaxies", "codes":["5.5.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6382.png", "source": "http://server1.wikisky.org/v2?ra=261.9800125&de=56.8688361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

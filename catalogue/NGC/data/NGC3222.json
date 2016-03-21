@@ -1,0 +1,8 @@
+{
+	"name": "NGC 3222",
+	"ra": 155.6436250,
+	"dec": 19.8872222,
+	"avm": { "desc": "Elliptical Galaxy", "codes":["5","5.1.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC3222.png", "source": "http://server1.wikisky.org/v2?ra=155.6436250&de=19.8872222&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

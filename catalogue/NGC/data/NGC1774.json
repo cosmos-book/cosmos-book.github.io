@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1774",
+	"ra": 74.5255000,
+	"dec": -67.2409444,
+	"avm": { "desc": "Cluster of Stars", "codes":["3.6.4"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1774.png", "source": "http://server1.wikisky.org/v2?ra=74.5255000&de=-67.2409444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

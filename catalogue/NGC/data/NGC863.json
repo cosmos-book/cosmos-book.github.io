@@ -1,0 +1,8 @@
+{
+	"name": "NGC 863",
+	"ra": 33.6399125,
+	"dec": -0.7667444,
+	"avm": { "desc": "Seyfert 1 Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC863.png", "source": "http://server1.wikisky.org/v2?ra=33.6399125&de=-0.7667444&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

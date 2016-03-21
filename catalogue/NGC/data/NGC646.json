@@ -1,0 +1,8 @@
+{
+	"name": "NGC 646",
+	"ra": 24.3484583,
+	"dec": -64.8958056,
+	"avm": { "desc": "Interacting Galaxies", "codes":["5.1.7"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC646.png", "source": "http://server1.wikisky.org/v2?ra=24.3484583&de=-64.8958056&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

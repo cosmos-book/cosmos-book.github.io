@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1535",
+	"ra": 63.5657583,
+	"dec": -12.7393556,
+	"avm": { "desc": "Planetary Nebula", "codes":["4.1.3"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1535.png", "source": "http://server1.wikisky.org/v2?ra=63.5657583&de=-12.7393556&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

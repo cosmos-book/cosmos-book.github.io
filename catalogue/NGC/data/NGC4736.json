@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4736",
+	"ra": 192.7214500,
+	"dec": 41.1201528,
+	"avm": { "desc": "Seyfert Galaxy", "codes":["5.3.2.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4736.png", "source": "http://server1.wikisky.org/v2?ra=192.7214500&de=41.1201528&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 168",
+	"ra": 9.1609958,
+	"dec": -22.5935361,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC168.png", "source": "http://server1.wikisky.org/v2?ra=9.1609958&de=-22.5935361&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

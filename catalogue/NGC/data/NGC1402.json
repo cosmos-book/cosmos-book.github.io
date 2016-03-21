@@ -1,0 +1,8 @@
+{
+	"name": "NGC 1402",
+	"ra": 54.8774208,
+	"dec": -18.5270167,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC1402.png", "source": "http://server1.wikisky.org/v2?ra=54.8774208&de=-18.5270167&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

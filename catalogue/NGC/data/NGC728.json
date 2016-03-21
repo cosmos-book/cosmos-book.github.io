@@ -1,0 +1,8 @@
+{
+	"name": "NGC 728",
+	"ra": 28.7753000,
+	"dec": 4.2055000,
+	"avm": { "desc": "Three stars", "codes":["3.6"] },
+	"ref": "cseligman",
+	"img": {"thumb": "thumbnails/NGC728.png", "source": "http://server1.wikisky.org/v2?ra=28.7753000&de=4.2055000&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 6814",
+	"ra": 295.6690667,
+	"dec": -10.3237500,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC6814.png", "source": "http://server1.wikisky.org/v2?ra=295.6690667&de=-10.3237500&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

@@ -1,0 +1,8 @@
+{
+	"name": "NGC 4162",
+	"ra": 182.9686125,
+	"dec": 24.1236806,
+	"avm": { "desc": "Spiral Galaxy", "codes":["5.3.2","5.1.1"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC4162.png", "source": "http://server1.wikisky.org/v2?ra=182.9686125&de=24.1236806&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}

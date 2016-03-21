@@ -1,0 +1,8 @@
+{
+	"name": "NGC 213",
+	"ra": 10.2916792,
+	"dec": 16.4694778,
+	"avm": { "desc": "Barred Galaxy", "codes":["5","5.1.2"] },
+	"ref": "Simbad",
+	"img": {"thumb": "thumbnails/NGC213.png", "source": "http://server1.wikisky.org/v2?ra=10.2916792&de=16.4694778&zoom=6&img_source=DSS2", "credit": "DSS2/Wikisky" }
+}
