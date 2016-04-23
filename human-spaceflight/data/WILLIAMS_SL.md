@@ -29,10 +29,10 @@ evas:
     time_end:   2006-12-17T02:57Z
   - time_start: 2007-01-31T15:14Z
     time_end:   2007-01-31T23:09Z
-  - time_start: 2007-02-4T13:38Z
-    time_end:   2007-02-4T20:49Z
-  - time_start: 2007-02-8T13:26Z
-    time_end:   2007-02-8T20:06Z
+  - time_start: 2007-02-04T13:38Z
+    time_end:   2007-02-04T20:49Z
+  - time_start: 2007-02-08T13:26Z
+    time_end:   2007-02-08T20:06Z
   - time_start: 2012-08-30T12:16Z
     time_end:   2012-08-30T20:33Z
   - time_start: 2012-09-05T11:06Z
