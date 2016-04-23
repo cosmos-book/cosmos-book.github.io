@@ -8,7 +8,6 @@ birthplace:
     latitude:	41.599201
     longitude:	-81.526817
 gender:	Female
-twitter:	Astro_Maker
 qualifications:
   - BSc in physical science
   - MSc in engineering management
