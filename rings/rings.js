@@ -21,7 +21,7 @@ r(function(){
 		// Build each planet		
 		for(var p = 0; p < planets.length; p++){
 			current[p] = {'planet':planets[p].name,'distance': planets[p].rings[0].distance[0] };
-			var html = '<div class="system" data-id="'+p+'" data-name="'+planets[p].name+'"><div class="clickable"><h2 class="name">'+planets[p].name+'</h2>';
+			var html = '<div class="full-width"><div class="system" data-id="'+p+'" data-name="'+planets[p].name+'"><div class="clickable"><h2 class="name">'+planets[p].name+'</h2>';
 			
 			html += '<div class="planet solid" style="width:'+(planets[p].radius*scale)+'%;"></div>';
 			for(var r = 0; r < planets[p].rings.length; r++){
@@ -43,7 +43,7 @@ r(function(){
 				}
 
 			}
-			html += '</div><div class="indicator"><div class="handle"></div><div class="values"></div></div></div>';
+			html += '</div><div class="indicator"><div class="handle"></div><div class="values"></div></div></div></div>';
 			$('#'+planets[p].name).html(html);
 
 			setDistance(planets[p].name,0);
