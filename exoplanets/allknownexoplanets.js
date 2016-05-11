@@ -106,7 +106,7 @@ $(document).ready(function(){
 		var height = h;
 		var color = function(i){ return colours.blue[0] }
 		var maxr = 0;
-		
+
 		var methods = {
 			'Transit': {'label':'Transit','class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
 			"Primary Transit": {'class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
@@ -119,7 +119,7 @@ $(document).ready(function(){
 			"Astrometry": {'class':'astrometry','label':'Astrometry','colour':$('<span class="astrometry"></span>').css('background-color'),'n':0 },
 			"other": {'class':'other','colour':$('<span class="other"></span>').css('background-color'),'n':0 }
 		}
-		
+
 		for(var i = 0; i < exo.length;i++){
 			if(exo[i]['P.Radius(EU)'] > maxr) maxr = exo[i]['P.Radius(EU)'];
 			var m = exo[i]['P.Disc.Method']
@@ -157,25 +157,31 @@ $(document).ready(function(){
 		var root = nodes[0];
 		root.radius = 0;
 		root.fixed = true;
-		
+
 		var force = d3.layout.force()
 			.gravity(0.09)
 			.charge(function(d, i) { return -Math.pow(d.radius, 2.0) / 9 })
 			.nodes(nodes)
 			.size([width, height])
-		
+
 		force.start();
-	
+
 		var svg = d3.select("#holder").append("svg")
 			.attr("width", width)
 			.attr("height", height);
-			
+
 		$('#holder svg').attr({'id':'canvas'});
-		
+
 		svg.selectAll("circle")
 			.data(nodes.slice(1))
 			.enter().append("circle")
-			.attr("r", function(d) { return d.radius-1; })
+			.attr("r", function(d) {
+                if (d.radius) {
+                    return (d.radius-1);
+                }else{
+                    return (d.radius);
+                }
+            })
 			.attr("class","exoplanet")
 			.attr("title",function (d,i){ return nodes[i]['P.Name'] })
 			.style("fill", function(d,i){
@@ -198,13 +204,13 @@ $(document).ready(function(){
 				y: solarsystem.y
 			};
 		});
-		
+
 		var solarforce = d3.layout.force()
 			.gravity(0.29)
 			.charge(function(d, i) { return -Math.pow(d.radius, 2.0) / 9 })
 			.nodes(solnodes)
 			.size([solarsystem.x+50, solarsystem.y*2]);
-		
+
 		solarforce.start();
 
 		svg.selectAll("circles")
@@ -247,22 +253,22 @@ $(document).ready(function(){
 			var q = d3.geom.quadtree(nodes),
 			i = 0,
 			n = nodes.length;
-			
+
 			while (++i < n) q.visit(collide(nodes[i]));
-			
+
 			svg.selectAll(".exoplanet").attr("cx", function(d) { return d.x; }).attr("cy", function(d) { return d.y; });
 		});
-		
+
 		solarforce.on("tick", function(e) {
 			var q = d3.geom.quadtree(solnodes),
 			i = 0,
 			n = solnodes.length;
-			
+
 			while (++i < n) q.visit(collide(solnodes[i]));
-			
+
 			svg.selectAll(".solar").attr("cx", function(d) { return d.x; }).attr("cy", function(d) { return d.y; });
 		});
-		
+
 		function collide(node) {
 			var r = node.radius + 16,
 			nx1 = node.x - r,
@@ -286,7 +292,7 @@ $(document).ready(function(){
 				return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
 			};
 		}
-		
+
 		// Draw key
 		$('#holder').prepend('Discovery technique: <ul class="key" id="key"></ul>');
 		// Extract the appropriate keys
@@ -319,11 +325,11 @@ $(document).ready(function(){
 				return text;
 			}
 		});
-				
+
 	}
 
 	// Load the data
 	loadCSV("data/phl_hec_all_confirmed.csv",parsePlanets,{'catalogue':'exo'});
 	loadCSV("data/data_solar_ESI.csv",parsePlanets,{'catalogue':'solar'});
-	
+
 });
