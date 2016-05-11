@@ -106,19 +106,38 @@ $(document).ready(function(){
 		var height = h;
 		var color = function(i){ return colours.blue[0] }
 		var maxr = 0;
+<<<<<<< HEAD
 
+=======
+		
+		function getColour(cls){ return $('.'+cls).css('background-color'); }
+>>>>>>> Fix to deal with issue #5
 		var methods = {
-			'Transit': {'label':'Transit','class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
-			"Primary Transit": {'class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
-			"TTV": {'class':'transit','colour':$('<span class="transit"></span>').css('background-color'),'n':0 },
-			"Radial Velocity": {'class':'radialvelocity','label':'Radial Velocity','colour':$('<span class="radialvelocity"></span>').css('background-color'),'n':0 },
-			"radial velocity": {'class':'radialvelocity','colour':$('<span class="radialvelocity"></span>').css('background-color'),'n':0 },
-			"Pulsar": {'class':'pulsar','label':'Pulsar Timing','colour':$('<span class="pulsar"></span>').css('background-color'),'n':0 },
-			"Microlensing": {'class':'microlensing','label':'Microlensing','colour':$('<span class="microlensing"></span>').css('background-color'),'n':0 },
-			"Imaging": {'class':'imaging','label':'Direct Imaging','colour':$('<span class="imaging"></span>').css('background-color'),'n':0 },
-			"Astrometry": {'class':'astrometry','label':'Astrometry','colour':$('<span class="astrometry"></span>').css('background-color'),'n':0 },
-			"other": {'class':'other','colour':$('<span class="other"></span>').css('background-color'),'n':0 }
+			'Transit': {'label':'Transit','class':'transit','n':0 },
+			"Primary Transit": {'class':'transit','n':0 },
+			"TTV": {'class':'transit','n':0 },
+			"Radial Velocity": {'class':'radialvelocity','label':'Radial Velocity','n':0 },
+			"radial velocity": {'class':'radialvelocity','n':0 },
+			"Pulsar": {'class':'pulsar','label':'Pulsar Timing','n':0 },
+			"Microlensing": {'class':'microlensing','label':'Microlensing','n':0 },
+			"Imaging": {'class':'imaging','label':'Direct Imaging','n':0 },
+			"Astrometry": {'class':'astrometry','label':'Astrometry','n':0 },
+			"other": {'class':'other','n':0 }
 		}
+<<<<<<< HEAD
+=======
+		
+		// Draw key
+		$('#holder').prepend('Discovery technique: <ul class="key" id="key"></ul>');
+		// Extract the appropriate keys
+		for(key in methods){
+			// Append divs to hold key item
+			if(methods[key].label) $('#key').append('<li class="keyitem"><span class="keycircle '+methods[key].class+'"></span><span class="keylabel">'+methods[key].label+'</span></li>');
+			// Get the background colour now that the element exists in the DOM (fix for Chrome)
+			methods[key].colour = getColour(methods[key].class);
+		}
+
+>>>>>>> Fix to deal with issue #5
 
 		for(var i = 0; i < exo.length;i++){
 			if(exo[i]['P.Radius(EU)'] > maxr) maxr = exo[i]['P.Radius(EU)'];
@@ -175,6 +194,7 @@ $(document).ready(function(){
 		svg.selectAll("circle")
 			.data(nodes.slice(1))
 			.enter().append("circle")
+<<<<<<< HEAD
 			.attr("r", function(d) {
                 if (d.radius) {
                     return (d.radius-1);
@@ -182,6 +202,9 @@ $(document).ready(function(){
                     return (d.radius);
                 }
             })
+=======
+			.attr("r", function(d) { return (d.radius > 1 ? d.radius-1 : 0); })
+>>>>>>> Fix to deal with issue #5
 			.attr("class","exoplanet")
 			.attr("title",function (d,i){ return nodes[i]['P.Name'] })
 			.style("fill", function(d,i){
@@ -292,6 +315,7 @@ $(document).ready(function(){
 				return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
 			};
 		}
+<<<<<<< HEAD
 
 		// Draw key
 		$('#holder').prepend('Discovery technique: <ul class="key" id="key"></ul>');
@@ -301,6 +325,9 @@ $(document).ready(function(){
 			if(methods[key].label) $('#key').append('<li class="keyitem"><span class="keycircle '+methods[key].class+'"></span><span class="keylabel">'+methods[key].label+'</span></li>');
 		}
 
+=======
+		
+>>>>>>> Fix to deal with issue #5
 		// Set up the tooltips for exoplanets
 		tooltip({
 			'elements':$('circle.exoplanet'),
