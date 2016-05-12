@@ -229,8 +229,6 @@ $(document).ready(function(){
 			.style("fill-opacity",1)
 			.style("stroke-width",0)
 			.style("stroke",0)
-			console.log(methods['other'].colour)
-
 
 		var rs = [25,15,5,1];	// Scale circles
 		var y = 0;
