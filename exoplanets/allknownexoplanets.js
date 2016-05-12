@@ -118,7 +118,7 @@ $(document).ready(function(){
 			"Microlensing": {'class':'microlensing','label':'Microlensing','n':0 },
 			"Imaging": {'class':'imaging','label':'Direct Imaging','n':0 },
 			"Astrometry": {'class':'astrometry','label':'Astrometry','n':0 },
-			"other": {'class':'other','n':0 }
+			"other": {'class':'other','colour':'black','n':0 }
 		}
 		
 		// Draw key
@@ -128,7 +128,8 @@ $(document).ready(function(){
 			// Append divs to hold key item
 			if(methods[key].label) $('#key').append('<li class="keyitem"><span class="keycircle '+methods[key].class+'"></span><span class="keylabel">'+methods[key].label+'</span></li>');
 			// Get the background colour now that the element exists in the DOM (fix for Chrome)
-			methods[key].colour = getColour(methods[key].class);
+			var colour = getColour(methods[key].class);
+			if(colour) methods[key].colour = colour;
 		}
 
 
@@ -228,6 +229,7 @@ $(document).ready(function(){
 			.style("fill-opacity",1)
 			.style("stroke-width",0)
 			.style("stroke",0)
+			console.log(methods['other'].colour)
 
 
 		var rs = [25,15,5,1];	// Scale circles
