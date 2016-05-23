@@ -18,9 +18,9 @@ missions:
     time_end:     1996-02-29T10:42:09Z
   - name: STS-121
     time_start:   2006-07-04T18:37:55Z
-    time_end:     2006-07-17T13:14:44Z
+    time_end:     
   - name: STS-116
-    time_start:   2006-12-10T01:47:35Z
+    time_start:   
     time_end:     2006-12-22T22:33Z
 evas:
   - time_start: 1995-10-20T11:50Z
