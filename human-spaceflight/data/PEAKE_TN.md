@@ -12,7 +12,7 @@ twitter:	astro_timpeake
 missions:
   - name:         Soyuz TMA-19M
     time_start:   2015-12-15T11:03:10Z
-    time_end:
+    time_end:	2016-06-18T09:15Z
 country:
   - GBR
 evas:

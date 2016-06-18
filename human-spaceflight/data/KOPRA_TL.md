@@ -22,7 +22,7 @@ missions:
     time_end:     2009-09-12T00:54Z
   - name: Soyuz TMA-19M
     time_start:   2015-12-15T11:03:10Z
-    time_end:
+    time_end:	2016-06-18T09:15Z
 evas:
   - time_start:	2009-07-18T16:19Z
     time_end:   2009-07-18T21:51Z
