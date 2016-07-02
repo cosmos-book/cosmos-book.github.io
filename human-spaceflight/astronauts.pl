@@ -115,6 +115,14 @@ foreach $file (sort(@files)){
 	}
 
 	foreach $line (@lines){
+		$line =~ s/[\n\r]//g;	# Remove newline characters
+		# Find the values for various properties
+		if($line =~ /^name:\t(.*)/){ $name = $1; $name =~ s/\s*$//; }
+		if($line =~ /^category:\t(.*)/){ $category = $1; }
+		if($line =~ /^gender:\t(.*)/){ $gender = $1; }
+	}
+	
+	foreach $line (@lines){
 
 		$line =~ s/[\n\r]//g;	# Remove newline characters
 
@@ -215,33 +223,21 @@ foreach $file (sort(@files)){
 				# Work out the years the astronaut is in space
 				$launch =~ /^([0-9]{4})/;
 				$y = $1;
-				if($byyear{$y}{'total'}){
-					$byyear{$y}{'total'}++;
-				}else{
-					$byyear{$y}{'total'} = 1;
-				}
-				if($byyear{$y}{$gender}){
-					$byyear{$y}{$gender}++;
-				}else{
-					$byyear{$y}{$gender} = 1;
-				}
+				addToYear($y,$gender,$category,$name);
 
 				$land =~ /^([0-9]{4})/;
-				if($1 != $y){
+				if($1 ne $y){
 					$y2 = $1;
+					$added = 0;
+if($name =~ /PEAKE/){
+	print "\tTim Peake : $land $y $y2 $ytemp\n";
+}
 					# Loop over the years of the mission
-					for($y = $y ; $y < $y2; $y++){
-						if($byyear{$y}{'total'}){
-							$byyear{$y}{'total'}++;
-						}else{
-							$byyear{$y}{'total'} = 1;
-						}
-						if($byyear{$y}{$gender}){
-							$byyear{$y}{$gender}++;
-						}else{
-							$byyear{$y}{$gender} = 1;
-						}
+					for($ytemp = $y+1 ; $ytemp <= $y2; $ytemp++){
+						addToYear($ytemp,$gender,$category,$name);
+						$added++;
 					}
+					if($added > 2){ print "TOO MANY YEARS FOR $name\n"; }
 				}
 
 				$launch = "";
@@ -418,6 +414,66 @@ print FILE $reflist;
 close(FILE);
 
 
+
+open(FILE,">",$procdir."astronauts_by_year.tsv");
+#print FILE "Year\tNumber of astronauts in space\tNumber of male astronauts\tNumber of female astronauts\n";
+foreach $y (sort(keys(%byyear))){
+	if($y){
+		print FILE "$y\t$byyear{$y}{'total'}\t$byyear{$y}{'Male'}{'total'}\t$byyear{$y}{'Female'}{'total'}\n";
+	}
+}
+close(FILE);
+
+open(HTML,"yearly.html");
+@lines = <HTML>;
+close(HTML);
+
+
+open(HTML,'>','yearly.html');
+$inmain = 0;
+$indent = "";
+foreach $line (@lines){
+
+	if($line =~ /<\!-- End Timeline -->/){ $inmain = 0; }
+	if($inmain==0){ print HTML $line; }
+	if($line =~ /^([\s]*)<\!-- Start Timeline -->/){
+		$inmain = 1;
+		$indent = $1; 
+		print HTML $indent."<table>\n";
+		print HTML $indent."\t<tr><td class=\"female\">Female astronauts</td><td class=\"year\">Year</td><td class=\"male\">Male astronauts</td></tr>\n";
+		foreach $y (sort(keys(%byyear))){
+			if($y){
+				print HTML $indent."\t<tr><td class=\"female\"><span class=\"number\">$byyear{$y}{'Female'}{'total'}</span> ";
+				for($i = 0; $i < $byyear{$y}{'Female'}{'total'}; $i++){
+					($cls,$nme) = split(/\=\=/,$byyear{$y}{'Female'}{'cls'}[$i]);
+					print HTML "<span class=\"human $cls\" title=\"$nme\">&nbsp;</span>";
+				}
+				print HTML "</td><td class=\"year\"><span class=\"number\">$y</span></td><td class=\"male\">";
+				for($i = 0; $i < $byyear{$y}{'Male'}{'total'}; $i++){
+					($cls,$nme) = split(/\=\=/,$byyear{$y}{'Male'}{'cls'}[$i]);
+					print HTML "<span class=\"human $cls\" title=\"$nme\">&nbsp;</span>";
+				}
+				print HTML "<span class=\"number\">$byyear{$y}{'Male'}{'total'}</span> </td></tr>\n";
+			}
+		}
+		print HTML "</table>";
+
+
+#		@li = reverse(sort(@li));
+#		for($i = 0; $i < @li; $i++){
+#			$li[$i] =~ s/(<li)(>.*)<span( class="human[^\"]*")><\/span>/$1$3$2/g;
+#			# Only add those currently in space as raw HTML
+#			if($li[$i] =~ /<span class="divider">-<\/span><time datetime=""><\/time>/){
+#				print FILE $indent."\t".$li[$i]."\n";
+#			}
+#		}
+#		print HTML $indent."</ol>\n";
+	}
+}
+close(HTML);
+
+
+
 print "Longest EVA: ".formatTime($longesteva)."\n";
 print "Total EVA: ".formatTime($totaleva)."\n";
 
@@ -431,4 +487,22 @@ sub fixDate {
 		$d .= "-01";	# We don't know the day so set it to the start of the month
 	}
 	return $d;
+}
+
+
+
+sub addToYear {
+	local $y = $_[0];
+	local $gender = $_[1];
+	local $category = $_[2];
+	local $name = $_[3];
+	
+	if(!$byyear{$y}){ $byyear{$y} = { 'total' => 0 }; }
+	if(!$byyear{$y}{$gender}){ $byyear{$y}{$gender} = { 'total' => 0, 'cls' => () }; }
+
+	$byyear{$y}{'total'}++;
+	$byyear{$y}{$gender}{'total'}++;
+	push(@{$byyear{$y}{$gender}{'cls'}},$category."==".$name);
+
+	return;
 }
