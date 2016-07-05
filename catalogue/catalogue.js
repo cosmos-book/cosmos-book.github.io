@@ -309,7 +309,7 @@
 	
 			}
 			$('#holder').html('<div class="tableholder"><table>'+html+'</table></div>');
-			$('#holder').after('<textarea>'+html+'</textarea>')
+			//$('#holder').after('<textarea>'+html+'</textarea>')
 		}
 		$('.loader').remove();
 
