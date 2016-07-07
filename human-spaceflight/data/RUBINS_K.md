@@ -13,6 +13,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
+  - name: Soyuz MS-01
+    time_start:   2016-07-07T01:36:40Z
+    time_end:     
 evas:
 gender:	Male
 country:

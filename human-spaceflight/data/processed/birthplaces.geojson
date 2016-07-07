@@ -5375,6 +5375,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "ONISHI, Takuya",
+				"date": "1975",
+				"birthplace": "Brooklyn, New York",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ONISHI_T.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-155.952652, 19.66115]
 			},
 			"properties": {
@@ -6134,6 +6149,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ROZHDESTVENSKY_VI.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-72.867699, 41.748901]
+			},
+			"properties": {
+				"title": "RUBINS, Kathleen 'Kate'",
+				"date": "1978-10-14",
+				"birthplace": "Farmington, Connecticut",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/RUBINS_K.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
 			}
 		},{
