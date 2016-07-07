@@ -3,6 +3,7 @@ category:	astronaut
 name:	RUBINS, Kathleen 'Kate'
 type:	civilian
 dob:	1978-10-14
+twitter:	Astro_Kate7
 birthplace:
   - name:	Farmington, Connecticut
     latitude:	41.748901
