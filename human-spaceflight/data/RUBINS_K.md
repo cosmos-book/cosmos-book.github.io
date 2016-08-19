@@ -18,6 +18,8 @@ missions:
     time_start:   2016-07-07T01:36:40Z
     time_end:     
 evas:
+  - time_start: 2016-08-19T12:04Z
+    time_end:   
 gender:	Female
 country:
   - USA
