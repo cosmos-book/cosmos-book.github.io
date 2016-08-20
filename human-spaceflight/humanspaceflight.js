@@ -50,6 +50,25 @@ var series;
 				return html;
 			}
 		},
+		'firstlaunch': {
+			'scale': 'linear',
+			'gridlines': function(d){
+				// Date-of-birth - we will put lines every decade
+				var step = 10;
+				var a = Math.ceil(d.min.getFullYear()/step)*step;
+				var b = Math.floor(d.max.getFullYear()/step)*step;
+				var day;
+				var html = "";
+				for(var i = a; i <= b; i += step){
+					// Create a date at the start of the year
+					day = new Date(2015,1,1,0,0,0);
+					// Update the year
+					x = getX(day.setFullYear(i),d.typ,d.min,d.max);
+					html += '<div class="gridline" style="'+styleGridLine(d.axis,x)+'"><span class="label">'+i+'<\/span><\/div>';
+				}
+				return html;
+			}
+		},
 		'time_eva': {
 			'scale': 'linear',
 			'formatLabel': function(i){ return (i/3600)+' hr'; },
