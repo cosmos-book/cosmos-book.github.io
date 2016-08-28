@@ -283,7 +283,8 @@ function tooltip(data){
 		$('body').removeClass('hastooltip');
 	}
 
-	data.elements.on('click',{data:data},function(e){
+	var event = 'click' || data.event;
+	data.elements.on(event,{data:data},function(e){
 		e.preventDefault();
 		e.stopPropagation();
 

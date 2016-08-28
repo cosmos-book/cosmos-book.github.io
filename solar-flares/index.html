@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Solar flares</title>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/jquery-ui.js"></script>
+	<script type="text/javascript" src="../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="solarflares.js"></script>
+	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
+	<link rel="stylesheet" href="../resources/ui.css" type="text/css">
+	<style>
+	/*
+	var colours = {
+	'red': ['#f04031','#f05948','#f68d69','#f9aa8f','#fee7dd'],
+	'orange': ['#f6881f','#f9a04a','#fbb675','#fdcc9c','#ffe6d4'],
+	'yellow': ['#ffcb06','#ffde00','#fff200','#fff79a','#fffcd5'],
+	'yellowgreen': ['#b6c727','#cbd658','#dce57d','#e8eeae','#f2f6d5'],
+	'green': ['#02a24b','#0ab26b','#67c18d','#9bd4ae','#e4f2e7'],
+	'turquoise': ['#57b7aa','#89d0c8','#a8dbd5','#c5e6e1','#e3f3f2'],
+	'other':['#5cb6ac','#83c4bb','','','#eaf5f5'],
+	'blue': ['#00a2d3','#00b9e4','#48c7e9','#8fd7ed','#e1f4fe'],
+	'lilac': ['#4f4c9a','#6e69b0','#8a84bf','#aaa5d1','#e8e7f2'],
+	'purple': ['#662d8f','#7c52a1','#7d71b4','#af99c8','#e9e2ef'],
+	'rose': ['#b72268','#c2567e','#cd7d94','#dba4b3','#f3e5e9'],
+	'success':'#f04031',
+	'fail':'#ffcb06'
+}
+*/
+	.table {
+		overflow: hidden;
+	}
+	.full-width {
+		overflow-x: auto;
+		overflow-y: auto;
+		position: static;
+		width: 100%;
+	}
+	#solarsystem {
+		width: 100%;
+		height: 100%;
+	}
+	.level {
+		border-radius: 100%;
+		position:absolute;
+		border: 1px solid white;
+		z-index: 1;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.level.C {
+		z-index: 101;
+		border-color: #f9aa8f;
+	}
+	.level.M {
+		border-color: #f9aa8f;
+		opacity: 0.9;
+	}
+	.level.X {
+		border-color: #f9aa8f;
+		opacity: 0.6;
+	}
+	.level.X10 {
+		border-color: #f9aa8f;
+		opacity: 0.3;
+	}
+	.level.X1 { opacity: 0.77; }
+	.level.X2 { opacity: 0.75; }
+	.level.X3 { opacity: 0.72; }
+	.level.X4 { opacity: 0.69; }
+	.level.X5 { opacity: 0.67; }
+	.level.X6 { opacity: 0.64; }
+	.level.X7 { opacity: 0.61; }
+	.level.X8 { opacity: 0.59; }
+	.level.X9 { opacity: 0.56; }
+	.level.X10 { opacity: 0.53; }
+	.level.X11 { opacity: 0.51; }
+	.level.X12 { opacity: 0.48; }
+	.level.X13 { opacity: 0.45; }
+	.level.X14 { opacity: 0.43; }
+	.level.X15 { opacity: 0.40; }
+	.level.X16 { opacity: 0.37; }
+	.level.X17 { opacity: 0.35; }
+	.level.X18 { opacity: 0.32; }
+	.level.X19 { opacity: 0.29; }
+	.level.X20 { opacity: 0.27; }
+	.level.X21 { opacity: 0.24; }
+	.level.X22 { opacity: 0.21; }
+	.level.X23 { opacity: 0.19; }
+	.level.X24 { opacity: 0.16; }
+	.level.X25 { opacity: 0.13; }
+	.level.X26 { opacity: 0.11; }
+	.level.X27 { opacity: 0.08; }
+	.level.X28 { opacity: 0.05; }
+	.level.X29 { opacity: 0.03; }
+	#sun {
+		position: absolute;
+		margin: auto;
+		border: 0px;
+		width: 0px;
+		height: 0px;
+		top: 50%;
+		left: 50%;
+	}
+	#sun .disc {
+		position: absolute;
+		content: "";
+		width: 100px;
+		height: 100px;
+		left: -50px;
+		top: -50px;
+		border-radius: 100%;
+		/*['#ffcb06','#ffde00','#fff200','#fff79a','#fffcd5']*/
+		background-color: #fff200;
+		z-index: 100;
+	}
+	.flare {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		-ms-transform-origin: 5px 0%; /* IE 9 */
+		-webkit-transform-origin: 5px 0%; /* Chrome, Safari, Opera */
+		transform-origin: 5px 0%;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top-width: 0px;
+		border-top-color: black;
+		border-top-style: solid;
+		opacity: 0.3;
+		z-index: 2;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.flare.C {
+		/*z-index: 4;*/
+		border-top-color: #ffcb06;
+	}
+	.flare.M {
+		/*z-index: 3;*/
+		border-top-color: #ffcb06;
+	}
+	.flare.X {
+		/*z-index: 2;*/
+		border-top-color: #f05948;
+		border-top-color: #ffcb06;
+	}
+	/* For linear scale */
+	.flare.X {
+		border-top-color: #ffcb06;
+		opacity: 0.7;
+	}
+	.flare.X10 {
+		border-top-color: #ffde00;
+		opacity: 0.7;
+	}
+	.flare:hover {
+		border-top-color: black;
+		opacity: 1;
+		cursor: pointer;
+	}
+	#caption {
+		display: table;
+		position: absolute;
+		z-index: 1000;
+	}
+	#caption .text {
+		display: table-cell;
+		padding: 1em;
+		text-align: center;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+	#caption .number {
+		font-family: "Source Code Pro", monospace, sans-serif;
+		font-weight: 600;
+		letter-spacing: -1px;
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+	</style>
+</head>
+<body class="SUN">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">contents</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+			
+			<div class="table">
+				<div class="table-row-top padded">
+					<h1>Solar flares</h1>
+					<p>The strongest solar flares as measured by the GOES X-ray satellites since 1976.</p>
+				</div>
+				<div class="table-row">
+					<div class="full-width padded">
+						<div id="solarsystem">
+							<div id="sun"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				<p>Based on the <a href="data/goes_x.csv" id="data">"X-ray Flare" dataset</a> prepared by and <a href="http://www.ngdc.noaa.gov/stp/space-weather/solar-data/solar-features/solar-flares/x-rays/goes/xrs/">made available through the NOAA National Geophysical Data Center</a> (NGDC) visualised for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></p>
+			</div>
+		</footer>
+	</div>
+
+
+
+</body>
+</html>
