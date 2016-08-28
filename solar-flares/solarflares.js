@@ -39,7 +39,7 @@ r(function(){
 			return '<div class="level '+prop['class']+''+(typeof prop.n === "number" ? ' '+prop['class'][0]+prop.n : '')+'" style="width: '+(r)+'px;height:'+(r)+'px;left:-'+(r/2)+'px;top:-'+(r/2)+'px;"></div>';
 		}
 
-		$('#sun').html('<div class="disc"></div>'+'<div id="caption"><div class="text"></div></div>')
+		$('#sun').html('<div class="disc"></div>'+'<div id="caption"><div class="text">Hover over a flare<br />for more information</div></div>')
 		$('#sun .disc').css({'width':minradius+'px','height':minradius+'px','left':'-'+(minradius/2)+'px','top':'-'+(minradius/2)+'px'});
 		$('#caption').css({'width':(minradius*0.9)+'px','margin-left':(minradius*0.05)+'px','height':(minradius/3)+'px','margin-top':(minradius/3)+'px','left':'-'+(minradius/2)+'px','top':'-'+(minradius/2)+'px'});
 
