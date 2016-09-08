@@ -52,7 +52,7 @@ r(function(){
 				"missions": 0
 			},
 			"mars": {
-				"pos": getPos(10,2),
+				"pos": getPos(10,2.3),
 				"colour":colours.orange[1],
 				"missions": 0,
 				"insertion": "left"
@@ -203,6 +203,12 @@ r(function(){
 				"missions": 0,
 				"insertion": "left"
 			},
+			"(101955) Bennu": {
+				"pos": getPos(12,1),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "left"
+			},
 			"2014 MU69": {
 				"pos": getPos(1,4),
 				"colour": colours.orange[3],
@@ -328,6 +334,7 @@ r(function(){
 				if(b=="(132524) APL") return getCurve(a,b,270,315,50,100);
 				if(b=="(25143) Itokawa") return getCurve(a,b,270,180,80,100);
 				if(b=="(162173) 1999 JU3") return getCurve(a,b,270,135,80,70);
+				if(b=="(101955) Bennu") return getCurve(a,b,270,135,80,70);
 				return getCurve(a,b,-90,180)
 			}else if(a=="mars"){
 				if(b=="(2867) &#352;teins") return getCurve(a,b,315,225,230,100);
