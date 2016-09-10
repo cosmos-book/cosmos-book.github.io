@@ -5375,12 +5375,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [139.6516583, 35.7356222]
 			},
 			"properties": {
 				"title": "ONISHI, Takuya",
 				"date": "1975",
-				"birthplace": "Brooklyn, New York",
+				"birthplace": "Nerima, Tokyo, Japan",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ONISHI_T.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",

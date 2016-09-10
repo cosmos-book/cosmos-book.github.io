@@ -3,6 +3,10 @@ category:	international
 name:	ONISHI, Takuya
 type:	civilian
 dob:	1975
+birthplace:
+  - name:	Nerima, Tokyo, Japan
+    latitude:	35.7356222
+    longitude:	139.6516583
 country:
   - JPN
 references:
