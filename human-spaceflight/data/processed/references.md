@@ -175,6 +175,7 @@
 * **DOLGOPOLOV, Gennadi Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/dolgopolov_gennadi.htm
 * **DONG, Chen**: http://www.spacefacts.de/bios/international/english/chen_dong.htm
 * **DONG, Chen**: http://usa.chinadaily.com.cn/china/2016-10/17/content_27077511.htm
+* **DONG, Chen**: http://mek.kosmo.cz/bio/ostatni/00547.htm
 * **DREW, B. Alvin, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUBROV, Pyotr Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/dubrov_pyotr.htm
 * **DUFFY, Brian**: http://www.nasa.gov/pdf/740566main_current.pdf
