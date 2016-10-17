@@ -1,6 +1,6 @@
 ---
 category:	taikonaut
-name:	JING, Haipeng
+name:	HAIPENG, Jing
 type:	military
 dob:	1966-10-24
 birthplace:
@@ -18,6 +18,8 @@ missions:
   - name: Shenzhou IX
     time_start:   2012-06-16T10:37:24Z
     time_end:     2012-06-29T02:01Z
+  - name: Shenzhou XI
+    time_start:   2016-10-16T23:30:32Z
 evas:
 gender:	Male
 ---

@@ -1775,6 +1775,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [112.44222, 34.66972]
+			},
+			"properties": {
+				"title": "DONG, Chen",
+				"date": "1978-12",
+				"birthplace": "Luoyang, Henan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DONG_C.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-77.016251, 38.904758]
 			},
 			"properties": {
@@ -2930,6 +2945,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [110.988869, 35.112518]
+			},
+			"properties": {
+				"title": "HAIPENG, Jing",
+				"date": "1966-10-24",
+				"birthplace": "Yuncheng city, Shanxi",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAIPENG_J.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-88.896378, 30.394381]
 			},
 			"properties": {
@@ -3494,21 +3524,6 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JETT_BW.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
-				"marker-symbol": "circle"
-			}
-		},{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [110.988869, 35.112518]
-			},
-			"properties": {
-				"title": "JING, Haipeng",
-				"date": "1966-10-24",
-				"birthplace": "Yuncheng city, Shanxi",
-				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JING_H.md",
-				"marker-size": "medium",
-				"marker-color": "#ffcb06",
 				"marker-symbol": "circle"
 			}
 		},{

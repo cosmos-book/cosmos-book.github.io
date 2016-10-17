@@ -130,7 +130,6 @@
 * **CHAPMAN, Philip K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHAWLA, Kalpana**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHELI, Maurizio**: http://www.spacefacts.de/bios/international/english/cheli_maurizio.htm
-* **CHEN, Dong**: http://www.spacefacts.de/bios/international/english/chen_dong.htm
 * **CHEN, Quan**: http://www.spacefacts.de/bios/international/english/chen_quan.htm
 * **CHIAO, Leroy**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHILTON, Kevin P., General**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -174,6 +173,8 @@
 * **DOI, Takao**: http://www.spacefacts.de/bios/international/english/doi_takeo.htm
 * **DOI, Takao**: http://www.spacefacts.de/eva/international/english/doi_takao.htm
 * **DOLGOPOLOV, Gennadi Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/dolgopolov_gennadi.htm
+* **DONG, Chen**: http://www.spacefacts.de/bios/international/english/chen_dong.htm
+* **DONG, Chen**: http://usa.chinadaily.com.cn/china/2016-10/17/content_27077511.htm
 * **DREW, B. Alvin, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUBROV, Pyotr Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/dubrov_pyotr.htm
 * **DUFFY, Brian**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -282,6 +283,7 @@
 * **HAIGNERÉ, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
+* **HAIPENG, Jing**: http://www.spacefacts.de/bios/international/english/jing_haipen.htm
 * **HAISE, Fred W., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HALIK, Nikos 'Nik'**: http://www.spacefacts.de/bios/international/english/halik_nik.htm
 * **HALSELL, James D., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -335,7 +337,6 @@
 * **JEMISON, Mae C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JERNIGAN, Tamara E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JETT, Brent W.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **JING, Haipeng**: http://www.spacefacts.de/bios/international/english/jing_haipen.htm
 * **JOHNSON, Gregory C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JOHNSON, Gregory H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JONES, Thomas D.**: http://www.nasa.gov/pdf/740566main_current.pdf
