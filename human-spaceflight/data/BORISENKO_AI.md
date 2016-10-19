@@ -15,6 +15,9 @@ missions:
   - name: Soyuz TMA-21
     time_start:   2011-04-04T22:18:20Z
     time_end:     2011-09-16T03:59:40Z
+  - name: Soyuz MS-02
+    time_start:   2016-10-19T08:05:14Z
+    time_end:     
 evas:
 gender:	Male
 ---
