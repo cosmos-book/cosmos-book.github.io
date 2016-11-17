@@ -5675,6 +5675,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [1.10, 49.44]
+			},
+			"properties": {
+				"title": "PESQUET, Thomas Gautier",
+				"date": "1978-02-27",
+				"birthplace": "Rouen, France",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PESQUET_TG.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-89.73584, 33.483582]
 			},
 			"properties": {

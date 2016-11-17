@@ -23,6 +23,9 @@ missions:
   - name: Soyuz TMA-11
     time_start:   2007-10-10T13:22:39Z
     time_end:     2008-04-19T08:31Z
+  - name: Soyuz MS-03
+    time_start:   2016-11-17T20:20Z
+    time_end:   
 evas:
   - time_start: 2002-08-16T09:23Z
     time_end:   2002-08-16T13:48Z
