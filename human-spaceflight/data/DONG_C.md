@@ -15,7 +15,8 @@ references:
   - http://mek.kosmo.cz/bio/ostatni/00547.htm
 missions:
   - name:	Shenzhou 11
-    time_start:	2016-10-16T23:30:32Z
+    time_start:   2016-10-16T23:30:32Z
+	time_end:     2016-11-18T06:15Z
 evas:
 gender:	Male
 ---

@@ -20,6 +20,7 @@ missions:
     time_end:     2012-06-29T02:01Z
   - name: Shenzhou XI
     time_start:   2016-10-16T23:30:32Z
+    time_end:     2016-11-18T06:15Z
 evas:
 gender:	Male
 ---
