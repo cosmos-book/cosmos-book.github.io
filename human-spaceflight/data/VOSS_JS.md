@@ -38,8 +38,8 @@ evas:
     time_end:   2000-05-22T08:32Z
   - time_start: 2001-03-11T05:12Z
     time_end:   2001-03-11T14:08Z
-  - time_start: 2001-06-8T14:21Z
-    time_end:   2001-06-8T14:40Z
+  - time_start: 2001-06-08T14:21Z
+    time_end:   2001-06-08T14:40Z
 gender:	Male
 country:
   - USA

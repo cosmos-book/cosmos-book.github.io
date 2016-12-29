@@ -34,8 +34,8 @@ missions:
 evas:
   - time_start: 2003-01-15T12:50Z
     time_end:   2003-01-15T19:41Z
-  - time_start: 2003-04-8T12:40Z
-    time_end:   2003-04-8T19:06Z
+  - time_start: 2003-04-08T12:40Z
+    time_end:   2003-04-08T19:06Z
 gender:	Male
 country:
   - USA

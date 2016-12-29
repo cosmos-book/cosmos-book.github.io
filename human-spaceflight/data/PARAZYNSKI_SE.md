@@ -41,8 +41,8 @@ evas:
     time_end:   2007-10-28T16:05Z
   - time_start: 2007-10-30T08:45Z
     time_end:   2007-10-30T15:53Z
-  - time_start: 2007-11-3T10:03Z
-    time_end:   2007-11-3T17:22Z
+  - time_start: 2007-11-03T10:03Z
+    time_end:   2007-11-03T17:22Z
 gender:	Male
 country:
   - USA

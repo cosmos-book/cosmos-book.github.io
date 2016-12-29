@@ -25,7 +25,7 @@ evas:
     time_end:   2005-07-30T17:36Z
   - time_start: 2005-08-01T08:42Z
     time_end:   2005-08-01T15:56Z
-  - time_start: 2005-08-3T08:48Z
-    time_end:   2005-08-3T14:49Z
+  - time_start: 2005-08-03T08:48Z
+    time_end:   2005-08-03T14:49Z
 gender:	Male
 ---

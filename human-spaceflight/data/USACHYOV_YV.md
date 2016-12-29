@@ -41,7 +41,7 @@ evas:
     time_end:   1996-06-06T20:30Z
   - time_start: 1996-06-13T12:45Z
     time_end:   1996-06-13T18:27Z
-  - time_start: 2001-06-8T14:21Z
-    time_end:   2001-06-8T14:40Z
+  - time_start: 2001-06-08T14:21Z
+    time_end:   2001-06-08T14:40Z
 gender:	Male
 ---

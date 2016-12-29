@@ -25,8 +25,8 @@ evas:
     time_end:   2008-06-03T23:12Z
   - time_start: 2008-06-05T15:04Z
     time_end:   2008-06-05T22:15Z
-  - time_start: 2008-06-8T13:55Z
-    time_end:   2008-06-8T20:28Z
+  - time_start: 2008-06-08T13:55Z
+    time_end:   2008-06-08T20:28Z
   - time_start: 2011-07-12T13:22Z
     time_end:   2011-07-12T19:53Z
 gender:	Male

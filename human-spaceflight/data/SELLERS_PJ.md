@@ -29,8 +29,8 @@ evas:
     time_end:   2002-10-12T20:35Z
   - time_start: 2002-10-14T14:08Z
     time_end:   2002-10-14T20:44Z
-  - time_start: 2006-07-8T13:17Z
-    time_end:   2006-07-8T20:48Z
+  - time_start: 2006-07-08T13:17Z
+    time_end:   2006-07-08T20:48Z
   - time_start: 2006-07-10T12:14Z
     time_end:   2006-07-10T19:01Z
   - time_start: 2006-07-12T07:11Z

@@ -27,11 +27,11 @@ evas:
   - time_start: 2004-06-24T21:56Z
     time_end:   2004-06-24T22:10Z
   - time_start: 2004-06-30T21:19Z
-    time_end:   2004-07-1T02:59Z
-  - time_start: 2004-08-3T06:58Z
-    time_end:   2004-08-3T11:28Z
-  - time_start: 2004-09-3T16:43Z
-    time_end:   2004-09-3T22:04Z
+    time_end:   2004-07-01T02:59Z
+  - time_start: 2004-08-03T06:58Z
+    time_end:   2004-08-03T11:28Z
+  - time_start: 2004-09-03T16:43Z
+    time_end:   2004-09-03T22:04Z
   - time_start: 2008-12-23T00:51Z
     time_end:   2008-12-23T06:29Z
   - time_start: 2009-03-10T16:22Z
