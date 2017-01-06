@@ -39,6 +39,8 @@ evas:
     time_end:   2007-12-18T16:46Z
   - time_start: 2008-01-30T09:56Z
     time_end:   2008-01-30T17:06Z
+  - time_start: 2017-01-05T12:22Z
+    time_end:   2017-01-05T18:55Z
 country:
   - USA
 ---
