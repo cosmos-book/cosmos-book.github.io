@@ -270,7 +270,7 @@
 * **GREKOV, Nikolai Sergeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/grekov_nikolai.htm
 * **GRIGGS, S. David**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GRISHCHENKO, Vitali Andreyevich**: http://www.spacefacts.de/bios/cosmonauts/english/grishchenko_vitali.htm
-* **GRISSOM, Virgil I.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **GRISSOM, Virgil Ivan 'Gus'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GRUNSFELD, John M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GUBAREV, Aleksei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/gubarev_aleksei.htm
 * **GUIDONI, Umberto**: http://www.spacefacts.de/bios/international/english/guidoni_umberto.htm
@@ -362,6 +362,7 @@
 * **KIKUCHI, Ryoko**: http://www.spacefacts.de/bios/international/english/kikuchi_ryoko.htm
 * **KILRAIN (Still), Susan L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KIMBROUGH, Robert Shane**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **KIMBROUGH, Robert Shane**: http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
 * **KISELYOV, Aleksandr Alexeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
@@ -570,6 +571,7 @@
 * **PERRIN, Philippe**: http://www.spacefacts.de/eva/international/english/perrin_philippe.htm
 * **PESQUET, Thomas Gautier**: http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
 * **PESQUET, Thomas Gautier**: http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Thomas_Pesquet
+* **PESQUET, Thomas Gautier**: http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
 * **PETELIN, Dmitri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
 * **PETERSON, Donald H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PETRUSHENKO, Aleksandr Jakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm

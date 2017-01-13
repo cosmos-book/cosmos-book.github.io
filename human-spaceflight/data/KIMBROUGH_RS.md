@@ -12,6 +12,7 @@ qualifications:
   - MSc in operations research
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
 missions:
   - name: STS-126
     time_start:   2008-11-15T00:55Z
@@ -26,6 +27,8 @@ evas:
     time_end:   2008-11-25T00:31Z
   - time_start: 2017-01-05T12:22Z
     time_end:   2017-01-05T18:55Z
+  - time_start: 2017-01-13T11:22Z
+    time_end:   2017-01-13T17:20Z
 gender:	Male
 country:
   - USA

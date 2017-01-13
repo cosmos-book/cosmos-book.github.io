@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	GRISSOM, Virgil I.
+name:	GRISSOM, Virgil Ivan "Gus"
 type:	military
 dob:	1926-04-03
 birthplace:
