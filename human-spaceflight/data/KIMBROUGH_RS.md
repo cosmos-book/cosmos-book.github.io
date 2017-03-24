@@ -7,6 +7,7 @@ birthplace:
   - name:	Killeen, Texas
     latitude:	31.07946
     longitude:	-97.734306
+twitter:	astro_kimbrough
 qualifications:
   - BSc in aerospace engineering
   - MSc in operations research
