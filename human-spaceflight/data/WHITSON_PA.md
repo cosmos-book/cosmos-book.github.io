@@ -13,6 +13,8 @@ qualifications:
   - PhD in biochemistry
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - https://twitter.com/cbs_spacenews/status/847411023220834304
+  - https://twitter.com/NASA/status/847520355128410114
 missions:
   - name: STS-111
     time_start:   2002-06-05T21:22:49Z
@@ -41,6 +43,8 @@ evas:
     time_end:   2008-01-30T17:06Z
   - time_start: 2017-01-05T12:22Z
     time_end:   2017-01-05T18:55Z
+  - time_start: 2017-03-30T11:29Z
+    time_end:	2017-03-30T18:33Z
 country:
   - USA
 ---
