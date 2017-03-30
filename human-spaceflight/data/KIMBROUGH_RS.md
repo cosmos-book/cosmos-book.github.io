@@ -16,6 +16,7 @@ references:
   - http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
   - https://twitter.com/cbs_spacenews/status/847411023220834304
   - https://twitter.com/NASA/status/847520355128410114
+  - https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
 missions:
   - name: STS-126
     time_start:   2008-11-15T00:55Z

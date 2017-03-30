@@ -15,6 +15,7 @@ references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
   - https://twitter.com/cbs_spacenews/status/847411023220834304
   - https://twitter.com/NASA/status/847520355128410114
+  - https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
 missions:
   - name: STS-111
     time_start:   2002-06-05T21:22:49Z
