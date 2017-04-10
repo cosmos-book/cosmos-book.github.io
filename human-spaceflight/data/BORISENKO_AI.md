@@ -17,7 +17,7 @@ missions:
     time_end:     2011-09-16T03:59:40Z
   - name: Soyuz MS-02
     time_start:   2016-10-19T08:05:14Z
-    time_end:     
+    time_end:     2017-04-10T11:20:35Z
 evas:
 gender:	Male
 ---

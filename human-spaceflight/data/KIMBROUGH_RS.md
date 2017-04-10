@@ -23,7 +23,7 @@ missions:
     time_end:     2008-11-30T21:26Z
   - name: Soyuz MS-02
     time_start:   2016-10-19T08:05:14Z
-    time_end:     
+    time_end:     2017-04-10T11:20:35Z
 evas:
   - time_start: 2008-11-20T17:58Z
     time_end:   2008-11-21T00:43Z

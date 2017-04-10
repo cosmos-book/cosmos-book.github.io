@@ -363,6 +363,9 @@
 * **KILRAIN (Still), Susan L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KIMBROUGH, Robert Shane**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KIMBROUGH, Robert Shane**: http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
+* **KIMBROUGH, Robert Shane**: https://twitter.com/cbs_spacenews/status/847411023220834304
+* **KIMBROUGH, Robert Shane**: https://twitter.com/NASA/status/847520355128410114
+* **KIMBROUGH, Robert Shane**: https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
 * **KISELYOV, Aleksandr Alexeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
@@ -815,6 +818,9 @@
 * **WHEELOCK, Douglas H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WHITE, Edward H. II**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WHITSON, Peggy A.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **WHITSON, Peggy A.**: https://twitter.com/cbs_spacenews/status/847411023220834304
+* **WHITSON, Peggy A.**: https://twitter.com/NASA/status/847520355128410114
+* **WHITSON, Peggy A.**: https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
 * **WILCUTT, Terrence W.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WILLIAMS, Clifford C. Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WILLIAMS, Donald E.**: http://www.nasa.gov/pdf/740566main_current.pdf
