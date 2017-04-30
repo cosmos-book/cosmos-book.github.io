@@ -21,7 +21,7 @@ missions:
     time_end:     2007-08-21T16:33:21Z
 evas:
   - time_start: 2007-08-11T16:28Z
-    time_end:   2007-08-11T23:45Z
+    time_end:   2007-08-11T22:45Z
   - time_start: 2007-08-13T15:32Z
     time_end:   2007-08-13T22:00Z
   - time_start: 2007-08-18T14:17Z

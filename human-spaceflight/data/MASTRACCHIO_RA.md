@@ -13,6 +13,7 @@ qualifications:
   - MSc in electrical engineering
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts118/news/STS-118-07.html
 missions:
   - name: STS-106
     time_start:   2000-09-08T12:45:47Z
@@ -28,7 +29,7 @@ missions:
     time_end:     2014-05-14T01:58Z
 evas:
   - time_start: 2007-08-11T16:28Z
-    time_end:   2007-08-11T23:45Z
+    time_end:   2007-08-11T22:45Z
   - time_start: 2007-08-13T15:32Z
     time_end:   2007-08-13T22:00Z
   - time_start: 2007-08-15T14:38Z

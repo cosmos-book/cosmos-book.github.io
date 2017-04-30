@@ -479,6 +479,7 @@
 * **MARSHBURN, Thomas H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASSIMINO, Michael J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASTRACCHIO, Richard A.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **MASTRACCHIO, Richard A.**: https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts118/news/STS-118-07.html
 * **MATINCHENKO, Aleksandr Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/matinchenko_aleksandr.htm
 * **MATTINGLY, Thomas K., II**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
