@@ -2195,6 +2195,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-105.138153, 39.97023]
+			},
+			"properties": {
+				"title": "FISCHER, Jack David '2fish'",
+				"date": "1974-01-23",
+				"birthplace": "Louisville, Colorado",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FISCHER_JD.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-74.007118, 40.71455]
 			},
 			"properties": {

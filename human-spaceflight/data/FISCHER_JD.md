@@ -14,7 +14,12 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
+  - name:	Soyuz MS-04
+    time_start:   2017-04-20T07:13:44Z
+    time_end:     
 evas:
+  - time_start: 2017-05-12T13:08Z
+    time_end:   2017-05-12T17:21Z
 gender:	Male
 country:
   - USA
