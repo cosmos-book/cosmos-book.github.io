@@ -17,7 +17,7 @@ references:
 missions:
   - name:	Soyuz MS-03
     time_start:	2016-11-17T20:20Z
-    time_end:	
+    time_end:	2017-06-02T14:10Z
 evas:
   - time_start: 2017-01-13T11:22Z
     time_end:   2017-01-13T17:20Z
