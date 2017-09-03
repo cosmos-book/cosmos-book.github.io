@@ -25,7 +25,7 @@ missions:
     time_end:     2008-04-19T08:31Z
   - name:	Soyuz MS-03
     time_start:	2016-11-17T20:20Z
-    time_end:
+    time_end: 2017-09-02T01:22Z
 evas:
   - time_start: 2002-08-16T09:23Z
     time_end:   2002-08-16T13:48Z
@@ -39,6 +39,11 @@ evas:
     time_end:   2007-12-18T16:46Z
   - time_start: 2008-01-30T09:56Z
     time_end:   2008-01-30T17:06Z
+  - time_start: 2017-05-12T13:08Z
+    time_end:   2017-05-12T17:21Z
+  - time_start: 2017-05-12T00:00Z
+    time_end:   2017-05-12T00:00Z
+
 country:
   - USA
 ---
