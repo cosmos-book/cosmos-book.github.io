@@ -16,7 +16,7 @@ references:
 missions:
   - name:	Soyuz MS-04
     time_start:   2017-04-20T07:13:44Z
-    time_end:     
+    time_end:     2017-09-02T01:22Z
 evas:
   - time_start: 2017-05-12T13:08Z
     time_end:   2017-05-12T17:21Z
