@@ -25,6 +25,9 @@ missions:
   - name: Soyuz TMA-09M
     time_start:   2013-05-28T20:31:24Z
     time_end:     2013-11-11T02:50Z
+  - name:	Soyuz MS-04
+    time_start:   2017-04-20T07:13:44Z
+    time_end:     
 evas:
   - time_start: 2007-05-30T19:05Z
     time_end:   2007-05-31T00:30Z

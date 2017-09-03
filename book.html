@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>The book | Cosmso: The Infographic Book of Space</title>
+	<link rel="stylesheet" href="resources/style.css" />
+	<link rel="stylesheet" href="resources/stuquery.barchart.css">
+	<script type="text/javascript" src="resources/stuquery.js"></script>
+	<script type="text/javascript" src="resources/stuquery.barchart.js"></script>
+	<script>
+	S(document).ready(function(){
+        // Create your data array where each item is in the form [bin,value]
+        var data = [["en",8522],["zh",4200],["ja",4192],["fr",3140]];
+
+		function getLang(key){
+			if(key=="en") return "English";
+			else if(key=="zh") return "&#20013;&#25991;";
+			else if(key=="ja") return "&#26085;&#26412;&#35486;";
+			else if(key=="fr") return "Fran&#231;ais";
+			else return key;
+		}
+		// Create the barchart object
+		var chart = new S.barchart('#barchart',{
+				formatBar: function(key){
+					return (key);
+				},
+				formatKey: function(key){
+					return getLang(key)+'';
+				}
+		});
+
+		// Add the data and draw the chart
+		chart.setData(data).setBins().draw();
+
+		// Display information on hover events
+		chart.on('barover',function(e){
+				S('.balloon').remove();
+				S(e.event.currentTarget).find('.bar').append(
+						'<div class="balloon">'
+						+ getLang(this.bins[e.bin].key)+': '
+						+ (this.bins[e.bin].value).toFixed(2).replace(/\.?0+$/,"")
+						+ ' copies</div>'
+				);
+		}).on('mouseleave',function(e){
+				S('.balloon').remove();
+		});
+
+	});
+	</script>
+	<style>
+	#barchart { height: 450px; margin: 1em 0;}
+	#barchart td.en .bar { background-color: #00b9e4; }
+	#barchart td.en:hover .bar { background-color: #00a2d3; }
+	#barchart td.fr .bar { background-color: #6e69b0; }
+	#barchart td.fr:hover .bar { background-color: #4f4c9a; }
+	#barchart td.zh .bar { background-color: #f05948; }
+	#barchart td.zh:hover .bar { background-color: #f04031; }
+	#barchart td.ja .bar { background-color: #0ab26b; }
+	#barchart td.ja:hover .bar { background-color: #02a24b; }
+	ul.quotes {
+		padding-left: 0px;
+	}
+	ul.quotes li {
+		list-style: none;
+	}
+	blockquote {
+		color: #444;
+		min-height: auto!important;
+		background: white;
+		padding: 1em 3em;
+		margin-bottom: 1em;
+		position: relative;
+		quotes: "\201C""\201D""\2018""\2019";
+	}
+	blockquote:before {
+		content: open-quote;
+		left: 0.25em;
+	}
+	blockquote:after {
+		content: close-quote;
+		right: 0.25em;
+	}
+	blockquote:before, blockquote:after {
+		color: #999;
+		position: absolute;
+		top: 0.6em;
+		line-height: 0.1em;
+		font-size: 4em;
+	}
+	blockquote footer {
+		padding: 1em 0 0 0;
+		background-color: inherit;
+	}
+	blockquote cite {
+		color: #444;
+	}
+	blockquote cite:before {
+		content: "-- ";
+	}
+	blockquote:last-child {
+		margin-bottom: 0;
+	}
+	</style>
+</head>
+<body class="">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="contents.html">contents</a> / </li>
+						<li><a href="credits/index.html">credits</a> / </li>
+						<li><a href="errata/index.html">errata</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="padder">
+					<h1>The book</h1>
+					<p>You can order on <a href="http://www.amazon.co.uk/Infographic-Book-Space-Stuart-Lowe/dp/1781314500/ref=sr_1_1">Amazon.co.uk</a>, <a href="http://www.amazon.com/exec/obidos/ASIN/1781314500/creativepubco-20">Amazon.com</a>, <a href="https://www.waterstones.com/book/cosmos-the-infographic-book-of-space/stuart-lowe/chris-north/9781781314500">Waterstones</a>, and <a href="http://www.bookdepository.com/book/9781781314500/?a_aid=Quayside">Book Depository</a>. Or support your local bookshop. The book is now available in a smaller paperback form as well as hardback. There are &#20013;&#25991; (Chinese), <a href="https://www.amazon.co.jp/COSMOS-%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A9%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%E3%81%A7%E3%81%BF%E3%82%8B%E5%AE%87%E5%AE%99-S-Lowe/dp/4621300725/">&#26085;&#26412;&#35486;</a> (Japanese), and <a href="https://www.amazon.fr/Cosmos-D%C3%A9couvrir-lespace-en-infographies/dp/2711424030/">Fran&#231;ais</a> (French) language translations available too.</p>
+					<p>We've gathered together <a href="#awards">awards</a>, <a href="reviews.html">reviews</a>, and <a href="#sales">sales</a> for interest.</p>
+					
+					<h2 id="awards">Awards</h2>
+					<ul>
+						<li>Highly Commended in the shortlist for the <em>Physics World</em> Book of the Year 2016.</li>
+					</ul>
+					
+					<h2 id="sales">Sales</h2>
+					<p>Sales of the different language editions of <em>Cosmos: The Infographic Book of Space</em> up until the end of March 2017.</p>
+					<div id="barchart"></div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://strudel.org.uk/">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
