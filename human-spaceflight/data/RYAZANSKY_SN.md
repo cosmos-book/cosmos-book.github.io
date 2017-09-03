@@ -17,7 +17,7 @@ missions:
     time_start:   2013-09-25T20:58:50Z
     time_end:     2014-03-11T03:25Z
   - name: Soyuz MS-05
-    time_start:   2017-17-26T15:41:12Z
+    time_start:   2017-07-26T15:41:12Z
     time_end:     
 evas:
   - time_start: 2013-11-09T14:34Z

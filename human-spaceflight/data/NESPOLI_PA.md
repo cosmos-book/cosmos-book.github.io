@@ -19,8 +19,8 @@ missions:
   - name: Soyuz TMA-20
     time_start:   2010-12-15T19:09Z
     time_end:     2011-05-24T02:28Z
-- name: Soyuz MS-05
-    time_start:   2017-17-26T15:41:12Z
+  - name: Soyuz MS-05
+    time_start:   2017-07-26T15:41:12Z
     time_end:     
 evas:
 gender:	Male

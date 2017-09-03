@@ -16,7 +16,7 @@ missions:
     time_end:     2007-06-22T19:49:38Z
   - name: STS-119
     time_start:   2009-03-15T23:43Z
-    time_end:     2009-03-28T19:13Z
+    time_end:     2009-03-28T19:14Z
 evas:
 gender:	Male
 country:
