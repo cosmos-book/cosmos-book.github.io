@@ -14,6 +14,9 @@ qualifications:
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
 missions:
+  - name: Soyuz MS-06
+    time_start:   2017-09-12T21:17:02Z
+    time_end:
 evas:
 gender:	Male
 country:

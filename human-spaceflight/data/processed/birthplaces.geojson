@@ -7445,6 +7445,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-77.174583, 38.88435]
+			},
+			"properties": {
+				"title": "VANDE HEI, Mark T.",
+				"date": "1966-11-10",
+				"birthplace": "Falls Church, Virginia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/VANDE_HEI_MT.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [3.83272, 51.282398]
 			},
 			"properties": {
