@@ -19,12 +19,12 @@
 		.number, .name { font-size: 0.5em; }
 		.symbol,.name { max-width: 100%; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 		table.periodic { border-collapse: separate; border-spacing: 1px; width: 100%; table-layout: fixed; }
-		table.periodic td { width: 5.5555%; min-width: 5.5555%; max-width: 5.5555%; border: 1px solid #fee7dd; padding: 4px; transition: background-color .25s ease; }
+		table.periodic td { width: 5.5555%; min-width: 5.5555%; max-width: 5.5555%; border: 2px solid #fee7dd; padding: 4px; transition: background-color .25s ease; }
 		table.periodic td.hidden div { opacity: 0; }
 		table.periodic td.hidden:hover div { opacity: 1; }
 		table.periodic td.element { background-color: white; }
 		table.periodic td.spacer { height: 0.5em; }
-		table.periodic td.life { border-color: #b72268; }
+		table.periodic td.life { border-color: #b72268;}
 		table.periodic td.formed { background-color: #af99c8; }
 		body.STA .toggler.checked .toggle-bg { background-color: #af99c8; }
 		form { display: inline-block; margin: 0px; }
@@ -32,7 +32,7 @@
 		li.keyitem { margin-right: 1.5em; text-align:center; }
 		li.keyitem:first-child { margin-right: 0.5em; text-align: left; }
 		li.keyitem .keylabel { float: left;line-height: 1.25em;margin-right: 0.25em; }
-		li.keyitem .keysymbol { width: 1em; height: 1em; float: left; margin-right: 0.25em; border: 1px solid #fee7dd; }
+		li.keyitem .keysymbol { width: 1em; height: 1em; float: left; margin-right: 0.25em; border: 2px solid #fee7dd; }
 		li.keyitem .keysymbol img { max-width: 100%; }
 		li.keyitem .life { border-color: #b72268; }
 		li.keyitem .formed { background-color: #af99c8; }
@@ -74,7 +74,7 @@
 			</nav>
 			<div id="content">
 				<div class="padder">
-							
+
 				<h1>We are stardust</h1>
 				<table class="periodic">
 				<tr>
@@ -215,7 +215,7 @@
 					<td class="element"><div id="Uup" class="number">115</div><div class="symbol">Uup</div><div class="name">Ununpentium</div></td>
 					<td class="element"><div id="Lv" class="number">116</div><div class="symbol">Lv</div><div class="name">Livermorium</div></td>
 					<td class="element"><div id="Uus" class="number">117</div><div class="symbol">Uus</div><div class="name">Ununsptium</div></td>
-					<td class="element"><div id="Uuo" class="number">118</div><div class="symbol">Uuo</div><div class="name">Ununoctium</div></td>	
+					<td class="element"><div id="Uuo" class="number">118</div><div class="symbol">Uuo</div><div class="name">Ununoctium</div></td>
 				</tr>
 				<tr>
 					<td class="empty spacer"></td>
@@ -278,7 +278,8 @@
 					<td class="empty"></td>
 				</tr>
 				</table>
-				<p>Note: elements can be created in more than one process.</p>
+				<p>Notes: elements can be created in more than one process. "Supernovae" includes both core collapse and white dwarf (type Ia) supernovae. "Low-mass star deaths" represents the <a href="https://en.wikipedia.org/wiki/S-process">s-process</a>. "Merging neutron stars" indicates the <a href="https://en.wikipedia.org/wiki/R-process">r-process</a>.</p>
+				<p>October 2017: Updated based on this <a href='http://blog.sdss.org/2017/01/09/origin-of-the-elements-in-the-solar-system/'>SDSS blog post</a> by Jennifer Johnson.</p>
 				</div>
 			</div>
 		</div>

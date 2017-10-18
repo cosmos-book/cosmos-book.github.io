@@ -1,98 +1,98 @@
 Symbol,Element,Type,Periodic Table Column,Periodic Table Row,Created,Human role (wikipedia)
 H,Hydrogen,Non-metal,1,1,Big Bang,Basic
-He,Helium,Non-metal,18,1,Big Bang;Stars;Massive stars;Supernovae,
-Li,Lithium,Metal,1,2,Big Bang,Functional
-Be,Beryllium,Metal,2,2,Big Bang,
-B,Boron,Metalloid,13,2,Big Bang,Functional
-C,Carbon,Non-metal,14,2,Stars;Massive stars;Supernovae,Basic
-N,Nitrogen,Non-metal,15,2,Stars;Massive stars;Supernovae,Basic
-O,Oxygen,Non-metal,16,2,Stars;Massive stars;Supernovae,Basic
-F,Fluorine,Non-metal,17,2,Massive stars;Supernovae,Functional
-Ne,Neon,Non-metal,18,2,Stars;Massive stars;Supernovae,
-Na,Sodium,Metal,1,3,Massive stars;Supernovae,Quantity
-Mg,Magnesium,Metal,2,3,Massive stars;Supernovae,Quantity
-Al,Aluminum,Metal,13,3,Massive stars;Supernovae,
-Si,Silicon,Metalloid,14,3,Massive stars;Supernovae,Functional
-P,Phosphorus,Non-metal,15,3,Massive stars;Supernovae,Quantity
-S,Sulfur,Non-metal,16,3,Massive stars;Supernovae,Quantity
-Cl,Chlorine,Non-metal,17,3,Massive stars;Supernovae,Quantity
-Ar,Argon,Non-metal,18,3,Massive stars;Supernovae,
-K,Potassium,Metal,1,4,Massive stars;Supernovae,Quantity
-Ca,Calcium,Metal,2,4,Massive stars;Supernovae,Quantity
-Sc,Scandium,Metal,3,4,Massive stars;Supernovae,
-Ti,Titanium,Metal,4,4,Massive stars;Supernovae,
-V,Vanadium,Metal,5,4,Massive stars;Supernovae,Functional
-Cr,Chromium,Metal,6,4,Massive stars;Supernovae,Functional
-Mn,Manganese,Metal,7,4,Massive stars;Supernovae,Trace
-Fe,Iron,Metal,8,4,Massive stars;Supernovae,Trace
-Co,Cobalt,Metal,9,4,Massive stars;Supernovae,Trace
-Ni,Nickel,Metal,10,4,Massive stars;Supernovae,Trace
-Cu,Copper,Metal,11,4,Massive stars;Supernovae,Trace
-Zn,Zinc,Metal,12,4,Massive stars;Supernovae,Trace
-Ga,Gallium,Metal,13,4,Massive stars;Supernovae,
-Ge,Germanium,Metalloid,14,4,Massive stars;Supernovae,
-As,Arsenic,Metalloid,15,4,Massive stars;Supernovae,Functional
-Se,Selenium,Non-metal,16,4,Supernovae,Trace
-Br,Bromine,Non-metal,17,4,Supernovae,Trace
-Kr,Krypton,Non-metal,18,4,Supernovae,
-Rb,Rubidium,Metal,1,5,Supernovae,
-Sr,Strontium,Metal,2,5,Massive stars;Supernovae,Functional
-Y,Yttrium,Metal,3,5,Massive stars;Supernovae,
-Zr,Zirconium,Metal,4,5,Massive stars;Supernovae,
-Nb,Niobium,Metal,5,5,Massive stars;Supernovae,
-Mo,Molybdenum,Metal,6,5,Massive stars;Supernovae,Trace
+He,Helium,Non-metal,18,1,Big Bang;Low-mass stars;Low-mass star deaths;Massive stars;Supernovae (Massive stars),
+Li,Lithium,Metal,1,2,Big Bang;Low-mass stars;Radioactive Decay;Low-mass star deaths,Functional
+Be,Beryllium,Metal,2,2,Radioactive Decay,
+B,Boron,Metalloid,13,2,Radioactive Decay,Functional
+C,Carbon,Non-metal,14,2,Low-mass stars;Low-mass star deaths;Massive stars;Supernovae (Massive stars),Basic
+N,Nitrogen,Non-metal,15,2,Low-mass stars;Low-mass star deaths;Massive stars;Supernovae (Massive stars),Basic
+O,Oxygen,Non-metal,16,2,Low-mass stars;Massive stars;Supernovae (Massive stars),Basic
+F,Fluorine,Non-metal,17,2,Supernovae (Massive stars),Functional
+Ne,Neon,Non-metal,18,2,Massive stars;Supernovae (Massive stars),
+Na,Sodium,Metal,1,3,Massive stars;Supernovae (Massive stars),Quantity
+Mg,Magnesium,Metal,2,3,Massive stars;Supernovae (Massive stars),Quantity
+Al,Aluminum,Metal,13,3,Massive stars;Supernovae (Massive stars),
+Si,Silicon,Metalloid,14,3,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Functional
+P,Phosphorus,Non-metal,15,3,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Quantity
+S,Sulfur,Non-metal,16,3,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Quantity
+Cl,Chlorine,Non-metal,17,3,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Quantity
+Ar,Argon,Non-metal,18,3,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),
+K,Potassium,Metal,1,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Quantity
+Ca,Calcium,Metal,2,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Quantity
+Sc,Scandium,Metal,3,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),
+Ti,Titanium,Metal,4,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),
+V,Vanadium,Metal,5,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Functional
+Cr,Chromium,Metal,6,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Functional
+Mn,Manganese,Metal,7,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Fe,Iron,Metal,8,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Co,Cobalt,Metal,9,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Ni,Nickel,Metal,10,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Cu,Copper,Metal,11,4,Massive stars;Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Zn,Zinc,Metal,12,4,Supernovae (Massive stars);Supernovae (white dwarfs),Trace
+Ga,Gallium,Metal,13,4,Supernovae (Massive stars),
+Ge,Germanium,Metalloid,14,4,Supernovae (Massive stars),
+As,Arsenic,Metalloid,15,4,Supernovae (Massive stars),Functional
+Se,Selenium,Non-metal,16,4,Supernovae (Massive stars),Trace
+Br,Bromine,Non-metal,17,4,Supernovae (Massive stars),Trace
+Kr,Krypton,Non-metal,18,4,Supernovae (Massive stars),
+Rb,Rubidium,Metal,1,5,Supernovae (Massive stars),
+Sr,Strontium,Metal,2,5,Low-mass star deaths;Supernovae (Massive stars),Functional
+Y,Yttrium,Metal,3,5,Low-mass star deaths;Supernovae (Massive stars),
+Zr,Zirconium,Metal,4,5,Low-mass star deaths;Massive stars,
+Nb,Niobium,Metal,5,5,Low-mass star deaths;Merging neutron stars,
+Mo,Molybdenum,Metal,6,5,Low-mass star deaths;Merging neutron stars,Trace
 Tc,Technetium,Metal,7,5,Radioactive decay,
-Ru,Ruthenium,Metal,8,5,Massive stars;Supernovae,
-Rh,Rhodium,Metal,9,5,Massive stars;Supernovae,
-Pd,Palladium,Metal,10,5,Massive stars;Supernovae,
-Ag,Silver,Metal,11,5,Massive stars;Supernovae,
-Cd,Cadmium,Metal,12,5,Massive stars;Supernovae,
-In,Indium,Metal,13,5,Massive stars;Supernovae,
-Sn,Tin,Metal,14,5,Massive stars;Supernovae,
-Sb,Antimony,Metalloid,15,5,Massive stars;Supernovae,
-Te,Tellurium,Metalloid,16,5,Supernovae,
-I,Iodine,Non-metal,17,5,Supernovae,Trace
-Xe,Xenon,Non-metal,18,5,Supernovae,
-Cs,Caesium,Metal,1,6,Supernovae,
-Ba,Barium,Metal,2,6,Massive stars;Supernovae,
-La,Lanthanum,Metal,3,9,Massive stars;Supernovae,
-Ce,Cerium,Metal,4,9,Massive stars;Supernovae,
-Pr,Praseodymium,Metal,5,9,Massive stars;Supernovae,
-Nd,Neodymium,Metal,6,9,Massive stars;Supernovae,
+Ru,Ruthenium,Metal,8,5,Low-mass star deaths;Merging neutron stars,
+Rh,Rhodium,Metal,9,5,Low-mass star deaths;Merging neutron stars,
+Pd,Palladium,Metal,10,5,Low-mass star deaths;Merging neutron stars,
+Ag,Silver,Metal,11,5,Low-mass star deaths;Merging neutron stars,
+Cd,Cadmium,Metal,12,5,Low-mass star deaths;Merging neutron stars,
+In,Indium,Metal,13,5,Low-mass star deaths;Merging neutron stars,
+Sn,Tin,Metal,14,5,Low-mass star deaths;Merging neutron stars,
+Sb,Antimony,Metalloid,15,5,Low-mass star deaths;Merging neutron stars,
+Te,Tellurium,Metalloid,16,5,Low-mass star deaths;Merging neutron stars,
+I,Iodine,Non-metal,17,5,Low-mass star deaths;Merging neutron stars,Trace
+Xe,Xenon,Non-metal,18,5,Low-mass star deaths;Merging neutron stars,
+Cs,Caesium,Metal,1,6,Low-mass star deaths;Merging neutron stars,
+Ba,Barium,Metal,2,6,Low-mass star deaths;Merging neutron stars,
+La,Lanthanum,Metal,3,9,Low-mass star deaths;Merging neutron stars,
+Ce,Cerium,Metal,4,9,Low-mass star deaths;Merging neutron stars,
+Pr,Praseodymium,Metal,5,9,Low-mass star deaths;Merging neutron stars,
+Nd,Neodymium,Metal,6,9,Low-mass star deaths;Merging neutron stars,
 Pm,Promethium,Metal,7,9,Radioactive decay,
-Sm,Samarium,Metal,8,9,Massive stars;Supernovae,
-Eu,Europium,Metal,9,9,Massive stars;Supernovae,
-Gd,Gadolinium,Metal,10,9,Supernovae,
-Tb,Terbium,Metal,11,9,Supernovae,
-Dy,Dysprosium,Metal,12,9,Supernovae,
-Ho,Holmium,Metal,13,9,Supernovae,
-Er,Erbium,Metal,14,9,Supernovae,
-Tm,Thulium,Metal,15,9,Supernovae,
-Yb,Ytterbium,Metal,16,9,Massive stars;Supernovae,
-Lu,Lutetium,Metal,17,9,Massive stars;Supernovae,
-Hf,Hafnium,Metal,4,6,Massive stars;Supernovae,
-Ta,Tantalum,Metal,5,6,Massive stars;Supernovae,
-W,Tungsten,Metal,6,6,Massive stars;Supernovae,
-Re,Rhenium,Metal,7,6,Supernovae,
-Os,Osmium,Metal,8,6,Supernovae,
-Ir,Iridium,Metal,9,6,Supernovae,
-Pt,Platinum,Metal,10,6,Supernovae,
-Au,Gold,Metal,11,6,Supernovae,
-Hg,Mercury,Metal,12,6,Massive stars;Supernovae,
-Tl,Thallium,Metal,13,6,Massive stars;Supernovae,
-Pb,Lead,Metal,14,6,Supernovae,
-Bi,Bismuth,Metal,15,6,Supernovae,
-Po,Polonium,Metalloid,16,6,Radioactive decay,
-At,Astatine,Non-metal,17,6,Radioactive decay,
-Rn,Radon,Non-metal,18,6,Radioactive decay,
-Fr,Francium,Metal,1,7,Radioactive decay,
-Ra,Radium,Metal,2,7,Radioactive decay,
-Ac,Actinium,Metal,3,10,Radioactive decay,
-Th,Thorium,Metal,4,10,Supernovae,
-Pa,Protactinium,Metal,5,10,Radioactive decay,
-U,Uranium,Metal,6,10,Supernovae,
-Np,Neptunium,,7,10,Radioactive decay,
-Pl,Plutonium,,8,10,Supernovae,
+Sm,Samarium,Metal,8,9,Low-mass star deaths;Merging neutron stars,
+Eu,Europium,Metal,9,9,Low-mass star deaths;Merging neutron stars,
+Gd,Gadolinium,Metal,10,9,Low-mass star deaths;Merging neutron stars,
+Tb,Terbium,Metal,11,9,Low-mass star deaths;Merging neutron stars,
+Dy,Dysprosium,Metal,12,9,Low-mass star deaths;Merging neutron stars,
+Ho,Holmium,Metal,13,9,Low-mass star deaths;Merging neutron stars,
+Er,Erbium,Metal,14,9,Low-mass star deaths;Merging neutron stars,
+Tm,Thulium,Metal,15,9,Low-mass star deaths;Merging neutron stars,
+Yb,Ytterbium,Metal,16,9,Low-mass star deaths;Merging neutron stars,
+Lu,Lutetium,Metal,17,9,Low-mass star deaths;Merging neutron stars,
+Hf,Hafnium,Metal,4,6,Low-mass star deaths;Merging neutron stars,
+Ta,Tantalum,Metal,5,6,Low-mass star deaths;Merging neutron stars,
+W,Tungsten,Metal,6,6,Low-mass star deaths;Merging neutron stars,
+Re,Rhenium,Metal,7,6,Low-mass star deaths;Merging neutron stars,
+Os,Osmium,Metal,8,6,Low-mass star deaths;Merging neutron stars,
+Ir,Iridium,Metal,9,6,Low-mass star deaths;Merging neutron stars,
+Pt,Platinum,Metal,10,6,Low-mass star deaths;Merging neutron stars,
+Au,Gold,Metal,11,6,Low-mass star deaths;Merging neutron stars,
+Hg,Mercury,Metal,12,6,Low-mass star deaths;Merging neutron stars,
+Tl,Thallium,Metal,13,6,Low-mass star deaths;Merging neutron stars,
+Pb,Lead,Metal,14,6,Low-mass star deaths;Merging neutron stars,
+Bi,Bismuth,Metal,15,6,Merging neutron stars,
+Po,Polonium,Metalloid,16,6,Radioactive decay;Merging neutron stars,
+At,Astatine,Non-metal,17,6,Radioactive decay;Merging neutron stars,
+Rn,Radon,Non-metal,18,6,Radioactive decay;Merging neutron stars,
+Fr,Francium,Metal,1,7,Radioactive decay;Merging neutron stars,
+Ra,Radium,Metal,2,7,Radioactive decay;Merging neutron stars,
+Ac,Actinium,Metal,3,10,Radioactive decay;Merging neutron stars,
+Th,Thorium,Metal,4,10,Supernovae (Massive stars);Merging neutron stars,
+Pa,Protactinium,Metal,5,10,Radioactive decay;Merging neutron stars,
+U,Uranium,Metal,6,10,Supernovae (Massive stars);Merging neutron stars,
+Np,Neptunium,,7,10,Radioactive decay;Merging neutron stars,
+Pl,Plutonium,,8,10,Supernovae (Massive stars);Merging neutron stars,
 Am,Americium,,9,10,Radioactive decay,
 Cm,Curium,,10,10,Radioactive decay,
 Bk,Berkelium,,11,10,Radioactive decay,

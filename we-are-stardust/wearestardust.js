@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var table;
 	var categories = {};
 	var toggles = new Toggler({'click':updatePeriodicTable});
-	
+
 	function parseFile(d,attrs){
 		//He,Helium,Non-metal,18,1,Big Bang; Stars; Massive stars; Supernovae,
 		table = CSV2JSON(d,[
@@ -15,27 +15,29 @@ $(document).ready(function(){
 			{'name':'created','format':'string'},
 			{'name':'humanrole','format':'string'}
 		]);
-		
+
 		for(var i = 0; i < table.length; i++){
 			if(!table[i].created) table[i].created = "";
+			table[i].created = table[i].created.replace(/\(.*\)/g,'')
 			table[i].created = table[i].created.split(";");
 
 			var td = $('#'+table[i].symbol).parent();
 			for(var j = 0; j < table[i].created.length; j++){
-				var tmp = table[i].created[j].toLowerCase().replace(' ','_');
+				// var tmp = table[i].created[j].toLowerCase().replace(/\(.*\)/g,'').replace(/ /g,'_');
+				var tmp = table[i].created[j].toLowerCase().replace(/[\(\)]/g,'').replace(/ /g,'_');
 				if(tmp){
 					if(!categories[tmp]) categories[tmp] = {'name':table[i].created[j]};
 					table[i].created[j] = tmp;
 				}
 			}
 		}
-		
+
 		// Add toggles for each category
 		$('table.periodic').before('<ul class="key"><li class="keyitem"><span class="keylabel">Formed in:</span></li></ul>');
 		for(c in categories){
 			$('.key').append('<li class="keyitem" id="'+c+'"><div class="keylabel control">'+categories[c].name+'</div></li>');
 			toggles.create($('#'+c),c,{
-				"off": {"label":"off","checked": true }, 
+				"off": {"label":"off","checked": true },
 				"on": { "label":"on" }
 			});
 		}
@@ -46,7 +48,7 @@ $(document).ready(function(){
 
 		// Switch the Big Bang on
 		toggles.change('big_bang','on');
-		
+
 	}
 
 	$('.noscript').remove();
