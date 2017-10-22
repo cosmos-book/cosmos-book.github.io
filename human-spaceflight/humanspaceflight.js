@@ -1,4 +1,4 @@
-// Creates an x-y data plot. The data points are created as <a> elements 
+// Creates an x-y data plot. The data points are created as <a> elements
 // within a holding element. The data file can be provided in the HTML
 // document as a 'data' attribute of an element with the ID 'data'
 var series;
@@ -13,7 +13,7 @@ var series;
 	// Categories used to update DOM elements with the total for that category e.g. class="<category>_count"
 	var categories = ['astronaut','cosmonaut','taikonaut','international','tourist','inorbit'];
 
-	// Define the order of the columns in the data file. The key for a column is set by 
+	// Define the order of the columns in the data file. The key for a column is set by
 	// 'name'. An optional 'format' can be provided.
 	var data_format = [{'name':'name'},{'name':'country'},{'name':'gender'},{'name':'dob','format':'date'},{'name':'time_space_days','format':'number'},{'name':'time_space','format':'number'},{'name':'time_eva','format':'number'},{'name':'launches','format':'number'},{'name':'evas','format':'number'},{'name':'firstlaunch','format':'date'},{'name':'time_dilation','format':'number'},{'name':'firstlaunch_age','format':'number'},{'name':'qualifications','format':'string'},{'name':'missions','format':'string'},{'name':'longest_trip','format':'number'},{'name':'distance','format':'number'},{'name':'eva_string','format':'string'},{'name':'category','format':'string'},{'name':'file','format':'string'},{'name':'inspaceasof','format':'date'},{'name':'twitter','format':'string'}];
 
@@ -87,8 +87,49 @@ var series;
 			'scale': 'linear',
 			'step': 1
 		},
-		'country': {},
-		'gender': {}
+		'country': {
+			'gridlines':function(d){
+				countries=[];
+				cnum=[];
+				ntot=0;
+				for(var i = 0; i < series.length; i++){
+					if (series[i].showongraph){
+						ntot++;
+						c=series[i].country;
+						idx=countries.indexOf(c);
+						if(idx>=0){cnum[idx]++;}
+						else{countries.push(c);cnum.push(1);}
+					}
+				}
+				var html="";
+				cumul=0;
+				cumularr=[]
+				for(var j = 0; j < countries.length; j++){
+					c=countries[j];
+					html += '<div class="gridline" style="'+styleGridLine(d.axis,cumul/ntot)+'"><span class="label">'+((cnum[j]>25)?cc[countries[j]]:"")+'<\/span><\/div>';
+					cumul+=cnum[j];
+					cumularr.push(cumul);
+				}
+				return html;
+			}
+		},
+		'gender': {
+			'gridlines':function(d){
+				var nfem=0;
+				var ntot=0;
+				for(var i = 0; i < series.length; i++){
+					if (series[i].showongraph){
+						ntot++;
+						nfem+=(series[i].gender=='Female')?1:0;
+					}
+					// if (series[i].gender=='Female') nfem++;
+				}
+				var html = "";
+				html += '<div class="gridline" style="'+styleGridLine(d.axis,0)+'"><span class="label">'+'Female'+'<\/span><\/div>';
+				html += '<div class="gridline" style="'+styleGridLine(d.axis,nfem/ntot)+'"><span class="label">'+'Male'+'<\/span><\/div>';
+				return html;
+			}
+		}
 	}
 
 	// ISO (and other) country code conversion
@@ -130,8 +171,8 @@ var series;
 	}
 	var filter = { 'by':'name', 'placeholder': 'Filter by name e.g. \'Armstrong\'' };
 	//####################################################
-	
-	
+
+
 	// Some variables that will be used later
 	var xaxis;
 	var yaxis;
@@ -140,12 +181,12 @@ var series;
 	// Once the DOM is available for use we call this
 	$(document).ready(function(){
 
-		// Extract the relative path from the 'href' or 'data' attribute of the element 
+		// Extract the relative path from the 'href' or 'data' attribute of the element
 		// identified by the selector. Allows you to put this path in the HTML. Alternatively,
 		// you can just hard-code the path here.
-		var filename = getDataPath('#data'); 
+		var filename = getDataPath('#data');
 
-		// Load the data file and call the function in the second argument once loaded. 
+		// Load the data file and call the function in the second argument once loaded.
 		// Other data/attributes can be sent in the third argument.
 		loadFILE(filename,parseData,{},"text");
 
@@ -416,7 +457,7 @@ var series;
 				// Get the ID of the item selected
 				var id = parseInt($(this).attr('id'));
 				for(var i = 0; i < series.length; i++){ if(series[i].id==id) break; }
-				
+
 				return (typeof fn.tooltip==="function") ? fn.tooltip.call(this,series[i]) : '';
 			}
 		});
@@ -521,7 +562,6 @@ var series;
 
 		$('.xaxis').html(makeGridLines("x",xaxis,mx_x,mn_x));
 		$('.yaxis').html(makeGridLines("y",yaxis,mx_y,mn_y));
-
 	}
 
 	function getX(v,axis,mn,mx){
@@ -578,7 +618,7 @@ var series;
 				}
 			}
 		}
-	
+
 		return html;
 	}
 
