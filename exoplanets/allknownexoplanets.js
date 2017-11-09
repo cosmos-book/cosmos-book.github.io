@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var w = $('#holder').width()-1;
-	var h = w*0.6;
+	var h = w*0.7;
 	var mid = {'x': w/2,'y':h/2};
 	var loaded = 0;
 	var exo;
