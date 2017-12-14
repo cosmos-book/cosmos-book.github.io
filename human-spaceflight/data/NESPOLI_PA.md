@@ -21,7 +21,7 @@ missions:
     time_end:     2011-05-24T02:28Z
   - name: Soyuz MS-05
     time_start:   2017-07-26T15:41:12Z
-    time_end:     
+    time_end:     2017-12-14T08:37Z
 evas:
 gender:	Male
 ---

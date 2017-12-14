@@ -3,6 +3,7 @@ category:	cosmonaut
 name:	RYAZANSKY, Sergei Nikolayevich
 type:	civilian
 dob:	1974-11-13
+twitter:	SergeyISS
 birthplace:
   - name:	Moscow, Russia
     latitude:	55.741638
@@ -18,7 +19,7 @@ missions:
     time_end:     2014-03-11T03:25Z
   - name: Soyuz MS-05
     time_start:   2017-07-26T15:41:12Z
-    time_end:     
+    time_end:     2017-12-14T08:37Z
 evas:
   - time_start: 2013-11-09T14:34Z
     time_end:   2013-11-09T20:24Z
