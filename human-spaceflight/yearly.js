@@ -30,10 +30,20 @@ $(document).ready(function(){
 		return (t/(365.25*86400000));
 	}
 	function parseIt(data){
-	
+
 		var now = new Date();
 		var updatedate = new Date('1900-01-01T00:00:00Z');
 		var d,time,longest,launch,land,tmp;
+		var element = document.createElement('div');
+		for(name in data) {
+			element.innerHTML = name;
+			namesafe = element.innerHTML;
+			if(namesafe != name){
+				data[namesafe] = data[name];
+				delete data[name];
+			}
+		}
+
 		for(name in data) {
 			tmp = {};
 			tmp = data[name];
@@ -105,21 +115,21 @@ $(document).ready(function(){
 				var name = $(this).attr('title');
 				
 				var a = data[name];
-				var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
-				text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
-				text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
-				text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
-				text += '<tr><td>Age at first launch:<\/td><td>'+Math.floor(a.firstlaunch_age)+' years<\/td><\/tr>';
-				text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
-				text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days.toFixed(2)+' days<\/td><\/tr>';
-				if(a.time_eva > 0) text += '<tr><td>Total <dfn title="Extra-vehicular activity - space walks">EVA</dfn>:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+'h '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+'m<\/td><\/tr>';
-				text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
-				if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter+'">@'+a.twitter+'</a><\/td><\/tr>';
-				if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
-				text += '<\/table>';
-				text += '<a href="'+dir+a.file+'" class="repo">data file<\/a>';
-
-
+				if(a){
+					var text = '<div class="stripe '+a.category+'"><\/div><h3>'+a.name+'<\/h3><table>';
+					text += '<tr><td>Gender:<\/td><td>'+a.gender+'<\/td><\/tr>';
+					text += '<tr><td>Country:<\/td><td>'+formatArray(a.country,cc)+'<\/td><\/tr>';
+					text += '<tr><td>Year of birth:<\/td><td>'+a.dob.getFullYear()+'<\/td><\/tr>';
+					text += '<tr><td>Age at first launch:<\/td><td>'+Math.floor(a.firstlaunch_age)+' years<\/td><\/tr>';
+					text += '<tr><td>Launches:<\/td><td>'+a.launches+'<\/td><\/tr>';
+					text += '<tr><td>Time in space:<\/td><td>'+a.time_space_days.toFixed(2)+' days<\/td><\/tr>';
+					if(a.time_eva > 0) text += '<tr><td>Total <dfn title="Extra-vehicular activity - space walks">EVA</dfn>:<\/td><td>'+parseInt(a.eva_string.substr(0,a.eva_string.lastIndexOf(":")))+'h '+parseInt(a.eva_string.substr(a.eva_string.lastIndexOf(":")+1))+'m<\/td><\/tr>';
+					text += '<tr><td>Missions:<\/td><td>'+formatArray(a.missions)+'<\/td><\/tr>';
+					if(a.twitter) text += '<tr><td>Twitter:<\/td><td><a href="https://twitter.com/'+a.twitter+'">@'+a.twitter+'</a><\/td><\/tr>';
+					if(a.inspaceasof != null) text += '<tr><td>Notes:<\/td><td>Currently in space<\/td><\/tr>';
+					text += '<\/table>';
+					text += '<a href="'+dir+a.file+'" class="repo">data file<\/a>';
+				}
 				return text;
 			}
 		});

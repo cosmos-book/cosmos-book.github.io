@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	CHRÉTIEN, Jean-Loup Jacques Marie
+name:	CHR&Eacute;TIEN, Jean-Loup Jacques Marie
 type:	military
 dob:	1938-08-20
 birthplace:

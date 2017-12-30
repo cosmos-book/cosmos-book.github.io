@@ -134,8 +134,8 @@
 * **CHIAO, Leroy**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHILTON, Kevin P., General**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHIRKIN, Viktor Martynovich**: http://www.spacefacts.de/bios/cosmonauts/english/chirkin_viktor.htm
-* **CHRÉTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
-* **CHRÉTIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm
+* **CHR&Eacute;TIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
+* **CHR&Eacute;TIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm
 * **CHUB, Nikolai Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/chub_nikolai.htm
 * **CLARK, Laurel B.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CLEAVE, Mary L.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -736,7 +736,7 @@
 * **SURAYEV, Maksim Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/surayev_maksim.htm
 * **SWANSON, Steven R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SWIGERT, John L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **TAMAYO MéNDEZ, Arnaldo 'Guasso'**: http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
+* **TAMAYO M&eacute;NDEZ, Arnaldo 'Guasso'**: http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
 * **TANG, Hongbo**: http://www.spacefacts.de/bios/international/english/tang_hongbo.htm
 * **TANI, Daniel M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TANNER, Joseph R.**: http://www.nasa.gov/pdf/740566main_current.pdf

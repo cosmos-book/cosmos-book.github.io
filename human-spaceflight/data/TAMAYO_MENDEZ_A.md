@@ -1,6 +1,6 @@
 ---
 category:	international
-name:	TAMAYO MéNDEZ, Arnaldo 'Guasso'
+name:	TAMAYO M&eacute;NDEZ, Arnaldo 'Guasso'
 type:	military
 dob:	1942-01-29
 birthplace:

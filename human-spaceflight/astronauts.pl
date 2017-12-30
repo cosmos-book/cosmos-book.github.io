@@ -223,18 +223,16 @@ foreach $file (sort(@files)){
 				# Work out the years the astronaut is in space
 				$launch =~ /^([0-9]{4})/;
 				$y = $1;
-				addToYear($y,$gender,$category,$name);
+				addToYear($y,$gender,$category,$name,$country,$firstlaunch);
 
 				$land =~ /^([0-9]{4})/;
 				if($1 ne $y){
 					$y2 = $1;
 					$added = 0;
-if($name =~ /PEAKE/){
-	print "\tTim Peake : $land $y $y2 $ytemp\n";
-}
+					
 					# Loop over the years of the mission
 					for($ytemp = $y+1 ; $ytemp <= $y2; $ytemp++){
-						addToYear($ytemp,$gender,$category,$name);
+						addToYear($ytemp,$gender,$category,$name,$country,$firstlaunch);
 						$added++;
 					}
 					if($added > 2){ print "TOO MANY YEARS FOR $name\n"; }
@@ -430,6 +428,7 @@ close(HTML);
 
 
 open(HTML,'>','yearly.html');
+%firsts;
 $inmain = 0;
 $indent = "";
 foreach $line (@lines){
@@ -443,15 +442,30 @@ foreach $line (@lines){
 		print HTML $indent."\t<tr><td class=\"female\">Female astronauts</td><td class=\"year\">Year</td><td class=\"male\">Male astronauts</td></tr>\n";
 		foreach $y (sort(keys(%byyear))){
 			if($y){
+				@{$byyear{$y}{'Male'}{'cls'}} = sort(@{$byyear{$y}{'Male'}{'cls'}});
 				print HTML $indent."\t<tr><td class=\"female\"><span class=\"number\">$byyear{$y}{'Female'}{'total'}</span> ";
 				for($i = 0; $i < $byyear{$y}{'Female'}{'total'}; $i++){
-					($cls,$nme) = split(/\=\=/,$byyear{$y}{'Female'}{'cls'}[$i]);
-					print HTML "<span class=\"human $cls\" title=\"$nme\">&nbsp;</span>";
+					($firstlaunch,$cls,$nme,$country) = split(/\=\=/,$byyear{$y}{'Female'}{'cls'}[$i]);
+					$str = "human $cls";
+					(@cs) = split(/;/,$country);
+					for($c = 0; $c < @cs; $c++){
+						#$str .= " country-$cs[$c]";
+						if(!$firsts{$cs[$c].'-female'}){ $str .= " first"; }
+						$firsts{$cs[$c].'-female'} = 1;
+					}
+					print HTML "<span class=\"$str\" title=\"$nme\">&nbsp;</span>";
 				}
 				print HTML "</td><td class=\"year\"><span class=\"number\">$y</span></td><td class=\"male\">";
 				for($i = 0; $i < $byyear{$y}{'Male'}{'total'}; $i++){
-					($cls,$nme) = split(/\=\=/,$byyear{$y}{'Male'}{'cls'}[$i]);
-					print HTML "<span class=\"human $cls\" title=\"$nme\">&nbsp;</span>";
+					($firstlaunch,$cls,$nme,$country) = split(/\=\=/,$byyear{$y}{'Male'}{'cls'}[$i]);
+					$str = "human $cls";
+					(@cs) = split(/;/,$country);
+					for($c = 0; $c < @cs; $c++){
+						#$str .= " country-$cs[$c]";
+						if(!$firsts{$cs[$c].'-male'}){ $str .= " first"; }
+						$firsts{$cs[$c].'-male'} = 1;
+					}
+					print HTML "<span class=\"$str\" title=\"$nme\">&nbsp;</span>";
 				}
 				print HTML "<span class=\"number\">$byyear{$y}{'Male'}{'total'}</span> </td></tr>\n";
 			}
@@ -496,13 +510,16 @@ sub addToYear {
 	local $gender = $_[1];
 	local $category = $_[2];
 	local $name = $_[3];
+	local $country = $_[4];
+	local $firstlaunch = $_[5];
 	
 	if(!$byyear{$y}){ $byyear{$y} = { 'total' => 0 }; }
 	if(!$byyear{$y}{$gender}){ $byyear{$y}{$gender} = { 'total' => 0, 'cls' => () }; }
 
 	$byyear{$y}{'total'}++;
 	$byyear{$y}{$gender}{'total'}++;
-	push(@{$byyear{$y}{$gender}{'cls'}},$category."==".$name);
+	if($country eq "RUS"){ $country = "URS"; }
+	push(@{$byyear{$y}{$gender}{'cls'}},$firstlaunch."==".$category."==".$name."==".$country);
 
 	return;
 }
