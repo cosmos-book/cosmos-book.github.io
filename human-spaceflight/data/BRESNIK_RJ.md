@@ -25,6 +25,12 @@ evas:
     time_end:   2009-11-21T20:39Z
   - time_start: 2009-11-23T13:24Z
     time_end:   2009-11-23T19:06Z
+  - time_start: 2017-10-05T12:05Z
+    time_end:	2017-10-05T19:00Z
+  - time_start: 2017-10-10T12:56Z
+    time_end:	2017-10-10T19:22Z
+  - time_start: 2017-10-20T12:46Z
+    time_end:	2017-10-20T19:36Z
 gender:	Male
 country:
   - USA

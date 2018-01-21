@@ -3620,6 +3620,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [139.683, 35.683]
+			},
+			"properties": {
+				"title": "KANAI, Norishige",
+				"date": "1976",
+				"birthplace": "Tokyo, Japan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KANAI_N.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-93.291557, 37.208969]
 			},
 			"properties": {
@@ -7257,6 +7272,21 @@
 				"date": "1955-05-19",
 				"birthplace": "Groton, Connecticut",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/THUOT_PJ.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-71.28109, 41.94508]
+			},
+			"properties": {
+				"title": "TINGLE, Scott D.",
+				"date": "1965-07-19",
+				"birthplace": "Attleboro, Massachusetts",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/TINGLE_SD.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"

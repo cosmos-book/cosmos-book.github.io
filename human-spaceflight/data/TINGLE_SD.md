@@ -12,7 +12,11 @@ qualifications:
   - BSc in mechanical engineering
 references:
   - http://www.nasa.gov/pdf/740566main_current.pdf
+  - https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
 missions:
+  - name: Soyuz MS-07
+    time_start:   2017-12-17T07:21:00Z
+    time_end:
 evas:
 gender:	Male
 country:

@@ -345,6 +345,7 @@
 * **KALERI, Aleksandr Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kaleri_aleksandr.htm
 * **KALERI, Aleksandr Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kaleri_aleksandr.htm
 * **KANAI, Norishige**: http://www.spacefacts.de/bios/international/english/kanai_norishige.htm
+* **KANAI, Norishige**: https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
 * **KARASHTIN, Vladimir Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/karashtin_vladimir.htm
 * **KARTASHOV, Anatoli Yakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/kartashov_anatoli.htm
 * **KATYS, Georgi Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/katys_georgi.htm
@@ -694,6 +695,7 @@
 * **SHEPHERD, William M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/shkaplerov_anton.htm
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/shkaplerov_anton.htm
+* **SHKAPLEROV, Anton Nikolayevich**: https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
 * **SHONIN, Georgi Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/shonin_georgi.htm
 * **SHRIVER, Loren J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHUTTLEWORTH, Mark Richard 'Buranov'**: http://www.spacefacts.de/bios/international/english/shuttleworth_mark.htm
@@ -753,6 +755,7 @@
 * **THUOT, Pierre J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TIKHONOV, Nikolai Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/tikhonov_nikolai.htm
 * **TINGLE, Scott D.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **TINGLE, Scott D.**: https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
 * **TITOV, German Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/titov_german.htm
 * **TITOV, Vladimir Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/titov_vladimir.htm
 * **TITOV, Vladimir Georgiyevich**: http://www.spacefacts.de/eva/cosmonauts/english/titov_vladimir.htm

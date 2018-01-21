@@ -18,6 +18,10 @@ missions:
     time_start:   2017-09-12T21:17:02Z
     time_end:
 evas:
+  - time_start: 2017-10-05T12:05Z
+    time_end:	2017-10-05T19:00Z
+  - time_start: 2017-10-10T12:56Z
+    time_end:	2017-10-10T19:22Z
 gender:	Male
 country:
   - USA

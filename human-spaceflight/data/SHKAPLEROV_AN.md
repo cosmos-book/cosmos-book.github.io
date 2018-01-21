@@ -13,6 +13,7 @@ country:
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/shkaplerov_anton.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/shkaplerov_anton.htm
+  - https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
 missions:
   - name: Soyuz TMA-22
     time_start:   2011-11-14T04:14:03Z
@@ -20,6 +21,9 @@ missions:
   - name: Soyuz TMA-15M
     time_start:   2014-11-23T21:01:00Z
     time_end:     2015-06-11T13:44Z
+  - name: Soyuz MS-07
+    time_start:   2017-12-17T07:21:00Z
+    time_end:
 evas:
   - time_start: 2012-02-16T14:31Z
     time_end:   2012-02-16T20:46Z
