@@ -199,10 +199,12 @@ $(document).ready(function(){
 		for(var i = 0; i < categories.length; i++){
 			if(totals[categories[i]] < mn) mn = totals[categories[i]];
 		}
+		var totalinspace = 0;
 		for(var c = 0; c < categories.length; c++){
 			var s = Math.ceil(Math.ceil(Math.sqrt(totals[categories[c]]))*w);
 			if(totals[categories[c]]){
 				output += '<tr><td class="number">'+totals[categories[c]]+'</td><td>';// style="width:'+(100/categories.length)+'%;">'//<div class="humans" style="width:'+s+'px;height:'+s+'px;">';
+				totalinspace += totals[categories[c]];
 				for(var i = 0; i < astronauts.length; i++){
 					if(astronauts[i].category.indexOf(categories[c])==0) output += '<a href="'+dir+astronauts[i].file+'" class="human hasdata '+astronauts[i].category+'" title="'+astronauts[i].name+'" data-id="'+astronauts[i].id+'" data-name="'+astronauts[i].name.toLowerCase()+'"><\/a>'
 				}
@@ -211,6 +213,7 @@ $(document).ready(function(){
 		}
 		output += '</table>';
 		$('table.total_category').html(output);
+		$('#totalinspace').html("("+totalinspace+")");
 		
 		// By gender
 		var total = { 'Male': 0, 'Female':0, 'Other':0 }
