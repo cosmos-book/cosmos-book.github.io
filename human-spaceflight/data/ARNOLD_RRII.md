@@ -16,6 +16,9 @@ missions:
   - name: STS-119
     time_start:   2009-03-15T23:43Z
     time_end:     2009-03-28T19:14Z
+  - name: Soyuz MS-08
+    time_start:   2018-03-21T17:44Z
+    time_end:     
 evas:
   - time_start: 2009-03-19T17:16Z
     time_end:   2009-03-19T23:23Z

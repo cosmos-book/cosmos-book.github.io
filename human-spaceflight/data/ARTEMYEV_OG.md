@@ -16,6 +16,9 @@ missions:
   - name: Soyuz TMA-12M
     time_start:   2014-03-25T21:17:23Z
     time_end:     2014-09-11T02:23Z
+  - name: Soyuz MS-08
+    time_start:   2018-03-21T17:44Z
+    time_end:     
 evas:
   - time_start: 2014-06-19T14:10Z
     time_end:   2014-06-19T21:33Z
