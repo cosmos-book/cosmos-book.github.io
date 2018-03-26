@@ -118,7 +118,7 @@ $(document).ready(function(){
 			"Microlensing": {'class':'microlensing','label':'Microlensing','n':0 },
 			"Imaging": {'class':'imaging','label':'Direct Imaging','n':0 },
 			"Astrometry": {'class':'astrometry','label':'Astrometry','n':0 },
-			"other": {'class':'other','colour':'black','n':0 }
+			"Other": {'class':'other','colour':'black','n':0 }
 		}
 		
 		// Draw key
@@ -192,7 +192,7 @@ $(document).ready(function(){
 			.attr("class","exoplanet")
 			.attr("title",function (d,i){ return nodes[i]['P.Name'] })
 			.style("fill", function(d,i){
-				return (methods[d.method]) ? methods[d.method].colour : methods['other'].colour;
+				return (methods[d.method]) ? methods[d.method].colour : methods['Other'].colour;
 			})
 			.attr("data", function(d,i){ return d.index; })
 			.style("fill-opacity",1)
@@ -225,7 +225,7 @@ $(document).ready(function(){
 			.enter().append("circle")
 			.attr("r", function(d) { return d.radius-1; })
 			.attr("class","solar")
-			.style("fill", methods['other'].colour)
+			.style("fill", methods['Other'].colour)
 			.style("fill-opacity",1)
 			.style("stroke-width",0)
 			.style("stroke",0)
