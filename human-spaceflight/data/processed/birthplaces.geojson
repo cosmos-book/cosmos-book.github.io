@@ -455,6 +455,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-86.149963, 39.766911]
+			},
+			"properties": {
+				"title": "AU&Ntilde;&Oacute;N-CHANCELLOR, Serena M.",
+				"date": "1976-04-09",
+				"birthplace": "Indianapolis, Indiana",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/AUNON_SM.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [49.703369, 52.983971]
 			},
 			"properties": {
@@ -5909,6 +5924,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PRECOURT_CJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "PROKOPYEV, Sergei Valerievich",
+				"date": "1975-02-19",
+				"birthplace": "Waltham, Massachusetts",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PROKOPYEV_SV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
 				"marker-symbol": "circle"
 			}
 		},{

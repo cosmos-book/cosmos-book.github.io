@@ -40,7 +40,8 @@
 * **ASHBY, Jeffrey S.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ATKOV, Oleg Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/atkov_oleg.htm
 * **AUBAKIROV, Toktar Ongarbayevich**: http://www.spacefacts.de/bios/cosmonauts/english/aubakirov_toktar.htm
-* **AU&Ntilde;&Oacute;N, Serena M.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **AU&Ntilde;&Oacute;N-CHANCELLOR, Serena M.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **AU&Ntilde;&Oacute;N-CHANCELLOR, Serena M.**: https://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/Follow_the_launch_and_docking_of_ESA_astronaut_Alexander_Gerst
 * **AVDEYEV, Sergei Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/avdeyev_sergei.htm
 * **AVDEYEV, Sergei Vasiliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/avdeyev_sergei.htm
 * **AYMAKHANOV, Mukhtar Rabatovich**: http://www.spacefacts.de/bios/international/english/aymakhanov_mukhtar.htm
@@ -247,6 +248,7 @@
 * **GERNHARDT, Michael L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GERST, Alexander**: http://www.spacefacts.de/bios/international/english/gerst_alexander.htm
 * **GERST, Alexander**: http://www.spacefacts.de/eva/international/english/gerst_alexander.htm
+* **GERST, Alexander**: https://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/Follow_the_launch_and_docking_of_ESA_astronaut_Alexander_Gerst
 * **GEVORKYAN, Vladimir Mkrtychovich**: http://www.spacefacts.de/bios/cosmonauts/english/gevorkyan_vladimir.htm
 * **GIBSON, Edward G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GIBSON, Robert L. 'Hoot'**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -605,6 +607,7 @@
 * **PREOBRAZHENSKY, Vladimir Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/preobrazhensky_vladimir.htm
 * **PRIKHODKO, Yuri Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/prikhodko_yuri.htm
 * **PROKOPYEV, Sergei Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/prokopyev_sergei.htm
+* **PROKOPYEV, Sergei Valerievich**: https://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/Follow_the_launch_and_docking_of_ESA_astronaut_Alexander_Gerst
 * **PRONINA, Irina Rudolfovna**: http://www.spacefacts.de/bios/cosmonauts/english/pronina_irina.htm
 * **PROTCHENKO, Sergei Filippovich**: http://www.spacefacts.de/bios/cosmonauts/english/protchenko_sergei.htm
 * **PRUNARIU, Dumitru Dorin**: http://www.spacefacts.de/bios/international/english/prunariu_dumitru.htm
