@@ -17,11 +17,11 @@ var key = [
 	{'code':['7.2.1.2'],'label':'Partial solar eclipse','colour':colours.purple[0], 'shape':'partialeclipse' },
 	{'code':['7.2.1.3'],'label':'Annular solar eclipse','colour':colours.purple[0], 'shape':'annulareclipse' },
 	{'code':['7.2.1.4'],'label':'Hybrid solar eclipse','colour':colours.purple[0], 'shape':'hybrideclipse' },
-	{'code':['7.2.1.5'],'label':'Annular solar eclipse (bg)','colour':'#e1f4fe', 'shape':'totaleclipse' },
+	{'code':['7.2.1.5'],'label':'Annular solar eclipse (bg)','colour':'#e1f4fe', 'shape':'totaleclipse', 'nokey':true },
 	{'code':['7.2.2.1'],'label':'Total lunar eclipse','colour':colours.blue[0], 'shape':'totaleclipse' },
 	{'code':['7.2.2.2'],'label':'Partial lunar eclipse','colour':colours.blue[0], 'shape':'partialeclipse' },
 	{'code':['7.2.2.3'],'label':'Penumbral lunar eclipse','colour':colours.blue[0], 'shape':'annulareclipse' },
-	{'code':['7.2.2.4'],'label':'Penumbral lunar eclipse (bg)','colour':'#ffffff', 'shape':'totaleclipse' },
+	{'code':['7.2.2.4'],'label':'Penumbral lunar eclipse (bg)','colour':'#ffffff', 'shape':'totaleclipse','nokey':true },
 	{'code':['0'],'label':'Lost / Doesn\'t exist','colour':colours.turquoise[4], 'shape':'none' }
 ];
 

@@ -145,7 +145,7 @@ r(function(){
 		$('#holder').prepend('<ul class="key" id="key"></ul>');
 		// Extract the appropriate keys
 		for(var i = 0; i < key.length; i++){
-			if(key[i].code[0].indexOf('7.2')==0){
+			if((key[i].code[0].indexOf('7.2')==0)&&(!key[i].nokey)){
 				// Append divs to hold key item
 				$('#key').append('<li class="keyitem"><span id="'+key[i].code[0]+'" class="keysymbol"></span><span class="keylabel">'+key[i].label+'</span></li>');
 				canvi.push(Raphael(key[i].code[0],s*2,s*2));
