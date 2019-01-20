@@ -13,7 +13,7 @@ r(function(){
 	var dy = 12;
 	var h = dy*(range.y[1]-range.y[0] + 2) + padd.top + padd.bottom;
 	var mid = {'x': w/2,'y':h/2};
-	
+
 	paper = Raphael("holder", w, h);
 	$('#holder svg').attr('id','canvas');
 	var svg = paper.set();
@@ -47,7 +47,7 @@ r(function(){
 			]);
 		}
 		loaded++;
-		
+
 		if(loaded==2) drawIt();
 	}
 
@@ -80,10 +80,18 @@ r(function(){
 		var dat = (type=="lunar" ? lunar[i] : solar[i]);
 		location.href = 'http://eclipse.gsfc.nasa.gov/OH/OH'+dat.y+'.html\#'+(type=="lunar" ? "LE":"SE")+dat.date.replace(/ /g,'')+''+dat.type[0];
 	}
-	
+
+	// Act as a link
+	function goToPdf(type,i){
+		var dat = (type=="lunar" ? lunar[i] : solar[i]);
+		var t = (type=="lunar" ? "LE":"SE");
+		var mody = dat.y - (dat.y % 50) + 1;
+		location.href = 'http://eclipse.gsfc.nasa.gov/'+t+'plot/'+t+'plot'+mody+'/'+t+dat.date.replace(/ /g,'')+''+dat.type[0]+'.'+(type=="lunar" ? "pdf":"GIF");
+	}
+
 	// Draw the result
 	function drawIt(){
-		
+
 		var minx = 0;
 		var maxx = 366;
 		var miny = range.y[0];
@@ -102,7 +110,7 @@ r(function(){
 			if(solar[i].jd < 2086404.89002) solar[i].d.setFullYear(parseInt(solar[i].date.substr(0,5)))
 			solar[i].y = (solar[i].d ? solar[i].d.getFullYear() : 0);
 		}
-	
+
 		// Work out size of a day
 		dx = parseFloat(((w-padd.left-padd.right)/(maxx+1-range.x[0])).toFixed(1));
 		//dy = parseFloat(((h-padd.top-padd.bottom)/(maxy+1-miny)).toFixed(1));
@@ -170,11 +178,16 @@ r(function(){
 				if(avm){
 					d = new Date(lunar[i].date);
 					attr = {'title':d.toDateString()};
-					if(lunar[i].y >= 1996) attr.cursor = 'pointer';
+					// if((lunar[i].y >= 1996)&&(lunar[i].y <= 2016)) attr.cursor = 'pointer';
+					attr.cursor = 'pointer';
 					p = drawObject(avm,getX(lunar[i].d.getDOY())+(dx/2)+(isLeapYear(lunar[i].y) ? 0 : dx),getY(lunar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
 					var j = i;
-					p.obj.data('i',i).click(function(e){ goTo('lunar',this.data("i")); });
+					if((lunar[i].y >= 1996)&&(lunar[i].y <= 2016)){
+						p.obj.data('i',i).click(function(e){ goTo('lunar',this.data("i")); });
+					}else{
+						p.obj.data('i',i).click(function(e){ goToPdf('lunar',this.data("i")); });
+					}
 				}
 			}
 		}
@@ -190,10 +203,15 @@ r(function(){
 					var j = i;
 					d = new Date(solar[i].date);
 					attr = {'title':d.toDateString()};
-					if(solar[i].y >= 1996) attr.cursor = 'pointer';
+					// if(solar[i].y >= 1996) attr.cursor = 'pointer';
+					attr.cursor = 'pointer';
 					p = drawObject(avm,getX(solar[i].d.getDOY())+(dx/2)+(isLeapYear(solar[i].y) ? 0 : dx),getY(solar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
-					p.obj.data('i',i).click(function(e){ goTo('solar',this.data("i")); });
+					if((solar[i].y >= 1996)&&(solar[i].y <= 2016)){
+						p.obj.data('i',i).click(function(e){ goTo('solar',this.data("i")); });
+					}else{
+						p.obj.data('i',i).click(function(e){ goToPdf('solar',this.data("i")); });
+					}
 				}
 			}
 		}
@@ -206,7 +224,7 @@ r(function(){
 		}
 
 		// Add month labels
-		var day = 1;		
+		var day = 1;
 		for(var m = 0; m < monthnames.length; m++){
 			day += months[m]/2;
 			x = parseFloat(getX(day));
@@ -235,7 +253,7 @@ r(function(){
 	function moonPhase(moondate){
 
 		var Epoch = 2447891.5;
- 
+
  		var JDnow = getJD(moondate);
 
 		// here is where the previous calculations start
