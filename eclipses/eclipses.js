@@ -172,14 +172,23 @@ r(function(){
 		for(var i = 0; i < lunar.length; i++){
 			if(lunar[i].y >= miny && lunar[i].y < maxy){
 				avm = "";
+				avmbg="";
 				if(lunar[i]['type'][0]=='T') avm = "7.2.2.1";
 				if(lunar[i]['type'][0]=='P') avm = "7.2.2.2";
-				if(lunar[i]['type'][0]=='N') avm = "7.2.2.3";
+				if(lunar[i]['type'][0]=='N') {avm = "7.2.2.3";avmbg = "7.2.2.4";}
 				if(avm){
 					d = new Date(lunar[i].date);
 					attr = {'title':d.toDateString()};
 					// if((lunar[i].y >= 1996)&&(lunar[i].y <= 2016)) attr.cursor = 'pointer';
 					attr.cursor = 'pointer';
+					if (avmbg){
+						pbg = drawObject(avmbg,getX(lunar[i].d.getDOY())+(dx/2)+(isLeapYear(lunar[i].y) ? 0 : dx),getY(lunar[i].y)+dy/2,dy*0.4,attr);
+						if((lunar[i].y >= 1996)&&(lunar[i].y <= 2016)){
+							pbg.obj.data('i',i).click(function(e){ goTo('lunar',this.data("i")); });
+						}else{
+							pbg.obj.data('i',i).click(function(e){ goToPdf('lunar',this.data("i")); });
+						}
+					}
 					p = drawObject(avm,getX(lunar[i].d.getDOY())+(dx/2)+(isLeapYear(lunar[i].y) ? 0 : dx),getY(lunar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
 					var j = i;
@@ -195,9 +204,10 @@ r(function(){
 		for(var i = 0; i < solar.length; i++){
 			if(solar[i].y >= miny && solar[i].y < maxy){
 				avm = "";
+				avmbg= "";
 				if(solar[i]['type'][0]=='T') avm = "7.2.1.1";
 				if(solar[i]['type'][0]=='P') avm = "7.2.1.2";
-				if(solar[i]['type'][0]=='A') avm = "7.2.1.3";
+				if(solar[i]['type'][0]=='A'){avm = "7.2.1.3";avmbg = "7.2.1.5"}
 				if(solar[i]['type'][0]=='H') avm = "7.2.1.4";
 				if(avm){
 					var j = i;
@@ -205,6 +215,15 @@ r(function(){
 					attr = {'title':d.toDateString()};
 					// if(solar[i].y >= 1996) attr.cursor = 'pointer';
 					attr.cursor = 'pointer';
+					if (avmbg){
+						pbg = drawObject(avmbg,getX(solar[i].d.getDOY())+(dx/2)+(isLeapYear(solar[i].y) ? 0 : dx),getY(solar[i].y)+dy/2,dy*0.4,attr);
+						// Add event to object
+						if((solar[i].y >= 1996)&&(solar[i].y <= 2016)){
+							pbg.obj.data('i',i).click(function(e){ goTo('solar',this.data("i")); });
+						}else{
+							pbg.obj.data('i',i).click(function(e){ goToPdf('solar',this.data("i")); });
+						}
+					}
 					p = drawObject(avm,getX(solar[i].d.getDOY())+(dx/2)+(isLeapYear(solar[i].y) ? 0 : dx),getY(solar[i].y)+dy/2,dy*0.4,attr);
 					// Add event to object
 					if((solar[i].y >= 1996)&&(solar[i].y <= 2016)){

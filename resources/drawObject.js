@@ -17,9 +17,11 @@ var key = [
 	{'code':['7.2.1.2'],'label':'Partial solar eclipse','colour':colours.purple[0], 'shape':'partialeclipse' },
 	{'code':['7.2.1.3'],'label':'Annular solar eclipse','colour':colours.purple[0], 'shape':'annulareclipse' },
 	{'code':['7.2.1.4'],'label':'Hybrid solar eclipse','colour':colours.purple[0], 'shape':'hybrideclipse' },
+	{'code':['7.2.1.5'],'label':'Annular solar eclipse (bg)','colour':'#e1f4fe', 'shape':'totaleclipse' },
 	{'code':['7.2.2.1'],'label':'Total lunar eclipse','colour':colours.blue[0], 'shape':'totaleclipse' },
 	{'code':['7.2.2.2'],'label':'Partial lunar eclipse','colour':colours.blue[0], 'shape':'partialeclipse' },
 	{'code':['7.2.2.3'],'label':'Penumbral lunar eclipse','colour':colours.blue[0], 'shape':'annulareclipse' },
+	{'code':['7.2.2.4'],'label':'Penumbral lunar eclipse (bg)','colour':'#ffffff', 'shape':'totaleclipse' },
 	{'code':['0'],'label':'Lost / Doesn\'t exist','colour':colours.turquoise[4], 'shape':'none' }
 ];
 
@@ -53,7 +55,7 @@ function getType(avm){
 			if(avm.match("(^|;)"+key[k].code[c])) prop = key[k];
 		}
 	}
-	return prop;	
+	return prop;
 }
 
 
@@ -80,7 +82,7 @@ function getObjectPath(avm,x,y,s,pp,attr){
 	if(prop.shape=="partialeclipse") shape = "m "+(-scale)+","+(-scale*2)+" c "+(-scale/2)+",0 "+(-scale)+","+(scale/2)+" "+(-scale)+","+(scale)+" c 0,"+(scale/2)+" "+(scale/2)+","+scale+" "+scale+","+scale+" l 0,0 c "+(0.085*scale)+",0 "+(0.17*scale)+","+(-0.012*scale)+" "+(0.25*scale)+","+(-0.031*scale)+" c "+(-scale/4)+",0 "+(-scale/2)+","+(-scale/4)+" "+(-scale/2)+","+(-scale)+" c 0,"+(-scale/2)+" "+(scale/4)+","+(-scale)+" "+(scale/2)+","+(-scale)+" z";
 	if(prop.shape=="annulareclipse") shape = "m "+(-scale)+","+(-scale*2)+" c "+(scale/2)+",0 "+(scale)+","+(scale/2)+" "+(scale)+","+(scale)+" c 0,"+(scale/2)+" "+(-scale/2)+","+(scale)+" "+(-scale)+","+(scale)+" c "+(-scale/2)+",0 "+(-scale)+","+(-scale/2)+" "+(-scale)+","+(-scale)+" c 0,"+(-scale/2)+" "+(scale/2)+","+(-scale)+" "+(scale)+","+(-scale)+" m 0,"+(scale/3)+" c "+(-scale/3)+",0 "+(-scale*2/3)+","+(scale/3)+" "+(-scale*2/3)+","+(scale*2/3)+" c 0,"+(scale/3)+" "+(scale/3)+","+(scale*2/3)+" "+(scale*2/3)+","+(scale*2/3)+" c "+(scale/3)+",0 "+(scale*2/3)+","+(-scale/3)+" "+(scale*2/3)+","+(-scale*2/3)+" c 0,"+(-scale/3)+" "+(-scale/3)+","+(-scale*2/3)+" "+(-scale*2/3)+","+(-scale*2/3)+" z";
 	if(prop.shape=="hybrideclipse") shape = "m "+(-scale)+","+(-scale*2)+" c "+(scale/2)+",0 "+(scale)+","+(scale/2)+" "+(scale)+","+(scale)+" c 0,"+(scale/2)+" "+(-scale/2)+","+(scale)+" "+(-scale)+","+(scale)+" c "+(-scale/2)+",0 "+(-scale)+","+(-scale/2)+" "+(-scale)+","+(-scale)+" c 0,"+(-scale/2)+" "+(scale/2)+","+(-scale)+" "+(scale)+","+(-scale)+" m 0,"+(scale/3)+" c "+(-scale/3)+",0 "+(-scale*2/3)+","+(scale/3)+" "+(-scale*2/3)+","+(scale*2/3)+" l "+(scale*4/3)+",0  c 0,"+(-scale/3)+" "+(-scale/3)+","+(-scale*2/3)+" "+(-scale*2/3)+","+(-scale*2/3)+" z";
-	
+
 	if(shape){
 		var bits = shape.split(/[ \,]/);
 		for(var i = 0 ; i < bits.length; i++){
@@ -97,7 +99,7 @@ function getObjectPath(avm,x,y,s,pp,attr){
 	}else{
 		prop.path = "";
 	}
-	
+
 	return prop;
 }
 
