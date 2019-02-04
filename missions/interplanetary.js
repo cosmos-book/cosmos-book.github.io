@@ -52,7 +52,7 @@ r(function(){
 				"missions": 0
 			},
 			"mars": {
-				"pos": getPos(10,2.3),
+				"pos": getPos(10,2.28),
 				"colour":colours.orange[1],
 				"missions": 0,
 				"insertion": "left"
@@ -567,7 +567,12 @@ r(function(){
 				var a = missions[id];
 				a.launch = new Date(a.launch);
 				var text = '<div class="stripe '+(a.failed ? 'failure':'success')+'"><\/div><h3>'+a.name+'<\/h3><table>';
-				text += '<tr><td colspan="2" style="text-align:center;"><img src="images/logo_'+a.agency+'.png" style="width:64px;" />';
+				text += '<tr><td colspan="2" style="text-align:center;">';
+				if(typeof a.agency==="string"){
+					text += '<img src="images/logo_'+a.agency+'.png" style="width:64px;" />';
+				}else{
+					for(var p = 0; p < a.agency.length; p++) text += '<img src="images/logo_'+a.agency[p]+'.png" style="width:64px;" />';
+				}
 				for(var p = 0; p < a.parts.length; p++){
 					if(a.parts[p].agency) text += '<img src="images/logo_'+a.parts[p].agency+'.png" style="width:64px;" />';
 				}
