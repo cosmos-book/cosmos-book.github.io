@@ -11,7 +11,11 @@ references:
 missions:
   - name: Soyuz MS-09
     time_start:   2018-06-06T11:12Z
-    time_end:
+    time_end:	2018-12-20T17:02Z
 evas:
+  - time_start: 2018-08-15T16:17Z
+    time_end:	2018-08-16T00:03Z
+  - time_start: 2018-12-11T15:59Z
+    time_end:	2018-12-11T23:44Z
 gender:	Male
 ---

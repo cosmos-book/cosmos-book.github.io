@@ -20,7 +20,7 @@ missions:
     time_end:     2014-11-10T03:58:00Z
   - name: Soyuz MS-09
     time_start:   2018-06-06T11:12Z
-    time_end:
+    time_end:	2018-12-20T17:02Z
 evas:
   - time_start: 2014-10-07T12:30Z
     time_end:   2014-10-07T18:43Z

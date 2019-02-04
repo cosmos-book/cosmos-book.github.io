@@ -4745,6 +4745,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "MCCLAIN, Anne Charlotte",
+				"date": "1979-06-07",
+				"birthplace": "Boston, Massachusetts",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MCCLAIN_AC.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-117.122002, 32.831699]
 			},
 			"properties": {
@@ -6344,6 +6359,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SACCO_AJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "SAINT-JACQUES, David",
+				"date": "1970-01-06",
+				"birthplace": "Boston, Massachusetts",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SAINT-JACQUES_D.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
 				"marker-symbol": "circle"
 			}
 		},{

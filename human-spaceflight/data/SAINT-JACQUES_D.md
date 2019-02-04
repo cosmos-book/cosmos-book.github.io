@@ -9,6 +9,9 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/saint-jacques_david.htm
 missions:
+  - name: Soyuz MS-11
+    time_start:   2018-12-03T11:31Z
+    time_end:     
 evas:
 gender:	Male
 ---

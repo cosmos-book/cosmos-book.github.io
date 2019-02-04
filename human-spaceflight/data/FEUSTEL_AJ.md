@@ -22,7 +22,7 @@ missions:
     time_end:     2011-06-01T06:36Z
   - name: Soyuz MS-08
     time_start:   2018-03-21T17:44Z
-    time_end:     
+    time_end:     2018-10-04T11:45Z
 evas:
   - time_start: 2011-05-20T07:10Z
     time_end:   2011-05-20T13:29Z
@@ -40,6 +40,8 @@ evas:
     time_end:	2018-03-29T19:43Z
   - time_start:	2018-05-16T11:39Z
     time_end:	2018-05-16T18:10Z
+  - time_start: 2018-06-14T12:06Z
+    time_end:	2018-06-14T18:55Z
 gender:	Male
 country:
   - USA
