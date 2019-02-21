@@ -197,7 +197,7 @@ r(function(){
 				"missions": 0,
 				"insertion": "left"
 			},
-			"(162173) 1999 JU3": {
+			"(162173) Ryugu": {
 				"pos": getPos(13,1),
 				"colour": colours.orange[3],
 				"missions": 0,
@@ -333,7 +333,7 @@ r(function(){
 				if(b=="(9969) Braille") return getCurve(a,b,-90,270,50,50);
 				if(b=="(132524) APL") return getCurve(a,b,270,315,50,100);
 				if(b=="(25143) Itokawa") return getCurve(a,b,270,180,80,100);
-				if(b=="(162173) 1999 JU3") return getCurve(a,b,270,135,80,70);
+				if(b=="(162173) Ryugu") return getCurve(a,b,270,135,80,70);
 				if(b=="(101955) Bennu") return getCurve(a,b,270,135,80,70);
 				return getCurve(a,b,-90,180)
 			}else if(a=="mars"){
