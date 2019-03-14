@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	PROKOPYEV, Sergei Valerievich
 type:	military
 dob:	1975-02-19
+birthplace:
+  - name:	Yekaterinburg / Sverdlovsk Oblast / Russian SFSR
+    latitude:	56.833
+    longitude:	60.583
 country:
   - RUS
 references:

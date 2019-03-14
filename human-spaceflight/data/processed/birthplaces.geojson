@@ -4775,12 +4775,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [-117.42500, 47.65889]
 			},
 			"properties": {
 				"title": "MCCLAIN, Anne Charlotte",
 				"date": "1979-06-07",
-				"birthplace": "Boston, Massachusetts",
+				"birthplace": "Spokane, Washington",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MCCLAIN_AC.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
@@ -5975,12 +5975,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [60.583, 56.833]
 			},
 			"properties": {
 				"title": "PROKOPYEV, Sergei Valerievich",
 				"date": "1975-02-19",
-				"birthplace": "Waltham, Massachusetts",
+				"birthplace": "Yekaterinburg / Sverdlovsk Oblast / Russian SFSR",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PROKOPYEV_SV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",

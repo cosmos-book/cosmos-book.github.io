@@ -490,6 +490,7 @@
 * **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
 * **MAYO, Itzhak**: http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Soyuz_MS-11
+* **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Anne_McClain
 * **MCKAY, Michael John**: http://www.spacefacts.de/bios/international/english/mckay_michael.htm
 * **MEADE, Carl J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELNICK, Bruce E.**: http://www.nasa.gov/pdf/740566main_current.pdf
