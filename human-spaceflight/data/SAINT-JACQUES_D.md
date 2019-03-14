@@ -4,6 +4,10 @@ name:	SAINT-JACQUES, David
 type:	civilian
 dob:	1970-01-06
 twitter:	Astro_DavidS
+birthplace:
+  - name:	Quebec City, Quebec
+    latitude:	46.817
+    longitude:	-71.217
 country:
   - CAN
 references:
