@@ -283,6 +283,7 @@
 * **HABIB, Munir Habib**: http://www.spacefacts.de/bios/international/english/habib_munir.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/eva/international/english/hadfield_chris.htm
+* **HAGUE, Tyler Nicklaus**: https://en.wikipedia.org/wiki/Nick_Hague
 * **HAIGNERÉ, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
@@ -373,6 +374,7 @@
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
 * **KLIMUK, Pyotr Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
+* **KOCH, Christina Hammock**: https://en.wikipedia.org/wiki/Christina_Koch
 * **KOLESNIKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolesnikov_gennadi.htm
 * **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 * **KOLODIN, Pyotr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm

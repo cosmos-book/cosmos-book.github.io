@@ -2945,6 +2945,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-97.63028, 39.82361]
+			},
+			"properties": {
+				"title": "HAGUE, Tyler Nicklaus",
+				"date": "1975-09-24",
+				"birthplace": "Belleville, Kansas",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAGUE_TN.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [4.43189, 46.799278]
 			},
 			"properties": {
@@ -3794,6 +3809,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KLIMUK_PI.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-85.65556, 42.96111]
+			},
+			"properties": {
+				"title": "KOCH, Christina Hammock",
+				"date": "1979-01-29",
+				"birthplace": "Grand Rapids, Michigan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KOCH_CH.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
 			}
 		},{
