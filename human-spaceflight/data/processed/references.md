@@ -385,6 +385,7 @@
 * **KONDRATIYEV, Dmitri Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kondratiyev_dmitri.htm
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
+* **KONONENKO, Oleg Dmitriyevich**: https://twitter.com/Space_Station/status/1143350844911284224
 * **KONONENKO, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
 * **KOPRA, Timothy L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/korniyenko_mikhail.htm

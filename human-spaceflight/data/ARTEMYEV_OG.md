@@ -26,7 +26,5 @@ evas:
     time_end:   2014-08-18T19:13Z
   - time_start: 2018-08-15T16:17Z
     time_end:	2018-08-16T00:03Z
-  - time_start: 2018-12-11T15:59Z
-    time_end:	2018-12-11T23:44Z
 gender:	Male
 ---

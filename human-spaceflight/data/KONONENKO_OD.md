@@ -12,6 +12,7 @@ country:
 references:
   - http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
   - http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
+  - https://twitter.com/Space_Station/status/1143350844911284224
 missions:
   - name: Soyuz TMA-12
     time_start:   2008-04-08T11:16:39Z
@@ -24,7 +25,7 @@ missions:
     time_end:     2015-12-11T13:12:09Z
   - name: Soyuz MS-11
     time_start:   2018-12-03T11:31Z
-    time_end:     
+    time_end:     2019-06-25T02:47Z
 evas:
   - time_start: 2008-07-10
     duration:   6h18m
@@ -32,5 +33,9 @@ evas:
     duration:   5h54m
   - time_start: 2012-02-16
     duration:   6h15m
+  - time_start: 2018-12-11T15:59Z
+    time_end:	2018-12-11T23:44Z
+  - time_start: 2019-05-29T15:42Z
+    time_end:   2019-05-29T21:43Z
 gender:	Male
 ---

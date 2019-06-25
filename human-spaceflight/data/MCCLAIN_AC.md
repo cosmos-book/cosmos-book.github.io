@@ -17,6 +17,10 @@ references:
 missions:
   - name: Soyuz MS-11
     time_start:   2018-12-03T11:31Z
-    time_end:     
+    time_end:     2019-06-25T02:47Z
 evas:
+  - time_start: 2019-03-22T13:01Z
+    time_end:   2019-03-22T19:40Z
+  - time_start: 2019-04-08T11:31Z
+    time_end:   2019-04-08T18:00Z
 ---
