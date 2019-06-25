@@ -135,6 +135,7 @@ function CSV2JSON(data,format,start,end){
 		datum = {};
 		for(var j=0; j < line.length; j++){
 			if(format[j]){
+				line[j] = line[j].replace(/(^\"|\"$)/g,"");
 				if(format[j].format=="number"){
 					if(line[j]!=""){
 						if(line[j]=="infinity" || line[j]=="Inf") datum[format[j].name] = Number.POSITIVE_INFINITY;
