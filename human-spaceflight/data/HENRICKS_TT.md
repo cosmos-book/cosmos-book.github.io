@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	HENDRICKS, Terence T.
+name:	HENRICKS, Terence T.
 type:	military
 dob:	1952-07-05
 birthplace:
