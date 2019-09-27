@@ -21,6 +21,8 @@ evas:
     time_end:   2019-03-22T19:40Z
   - time_start: 2019-03-29T11:42Z
     time_end:   2019-03-29T18:27Z
+  - time_start: 2019-08-21T12:27Z
+    time_end:   2019-08-21T18:59Z
 gender:	Male
 country:
   - USA
