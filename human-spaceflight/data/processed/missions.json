@@ -324,7 +324,7 @@
 	"Soyuz MS-09": { "launch":"2018-06-06T11:12Z","land":"2018-12-20T17:02Z" },
 	"Soyuz MS-08": { "launch":"2018-03-21T17:44Z","land":"2018-10-04T11:45Z" },
 	"Soyuz MS-11": { "launch":"2018-12-03T11:31Z","land":"2019-06-25T02:47Z" },
-	"Soyuz MS-12": { "launch":"2019-03-14T19:14Z","land":"" }
-	"Soyuz MS-13": { "launch":"2019-07-20T16:28Z","land":"" }
+	"Soyuz MS-12": { "launch":"2019-03-14T19:14Z","land":"" },
+	"Soyuz MS-13": { "launch":"2019-07-20T16:28Z","land":"" },
 	"Soyuz MS-15": { "launch":"2019-09-25T13:57Z","land":"" }
 }
