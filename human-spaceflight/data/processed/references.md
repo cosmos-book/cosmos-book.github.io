@@ -11,6 +11,8 @@
 * **AKIYAMA, Toyohiro**: http://www.spacefacts.de/bios/international/english/akiyama_toyohiro.htm
 * **AKSYONOV, Vladimir Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/aksyonov_vladimir.htm
 * **AL-BASSAM, Abdulmohsen Hamad**: http://www.spacefacts.de/bios/international/english/albassam_abdulmohsen.htm
+* **MEIR, Jessica Ulrika 'Goose'**: https://www.nasa.gov/sites/default/files/atoms/files/meir-ju.pdf
+* **MEIR, Jessica Ulrika 'Goose'**: https://en.wikipedia.org/wiki/Jessica_Meir
 * **AL-SAUD, Sultan bin Salman bin Abdulaziz**: http://www.spacefacts.de/bios/international/english/alsaud_salman.htm
 * **ALDRIN, Edwin 'Buzz'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ALEKSANDROV, Aleksandr Panayatov 'Sasha'**: http://www.spacefacts.de/bios/international/english/alexandrov_aleksandr.htm
@@ -291,7 +293,7 @@
 * **HAISE, Fred W., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HALIK, Nikos 'Nik'**: http://www.spacefacts.de/bios/international/english/halik_nik.htm
 * **HALSELL, James D., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **HAMMOND, L. Brain, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HAMMOND, L. Blaine, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HAM, Kenneth T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HANSEN, Jeremy Roger**: http://www.spacefacts.de/bios/international/english/hansen_jeremy.htm
 * **HARBAUGH, Gregory J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -301,15 +303,15 @@
 * **HAUCK, Frederick H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HAWLEY, Steven A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HELMS, Susan J.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **HENDRICKS, Terence T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HENIZE, Karl G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HENNEN, Thomas J. Chief Warrant Officer**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HENRICKS, Terence T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HERMASZEWSKI, Mirosław 'Mirek'**: http://www.spacefacts.de/bios/international/english/hermaszewski_miroslaw.htm
 * **HERNANDEZ, Jose M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HERRINGTON, John B.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HIEB, Richard J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HIGGINBOTHAM, Joan E.**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **HILMERS, David O.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HILMERS, David C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HIRE, Kathryn P. 'Kay'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOBAUGH, Charles O.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOFFMAN, Jeffrey A.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -494,6 +496,8 @@
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Anne_McClain
 * **MCKAY, Michael John**: http://www.spacefacts.de/bios/international/english/mckay_michael.htm
 * **MEADE, Carl J.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **SKRIPOCHKA, Oleg Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/skripochka_oleg.htm
+* **SKRIPOCHKA, Oleg Ivanovich**: http://www.spacefacts.de/eva/cosmonauts/english/skripochka_oleg.htm
 * **MELNICK, Bruce E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELROY, Pamela A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELVILL, Michael Winston 'Mike'**: http://www.spacefacts.de/bios/astronauts/english/melvill_michael.htm
@@ -511,6 +515,7 @@
 * **MOHMAND, Abdul Ahad 'Abdulah'**: http://www.spacefacts.de/bios/international/english/mohmand_abdol.htm
 * **MOHRI, Mamoru**: http://www.spacefacts.de/bios/international/english/mohri_mamoru.htm
 * **MONEY, Kenneth Eric**: http://www.spacefacts.de/bios/international/english/money_kenneth.htm
+* **MORGAN, Andrew R.**: https://www.nasa.gov/sites/default/files/atoms/files/morgan-ar.pdf
 * **MORGAN, Barbara R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MORIN, Lee M., (M.D., Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MOROSOV, Svyatoslav Andreievich**: http://www.spacefacts.de/bios/cosmonauts/english/morosov_svyatoslav.htm
