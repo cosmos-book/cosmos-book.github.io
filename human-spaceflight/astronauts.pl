@@ -10,7 +10,7 @@ $pathdir = $0;
 $pathdir =~ s/(\/?)[^\/]*$/$1/;
 $datadir = $pathdir."data/";
 $procdir = $datadir."processed/";
-$url = "https://github.com/christiansandberg2045/cosmos-book.github.io/tree/master/human-spaceflight/data/";
+$url = "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/";
 
 # Require the time and date sub-routines
 require($pathdir.'timeanddate.pl');
