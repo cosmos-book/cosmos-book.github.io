@@ -498,8 +498,7 @@ r(function(){
 
 				//if(missions[i].name.indexOf("Akatsuki")==0) console.log('yes',a,a.from,a.to,missions[i])
 				if(a.from != a.to){
-
-					strokestyle = (a['type']=="ongoing" ? "- " : "");
+					strokestyle = (a['inprogress'] ? "- " : "");
 
 					obj[a.from].missions = a.missions.from+1;
 					obj[a.to].missions = a.missions.to;
@@ -516,7 +515,7 @@ r(function(){
 				}else{
 					// Deal with missions like Akatsuki that had a failed orbit insertion but tried again
 					if(missionlines[i].length > 0){
-						strokestyle = (a['type']=="ongoing" ? "- " : "");
+						strokestyle = (a['inprogress'] ? "- " : "");
 						missionlines[i][missionlines[i].length-1].attr('stroke',col);
 						missionlines[i][missionlines[i].length-1].attr('stroke-dasharray',strokestyle);
 					}
