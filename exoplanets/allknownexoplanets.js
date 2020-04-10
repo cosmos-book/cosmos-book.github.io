@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var w = $('#holder').width()-1;
-	var h = w*0.7;
+	var h = w*0.8;
 	var mid = {'x': w/2,'y':h/2};
 	var loaded = 0;
 	var exo;
@@ -11,75 +11,31 @@ $(document).ready(function(){
 	function parsePlanets(data,attrs){
 
 		if(attrs.catalogue=="exo"){
+
+			/*
+			1	P.Name
+			6	P.Radius(EU)
+			37	P.Disc.Method
+			9	P.Disc.Year
+			14	P.MeanDistance(AU)
+			11	P.Period(days)
+			3	P.Mass(EU)
+			72	P.Density(EU)
+			103	P.Habitable*/
+
+			// perl sort.pl -sort 1 -cols 1,6,110,37,9,14,11,3,72,103 -zap 1 exoplanets/data/phl_exoplanet_catalog.csv > exoplanets/data/phl_exoplanet_catalog_cutdown.csv
 			exo = CSV2JSON(data,[
 				{'name':'P.Name','format':'string'},
-				{'name':'P.NameKepler','format':'string'},
-				{'name':'P.NameKOI','format':'string'},
-				{'name':'P.ZoneClass','format':'string'},
-				{'name':'P.MassClass','format':'string'},
-				{'name':'P.CompositionClass','format':'string'},
-				{'name':'P.AtmosphereClass','format':'string'},
-				{'name':'P.HabitableClass','format':'string'},
-				{'name':'P.MinMass(EU)','format':'number'},
-				{'name':'P.Mass(EU)','format':'number'},
-				{'name':'P.MaxMass(EU)','format':'number'},
 				{'name':'P.Radius(EU)','format':'number'},
-				{'name':'P.Density(EU)','format':'number'},
-				{'name':'P.Gravity(EU)','format':'number'},
-				{'name':'P.EscVel(EU)','format':'number'},
-				{'name':'P.SFluxMin(EU)','format':'number'},
-				{'name':'P.SFluxMean(EU)','format':'number'},
-				{'name':'P.SFluxMax(EU)','format':'number'},
-				{'name':'P.TeqMin(K)','format':'number'},
-				{'name':'P.TeqMean(K)','format':'number'},
-				{'name':'P.TeqMax(K)','format':'number'},
-				{'name':'P.TsMin(K)','format':'number'},
-				{'name':'P.TsMean(K)','format':'number'},
-				{'name':'P.TsMax(K)','format':'number'},
-				{'name':'P.SurfPress(EU)','format':'number'},
-				{'name':'P.Mag','format':'number'},
-				{'name':'P.ApparSize(deg)','format':'number'},
-				{'name':'P.Period(days)','format':'number'},
-				{'name':'P.SemMajorAxis(AU)','format':'number'},
-				{'name':'P.Eccentricity','format':'number'},
-				{'name':'P.MeanDistance(AU)','format':'number'},
-				{'name':'P.Inclination(deg)','format':'number'},
-				{'name':'P.Omega(deg)','format':'string'},
-				{'name':'S.Name','format':'string'},
-				{'name':'S.NameHD','format':'string'},
-				{'name':'S.NameHIP','format':'string'},
-				{'name':'S.Constellation','format':'string'},
-				{'name':'S.Type','format':'string'},
-				{'name':'S.Mass(SU)','format':'number'},
-				{'name':'S.Radius(SU)','format':'number'},
-				{'name':'S.Teff(K)','format':'number'},
-				{'name':'S.Luminosity(SU)','format':'number'},
-				{'name':'S.[Fe/H]','format':'number'},
-				{'name':'S.Age(Gyrs)','format':'number'},
-				{'name':'S.ApparMag','format':'number'},
-				{'name':'S.Distance(pc)','format':'number'},
-				{'name':'S.RA(hrs)','format':'number'},
-				{'name':'S.DEC(deg)','format':'number'},
-				{'name':'S.MagfromPlanet','format':'number'},
-				{'name':'S.SizefromPlanet(deg)','format':'number'},
-				{'name':'S.No.Planets','format':'number'},
-				{'name':'S.No.PlanetsHZ','format':'number'},
-				{'name':'S.HabZoneMin(AU)','format':'number'},
-				{'name':'S.HabZoneMax(AU)','format':'number'},
-				{'name':'P.HZD','format':'number'},
-				{'name':'P.HZC','format':'number'},
-				{'name':'P.HZA','format':'number'},
-				{'name':'P.HZI','format':'number'},
-				{'name':'P.SPH','format':'number'},
-				{'name':'P.IntESI','format':'number'},
-				{'name':'P.SurfESI','format':'number'},
-				{'name':'P.ESI','format':'number'},
-				{'name':'S.HabCat','format':'boolean'},
-				{'name':'P.Habitable','format':'boolean'},
-				{'name':'P.HabMoon','format':'boolean'},
-				{'name':'P.Confirmed','format':'boolean'},
+				{'name':'P.RadiusEst(EU)','format':'number'},
 				{'name':'P.Disc.Method','format':'string'},
-				{'name':'P.Disc.Year','format':'number'}]);
+				{'name':'P.Disc.Year','format':'number'},
+				{'name':'P.MeanDistance(AU)','format':'number'},
+				{'name':'P.Period(days)','format':'number'},
+				{'name':'P.Mass(EU)','format':'number'},
+				{'name':'P.Density(EU)','format':'number'},
+				{'name':'P.Habitable','format':'boolean'}
+			]);
 		}else if(attrs.catalogue=="solar"){
 			solar = CSV2JSON(data,[
 				{'name':'P.Name','format':'string'},
@@ -109,9 +65,12 @@ $(document).ready(function(){
 		
 		function getColour(cls){ return $('.'+cls).css('background-color'); }
 		var methods = {
-			'Transit': {'label':'Transit','class':'transit','n':0 },
+			"Transit": {'label':'Transit','class':'transit','n':0 },
 			"Primary Transit": {'class':'transit','n':0 },
+			"Eclipse Timing Variations": {'class':'transit','n':0 },
 			"TTV": {'class':'transit','n':0 },
+			"Transit Timing Variations": {'class':'transit','n':0 },
+			"Orbital Brightness Modulation": {'class':'transit','n':0 },
 			"Radial Velocity": {'class':'radialvelocity','label':'Radial Velocity','n':0 },
 			"radial velocity": {'class':'radialvelocity','n':0 },
 			"Pulsar": {'class':'pulsar','label':'Pulsar Timing','n':0 },
@@ -133,37 +92,41 @@ $(document).ready(function(){
 		}
 
 
+		// Remove non-confirmed planets
+		for(var i = exo.length-1; i >= 0;i--){
+			// If the radius doesn't exist
+			if(!exo[i]['P.Radius(EU)']){
+				if(!exo[i]['P.RadiusEst(EU)']) exo.splice(i,1);
+				else exo[i]['P.Radius'] = exo[i]['P.RadiusEst(EU)'];
+			}else{
+				exo[i]['P.Radius'] = exo[i]['P.Radius(EU)'];
+			}
+		}
+
 		for(var i = 0; i < exo.length;i++){
-			if(exo[i]['P.Radius(EU)'] > maxr) maxr = exo[i]['P.Radius(EU)'];
+			if(exo[i]['P.Radius'] > maxr) maxr = exo[i]['P.Radius'];
 			var m = exo[i]['P.Disc.Method']
 			if(methods[m]) methods[m].n++;
 		}
 
 		function scaleR(r){ return r*0.7; }
-		function getX(m){
-			if(m=="Radial Velocity"){
-				return Math.random()*w;
-				return Math.random()*w*0.5 + w*0.25;
-			}else{
-				return Math.random()*w;
-			}
-		}
-		function getY(m){
-			if(m=="Radial Velocity"){
-				return Math.random()*h;
-				return Math.random()*h*0.5 + h*0.25;
-			}else{
-				return Math.random()*h;
-			}
-		}
 
 		var nodes = d3.range(exo.length).map(function(i) {
+			theta = Math.random()*2*Math.PI;
+			min = 0.1;
+			r = Math.random()*0.8 + min;
+			if(exo[i]['P.Radius'] > 30){
+				r = Math.random()*min;
+			}
+			r *= Math.min(w,h);
+			x = w/2 + r*Math.cos(theta);
+			y = h/2 + r*Math.sin(theta);
 			return {
-				radius: (exo[i]['P.Radius(EU)'] ? scaleR(exo[i]['P.Radius(EU)']) + 1 : 0),
+				radius: (exo[i]['P.Radius'] ? scaleR(exo[i]['P.Radius']) + 1 : 0),
 				method: exo[i]['P.Disc.Method'],
 				'class': 'planet',
-				x: getX(exo[i]['P.Disc.Method']),
-				y: getY(exo[i]['P.Disc.Method'])
+				x: x,
+				y: y
 			};
 		});
 
@@ -172,8 +135,11 @@ $(document).ready(function(){
 		root.fixed = true;
 		
 		var force = d3.layout.force()
-			.gravity(0.09)
-			.charge(function(d, i) { return -Math.pow(d.radius, 2.0) / 9 })
+			.gravity(0.07)
+			.charge(function(d, i) {
+				if(d.radius > 30) return -1/Math.pow(d.radius, 2.0);
+				return -Math.pow(d.radius, 2.0) / 9
+			})
 			.nodes(nodes)
 			.size([width, height])
 		
@@ -200,18 +166,24 @@ $(document).ready(function(){
 			.style("stroke",0);
 
 
+		// Remove non-confirmed planets
+		for(var i = 0; i < solar.length; i++){
+			solar[i]['P.Radius'] = solar[i]['P.Radius(EU)'];
+		}
+
+
+
 		// Construct our Solar System
 		var solarsystem = {'x':50,'y':300 };
 		var solnodes = d3.range(solar.length).map(function(i) {
 			return {
 				name: solar[i]['P.Name'],
-				radius: (solar[i]['P.Radius(EU)'] ? scaleR(solar[i]['P.Radius(EU)']) + 1 : 0),
+				radius: (solar[i]['P.Radius'] ? scaleR(solar[i]['P.Radius']) + 1 : 0),
 				'class': 'exoplanet',
 				x: solarsystem.x,
 				y: solarsystem.y
 			};
 		});
-		
 		var solarforce = d3.layout.force()
 			.gravity(0.29)
 			.charge(function(d, i) { return -Math.pow(d.radius, 2.0) / 9 })
@@ -310,24 +282,26 @@ $(document).ready(function(){
 				if(p > 365){
 					p = (p/365.25).toFixed(2);
 					pl = " years";
+				}else{
+					p = (p||0).toFixed(2);
 				}
-				var text = '<div class="stripe '+methods[nodes[id].method].class+'"><\/div><h3>'+a['P.Name']+'<\/h3><table>';
+				var text = '<div class="stripe '+(methods[nodes[id].method] ? methods[nodes[id].method]['class']:'')+'"><\/div><h3>'+a['P.Name']+'<\/h3><table>';
 				if(a['P.Disc.Year']) text += '<tr><td>Discovered:<\/td><td>'+a['P.Disc.Year']+'<\/td><\/tr>';
-				if(a['P.Radius(EU)']) text += '<tr><td>Planet radius:<\/td><td>'+a['P.Radius(EU)']+' &times;Earth<\/td><\/tr>';
+				if(a['P.Radius']) text += '<tr><td>Planet radius:<\/td><td>'+a['P.Radius'].toFixed(1)+'&thinsp;&times;Earth'+(a['P.Radius(EU)'] ? '' : ' (est)')+'<\/td><\/tr>';
 				if(a['P.MeanDistance(AU)']) text += '<tr><td>Distance to star:<\/td><td>'+a['P.MeanDistance(AU)']+' A.U.<\/td><\/tr>';
 				if(a['P.Period(days)']) text += '<tr><td>Orbital period:<\/td><td>'+p+' '+pl+'<\/td><\/tr>';
-				if(a['P.Mass(EU)']) text += '<tr><td>Planet mass:<\/td><td>'+a['P.Mass(EU)']+' &times;Earth<\/td><\/tr>';
-				if(a['P.Density(EU)']) text += '<tr><td>Planet density:<\/td><td>'+a['P.Density(EU)']+' &times;Earth<\/td><\/tr>';
+				if(a['P.Mass(EU)']) text += '<tr><td>Planet mass:<\/td><td>'+a['P.Mass(EU)'].toFixed(1)+'&thinsp;&times;Earth<\/td><\/tr>';
+				if(a['P.Density(EU)']) text += '<tr><td>Planet density:<\/td><td>'+a['P.Density(EU)'].toFixed(4)+' &times;Earth<\/td><\/tr>';
 				if(a['P.Habitable']) text += '<tr><td>Potentially habitable?:<\/td><td>'+a['P.Habitable']+'<\/td><\/tr>';
+				if(a['P.Disc.Method']) text += '<tr><td>Discovery method:<\/td><td>'+a['P.Disc.Method']+'<\/td><\/tr>';
 				text += '<\/table>';
 				return text;
 			}
 		});
-				
 	}
 
 	// Load the data
-	loadCSV("data/phl_hec_all_confirmed.csv",parsePlanets,{'catalogue':'exo'});
+	loadCSV("data/phl_exoplanet_catalog_cutdown.csv",parsePlanets,{'catalogue':'exo'});
 	loadCSV("data/data_solar_ESI.csv",parsePlanets,{'catalogue':'solar'});
 	
 });

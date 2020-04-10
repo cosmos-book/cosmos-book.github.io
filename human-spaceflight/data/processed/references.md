@@ -283,6 +283,7 @@
 * **HABIB, Munir Habib**: http://www.spacefacts.de/bios/international/english/habib_munir.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/eva/international/english/hadfield_chris.htm
+* **HAGUE, Tyler Nicklaus**: https://en.wikipedia.org/wiki/Nick_Hague
 * **HAIGNERÉ, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
@@ -373,6 +374,7 @@
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
 * **KLIMUK, Pyotr Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
+* **KOCH, Christina Hammock**: https://en.wikipedia.org/wiki/Christina_Koch
 * **KOLESNIKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolesnikov_gennadi.htm
 * **KöLLNER, Eberhard 'Eb'**: http://www.spacefacts.de/bios/international/english/koellner_eberhard.htm
 * **KOLODIN, Pyotr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/kolodin_pyotr.htm
@@ -383,6 +385,7 @@
 * **KONDRATIYEV, Dmitri Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kondratiyev_dmitri.htm
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
+* **KONONENKO, Oleg Dmitriyevich**: https://twitter.com/Space_Station/status/1143350844911284224
 * **KONONENKO, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
 * **KOPRA, Timothy L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/korniyenko_mikhail.htm
@@ -488,6 +491,7 @@
 * **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
 * **MAYO, Itzhak**: http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Soyuz_MS-11
+* **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Anne_McClain
 * **MCKAY, Michael John**: http://www.spacefacts.de/bios/international/english/mckay_michael.htm
 * **MEADE, Carl J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MELNICK, Bruce E.**: http://www.nasa.gov/pdf/740566main_current.pdf

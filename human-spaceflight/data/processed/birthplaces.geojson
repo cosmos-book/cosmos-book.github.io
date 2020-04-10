@@ -2945,6 +2945,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-97.63028, 39.82361]
+			},
+			"properties": {
+				"title": "HAGUE, Tyler Nicklaus",
+				"date": "1975-09-24",
+				"birthplace": "Belleville, Kansas",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAGUE_TN.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [4.43189, 46.799278]
 			},
 			"properties": {
@@ -3794,6 +3809,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KLIMUK_PI.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-85.65556, 42.96111]
+			},
+			"properties": {
+				"title": "KOCH, Christina Hammock",
+				"date": "1979-01-29",
+				"birthplace": "Grand Rapids, Michigan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KOCH_CH.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -4745,12 +4775,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [-117.42500, 47.65889]
 			},
 			"properties": {
 				"title": "MCCLAIN, Anne Charlotte",
 				"date": "1979-06-07",
-				"birthplace": "Boston, Massachusetts",
+				"birthplace": "Spokane, Washington",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MCCLAIN_AC.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
@@ -5945,12 +5975,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [60.583, 56.833]
 			},
 			"properties": {
 				"title": "PROKOPYEV, Sergei Valerievich",
 				"date": "1975-02-19",
-				"birthplace": "Waltham, Massachusetts",
+				"birthplace": "Yekaterinburg / Sverdlovsk Oblast / Russian SFSR",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PROKOPYEV_SV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
@@ -6365,12 +6395,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [-71.217, 46.817]
 			},
 			"properties": {
 				"title": "SAINT-JACQUES, David",
 				"date": "1970-01-06",
-				"birthplace": "Boston, Massachusetts",
+				"birthplace": "Quebec City, Quebec",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SAINT-JACQUES_D.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",

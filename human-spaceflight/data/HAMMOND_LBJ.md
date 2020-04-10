@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	HAMMOND, L. Brain, Jr.
+name:	HAMMOND, L. Blaine, Jr.
 type:	military
 dob:	1952-01-16
 birthplace:

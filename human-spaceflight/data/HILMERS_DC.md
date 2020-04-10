@@ -1,6 +1,6 @@
 ---
 category:	astronaut
-name:	HILMERS, David O.
+name:	HILMERS, David C.
 type:	military
 dob:	1950-01-28
 birthplace:
