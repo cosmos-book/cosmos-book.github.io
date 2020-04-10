@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<title>Cosmos quiz</title>
+	<script type="text/javascript" src="../resources/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
+	<style>
+	.q-check.correct::before{
+		content:"Correct!";
+	}
+	.q-check.incorrect::before{
+		content:"Incorrect :(";
+	}
+	</style>
+</head>
+<body class="">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">contents</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a> / </li>
+						<li><a href="../quiz/index.html">quiz</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="padder">
+					<div class="topbox">
+						<h1>Quiz</h1>
+						<p>The book contains a large amount of information. You can answer the questions below using the information in the book, or available as part of these <a href="../contents.html">interactive infographics</a>.</p>
+						<!-- <form></form> -->
+					</div>
+					<div class="innerbox">
+						<div class="noscript">
+							<p>The book contains a range of information. You can download a <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/local-sheet/data/localsheet.csv" id="data">CSV file containing the galaxies</a> that went into the graphic.</p>
+						</div>
+						<div class="loader js-only"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+						<div id="quiz-holder">
+						</div>
+						<div id="score-holder">Score = <span id="score">0</span>/<span id="totscore">0</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Based on information presented in <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
