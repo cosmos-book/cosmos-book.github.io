@@ -55,7 +55,7 @@
 		{"value":"Pathfinder","correct":false}
 	],
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
-	"hint": { "page":"missions", "text": "The missions are listed in date order moving outward from the planet." }
+	"hint": { "page":"missions", "text": "Explore the infographic. The missions are listed in date order moving outward from the planet." }
 },{
 	"id": "q-EXP-3",
 	"type": "select2",
@@ -80,7 +80,7 @@
 		{"value":"Ceres","correct":false}
 	],
 	"success":"Correct!",
-	"hint": { "page":"missions", "text": "Click on the lines to identify the missions." }
+	"hint": { "page":"missions", "text": "Explore the infographic. Click on the lines to identify the missions." }
 },{
 	"id": "q-EXP-4",
 	"type": "select1",
@@ -98,12 +98,12 @@
 		{"value":"81P/Wild","correct":false}
 	],
 	"success":"Correct! The Giotto mission made a distant flyby of 21P/Giacobini-Zinner on its way to its main target, comet 1P/Halley",
-	"hint": { "page":"missions", "text": "The missions that have returned to Earth have a second line returning to Earth." }
+	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
 },{
 	"id": "q-SOL-1",
 	"type": "select1",
 	"chapter": "SOL",
-	"question":"Which planet has a tropoause at the highest pressure?",
+	"question":"Which planet has a tropopause at the highest pressure?",
 	"options":[
 		{"value":"Venus","correct":false},
 		{"value":"Earth","correct":true},
@@ -116,7 +116,7 @@
 		{"value":"Neptune","correct":false}
 	],
 	"success":"Correct!",
-	"hint":{"page":"atmospheres","text":"The tropoauses are all labelled, and clicking on them will show the pressure"}
+	"hint":{"page":"atmospheres","text":"Explore the infographic. The tropopauses are all labelled, and clicking on them will show the pressure"}
 },{
 	"id": "q-SOL-2",
 	"type": "select1",
@@ -134,7 +134,7 @@
 		{"value":"Neptune","correct":false}
 	],
 	"success":"Correct! Uranus differs from the other outer planets in that it has no internal heat source. No one know why!",
-	"hint":{"page":"atmospheres","text":"You can click the buttons to set the same altitude on all the planets"}
+	"hint":{"page":"atmospheres","text":"Explore the infographic. You can click the buttons at the top to set the same altitude on all the planets."}
 },{
 	"id": "q-SOL-3",
 	"type": "select1",
@@ -151,7 +151,7 @@
 		{"value":"Triton","correct":false}
 	],
 	"success":"Correct! Although Pluto is larger than some of the other objects listed, it's much less massive, so has weaker surface gravity",
-	"hint":{"page":"high-jump","text":"There's no shortcut - you've just got to try jumping on all those objects!"}
+	"hint":{"page":"high-jump","text":"Explore the infographic. There's no shortcut - you've just got to try jumping on all those objects!"}
 },{
 	"id": "q-SOL-4",
 	"type": "select1",
@@ -221,7 +221,7 @@
 		{"value":"Hydra","correct":false}
 	],
 	"success":"Correct! Although it's not the largest constellation, Sagittarius contains a lot of star clusters and nebulae located between us and the centre of the Galaxy.",
-	"hint":{"page":"constellations","text":""}
+	"hint":{"page":"constellations","text":"Explore the infographic. Click on the constellations to see more information."}
 },{
 	"id": "q-STA-2",
 	"type": "select1",
@@ -238,7 +238,7 @@
 		{"value":"Sulphur (S)","correct":false}
 	],
 	"success":"Correct!",
-	"hint":{"page":"we-are-stardust","text":""}
+	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources."}
 },{
 	"id": "q-OTH-1",
 	"type": "select1",
@@ -267,5 +267,5 @@
 		{"value":"Fritz Zwicky","correct":false}
 	],
 	"success":"Correct! Williamina Flemming discovered around 40% of the novae known at the time.",
-	"hint":{"page":"catalogue","text":""}
+	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
 }]

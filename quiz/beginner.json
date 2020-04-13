@@ -73,7 +73,7 @@
 		{"value":7,"correct":false},{"value":8,"correct":false}
 	],
 	"success":"Yes - Hayabusa returned samples from asteroid Itokawa and Stardust returned samples from comet 81P/Wild",
-	"hint": { "page":"missions", "text": "The missions that have returned to Earth have a second line returning to Earth." }
+	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
 },{
 	"id": "q-EXP-6",
 	"type": "selectAll",
@@ -95,7 +95,7 @@
 
 	],
 	"success":"",
-	"hint": {"page":"missions","text":"Missions heading out of the Solar System have paths that run off the edge of the graphic"}
+	"hint": {"page":"missions","text":"Explore the infographic. Missions heading out of the Solar System have paths that run off the edge of the graphic"}
 },{
 	"id": "q-SOL-1",
 	"type": "select1",
@@ -131,7 +131,7 @@
 		{"value":"Neptune","correct":false}
 	],
 	"success":"",
-	"hint":{"page":"atmospheres","text":""}
+	"hint":{"page":"atmospheres","text":"Explore the infographic. Clouds are colour coded by composition."}
 },{
 	"id": "q-SOL-3",
 	"type": "select2",
@@ -149,7 +149,7 @@
 		{"value":"Neptune","correct":true}
 	],
 	"success":"Yes - all the outer planets have ammonia ice clouds, which comprise nitrogen and hydrogen.",
-	"hint":{"page":"atmospheres","text":"Use the colour code to identify the different composition cloud layers"}
+	"hint":{"page":"atmospheres","text":"Explore the infographic. Clouds are colour coded by composition."}
 },{
 	"id": "q-SOL-4",
 	"type": "select1",
@@ -208,7 +208,7 @@
 		{"value":"2010-2020","correct":false}
 	],
 	"success":"Correct! This was one of a series of solar flares and coronal mass ejections that were collectively known as the Halloween solar storms",
-	"hint":{"page":"collision-imminent","text":""}
+	"hint":{"page":"solar-flares","text":"Explore the infographic. Flares are ordered around the Sun by date."}
 },{
 	"id": "q-STA-1",
 	"type": "select1",
@@ -240,7 +240,7 @@
 		{"value":"Caesium (Cs)","correct":false}
 	],
 	"success":"Correct! Molybdenum activates some crucial enzymes, while Iodine is used in some hormones",
-	"hint":{"page":"we-are-stardust","text":""}
+	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources."}
 },{
 	"id": "q-GAL-5",
 	"type": "select1",
