@@ -1,13 +1,21 @@
 [{
-	"id": "q-EXP-1",
+	"id": "SOL-0",
+	"type": "select4",
+	"chapter": "SOL",
+	"question": "Which four planets are considered 'rocky'?",
+	"options": [{"value":"Mercury","correct":true},{"value":"Venus","correct":true},{"value":"Earth","correct":true},{"value":"Mars","correct":true},{"value":"Jupiter","correct":false},{"value":"Saturn","correct":false},{"value":"Uranus","correct":false},{"value":"Neptune","correct":false}],
+	"success": "Yes. The other planets are considered to be gas or ice giants",
+	"hint": { "page":"", "text": "" }
+},{
+	"id": "EXP-1",
 	"type": "select1",
 	"chapter": "EXP",
 	"question": "What was the first mission to encounter Mercury?",
-	"options": [{"value":"Mariner 10","correct":true}],
+	"options": [{"value":"Mariner 1","correct":false},{"value":"Mariner 10","correct":true},{"value":"Apollo 11","correct":false}],
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
-	"hint": { "page":"missions", "text": "" }
+	"hint": { "page":"missions", "text": "Explore the Missions infographic" }
 },{
-	"id":"q-EXP-2",
+	"id":"EXP-2",
 	"type":"select1",
 	"chapter":"EXP",
 	"question":"How many Solar System bodies did the New Horizons spacecraft encounter (not including the Earth)?",
@@ -15,43 +23,43 @@
 	"success":"",
 	"hint":{"page":"missions","text": ""}
 },{
-	"id": "q-EXP-3",
+	"id": "EXP-3",
 	"type": "select1",
 	"chapter": "EXP",
-	"question":"How many missions have visited Solar System objects and returned to Earth?",
-	"options":[{"value":"2","correct":true},{"value":"3","correct":true}],
+	"question":"How many missions have visited Solar System objects (not including the Moon) and returned to Earth?",
+	"options":[],
 	"success":"",
 	"hint": { "page":"missions", "text": "" }
 },{
-	"id": "q-EXP-4",
+	"id": "EXP-4",
 	"type": "select1",
 	"chapter": "EXP",
 	"question":"How many missions are heading out of the Solar System?",
-	"options":[{"value":"5","correct":true}],
+	"options":[{"value":1,"correct":false},{"value":2,"correct":false},{"value":5,"correct":true},{"value":"7","correct":false},{"value":"10","correct":false},{"value":"15","correct":false}],
 	"success":"",
 	"hint": {"page":"missions","text":""}
 },{
-	"id": "q-SOL-1",
+	"id": "SOL-1",
 	"type": "select1",
 	"chapter": "SOL",
 	"question":"What was the highest number of objects categorised as planets at any one time?",
-	"options":[{"value":"16","correct":true}],
+	"options":[{"value":"1","correct":true},{"value":"8","correct":true},{"value":"9","correct":true},{"value":"16","correct":true}],
 	"success":"",
 	"hint":{"page":"how-many-planets","text":""}
 },{
-	"id": "q-SOL-2",
+	"id": "SOL-2",
 	"type": "select1",
 	"chapter": "SOL",
 	"question":"Which planet has the deepest water ice cloud layer?",
-	"options":[{"value":"Saturn","correct":true}],
+	"options":[{"value":"Mercury","correct":false},{"value":"Venus","correct":false},{"value":"Earth","correct":false},{"value":"Mars","correct":false},{"value":"Jupiter","correct":false},{"value":"Saturn","correct":true},{"value":"Uranus","correct":false},{"value":"Neptune","correct":false}],
 	"success":"",
 	"hint":{"page":"atmospheres","text":""}
 },{
-	"id": "q-SOL-3",
+	"id": "SOL-3",
 	"type": "select1",
 	"chapter": "SOL",
 	"question":"Which of Saturn's rings are the furthest from the planet?",
-	"options":[{"value":"Saturn","correct":true}],
+	"options":[{"value":"B-ring","correct":false},{"value":"A-ring","correct":false},{"value":"E-ring","correct":true},{"value":"Janus/Epimetheus ring","correct":false}],
 	"success":"",
 	"hint":{"page":"atmospheres","text":""}
 }]
