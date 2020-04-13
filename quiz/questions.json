@@ -36,7 +36,7 @@
 	"id": "q-EXP-3",
 	"type": "select1",
 	"chapter": "EXP",
-	"question":"How many missions have visited Solar System objects and returned samples to Earth?",
+	"question":"How many missions have visited Solar System objects (other than the Moon) and returned samples to Earth?",
 	"options":[
 		{"value":1,"correct":false},{"value":2,"correct":true},
 		{"value":3,"correct":false},{"value":4,"correct":false},
