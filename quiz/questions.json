@@ -211,7 +211,7 @@
 },{
 	"id": "q-SUN-1",
 	"type": "select1",
-	"chapter": "SOL",
+	"chapter": "SUN",
 	"question":"Which of these decades saw the strongest solar flare?",
 	"options":[
 		{"value":"1970-1979","correct":false},
@@ -225,7 +225,7 @@
 },{
 	"id": "q-SUN-2",
 	"type": "select1",
-	"chapter": "SOL",
+	"chapter": "SUN",
 	"question":"When will the Sun next be closest to the barycentre of the Solar System?",
 	"options":[
 		{"value":"2025","correct":false},
