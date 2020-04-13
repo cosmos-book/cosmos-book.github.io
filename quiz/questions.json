@@ -49,7 +49,7 @@
 	"id": "q-EXP-4",
 	"type": "selectAll",
 	"chapter": "EXP",
-	"question":"Select all the missions that are currently heading out of the Solar System",
+	"question":"Select all five missions that are currently heading out of the Solar System",
 	"options":[
 		{"value":"Cassini-Huygens","correct":false},
 		{"value":"Deep Space 1","correct":false},
@@ -156,7 +156,7 @@
 		{"value":"Neptune","correct":false}
 	],
 	"success":"",
-	"hint":{"page":"atmospheres","text":"You can click the buttons to set the "}
+	"hint":{"page":"atmospheres","text":"You can click the buttons to set the same altitude on all the planets"}
 },{
 	"id": "q-SOL-6",
 	"type": "select1",
@@ -202,12 +202,23 @@
 		{"value":"2002 FD6","correct":false},
 		{"value":"(163132) 2002 CU11","correct":true},
 		{"value":"(Tunguska) 1908 MXX","correct":false},
-		{"value":"2007 TV18","correct":false},
-		{"value":"Titan","correct":false},
-		{"value":"Triton","correct":false}
+		{"value":"2007 TV18","correct":false}
 	],
 	"success":"Correct! Although it was discovered in 2002, it was calculated that (163132) 2002 CU11 would have made its closest approach to Earth back in 1925",
 	"hint":{"page":"collision-imminent","text":""}
+},{
+	"id": "q-SOL-9",
+	"type": "selectAll",
+	"chapter": "SOL",
+	"question":"In 2024, eclipses will take place in which two Northern Hemisphere seasons?",
+	"options":[
+		{"value":"Spring","correct":true},
+		{"value":"Summer","correct":false},
+		{"value":"Autumn / Fall","correct":true},
+		{"value":"Winter","correct":false}
+	],
+	"success":"Correct! Eclipses happen at specific times of year, varying on a roughly 18 year cycle.",
+	"hint":{"page":"eclipses","text":""}
 },{
 	"id": "q-SUN-1",
 	"type": "select1",
@@ -238,5 +249,149 @@
 		{"value":"2042","correct":false}
 	],
 	"success":"Correct! The Sun will next pass closest to barycentre of the Solar System in 2030. (If you're reading this after 2030, the apologies for not updating this!)",
-	"hint":{"page":"collision-imminent","text":""}
+	"hint":{"page":"dance-of-the-sun","text":""}
+},{
+	"id": "q-STA-1",
+	"type": "select1",
+	"chapter": "STA",
+	"question":"Which of these constellations contains the most Messier objects?",
+	"options":[
+		{"value":"Aquila","correct":false},
+		{"value":"Eridanus","correct":false},
+		{"value":"Ophiuchus","correct":false},
+		{"value":"Orion","correct":false},
+		{"value":"Sagittarius","correct":true},
+		{"value":"Virgo","correct":false},
+		{"value":"Ursa Major","correct":false},
+		{"value":"Hydra","correct":false}
+	],
+	"success":"Correct! Although it's not the largest constellation, Sagittarius contains a lot of star clusters and nebulae located between us and the centre of the Galaxy.",
+	"hint":{"page":"constellations","text":""}
+},{
+	"id": "q-STA-2",
+	"type": "select1",
+	"chapter": "STA",
+	"question":"Which of these stars is the smallest?",
+	"options":[
+		{"value":"Aldebaran","correct":false},
+		{"value":"Arcturus","correct":true},
+		{"value":"Betelgeuse","correct":false},
+		{"value":"Canopus","correct":false},
+		{"value":"Deneb","correct":false},
+		{"value":"Rigel","correct":false}
+	],
+	"success":"Correct! At a mere 25 times the size of our Sun, Arcturus is dwarfed by the others",
+	"hint":{"page":"giant-stars","text":""}
+},{
+	"id": "q-STA-3",
+	"type": "select2",
+	"chapter": "STA",
+	"question":"Which two of these elements are considered essential for life and created by merging neutron stars (among other sources)?",
+	"options":[
+		{"value":"Iodine (I)","correct":true},
+		{"value":"Molybdenum (Mo)","correct":true},
+		{"value":"Hydrogen (H)","correct":false},
+		{"value":"Oxygen (O)","correct":false},
+		{"value":"Nitrogen (N)","correct":false},
+		{"value":"Gold (Au)","correct":false},
+		{"value":"Xenon (Xe)","correct":false},
+		{"value":"Caesium (Cs)","correct":false}
+	],
+	"success":"Correct! Molybdenum activates some crucial enzymes, while Iodine is used in some hormones",
+	"hint":{"page":"we-are-stardust","text":""}
+},{
+	"id": "q-STA-4",
+	"type": "select1",
+	"chapter": "STA",
+	"question":"Which element is considered essential for life, but <strong>only</strong> created by radioactive decay?",
+	"options":[
+		{"value":"Beryllium (Be)","correct":false},
+		{"value":"Boron (B)","correct":true},
+		{"value":"Iodine (I)","correct":false},
+		{"value":"Lithium (Li)","correct":false},
+		{"value":"Mercury (Hg)","correct":false},
+		{"value":"Oxygen (O)","correct":false},
+		{"value":"Selenium (Se)","correct":false},
+		{"value":"Sulphur (S)","correct":false}
+	],
+	"success":"Correct!",
+	"hint":{"page":"we-are-stardust","text":""}
+},{
+	"id": "q-GAL-5",
+	"type": "select1",
+	"chapter": "GAL",
+	"question":"Which galaxy is located furthest from the Local Sheet of galaxies?",
+	"options":[
+		{"value":"Andromeda","correct":false},
+		{"value":"Triangulum","correct":false},
+		{"value":"NGC 2784","correct":true},
+		{"value":"NGC 6946","correct":false},
+		{"value":"IC 5052","correct":false},
+		{"value":"NGC 3344","correct":false},
+		{"value":"M81","correct":false},
+		{"value":"NGC 3116","correct":false}
+	],
+	"success":"Correct!",
+	"hint":{"page":"local-sheet","text":""}
+},{
+	"id": "q-OTH-1",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"How many Messier Objects are classed simply as \"groups of stars\"?",
+	"options":[
+		{"value":"1","correct":false},
+		{"value":"2","correct":false},
+		{"value":"3","correct":false},
+		{"value":"4","correct":false},
+		{"value":"5","correct":true},
+		{"value":"6","correct":false},
+		{"value":"7","correct":false},
+		{"value":"8","correct":false}
+	],
+	"success":"Correct!",
+	"hint":{"page":"messier","text":""}
+},{
+	"id": "q-OTH-2",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"NGC objects with numbers in the range 1700 to 2500 predominantly include what types of objects",
+	"options":[
+		{"value":"Groups and clusters of stars","correct":true},
+		{"value":"Nebulae and supernova remnants","correct":false},
+		{"value":"Galaxies","correct":false}
+	],
+	"success":"Correct! This range of numbers in the NGC catalogue includes regions towards the centre of our Galaxy, so is dominated by star clusters and groups.",
+	"hint":{"page":"messier","text":""}
+},{
+	"id": "q-OTH-3",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"NGC 1999 is what type of object?",
+	"options":[
+		{"value":"Elliptical Galaxy","correct":false},
+		{"value":"Globula Cluster","correct":false},
+		{"value":"Nebula","correct":true},
+		{"value":"Open Cluster","correct":false},
+		{"value":"Spiral Galaxy","correct":false},
+		{"value":"Supernova Remnant","correct":false}
+	],
+	"success":"Correct!",
+	"hint":{"page":"catalogue","text":""}
+}{
+	"id": "q-OTH-4",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"Which of the following people was a prolific discoverer of novae?",
+	"options":[
+		{"value":"Williamina Flemming","correct":true},
+		{"value":"John Goodricke","correct":false},
+		{"value":"Thomas Harriot","correct":false},
+		{"value":"Caroline Herschel","correct":false},
+		{"value":"Henrietta Swan Leavitt","correct":false},
+		{"value":"Beatrice Tinsley","correct":false},
+		{"value":"Urbain Le Verrier","correct":false},
+		{"value":"Fritz Zwicky","correct":false}
+	],
+	"success":"Correct! Williamina Flemming discovered around 40% of the novae known at the time.",
+	"hint":{"page":"catalogue","text":""}
 }]
