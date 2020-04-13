@@ -3,55 +3,241 @@
 	"type": "select1",
 	"chapter": "EXP",
 	"question": "What was the first mission to encounter Mercury?",
-	"options": [{"value":"Mariner 10","correct":true}],
+	"options": [{"value":"Bepi Colombo","correct":false},
+		{"value":"Freedom 7","correct":false},
+		{"value":"Hermes 1","correct":false},
+		{"value":"Hermes 10","correct":false},
+		{"value":"Galileo","correct":false},
+		{"value":"Magellan","correct":false},
+		{"value":"Mariner 2","correct":false},
+		{"value":"Mariner 4","correct":false},
+		{"value":"Mariner 10","correct":true},
+		{"value":"Mercury-Redstone 3","correct":false},
+		{"value":"Messenger","correct":false},
+		{"value":"New Horizons","correct":false},
+		{"value":"Pathfinder","correct":false},
+
+	],
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
-	"hint": { "page":"missions", "text": "" }
+	"hint": { "page":"missions", "text": "The missions are listed in date order moving outward from the planet." }
 },{
 	"id":"q-EXP-2",
 	"type":"select1",
 	"chapter":"EXP",
-	"question":"How many Solar System bodies did the New Horizons spacecraft encounter (not including the Earth)?",
-	"options":[{"value":1,"correct":false},{"value":2,"correct":false},{"value":3,"correct":false},{"value":4,"correct":true},{"value":5,"correct":true},{"value":6,"correct":true}],
+	"question":"How many Solar System bodies (other than the Earth) did the New Horizons spacecraft encounter?",
+	"options":[
+		{"value":1,"correct":false},{"value":2,"correct":false},
+		{"value":3,"correct":false},{"value":4,"correct":true},
+		{"value":5,"correct":false},{"value":6,"correct":false},
+		{"value":7,"correct":false},{"value":7,"correct":false}
+	],
 	"success":"",
 	"hint":{"page":"missions","text": ""}
 },{
 	"id": "q-EXP-3",
 	"type": "select1",
 	"chapter": "EXP",
-	"question":"How many missions have visited Solar System objects and returned to Earth?",
-	"options":[{"value":"2","correct":true},{"value":"3","correct":true}],
-	"success":"",
-	"hint": { "page":"missions", "text": "" }
+	"question":"How many missions have visited Solar System objects and returned samples to Earth?",
+	"options":[
+		{"value":1,"correct":false},{"value":2,"correct":true},
+		{"value":3,"correct":false},{"value":4,"correct":false},
+		{"value":5,"correct":false},{"value":6,"correct":false},
+		{"value":7,"correct":false},{"value":7,"correct":false}
+	],
+	"success":"Yes - Hayabusa returned samples from asteroid Itokawa and Stardust returned samples from comet 81P/Wild",
+	"hint": { "page":"missions", "text": "The missions that have returned to Earth have a second line returning to Earth." }
 },{
 	"id": "q-EXP-4",
-	"type": "select1",
+	"type": "selectAll",
 	"chapter": "EXP",
-	"question":"How many missions are heading out of the Solar System?",
-	"options":[{"value":"5","correct":true}],
+	"question":"Select all the missions that are currently heading out of the Solar System",
+	"options":[
+		{"value":"Cassini-Huygens","correct":false},
+		{"value":"Deep Space 1","correct":false},
+		{"value":"Galileo","correct":false},
+		{"value":"Hayabusa 2","correct":false},
+		{"value":"New Horizons","correct":true},
+		{"value":"Pioneer 1","correct":false},
+		{"value":"Pioneer 10","correct":true},
+		{"value":"Pioneer 11","correct":true},
+		{"value":"Venera 9","correct":false},
+		{"value":"Voyager 1","correct":true},
+		{"value":"Voyager 2","correct":true},
+		{"value":"Voyager 6","correct":false},
+
+	],
 	"success":"",
-	"hint": {"page":"missions","text":""}
+	"hint": {"page":"missions","text":"Missions heading out of the Solar System have paths that run off the edge of the graphic"}
 },{
 	"id": "q-SOL-1",
 	"type": "select1",
 	"chapter": "SOL",
 	"question":"What was the highest number of objects categorised as planets at any one time?",
-	"options":[{"value":"16","correct":true}],
+	"options":[
+		{"value":"8","correct":false},
+		{"value":"9","correct":false},
+		{"value":"10","correct":false},
+		{"value":"11","correct":false},
+		{"value":"13","correct":false},
+		{"value":"15","correct":false},
+		{"value":"16","correct":true},
+		{"value":"18","correct":false},
+		{"value":"20","correct":false},
+	],
 	"success":"",
 	"hint":{"page":"how-many-planets","text":""}
 },{
 	"id": "q-SOL-2",
 	"type": "select1",
 	"chapter": "SOL",
-	"question":"Which planet has the deepest water ice cloud layer?",
-	"options":[{"value":"Saturn","correct":true}],
+	"question":"Which solar system has the deepest water ice cloud layer?",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":true},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false}
+	],
 	"success":"",
 	"hint":{"page":"atmospheres","text":""}
 },{
 	"id": "q-SOL-3",
+	"type": "select2",
+	"chapter": "SOL",
+	"question":"Select 2 planets with ammonia ice clouds",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":true},
+		{"value":"Saturn","correct":true},
+		{"value":"Uranus","correct":true},
+		{"value":"Neptune","correct":true}
+	],
+	"success":"Yes - all the outer planets have ammonia ice clouds, which comprise nitrogen and hydrogen.",
+	"hint":{"page":"atmospheres","text":"Use the colour code to identify the different composition cloud layers"}
+},{
+	"id": "q-SOL-4",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which planet has a tropoause at the highest pressure?",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":true},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false}
+	],
+	"success":"Correct!",
+	"hint":{"page":"atmospheres","text":"The tropoauses are all labelled"}
+},,{
+	"id": "q-SOL-5",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which planet's atmosphere has the lowest temperature at an altitude of 100km",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":true},
+		{"value":"Neptune","correct":false}
+	],
+	"success":"",
+	"hint":{"page":"atmospheres","text":"You can click the buttons to set the "}
+},{
+	"id": "q-SOL-6",
 	"type": "select1",
 	"chapter": "SOL",
 	"question":"Which of Saturn's rings are the furthest from the planet?",
-	"options":[{"value":"Saturn","correct":true}],
-	"success":"",
-	"hint":{"page":"atmospheres","text":""}
+	"options":[
+		{"value":"A-ring","correct":false},
+		{"value":"B-ring","correct":false},
+		{"value":"C-ring","correct":false},
+		{"value":"D-ring","correct":false},
+		{"value":"E-ring","correct":true},
+		{"value":"F-ring","correct":false},
+		{"value":"G-ring","correct":false},
+		{"value":"Halo ring","correct":false},
+	],
+	"success":"Correct! Saturn's rings were labelled in order of discovery, not in order of distance from the planet.",
+	"hint":{"page":"rings","text":""}
+},{
+	"id": "q-SOL-7",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"On which of these solar system bodies could you jump the highest?",
+	"options":[
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Io","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Moon","correct":false},
+		{"value":"Pluto","correct":true},
+		{"value":"Titan","correct":false},
+		{"value":"Triton","correct":false},
+	],
+	"success":"Correct! Although Pluto is larger than some of the other objects listed, it's much less massive, so has weaker surface gravity",
+	"hint":{"page":"high-jump","text":"There's no shortcut - you've just got to try jumping on all those objects!"}
+},{
+	"id": "q-SOL-8",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which was the largest asteroid discovered after its flyby?",
+	"options":[
+		{"value":"(99942) Apophis","correct":false},
+		{"value":"(153814) 2001 WN5","correct":false},
+		{"value":"2002 FD6","correct":false},
+		{"value":"(163132) 2002 CU11","correct":true},
+		{"value":"(Tunguska) 1908 MXX","correct":false},
+		{"value":"2007 TV18","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Triton","correct":false},
+	],
+	"success":"Correct! Although it was discovered in 2002, it was calculated that (163132) 2002 CU11 would have made its closest approach to Earth back in 1925",
+	"hint":{"page":"collision-imminent","text":""}
+},{
+	"id": "q-SUN-1",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which of these decades saw the strongest solar flare?",
+	"options":[
+		{"value":"1970-1979","correct":false},
+		{"value":"1980-1989","correct":false},
+		{"value":"1990-1999","correct":false},
+		{"value":"2000-2010","correct":true},
+		{"value":"2010-2020","correct":false}
+	],
+	"success":"Correct! This was one of a series of solar flares and coronal mass ejections that were collectively known as the Halloween solar storms",
+	"hint":{"page":"collision-imminent","text":""}
+},,{
+	"id": "q-SUN-2",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"When will the Sun next be closest to the barycentre of the Solar System?",
+	"options":[
+		{"value":"2025","correct":false},
+		{"value":"2027","correct":false},
+		{"value":"2030","correct":true},
+		{"value":"2032","correct":false},
+		{"value":"2035","correct":false},
+		{"value":"2037","correct":false},
+		{"value":"2040","correct":false},
+		{"value":"2042","correct":false}
+	],
+	"success":"Correct! The Sun will next pass closest to barycentre of the Solar System in 2030. (If you're reading this after 2030, the apologies for not updating this!)",
+	"hint":{"page":"collision-imminent","text":""}
 }]
