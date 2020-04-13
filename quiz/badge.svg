@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="600" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="transform-origin: center center;">
+	<style>
+	text { transform-origin: center center; -webkit-transform-origin: center center; font-family: "Source Code Pro", monospace, sans-serif; font-weight: bold; }
+	</style>
+	<circle id="badge" cx="100" cy="100" r="84" stroke="#ffcb06" stroke-width="26" fill="transparent"></circle>
+	<text x="50%" y="1" font-size="12px" dominant-baseline="middle" transform="rotate(110)">
+		<textPath href="#badge">COSMOS: The infographic book of space</textPath>
+	</text>
+	<text x="50%" y="0" font-size="18px" dominant-baseline="middle" transform="rotate(192)">
+		<textPath href="#badge" side="right">Quiz winner</textPath>
+	</text>
+	<svg width="140" height="140" x="30" y="30" viewBox="0 0 60 60">
+		<style>
+		#solarsystem g { transform-origin: center center; -webkit-transform-origin: center center; }
+		</style>
+		<g id="solarsystem">
+			<circle cx="30" cy="30" r="12" stroke-width="0" fill="#ffde00" />
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="6s" begin="-2.5s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="14" stroke="rgba(241,133,0,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="16" r="0.3" fill="rgba(241,133,0,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="9.2s" begin="-3s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="16" stroke="rgba(34,161,211,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="14" r="0.3" fill="rgba(34,161,211,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="15s" begin="-2.5s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="18" stroke="rgba(34,152,56,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="12" r="0.3" fill="rgba(34,161,211,1)"></circle>
+				<circle cx="30" cy="11.4" r="0.15" fill="#999999"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="22.86s" begin="-8.6s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="20" stroke="rgba(230,51,34,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="10" r="0.3" fill="rgba(230,51,34,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="75.375s" begin="-21s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="22" stroke="rgba(194,199,0,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="8" r="1.5" fill="rgba(194,199,0,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="143s" begin="-35.75s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="24" stroke="rgba(185,27,95,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="6" r="1.25" fill="rgba(185,27,95,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="288s" begin="-60s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="26" stroke="rgba(116,101,171,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="4" r="0.7" fill="rgba(116,101,171,1)"></circle>
+			</g>
+			<g transform="rotate(0)">
+				<animateTransform attributeType="xml" attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="451s" begin="-137.8s" additive="sum" repeatCount="indefinite" />
+				<circle cx="30" cy="30" r="28" stroke="rgba(98,182,172,0.5)" stroke-width="1.5px" fill="transparent" vector-effect="non-scaling-stroke" />
+				<circle cx="30" cy="2" r="0.7" fill="rgba(98,182,172,1)"></circle>
+			</g>
+		</g>
+	</svg>
+</svg>
