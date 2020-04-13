@@ -18,12 +18,12 @@
 		{"value":"Pathfinder","correct":false}
 	],
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
-	"hint": { "page":"missions", "text": "The missions are listed in date order moving outward from the planet." }
+	"hint": { "page":"missions", "text": "The missions are shown in date order moving outward from the planet." }
 },{
 	"id":"q-EXP-2",
 	"type":"select1",
 	"chapter":"EXP",
-	"question":"How many Solar System bodies (other than the Earth) did the New Horizons spacecraft encounter?",
+	"question":"How many Solar System bodies (other than the Earth) did the New Horizons spacecraft encounter on its way to Pluto?",
 	"options":[
 		{"value":1,"correct":false},{"value":2,"correct":false},
 		{"value":3,"correct":false},{"value":4,"correct":true},
@@ -377,7 +377,7 @@
 	],
 	"success":"Correct!",
 	"hint":{"page":"catalogue","text":""}
-}{
+},{
 	"id": "q-OTH-4",
 	"type": "select1",
 	"chapter": "OTH",
