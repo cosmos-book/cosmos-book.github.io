@@ -212,7 +212,7 @@ function Quiz(opt){
 		this.getScore();
 
 		// Build the results
-		result = '<h2>'+(this.score==this.questions.length ? 'Congratulations!':'On no!')+'</h2>';
+		result = '<h2>'+(this.score==this.questions.length ? 'Congratulations!':'Oh no!')+'</h2>';
 		result += '<p>You got <span class="score cosmos">'+this.score+'/'+this.questions.length+'</span></p>';
 		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS</span> badge</p><br /><img src="badge.svg" />':'<p>Better luck next time</p>');
 		result += '<br /><input type="reset" class="button reset" />';
