@@ -28,7 +28,7 @@ function Quiz(opt){
 
 	this.gotQuestions = function(questions){
 		
-		var list,q,i,o,name,id,t;
+		var list,q,i,o,name,id,t,v;
 
 		this.questions = questions;
 
@@ -37,8 +37,19 @@ function Quiz(opt){
 
 			// Update type
 			if(typeof this.questions[i].type==="string"){
-				if(this.questions[i].type.indexOf('select')==0) this.questions[i].type = { "value": "select", "n": parseInt(this.questions[i].type.substr(6,)) };
-				else this.questions[i].type = { "value": this.questions[i].type, "n": 1 };
+				if(this.questions[i].type.indexOf('select')==0){
+					v = this.questions[i].type.substr(6,);
+					this.questions[i].type = { "value": "select" };
+					if(v=="All"){
+						v = 0;
+						for(o = 0; o < this.questions[i].options.length; o++){
+							if(this.questions[i].options[o].correct) v++;
+						}
+					}else{
+						v = parseInt(v);
+					}
+					this.questions[i].type.n = v;
+				}else this.questions[i].type = { "value": this.questions[i].type, "n": 1 };
 			}
 
 			q = questions[i];
