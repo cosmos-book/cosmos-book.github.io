@@ -89,7 +89,7 @@
 	"id": "q-SOL-2",
 	"type": "select1",
 	"chapter": "SOL",
-	"question":"Which solar system has the deepest water ice cloud layer?",
+	"question":"Which solar system object has the deepest water ice cloud layer?",
 	"options":[
 		{"value":"Venus","correct":false},
 		{"value":"Earth","correct":false},
