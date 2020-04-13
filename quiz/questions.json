@@ -4,29 +4,54 @@
 	"chapter": "EXP",
 	"question": "What was the first mission to encounter Mercury?",
 	"options": [{"value":"Mariner 10","correct":true}],
-	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s" ,	// option for function
+	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
 	"hint": { "page":"missions", "text": "" }
 },{
-	"id": "q-EXP-2",
-	"type": "select1",
-	"chapter": "EXP",
+	"id":"q-EXP-2",
+	"type":"select1",
+	"chapter":"EXP",
 	"question":"How many Solar System bodies did the New Horizons spacecraft encounter (not including the Earth)?",
 	"options":[{"value":1,"correct":false},{"value":2,"correct":false},{"value":3,"correct":false},{"value":4,"correct":true},{"value":5,"correct":true},{"value":6,"correct":true}],
+	"success":"",
+	"hint":{"page":"missions","text": ""}
+},{
+	"id": "q-EXP-3",
+	"type": "select1",
+	"chapter": "EXP",
+	"question":"How many missions have visited Solar System objects and returned to Earth?",
+	"options":[{"value":"2","correct":true},{"value":"3","correct":true}],
+	"success":"",
 	"hint": { "page":"missions", "text": "" }
 },{
-	"question":"How many missions have visited Solar System objects and returned to Earth?",
-"answer":"2",
-"page":"missions"},
-{"question":"How many missions are heading out of the Solar System?",
-"answer":"5",
-"page":"missions"},
-{"question":"What was the highest number of objects categorised as planets at any one time?",
-"answer":"16",
-"page":"how-many-planets"},
-{"question":"Which planet has the deepest water ice cloud layer?",
-"answer":"Saturn",
-'page':"atmospheres"},
-{"question":"Which of Saturn's rings are the furthest from the planet?",
-"answer":"Saturn",
-"page":"atmospheres"},
-]
+	"id": "q-EXP-4",
+	"type": "select1",
+	"chapter": "EXP",
+	"question":"How many missions are heading out of the Solar System?",
+	"options":[{"value":"5","correct":true}],
+	"success":"",
+	"hint": {"page":"missions","text":""}
+},{
+	"id": "q-SOL-1",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"What was the highest number of objects categorised as planets at any one time?",
+	"options":[{"value":"16","correct":true}],
+	"success":"",
+	"hint":{"page":"how-many-planets","text":""}
+},{
+	"id": "q-SOL-2",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which planet has the deepest water ice cloud layer?",
+	"options":[{"value":"Saturn","correct":true}],
+	"success":"",
+	"hint":{"page":"atmospheres","text":""}
+},{
+	"id": "q-SOL-3",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which of Saturn's rings are the furthest from the planet?",
+	"options":[{"value":"Saturn","correct":true}],
+	"success":"",
+	"hint":{"page":"atmospheres","text":""}
+}]
