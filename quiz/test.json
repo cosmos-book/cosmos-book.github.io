@@ -1,8 +1,8 @@
 [{
 	"id": "q-EXP-1",
-	"type": "select1",
+	"type": "select5",
 	"chapter": "EXP",
-	"question": "Which of these is a dwarf planet",
+	"question": "Select all the dwarf planets",
 	"options": [
 		{"value":"Mercury","correct":false},
 		{"value":"Venus","correct":false},
