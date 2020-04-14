@@ -24,7 +24,7 @@ evas:
     time_end:   2019-10-06T18:40Z
   - time_start: 2019-10-11T11:38Z
     time_end:   2019-10-11T18:23Z
-  - time_start: 2019-10-11T11:38Z
+  - time_start: 2019-10-18T11:38Z
     time_end:   2019-10-18T18:55Z
   - time_start: 2020-01-15T11:25Z
     time_end:   2020-01-15T19:04Z
