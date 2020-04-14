@@ -29,7 +29,6 @@
 		{"value":"Valeri Polyakov","correct":false},
 		{"value":"Jerry Ross","correct":true},
 		{"value":"Peggy Whitson","correct":false},
-		{"value":"Peggy Whitson","correct":false},
 		{"value":"John Young","correct":false}
 	],
 	"success": "Correct! Both Jerry Ross and Franklin Chang-Diaz have completed seven launches into space.",
