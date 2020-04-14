@@ -11,7 +11,7 @@
 	</defs>
 	<circle id="badge" cx="100" cy="100" r="84" stroke="#ffcb06" stroke-width="26" fill="transparent"></circle>
 	<text x="0" y="1" font-size="12px" dominant-baseline="middle" transform="rotate(270)">
-		<textPath href="#circle" startOffset="50%" text-anchor="middle" side="right">COSMOS: The infographic book of space</textPath>
+		<textPath href="#circle" startOffset="50%" text-anchor="middle" side="right">Cosmos: The Infographic Book of Space</textPath>
 	</text>
 	<text x="0" y="0" font-size="18px" dominant-baseline="middle" transform="rotate(90)">
 		<textPath href="#circle" startOffset="50%" text-anchor="middle">Quiz</textPath>
