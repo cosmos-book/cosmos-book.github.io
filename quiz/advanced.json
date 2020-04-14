@@ -37,6 +37,24 @@
 	"id": "q-EXP-3",
 	"type": "select1",
 	"chapter": "EXP",
+	"question": "Which of these astronauts was born furthest North?",
+	"options": [
+		{"value":"Andre Borisenko","correct":false},
+		{"value":"Arne Fugelsang","correct":false},
+		{"value":"Boming Lui","correct":false},
+		{"value":"Mamoru Mohri","correct":false},
+		{"value":"Rodolfo Neri","correct":false},
+		{"value":"Tim Peake","correct":false},
+		{"value":"Bjarni Tryggvason","correct":true},
+		{"value":"Dave Williams","correct":false},
+		{"value":"Vitali Zholobov","correct":true}
+	],
+	"success": "Correct! AlthoughBjarni Tryggvason has Canadian nationality, he was actually born in Iceland.",
+	"hint": { "page":"human-spaceflight/map.html", "text": "Explore the infographic." }
+},{
+	"id": "q-EXP-4",
+	"type": "select1",
+	"chapter": "EXP",
 	"question": "What was the first mission to encounter Mercury?",
 	"options": [
 		{"value":"Bepi Colombo","correct":false},
@@ -56,7 +74,7 @@
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions are listed in date order moving outward from the planet." }
 },{
-	"id": "q-EXP-4",
+	"id": "q-EXP-5",
 	"type": "select2",
 	"chapter": "EXP",
 	"question":"Which two Solar System bodies did the Deep Space 1 probe visit?",
@@ -81,7 +99,7 @@
 	"success":"Correct!",
 	"hint": { "page":"missions", "text": "Explore the infographic. Click on the lines to identify the missions." }
 },{
-	"id": "q-EXP-5",
+	"id": "q-EXP-6",
 	"type": "select1",
 	"chapter": "EXP",
 	"question":"Which was the first comet to be encountered by a spacecraft?",
