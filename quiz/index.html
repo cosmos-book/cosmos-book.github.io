@@ -12,13 +12,18 @@
 	<style>
 	#score-holder, ol.answers > li label, .cosmos { font-family: "Source Code Pro", monospace, sans-serif; }
 	.cosmos { font-weight: bold; }
+	.correct { background: #02a24b; color: white; transition: 0.3s background ease-in; }
+	.wrong { background: #f04031; color: black; }
 	#quiz-holder { padding: 2em; margin: 1em 0; }
 	#quiz-holder img { max-width: 90%; }
-	.correct { background: #02a24b; color: white; }
-	.wrong { background: #f04031; color: black; }
 	#score-holder { float: right; display: inline-block; font-weight: inherit; }
+	#quiz-holder h2 { margin-bottom: 1em; text-align: center; font-size: 2em; margin-top: 0; line-height: 1.25em; }
 	ol.quiz { list-style: none; margin: 1em 0; }
-	#quiz-holder h2 { margin-bottom: 1em; text-align: center; font-size: 2em; margin-top: 0; }
+	ol.levels {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+	}
 	ol.answers {
 		transition: 0.3s all ease-in;
 		max-width: 100%;
@@ -55,6 +60,7 @@
 		text-align: center;
 		width: 100%;
 		color: black;
+		background: white;
 		display: inline-block;
 		border: 8px solid transparent;
 		box-sizing: border-box;
@@ -63,21 +69,17 @@
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 		border-color: rgba(0,0,0,0.5);
 	}
-	form .message { text-align: center; }
-	form button.button { display: block; margin: auto; }
-	form a.button { display: inline-block; text-decoration: none; }
-	form .button { border: 0; background: #444; color: white!important; font-size: 2em; margin-top: 1em; }
-	form .button:disabled { opacity: 0.5; background: #ccc; color: #999; }
+	#quiz-holder .message { text-align: center; }
+	#quiz-holder button.button { display: block; margin: auto; }
+	#quiz-holder a.button { display: inline-block; text-decoration: none; }
+	#quiz-holder .button { border: 0; background: #444; color: white!important; font-size: 2em; margin-top: 1em; }
+	#quiz-holder .button:disabled { opacity: 0.5; background: #ccc; color: #999; }
 	a:visited, a, a:focus { color: inherit; }
-	form .hint { margin-top: 2em; display: inline-block; position: relative; background-color: #dfdfdf; padding:1em; color: #444; text-decoration: none; }
-	form .hint:before { content: ""; position: absolute; top: -1em; left: 50%; transform: translate3d(-50%,0,0); width: 0px; height: 0px; border-left: 1em solid transparent; border-bottom: 1em solid #dfdfdf; border-right: 1em solid transparent; }
+	#quiz-holder .hint { margin-top: 2em; display: inline-block; position: relative; background-color: white; padding:1em; color: #444; text-decoration: none; max-width: 400px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); }
+	#quiz-holder .hint:before { content: ""; position: absolute; z-index:2; top: 0; left: 0em; transform: translate3d(0%,-100%,0); width: 0px; height: 0px; border-right: 0.5em solid transparent; border-top: 0.5em solid transparent; border-left: 0.5em solid white; border-bottom: 0.5em solid white; }
+	#quiz-holder, ol.answers > li label, .response { border-radius: 16px; }
+	#quiz-holder .response { padding: 1em; display: inline-block; }
 
-	#quiz-holder, ol.answers > li label, .response,form .hint { border-radius: 16px; }
-
-	.response { padding: 1em; display: inline-block; }
-
-
-	
 	@media only screen and (max-width: 1080px) {
 		ol.answers { grid-template-columns: repeat(2, 1fr); }
 	}
@@ -114,9 +116,18 @@
 							<p>The book contains a range of information. You can download a <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/local-sheet/data/localsheet.csv" id="data">CSV file containing the galaxies</a> that went into the graphic.</p>
 						</div>
 						<div class="loader js-only"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
-						<form id="quiz-holder">
-							<div class="question-holder"></div>
-						</form>
+						<div id="quiz-holder">
+							<div class="level-holder">
+								<h2>Choose a level:</h2>
+								<ol class="levels">
+									<li><button class="button level" data="test.json">Test</button></li>
+									<li><button class="button level" data="beginner.json">Easy</button></li>
+									<li><button class="button level" data="advanced.json">Hard</button></li>
+								</ol>
+							</div>
+							<form class="question-holder">
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>

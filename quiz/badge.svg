@@ -3,12 +3,18 @@
 	<style>
 	text { transform-origin: center center; -webkit-transform-origin: center center; font-family: "Source Code Pro", monospace, sans-serif; font-weight: bold; }
 	</style>
+	<defs>
+		<path id="circle" d="M 100 100
+    m -84, 0
+    a 84,84 0 1,0 168,0
+    a 84,84 0 1,0 -168,0Z"></path>
+	</defs>
 	<circle id="badge" cx="100" cy="100" r="84" stroke="#ffcb06" stroke-width="26" fill="transparent"></circle>
-	<text x="50%" y="1" font-size="12px" dominant-baseline="middle" transform="rotate(110)">
-		<textPath href="#badge">COSMOS: The infographic book of space</textPath>
+	<text x="0" y="1" font-size="12px" dominant-baseline="middle" transform="rotate(270)">
+		<textPath href="#circle" startOffset="50%" text-anchor="middle" side="right">COSMOS: The infographic book of space</textPath>
 	</text>
-	<text x="50%" y="0" font-size="18px" dominant-baseline="middle" transform="rotate(192)">
-		<textPath href="#badge" side="right">Quiz winner</textPath>
+	<text x="0" y="0" font-size="18px" dominant-baseline="middle" transform="rotate(90)">
+		<textPath href="#circle" startOffset="50%" text-anchor="middle">Quiz</textPath>
 	</text>
 	<svg width="140" height="140" x="30" y="30" viewBox="0 0 60 60">
 		<style>

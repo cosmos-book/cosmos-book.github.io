@@ -8,28 +8,54 @@ function Quiz(opt){
 	this.init = function(file){
 	
 		this.el = S('#quiz-holder');
-		
-		S().ajax(file,{
-			"dataType": "json",
-			"this": this,
-			"success": function(d,attr){
-				this.gotQuestions(d);
-			}
+		this.level = {'title':'?','badge':'badge.svg'};
+		this.getBadge();
+
+		S('ol.levels button').on('click',{me:this},function(e){
+
+			S().ajax(e.currentTarget.getAttribute('data'),{
+				"dataType": "json",
+				"this": e.data.me,
+				"title": e.currentTarget.innerHTML,
+				"success": function(d,attr){
+					this.gotQuestions(d,attr);
+				}
+			});
+			
 		});
 
-
-		S('form').on('submit',{me:this},function(e){
+		this.el.find('form').on('submit',{me:this},function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			e.data.me.submit();
 		});
 		return this;
 	}
+	
+	this.getBadge = function(){
 
-	this.gotQuestions = function(questions){
+		if(this.level.badge.indexOf("<?xml")!=0){
+			S().ajax(this.level.badge,{
+				"dataType": "text",
+				"this": this,
+				"success": function(d,attr){
+					this.level.svg = d.replace(/^<\?xml[^\>]*>[\n\r]*/,"");
+				}
+			});
+		}
+		return this;
+	}
+
+	this.gotQuestions = function(questions,attr){
 		
 		var list,q,i,o,name,id,t,v;
 
+		this.level.title = attr.title;
+
+		this.el.find('.level-holder').css({'display':'none'});
+		this.el.find('.question-holder').css({'display':''});
+
+		this.score = 0;
 		this.questions = questions;
 
 		list = '';
@@ -55,7 +81,7 @@ function Quiz(opt){
 			q = questions[i];
 
 			list += '<li id="q-'+q.id+'">';
-			list += '<h2>'+q.question+'</h2>';
+			list += '<h2>Question '+(i+1)+': '+q.question+'</h2>';
 			list += '<ol class="answers">'
 			for(o = 0; o < q.options.length; o++){
 				list += '<li class="answer">'
@@ -68,16 +94,20 @@ function Quiz(opt){
 					t = 'checkbox';
 				}
 				list += '<input class="q-inp" name="'+name+'" id="'+id+'" type="'+t+'" value="'+o+'" data-question="'+i+'" />'
-				list += '<label class="q-lab '+q.chapter+'" for="'+id+'">'+q.options[o].value+'</label>';
+				list += '<label class="q-lab" for="'+id+'">'+q.options[o].value+'</label>';
 				list += '</li>'
 			}
 			list += '</ol>';
 			list += '</li>';
 		}
+
 		if(list){
-			this.el.find('.question-holder').append('<ol class="quiz">'+list+'</ol>');
+			// Update DOM
+			if(this.el.find('.question-holder .quiz').length==0) this.el.find('.question-holder').append('<ol class="quiz"></ol>');
+			this.el.find('.question-holder .quiz').html(list);
 			for(i = 0; i < this.questions.length; i++){
 				this.questions[i].el = this.el.find('#q-'+this.questions[i].id);
+				// Add click events
 				this.questions[i].el.find('.question-holder li.answer input').on('click',{'me':this,'q':i},function(e){
 					e.data.me.validate(e.data.q);
 				});
@@ -85,12 +115,14 @@ function Quiz(opt){
 		}
 		
 		// Add a button
-		this.el.append('<button id="check" class="button">Submit answer</button>');
-		this.button = this.el.find('#check');
-		this.button[0].disabled = true;
+		if(this.el.find('#check').length==0){
+			this.el.find('form').append('<button id="check" class="button">Submit answer</button>');
+			this.button = this.el.find('#check');
+			this.button[0].disabled = true;
+		}
 
 		// Add a message
-		this.el.append('<div class="message"></div>');
+		if(this.el.find('form .message').length==0) this.el.find('form').append('<div class="message"></div>');
 		this.message = this.el.find('.message');
 		
 		S('#totscore').html(questions.length);
@@ -119,8 +151,12 @@ function Quiz(opt){
 		for(q = 0; q < this.questions.length; q++){
 			el = S('#q-'+this.questions[q].id);
 			el.css({'display':(q==i ? '':'none')});
+			if(q==i){
+				S('#content')[0].setAttribute('class',this.questions[i].chapter);
+			}
 		}
-				
+
+
 		this.button[0].disabled = true;
 
 		// Perhaps we need to finish
@@ -133,7 +169,7 @@ function Quiz(opt){
 		}
 		
 		this.question = i;
-		if(this.questions[i].hint && this.questions[i].hint.page) this.message.html('<div class="hint">Hint: <a href="../'+this.questions[i].hint.page+'/index.html">'+(this.questions[i].hint.text || 'Explore the infographic')+'</a></div>');
+		if(this.questions[i].hint && this.questions[i].hint.page) this.message.html('<div class="hint">Hint: <a href="../'+this.questions[i].hint.page+'/index.html" target="_infographic">'+(this.questions[i].hint.text || 'Explore the infographic')+'</a></div>');
 		return this;
 	}
 	
@@ -214,13 +250,15 @@ function Quiz(opt){
 		// Build the results
 		result = '<h2>'+(this.score==this.questions.length ? 'Congratulations!':'Oh no!')+'</h2>';
 		result += '<p>You got <span class="score cosmos">'+this.score+'/'+this.questions.length+'</span></p>';
-		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS</span> badge</p><br /><img src="badge.svg" />':'<p>Better luck next time</p>');
+		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS</span> badge</p><br />'+this.level.svg.replace(/\>Quiz\</g,">"+this.level.title+" Quiz: 100%<"):'<p>Better luck next time</p>');
 		result += '<br /><input type="reset" class="button reset" />';
 
 		// Show the results
 		this.message.html(result);
 		
 		this.el.find('.reset').on('click',{me:this},function(e){ e.data.me.reset(); });
+		
+		S('#content')[0].setAttribute('class','');
 
 		// Hide the submit button
 		this.button.css({'display':'none'});
@@ -229,6 +267,9 @@ function Quiz(opt){
 	}
 
 	this.reset = function(){
+		this.el.find('.level-holder').css({'display':''});
+		this.el.find('.question-holder').css({'display':'none'});
+
 		for(var i = 0; i < this.questions.length;i++){
 			delete this.questions[i].result;
 		}

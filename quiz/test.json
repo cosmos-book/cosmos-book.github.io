@@ -1,0 +1,23 @@
+[{
+	"id": "q-EXP-1",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Which of these is a dwarf planet",
+	"options": [
+		{"value":"Mercury","correct":false},
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Ceres","correct":true},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false},
+		{"value":"Pluto","correct":true},
+		{"value":"Haumea","correct":true},
+		{"value":"Makemake","correct":true},
+		{"value":"Eris","correct":true}
+	],
+	"success": "Yes - In 2006, the International Astronomical Union created the category of 'Dwarf planet' after Eris had been found to be larger than Pluto.",
+	"hint": { "page":"how-many-planets", "text": "What gets classed as a planet has varied over the years. Explore the infographic to find dwarf planets (there are currently 5)." }
+}]
