@@ -169,7 +169,7 @@ function Quiz(opt){
 		}
 		
 		this.question = i;
-		if(this.questions[i].hint && this.questions[i].hint.page) this.message.html('<div class="hint">Hint: <a href="../'+this.questions[i].hint.page+'/index.html" target="_infographic">'+(this.questions[i].hint.text || 'Explore the infographic')+'</a></div>');
+		if(this.questions[i].hint && this.questions[i].hint.page) this.message.html('<a class="hint" href="../'+this.questions[i].hint.page+(this.questions[i].hint.page.indexOf(".html") > 0 ? '':'/index.html')+'" target="_infographic">Hint: '+(this.questions[i].hint.text || 'Explore the infographic')+'</a>');
 		return this;
 	}
 	

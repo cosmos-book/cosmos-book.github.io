@@ -12,7 +12,7 @@
 		{"value":"Dennis Tito","correct":false}
 	],
 	"success": "Correct! Michael Melvill was 63 when he visited the International Space Station in 2003",
-	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page." }
+	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page. Each circle represents an astronaut and clicking on one will give you more information about them." }
 },{
 	"id": "q-EXP-2",
 	"type": "select2",
@@ -35,7 +35,7 @@
 	"success": "Correct! Both Jerry Ross and Franklin Chang-Diaz have completed seven launches into space.",
 	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page." }
 },{
-	"id": "q-EXP-2",
+	"id": "q-EXP-3",
 	"type": "select1",
 	"chapter": "EXP",
 	"question": "What was the first mission to encounter Mercury?",
@@ -57,7 +57,7 @@
 	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions are listed in date order moving outward from the planet." }
 },{
-	"id": "q-EXP-3",
+	"id": "q-EXP-4",
 	"type": "select2",
 	"chapter": "EXP",
 	"question":"Which two Solar System bodies did the Deep Space 1 probe visit?",
@@ -82,7 +82,7 @@
 	"success":"Correct!",
 	"hint": { "page":"missions", "text": "Explore the infographic. Click on the lines to identify the missions." }
 },{
-	"id": "q-EXP-4",
+	"id": "q-EXP-5",
 	"type": "select1",
 	"chapter": "EXP",
 	"question":"Which was the first comet to be encountered by a spacecraft?",

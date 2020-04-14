@@ -4,18 +4,22 @@
 	"chapter": "EXP",
 	"question": "How many people have spent more than 700 days in space?",
 	"options": [
-		{"value":1,"correct":false},{"value":2,"correct":false},
-		{"value":3,"correct":false},{"value":4,"correct":false},
-		{"value":5,"correct":false},{"value":6,"correct":false},
-		{"value":7,"correct":true},{"value":8,"correct":false}
+		{"value":1,"correct":false},
+		{"value":2,"correct":false},
+		{"value":3,"correct":false},
+		{"value":4,"correct":false},
+		{"value":5,"correct":false},
+		{"value":6,"correct":true},
+		{"value":7,"correct":false},
+		{"value":8,"correct":false}
 	],
 	"success": "Correct!",
-	"hint": { "page":"human-spaceflight", "text": "" }
+	"hint": { "page":"human-spaceflight/summary.html", "text": "" }
 },{
 	"id": "q-EXP-2",
 	"type": "select1",
 	"chapter": "EXP",
-	"question": "Which comet has had the most encounters by missions?",
+	"question": "Which comet has had the most encounters by spacecraft?",
 	"options": [
 		{"value":"1P/Halley","correct":true},
 		{"value":"2P/Encke","correct":false},
@@ -28,7 +32,7 @@
 		{"value":"81P/Wild","correct":false},
 		{"value":"103P/Hartley","correct":false}
 	],
-	"success": "Correct! when it passed through the inner Solar System in 1986, comet 1P/Halley was visited by a fleet of 5 spacecraft",
+	"success": "Correct! When it passed through the inner Solar System in 1986, comet 1P/Halley was visited by a fleet of 5 spacecraft",
 	"hint": { "page":"missions", "text": "" }
 },{
 	"id": "q-EXP-3",
@@ -47,17 +51,21 @@
 		{"value":"Pluto","correct":false}
 	],
 	"success": "Correct! Rosetta's encounter with Mars helped change its orbital inclination (or tilt) to allow it to encounter comet 67P.",
-	"hint": { "page":"missions", "text": "" }
+	"hint": { "page":"missions", "text": "Explore the infographic. Find the comet and the spacecraft then trace its journey back." }
 },{
 	"id":"q-EXP-4",
 	"type":"select1",
 	"chapter":"EXP",
 	"question":"How many Solar System bodies (other than the Earth) did the New Horizons spacecraft encounter on its way to Pluto?",
 	"options":[
-		{"value":1,"correct":false},{"value":2,"correct":false},
-		{"value":3,"correct":false},{"value":4,"correct":true},
-		{"value":5,"correct":false},{"value":6,"correct":false},
-		{"value":7,"correct":false},{"value":8,"correct":false}
+		{"value":1,"correct":false},
+		{"value":2,"correct":true},
+		{"value":3,"correct":false},
+		{"value":4,"correct":false},
+		{"value":5,"correct":false},
+		{"value":6,"correct":false},
+		{"value":7,"correct":false},
+		{"value":8,"correct":false}
 	],
 	"success":"",
 	"hint":{"page":"missions","text": ""}
@@ -67,10 +75,14 @@
 	"chapter": "EXP",
 	"question":"How many missions have visited Solar System objects (other than the Moon) and returned samples to Earth?",
 	"options":[
-		{"value":1,"correct":false},{"value":2,"correct":true},
-		{"value":3,"correct":false},{"value":4,"correct":false},
-		{"value":5,"correct":false},{"value":6,"correct":false},
-		{"value":7,"correct":false},{"value":8,"correct":false}
+		{"value":1,"correct":false},
+		{"value":2,"correct":true},
+		{"value":3,"correct":false},
+		{"value":4,"correct":false},
+		{"value":5,"correct":false},
+		{"value":6,"correct":false},
+		{"value":7,"correct":false},
+		{"value":8,"correct":false}
 	],
 	"success":"Yes - Hayabusa returned samples from asteroid Itokawa and Stardust returned samples from comet 81P/Wild",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
@@ -95,7 +107,7 @@
 
 	],
 	"success":"",
-	"hint": {"page":"missions","text":"Explore the infographic. Missions heading out of the Solar System have paths that run off the edge of the graphic"}
+	"hint": {"page":"missions","text":"Explore the infographic. Missions heading out of the Solar System have paths that run off the edge of the graphic."}
 },{
 	"id": "q-SOL-1",
 	"type": "select1",
@@ -113,7 +125,7 @@
 		{"value":"20","correct":false}
 	],
 	"success":"",
-	"hint":{"page":"how-many-planets","text":""}
+	"hint":{"page":"how-many-planets","text":"The definition of 'planet' has varied over the years as we discovered new objects and created new categories."}
 },{
 	"id": "q-SOL-2",
 	"type": "select1",
@@ -208,7 +220,7 @@
 		{"value":"2010-2020","correct":false}
 	],
 	"success":"Correct! This was one of a series of solar flares and coronal mass ejections that were collectively known as the Halloween solar storms",
-	"hint":{"page":"solar-flares","text":"Explore the infographic. Flares are ordered around the Sun by date."}
+	"hint":{"page":"solar-flares","text":"Explore the solar flares infographic. Flares are ordered around the Sun by date and the length of the flare represents how strong it was."}
 },{
 	"id": "q-STA-1",
 	"type": "select1",
@@ -223,7 +235,7 @@
 		{"value":"Rigel","correct":false}
 	],
 	"success":"Correct! At a mere 25 times the size of our Sun, Arcturus is dwarfed by the others",
-	"hint":{"page":"giant-stars","text":""}
+	"hint":{"page":"giantstars","text":"Explore the infographic showing a selection of giant stars compared to the Sun. Hover over individual stars to find out their names."}
 },{
 	"id": "q-STA-2",
 	"type": "select2",
@@ -274,7 +286,7 @@
 		{"value":"8","correct":false}
 	],
 	"success":"Correct!",
-	"hint":{"page":"messier","text":""}
+	"hint":{"page":"catalogue/messier","text":""}
 },{
 	"id": "q-OTH-3",
 	"type": "select1",
