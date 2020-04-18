@@ -13,7 +13,7 @@
 		{"value":7,"correct":false},
 		{"value":8,"correct":false}
 	],
-	"success": "Correct!",
+	"success": "",
 	"hint": { "page":"human-spaceflight/summary.html", "text": "" }
 },{
 	"id": "q-EXP-2",
@@ -32,7 +32,7 @@
 		{"value":"81P/Wild","correct":false},
 		{"value":"103P/Hartley","correct":false}
 	],
-	"success": "Correct! When it passed through the inner Solar System in 1986, comet 1P/Halley was visited by a fleet of 5 spacecraft",
+	"success": "When it passed through the inner Solar System in 1986, comet 1P/Halley was visited by a fleet of 5 spacecraft",
 	"hint": { "page":"missions", "text": "" }
 },{
 	"id": "q-EXP-3",
@@ -50,7 +50,7 @@
 		{"value":"Neptune","correct":false},
 		{"value":"Pluto","correct":false}
 	],
-	"success": "Correct! Rosetta's encounter with Mars helped change its orbital inclination (or tilt) to allow it to encounter comet 67P.",
+	"success": "Rosetta's encounter with Mars helped change its orbital inclination (or tilt) to allow it to encounter comet 67P.",
 	"hint": { "page":"missions", "text": "Explore the infographic. Find the comet and the spacecraft then trace its journey back." }
 },{
 	"id":"q-EXP-4",
@@ -84,7 +84,7 @@
 		{"value":7,"correct":false},
 		{"value":8,"correct":false}
 	],
-	"success":"Yes - Hayabusa returned samples from asteroid Itokawa and Stardust returned samples from comet 81P/Wild",
+	"success":"Hayabusa returned samples from asteroid Itokawa and Stardust returned samples from comet 81P/Wild",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
 },{
 	"id": "q-EXP-6",
@@ -160,7 +160,7 @@
 		{"value":"Uranus","correct":true},
 		{"value":"Neptune","correct":true}
 	],
-	"success":"Yes - all the outer planets have ammonia ice clouds, which comprise nitrogen and hydrogen.",
+	"success":"All the outer planets have ammonia ice clouds, which comprise nitrogen and hydrogen.",
 	"hint":{"page":"atmospheres","text":"Explore the infographic. Clouds are colour coded by composition."}
 },{
 	"id": "q-SOL-4",
@@ -177,7 +177,7 @@
 		{"value":"G-ring","correct":false},
 		{"value":"Halo ring","correct":false}
 	],
-	"success":"Correct! Saturn's rings were labelled in order of discovery, not in order of distance from the planet.",
+	"success":"Saturn's rings were labelled in order of discovery, not in order of distance from the planet.",
 	"hint":{"page":"rings","text":""}
 },{
 	"id": "q-SOL-5",
@@ -192,7 +192,7 @@
 		{"value":"(Tunguska) 1908 MXX","correct":false},
 		{"value":"2007 TV18","correct":false}
 	],
-	"success":"Correct! Although it was discovered in 2002, it was calculated that (163132) 2002 CU11 would have made its closest approach to Earth back in 1925",
+	"success":"Although it was discovered in 2002, it was calculated that (163132) 2002 CU11 would have made its closest approach to Earth back in 1925",
 	"hint":{"page":"collision-imminent","text":""}
 },{
 	"id": "q-SOL-6",
@@ -205,7 +205,7 @@
 		{"value":"Autumn / Fall","correct":true},
 		{"value":"Winter","correct":false}
 	],
-	"success":"Correct! Eclipses happen at specific times of year, varying on a roughly 18 year cycle.",
+	"success":"Eclipses happen at specific times of year, varying on a roughly 18 year cycle.",
 	"hint":{"page":"eclipses","text":""}
 },{
 	"id": "q-SUN-1",
@@ -219,7 +219,7 @@
 		{"value":"2000-2010","correct":true},
 		{"value":"2010-2020","correct":false}
 	],
-	"success":"Correct! This was one of a series of solar flares and coronal mass ejections that were collectively known as the Halloween solar storms",
+	"success":"This was one of a series of solar flares and coronal mass ejections that were collectively known as the Halloween solar storms",
 	"hint":{"page":"solar-flares","text":"Explore the solar flares infographic. Flares are ordered around the Sun by date and the length of the flare represents how strong it was."}
 },{
 	"id": "q-STA-1",
@@ -234,7 +234,7 @@
 		{"value":"Deneb","correct":false},
 		{"value":"Rigel","correct":false}
 	],
-	"success":"Correct! At a mere 25 times the size of our Sun, Arcturus is dwarfed by the others",
+	"success":"At a mere 25 times the size of our Sun, Arcturus is dwarfed by the others",
 	"hint":{"page":"giantstars","text":"Explore the infographic showing a selection of giant stars compared to the Sun. Hover over individual stars to find out their names."}
 },{
 	"id": "q-STA-2",
@@ -251,7 +251,7 @@
 		{"value":"Xenon (Xe)","correct":false},
 		{"value":"Caesium (Cs)","correct":false}
 	],
-	"success":"Correct! Molybdenum activates some crucial enzymes, while Iodine is used in some hormones",
+	"success":"Molybdenum activates some crucial enzymes, while Iodine is used in some hormones",
 	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources. [N.B. you need the updated online version to answer this!]"}
 },{
 	"id": "q-GAL-5",
@@ -268,7 +268,7 @@
 		{"value":"M81","correct":false},
 		{"value":"NGC 3116","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"local-sheet","text":""}
 },{
 	"id": "q-OTH-1",
@@ -285,7 +285,7 @@
 		{"value":"7","correct":false},
 		{"value":"8","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"catalogue/messier","text":""}
 },{
 	"id": "q-OTH-3",
@@ -300,6 +300,6 @@
 		{"value":"Spiral Galaxy","correct":false},
 		{"value":"Supernova Remnant","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"catalogue","text":""}
 }]

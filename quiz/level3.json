@@ -11,7 +11,7 @@
 		{"value":"Michael Melvill","correct":true},
 		{"value":"Dennis Tito","correct":false}
 	],
-	"success": "Correct! Michael Melvill was 63 when he visited the International Space Station in 2003",
+	"success": "Michael Melvill was 63 when he visited the International Space Station in 2003",
 	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page. Each circle represents an astronaut and clicking on one will give you more information about them." }
 },{
 	"id": "q-EXP-2",
@@ -31,7 +31,7 @@
 		{"value":"Peggy Whitson","correct":false},
 		{"value":"John Young","correct":false}
 	],
-	"success": "Correct! Both Jerry Ross and Franklin Chang-Diaz have completed seven launches into space.",
+	"success": "Both Jerry Ross and Franklin Chang-Diaz have completed seven launches into space.",
 	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page." }
 },{
 	"id": "q-EXP-3",
@@ -49,7 +49,7 @@
 		{"value":"Dave Williams","correct":false},
 		{"value":"Vitali Zholobov","correct":true}
 	],
-	"success": "Correct! AlthoughBjarni Tryggvason has Canadian nationality, he was actually born in Iceland.",
+	"success": "Although Bjarni Tryggvason has Canadian nationality, he was actually born in Iceland.",
 	"hint": { "page":"human-spaceflight/map.html", "text": "Explore the infographic." }
 },{
 	"id": "q-EXP-4",
@@ -71,7 +71,7 @@
 		{"value":"New Horizons","correct":false},
 		{"value":"Pathfinder","correct":false}
 	],
-	"success": "Yes - Mariner 10 completed three flybys of Mercury in the 1970s",
+	"success": "Mariner 10 completed three flybys of Mercury in the 1970s",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions are listed in date order moving outward from the planet." }
 },{
 	"id": "q-EXP-5",
@@ -96,7 +96,7 @@
 		{"value":"Vesta","correct":false},
 		{"value":"Ceres","correct":false}
 	],
-	"success":"Correct!",
+	"success":"It went to (9969) Braille and 19P/Borrelly.",
 	"hint": { "page":"missions", "text": "Explore the infographic. Click on the lines to identify the missions." }
 },{
 	"id": "q-EXP-6",
@@ -114,7 +114,7 @@
 		{"value":"73P/Schwassmann-Wachmann","correct":false},
 		{"value":"81P/Wild","correct":false}
 	],
-	"success":"Correct! The Giotto mission made a distant flyby of 21P/Giacobini-Zinner on its way to its main target, comet 1P/Halley",
+	"success":"The Giotto mission made a distant flyby of 21P/Giacobini-Zinner on its way to its main target, comet 1P/Halley",
 	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
 },{
 	"id": "q-SOL-1",
@@ -132,7 +132,7 @@
 		{"value":"Uranus","correct":false},
 		{"value":"Neptune","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"atmospheres","text":"Explore the infographic. The tropopauses are all labelled, and clicking on them will show the pressure"}
 },{
 	"id": "q-SOL-2",
@@ -150,7 +150,7 @@
 		{"value":"Uranus","correct":true},
 		{"value":"Neptune","correct":false}
 	],
-	"success":"Correct! Uranus differs from the other outer planets in that it has no internal heat source. No one know why!",
+	"success":"Uranus differs from the other outer planets in that it has no internal heat source. No one know why!",
 	"hint":{"page":"atmospheres","text":"Explore the infographic. You can click the buttons at the top to set the same altitude on all the planets."}
 },{
 	"id": "q-SOL-3",
@@ -167,7 +167,7 @@
 		{"value":"Titan","correct":false},
 		{"value":"Triton","correct":false}
 	],
-	"success":"Correct! Although Pluto is larger than some of the other objects listed, it's much less massive, so has weaker surface gravity",
+	"success":"Although Pluto is larger than some of the other objects listed, it's much less massive, so has weaker surface gravity",
 	"hint":{"page":"high-jump","text":"Explore the infographic. There's no shortcut - you've just got to try jumping on all those objects!"}
 },{
 	"id": "q-SOL-4",
@@ -184,7 +184,7 @@
 		{"value":"Eris","correct":false},
 		{"value":"Titon","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"how-many-planets","text":""}
 },{
 	"id": "q-SOL-5",
@@ -203,7 +203,7 @@
 		{"value":"Tethys","correct":true},
 		{"value":"Titan","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"how-many-planets","text":""}
 },{
 	"id": "q-SUN-1",
@@ -220,7 +220,7 @@
 		{"value":"2040","correct":false},
 		{"value":"2042","correct":false}
 	],
-	"success":"Correct! The Sun will next pass closest to barycentre of the Solar System in 2030. (If you're reading this after 2030, the apologies for not updating this!)",
+	"success":"The Sun will next pass closest to barycentre of the Solar System in 2030. (If you're reading this after 2030, the apologies for not updating this!)",
 	"hint":{"page":"dance-of-the-sun","text":""}
 },{
 	"id": "q-STA-1",
@@ -237,7 +237,7 @@
 		{"value":"Ursa Major","correct":false},
 		{"value":"Hydra","correct":false}
 	],
-	"success":"Correct! Although it's not the largest constellation, Sagittarius contains a lot of star clusters and nebulae located between us and the centre of the Galaxy.",
+	"success":"Although it's not the largest constellation, Sagittarius contains a lot of star clusters and nebulae located between us and the centre of the Galaxy.",
 	"hint":{"page":"constellations","text":"Explore the infographic. Click on the constellations to see more information."}
 },{
 	"id": "q-STA-2",
@@ -254,7 +254,7 @@
 		{"value":"Selenium (Se)","correct":false},
 		{"value":"Sulphur (S)","correct":false}
 	],
-	"success":"Correct!",
+	"success":"",
 	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources. [N.B. you need the updated online version to answer this!]"}
 },{
 	"id": "q-OTH-1",
@@ -266,7 +266,7 @@
 		{"value":"Nebulae and supernova remnants","correct":false},
 		{"value":"Galaxies","correct":false}
 	],
-	"success":"Correct! This range of numbers in the NGC catalogue includes regions towards the centre of our Galaxy, so is dominated by star clusters and groups.",
+	"success":"This range of numbers in the NGC catalogue includes regions towards the centre of our Galaxy, so is dominated by star clusters and groups.",
 	"hint":{"page":"messier","text":""}
 },{
 	"id": "q-OTH-2",
@@ -283,7 +283,7 @@
 		{"value":"Urbain Le Verrier","correct":false},
 		{"value":"Fritz Zwicky","correct":false}
 	],
-	"success":"Correct! Williamina Flemming discovered around 40% of the novae known at the time.",
+	"success":"Williamina Flemming discovered around 40% of the novae known at the time.",
 	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
 },{
 	"id": "q-OTH-3",
@@ -297,6 +297,6 @@
 		{"value":"Nancy Roman","correct":true},
 		{"value":"Fritz Zwicky","correct":false}
 	],
-	"success":"Correct! Nancy Roman was oversaw several astronomical satellites and was involved in the planning and design of the Hubble Space Telescope.",
+	"success":"Nancy Roman was oversaw several astronomical satellites and was involved in the planning and design of the Hubble Space Telescope.",
 	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
 }]

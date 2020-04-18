@@ -18,7 +18,7 @@
 		{"value":"Makemake","correct":true},
 		{"value":"Eris","correct":true}
 	],
-	"success": "Yes - In 2006, the International Astronomical Union created the category of 'Dwarf planet' after Eris had been found to be larger than Pluto.",
+	"success": "In 2006, the International Astronomical Union created the category of 'Dwarf planet' after Eris had been found to be larger than Pluto.",
 	"hint": { "page":"how-many-planets", "text": "What gets classed as a planet has varied over the years. Explore the infographic to find dwarf planets (there are currently 5)." }
 },{
 	"id": "q-EXP-2",
@@ -35,7 +35,7 @@
 		{"value":"Uranus","correct":true},
 		{"value":"Neptune","correct":true}
 	],
-	"success": "Well done. Saturn is famous for its ring system. Jupiter, Uranus, and Neptune have also been shown to have rings.",
+	"success": "Saturn is famous for its ring system. Jupiter, Uranus, and Neptune have also been shown to have rings.",
 	"hint": { "page":"rings", "text": "" }
 },{
 	"id": "q-STA-1",
