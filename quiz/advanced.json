@@ -188,7 +188,7 @@
 	"hint":{"page":"how-many-planets","text":""}
 },{
 	"id": "q-SOL-5",
-	"type": "select1",
+	"type": "select2",
 	"chapter": "SOL",
 	"question":"Which two moons of Saturn, initially classified as planets, were discovered in the same year",
 	"options":[
