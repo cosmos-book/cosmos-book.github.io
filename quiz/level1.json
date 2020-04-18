@@ -52,4 +52,17 @@
 	],
 	"success": "Polaris is another name for the \"North Star\" - the star that almost sits above the Earth's geographic North Pole.",
 	"hint": { "page":"constellations", "text": "" }
+},{
+	"id": "q-OTH-1",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Which of these is the name of a catalogue of astronomical objects?",
+	"options": [
+		{"value":"M.E.S.S","correct":false},
+		{"value":"Messier","correct":true},
+		{"value":"T.I.D.Y","correct":false},
+		{"value":"Tidier","correct":false}
+	],
+	"success": "The Messier catalogue was compiled by French astronomer Charles Messier and published in 1771. He was mainly interested in comets - his famous catalogue was a list of astronomical objects he didn't want to look at!",
+	"hint": { "page":"messier", "text": "" }
 }]
