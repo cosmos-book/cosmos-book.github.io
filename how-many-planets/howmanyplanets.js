@@ -208,7 +208,7 @@ $(document).ready(function(){
 		}
 	},{
 		"year": 2008,
-		"description": "Eris was found to be larger than Pluto leading to Pluto being redefined as a \"dwarf planet\" along with Ceres, Haumea, Makemake and Eris.",
+		"description": "Haumea and Makemake were added to the \"dwarf planet\" club joining Pluto, Ceres, and Eris.",
 		"planets":{
 			"count":8,
 			"names":["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
