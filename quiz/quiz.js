@@ -211,18 +211,21 @@ function Quiz(opt){
 		this.button.css({'display':'none'});
 
 		// Set the class of the whole quiz and of the specific question
-	//	this.el.addClass(correct ? 'correct' : 'wrong');
+		//this.el.addClass(correct ? 'correct' : 'wrong');
 
 		// Highlight right and wrong answers (set background colour)s
 		//this.questions[this.question].el.addClass(correct ? 'correct' : 'wrong');
 
 		// Show the response
+		/*
 		if(correct){
 			this.message.html('<div class="response">'+(this.questions[this.question].success||"Yes")+'</div>');
 		}else{
 			// Highlight correct answers
 			this.message.html('<div class="response">'+(this.questions[this.question].wrong||"Wrong")+'</div>');
 		}
+		*/
+		this.message.html('<div class="response"><strong>'+(correct ? 'Correct':'Wrong')+'!</strong> '+this.questions[this.question].success+'</div>');
 
 		nq = this.question+1;
 

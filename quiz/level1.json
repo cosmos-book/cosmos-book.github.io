@@ -18,7 +18,7 @@
 		{"value":"Makemake","correct":true},
 		{"value":"Eris","correct":true}
 	],
-	"success": "In 2006, the International Astronomical Union created the category of 'Dwarf planet' after Eris had been found to be larger than Pluto.",
+	"success": "The category of 'dwarf planet' was created in 2006 and contained Pluto, Ceres, and Eris. In 2008, Haumea and Makemake were officially added.",
 	"hint": { "page":"how-many-planets", "text": "What gets classed as a planet has varied over the years. Explore the infographic to find dwarf planets (there are currently 5)." }
 },{
 	"id": "q-EXP-2",
