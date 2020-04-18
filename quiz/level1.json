@@ -20,4 +20,36 @@
 	],
 	"success": "Yes - In 2006, the International Astronomical Union created the category of 'Dwarf planet' after Eris had been found to be larger than Pluto.",
 	"hint": { "page":"how-many-planets", "text": "What gets classed as a planet has varied over the years. Explore the infographic to find dwarf planets (there are currently 5)." }
+},{
+	"id": "q-EXP-2",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Select a planet that has rings",
+	"options": [
+		{"value":"Mercury","correct":false},
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Jupiter","correct":true},
+		{"value":"Saturn","correct":true},
+		{"value":"Uranus","correct":true},
+		{"value":"Neptune","correct":true}
+	],
+	"success": "Well done. Saturn is famous for its ring system. Jupiter, Uranus, and Neptune have also been shown to have rings.",
+	"hint": { "page":"rings", "text": "" }
+},{
+	"id": "q-STA-1",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Which of these is not a constellation?",
+	"options": [
+		{"value":"Crux","correct":false},
+		{"value":"Phoenix","correct":false},
+		{"value":"Orion","correct":false},
+		{"value":"Grus","correct":false},
+		{"value":"Polaris","correct":true},
+		{"value":"Cygnus","correct":false}
+	],
+	"success": "Polaris is another name for the \"North Star\" - the star that almost sits above the Earth's geographic North Pole.",
+	"hint": { "page":"constellations", "text": "" }
 }]
