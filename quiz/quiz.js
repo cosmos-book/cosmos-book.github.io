@@ -250,7 +250,7 @@ function Quiz(opt){
 		// Build the results
 		result = '<h2>'+(this.score==this.questions.length ? 'Congratulations!':'Oh no!')+'</h2>';
 		result += '<p>You got <span class="score cosmos">'+this.score+'/'+this.questions.length+'</span></p>';
-		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS '+this.level.title+' Quiz</span> badge</p><br />'+this.level.svg.replace(/\>Quiz\</g,">"+this.level.title+" Quiz: 100%<"):'<p>Better luck next time</p>');
+		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS '+this.level.title+' Quiz</span> badge</p><br />'+this.level.svg.replace(/\>Quiz\</g,">"+this.level.title+": 100%<"):'<p>Better luck next time</p>');
 		result += '<br /><input type="reset" class="button reset" />';
 
 		// Show the results
