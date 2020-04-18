@@ -52,6 +52,7 @@ function Quiz(opt){
 
 		this.level.title = attr.title;
 
+		S('.level-label').html(' / '+this.level.title);
 		this.el.find('.level-holder').css({'display':'none'});
 		this.el.find('.question-holder').css({'display':''});
 
