@@ -55,8 +55,8 @@
 },{
 	"id": "q-OTH-1",
 	"type": "select1",
-	"chapter": "EXP",
-	"question": "Which of these is the name of a catalogue of astronomical objects?",
+	"chapter": "OTH",
+	"question": "Which of these is a catalogue of astronomical objects?",
 	"options": [
 		{"value":"M.E.S.S","correct":false},
 		{"value":"Messier","correct":true},

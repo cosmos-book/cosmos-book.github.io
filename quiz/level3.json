@@ -285,4 +285,18 @@
 	],
 	"success":"Correct! Williamina Flemming discovered around 40% of the novae known at the time.",
 	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
+},{
+	"id": "q-OTH-3",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"Who was NASA's first Chief of Astronomy?",
+	"options":[
+		{"value":"Neil Armstrong","correct":false},
+		{"value":"Sally Ride","correct":false},
+		{"value":"John Glenn","correct":false},
+		{"value":"Nancy Roman","correct":true},
+		{"value":"Fritz Zwicky","correct":false}
+	],
+	"success":"Correct! Nancy Roman was oversaw several astronomical satellites and was involved in the planning and design of the Hubble Space Telescope.",
+	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
 }]
