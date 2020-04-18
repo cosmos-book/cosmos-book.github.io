@@ -194,8 +194,13 @@ function Quiz(opt){
 		for(i = 0; i < inp.length; i++){
 			checked = (inp[i].selected || inp[i].checked);
 			o = parseInt(inp[i].value);
-			if(checked && this.questions[this.question].options[o].correct) n++;
 			inp[i].disabled = true;
+			q = S(inp[i].parentNode).find('label');
+
+			if(checked && this.questions[this.question].options[o].correct) n++;
+			// Update classes
+			if(this.questions[this.question].options[o].correct) q.addClass('correct');
+			if(checked && !this.questions[this.question].options[o].correct) q.addClass('wrong');				
 		}
 		correct = (n==this.questions[this.question].type.n);
 		
@@ -205,13 +210,16 @@ function Quiz(opt){
 		this.button.css({'display':'none'});
 
 		// Set the class of the whole quiz and of the specific question
-		this.el.addClass(correct ? 'correct' : 'wrong');
+	//	this.el.addClass(correct ? 'correct' : 'wrong');
+
+		// Highlight right and wrong answers (set background colour)s
 		//this.questions[this.question].el.addClass(correct ? 'correct' : 'wrong');
 
 		// Show the response
 		if(correct){
 			this.message.html('<div class="response">'+(this.questions[this.question].success||"Yes")+'</div>');
 		}else{
+			// Highlight correct answers
 			this.message.html('<div class="response">'+(this.questions[this.question].wrong||"Wrong")+'</div>');
 		}
 
@@ -250,7 +258,7 @@ function Quiz(opt){
 		// Build the results
 		result = '<h2>'+(this.score==this.questions.length ? 'Congratulations!':'Oh no!')+'</h2>';
 		result += '<p>You got <span class="score cosmos">'+this.score+'/'+this.questions.length+'</span></p>';
-		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS '+this.level.title+' Quiz</span> badge</p><br />'+this.level.svg.replace(/\>Quiz\</g,">"+this.level.title+": 100%<"):'<p>Better luck next time</p>');
+		result += (this.score==this.questions.length ? '<p>You have earned the <span class="cosmos">COSMOS '+this.level.title+' Quiz</span> badge</p><br />'+this.level.svg.replace(/\>Quiz\</g,">"+this.level.title+"<"):'<p>Better luck next time</p>');
 		result += '<br /><input type="reset" class="button reset" />';
 
 		// Show the results
