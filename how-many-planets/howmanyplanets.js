@@ -221,6 +221,8 @@ $(document).ready(function(){
 
 	var now = new Date();
 	var year = now.getFullYear();
+	
+	$('#eyear').html(year);
 
 	$("#slider").slider({
 		min: 1600,
