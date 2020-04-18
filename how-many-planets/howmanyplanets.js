@@ -244,7 +244,7 @@ $(document).ready(function(){
 		//if(data[i].dwarf.count > 0) output += ' and <div class="count">'+data[i].dwarf.count+'<\/div> dwarf planets';
 		$("#output").html(output)
 		
-		if(data[i].description) $("#info").html(data[i].description)
+		if(data[i].description) $("#info").html(data[i].year+': '+data[i].description)
 		
 		var planets = "";
 		for(var p = 0; p < data[i].planets.names.length; p++){
