@@ -252,7 +252,7 @@
 		{"value":"Caesium (Cs)","correct":false}
 	],
 	"success":"Correct! Molybdenum activates some crucial enzymes, while Iodine is used in some hormones",
-	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources."}
+	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources. [N.B. you need the updated online version to answer this!]"}
 },{
 	"id": "q-GAL-5",
 	"type": "select1",

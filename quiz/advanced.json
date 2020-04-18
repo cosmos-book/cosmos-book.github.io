@@ -255,7 +255,7 @@
 		{"value":"Sulphur (S)","correct":false}
 	],
 	"success":"Correct!",
-	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources."}
+	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources. [N.B. you need the updated online version to answer this!]"}
 },{
 	"id": "q-OTH-1",
 	"type": "select1",
