@@ -14,8 +14,8 @@ references:
   - https://en.wikipedia.org/wiki/Nick_Hague
 missions:
   - name: Soyuz MS-12
-    time_start:	2019-03-14T19:14Z
-    time_end:	
+    time_start: 2019-03-14T19:14Z
+    time_end:   2019-10-03T10:59Z
 evas:
   - time_start: 2019-03-22T13:01Z
     time_end:   2019-03-22T19:40Z

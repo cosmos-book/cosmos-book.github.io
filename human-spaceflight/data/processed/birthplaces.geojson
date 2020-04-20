@@ -3038,7 +3038,7 @@
 				"coordinates": [-81.135727, 32.025311]
 			},
 			"properties": {
-				"title": "HAMMOND, L. Brain, Jr.",
+				"title": "HAMMOND, L. Blaine, Jr.",
 				"date": "1952-01-16",
 				"birthplace": "Savannah, Georgia",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAMMOND_LBJ.md",
@@ -3170,21 +3170,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-84.548309, 41.471031]
-			},
-			"properties": {
-				"title": "HENDRICKS, Terence T.",
-				"date": "1952-07-05",
-				"birthplace": "Bryan, Ohio",
-				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HENDRICKS_TT.md",
-				"marker-size": "medium",
-				"marker-color": "#00a2d3",
-				"marker-symbol": "circle"
-			}
-		},{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [-84.505188, 39.14127]
 			},
 			"properties": {
@@ -3207,6 +3192,21 @@
 				"date": "1952-08-17",
 				"birthplace": "Albany, Georgia",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HENNEN_TJCWO.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-84.548309, 41.471031]
+			},
+			"properties": {
+				"title": "HENRICKS, Terence T.",
+				"date": "1952-07-05",
+				"birthplace": "Bryan, Ohio",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HENRICKS_TT.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -3293,10 +3293,10 @@
 				"coordinates": [-90.192032, 41.838951]
 			},
 			"properties": {
-				"title": "HILMERS, David O.",
+				"title": "HILMERS, David C.",
 				"date": "1950-01-28",
 				"birthplace": "Clinton, Iowa",
-				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HILMERS_DO.md",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HILMERS_DC.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -4880,6 +4880,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-67.998056, 46.863611]
+			},
+			"properties": {
+				"title": "MEIR, Jessica Ulrika",
+				"date": "1977-07-01",
+				"birthplace": "Caribou, Maine",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MEIR_JU.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-74.007118, 40.71455]
 			},
 			"properties": {
@@ -5054,6 +5069,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MOHRI_M.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.950556, 39.633611]
+			},
+			"properties": {
+				"title": "MORGAN, Andrew Richard",
+				"date": "1976-02-05",
+				"birthplace": "Morgantown, West Virginia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MORGAN_AR.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -7557,6 +7587,21 @@
 				"date": "1957-10-09",
 				"birthplace": "Donetsk, Rostov Oblast, Russia",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/USACHYOV_YV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "VAGNER, Ivan Viktorovich",
+				"date": "1985-07-10",
+				"birthplace": "Donetsk, Rostov Oblast, Russia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/VAGNER_IV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
 				"marker-symbol": "circle"
