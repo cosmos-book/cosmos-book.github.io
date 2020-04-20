@@ -21,7 +21,7 @@ missions:
     time_end:   2016-09-07T01:13Z
   - name: Soyuz MS-15
     time_start: 2019-09-25T13:57:43Z
-    time_end:
+    time_end:   2020-04-17T05:16Z
 evas:
   - time_start: 2010-11-15T14:55Z
     time_end:   2010-11-15T21:22Z

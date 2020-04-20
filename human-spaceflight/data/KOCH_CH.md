@@ -16,7 +16,7 @@ country:
 missions:
   - name: Soyuz MS-12
     time_start: 2019-03-14T19:14Z
-    time_end:   2020-02-06T00:00Z
+    time_end:   2020-02-06T09:12Z
 evas:
   - time_start: 2019-03-29T11:42Z
     time_end:   2019-03-29T18:27Z
@@ -26,7 +26,7 @@ evas:
     time_end:   2019-10-11T18:23Z
   - time_start: 2019-10-18T11:38Z
     time_end:   2019-10-18T18:55Z
-  - time_start: 2020-01-15T11:25Z
+  - time_start: 2020-01-15T11:35Z
     time_end:   2020-01-15T19:04Z
   - time_start: 2020-01-20T11:35Z
     time_end:   2020-01-20T18:33Z
