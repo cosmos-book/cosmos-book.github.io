@@ -1,7 +1,22 @@
 [{
 	"id": "q-EXP-1",
-	"type": "select5",
+	"type": "select1",
 	"chapter": "EXP",
+	"question": "Who was the first person in space?",
+	"options": [
+		{"value":"Tim Peake","correct":false},
+		{"value":"Sunita Williams","correct":false},
+		{"value":"Neil Armstrong","correct":false},
+		{"value":"Helen Sharman","correct":false},
+		{"value":"Yuri Gagarin","correct":true},
+		{"value":"Anousheh Ansari","correct":false}
+	],
+	"success": "Yuri Gagarin launched into space in Vostock 1 on 12th April 1961 and spent 108 minutes in space.",
+	"hint": { "page":"human-spaceflight/timeline.html", "text": "Explore our timeline of human spaceflight. You'll have to scroll back to the start." }
+},{
+	"id": "q-SOL-1",
+	"type": "select5",
+	"chapter": "SOL",
 	"question": "Select all the dwarf planets",
 	"options": [
 		{"value":"Mercury","correct":false},
@@ -21,9 +36,9 @@
 	"success": "The category of 'dwarf planet' was created in 2006 and contained Pluto, Ceres, and Eris. In 2008, Haumea and Makemake were officially added.",
 	"hint": { "page":"how-many-planets", "text": "What gets classed as a planet has varied over the years. Explore the infographic to find dwarf planets (there are currently 5)." }
 },{
-	"id": "q-EXP-2",
+	"id": "q-SOL-2",
 	"type": "select1",
-	"chapter": "EXP",
+	"chapter": "SOL",
 	"question": "Select a planet that has rings",
 	"options": [
 		{"value":"Mercury","correct":false},
@@ -40,18 +55,21 @@
 },{
 	"id": "q-STA-1",
 	"type": "select1",
-	"chapter": "EXP",
-	"question": "Which of these is not a constellation?",
+	"chapter": "STA",
+	"question": "Which of these is <em>not</em> a constellation?",
 	"options": [
 		{"value":"Crux","correct":false},
 		{"value":"Phoenix","correct":false},
 		{"value":"Orion","correct":false},
 		{"value":"Grus","correct":false},
 		{"value":"Polaris","correct":true},
-		{"value":"Cygnus","correct":false}
+		{"value":"Cygnus","correct":false},
+		{"value":"Triangulum","correct":false},
+		{"value":"Eridanus","correct":false},
+		{"value":"Norma","correct":false}
 	],
 	"success": "Polaris is another name for the \"North Star\" - the star that almost sits above the Earth's geographic North Pole.",
-	"hint": { "page":"constellations", "text": "" }
+	"hint": { "page":"constellations", "text": "There are 88 official constellations. Explore the infographic to find their names." }
 },{
 	"id": "q-OTH-1",
 	"type": "select1",
@@ -59,9 +77,14 @@
 	"question": "Which of these is a catalogue of astronomical objects?",
 	"options": [
 		{"value":"M.E.S.S","correct":false},
+		{"value":"Messy","correct":false},
 		{"value":"Messier","correct":true},
 		{"value":"T.I.D.Y","correct":false},
-		{"value":"Tidier","correct":false}
+		{"value":"Tidier","correct":false},
+		{"value":"Tidiest","correct":false},
+		{"value":"ARGOS","correct":false},
+		{"value":"Littlewoods","correct":false},
+		{"value":"Freemans","correct":false}
 	],
 	"success": "The Messier catalogue was compiled by French astronomer Charles Messier and published in 1771. He was mainly interested in comets - his famous catalogue was a list of astronomical objects he didn't want to look at!",
 	"hint": { "page":"messier", "text": "" }
