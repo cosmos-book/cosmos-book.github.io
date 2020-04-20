@@ -16,7 +16,7 @@ country:
 missions:
   - name: Soyuz MS-15
     time_start: 2019-09-25T13:57:43Z
-    time_end:
+    time_end:   2020-04-17T05:16Z
 evas:
   - time_start: 2019-10-18T11:38Z
     time_end:   2019-10-18T18:55Z
