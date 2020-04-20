@@ -14,6 +14,22 @@
 	"success": "Yuri Gagarin launched into space in Vostock 1 on 12th April 1961 and spent 108 minutes in space.",
 	"hint": { "page":"human-spaceflight/timeline.html", "text": "Explore our timeline of human spaceflight. You'll have to scroll back to the start." }
 },{
+	"id": "q-EXP-2",
+	"type": "select1",
+	"chapter": "OTH",
+	"question": "Which planet was the first to be successully visited by an spacecraft?",
+	"options": [
+		{"value":"Mercury","correct":false},
+		{"value":"Venus","correct":true},
+		{"value":"Mars","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false}
+	],
+	"success": "Mariner 2 flew past Venus in 1962.",
+	"hint": { "page":"missions", "text": "Explore the interplanetary missions. The missions are listed in time order moving away from the planets" }
+},{
 	"id": "q-SOL-1",
 	"type": "select5",
 	"chapter": "SOL",
@@ -53,6 +69,23 @@
 	"success": "Saturn is famous for its ring system. Jupiter, Uranus, and Neptune have also been shown to have rings.",
 	"hint": { "page":"rings", "text": "" }
 },{
+	"id": "q-SOL-3",
+	"type": "select1",
+	"chapter": "SOL",
+	"question": "On which planet could you jump the highest?",
+	"options": [
+		{"value":"Mercury","correct":true},
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false}
+	],
+	"success": "Mercury is the smallest and least massive planet, and so has the lowest surface gravity, so you could jump highest there.",
+	"hint": { "page":"high-jump", "text": "" }
+},{
 	"id": "q-STA-1",
 	"type": "select1",
 	"chapter": "STA",
@@ -88,4 +121,23 @@
 	],
 	"success": "The Messier catalogue was compiled by French astronomer Charles Messier and published in 1771. He was mainly interested in comets - his famous catalogue was a list of astronomical objects he didn't want to look at!",
 	"hint": { "page":"messier", "text": "" }
+},{
+	"id": "q-OTH-2",
+	"type": "select1",
+	"chapter": "OTH",
+	"question": "Select one element that is created in low-mass stars?",
+	"options": [
+		{"value":"Hydrogen (H)","correct":false},
+		{"value":"Helium (He)","correct":true},
+		{"value":"Lithium (Li)","correct":true},
+		{"value":"Beryllium (Be)","correct":false},
+		{"value":"Boron (B)","correct":false},
+		{"value":"Carbon (C)","correct":true},
+		{"value":"Nitrogen (N)","correct":true},
+		{"value":"Oxygen (O)","correct":true},
+		{"value":"Fluorine (F)","correct":false},
+		{"value":"Neon","correct":false}
+	],
+	"success": "Low-mass stars turn hydrogen into helium and lithium, and then later in their lives create carbon, nitrogen and oxygen.",
+	"hint": { "page":"we-are-stardust", "text": "" }
 }]
