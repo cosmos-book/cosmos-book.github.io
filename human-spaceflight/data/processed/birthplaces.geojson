@@ -125,6 +125,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [54.705553, 24.204781]
+			},
+			"properties": {
+				"title": "AL-MANSOURI, Hazza Ali Abdan Khalfan",
+				"date": "1983-12-13",
+				"birthplace": "Al Wathba, Abu Dhabi",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/AL-MANSOURI_HA.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [46.714581, 24.64732]
 			},
 			"properties": {
