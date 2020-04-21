@@ -1,0 +1,302 @@
+[{
+	"id": "q-EXP-1",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Which of the following was the oldest person on their first launch into space?",
+	"options": [
+		{"value":"Neil Armstrong","correct":false},
+		{"value":"Yuri Gagarin","correct":false},
+		{"value":"John Glenn","correct":false},
+		{"value":"Karl Henize","correct":false},
+		{"value":"Michael Melvill","correct":true},
+		{"value":"Dennis Tito","correct":false}
+	],
+	"success": "Michael Melvill was 63 when he visited the International Space Station in 2003",
+	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page. Each circle represents an astronaut and clicking on one will give you more information about them." }
+},{
+	"id": "q-EXP-2",
+	"type": "select2",
+	"chapter": "EXP",
+	"question": "Which two astronauts have each made more launches into space than anyone else?",
+	"options": [
+		{"value":"Franklin Chang-Diaz","correct":true},
+		{"value":"Michael Foale","correct":false},
+		{"value":"Scott Kelly","correct":false},
+		{"value":"Jim Lovell","correct":false},
+		{"value":"Yuri Melenchenko","correct":false},
+		{"value":"Paolo Nespoli","correct":false},
+		{"value":"Tim Peake","correct":false},
+		{"value":"Valeri Polyakov","correct":false},
+		{"value":"Jerry Ross","correct":true},
+		{"value":"Peggy Whitson","correct":false},
+		{"value":"John Young","correct":false}
+	],
+	"success": "Both Jerry Ross and Franklin Chang-Diaz have completed seven launches into space.",
+	"hint": { "page":"human-spaceflight", "text": "Explore the infographic. You can change the order of the astronauts using the options at the top of the page." }
+},{
+	"id": "q-EXP-3",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "Which of these astronauts was born furthest North?",
+	"options": [
+		{"value":"Andre Borisenko","correct":false},
+		{"value":"Arne Fugelsang","correct":false},
+		{"value":"Boming Lui","correct":false},
+		{"value":"Mamoru Mohri","correct":false},
+		{"value":"Rodolfo Neri","correct":false},
+		{"value":"Tim Peake","correct":false},
+		{"value":"Bjarni Tryggvason","correct":true},
+		{"value":"Dave Williams","correct":false},
+		{"value":"Vitali Zholobov","correct":true}
+	],
+	"success": "Although Bjarni Tryggvason has Canadian nationality, he was actually born in Iceland.",
+	"hint": { "page":"human-spaceflight/map.html", "text": "Explore the infographic." }
+},{
+	"id": "q-EXP-4",
+	"type": "select1",
+	"chapter": "EXP",
+	"question": "What was the first mission to encounter Mercury?",
+	"options": [
+		{"value":"Bepi Colombo","correct":false},
+		{"value":"Freedom 7","correct":false},
+		{"value":"Hermes 1","correct":false},
+		{"value":"Hermes 10","correct":false},
+		{"value":"Galileo","correct":false},
+		{"value":"Magellan","correct":false},
+		{"value":"Mariner 2","correct":false},
+		{"value":"Mariner 4","correct":false},
+		{"value":"Mariner 10","correct":true},
+		{"value":"Mercury-Redstone 3","correct":false},
+		{"value":"Messenger","correct":false},
+		{"value":"New Horizons","correct":false},
+		{"value":"Pathfinder","correct":false}
+	],
+	"success": "Mariner 10 completed three flybys of Mercury in the 1970s",
+	"hint": { "page":"missions", "text": "Explore the infographic. The missions are listed in date order moving outward from the planet." }
+},{
+	"id": "q-EXP-5",
+	"type": "select2",
+	"chapter": "EXP",
+	"question":"Which two Solar System bodies did the Deep Space 1 probe visit?",
+	"options":[
+		{"value":"1P/Halley","correct":true},
+		{"value":"2P/Encke","correct":false},
+		{"value":"9P/Tempel","correct":false},
+		{"value":"19P/Borrelly","correct":true},
+		{"value":"21P/Giacobini-Zinner","correct":false},
+		{"value":"26P/Grigg-Skjellerup","correct":false},
+		{"value":"67P/Churyumov-Gerasimenko","correct":false},
+		{"value":"73P/Schwassmann-Wachmann","correct":false},
+		{"value":"81P/Wild","correct":false},
+		{"value":"103P/Hartley","correct":false},
+		{"value":"(2867) Šteins","correct":false},
+		{"value":"(4179) Toutatis","correct":false},
+		{"value":"(5535) Annefrank","correct":false},
+		{"value":"(9969) Braille","correct":true},
+		{"value":"Vesta","correct":false},
+		{"value":"Ceres","correct":false}
+	],
+	"success":"It went to (9969) Braille and 19P/Borrelly.",
+	"hint": { "page":"missions", "text": "Explore the infographic. Click on the lines to identify the missions." }
+},{
+	"id": "q-EXP-6",
+	"type": "select1",
+	"chapter": "EXP",
+	"question":"Which was the first comet to be encountered by a spacecraft?",
+	"options":[
+		{"value":"1P/Halley","correct":false},
+		{"value":"2P/Encke","correct":false},
+		{"value":"9P/Tempel","correct":false},
+		{"value":"19P/Borrelly","correct":true},
+		{"value":"21P/Giacobini-Zinner","correct":true},
+		{"value":"26P/Grigg-Skjellerup","correct":false},
+		{"value":"67P/Churyumov-Gerasimenko","correct":false},
+		{"value":"73P/Schwassmann-Wachmann","correct":false},
+		{"value":"81P/Wild","correct":false}
+	],
+	"success":"The Giotto mission made a distant flyby of 21P/Giacobini-Zinner on its way to its main target, comet 1P/Halley",
+	"hint": { "page":"missions", "text": "Explore the infographic. The missions that have returned to Earth have a second line returning to Earth." }
+},{
+	"id": "q-SOL-1",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which planet has a tropopause at the highest pressure?",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":true},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":false},
+		{"value":"Neptune","correct":false}
+	],
+	"success":"",
+	"hint":{"page":"atmospheres","text":"Explore the infographic. The tropopauses are all labelled, and clicking on them will show the pressure"}
+},{
+	"id": "q-SOL-2",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which planet's atmosphere has the lowest temperature at an altitude of 100km",
+	"options":[
+		{"value":"Venus","correct":false},
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Titan","correct":false},
+		{"value":"Pluto","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Saturn","correct":false},
+		{"value":"Uranus","correct":true},
+		{"value":"Neptune","correct":false}
+	],
+	"success":"Uranus differs from the other outer planets in that it has no internal heat source. No one know why!",
+	"hint":{"page":"atmospheres","text":"Explore the infographic. You can click the buttons at the top to set the same altitude on all the planets."}
+},{
+	"id": "q-SOL-3",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"On which of these solar system bodies could you jump the highest?",
+	"options":[
+		{"value":"Earth","correct":false},
+		{"value":"Mars","correct":false},
+		{"value":"Io","correct":false},
+		{"value":"Jupiter","correct":false},
+		{"value":"Moon","correct":false},
+		{"value":"Pluto","correct":true},
+		{"value":"Titan","correct":false},
+		{"value":"Triton","correct":false}
+	],
+	"success":"Although Pluto is larger than some of the other objects listed, it's much less massive, so has weaker surface gravity",
+	"hint":{"page":"high-jump","text":"Explore the infographic. There's no shortcut - you've just got to try jumping on all those objects!"}
+},{
+	"id": "q-SOL-4",
+	"type": "select1",
+	"chapter": "SOL",
+	"question":"Which small object was the last to be classified as a planet before the category of asteroid was used?",
+	"options":[
+		{"value":"Ceres","correct":false},
+		{"value":"Vesta","correct":false},
+		{"value":"Juno","correct":false},
+		{"value":"Pallas","correct":false},
+		{"value":"Astraea","correct":true},
+		{"value":"Pluto","correct":true},
+		{"value":"Eris","correct":false},
+		{"value":"Titon","correct":false}
+	],
+	"success":"",
+	"hint":{"page":"how-many-planets","text":""}
+},{
+	"id": "q-SOL-5",
+	"type": "select2",
+	"chapter": "SOL",
+	"question":"Which two moons of Saturn, initially classified as planets, were discovered in the same year",
+	"options":[
+		{"value":"Callisto","correct":false},
+		{"value":"Dione","correct":true},
+		{"value":"Enceladus","correct":false},
+		{"value":"Europa","correct":false},
+		{"value":"Ganymede","correct":false},
+		{"value":"Iapetus","correct":false},
+		{"value":"Io","correct":false},
+		{"value":"Rhea","correct":false},
+		{"value":"Tethys","correct":true},
+		{"value":"Titan","correct":false}
+	],
+	"success":"",
+	"hint":{"page":"how-many-planets","text":""}
+},{
+	"id": "q-SUN-1",
+	"type": "select1",
+	"chapter": "SUN",
+	"question":"When will the Sun next be closest to the barycentre of the Solar System?",
+	"options":[
+		{"value":"2025","correct":false},
+		{"value":"2027","correct":false},
+		{"value":"2030","correct":true},
+		{"value":"2032","correct":false},
+		{"value":"2035","correct":false},
+		{"value":"2037","correct":false},
+		{"value":"2040","correct":false},
+		{"value":"2042","correct":false}
+	],
+	"success":"The Sun will next pass closest to barycentre of the Solar System in 2030. (If you're reading this after 2030, the apologies for not updating this!)",
+	"hint":{"page":"dance-of-the-sun","text":""}
+},{
+	"id": "q-STA-1",
+	"type": "select1",
+	"chapter": "STA",
+	"question":"Which of these constellations contains the most Messier objects?",
+	"options":[
+		{"value":"Aquila","correct":false},
+		{"value":"Eridanus","correct":false},
+		{"value":"Ophiuchus","correct":false},
+		{"value":"Orion","correct":false},
+		{"value":"Sagittarius","correct":true},
+		{"value":"Virgo","correct":false},
+		{"value":"Ursa Major","correct":false},
+		{"value":"Hydra","correct":false}
+	],
+	"success":"Although it's not the largest constellation, Sagittarius contains a lot of star clusters and nebulae located between us and the centre of the Galaxy.",
+	"hint":{"page":"constellations","text":"Explore the infographic. Click on the constellations to see more information."}
+},{
+	"id": "q-STA-2",
+	"type": "select1",
+	"chapter": "STA",
+	"question":"Which element is considered essential for life, but <strong>only</strong> created by radioactive decay?",
+	"options":[
+		{"value":"Beryllium (Be)","correct":false},
+		{"value":"Boron (B)","correct":true},
+		{"value":"Iodine (I)","correct":false},
+		{"value":"Lithium (Li)","correct":false},
+		{"value":"Mercury (Hg)","correct":false},
+		{"value":"Oxygen (O)","correct":false},
+		{"value":"Selenium (Se)","correct":false},
+		{"value":"Sulphur (S)","correct":false}
+	],
+	"success":"",
+	"hint":{"page":"we-are-stardust","text":"Explore the infographic. Use the toggles to turn on and off the different sources. [N.B. you need the updated online version to answer this!]"}
+},{
+	"id": "q-OTH-1",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"NGC objects with numbers in the range 1700 to 2500 predominantly include what types of objects",
+	"options":[
+		{"value":"Groups and clusters of stars","correct":true},
+		{"value":"Nebulae and supernova remnants","correct":false},
+		{"value":"Galaxies","correct":false}
+	],
+	"success":"This range of numbers in the NGC catalogue includes regions towards the centre of our Galaxy, so is dominated by star clusters and groups.",
+	"hint":{"page":"messier","text":""}
+},{
+	"id": "q-OTH-2",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"Which of the following people was a prolific discoverer of novae?",
+	"options":[
+		{"value":"Williamina Flemming","correct":true},
+		{"value":"John Goodricke","correct":false},
+		{"value":"Thomas Harriot","correct":false},
+		{"value":"Caroline Herschel","correct":false},
+		{"value":"Henrietta Swan Leavitt","correct":false},
+		{"value":"Beatrice Tinsley","correct":false},
+		{"value":"Urbain Le Verrier","correct":false},
+		{"value":"Fritz Zwicky","correct":false}
+	],
+	"success":"Williamina Flemming discovered around 40% of the novae known at the time.",
+	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
+},{
+	"id": "q-OTH-3",
+	"type": "select1",
+	"chapter": "OTH",
+	"question":"Who was NASA's first Chief of Astronomy?",
+	"options":[
+		{"value":"Neil Armstrong","correct":false},
+		{"value":"Sally Ride","correct":false},
+		{"value":"John Glenn","correct":false},
+		{"value":"Nancy Roman","correct":true},
+		{"value":"Fritz Zwicky","correct":false}
+	],
+	"success":"Nancy Roman was oversaw several astronomical satellites and was involved in the planning and design of the Hubble Space Telescope.",
+	"hint":{"page":"catalogue","text":"Explore the infographic. Click on the images to find out more about the people."}
+}]

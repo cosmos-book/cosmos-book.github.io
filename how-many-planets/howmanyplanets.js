@@ -208,7 +208,7 @@ $(document).ready(function(){
 		}
 	},{
 		"year": 2008,
-		"description": "Eris was found to be larger than Pluto leading to Pluto being redefined as a \"dwarf planet\" along with Ceres, Haumea, Makemake and Eris.",
+		"description": "Haumea and Makemake were added to the \"dwarf planet\" club joining Pluto, Ceres, and Eris.",
 		"planets":{
 			"count":8,
 			"names":["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
@@ -221,6 +221,8 @@ $(document).ready(function(){
 
 	var now = new Date();
 	var year = now.getFullYear();
+	
+	$('#eyear').html(year);
 
 	$("#slider").slider({
 		min: 1600,
@@ -244,7 +246,7 @@ $(document).ready(function(){
 		//if(data[i].dwarf.count > 0) output += ' and <div class="count">'+data[i].dwarf.count+'<\/div> dwarf planets';
 		$("#output").html(output)
 		
-		if(data[i].description) $("#info").html(data[i].description)
+		if(data[i].description) $("#info").html(data[i].year+': '+data[i].description)
 		
 		var planets = "";
 		for(var p = 0; p < data[i].planets.names.length; p++){

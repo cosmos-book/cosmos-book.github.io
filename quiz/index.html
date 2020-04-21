@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+	<meta charset="utf-8" />
+	<title>Cosmos quiz</title>
+	<script type="text/javascript" src="../resources/stuquery.js"></script>
+	<script type="text/javascript" src="../resources/raphael-min.js"></script>
+	<script type="text/javascript" src="../resources/infographics.js"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+	<link rel="stylesheet" media="all" href="../resources/style.css" type="text/css"/>
+	<style>
+	#score-holder, ol.answers > li label, .cosmos { font-family: "Source Code Pro", monospace, sans-serif; }
+	.cosmos { font-weight: bold; }
+	.correct { background: #02a24b; color: white; transition: 0.3s background ease-in; }
+	.wrong { background: #f04031; color: black; }
+	#quiz-holder { padding: 2em; margin: 1em 0; }
+	#quiz-holder img { max-width: 90%; }
+	#score-holder { float: right; display: inline-block; font-weight: inherit; }
+	#quiz-holder h2 { margin-bottom: 1em; text-align: center; font-size: 2em; margin-top: 0; line-height: 1.25em; }
+	ol.quiz { list-style: none; margin: 1em 0; }
+	ol.levels {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+	}
+	ol.answers {
+		transition: 0.3s all ease-in;
+		max-width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: minmax(3em, auto);
+		grid-gap: 1em;
+		list-style: none;
+		order: 1;
+		position: relative;
+		list-style: none;
+		margin-bottom: 1em;
+	}
+	ol.answers > li {
+		position: relative;
+	}
+	ol.answers > li input {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		margin: 0;
+		opacity: 0.01;
+		cursor: pointer;
+		z-index: 2;
+	}
+	ol.answers > li label {
+		font-size: 1.5em;
+		line-height: 1em;
+		padding: 0.5em;
+		height: 100%;
+		font-weight: bold;
+		position: relative;
+		text-align: center;
+		width: 100%;
+		color: black;
+		background: white;
+		display: inline-block;
+		border: 8px solid transparent;
+		box-sizing: border-box;
+	}
+	ol.answers > li input:checked ~ label {
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		border-color: rgba(0,0,0,0.5);
+	}
+	ol.answers > li label.correct { background: #9bd4ae; color: black; }
+	ol.answers > li label.wrong { background: #f68d69; color: black; }
+	#quiz-holder .message { text-align: center; }
+	#quiz-holder button.button { display: block; margin: auto; }
+	#quiz-holder a.button { display: inline-block; text-decoration: none; }
+	#quiz-holder .button { border: 0; background: #444; color: white!important; font-size: 2em; margin-top: 1em; }
+	#quiz-holder .button:disabled { opacity: 0.5; background: #ccc; color: #999; }
+	a:visited, a, a:focus { color: inherit; }
+	#quiz-holder .hint { margin-top: 2em; display: inline-block; position: relative; background-color: white; padding:1em; color: #444; text-decoration: none; max-width: 400px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); }
+	#quiz-holder .hint:before { content: ""; position: absolute; z-index:2; top: 0; left: 0em; transform: translate3d(0%,-100%,0); width: 0px; height: 0px; border-right: 0.5em solid transparent; border-top: 0.5em solid transparent; border-left: 0.5em solid white; border-bottom: 0.5em solid white; }
+	#quiz-holder, ol.answers > li label, .response { border-radius: 16px; }
+	#quiz-holder .response { padding: 1em; display: inline-block; }
+
+	@media only screen and (max-width: 1080px) {
+		ol.answers { grid-template-columns: repeat(2, 1fr); }
+	}
+	@media only screen and (max-width: 700px) {
+		ol.answers { grid-template-columns: 100%; }
+	}
+	</style>
+</head>
+<body class="">
+
+	<div id="container">
+		<div id="main">
+			<nav id="header">
+				<div class="padder">
+					<a href="../index.html" class="title">Cosmos<span class="wide">: The Infographic Book of Space</span></a>
+					<ul id="menu">
+						<li><a href="../contents.html">contents</a> / </li>
+						<li><a href="../credits/index.html">credits</a> / </li>
+						<li><a href="../errata/index.html">errata</a> / </li>
+						<li><a href="../quiz/index.html">quiz</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="padder">
+					<div class="topbox">
+						
+						<h1>Quiz<span class="level-label"></span><div id="score-holder">Score <span class="score"></span></div></h1>
+						<p>The book contains a large amount of information. You can answer the questions below using the information in the book, or available as part of these <a href="../contents.html">interactive infographics</a>.</p>
+						<!-- <form></form> -->
+					</div>
+					<div class="innerbox">
+						<div class="noscript">
+							<p>The book contains a range of information. You can download a <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/local-sheet/data/localsheet.csv" id="data">CSV file containing the galaxies</a> that went into the graphic.</p>
+						</div>
+						<div class="loader js-only"><div class="bounce"></div><div class="bounce"></div><div class="bounce"></div></div>
+						<div id="quiz-holder">
+							<div class="level-holder">
+								<h2>Choose a level:</h2>
+								<ol class="levels">
+									<li><button class="button level" data="level1.json">Level 1</button></li>
+									<li><button class="button level" data="level2.json">Level 2</button></li>
+									<li><button class="button level" data="level3.json">Level 3</button></li>
+								</ol>
+							</div>
+							<form class="question-holder">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="padder">
+				Based on information presented in <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://twitter.com/astronomyblog">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
