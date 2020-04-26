@@ -1,40 +1,40 @@
-Star,Number of known planets,Distance (light years)
-Barnard's Star,,6.00
-Wolf 359,,7.8
-Sirius,,8.6
-Epsilon Eridani,1,10.5
-Procyon A,,11.4
-Kapteyn's Star,2,12.8
-Gliese 1,,14.2
-Gliese 876,4,15.3
-Altair,,16.7
-HD 20794,3,19.8
-Gliese 667C,6,23.5
-Vega,,25.0
-Fomalhaut,1,25.1
-GJ 433,2,29.0
-Gl 649,2,33.7
-Denebola,,35.9
-Arcturus,,36.7
-GJ 180,2,38.1
-55 Cnc,5,40.3
-HD 69830,3,41.1
-HD 40307,6,41.8
-Capella,,42.2
-υ And,4,43.9
-51 Pegasus,1,48.0
-μ Ara,4,49.9
-τ Boötis,1,50.9
-GJ 676A,4,53.7
-β Pictoris,1,63.4
-Aldebaran,,65
-BD-061339,3,65.2
-Hamal,1,65.9
-70 Virgo,1,71.8
-HD 1461,2,76.3
-Regulus,,78
-Mizar,,78
-Merak,,79
-δ Velorum,,80
-HD 39194,3,84.5
-Alpheratz,,97
+Star,Number of known planets,Distance (light years),angle
+Barnard's Star,,6.00,20
+Wolf 359,,7.8,1
+Sirius,,8.6,70
+Epsilon Eridani,1,10.5,90
+Procyon A,,11.4,30
+Kapteyn's Star,2,12.8,60
+Gliese 1,,14.2,10
+Gliese 876,4,15.3,80
+Altair,,16.7,30
+HD 20794,3,19.8,72
+Gliese 667C,6,23.5,
+Vega,,25.0,
+Fomalhaut,1,25.1,
+GJ 433,2,29.0,
+Gl 649,2,33.7,
+Denebola,,35.9,
+Arcturus,,36.7,
+GJ 180,2,38.1,
+55 Cnc,5,40.3,
+HD 69830,3,41.1,
+HD 40307,6,41.8,
+Capella,,42.2,
+υ And,4,43.9,87
+51 Pegasus,1,48.0,
+μ Ara,4,49.9,
+τ Boötis,1,50.9,35
+GJ 676A,4,53.7,61
+β Pictoris,1,63.4,70
+Aldebaran,,65,45
+BD-061339,3,65.2,80
+Hamal,1,65.9,90
+70 Virgo,1,71.8,63
+HD 1461,2,76.3,55
+Regulus,,78,46
+Mizar,,78,75
+Merak,,79,83
+δ Velorum,,80,54
+HD 39194,3,84.5,74.5
+Alpheratz,,97,72

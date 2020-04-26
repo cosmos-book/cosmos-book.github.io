@@ -145,11 +145,11 @@ S(document).ready(function(){
 	S().ajax("lightsphere_stars.csv",{
 		"dataType": "text",
 		"success":function(d){
-			stars = csv.toJSON(d,{'Star':{'name':'name'},'Number of known planets':{'format':'number','name':'planets'},'Distance (light years)':{'format':'number','name':'distance'}});
+			stars = csv.toJSON(d,{'Star':{'name':'name'},'Number of known planets':{'format':'number','name':'planets'},'Distance (light years)':{'format':'number','name':'distance'},'angle':{'format':'number'}});
 			S().ajax("lightsphere.csv",{
 				"dataType": "text",
 				"success":function(d){
-					signals = csv.toJSON(d,{'Sent':{'name':'sent'},'Label':{'name':'label'}});
+					signals = csv.toJSON(d,{'Sent':{'name':'sent'},'Label':{'name':'label'},'angle':{'format':'number'}});
 					for(var i = 0; i < signals.length; i++){
 						d = new Date(signals[i].sent);
 						signals[i].datestr = months[d.getMonth()]+' '+d.getFullYear();
@@ -189,78 +189,66 @@ S(document).ready(function(){
 
 		if(build){
 
+			scale = d*86400000*365.25/maxtime;
+
 			var svg = '<svg id="lightspheres" width="'+w+'px" height="'+h+'px" viewBox="-'+xoff+' -'+yoff+' '+(w)+' '+(h)+'" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">';
 
 			for(var i = 0; i < signals.length; i++){
 				diff = (now-signals[i].date);
+				svg += '<g class="signal">';
 				svg += '<circle id="signal-'+i+'" cx="0" cy="0" r="'+(d*diff/maxtime)+'" style="stroke:white;stroke-width:1.5px;fill:none;vector-effect:non-scaling-stroke;fill:'+colours.purple[0]+';fill-opacity:0.02;"></circle>';
+				svg += '<text x="0" y="-7" font-size="10px" dominant-baseline="middle" transform="rotate('+((signals[i].angle+90)%360)+')"><textPath href="#signal-'+i+'" startOffset="50%" text-anchor="middle" side="left"><tspan style="font-weight:500;">'+signals[i].label+'</tspan> <tspan style="font-weight:300;">'+signals[i].datestr+'</tspan></textPath></text>';
+				svg += '</g>';
 			}
 
-			scale = d*86400000*365.25/maxtime;
 			for(var i = 0; i < stars.length; i++){
 				x = 0;
 				y = 0;
 				r = stars[i].distance*scale;	// Distance in pixels
 				a = (Math.random()*Math.PI/4) + Math.PI/15;
-				x = r*Math.cos(a);
-				y = -r*Math.sin(a);
+				if(stars[i].angle) a = (stars[i].angle)*Math.PI/180;
+				x = r*Math.sin(a);
+				y = -r*Math.cos(a);
 				
-				svg += '<circle id="star-'+i+'" cx="'+x+'" cy="'+y+'" r="5" style="fill:'+colours.red[0]+';"></circle>';
-				svg += '<text id="starlabel-'+i+'" x="'+(x+10)+'" y="'+(y)+'" font-size="10px" dominant-baseline="middle" text-anchor="start" style="fill:black;"><tspan x="'+(x+10)+'" dy="0" style="font-weight:500;">'+stars[i].name+'</tspan>'+(stars[i].planets > 0 ? '<tspan x="'+(x+10)+'" dy="12" style="font-weight:300;">'+stars[i].planets+' planet'+(stars[i].planets==1 ? '':'s')+'</tspan>' : '')+'</text>';
-
+				svg += '<g id="star-'+i+'" class="star">';
+				svg += '<circle cx="'+x+'" cy="'+y+'" r="5" style="fill:'+colours.red[0]+';"></circle>';
+				svg += '<text x="'+(x+10)+'" y="'+(y)+'" font-size="10px" dominant-baseline="middle" text-anchor="start" style="fill:black;"><tspan x="'+(x+10)+'" dy="0" style="font-weight:500;">'+stars[i].name+'</tspan>'+(stars[i].planets > 0 ? '<tspan x="'+(x+10)+'" dy="12" style="font-weight:300;">'+stars[i].planets+' planet'+(stars[i].planets==1 ? '':'s')+'</tspan>' : '')+'</text>';
+				svg += '</g>';
 
 			}
 
 			for(var i = 0; i < signals.length; i++){
 				diff = (now-signals[i].date);
-				svg += '<text x="0" y="-7" font-size="10px" dominant-baseline="middle" transform="rotate('+signals[i].angle+')"><textPath href="#signal-'+i+'" startOffset="50%" text-anchor="middle" side="left"><tspan style="font-weight:500;">'+signals[i].label+'</tspan> <tspan style="font-weight:300;">'+signals[i].datestr+'</tspan></textPath></text>';
 			}
 
 			svg += '<circle id="earth" cx="0" cy="0" r="40" style="fill:'+colours.green[3]+'"></circle>';
 			svg += '<text x="0" y="0" font-size="10px" dominant-baseline="middle" text-anchor="middle">Earth</text>';
 
-
 			svg += '</svg>';
 			
 		}
-		
-		/*
-		paper.rect(0,0,w,h).attr({'fill':colours.yellow[3],'opacity':0.3,'stroke':0})
-		
-		var xoff = w/15;
-		var yoff = xoff;
-		var scale = Math.sqrt(Math.pow(w-xoff,2) + Math.pow(h-yoff,2))/100;
-		var start = new Date('2015-01-01T00:00:00Z');
-		for(var signal = 0; signal < signals.length ; signal++){
-			if(signals[signal]){
-				years = (start-signals[signal].date)/(86400000*365.25);
-				r = scale*years;
-
-				paper.circle(xoff,h-yoff,r).attr({'stroke':colours.yellowgreen[3],'stroke-width':1});
-				a = Math.random()*Math.PI/4;
-				a = Math.PI/6
-				x = xoff + r*Math.cos(a);
-				y = h - yoff - r*Math.sin(a);
-				paper.text(x,y,signals[signal].label+' / '+signals[signal].datestr).attr({'fill':colours.yellowgreen[1]});//+' / '+years.toFixed(1)+' light years')
-			}
-		}
-		for(var s = 0; s < stars.length ; s++){
-			if(stars[s] && stars[s].distance){
-				d = parseFloat(stars[s].distance);
-				r = scale*d;
-				a = (Math.random()*Math.PI/4) + Math.PI/15;
-				x = (w/12) + r*Math.cos(a);
-				y = h - (h/12) - r*Math.sin(a);
-				console.log(a,x,y)
-				paper.circle(x,y,5).attr({'fill':colours.orange[4],'stroke':0});
-				paper.text(x,y,stars[s].label+'\n'+(stars[s].planets ? stars[s].planets+' planet'+(stars[s].planets==1 ? '':'s')+'\n' : '')).attr({'fill':colours.orange[1]});//+d.toFixed(1)+' light years')
-			}
-		}
-		*/
-
-
 
 		S('#lightspheres-holder').html(svg);
+
+		for(var i = 0; i < stars.length; i++){
+			stars[i].el = S('#star-'+i);
+		}
+
+
+		S('.signal').on('mouseover',function(e){
+			selectSignal(e.currentTarget.querySelector('circle').getAttribute('id').replace(/signal-/,""));
+		});
+		S('#earth').on('mouseover',function(e){ selectSignal(-1); });
+		//S('#content').on('mouseleave',function(e){ selectSignal(-1); });
+	}
+	
+	function selectSignal(s){
+		var ly = 0;
+		if(s >= 0) ly = (now-signals[s].date)/(86400000*365.25);
+		for(var i = 0; i < stars.length; i++){
+			if(stars[i].distance <= ly) stars[i].el.addClass('reached');
+			else stars[i].el.removeClass('reached');
+		}
 	}
 
 
