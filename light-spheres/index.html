@@ -16,6 +16,10 @@
 	h1 { z-index: 1; position: relative; }
 	#lightspheres-holder { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 0; }
 	#lightspheres { max-height: 100%; height: 100%; width: 100%; }
+	.signal circle { stroke-dasharray: 5,2; }
+	.signal:hover circle { fill-opacity: 0.1!important; stroke-dasharray: 1,0; }
+	.signal:hover tspan:first-child { font-weight: 700!important; }
+	.star.reached circle { fill: white!important; }
 	</style>
 </head>
 <body class="ETL flat">
@@ -42,7 +46,8 @@
 		</div>
 		<footer id="footer">
 			<div class="padder">
-				<p>This graphic is a representation of the distance light has travelled since transmission compared to a variety of stars. The distances of the stars from Earth are to scale but the positions are not.</p>
+				<p>A fraction of the signal from Earth's TV and radio broadcasts leaks out into space. Unimpeded, these signals heads off at the speed of light in a sphere centred on us. In theory, alien civilisations with sensitive radio telescopes could pick up our broadcasts and listen in. Avid alien fans' knowledge of our history would be behind by a number of years determined by how far away they are.</p>
+				<p>Warning: space is three dimensional but this graphic is not. The distances of each stars from Earth is to scale but their positions are otherwise purely to to help you read the labels.</p>
 				<p>Visualisation based on <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/light-sphers/lightsphere_stars.csv" id="json">star/planet data</a> and <a href="https://github.com/cosmos-book/cosmos-book.github.io/blob/master/light-sphers/lightsphere.csv" id="json">light sphere data</a> compiled for <a href="../index.html">Cosmos<span class="wide">: The Infographic Book of Space</span></a> / <a href="https://strudel.org.uk/">Stuart Lowe</a> & <a href="https://twitter.com/chrisenorth">Chris North</a></p>
 			</div>
 		</footer>
