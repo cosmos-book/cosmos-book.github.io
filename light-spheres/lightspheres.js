@@ -168,7 +168,7 @@ S(document).ready(function(){
 	var h = 720;
 	var xoff = 50;
 	var yoff = h - 50;
-	var d = Math.sqrt(Math.pow(w-xoff,2) + Math.pow(h-yoff,2))*0.9;
+	var d = Math.sqrt(Math.pow(w-xoff,2) + Math.pow(h-yoff,2))*0.95;
 
 	function drawIt(signals,stars){
 
