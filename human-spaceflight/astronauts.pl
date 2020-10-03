@@ -4,6 +4,7 @@
 ##########################
 
 use Time::Local;
+use lib './';
 
 # Find directory of this script
 $pathdir = $0;
