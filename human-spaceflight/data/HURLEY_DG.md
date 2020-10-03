@@ -19,6 +19,9 @@ missions:
   - name: STS-135
     time_start:   2011-07-08T15:29Z
     time_end:     2011-07-21T09:58Z
+  - name: SpaceX-DM2
+    time_start:   2020-05-30T19:22Z
+    time_end:     2020-08-02T18:48Z
 evas:
 gender:	Male
 country:
