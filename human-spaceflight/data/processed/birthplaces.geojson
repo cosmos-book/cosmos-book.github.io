@@ -2705,6 +2705,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-117.75583, 34.06083]
+			},
+			"properties": {
+				"title": "GLOVER, Victor J.",
+				"date": "1976-04-30",
+				"birthplace": "Pomona, California",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/GLOVER_VJ.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-89.55806, 37.309479]
 			},
 			"properties": {
@@ -4032,6 +4047,21 @@
 				"date": "1935-01-07",
 				"birthplace": "Vyazniki, Vladimir Oblast, Soviet Union",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KUBASOV_VN.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "KUD-SVERCHKOV, Sergei Vladimirovich",
+				"date": "1983-08-23",
+				"birthplace": "Vyazniki, Vladimir Oblast, Soviet Union",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KUD-SVERCHKOV_SV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
 				"marker-symbol": "circle"

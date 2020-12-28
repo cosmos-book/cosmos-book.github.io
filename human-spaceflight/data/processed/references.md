@@ -259,6 +259,7 @@
 * **GIVENS, Edward G. Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GLAZKOV, Yuri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/glazkov_yuri.htm
 * **GLENN, John H., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **GLOVER, Victor J.**: https://en.wikipedia.org/wiki/Victor_J._Glover
 * **GODWIN, Linda M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GOLOVANOV, Yaroslav Kirillovich**: http://www.spacefacts.de/bios/cosmonauts/english/golovanov_yaroslav.htm
 * **GOOD, Michael T.**: http://www.nasa.gov/pdf/740566main_current.pdf
