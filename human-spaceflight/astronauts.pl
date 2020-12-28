@@ -96,6 +96,7 @@ foreach $file (sort(@files)){
 
 	# Pre-check for country
 	foreach $line (@lines){
+		$line =~ s/[\n\r]//g;
 		if($line =~ /^country:\t(.*)/){ $country = $1; }
 		if($incountry){
 			if($line =~ / -[\t\s]*(.*)/){
