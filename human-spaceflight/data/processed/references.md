@@ -260,6 +260,7 @@
 * **GLAZKOV, Yuri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/glazkov_yuri.htm
 * **GLENN, John H., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GLOVER, Victor J.**: https://en.wikipedia.org/wiki/Victor_J._Glover
+* **GLOVER, Victor J.**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **GODWIN, Linda M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **GOLOVANOV, Yaroslav Kirillovich**: http://www.spacefacts.de/bios/cosmonauts/english/golovanov_yaroslav.htm
 * **GOOD, Michael T.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -319,9 +320,11 @@
 * **HOLMES, Christopher John Nicholas**: http://www.spacefacts.de/bios/international/english/holmes_christopher.htm
 * **HOLMQUEST, Donald L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOPKINS, Michael S.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HOPKINS, Michael S.**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **HOROWITZ, Scott J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOSHIDE, Akihiko**: http://www.spacefacts.de/bios/international/english/hoshide_akihito.htm
 * **HOSHIDE, Akihiko**: http://www.spacefacts.de/eva/international/english/hoshide_akihiko.htm
+* **HOSHIDE, Akihiko**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **HUGHES-FULFORD, Millie**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HURLEY, Douglas G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HUSBAND, Rick D.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -373,6 +376,7 @@
 * **KIMBROUGH, Robert Shane**: https://twitter.com/cbs_spacenews/status/847411023220834304
 * **KIMBROUGH, Robert Shane**: https://twitter.com/NASA/status/847520355128410114
 * **KIMBROUGH, Robert Shane**: https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
+* **KIMBROUGH, Robert Shane**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **KISELYOV, Aleksandr Alexeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
@@ -493,6 +497,7 @@
 * **MATTINGLY, Thomas K., II**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
 * **MAYO, Itzhak**: http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
+* **MCARTHUR, Katherine Megan**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Soyuz_MS-11
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Anne_McClain
 * **MCKAY, Michael John**: http://www.spacefacts.de/bios/international/english/mckay_michael.htm
@@ -546,6 +551,7 @@
 * **NIKOLAYEV, Andriyan Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/nikolayev_andriyan.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/bios/international/english/noguchi_soichi.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/eva/international/english/noguchi_soichi.htm
+* **NOGUCHI, Soichi**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **NOREIGA, Carlos I.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **NOVITSKY, Oleg Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/novitsky_oleg.htm
 * **NOWAK, Lisa M.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -589,6 +595,7 @@
 * **PESQUET, Thomas Gautier**: http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
 * **PESQUET, Thomas Gautier**: http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Thomas_Pesquet
 * **PESQUET, Thomas Gautier**: http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
+* **PESQUET, Thomas Gautier**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **PETELIN, Dmitri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
 * **PETERSON, Donald H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PETRUSHENKO, Aleksandr Jakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm
@@ -652,6 +659,7 @@
 * **ROSS, Jerry L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROZHDESTVENSKY, Valeri Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/rozhdestvensky_valeri.htm
 * **RUBINS, Kathleen 'Kate'**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **RUBINS, Kathleen 'Kate'**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **RUKAVISHNIKOV, Nikolai Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/rukavishnikov_nikolai.htm
 * **RUNCO, Mario, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RYAZANSKY, Sergei Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/ryazansky_sergei.htm

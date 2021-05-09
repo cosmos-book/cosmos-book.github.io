@@ -13,6 +13,7 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/hoshide_akihito.htm
   - http://www.spacefacts.de/eva/international/english/hoshide_akihiko.htm
+  - https://en.wikipedia.org/wiki/SpaceX_Crew-2
 missions:
   - name: STS-124
     time_start:   2008-05-31T21:02:12Z
@@ -20,6 +21,8 @@ missions:
   - name: Soyuz TMA-05M
     time_start:   2012-07-15T02:40:03Z
     time_end:     2012-11-19T01:53:31Z
+  - name: SpaceX Crew-2
+    time_start:	2021-04-23T09:49:02Z
 evas:
   - time_start: 2012-08-30T12:16Z
     time_end:   2012-08-30T20:33Z

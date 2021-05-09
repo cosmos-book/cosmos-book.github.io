@@ -1835,6 +1835,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "DUBROV, Pyotr Valerievich",
+				"date": "1978-01-30",
+				"birthplace": "Washington D.C.",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DUBROV_PV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-71.056702, 42.358631]
 			},
 			"properties": {

@@ -13,6 +13,7 @@ country:
 references:
   - http://www.spacefacts.de/bios/international/english/noguchi_soichi.htm
   - http://www.spacefacts.de/eva/international/english/noguchi_soichi.htm
+  - https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 missions:
   - name: STS-114
     time_start:   2005-07-26T14:39Z
@@ -29,5 +30,7 @@ evas:
     time_end:   2005-08-01T15:56Z
   - time_start: 2005-08-03T08:48Z
     time_end:   2005-08-03T14:49Z
+  - time_start:	2021-03-05T11:37Z
+    time_end:	2021-03-05T18:33Z
 gender:	Male
 ---

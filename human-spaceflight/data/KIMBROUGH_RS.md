@@ -17,6 +17,7 @@ references:
   - https://twitter.com/cbs_spacenews/status/847411023220834304
   - https://twitter.com/NASA/status/847520355128410114
   - https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
+  - https://en.wikipedia.org/wiki/SpaceX_Crew-2
 missions:
   - name: STS-126
     time_start:   2008-11-15T00:55Z
@@ -24,6 +25,8 @@ missions:
   - name: Soyuz MS-02
     time_start:   2016-10-19T08:05:14Z
     time_end:     2017-04-10T11:20:35Z
+  - name: SpaceX Crew-2
+    time_start:	2021-04-23T09:49:02Z
 evas:
   - time_start: 2008-11-20T17:58Z
     time_end:   2008-11-21T00:43Z
