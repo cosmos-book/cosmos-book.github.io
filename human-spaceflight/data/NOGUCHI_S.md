@@ -23,6 +23,7 @@ missions:
     time_end:     2010-06-02T03:26Z
   - name: SpaceX Crew-1
     time_start:   2020-11-16T00:27:17Z
+    time_end:	2021-05-02T06:56:33Z
 evas:
   - time_start: 2005-07-30T09:48Z
     time_end:   2005-07-30T17:36Z
