@@ -7,6 +7,35 @@ sub formatTime {
 	return sprintf("%02d:%02d",$h,$m);
 }
 
+sub formatLongTime {
+	my ($t,$s,$d,$y,$h,$m,$spy,$spd,$sph,$str);
+	$t = $_[0];
+	$s = $t;
+	$sph = 3600;
+	$spd = $sph*24;
+	$spy = $spd*365.25;
+	$str = "";
+	if($s > 86400*365.25){
+		$y = int($s/$spy);
+		$s -= $y*$spy;
+		$str .= "$y years ";
+	}
+	if($s > $spd){
+		$d = int($s/$spd);
+		$s -= $d*$spd;
+		$str .= "$d days ";
+	}
+	
+	$h = int($s/$sph);
+	$s -= $h*$sph;
+	$m = int($s/60);
+	$s -= $m*60;
+
+
+	return "$t seconds (".int($t/60)." minutes) = ".$str."$h hours $m minutes";
+}
+
+
 sub extractTime {
 
 	my ($output);

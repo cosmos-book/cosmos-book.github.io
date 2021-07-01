@@ -21,5 +21,7 @@ missions:
   - name:	Soyuz MS-18
     time_start:	2021-04-09T07:42:41Z
 evas:
+  - time_start:	2021-06-02T05:53Z
+  - time_end:	2021-06-02T13:12Z
 gender:	Male
 ---

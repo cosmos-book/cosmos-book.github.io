@@ -181,6 +181,7 @@
 * **DONG, Chen**: http://mek.kosmo.cz/bio/ostatni/00547.htm
 * **DREW, B. Alvin, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUBROV, Pyotr Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/dubrov_pyotr.htm
+* **DUBROV, Pyotr Valerievich**: https://en.wikipedia.org/wiki/Pyotr_Dubrov
 * **DUFFY, Brian**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUKE, Charles M., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUNBAR, Bonnie**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -416,6 +417,8 @@
 * **KRIKUN, Yuri Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/krikun_yuri.htm
 * **KUBASOV, Valeri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/kubasov_valeri.htm
 * **KUD-SVERCHKOV, Sergei Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/kud-sverchkov_sergei.htm
+* **KUD-SVERCHKOV, Sergei Vladimirovich**: https://www.space.com/soyuz-crew-capsule-expedition-64-landing-webcast
+* **KUD-SVERCHKOV, Sergei Vladimirovich**: https://en.wikipedia.org/wiki/Sergey_Kud-Sverchkov
 * **KUGNO, Eduard Pavlovich**: http://www.spacefacts.de/bios/cosmonauts/english/kugno_eduard.htm
 * **KUIPERS, Andr&eacute;**: http://www.spacefacts.de/bios/international/english/kuipers_andre.htm
 * **KUKLIN, Anatoli Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/kuklin_anatoli.htm
@@ -761,6 +764,7 @@
 * **SWIGERT, John L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TAMAYO M&eacute;NDEZ, Arnaldo 'Guasso'**: http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
 * **TANG, Hongbo**: http://www.spacefacts.de/bios/international/english/tang_hongbo.htm
+* **TANG, Hongbo**: https://en.wikipedia.org/wiki/Shenzhou_12
 * **TANI, Daniel M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TANNER, Joseph R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TARELKIN, Yevgeni Igorevich**: http://www.spacefacts.de/bios/cosmonauts/english/tarelkin_yevgeni.htm

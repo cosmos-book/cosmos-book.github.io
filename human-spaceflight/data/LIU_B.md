@@ -15,6 +15,8 @@ missions:
   - name: Shenzhou VII
     time_start:   2008-09-25T21:10:04Z
     time_end:     2008-09-28T09:38Z
+  - name:	Shenzhou 12
+    time_start:	2021-06-17T01:22:27Z
 evas:
 gender:	Male
 ---

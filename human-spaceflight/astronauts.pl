@@ -48,6 +48,8 @@ $json = "";
 $geojson = "";
 $longesteva = 0;
 $totaleva = 0;
+$totaltime = 0;
+$totaltrips = 0;
 
 # Loop over the files
 foreach $file (sort(@files)){
@@ -93,6 +95,7 @@ foreach $file (sort(@files)){
 	$reset = 0;
 	$json_mission = "";
 	$json_missionname = "";
+	$bpname = "";
 
 	# Pre-check for country
 	foreach $line (@lines){
@@ -215,6 +218,9 @@ foreach $file (sort(@files)){
 				push(@li,'<li><a href="'.$url.$file.'" class="padder"><time datetime="'.$launch.'">'.$launchstr.'</time><span class="divider">-</span><time datetime="'.$landstr.'">'.$yearstr.'</time><span class="divider">/</span><span class="name">'.$name.'</span><span class="human '.$category.'"></span></a></li>');
 
 				$durn = duration($launch,$land);
+				$totaltime += $durn;
+				$totaltrips++;
+
 				if($durn > $longesttrip){ $longesttrip = $durn; }
 				$timeinspace += $durn;	# Add the duration
 				$timedilation += $durn*(($mname =~ /Apollo/ ? $gamma_moon : $gamma_leo)-1);
@@ -247,7 +253,7 @@ foreach $file (sort(@files)){
 		if($ineva){
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
     			$e = extractTime($1);
-    			print "Warning: $name has duration $e ($eva_start)\n";
+    			print "Warning: $name has EVA duration set as $e ($eva_start) rather than start/end times\n";
 				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
 				$eva += $e;
 				$totaleva += $e;
@@ -328,7 +334,7 @@ foreach $file (sort(@files)){
 		# Add astronaut to JSON
 		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "").",\"birthplace\":{\"lat\":$lat,\"lon\":$lon}},\n";
 		if($lat == 0 && $lon == 0){
-			print "WARNING (BIRTH PLACE): $name has no coordinates\n";
+			print "\tWARNING (BIRTH PLACE): $name has no coordinates\n";
 		}
 	}
 	# Print a warning that no gender (Male/Female/Other) is set
@@ -490,8 +496,10 @@ close(HTML);
 
 
 
-print "Longest EVA: ".formatTime($longesteva)."\n";
-print "Total EVA: ".formatTime($totaleva)."\n";
+print "Longest EVA: ".formatLongTime($longesteva)."\n";
+print "Total EVA: ".formatLongTime($totaleva)."\n";
+print "Total time in space: ".formatLongTime($totaltime)."\n";
+print "Total trips: $totaltrips\n";
 
 sub fixDate {
 	my $d = $_[0];

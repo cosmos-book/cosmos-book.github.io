@@ -3,6 +3,10 @@ category:	cosmonaut
 name:	VAGNER, Ivan Viktorovich 
 type:	civilian
 dob:	1985-07-10
+birthplace:
+  - name:	Severoonezhsk, Soviet Union
+    latitude:	62.59167
+    longitude:	39.84778
 country:
   - RUS
 references:

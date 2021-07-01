@@ -1835,12 +1835,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [135.083, 48.483]
 			},
 			"properties": {
 				"title": "DUBROV, Pyotr Valerievich",
 				"date": "1978-01-30",
-				"birthplace": "Washington D.C.",
+				"birthplace": "Khabarovsk, Russia SFSR",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DUBROV_PV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
@@ -4070,12 +4070,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [63.31667, 45.61667]
 			},
 			"properties": {
 				"title": "KUD-SVERCHKOV, Sergei Vladimirovich",
 				"date": "1983-08-23",
-				"birthplace": "Vyazniki, Vladimir Oblast, Soviet Union",
+				"birthplace": "Baikonur, Kazakh SSR",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KUD-SVERCHKOV_SV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
@@ -7280,6 +7280,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [112.9506, 27.7801]
+			},
+			"properties": {
+				"title": "TANG, Hongbo",
+				"date": "1975-10",
+				"birthplace": "Xiangtan County, Hunan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/TANG_H.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-75.3237, 39.8778]
 			},
 			"properties": {
@@ -7655,12 +7670,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [0, 0]
+				"coordinates": [39.84778, 62.59167]
 			},
 			"properties": {
 				"title": "VAGNER, Ivan Viktorovich",
 				"date": "1985-07-10",
-				"birthplace": "Donetsk, Rostov Oblast, Russia",
+				"birthplace": "Severoonezhsk, Soviet Union",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/VAGNER_IV.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
