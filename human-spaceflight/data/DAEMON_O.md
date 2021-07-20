@@ -1,6 +1,6 @@
 ---
 category:	commercial tourist
-name:	DAEMAN, O.
+name:	DAEMAN, Oliver
 type:	civilian
 dob:	2003-08-20
 birthplace:

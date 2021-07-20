@@ -165,8 +165,8 @@
 * **CUNNINGHAM, Walter**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CURBEAM, Robert L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CURRIE, Nancy J. (Sherlock), (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **DAEMAN, O.**: https://en.wikipedia.org/wiki/Oliver_Daemen
-* **DAEMAN, O.**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
+* **DAEMAN, Oliver**: https://en.wikipedia.org/wiki/Oliver_Daemen
+* **DAEMAN, Oliver**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
 * **DAURAN-GHULAM MASUM, Mohammed**: http://www.spacefacts.de/bios/international/english/dauran_mohammed.htm
 * **DAVIS, N. Jan**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DE WINNE, Frank**: http://www.spacefacts.de/bios/international/english/dewinne_frank.htm
