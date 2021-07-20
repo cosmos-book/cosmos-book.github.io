@@ -72,6 +72,10 @@
 * **BEREGOVOY, Georgi Timofeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/beregovoy_georgi.htm
 * **BEREZOVOY, Anatoli Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/berezovoy_anatoli.htm
 * **BEREZOVOY, Anatoli Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/berezovoy_anatoli.htm
+* **BEZOS, Jeffrey Preston 'Jeff'**: https://en.wikipedia.org/wiki/Jeff_Bezos
+* **BEZOS, Jeffrey Preston 'Jeff'**: https://twitter.com/blueorigin/status/1417472463013822464
+* **BEZOS, Jeffrey Preston 'Jeff'**: https://twitter.com/blueorigin/status/1417484724965097473
+* **BEZOS, Mark**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
 * **BHAT, Nagapathi Chidambar**: http://www.spacefacts.de/bios/international/english/bhat_nagapathi.htm
 * **BIN KHALEED, Faiz**: http://www.spacefacts.de/bios/international/english/khaleed_faiz.htm
 * **BINNIE, Brian**: http://www.spacefacts.de/bios/astronauts/english/binnie_brian.htm
@@ -161,6 +165,8 @@
 * **CUNNINGHAM, Walter**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CURBEAM, Robert L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CURRIE, Nancy J. (Sherlock), (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **DAEMAN, O.**: https://en.wikipedia.org/wiki/Oliver_Daemen
+* **DAEMAN, O.**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
 * **DAURAN-GHULAM MASUM, Mohammed**: http://www.spacefacts.de/bios/international/english/dauran_mohammed.htm
 * **DAVIS, N. Jan**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DE WINNE, Frank**: http://www.spacefacts.de/bios/international/english/dewinne_frank.htm
@@ -233,6 +239,7 @@
 * **FUGLESANG, Arne Christer**: http://www.spacefacts.de/eva/international/english/fuglesang_christer.htm
 * **FULIER, Michal**: http://www.spacefacts.de/bios/international/english/fulier_michal.htm
 * **FULLERTON, C. Gordon**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **FUNK, Mary Wallace 'Wally'**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
 * **FURRER, Reinhard Alfred**: http://www.spacefacts.de/bios/international/english/furrer_reinhard.htm
 * **FURUKAWA, Satoshi**: http://www.spacefacts.de/bios/international/english/furukawa_satoshi.htm
 * **FYODOROV, Anatoli Pawlovich**: http://www.spacefacts.de/bios/cosmonauts/english/fyodorov_anatoli.htm

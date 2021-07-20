@@ -725,6 +725,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-106.61000, 35.11083]
+			},
+			"properties": {
+				"title": "BEZOS, Jeffrey Preston 'Jeff'",
+				"date": "1964-01-12",
+				"birthplace": "Albuquerque, New Mexico, U.S.",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BEZOS_JP.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-106.61000, 35.11083]
+			},
+			"properties": {
+				"title": "BEZOS, Mark",
+				"date": "1968-05-17",
+				"birthplace": "Albuquerque, New Mexico, U.S.",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BEZOS_M.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-86.91362, 40.45573]
 			},
 			"properties": {
@@ -1715,6 +1745,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [5.200, 51.583]
+			},
+			"properties": {
+				"title": "DAEMAN, O.",
+				"date": "2003-08-20",
+				"birthplace": "Oisterwijk, Netherlands",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DAEMON_O.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-80.627052, 28.332769]
 			},
 			"properties": {
@@ -2429,6 +2474,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FULLERTON_CG.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-105.22250, 35.59694]
+			},
+			"properties": {
+				"title": "FUNK, Mary Wallace 'Wally'",
+				"date": "1939-02-01",
+				"birthplace": "Las Vegas, New Mexico, U.S",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FUNK_MW.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
