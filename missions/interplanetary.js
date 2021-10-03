@@ -40,7 +40,7 @@ r(function(){
 				"insertion": "left"
 			},
 			"venus": {
-				"pos": getPos(7,3),
+				"pos": getPos(6.8,3),
 				"colour":colours.orange[1],
 				"text":"black",
 				"missions": 0,
@@ -52,7 +52,7 @@ r(function(){
 				"missions": 0
 			},
 			"mars": {
-				"pos": getPos(10,2.28),
+				"pos": getPos(10,2.5),
 				"colour":colours.orange[1],
 				"missions": 0,
 				"insertion": "left"
@@ -93,6 +93,11 @@ r(function(){
 			"midway": {
 				"pos": getPos(1.5,2.5),
 				"colour":colours.orange[4],
+				"missions": 0,
+			},
+			"sun": {
+				"pos": getPos(9,5),
+				"colour":colours.orange[1],
 				"missions": 0,
 			},
 			"heliopause": {
@@ -150,7 +155,7 @@ r(function(){
 				"insertion": "left"
 			},
 			"(433) Eros": {
-				"pos": getPos(15,1),
+				"pos": getPos(14.5,1.5),
 				"colour": colours.orange[3],
 				"missions": 0,
 				"insertion": "left"
@@ -204,12 +209,24 @@ r(function(){
 				"insertion": "left"
 			},
 			"(101955) Bennu": {
-				"pos": getPos(12,1),
+				"pos": getPos(4.5,0.7),
 				"colour": colours.orange[3],
 				"missions": 0,
 				"insertion": "left"
 			},
-			"2014 MU69": {
+			"2001 CC21": {
+				"pos": getPos(12,0.4),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "left"
+			},
+			"1998 KY26": {
+				"pos": getPos(12,0.7),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "left"
+			},
+			"Arrokoth": {
 				"pos": getPos(1,4),
 				"colour": colours.orange[3],
 				"missions": 0,
@@ -228,7 +245,7 @@ r(function(){
 				"insertion": "left"
 			},
 			"9P\/Tempel": {
-				"pos": getPos(15,4),
+				"pos": getPos(15.4,3.5),
 				"colour": colours.orange[3],
 				"missions": 0,
 				"insertion": "left"
@@ -270,7 +287,61 @@ r(function(){
 				"insertion": "left"
 			},
 			"103P\/Hartley": {
+				"pos": getPos(15,4),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(163249) 2002 GT": {
 				"pos": getPos(15,5),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(52246) Donaldjohanson": {
+				"pos": getPos(14.5,2.5),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(3548) Eurybates": {
+				"pos": getPos(14.5,3),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "left"
+			},
+			"(15094) Polymele": {
+				"pos": getPos(14.5,3.5),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(11351) Leucus": {
+				"pos": getPos(14.5,4),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(21900) Orus": {
+				"pos": getPos(14.5,4.5),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(617) Patroclus": {
+				"pos": getPos(14.5,5),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"(65803) Didymos": {
+				"pos": getPos(1.5,2),
+				"colour": colours.orange[3],
+				"missions": 0,
+				"insertion": "right"
+			},
+			"16 Psyche": {
+				"pos": getPos(12.5,2.5),
 				"colour": colours.orange[3],
 				"missions": 0,
 				"insertion": "right"
@@ -327,18 +398,22 @@ r(function(){
 				if(b=="2P/Encke") return getCurve(a,b,270,225,100,50);
 				if(b=="9P/Tempel") return getCurve(a,b,270,180,90,150);
 				if(b=="21P/Giacobini-Zinner") return getCurve(a,b,270,225,100,240);
-				if(b=="(433) Eros") return getCurve(a,b,270,180,50);
+				if(b=="(433) Eros") return getCurve(a,b,270,180,120,50);
 				if(b=="(4179) Toutatis") return getCurve(a,b,270,270,80,100);
 				if(b=="(5535) Annefrank") return getCurve(a,b,270,180,70,90);
 				if(b=="(9969) Braille") return getCurve(a,b,-90,270,50,50);
 				if(b=="(132524) APL") return getCurve(a,b,270,315,50,100);
 				if(b=="(25143) Itokawa") return getCurve(a,b,270,180,80,100);
-				if(b=="(162173) Ryugu") return getCurve(a,b,270,135,80,70);
-				if(b=="(101955) Bennu") return getCurve(a,b,270,135,80,70);
+				if(b=="(162173) Ryugu") return getCurve(a,b,270,180,50,70);
+				if(b=="(101955) Bennu") return getCurve(a,b,90,0,50,50);
+				if(b=="2001 CC21") return getCurve(a,b,90,180,20,50);
+				if(b=="(52246) Donaldjohanson") return getCurve(a,b,270,180,120,120);
+				if(b=="(65803) Didymos") return getCurve(a,b,270,270,60,120);
 				return getCurve(a,b,-90,180)
 			}else if(a=="mars"){
 				if(b=="(2867) &#352;teins") return getCurve(a,b,315,225,230,100);
-				if(b=="vesta") return getCurve(a,b,315,225,200,100)
+				if(b=="vesta") return getCurve(a,b,315,225,200,100);
+				return getCurve(a,b,315,225);
 			}else if(a=="(2867) &#352;teins"){
 				return getCurve(a,b,225,270,50,80);
 			}else if(a=="(25143) Itokawa"){
@@ -355,11 +430,13 @@ r(function(){
 				if(b=="saturn") return getCurve(a,b,0,0,190,120);
 				if(b=="(951) Gaspra") return getCurve(a,b,0,225,100,100);
 				if(b=="1P/Halley") return getCurve(a,b,330,315,820,390);
+				if(b=="sun") return getCurve(a,b,160,200);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="jupiter"){
 				if(b=="saturn") return getCurve(a,b,90,0,120);
 				if(b=="heliopause") return getCurve(a,b,315,290.5,150,600);
 				if(b=="pluto") return getCurve(a,b,315,225,100);
+				if(b=="sun") return getCurve(a,b,60,190,500,1200);
 				return getCurve(a,b,0,180,150)
 			}else if(a=="saturn"){
 				if(b=="uranus") return getCurve(a,b,0,180,150,150);
@@ -375,7 +452,7 @@ r(function(){
 				return getCurve(a,b,225,270,50,50);
 			}else if(a=="pluto"){
 				return getCurve(a,b,315,270,30,60)
-			}else if(a=="2014 MU69"){
+			}else if(a=="Arrokoth"){
 				if(b=="heliopause3") return getCurve(a,b,315,290,100,70);
 				return getCurve(a,b,270,270)
 			}else if(a=="(132524) APL"){
@@ -392,10 +469,18 @@ r(function(){
 				return getCurve(a,b,45,90,50,140);
 			}else if(a=="9P/Tempel"){
 				return getCurve(a,b,180,270,60,50);
+			}else if(a=="103P/Hartley"){
+				return getCurve(a,b,215,270,60,50);
 			}else if(a=="(951) Gaspra"){
 				return getCurve(a,b,225,180,50,50);
 			}else if(a=="(243) Ida"){
 				return getCurve(a,b,315,270);
+			}else if(a=="(101955) Bennu"){
+				return getCurve(a,b,180,270,50,50);
+			}else if(a=="(162173) Ryugu"){
+				return getCurve(a,b,0,90,50,50);
+			}else if(a=="2001 CC21"){
+				return getCurve(a,b,170,200,10,10);
 			}else if(a=="1P/Halley"){
 				if(b=="26P/Grigg-Skjellerup") return getCurve(a,b,45,45,150,150);
 				if(b=="21P\/Giacobini-Zinner") return getCurve(a,b,45,135,100,80);
@@ -403,6 +488,18 @@ r(function(){
 				if(b=="1P/Halley") return getCurve(a,b,225,315,120,75)
 			}else if(a=="2P/Encke"){
 				return getCurve(a,b,270,270)
+			}else if(a=="(52246) Donaldjohanson"){
+				return getCurve(a,b,235,235	);
+			}else if(a=="(3548) Eurybates"){
+				return getCurve(a,b,235,235);
+			}else if(a=="(15094) Polymele"){
+				return getCurve(a,b,235,235);
+			}else if(a=="(11351) Leucus"){
+				return getCurve(a,b,235,235);
+			}else if(a=="(21900) Orus"){
+				return getCurve(a,b,235,235);
+			}else if(a=="(617) Patroclus"){
+				return getCurve(a,b,235,235);
 			}else{
 				return getCurve(a,b,180,270);
 			}
