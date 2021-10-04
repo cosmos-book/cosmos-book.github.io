@@ -98,7 +98,7 @@ r(function(){
 			"sun": {
 				"pos": getPos(9,5),
 				"colour":colours.orange[1],
-				"missions": 0,
+				"missions": 0
 			},
 			"heliopause": {
 				"pos": getPos(1,6),
@@ -107,7 +107,7 @@ r(function(){
 				"insertion": "right"
 			},
 			"heliopauseb": {
-				"pos": getPos(6.2,5.5),
+				"pos": getPos(6.1,5.5),
 				"colour":"#3abfb9",
 				"missions": 0,
 				"insertion": "right"
@@ -394,6 +394,7 @@ r(function(){
 				if(b=="mars") return getCurve(a,b,90,135,50,250);
 				if(b=="venus") return getCurve(a,b,90,45);
 				if(b=="jupiter") return getCurve(a,b,-90,270,20,230);
+				if(b=="sun") return getCurve(a,b,82,90,800,300);
 				if(b=="1P/Halley") return getCurve(a,b,270,315,150,210);
 				if(b=="2P/Encke") return getCurve(a,b,270,225,100,50);
 				if(b=="9P/Tempel") return getCurve(a,b,270,180,90,150);
