@@ -97,7 +97,7 @@ r(function(){
 			},
 			"sun": {
 				"pos": getPos(9,5),
-				"colour":colours.orange[1],
+				"colour":colours.orange[2],
 				"missions": 0
 			},
 			"heliopause": {
@@ -653,7 +653,7 @@ r(function(){
 		// Draw each object
 		for(var o in obj){
 			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0) solarsystem.circle(obj[o].pos.x,obj[o].pos.y,spacing*2).attr({'fill':obj[o].colour,'fill-opacity':1,'stroke':0,'cursor':'pointer','title':capitaliseFirstLetter(parseHTML(o))}).data('name',o).data('id',o);
-			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0) var t = solarsystem.text(obj[o].pos.x,obj[o].pos.y,capitaliseFirstLetter(parseHTML(o))).attr({'stroke':0,'fill':'black','text-anchor':'middle','font-size':(obj[o].colour == colours.orange[1] ? '10px':'7px')});
+			if (o.indexOf("midway") < 0 && o.indexOf("helio") < 0) var t = solarsystem.text(obj[o].pos.x,obj[o].pos.y,capitaliseFirstLetter(parseHTML(o))).attr({'stroke':0,'fill':'black','text-anchor':'middle','font-size':(obj[o].colour == colours.orange[1] ? '10px': obj[o].colour == colours.orange[2] ? '10px' : '7px')});
 		}
 
 		// Set up the tooltip
