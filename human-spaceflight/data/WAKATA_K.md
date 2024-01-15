@@ -12,6 +12,7 @@ country:
   - JPN
 references:
   - http://www.spacefacts.de/bios/international/english/wakata_koichi.htm
+  - https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 missions:
   - name: STS-72
     time_start:   1996-01-11T09:41Z
@@ -28,6 +29,13 @@ missions:
   - name: Soyuz TMA-11M
     time_start:   2013-11-07T04:14:15Z
     time_end:     2014-05-14T01:58Z
+  - name: SpaceX Crew-5
+    time_start: 2022-10-05T16:00:57Z
+    time_end: 2023-03-12T02:02Z
 evas:
+  - time_start: 2023-01-20T13:14Z
+    time_end: 2023-01-20T20:35Z
+  - time_start: 2023-02-02T12:45Z
+    time_end: 2023-02-02T19:26Z
 gender:	Male
 ---

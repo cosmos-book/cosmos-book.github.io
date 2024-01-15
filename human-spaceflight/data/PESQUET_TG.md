@@ -21,6 +21,7 @@ missions:
     time_end:	2017-06-02T14:10Z
   - name: SpaceX Crew-2
     time_start:	2021-04-23T09:49:02Z
+	time_end: 2021-11-09T03:33Z
 evas:
   - time_start: 2017-01-13T11:22Z
     time_end:   2017-01-13T17:20Z
@@ -30,5 +31,7 @@ evas:
     time_end:	2021-06-16T19:26Z
   - time_start:	2021-06-25T11:52Z
     time_end:	2021-06-25T18:37Z
+  - time_start: 2021-09-12T12:15Z
+    time_end: 2021-09-12T19:09Z
 gender:	Male
 ---

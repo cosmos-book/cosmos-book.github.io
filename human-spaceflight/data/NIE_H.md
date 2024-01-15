@@ -11,6 +11,7 @@ country:
   - CHN
 references:
   - http://www.spacefacts.de/bios/international/english/nie_haishen.htm
+  - https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 missions:
   - name: Shenzhou VI
     time_start:   2005-10-12T01:00:03Z
@@ -20,6 +21,9 @@ missions:
     time_end:     2013-06-26T00:08Z
   - name:	Shenzhou 12
     time_start:	2021-06-17T01:22:27Z
+	time_end: 2021-09-17T05:34:09Z
 evas:
+  - time_start: 2021-08-20T00:38Z
+    time_end: 2021-08-20T06:33Z
 gender:	Male
 ---

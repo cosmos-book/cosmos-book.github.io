@@ -21,6 +21,9 @@ missions:
   - name: Soyuz TMA-07M
     time_start:   2012-12-19T12:12:36Z
     time_end:     2013-05-14T02:32Z
+  - name: SpaceX Crew-3
+    time_start:	2021-11-11T02:03:31Z
+	time_end: 2022-05-06T04:43Z
 evas:
   - time_start: 2009-07-20T15:27Z
     time_end:   2009-07-20T22:20Z
@@ -30,6 +33,8 @@ evas:
     time_end:   2009-07-27T16:27Z
   - time_start: 2013-05-11T12:44Z
     time_end:   2013-05-11T18:14Z
+  - time_start: 2021-12-02T11:15Z
+    time_end: 2021-12-02T17:47Z
 gender:	Male
 country:
   - USA

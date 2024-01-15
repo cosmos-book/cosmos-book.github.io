@@ -18,6 +18,9 @@ missions:
   - name: Soyuz TMA-17M
     time_start:   2015-07-22T21:02:44Z
     time_end:     2015-12-11T13:12:09Z
+  - name: SpaceX Crew-4
+    time_start:	2022-04-27T07:52:55Z
+	time_end: 2022-10-14T20:55Z
 evas:
   - time_start: 2015-10-28T12:03Z
     time_end:   2015-10-28T19:19Z

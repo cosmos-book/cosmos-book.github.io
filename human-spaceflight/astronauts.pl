@@ -6,6 +6,21 @@
 use Time::Local;
 use lib './';
 
+
+my %colours = (
+	'black'=>"\033[0;30m",
+	'red'=>"\033[0;31m",
+	'green'=>"\033[0;32m",
+	'yellow'=>"\033[0;33m",
+	'blue'=>"\033[0;34m",
+	'magenta'=>"\033[0;35m",
+	'cyan'=>"\033[0;36m",
+	'white'=>"\033[0;37m",
+	'none'=>"\033[0m"
+);
+
+
+
 # Find directory of this script
 $pathdir = $0;
 $pathdir =~ s/(\/?)[^\/]*$/$1/;
@@ -165,12 +180,12 @@ foreach $file (sort(@files)){
 					if(!$firstlaunch){
 						$firstlaunch = $launch;
 						$age = int(duration(fixDate($dob)."T00:00Z",$launch)/(365.25*86400));
-						if($age < 20){ 
-							print "$name seems to be $age years old at first launch\n";
+						if($age < 17){ 
+							warning("<green>$name<none> seems to be <yellow>$age<none> years old at first launch\n");
 						}
 					}
 					if($allmissions{$mname}{'launch'} eq ""){ $allmissions{$mname}{'launch'} = $launch; }
-					if($allmissions{$mname}{'launch'} ne "" && $launch ne $allmissions{$mname}{'launch'}){ print "WARNING (LAUNCH): $mname\t$launch != $allmissions{$mname}{'launch'}\n"; }
+					if($allmissions{$mname}{'launch'} ne "" && $launch ne $allmissions{$mname}{'launch'}){ warning("LAUNCH: $mname\t$launch != $allmissions{$mname}{'launch'}\n"); }
 				}else{
 					#print "$name has no start time for $mname (may need checking)\n";
 				}
@@ -179,14 +194,14 @@ foreach $file (sort(@files)){
 				if($t2){
 					$land = $t2;
 					if($allmissions{$mname}{'land'} eq ""){ $allmissions{$mname}{'land'} = $land; }
-					if($allmissions{$mname}{'land'} ne "" && $land ne $allmissions{$mname}{'land'}){ print "WARNING (LANDING): $mname\t$land != $allmissions{$mname}{'land'}\n"; }
+					if($allmissions{$mname}{'land'} ne "" && $land ne $allmissions{$mname}{'land'}){ warning("LANDING: $mname\t$land != $allmissions{$mname}{'land'}\n"); }
 				}else{
 					#print "$name has no end time for $mname (may need checking)\n";
 				}
 			}else{
 				if(!$land && $launch){
 					if(duration($launch,$now) < 400*86400){
-						print "$name is in space (launched $launch)\n";
+						msg("<cyan>IN SPACE:<none> <green>$name<none> (launched <yellow>$launch<none>)\n");
 						$inspace = 1;
 						$land = $now;
 					}
@@ -243,35 +258,39 @@ foreach $file (sort(@files)){
 						addToYear($ytemp,$gender,$category,$name,$country,$firstlaunch);
 						$added++;
 					}
-					if($added > 2){ print "TOO MANY YEARS FOR $name\n"; }
+					if($added > 2){ warning("TOO MANY YEARS FOR <green>$name<none>\n"); }
 				}
 
 				$launch = "";
 			}
 		}
+
 		# Get the length of the extra-vehicular activity
 		if($ineva){
     		if($line =~ /duration:[\s\t]*([0-9dhms]*)/){
-    			$e = extractTime($1);
-    			print "Warning: $name has EVA duration set as $e ($eva_start) rather than start/end times\n";
-				if($e > $longesteva){ print "EVA = $e ($1 $name ; $evas)\n"; $longesteva = $e; }
+				$eva_dur = $1;
+    			$e = extractTime($eva_dur);
+				#msg("<green>$name<none> has EVA duration set as <yellow>$e<none> ($eva_start) rather than start/end times\n");
+				if($e > $longesteva){ msg("EVA = $e ($1 $name ; $evas)\n"); $longesteva = $e; }
 				$eva += $e;
 				$totaleva += $e;
 				$evas++;
     		}elsif($line =~ /time_start:[\s\t]*([0-9\-\:TZ]*)/){
     			$eva_start = $1;
     			$eva_end = "";
+				$eva_dur = "";
     		}elsif($line =~ /time_end:[\s\t]*([0-9\-\:TZ]*)/){
     			$eva_end = $1;
     			if($eva_start){
 					$e = duration($eva_start,$eva_end);
-					if($e < 0){ print "ERROR: $name duration is $e ($eva_start)\n"; }
-					if($e > $longesteva){ print "EVA DURATION = $e ($eva_start $name ; $evas)\n"; $longesteva = $e; }
+					if($e < 0){ error("<green>$name<none> duration is <yellow>$e<none> ($eva_start)\n"); }
+					if($e > $longesteva){ msg("New longest EVA duration = $e ($eva_start $name ; $evas)\n"); $longesteva = $e; }
 					$eva += $e;
 					$totaleva += $e;
 					$evas++;
 					$eva_start = "";
 					$eva_end = "";
+					$eva_dur = "";
 				}
     		}
 		}
@@ -302,6 +321,8 @@ foreach $file (sort(@files)){
 		#}
 		
 		$name =~ s/\"/\'/g;	# Fix nickname quoting
+		
+		$wasineva = $ineva;
 
 		# Which section of the yaml are we in?
 		if($line =~ /^qualifications:/){ $inmission = 0; $inrefs = 0; $inquals = 1; $ineva = 0; $incountry = 0; $inbirthplace = 0; }
@@ -312,6 +333,11 @@ foreach $file (sort(@files)){
 		if($line =~ /^country:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 1; $inbirthplace = 0; }
 		if($line =~ /^gender:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
 		if($line =~ /^twitter:/){ $ineva = 0; $inmission = 0; $inrefs = 0; $inquals = 0; $incountry = 0; $inbirthplace = 0; }
+
+		if($wasineva && !$ineva && $eva_start ne "" && ($eva_end eq "" && $eva_dur eq "")){
+			error("No end of EVA for <green>$name<none>.\n");				
+		}
+
 	}
 	
 	$json_mission =~ s/\,$//;
@@ -334,11 +360,11 @@ foreach $file (sort(@files)){
 		# Add astronaut to JSON
 		$json .= "\"$name\":{\"category\":\"$category\",\"gender\":\"$gender\",\"dob\":\"$dob\",\"country\":\"$country\",\"eva\":$eva,\"file\":\"$file\",\"missions\":[$json_mission]".($twitter ne "" ? ",\"twitter\":\"$twitter\"" : "").",\"birthplace\":{\"lat\":$lat,\"lon\":$lon}},\n";
 		if($lat == 0 && $lon == 0){
-			print "\tWARNING (BIRTH PLACE): $name has no coordinates\n";
+			warning("BIRTH PLACE: <green>$name<none> has no coordinates\n");
 		}
 	}
 	# Print a warning that no gender (Male/Female/Other) is set
-	if($gender ne "Male" && $gender ne "Female" && $gender ne "Other"){ print "$name is without a gender (Male/Female/Other)\n"; }
+	if($gender ne "Male" && $gender ne "Female" && $gender ne "Other"){ warning("<green>$name<none> is without a gender (Male/Female/Other)\n"); }
 
 	# If anyone doesn't have a country but is defined as "astronauts" we'll set their country to the USA
 	if(!$country && $category eq "astronauts"){ $country = "USA"; }
@@ -413,7 +439,7 @@ foreach $line (@lines){
 close(FILE);
 
 
-print "$procdir\n";
+msg("Save output to process directory: <cyan>$procdir<none>\n");
 open(FILE,">",$procdir."references.md");
 print FILE "# References\n";
 print FILE $reflist;
@@ -496,10 +522,37 @@ close(HTML);
 
 
 
-print "Longest EVA: ".formatLongTime($longesteva)."\n";
-print "Total EVA: ".formatLongTime($totaleva)."\n";
-print "Total time in space: ".formatLongTime($totaltime)."\n";
-print "Total trips: $totaltrips\n";
+msg("Longest EVA: <yellow>".formatLongTime($longesteva)."<none>\n");
+msg("Total EVA: <yellow>".formatLongTime($totaleva)."<none>\n");
+msg("Total time in space: <yellow>".formatLongTime($totaltime)."<none>\n");
+msg("Total trips: <yellow>$totaltrips\n");
+
+
+
+
+
+#######################
+
+sub msg {
+	my $str = $_[0];
+	my $dest = $_[1]||STDOUT;
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
+	print $dest $str;
+}
+
+sub error {
+	my $str = $_[0];
+	$str =~ s/(^[\t\s]*)/$1<red>ERROR:<none> /;
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
+	msg($str,STDERR);
+}
+
+sub warning {
+	my $str = $_[0];
+	$str =~ s/(^[\t\s]*)/$1$colours{'yellow'}WARNING:$colours{'none'} /;
+	foreach my $c (keys(%colours)){ $str =~ s/\< ?$c ?\>/$colours{$c}/g; }
+	print STDERR $str;
+}
 
 sub fixDate {
 	my $d = $_[0];

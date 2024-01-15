@@ -16,6 +16,8 @@ missions:
   - name: Soyuz TMA-02M
     time_start:   2011-06-07T20:12Z
     time_end:     2011-11-22T02:27Z
+  - name: SpaceX Crew-7
+    time_start: 2023-08-26T07:27:27Z
 evas:
 gender:	Male
 ---

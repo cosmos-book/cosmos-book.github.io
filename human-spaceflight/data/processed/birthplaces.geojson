@@ -230,6 +230,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "ALLEN, Marty",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ALLEN_M.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [41.917, 19.700]
+			},
+			"properties": {
+				"title": "ALQARNI, Ali",
+				"date": "1992-03",
+				"birthplace": "Sabt Al-Alaya, Balqarn, 'Asir Province, Saudi Arabia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ALQARNI_A.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-89.357559, 40.151821]
 			},
 			"properties": {
@@ -239,6 +269,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ALTMAN_SD.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [55.74472, 24.20750]
+			},
+			"properties": {
+				"title": "AL NEYADI, Sultan",
+				"date": "1981-05-25",
+				"birthplace": "Al Ain, United Arab Emirates",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/AL_NEYADI_S.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -560,6 +605,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [41.917, 19.700]
+			},
+			"properties": {
+				"title": "BARNAWI, Rayyanah",
+				"date": "1988-09",
+				"birthplace": "Jeddah, Saudi Arabia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BARNAWI_R.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-122.593536, 45.63398]
 			},
 			"properties": {
@@ -567,6 +627,21 @@
 				"date": "1959-04-16",
 				"birthplace": "Vancouver, Washington",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BARRATT_MR.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-112.44722, 42.87528]
+			},
+			"properties": {
+				"title": "BARRON, Kayla Jane",
+				"date": "1987-09-19",
+				"birthplace": "Pocatello, Idaho, U.S.",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BARRON_KJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -719,6 +794,36 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BEREZOVOY_AN.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "BESS, Cameron",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BESS_C.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-74.032896, 40.200539]
+			},
+			"properties": {
+				"title": "BESS, Lane",
+				"date": "1961-09-18",
+				"birthplace": "Neptune City, New Jersey, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BESS_L.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -890,6 +995,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [32.04528, 54.78278]
+			},
+			"properties": {
+				"title": "BORISOV, Konstantin Sergeyevich",
+				"date": "1984-08-14",
+				"birthplace": "Smolensk, Smolensk Oblast, USSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BORISOV_KS.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-87.337151, 41.602989]
 			},
 			"properties": {
@@ -899,6 +1019,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BORMAN_F.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "BOSHUIZEN, Chris",
+				"date": "1977-06-01",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/BOSHUIZEN_C.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -1160,6 +1295,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [115.560, 38.002]
+			},
+			"properties": {
+				"title": "CAI, Xuzhe",
+				"date": "1976-05",
+				"birthplace": "Shenzhou, Hebei, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CAI_X.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-118.036522, 34.133499]
 			},
 			"properties": {
@@ -1280,6 +1430,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-117.16250, 32.71500]
+			},
+			"properties": {
+				"title": "CASSADA, Josh Aaron",
+				"date": "1973-07-18",
+				"birthplace": "San Diego, California, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CASSADA_JA.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-70.895813, 42.5224]
 			},
 			"properties": {
@@ -1347,6 +1512,21 @@
 				"date": "1950-04-05",
 				"birthplace": "San Jose, Costa Rica",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CHANG-DIAZ_FR.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-87.95, 43.05]
+			},
+			"properties": {
+				"title": "CHARI, Raja Jon Vurputoor",
+				"date": "1977-06-24",
+				"birthplace": "Milwaukee, Wisconsin, U.S.",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CHARI_RJV.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -1424,6 +1604,36 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CHRETIEN_JJM.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [40.09389, 47.42222]
+			},
+			"properties": {
+				"title": "CHUB, Nikolai Aleksandrovich",
+				"date": "1984-06-10",
+				"birthplace": "Novocherkassk, RSFSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CHUB_NA.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "CHURCHLEY, Laura Shepard",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CHURCHLEY_LS.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -1565,6 +1775,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-73.75722, 42.65250]
+			},
+			"properties": {
+				"title": "CONNOR, Larry",
+				"date": "1950-01-07",
+				"birthplace": "Albany, New York, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/CONNOR_L.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-75.133957, 40.007629]
 			},
 			"properties": {
@@ -1589,6 +1814,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/COOPER_LGJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-95.50389, 30.17750]
+			},
+			"properties": {
+				"title": "COTTON, Coby",
+				"date": "1987-07-17",
+				"birthplace": "The Woodlands, Texas, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/COTTON_C.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -1805,6 +2045,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [116.222, 27.546]
+			},
+			"properties": {
+				"title": "DENG, Qingming",
+				"date": "1966-03-16",
+				"birthplace": "Yihuang County, Jiangxi, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DENG_Q.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-76, 43]
+			},
+			"properties": {
+				"title": "DEVRIES, Glen",
+				"date": "1972-06-29",
+				"birthplace": "New York, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DEVRIES_G.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [42.846481, 54.41748]
 			},
 			"properties": {
@@ -1814,6 +2084,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DEZHUROV_VN.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "DICK, Evan",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/DICK_E.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -2015,6 +2300,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-103.34750, 20.67667]
+			},
+			"properties": {
+				"title": "ECHAZARRETA, Katya",
+				"date": "1995-06-15",
+				"birthplace": "Guadalajara, Mexico",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ECHAZARRETA_K.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-77.475639, 37.52943]
 			},
 			"properties": {
@@ -2180,6 +2480,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [60.567, 59.600]
+			},
+			"properties": {
+				"title": "FEDYAEV, Andrey Valerievich",
+				"date": "1975-02-19",
+				"birthplace": "Serov, Sverdlovsk Oblast, RSFSR, USSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FEDYAEV_AV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [120.613121, 31.3092]
 			},
 			"properties": {
@@ -2219,6 +2534,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FERGUSON_CJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "FERREIRA, Mário",
+				"date": "1968",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/FERREIRA_M.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -3050,6 +3380,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "HAGLE, Mark",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAGLE_M.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "HAGLE, Sharon",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAGLE_S.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-97.63028, 39.82361]
 			},
 			"properties": {
@@ -3059,6 +3419,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAGUE_TN.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [99.20000, 24.71889]
+			},
+			"properties": {
+				"title": "HAICHAO, Gui",
+				"date": "1986-11",
+				"birthplace": "Yaoguan Town, Shidian County, Baoshan, Yunnan, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HAICHAO_G.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -3179,6 +3554,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HARBAUGH_GJ.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.2229, 51.4928]
+			},
+			"properties": {
+				"title": "HARDING, Hamish",
+				"date": "1964-06-24",
+				"birthplace": "Hammersmith, London, UK",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HARDING_H.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -3365,6 +3755,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "HESPANHA, Victor Correa",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HESPANHA_VC.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-98.708527, 46.91008]
 			},
 			"properties": {
@@ -3410,6 +3815,36 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-78.97722, 35.08500]
+			},
+			"properties": {
+				"title": "HINES, Robert Thomas",
+				"date": "1975-01-11",
+				"birthplace": "Fayetteville, North Carolina, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HINES_RT.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [133.000, 34.067]
+			},
+			"properties": {
+				"title": "HIRANO, Yozo",
+				"date": "1985-10-12",
+				"birthplace": "Imabari, Ehime Prefecture, Japan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HIRANO_Y.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-88.053238, 30.68639]
 			},
 			"properties": {
@@ -3432,6 +3867,21 @@
 				"date": "1961-11-06",
 				"birthplace": "Bar Harbor, Maine",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HOBAUGH_CO.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-79.97639, 40.43972]
+			},
+			"properties": {
+				"title": "HOBURG, Warren Woodrow 'Woody'",
+				"date": "1985-09-16",
+				"birthplace": "Pittsburgh, Pennsylvania, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/HOBURG_WW.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -3680,6 +4130,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [115.187, 36.811]
+			},
+			"properties": {
+				"title": "JIANG, Xinlin",
+				"date": "1988-02",
+				"birthplace": "Qiu County, Kaifeng, Henan Province, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/JIANG_X.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-122.329437, 47.603561]
 			},
 			"properties": {
@@ -3785,6 +4250,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "KELLY III, Clint",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KELLY_C.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-91.100731, 40.81205]
 			},
 			"properties": {
@@ -3860,6 +4340,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [82.950, 0]
+			},
+			"properties": {
+				"title": "KIKINA, Anna Yuryevna",
+				"date": "1984-08-27",
+				"birthplace": "Novosibirsk, Russian SFSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KIKINA_AY.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-82.033447, 33.44828]
 			},
 			"properties": {
@@ -3884,6 +4379,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KIMBROUGH_RS.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "KITCHEN, Jim",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KITCHEN_J.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -4025,6 +4535,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "KORSAKOV, Sergei Vladimirovich",
+				"date": "1984-09-01",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KORSAKOV_SV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [40.063358, 47.882252]
 			},
 			"properties": {
@@ -4154,6 +4679,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/KUIPERS_A.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "LAI, Gary",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/LAI_G.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -4670,6 +5210,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [140.000806, 35.776833]
+			},
+			"properties": {
+				"title": "MAEZAWA, Yusaku",
+				"date": "1975-11-22",
+				"birthplace": "Kamagaya, Japan",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MAEZAWA_Y.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-89.98423, 38.512131]
 			},
 			"properties": {
@@ -4775,6 +5330,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-122.63139, 38.24583]
+			},
+			"properties": {
+				"title": "MANN, Nicole 'Duke' Victoria Aunapu",
+				"date": "1977-06-27",
+				"birthplace": "Petaluma, California, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MANN_NVA.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-80.888924, 35.78577]
 			},
 			"properties": {
@@ -4829,6 +5399,36 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MATTINGLY_TKII.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.114901, 56.945999]
+			},
+			"properties": {
+				"title": "MATVEEV, Denis Vladimirovich",
+				"date": "1983-04-25",
+				"birthplace": "Riga, Latvia",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MATVEEV_DV.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.167, 49.467]
+			},
+			"properties": {
+				"title": "MAURER, Matthias Josef",
+				"date": "1970-03-18",
+				"birthplace": "St. Wendel, Saarland, West Germany",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MAURER_MJ.md",
+				"marker-size": "medium",
+				"marker-color": "#67c18d",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -5165,6 +5765,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [8.750, 50.367]
+			},
+			"properties": {
+				"title": "MOGHBELI, Jasmin",
+				"date": "1983-06-24",
+				"birthplace": "Bad Nauheim, West Germany",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/MOGHBELI_J.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [67.67894, 33.93045]
 			},
 			"properties": {
@@ -5435,6 +6050,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "NIELD, George",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/NIELD_G.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [112.750618, 32.125011]
 			},
 			"properties": {
@@ -5540,6 +6170,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-82.91667, 42.38333]
+			},
+			"properties": {
+				"title": "O'BRIEN, Vanessa",
+				"date": "1964-12-02",
+				"birthplace": "Grosse Pointe, Michigan, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/OBRIEN_V.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-118.245003, 34.053501]
 			},
 			"properties": {
@@ -5592,6 +6237,21 @@
 				"date": "1965-03-29",
 				"birthplace": "Ft. Belvoir, Virginia",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/OEFELEIN_WA.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-95.38306, 29.76278]
+			},
+			"properties": {
+				"title": "OHARA, Loral Ashley",
+				"date": "1983-05-03",
+				"birthplace": "Houston, Texas, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/OHARA_LA.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -5810,6 +6470,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-73.55417, 45.50889]
+			},
+			"properties": {
+				"title": "PATHY, Mark",
+				"date": "1969-07",
+				"birthplace": "Montreal, Quebec",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PATHY_M.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-0.98148, 54.579868]
 			},
 			"properties": {
@@ -5900,6 +6575,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [28.333, 57.817]
+			},
+			"properties": {
+				"title": "PERESILD, Yulia Sergeevna",
+				"date": "1984-09-05",
+				"birthplace": "Pskov, Russian SFSR, USSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PERESILD_YS.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-5.535, 33.882462]
 			},
 			"properties": {
@@ -5924,6 +6614,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PESQUET_TG.md",
 				"marker-size": "medium",
 				"marker-color": "#67c18d",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [63.62, 53.20]
+			},
+			"properties": {
+				"title": "PETELIN, Dmitri Aleksandrovich",
+				"date": "1983-07-10",
+				"birthplace": "Kustanai, Kazakh SSR, Soviet Union",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/PETELIN_DA.md",
+				"marker-size": "medium",
+				"marker-color": "#f04031",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -6104,6 +6809,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/POPOV_LI.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "POWERS, Audrey",
+				"date": "1976-02-01",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/POWERS_A.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -6335,6 +7055,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-87.62778, 41.88194]
+			},
+			"properties": {
+				"title": "ROBINSON, Jaison",
+				"date": "1980-09-25",
+				"birthplace": "Chicago, Illinois, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ROBINSON_J.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-121.468849, 38.56789]
 			},
 			"properties": {
@@ -6447,6 +7182,21 @@
 				"date": "1978-10-14",
 				"birthplace": "Farmington, Connecticut",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/RUBINS_K.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-118.250, 34.050]
+			},
+			"properties": {
+				"title": "RUBIO, Francisco Carlos 'Frank'",
+				"date": "1975-12-11",
+				"birthplace": "Los Angeles, California, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/RUBIO_FC.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
 				"marker-symbol": "circle"
@@ -6935,6 +7685,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-73.55417, 45.50889]
+			},
+			"properties": {
+				"title": "SHATNER, W",
+				"date": "1931-03-22",
+				"birthplace": "Montreal, Quebec, Canada",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SHATNER_W.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-83.176697, 43.60059]
 			},
 			"properties": {
@@ -6980,6 +7745,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [37.61722, 55.75583]
+			},
+			"properties": {
+				"title": "SHIPENKO, Klim Alekseevich",
+				"date": "1983-06-16",
+				"birthplace": "Moscow, RSFSR, USSR",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SHIPENKO_KA.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [33.533298, 44.599998]
 			},
 			"properties": {
@@ -6989,6 +7769,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SHKAPLEROV_AN.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-147.72306, 64.84361]
+			},
+			"properties": {
+				"title": "SHOFFNER, John",
+				"date": "1955-07-25",
+				"birthplace": "Fairbanks, Alaska, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/SHOFFNER_J.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -7220,6 +8015,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [34.99917, 32.81917]
+			},
+			"properties": {
+				"title": "STIBBE, Eytan Meir",
+				"date": "1958-01-12",
+				"birthplace": "Haifa, Israel",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/STIBBE_EM.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-73.810699, 42.668098]
 			},
 			"properties": {
@@ -7229,6 +8039,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/STOTT_NP.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-95.38306, 29.76278]
+			},
+			"properties": {
+				"title": "STRAHAN, Michael Anthony",
+				"date": "1971-11-21",
+				"birthplace": "Houston, Texas, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/STRAHAN_MA.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -7325,6 +8150,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-104.9849, 39.7392]
+			},
+			"properties": {
+				"title": "TAYLOR, Dylan",
+				"date": "1970-10-23",
+				"birthplace": "Denver, Colorado, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/TALOR_D.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-75.209, 20.14303]
 			},
 			"properties": {
@@ -7347,6 +8187,21 @@
 				"date": "1975-10",
 				"birthplace": "Xiangtan County, Hunan",
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/TANG_H.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [104.592, 35.608]
+			},
+			"properties": {
+				"title": "TANG, Shengjie",
+				"date": "1989-12",
+				"birthplace": "Dingxi, Gansu, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/TANG_S.md",
 				"marker-size": "medium",
 				"marker-color": "#ffcb06",
 				"marker-symbol": "circle"
@@ -7820,6 +8675,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-96.80889, 32.77917]
+			},
+			"properties": {
+				"title": "VESCOVO, Victor Lance",
+				"date": "1966-02-10",
+				"birthplace": "Dallas, Texas, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/VESCOVO_VL.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [16.368799, 48.202541]
 			},
 			"properties": {
@@ -8150,6 +9020,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [-77.22639, 39.13194]
+			},
+			"properties": {
+				"title": "WATKINS, Jessica Andrea",
+				"date": "1988-05-14",
+				"birthplace": "Gaithersburg, Maryland, US",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/WATKINS_JA.md",
+				"marker-size": "medium",
+				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [-81.69072, 41.504749]
 			},
 			"properties": {
@@ -8465,6 +9350,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [104.06333, 30.66000]
+			},
+			"properties": {
+				"title": "YE, Guangfu",
+				"date": "1980-09",
+				"birthplace": "Chengdu, Sichuan, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/YE_G.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [126.833847, 35.15007]
 			},
 			"properties": {
@@ -8489,6 +9389,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/YOUNG_JW.md",
 				"marker-size": "medium",
 				"marker-color": "#00a2d3",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0, 0]
+			},
+			"properties": {
+				"title": "YOUNG, Steve",
+				"date": "",
+				"birthplace": "",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/YOUNG_S.md",
+				"marker-size": "medium",
+				"marker-color": "#7c52a1",
 				"marker-symbol": "circle"
 			}
 		},{
@@ -8570,6 +9485,21 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
+				"coordinates": [112.006, 28.875]
+			},
+			"properties": {
+				"title": "ZHANG, Lu",
+				"date": "1976-11",
+				"birthplace": "Hanshou County, Hunan, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ZHANG_L.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
 				"coordinates": [123.178322, 47.337509]
 			},
 			"properties": {
@@ -8594,6 +9524,21 @@
 				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ZHOLOBOV_VM.md",
 				"marker-size": "medium",
 				"marker-color": "#f04031",
+				"marker-symbol": "circle"
+			}
+		},{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [116.919, 34.716]
+			},
+			"properties": {
+				"title": "ZHU, Yangzhu",
+				"date": "1986-09",
+				"birthplace": "Pei County, Jiangsu, China",
+				"data": "https://github.com/cosmos-book/cosmos-book.github.io/tree/master/human-spaceflight/data/ZHU_Y.md",
+				"marker-size": "medium",
+				"marker-color": "#ffcb06",
 				"marker-symbol": "circle"
 			}
 		},{

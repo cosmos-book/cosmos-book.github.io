@@ -15,10 +15,11 @@ qualifications:
   - BSc in Engineering in electrical engineering and computer science
 references:
   - https://en.wikipedia.org/wiki/Jeff_Bezos
+  - https://en.wikipedia.org/wiki/Blue_Origin_NS-16
   - https://twitter.com/blueorigin/status/1417472463013822464
   - https://twitter.com/blueorigin/status/1417484724965097473
 missions:
-  - name: New Shepard 4
+  - name: Blue Origin NS-16
     altitude:     105 km
     time_start:   2021-07-20T13:12Z
     time_end:     2021-07-20T13:21:19Z

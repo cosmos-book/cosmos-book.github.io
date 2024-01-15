@@ -21,5 +21,6 @@ missions:
     time_end:     2009-05-24T15:39:06Z
   - name: SpaceX Crew-2
     time_start:	2021-04-23T09:49:02Z
+	time_end: 2021-11-09T03:33Z
 evas:
 ---

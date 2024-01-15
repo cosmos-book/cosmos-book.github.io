@@ -19,7 +19,12 @@
 * **ALEKSEYEV, Vladimir Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/alekseyev_vladimir.htm
 * **ALLEN, Andrew M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ALLEN, Joseph P.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **ALLEN, Marty**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
+* **ALQARNI, Ali**: https://en.wikipedia.org/wiki/Ali_AlQarni
 * **ALTMAN, Scott D.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **AL NEYADI, Sultan**: https://en.wikipedia.org/wiki/Sultan_Al_Neyadi
+* **AL NEYADI, Sultan**: http://www.spacefacts.de/bios/international/english/al-nevadi_sultan.htm
+* **AL NEYADI, Sultan**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **AMELKINA, Galina Vasiliyevna**: http://www.spacefacts.de/bios/cosmonauts/english/amelkina_galina.htm
 * **ANDERSON, Clayton C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ANDERSON, Michael P.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -35,6 +40,7 @@
 * **ARNOLD, Richard R., II**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ARTEMYEV, Oleg Germanovich**: http://www.spacefacts.de/bios/cosmonauts/english/artemyev_oleg.htm
 * **ARTEMYEV, Oleg Germanovich**: http://www.spacefacts.de/eva/cosmonauts/english/artemyev_oleg.htm
+* **ARTEMYEV, Oleg Germanovich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **ARTSEBARSKY, Anatoli Pavlovich**: http://www.spacefacts.de/bios/cosmonauts/english/artsebarsky_anatoli.htm
 * **ARTSEBARSKY, Anatoli Pavlovich**: http://www.spacefacts.de/eva/cosmonauts/english/artsebarsky_anatoli.htm
 * **ARTYUKHIN, Yuri Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/artyukhin_yuri.htm
@@ -55,7 +61,10 @@
 * **BAKER, Michael A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BALANDIN, Aleksandr Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/balandin_aleksandr.htm
 * **BALANDIN, Aleksandr Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/balandin_aleksandr.htm
+* **BARNAWI, Rayyanah**: https://en.wikipedia.org/wiki/Rayyanah_Barnawi
 * **BARRATT, Michael R.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **BARRON, Kayla Jane**: https://en.wikipedia.org/wiki/Kayla_Barron
+* **BARRON, Kayla Jane**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **BARRY, Daniel T. (M.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BARTOE, John-David F.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BASSETT II, Charles A.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -72,10 +81,15 @@
 * **BEREGOVOY, Georgi Timofeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/beregovoy_georgi.htm
 * **BEREZOVOY, Anatoli Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/berezovoy_anatoli.htm
 * **BEREZOVOY, Anatoli Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/berezovoy_anatoli.htm
+* **BESS, Cameron**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
+* **BESS, Lane**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
+* **BESS, Lane**: https://en.wikipedia.org/wiki/Lane_Bess
 * **BEZOS, Jeffrey Preston 'Jeff'**: https://en.wikipedia.org/wiki/Jeff_Bezos
+* **BEZOS, Jeffrey Preston 'Jeff'**: https://en.wikipedia.org/wiki/Blue_Origin_NS-16
 * **BEZOS, Jeffrey Preston 'Jeff'**: https://twitter.com/blueorigin/status/1417472463013822464
 * **BEZOS, Jeffrey Preston 'Jeff'**: https://twitter.com/blueorigin/status/1417484724965097473
 * **BEZOS, Mark**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
+* **BEZOS, Mark**: https://en.wikipedia.org/wiki/Blue_Origin_NS-16
 * **BHAT, Nagapathi Chidambar**: http://www.spacefacts.de/bios/international/english/bhat_nagapathi.htm
 * **BIN KHALEED, Faiz**: http://www.spacefacts.de/bios/international/english/khaleed_faiz.htm
 * **BINNIE, Brian**: http://www.spacefacts.de/bios/astronauts/english/binnie_brian.htm
@@ -89,9 +103,13 @@
 * **BONDARENKO, Valentin Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/bondarenko_valentin.htm
 * **BONDAR, Roberta Lynn**: http://www.spacefacts.de/bios/international/english/bondar_roberta.htm
 * **BORISENKO, Andrei Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/borisenko_andrei.htm
+* **BORISOV, Konstantin Sergeyevich**: https://en.wikipedia.org/wiki/Konstantin_Borisov
 * **BORMAN, Frank**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BORODAY, Aleksei Sergeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/boroday_aleksei.htm
 * **BORODIN, Aleksandr Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/borodin_aleksandr.htm
+* **BOSHUIZEN, Chris**: https://en.wikipedia.org/wiki/Blue_Origin_NS-17
+* **BOSHUIZEN, Chris**: https://spacelaunchnow.me/astronaut/chris-boshuizen/
+* **BOSHUIZEN, Chris**: http://chrisboshuizen.com/bio.php
 * **BOWEN, Stephen G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BOWERSOX, Kenneth D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **BOYLE, Anthony Hugh**: http://www.spacefacts.de/bios/international/english/boyle_anthony.htm
@@ -119,6 +137,8 @@
 * **BYKOVSKY, Valeri Fyodorovich**: http://www.spacefacts.de/bios/cosmonauts/english/bykovsky_valeri.htm
 * **CABANA, Robert D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CAGLE, Yvonne D., (M.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CAI, Xuzhe**: https://en.wikipedia.org/wiki/Cai_Xuzhe
+* **CAI, Xuzhe**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **CALDEIRO, Fernando**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CALDWELL (Dyson), Tracy E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CAMARDA, Charles J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -128,6 +148,8 @@
 * **CARR, Gerald P.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CARTER, Manley Lanier, Jr., 'Sonny'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CASPER, John H.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CASSADA, Josh Aaron**: https://en.wikipedia.org/wiki/Josh_A._Cassada
+* **CASSADA, Josh Aaron**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **CASSIDY, Christopher J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CENKER, Robert**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CERNAN, Eugene A.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -135,6 +157,8 @@
 * **CHAMITOFF, Gregory E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHANG-DIAZ, Franklin R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHAPMAN, Philip K.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CHARI, Raja Jon Vurputoor**: https://en.wikipedia.org/wiki/Raja_Chari
+* **CHARI, Raja Jon Vurputoor**: https://en.wikipedia.org/wiki/SpaceX_Crew-3
 * **CHAWLA, Kalpana**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CHELI, Maurizio**: http://www.spacefacts.de/bios/international/english/cheli_maurizio.htm
 * **CHEN, Quan**: http://www.spacefacts.de/bios/international/english/chen_quan.htm
@@ -144,6 +168,8 @@
 * **CHR&Eacute;TIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/bios/international/english/chretien_jean-loup.htm
 * **CHR&Eacute;TIEN, Jean-Loup Jacques Marie**: http://www.spacefacts.de/eva/international/english/chretien_jean-loup.htm
 * **CHUB, Nikolai Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/chub_nikolai.htm
+* **CHUB, Nikolai Aleksandrovich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
+* **CHURCHLEY, Laura Shepard**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
 * **CLARK, Laurel B.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CLEAVE, Mary L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CLERVOY, Jean-Fran&ccedil;ois Andr&eacute;**: http://www.spacefacts.de/bios/international/english/clervoy_jean-francois.htm
@@ -153,13 +179,17 @@
 * **COLEMAN, Catherine G. 'Cady', (Ph.D.)**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COLLINS, Eileen M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COLLINS, Michael**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **CONNOR, Larry**: https://en.wikipedia.org/wiki/Larry_Connor
 * **CONRAD, Charles 'Pete', Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **COOPER, L. Gordon, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **COTTON, Coby**: https://en.wikipedia.org/wiki/Blue_Origin_NS-22
+* **COTTON, Coby**: https://www.famousbirthdays.com/people/coby-cotton.html
 * **COVEY, Richard O.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CREAMER, Timothy J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CREIGHTON, John O.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CRIPPEN, Robert L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CRISTOFORETTI, Samantha**: http://www.spacefacts.de/bios/international/english/cristoforetti_samantha.htm
+* **CRISTOFORETTI, Samantha**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **CROUCH, Roger K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CULBERTSON, Frank L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **CUNNINGHAM, Walter**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -175,8 +205,13 @@
 * **DEGTYARYOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/degtyaryov_vladimir.htm
 * **DELUCAS, Lawrence J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DENG, Qingming**: http://www.spacefacts.de/bios/international/english/deng_qingming.htm
+* **DENG, Qingming**: https://en.wikipedia.org/wiki/Deng_Qingming
+* **DEVRIES, Glen**: https://en.wikipedia.org/wiki/Blue_Origin_NS-17
+* **DEVRIES, Glen**: https://en.wikipedia.org/wiki/Glen_de_Vries
 * **DEZHUROV, Vladimir Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/dezhurov_vladimir.htm
 * **DEZHUROV, Vladimir Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/dezhurov_vladimir.htm
+* **DICK, Evan**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
+* **DICK, Evan**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
 * **DOBROKVASHINA, Yelena Ivanovna**: http://www.spacefacts.de/bios/cosmonauts/english/dobrokvashina_yelena.htm
 * **DOBROVOLSKY, Georgi Timofeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/dobrovolsky_georgi.htm
 * **DOI, Takao**: http://www.spacefacts.de/bios/international/english/doi_takeo.htm
@@ -185,6 +220,7 @@
 * **DONG, Chen**: http://www.spacefacts.de/bios/international/english/chen_dong.htm
 * **DONG, Chen**: http://usa.chinadaily.com.cn/china/2016-10/17/content_27077511.htm
 * **DONG, Chen**: http://mek.kosmo.cz/bio/ostatni/00547.htm
+* **DONG, Chen**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **DREW, B. Alvin, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **DUBROV, Pyotr Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/dubrov_pyotr.htm
 * **DUBROV, Pyotr Valerievich**: https://en.wikipedia.org/wiki/Pyotr_Dubrov
@@ -197,6 +233,7 @@
 * **DYOMIN, Lev Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/dyomin_lev.htm
 * **DZHANIBEKOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/dzhanibekov_vladimir.htm
 * **DZHANIBEKOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/eva/cosmonauts/english/dzhanibekov_vladimir.htm
+* **ECHAZARRETA, Katya**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
 * **EDWARDS, Joe F., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **EISELE, Donn F.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ENGLAND, Anthony W.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -213,11 +250,15 @@
 * **FARTUSHNY, Vladimir Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/fartushny_vladimir.htm
 * **FATKHULLIN, Mars Nurgaliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/fatkhullin_mars.htm
 * **FAVIER, Jean-Jacques**: http://www.spacefacts.de/bios/international/english/favier_jean.htm
+* **FEDYAEV, Andrey Valerievich**: https://en.wikipedia.org/wiki/Andrey_Fedyaev
 * **FEDYAYEV, Andrei Valereivich**: http://www.spacefacts.de/bios/cosmonauts/english/fedyayev_andrei.htm
 * **FEFELOV, Nikolai Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/fefelov_nikolai.htm
 * **FEI, Junlong**: http://www.spacefacts.de/bios/international/english/fei_junlong.htm
+* **FEI, Junlong**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **FEOKTISTOV, Konstantin Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/feoktistov_konstantin.htm
 * **FERGUSON, Christopher J.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **FERREIRA, Mário**: https://en.wikipedia.org/wiki/Blue_Origin_NS-22
+* **FERREIRA, Mário**: https://en.wikipedia.org/wiki/M%C3%A1rio_Ferreira
 * **FETTMAN, Martin J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **FEUSTEL, Andrew J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **FILATIYEV, Valentin Ignatiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/filatiyev_valentin.htm
@@ -240,6 +281,7 @@
 * **FULIER, Michal**: http://www.spacefacts.de/bios/international/english/fulier_michal.htm
 * **FULLERTON, C. Gordon**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **FUNK, Mary Wallace 'Wally'**: https://en.wikipedia.org/wiki/New_Shepard#New_Shepard_4
+* **FUNK, Mary Wallace 'Wally'**: https://en.wikipedia.org/wiki/Blue_Origin_NS-16
 * **FURRER, Reinhard Alfred**: http://www.spacefacts.de/bios/international/english/furrer_reinhard.htm
 * **FURUKAWA, Satoshi**: http://www.spacefacts.de/bios/international/english/furukawa_satoshi.htm
 * **FYODOROV, Anatoli Pawlovich**: http://www.spacefacts.de/bios/cosmonauts/english/fyodorov_anatoli.htm
@@ -295,11 +337,15 @@
 * **HABIB, Munir Habib**: http://www.spacefacts.de/bios/international/english/habib_munir.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/bios/international/english/hadfield_chris.htm
 * **HADFIELD, Chris Austin**: http://www.spacefacts.de/eva/international/english/hadfield_chris.htm
+* **HAGLE, Mark**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
+* **HAGLE, Sharon**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
 * **HAGUE, Tyler Nicklaus**: https://en.wikipedia.org/wiki/Nick_Hague
+* **HAICHAO, Gui**: https://en.wikipedia.org/wiki/Gui_Haichao
 * **HAIGNERÉ, Claudie**: http://www.spacefacts.de/bios/international/english/andre-deshays_claudie.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/bios/international/english/haignere_jean-pierre.htm
 * **HAIGNERÉ, Jean-Pierre**: http://www.spacefacts.de/eva/international/english/haignere_jean-pierre.htm
 * **HAIPENG, Jing**: http://www.spacefacts.de/bios/international/english/jing_haipen.htm
+* **HAIPENG, Jing**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **HAISE, Fred W., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HALIK, Nikos 'Nik'**: http://www.spacefacts.de/bios/international/english/halik_nik.htm
 * **HALSELL, James D., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -307,6 +353,7 @@
 * **HAM, Kenneth T.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HANSEN, Jeremy Roger**: http://www.spacefacts.de/bios/international/english/hansen_jeremy.htm
 * **HARBAUGH, Gregory J.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HARDING, Hamish**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
 * **HARRIS, Bernard A., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HARTSFIELD, Henry W., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HART, Terry J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -319,11 +366,17 @@
 * **HERMASZEWSKI, Mirosław 'Mirek'**: http://www.spacefacts.de/bios/international/english/hermaszewski_miroslaw.htm
 * **HERNANDEZ, Jose M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HERRINGTON, John B.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HESPANHA, Victor Correa**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
 * **HIEB, Richard J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HIGGINBOTHAM, Joan E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HILMERS, David C.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HINES, Robert Thomas**: https://en.wikipedia.org/wiki/Robert_Hines_(astronaut)
+* **HINES, Robert Thomas**: http://www.spacefacts.de/bios/astronauts/english/hines_bob.htm
+* **HIRANO, Yozo**: https://en.wikipedia.org/wiki/Yozo_Hirano
 * **HIRE, Kathryn P. 'Kay'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOBAUGH, Charles O.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **HOBURG, Warren Woodrow 'Woody'**: https://en.wikipedia.org/wiki/Warren_Hoburg
+* **HOBURG, Warren Woodrow 'Woody'**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **HOFFMAN, Jeffrey A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **HOLMES, Christopher John Nicholas**: http://www.spacefacts.de/bios/international/english/holmes_christopher.htm
 * **HOLMQUEST, Donald L.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -355,6 +408,7 @@
 * **JEMISON, Mae C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JERNIGAN, Tamara E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JETT, Brent W.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **JIANG, Xinlin**: https://en.wikipedia.org/wiki/Jiang_Xinlin
 * **JOHNSON, Gregory C.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JOHNSON, Gregory H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **JONES, Thomas D.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -367,6 +421,7 @@
 * **KARTASHOV, Anatoli Yakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/kartashov_anatoli.htm
 * **KATYS, Georgi Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/katys_georgi.htm
 * **KAVANDI, Janet L.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **KELLY III, Clint**: https://en.wikipedia.org/wiki/Blue_Origin_NS-22
 * **KELLY, James M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KELLY, Mark E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KELLY, Scott J.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -377,6 +432,7 @@
 * **KHRUNOV, Yevgeni Vasiliyevich**: http://www.spacefacts.de/bios/cosmonauts/english/khrunov_yevgeni.htm
 * **KHRUNOV, Yevgeni Vasiliyevich**: http://www.spacefacts.de/eva/cosmonauts/english/khrunov_yevgeni.htm
 * **KIKINA, Anna Yuryevna**: http://www.spacefacts.de/bios/cosmonauts/english/kikina_anna.htm
+* **KIKINA, Anna Yuryevna**: https://en.wikipedia.org/wiki/Anna_Kikina
 * **KIKUCHI, Ryoko**: http://www.spacefacts.de/bios/international/english/kikuchi_ryoko.htm
 * **KILRAIN (Still), Susan L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KIMBROUGH, Robert Shane**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -386,6 +442,7 @@
 * **KIMBROUGH, Robert Shane**: https://blogs.nasa.gov/spacestation/2017/03/30/spacewalkers-successfully-connect-adapter-for-commercial-crew-vehicles/
 * **KIMBROUGH, Robert Shane**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **KISELYOV, Aleksandr Alexeyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kiselyov_aleksandr.htm
+* **KITCHEN, Jim**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/bios/cosmonauts/english/kizim_leonid.htm
 * **KIZIM, Leonid Denisovich**: http://www.spacefacts.de/eva/cosmonauts/english/kizim_leonid.htm
 * **KLIMUK, Pyotr Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/klimuk_pyotr.htm
@@ -401,11 +458,13 @@
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_d.htm
 * **KONONENKO, Oleg Dmitriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/kononenko_oleg.htm
 * **KONONENKO, Oleg Dmitriyevich**: https://twitter.com/Space_Station/status/1143350844911284224
+* **KONONENKO, Oleg Dmitriyevich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **KONONENKO, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/kononenko_oleg_g.htm
 * **KOPRA, Timothy L.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/bios/cosmonauts/english/korniyenko_mikhail.htm
 * **KORNIYENKO, Mikhail Borisovich**: http://www.spacefacts.de/eva/cosmonauts/english/korniyenko_mikhail.htm
 * **KORSAKOV, Sergei Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/korsakov_sergei.htm
+* **KORSAKOV, Sergei Vladimirovich**: https://en.wikipedia.org/wiki/Denis_Matveev
 * **KORZUN, Valeri Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/korzun_valeri.htm
 * **KORZUN, Valeri Grigoriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/korzun_valeri.htm
 * **KOSTENKO, Sergei Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/kostenko_sergei.htm
@@ -432,6 +491,7 @@
 * **KULESHOVA, Natalya Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuleshova_natalya.htm
 * **KUZHELNAYA, Nadezhda Vasiliyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuzhelnaya_nadezhda.htm
 * **KUZNETSOVA, Tatiyana Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/kuznetsova_tatiyana.htm
+* **LAI, Gary**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
 * **LALIBERTÉ, Guy**: http://www.spacefacts.de/bios/international/english/laliberte_guy.htm
 * **LATYSHEVA, Irina Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/latysheva_irina.htm
 * **LAVEYKIN, Aleksandr Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/laveykin_aleksandr.htm
@@ -460,6 +520,7 @@
 * **LIU, Boming**: http://www.spacefacts.de/bios/international/english/liu_buoming.htm
 * **LIU, Wang**: http://www.spacefacts.de/bios/international/english/liu_wang.htm
 * **LIU, Yang**: http://www.spacefacts.de/bios/international/english/liu_yang.htm
+* **LIU, Yang**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **LI, Qinglong**: http://www.spacefacts.de/bios/international/english/li_qinglong.htm
 * **LLEWELLYN, John A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **LOCKHART, Paul S.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -485,6 +546,7 @@
 * **MACHINSKY, Georgi Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/machinski_georgi.htm
 * **MACLEAN, Steven Glenwood**: http://www.spacefacts.de/bios/international/english/maclean_steven.htm
 * **MACLEAN, Steven Glenwood**: http://www.spacefacts.de/eva/international/english/maclean_steven.htm
+* **MAEZAWA, Yusaku**: https://en.wikipedia.org/wiki/Yusaku_Maezawa
 * **MAGNUS, Sandra H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MAGYARI, B&eacute;la**: http://www.spacefacts.de/bios/international/english/magyari_bela.htm
 * **MAKAROV, Oleg Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/makarov_oleg.htm
@@ -499,13 +561,18 @@
 * **MANAKOV, Gennadi Mikhailovich**: http://www.spacefacts.de/eva/cosmonauts/english/manakov_gennadi.htm
 * **MANAROV, Musa Khiramanovich**: http://www.spacefacts.de/bios/cosmonauts/english/manarov_musa.htm
 * **MANAROV, Musa Khiramanovich**: http://www.spacefacts.de/eva/cosmonauts/english/manarov_musa.htm
+* **MANN, Nicole 'Duke' Victoria Aunapu**: https://en.wikipedia.org/wiki/Nicole_Aunapu_Mann
+* **MANN, Nicole 'Duke' Victoria Aunapu**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **MARSHBURN, Thomas H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASSIMINO, Michael J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASTRACCHIO, Richard A.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MASTRACCHIO, Richard A.**: https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts118/news/STS-118-07.html
 * **MATINCHENKO, Aleksandr Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/matinchenko_aleksandr.htm
 * **MATTINGLY, Thomas K., II**: http://www.nasa.gov/pdf/740566main_current.pdf
-* **MATVEYEV, Denis Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/matveyev_denis.htm
+* **MATVEEV, Denis Vladimirovich**: https://en.wikipedia.org/wiki/Denis_Matveev
+* **MATVEEV, Denis Vladimirovich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
+* **MAURER, Matthias Josef**: https://en.wikipedia.org/wiki/Matthias_Maurer
+* **MAURER, Matthias Josef**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **MAYO, Itzhak**: http://www.spacefacts.de/bios/international/english/mayo_itzhak.htm
 * **MCARTHUR, Katherine Megan**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **MCCLAIN, Anne Charlotte**: https://en.wikipedia.org/wiki/Soyuz_MS-11
@@ -527,6 +594,7 @@
 * **MISURKIN, Aleksandr Aleksandrovich**: http://www.spacefacts.de/eva/cosmonauts/english/misurkin_aleksandr.htm
 * **MITCHELL, Edgar D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **MOGENSEN, Andreas Enevold**: http://www.spacefacts.de/bios/international/english/morgensen_andreas.htm
+* **MOGHBELI, Jasmin**: https://en.wikipedia.org/wiki/Jasmin_Moghbeli
 * **MOHMAND, Abdul Ahad 'Abdulah'**: http://www.spacefacts.de/bios/international/english/mohmand_abdol.htm
 * **MOHRI, Mamoru**: http://www.spacefacts.de/bios/international/english/mohri_mamoru.htm
 * **MONEY, Kenneth Eric**: http://www.spacefacts.de/bios/international/english/money_kenneth.htm
@@ -557,7 +625,9 @@
 * **NICOLLIER, Claude**: http://www.spacefacts.de/bios/international/english/nicollier_claude.htm
 * **NICOLLIER, Claude**: http://www.spacefacts.de/eva/international/english/nicollier_claude.htm
 * **NICOLLIER, Claude**: http://www.spacefacts.de/eva/international/english/nicollier_claude.htm
+* **NIELD, George**: https://en.wikipedia.org/wiki/Blue_Origin_NS-20
 * **NIE, Haisheng**: http://www.spacefacts.de/bios/international/english/nie_haishen.htm
+* **NIE, Haisheng**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **NIKOLAYEV, Andriyan Grigoriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/nikolayev_andriyan.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/bios/international/english/noguchi_soichi.htm
 * **NOGUCHI, Soichi**: http://www.spacefacts.de/eva/international/english/noguchi_soichi.htm
@@ -566,10 +636,13 @@
 * **NOVITSKY, Oleg Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/novitsky_oleg.htm
 * **NOWAK, Lisa M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **NYBERG, Karen L.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **O'BRIEN, Vanessa**: https://en.wikipedia.org/wiki/Blue_Origin_NS-22
+* **O'BRIEN, Vanessa**: https://en.wikipedia.org/wiki/Vanessa_O%27Brien
 * **OCHOA, Ellen**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OCKELS, Wubbo Johannes**: http://www.spacefacts.de/bios/international/english/ockels_wubbo.htm
 * **O'CONNOR, Bryan D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OEFELEIN, William A.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **OHARA, Loral Ashley**: https://en.wikipedia.org/wiki/Loral_O%27Hara
 * **OLIVAS, John D.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **OLIVAS, John D.**: http://www.jsc.nasa.gov/Bios/htmlbios/olivas.html
 * **OMELCHENKO, Svetlana Oktyabrevna**: http://www.spacefacts.de/bios/cosmonauts/english/omelchenko_svetlana.htm
@@ -591,6 +664,8 @@
 * **PARMITANO, Luca Salvo**: http://www.spacefacts.de/bios/international/english/parmitano_luca.htm
 * **PARMITANO, Luca Salvo**: http://www.spacefacts.de/eva/international/english/parmitano_luca.htm
 * **PATAT, Frederic**: http://www.spacefacts.de/bios/international/english/patat_frederic.htm
+* **PATHY, Mark**: https://en.wikipedia.org/wiki/Mark_Pathy
+* **PATHY, Mark**: http://www.spacefacts.de/bios/tourists/english/pathy_mark.htm
 * **PATRICK, Nicholas J.M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PATSAYEV, Viktor Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/patsayev_viktor.htm
 * **PAWELCZYK, James A.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -600,6 +675,8 @@
 * **PEAKE, Timothy Nigel**: http://www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/Timothy_Peake
 * **PELCZAK, Oldrich 'Olda'**: http://www.spacefacts.de/bios/international/english/pelczak_oldrich.htm
 * **PERALTA Y FABI, Ricardo**: http://www.spacefacts.de/bios/international/english/peralta_ricardo.htm
+* **PERESILD, Yulia Sergeevna**: https://en.wikipedia.org/wiki/Yulia_Peresild
+* **PERESILD, Yulia Sergeevna**: https://en.wikipedia.org/wiki/Soyuz_MS-18
 * **PERRIN, Philippe**: http://www.spacefacts.de/bios/international/english/perrin_philippe.htm
 * **PERRIN, Philippe**: http://www.spacefacts.de/eva/international/english/perrin_philippe.htm
 * **PESQUET, Thomas Gautier**: http://www.spacefacts.de/bios/international/english/pesquet_thomas.htm
@@ -607,6 +684,7 @@
 * **PESQUET, Thomas Gautier**: http://blogs.nasa.gov/spacestation/2017/01/13/astronauts-begin-second-spacewalk-to-upgrade-power-systems/
 * **PESQUET, Thomas Gautier**: https://en.wikipedia.org/wiki/SpaceX_Crew-2
 * **PETELIN, Dmitri Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/petelin_dmitri.htm
+* **PETELIN, Dmitri Aleksandrovich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **PETERSON, Donald H.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PETRUSHENKO, Aleksandr Jakovlevich**: http://www.spacefacts.de/bios/cosmonauts/english/petrushenko_aleksandr.htm
 * **PETTIT, Donald R.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -629,12 +707,15 @@
 * **POPOV, Leonid Ivanovich**: http://www.spacefacts.de/bios/cosmonauts/english/popov_leonid.htm
 * **PORVATKIN, Nikolai Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/porvatkin_nikolai.htm
 * **POTAPOV, Mikhail Georgiyevich**: http://www.spacefacts.de/bios/cosmonauts/english/potapov_mikhail.htm
+* **POWERS, Audrey**: https://en.wikipedia.org/wiki/Blue_Origin_NS-18
+* **POWERS, Audrey**: https://spacelaunchnow.me/astronaut/audrey-powers/
 * **POZHARSKAYA, Larisa Grigoriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/pozharskaya_larisa.htm
 * **PRECOURT, Charles J.,**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **PREOBRAZHENSKY, Vladimir Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/preobrazhensky_vladimir.htm
 * **PRIKHODKO, Yuri Viktorovich**: http://www.spacefacts.de/bios/cosmonauts/english/prikhodko_yuri.htm
 * **PROKOPYEV, Sergei Valerievich**: http://www.spacefacts.de/bios/cosmonauts/english/prokopyev_sergei.htm
 * **PROKOPYEV, Sergei Valerievich**: https://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/Follow_the_launch_and_docking_of_ESA_astronaut_Alexander_Gerst
+* **PROKOPYEV, Sergei Valerievich**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **PRONINA, Irina Rudolfovna**: http://www.spacefacts.de/bios/cosmonauts/english/pronina_irina.htm
 * **PROTCHENKO, Sergei Filippovich**: http://www.spacefacts.de/bios/cosmonauts/english/protchenko_sergei.htm
 * **PRUNARIU, Dumitru Dorin**: http://www.spacefacts.de/bios/international/english/prunariu_dumitru.htm
@@ -657,6 +738,8 @@
 * **RICHARDS, Richard N.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RIDE, Sally K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROBERTSON, Patricia Hilliard**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **ROBINSON, Jaison**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
+* **ROBINSON, Jaison**: https://survivor.fandom.com/wiki/Jaison_Robinson
 * **ROBINSON, Stephen K.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **ROMANENKO, Roman Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/romanenko_roman.htm
 * **ROMANENKO, Roman Yuriyevich**: http://www.spacefacts.de/eva/cosmonauts/english/romanenko_roman.htm
@@ -670,6 +753,8 @@
 * **ROZHDESTVENSKY, Valeri Iliyich**: http://www.spacefacts.de/bios/cosmonauts/english/rozhdestvensky_valeri.htm
 * **RUBINS, Kathleen 'Kate'**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RUBINS, Kathleen 'Kate'**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
+* **RUBIO, Francisco Carlos 'Frank'**: https://en.wikipedia.org/wiki/Francisco_Rubio_(astronaut)
+* **RUBIO, Francisco Carlos 'Frank'**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **RUKAVISHNIKOV, Nikolai Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/rukavishnikov_nikolai.htm
 * **RUNCO, Mario, Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **RYAZANSKY, Sergei Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/ryazansky_sergei.htm
@@ -718,15 +803,21 @@
 * **SHARMA, Rakesh 'Rikki'**: http://www.spacefacts.de/bios/international/english/sharma_rakesh.htm
 * **SHAROV, Valeri Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/sharov_valeri.htm
 * **SHATALOV, Vladimir Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/shatalov_vladimir.htm
+* **SHATNER, W**: https://en.wikipedia.org/wiki/Blue_Origin_NS-18
+* **SHATNER, W**: https://en.wikipedia.org/wiki/William_Shatner
 * **SHAW, Brewster H., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHCHEGLOV, Vasili Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/shcheglov_vasili.htm
 * **SHCHUKIN, Aleksandr Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/shchukin_aleksandr.htm
 * **SHEFFER, Yuri Petrovich**: http://www.spacefacts.de/bios/cosmonauts/english/sheffer_yuri.htm
 * **SHEPARD, Alan B. Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHEPHERD, William M.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **SHIPENKO, Klim Alekseevich**: https://en.wikipedia.org/wiki/Klim_Shipenko
+* **SHIPENKO, Klim Alekseevich**: https://en.wikipedia.org/wiki/Soyuz_MS-18
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/shkaplerov_anton.htm
 * **SHKAPLEROV, Anton Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/shkaplerov_anton.htm
 * **SHKAPLEROV, Anton Nikolayevich**: https://www.nasaspaceflight.com/2017/12/soyuz-ms-07-final-human-launch-2017/
+* **SHKAPLEROV, Anton Nikolayevich**: https://en.wikipedia.org/wiki/Soyuz_MS-19
+* **SHOFFNER, John**: https://en.wikipedia.org/wiki/John_Shoffner
 * **SHONIN, Georgi Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/shonin_georgi.htm
 * **SHRIVER, Loren J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SHUTTLEWORTH, Mark Richard 'Buranov'**: http://www.spacefacts.de/bios/international/english/shuttleworth_mark.htm
@@ -757,8 +848,11 @@
 * **STEPANOV, Eduard Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_eduard.htm
 * **STEPANOV, Yuri Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/stepanov_yuri.htm
 * **STEWART, Robert L.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **STIBBE, Eytan Meir**: https://en.wikipedia.org/wiki/Eytan_Stibbe
 * **STOTT, Nicole P.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **STOYANOV, Krasimir Mihailov**: http://www.spacefacts.de/bios/international/english/stoyanov_krasimir.htm
+* **STRAHAN, Michael Anthony**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
+* **STRAHAN, Michael Anthony**: https://en.wikipedia.org/wiki/Michael_Strahan
 * **STREKALOV, Gennadi Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/strekalov_gennadi.htm
 * **STREKALOV, Gennadi Mikhailovich**: http://www.spacefacts.de/eva/cosmonauts/english/strekalov_gennadi.htm
 * **STURCKOW, Frederick W.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -769,9 +863,15 @@
 * **SURAYEV, Maksim Viktorovich**: http://www.spacefacts.de/eva/cosmonauts/english/surayev_maksim.htm
 * **SWANSON, Steven R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **SWIGERT, John L., Jr.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **TAYLOR, Dylan**: https://en.wikipedia.org/wiki/Blue_Origin_NS-19
+* **TAYLOR, Dylan**: https://en.wikipedia.org/wiki/Dylan_Taylor_(executive)
 * **TAMAYO M&eacute;NDEZ, Arnaldo 'Guasso'**: http://www.spacefacts.de/bios/international/english/tamayo-mendez_arnaldo.htm
 * **TANG, Hongbo**: http://www.spacefacts.de/bios/international/english/tang_hongbo.htm
 * **TANG, Hongbo**: https://en.wikipedia.org/wiki/Shenzhou_12
+* **TANG, Hongbo**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
+* **TANG, Shengjie**: https://en.wikipedia.org/wiki/Tang_Shengjie
+* **TANG, Shengjie**: http://www.spacefacts.de/bios/international/english/tang_shengjie.htm
+* **TANG, Shengjie**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **TANI, Daniel M.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TANNER, Joseph R.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **TARELKIN, Yevgeni Igorevich**: http://www.spacefacts.de/bios/cosmonauts/english/tarelkin_yevgeni.htm
@@ -816,6 +916,8 @@
 * **VARLAMOV, Valentin Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/varlamov_valentin.htm
 * **VASYUTIN, Vladimir Vladimirovich**: http://www.spacefacts.de/bios/cosmonauts/english/vasyutin_vladimir.htm
 * **VEACH, Charles Lacy**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **VESCOVO, Victor Lance**: https://en.wikipedia.org/wiki/Blue_Origin_NS-21
+* **VESCOVO, Victor Lance**: https://en.wikipedia.org/wiki/Victor_Vescovo
 * **VIEHBÖCK, Franz Artur**: http://www.spacefacts.de/bios/international/english/viehboeck_franz.htm
 * **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/bios/cosmonauts/english/viktorenko_aleksandr.htm
 * **VIKTORENKO, Aleksandr Stepanovich**: http://www.spacefacts.de/eva/cosmonauts/english/viktorenko_aleksandr.htm
@@ -838,6 +940,7 @@
 * **VOSS, James S.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **VOZOVIKOV, Sergei Yuriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/vozovikov_sergei.htm
 * **WAKATA, Koichi**: http://www.spacefacts.de/bios/international/english/wakata_koichi.htm
+* **WAKATA, Koichi**: https://en.wikipedia.org/wiki/List_of_International_Space_Station_spacewalks
 * **WALHEIM, Rex J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WALKER, Charles D**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WALKER, David M.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -848,6 +951,8 @@
 * **WALZ, Carl E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WANG, Taylor G.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WANG, Yaping**: http://www.spacefacts.de/bios/international/english/wang_yaping.htm
+* **WANG, Yaping**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
+* **WATKINS, Jessica Andrea**: https://en.wikipedia.org/wiki/Jessica_Watkins
 * **WEBER, Mary E.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WEITZ, Paul J.**: http://www.nasa.gov/pdf/740566main_current.pdf
 * **WETHERBEE, James D.**: http://www.nasa.gov/pdf/740566main_current.pdf
@@ -884,9 +989,12 @@
 * **YEMELYANOV, Sergei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/yemelyanov_sergei.htm
 * **YERSHOV, Valentin Gavriylovich**: http://www.spacefacts.de/bios/cosmonauts/english/yershov_valentin.htm
 * **YE, Guangfu**: http://www.spacefacts.de/bios/international/english/ye_guangfu.htm
+* **YE, Guangfu**: https://en.wikipedia.org/wiki/Ye_Guangfu
+* **YE, Guangfu**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **YI, Soyeon**: http://www.spacefacts.de/bios/international/english/lee_so-hyun.htm
 * **YORKINA, Zhanna Dmitriyevna**: http://www.spacefacts.de/bios/cosmonauts/english/yorkina_zhanna.htm
 * **YOUNG, John W.**: http://www.nasa.gov/pdf/740566main_current.pdf
+* **YOUNG, Steve**: https://en.wikipedia.org/wiki/Blue_Origin_NS-22
 * **YUI, Kimiya**: http://www.spacefacts.de/bios/international/english/yui_kimiya.htm
 * **YURCHIKHIN, Fyodor Nikolayevich**: http://www.spacefacts.de/bios/cosmonauts/english/yurchikhin_fyodor.htm
 * **YURCHIKHIN, Fyodor Nikolayevich**: http://www.spacefacts.de/eva/cosmonauts/english/yurchikhin_fyodor.htm
@@ -900,9 +1008,14 @@
 * **ZAYTSEV, Andrei Yevgeniyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zaytsev_andrei.htm
 * **ZHAI, Zhigang**: http://www.spacefacts.de/bios/international/english/zhai_zhigang.htm
 * **ZHAI, Zhigang**: http://www.spacefacts.de/eva/taikonauts/english/zhai_zhigang.htm
+* **ZHAI, Zhigang**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **ZHANG, Lu**: http://www.spacefacts.de/bios/international/english/zhang_lu.htm
+* **ZHANG, Lu**: https://en.wikipedia.org/wiki/Zhang_Lu_(taikonaut)
+* **ZHANG, Lu**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **ZHANG, Xiaoguan**: http://www.spacefacts.de/bios/international/english/zhang_xiaoguan.htm
 * **ZHAO, Chuandong**: http://www.spacefacts.de/bios/international/english/zhao_chuandong.htm
 * **ZHOLOBOV, Vitali Mikhailovich**: http://www.spacefacts.de/bios/cosmonauts/english/zholobov_vitali.htm
 * **ZHUKOV, Sergei Aleksandrovich**: http://www.spacefacts.de/bios/cosmonauts/english/zhukov_sergei.htm
+* **ZHU, Yangzhu**: https://en.wikipedia.org/wiki/Zhu_Yangzhu
+* **ZHU, Yangzhu**: https://en.wikipedia.org/wiki/List_of_Tiangong_space_station_spacewalks
 * **ZUDOV, Vyacheslav Dmitriyevich**: http://www.spacefacts.de/bios/cosmonauts/english/zudov_vyacheslav.htm

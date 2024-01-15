@@ -45,6 +45,7 @@ function loadFILE(file,fn,attrs,t){
 
 	if(!attrs) attrs = {};
 	attrs['_file'] = file;
+	console.log('loadFile',t);
 	$.ajax({
 		type: "GET",
 		url: file,
@@ -61,7 +62,16 @@ function loadFILE(file,fn,attrs,t){
 	});
 }
 
-function loadJSON(file,fn,attrs,t){ loadFILE(file,fn,attrs,"json"); }
+function loadJSON(file,fn,attrs,t){
+	fetch(file,{})
+	.then(response => response.json())
+	.then(data => {
+		if(typeof fn==="function"){
+			fn.call(attrs['this']||this,data,attrs);
+		}
+	});
+	//loadFILE(file,fn,attrs,"json");
+}
 function loadCSV(file,fn,attrs,t){ loadFILE(file,fn,attrs,"text"); }
 function loadDAT(file,fn,attrs,t){ loadFILE(file,fn,attrs,"text"); }
 

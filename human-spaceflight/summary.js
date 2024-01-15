@@ -56,7 +56,7 @@ $(document).ready(function(){
 	}
 
 	function parseIt(data){
-	
+
 		var now = new Date();
 		var updatedate = new Date('1900-01-01T00:00:00Z');
 		var d,time,longest,launch,land,tmp;
@@ -71,7 +71,12 @@ $(document).ready(function(){
 			time = 0;
 			longest = 0;
 			launch = new Date(fixDateString(data[name].mission[0].a));
-			tmp.firstlaunch_age = inYears(launch-tmp.dob);
+
+			if(isNaN(tmp.dob)){
+				console.warn('No date of birth for '+name);
+			}else{
+				tmp.firstlaunch_age = inYears(launch-tmp.dob);
+			}
 
 			for(var m = 0; m < data[name].mission.length; m++){
 				launch = (data[name].mission[m].a) ? new Date(fixDateString(data[name].mission[m].a)) : "";
@@ -98,7 +103,9 @@ $(document).ready(function(){
 						if(d2 > longest) longest = d2;
 						trips.push({'name':name,'time':d2});
 					}
-					tmp.oldest = (!land) ? inYears(now-tmp.dob) : inYears(land-tmp.dob);
+					if(!isNaN(tmp.dob)){
+						tmp.oldest = (!land) ? inYears(now-tmp.dob) : inYears(land-tmp.dob);
+					}
 				}
 				time += d;
 			}
@@ -242,17 +249,29 @@ $(document).ready(function(){
 		var decade = {};
 		var now = new Date();
 		for(var i = 0; i < astronauts.length; i++){
-			d = Math.floor(astronauts[i].dob.getFullYear()/10)*10;
-			if(!decade[d+'s']){
-				decade[d+'s'] = {};
-				for(var c = 0; c < categories.length; c++) decade[d+'s'][categories[c]] = 0;
+			if(!isNaN(astronauts[i].dob)){
+				d = (Math.floor(astronauts[i].dob.getFullYear()/10)*10)+'s';
+			}else{
+				d = "?";
+			}
+			if(!decade[d]){
+				decade[d] = {};
+				for(var c = 0; c < categories.length; c++) decade[d][categories[c]] = 0;
 			}
 			var c = astronauts[i].category;
 			if(c.indexOf(' ') > 0) c = c.substr(0,c.indexOf(' '));
-			decade[d+'s'][c]++;
+			decade[d][c]++;
 		}
 		output = '<table class="birth_split">';
 		var mx = 0;
+		// Sort the decades
+		decade = Object.keys(decade).sort().reduce(
+			(obj, key) => { 
+				obj[key] = decade[key]; 
+				return obj;
+			}, 
+			{}
+		);
 		for(var d in decade){
 			var t = 0;
 			for(var c in categories){
@@ -264,7 +283,7 @@ $(document).ready(function(){
 			output += '<tr><td>'+d+'</td><td>';
 			for(var c in categories){
 				var f = 100*decade[d][categories[c]]/mx;
-				output += '<div class="bar '+categories[c]+'" style="width:'+f+'%;">&nbsp;</div>';
+				output += '<div class="bar '+categories[c]+'" style="width:'+f+'%;" title="'+decade[d][categories[c]]+' people">&nbsp;</div>';
 			}
 			output += '</td></tr>';
 		}

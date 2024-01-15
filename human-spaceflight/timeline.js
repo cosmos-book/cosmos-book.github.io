@@ -24,7 +24,7 @@ $(document).ready(function(){
 		var scale = 1/(end-start);
 		var wide = app.width();
 		var tall = app.height();
-		
+
 		var pixels = new Array(wide);
 		for(px = 0; px < wide ; px++) pixels[px] = [false];
 
