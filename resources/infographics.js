@@ -63,6 +63,7 @@ function loadFILE(file,fn,attrs,t){
 }
 
 function loadJSON(file,fn,attrs,t){
+	if(!attrs) attrs = {};
 	fetch(file,{})
 	.then(response => response.json())
 	.then(data => {

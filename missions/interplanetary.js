@@ -6,7 +6,7 @@ r(function(){
 	var missions = {};
 	var obj = {};
 	var across = 1265;
-	var aspect = 1250/1909;
+	var aspect = 1250/1709;
 	var svg;
 	var missionlines = {};
 
